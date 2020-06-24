@@ -51,8 +51,8 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
-	padding-left: 10%;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 	.intro img {
@@ -69,16 +69,16 @@ p.small {
 	font-family: Georgia;
 	font-size: 18px;
 	color: #002366;
-	padding-left: 10%;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15px;
 }
 
 .interests {
 	font-family: Georgia; 
 	font-size: 18px;
 	color: #002366;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .ifinterested {
@@ -86,8 +86,8 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .unitimescale {
@@ -95,8 +95,8 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: center;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .unisummary {
@@ -104,8 +104,8 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .uniprojects {
@@ -113,8 +113,8 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .uniroles {
@@ -122,8 +122,8 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .careersumm {
@@ -131,8 +131,8 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .revenue {
@@ -140,8 +140,8 @@ p.small {
 	font-size: 18px; 
 	color: #002366;
 	text-align: justify;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .books_people {
@@ -149,8 +149,8 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 	table {
@@ -171,8 +171,8 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .showcaseintro {
@@ -180,8 +180,8 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .blogintro {
@@ -189,6 +189,6 @@ p.small {
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
-	padding-left: 250px;
-	padding-right: 250px;
+	padding-left: 15%;
+	padding-right: 15%;
 }

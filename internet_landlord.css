@@ -1,0 +1,194 @@
+body {
+	background-color: #fd5e53;
+}
+
+h1 {
+	font-family: Georgia;
+	font-size: 34px;
+	color: #002366;
+	text-align: center;	
+}
+
+h2 {
+	font-family: Georgia;
+	font-size: 26px;
+	color: #002366;
+}
+
+h3 {
+	font-family: Georgia;
+	font-size: 22px;
+	color: #002366;
+}
+
+p.small {
+	line-height: 1.75;
+}
+
+.navigation {
+	font-family: Georgia;
+	color: #002366;
+	text-align: center;
+}
+
+.pages {
+	font-size: 22px;	
+}
+
+.social {
+	font-size: 18px;
+}
+
+.summary {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: center;
+}
+
+.intro {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+	.intro img {
+		float: right;
+		max-width: 350px;
+		max-height: 350px;
+		padding-left: 50px;
+		padding-right: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+.skill_matrix {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.interests {
+	font-family: Georgia; 
+	font-size: 18px;
+	color: #002366;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.ifinterested {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.unitimescale {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: center;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.unisummary {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.uniprojects {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.uniroles {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.careersumm {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.revenue {
+	font-family: Georgia;
+	font-size: 18px; 
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.books_people {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+	table {
+		font-family: Georgia;
+		font-size: 18px;
+		color: #002366;
+		text-align: left;
+		border: 0px solid black;
+	}
+
+		th, td {
+			padding-left: 25px;
+			border: 0px solid black;
+		}
+
+.life {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.showcaseintro {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.blogintro {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #002366;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 250px;
+}

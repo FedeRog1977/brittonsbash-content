@@ -36,18 +36,22 @@ p.small {
 
 	a:link {
 		color: #002366;
+		text-decoration: none;
 	}
 
 	a:visited {
 		color: #002366;
+		text-decoration: none;
 	}
 
 	a:hover {
 		color: gold;
+		text-decoration: none;
 	}
 		
 	a:active {
 		color: gold;
+		text-decoration: none;
 	}
 	
 .pages {

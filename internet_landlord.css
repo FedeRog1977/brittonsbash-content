@@ -45,12 +45,12 @@ p.small {
 	}
 
 	a:hover {
-		color: gold;
+		color: hotpink;
 		text-decoration: none;
 	}
 		
 	a:active {
-		color: gold;
+		color: hotpink;
 		text-decoration: none;
 	}
 	

@@ -45,12 +45,12 @@ p.small {
 	}
 
 	a:hover {
-		color: hotpink;
+		color: #96b9ee;
 		text-decoration: none;
 	}
 		
 	a:active {
-		color: hotpink;
+		color: #96b9ee;
 		text-decoration: none;
 	}
 	

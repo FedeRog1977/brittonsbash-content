@@ -30,12 +30,12 @@ p.small {
 }
 
 @font-face {
-	font-family: CMUSerif;
-	src: url();
+	font-family: Proxima;
+	src: url(Proxima-Nova-Regular.ttf);
 }
 
 .navigation {
-	font-family: CMU Serif;
+	font-family: Georgia;
 	color: #002366;
 	text-align: center;
 }

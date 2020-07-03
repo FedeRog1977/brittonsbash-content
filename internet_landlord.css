@@ -29,8 +29,13 @@ p.small {
 	line-height: 1.75;
 }
 
+@font-face {
+	font-family: CMUSerif;
+	src: url();
+}
+
 .navigation {
-	font-family: Georgia;
+	font-family: CMU Serif;
 	color: #002366;
 	text-align: center;
 }

@@ -3,41 +3,48 @@
 /* miami blue = ##96b9ee */
 
 body {
-	background-color: #fd5e53;
+	background-color: #fbeacf;
 }
 
 h1 {
-	font-family: Georgia;
-	font-size: 34px; 
+	font-family: CMU Serif;
+	font-size: 42px; 
 	color: #002366;
-	text-align: center;	
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
 }
 
 h2 {
-	font-family: Georgia;
-	font-size: 26px;
+	font-family: CMU Serif;
+	font-size: 32px;
 	color: #002366;
+	font-weight: normal;
 }
 
 h3 {
-	font-family: Georgia;
-	font-size: 22px;
+	font-family: CMU Serif;
+	font-size: 24px;
 	color: #002366;
-}
-
-p.small {
-	line-height: 1.75;
+	font-weight: normal;
+	padding-top: 6px;
+	padding-bottom: 0px;
 }
 
 @font-face {
 	font-family: Proxima;
-	src: url(Proxima-Nova-Regular.ttf);
+	src: url(ProximaNova-Regular.ttf);
 }
 
 .navigation {
-	font-family: Georgia;
+	font-family: Proxima;
 	color: #002366;
 	text-align: center;
+	word-spacing: 5px;
 }
 
 	a:link {
@@ -51,32 +58,36 @@ p.small {
 	}
 
 	a:hover {
-		color: #96b9ee;
+		color: #ffffff;
 		text-decoration: none;
 	}
 		
 	a:active {
-		color: #96b9ee;
+		color: #ffffff;
 		text-decoration: none;
 	}
 	
-.pages {
-	font-size: 22px;	
-}
+	.pages {
+		font-size: 22px;	
+	}
 
-.social {
-	font-size: 18px;
-}
+	.social {
+		font-size: 18px;
+	}
 
 .summary {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: center;
 }
 
+	.small {
+		line-height: 1.75;
+	}
+
 .intro {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
@@ -95,7 +106,7 @@ p.small {
 	}
 
 .skill_matrix {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	padding-left: 15%;
@@ -103,7 +114,7 @@ p.small {
 }
 
 .interests {
-	font-family: Georgia; 
+	font-family: Proxima; 
 	font-size: 18px;
 	color: #002366;
 	padding-left: 15%;
@@ -111,7 +122,7 @@ p.small {
 }
 
 .ifinterested {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
@@ -120,7 +131,7 @@ p.small {
 }
 
 .unitimescale {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: center;
@@ -129,7 +140,7 @@ p.small {
 }
 
 .unisummary {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
@@ -138,7 +149,7 @@ p.small {
 }
 
 .uniprojects {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
@@ -147,7 +158,7 @@ p.small {
 }
 
 .uniroles {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
@@ -156,7 +167,7 @@ p.small {
 }
 
 .careersumm {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
@@ -165,7 +176,7 @@ p.small {
 }
 
 .revenue {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px; 
 	color: #002366;
 	text-align: justify;
@@ -174,7 +185,7 @@ p.small {
 }
 
 .books_people {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
@@ -183,7 +194,7 @@ p.small {
 }
 
 	table {
-		font-family: Georgia;
+		font-family: Proxima;
 		font-size: 18px;
 		color: #002366;
 		text-align: left;
@@ -191,12 +202,13 @@ p.small {
 	}
 
 		th, td {
-			padding-left: 25px;
+			padding-left: 5px;
+			padding-right: 5px;
 			border: 0px solid black;
 		}
 
 .life {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
@@ -205,7 +217,7 @@ p.small {
 }
 
 .showcaseintro {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;
@@ -214,7 +226,7 @@ p.small {
 }
 
 .blogintro {
-	font-family: Georgia;
+	font-family: Proxima;
 	font-size: 18px;
 	color: #002366;
 	text-align: justify;

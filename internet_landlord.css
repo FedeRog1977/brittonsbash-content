@@ -225,6 +225,16 @@ h3 {
 	padding-right: 15%;
 }
 
+.avril {
+	text-align: center;
+}
+
+	.avril img {
+		float: center;
+		max-width: 500px;
+		max-height: 1000px;
+	}
+
 .blogintro {
 	font-family: Proxima;
 	font-size: 18px;

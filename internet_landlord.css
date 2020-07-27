@@ -8,7 +8,7 @@ body {
 
 h1 {
 	font-family: CMU Serif;
-	font-size: 42px; 
+	font-size: 40px; 
 	color: #002366;
 	text-align: center;
 	letter-spacing: 1px;
@@ -41,10 +41,11 @@ h3 {
 }
 
 .navigation {
-	font-family: Proxima;
+	font-family: CMU Serif;
 	color: #002366;
 	text-align: center;
 	word-spacing: 5px;
+	letter-spacing: 0.5px;
 }
 
 	a:link {
@@ -68,16 +69,16 @@ h3 {
 	}
 	
 	.pages {
-		font-size: 22px;	
+		font-size: 22px;
 	}
 
 	.social {
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 .summary {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: center;
 }
@@ -88,7 +89,7 @@ h3 {
 
 .intro {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -107,7 +108,7 @@ h3 {
 
 .skill_matrix {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	padding-left: 15%;
 	padding-right: 15%;
@@ -115,7 +116,7 @@ h3 {
 
 .interests {
 	font-family: Proxima; 
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	padding-left: 15%;
 	padding-right: 15%;
@@ -123,7 +124,7 @@ h3 {
 
 .ifinterested {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -132,7 +133,7 @@ h3 {
 
 .unitimescale {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: center;
 	padding-left: 15%;
@@ -141,7 +142,7 @@ h3 {
 
 .unisummary {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -150,7 +151,7 @@ h3 {
 
 .uniprojects {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -159,7 +160,7 @@ h3 {
 
 .uniroles {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -168,7 +169,7 @@ h3 {
 
 .careersumm {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -177,7 +178,7 @@ h3 {
 
 .revenue {
 	font-family: Proxima;
-	font-size: 18px; 
+	font-size: 16px; 
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -186,7 +187,7 @@ h3 {
 
 .books_people {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -195,7 +196,7 @@ h3 {
 
 	table {
 		font-family: Proxima;
-		font-size: 18px;
+		font-size: 16px;
 		color: #002366;
 		text-align: left;
 		border: 0px solid black;
@@ -209,7 +210,7 @@ h3 {
 
 .life {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -218,7 +219,7 @@ h3 {
 
 .showcaseintro {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -237,7 +238,7 @@ h3 {
 
 .blogintro {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -246,7 +247,7 @@ h3 {
 
 .blogshell {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;
@@ -255,7 +256,7 @@ h3 {
 
 .debunkquickie {
 	font-family: Proxima;
-	font-size: 18px;
+	font-size: 16px;
 	color: #002366;
 	text-align: justify;
 	padding-left: 15%;

@@ -205,14 +205,20 @@ h3 {
 		font-family: Proxima;
 		font-size: 16px;
 		color: #002366;
-		text-align: left;
 		border: 0px solid black;
 	}
 
 		th, td {
+			text-align: left;
+			vertical-align: top;
 			padding-left: 5px;
 			padding-right: 5px;
 			border: 0px solid black;
+		}
+
+		u {
+			line-height: 1.5;
+			text-decoration: none;
 		}
 
 .life {

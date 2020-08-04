@@ -13,11 +13,8 @@ h1 {
 	text-align: center;
 	letter-spacing: 1px;
 	font-weight: normal;
-	padding-top: 50px;
-	padding-bottom: 50px;
 	margin-top: 0px;
 	margin-bottom: 0px;	
-	background-color: #800020;
 }
 
 h2 {
@@ -61,6 +58,12 @@ a:active {
 	src: url(ProximaNova-Regular.ttf);
 }
 
+.heading {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #800020;
+}
+
 .navigation {
 	font-family: CMU Serif;
 	color: #ffffff;
@@ -70,6 +73,8 @@ a:active {
 	background-color: #800020;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 	.pages {
@@ -338,8 +343,13 @@ a:active {
 .footer {
 	font-family: CMU Serif;
 	font-size: 20px;
-	color: #002366;
+	color: #ffffff;
 	text-align: center;
+	background-color: #800020;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .unitimescale {

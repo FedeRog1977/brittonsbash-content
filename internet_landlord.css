@@ -9,14 +9,15 @@ body {
 h1 {
 	font-family: CMU Serif;
 	font-size: 40px; 
-	color: #002366;
+	color: #ffffff;
 	text-align: center;
 	letter-spacing: 1px;
 	font-weight: normal;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	margin-top: 0px;
 	margin-bottom: 0px;	
+	background-color: #800020;
 }
 
 h2 {

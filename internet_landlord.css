@@ -4,6 +4,8 @@
 
 body {
 	background-color: #fbeacf;
+	height: 100%;
+	margin: 0;
 }
 
 h1 {
@@ -62,6 +64,7 @@ a:active {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background-color: #800020;
+	margin: 0-9999rem;
 }
 
 .navigation {
@@ -73,8 +76,7 @@ a:active {
 	background-color: #800020;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin: 0-9999rem;
 }
 
 	.pages {
@@ -348,8 +350,7 @@ a:active {
 	background-color: #800020;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin: 0-9999rem;
 }
 
 .unitimescale {

@@ -35,6 +35,26 @@ h3 {
 	padding-bottom: 0px;
 }
 
+a:link {
+	color: #002366;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #002366;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+		
+a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+
 @font-face {
 	font-family: Proxima;
 	src: url(ProximaNova-Regular.ttf);
@@ -42,32 +62,15 @@ h3 {
 
 .navigation {
 	font-family: CMU Serif;
-	color: #002366;
+	color: #ffffff;
 	text-align: center;
 	word-spacing: 5px;
 	letter-spacing: 0.5px;
+	background-color: #800020;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
-	a:link {
-		color: #002366;
-		text-decoration: none;
-	}
-
-	a:visited {
-		color: #002366;
-		text-decoration: none;
-	}
-
-	a:hover {
-		color: #ffffff;
-		text-decoration: none;
-	}
-		
-	a:active {
-		color: #ffffff;
-		text-decoration: none;
-	}
-	
 	.pages {
 		font-size: 22px;
 	}
@@ -75,6 +78,206 @@ h3 {
 	.social {
 		font-size: 20px;
 	}
+
+		a.navhome:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navhome:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navhome:hover {
+			color: #002366;
+			text-decoration: none;
+		}
+		
+		a.navhome:active {
+			color: #002366;
+			text-decoration: none;
+		}
+
+		a.navuni:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navuni:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navuni:hover {
+			color: #002366;
+			text-decoration: none;
+		}
+		
+		a.navuni:active {
+			color: #002366;
+			text-decoration: none;
+		}
+
+		a.navcar:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navcar:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navcar:hover {
+			color: #002366;
+			text-decoration: none;
+		}
+		
+		a.navcar:active {
+			color: #002366;
+			text-decoration: none;
+		}
+
+		a.navdev:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navdev:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navdev:hover {
+			color: #002366;
+			text-decoration: none;
+		}
+		
+		a.navdev:active {
+			color: #002366;
+			text-decoration: none;
+		}
+
+		a.navshow:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navshow:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navshow:hover {
+			color: #002366;
+			text-decoration: none;
+		}
+		
+		a.navshow:active {
+			color: #002366;
+			text-decoration: none;
+		}
+
+		a.navblog:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navblog:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.navblog:hover {
+			color: #002366;
+			text-decoration: none;
+		}
+		
+		a.navblog:active {
+			color: #002366;
+			text-decoration: none;
+		}
+
+		a.facebook:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.facebook:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.facebook:hover {
+			color: #002366;
+			text-decoration: none;
+		}
+		
+		a.facebook:active {
+			color: #002366;
+			text-decoration: none;
+		}
+
+		a.instagram:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.instagram:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.instagram:hover {
+			color: #002366;
+			text-decoration: none;
+		}
+		
+		a.instagram:active {
+			color: #002366;
+			text-decoration: none;
+		}
+
+		a.twitter:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.twitter:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.twitter:hover {
+			color: #002366;
+			text-decoration: none;
+		}
+		
+		a.twitter:active {
+			color: #002366;
+			text-decoration: none;
+		}
+
+		a.theva:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.theva:visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		a.theva:hover {
+			color: #002366;
+			text-decoration: none;
+		}
+		
+		a.theva:active {
+			color: #002366;
+			text-decoration: none;
+		}
 
 .summary {
 	font-family: Proxima;

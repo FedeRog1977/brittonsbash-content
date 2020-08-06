@@ -33,11 +33,6 @@ h3 {
 	font-weight: normal;
 }
 
-hr {
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
-
 a:link {
 	color: #002366;
 	text-decoration: none;
@@ -75,8 +70,8 @@ a:active {
 	font-size: 24px;
 	color: #002366;
 	background-color: #ffffff;
-	padding-top: 35px;
-	padding-bottom: 30px;
+	padding-top: 25px;
+	padding-bottom: 20px;
 }
 
 .navigation {

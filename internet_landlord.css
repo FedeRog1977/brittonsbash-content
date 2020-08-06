@@ -31,8 +31,6 @@ h3 {
 	font-size: 24px;
 	color: #002366;
 	font-weight: normal;
-	padding-top: 5px;
-	padding-bottom: 5px;
 }
 
 a:link {
@@ -67,6 +65,11 @@ a:active {
 	margin: 0-9999rem;
 }
 
+.landlord {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .navigation {
 	font-family: CMU Serif;
 	color: #ffffff;
@@ -74,8 +77,8 @@ a:active {
 	word-spacing: 5px;
 	letter-spacing: 0.5px;
 	background-color: #800020;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	margin: 0-9999rem;
 }
 

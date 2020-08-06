@@ -66,6 +66,7 @@ a:active {
 }
 
 .landlord {
+	line-height: 0;
 	background-color: #ffffff;
 	padding-top: 10px;
 	padding-bottom: 10px;

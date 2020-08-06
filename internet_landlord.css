@@ -59,17 +59,19 @@ a:active {
 }
 
 .heading {
+	background-color: #800020;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #800020;
 	margin: 0-9999rem;
 }
 
 .landlord {
-	line-height: 0;
+	font-family: CMU Serif;
+	font-size: 24px;
+	color: #002366;
 	background-color: #ffffff;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .navigation {

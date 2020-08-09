@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-	font-family: CMU Serif Bold;
+	font-family: CMU Bold;
 	font-size: 40px; 
 	color: #ffffff;
 	text-align: center;
@@ -56,6 +56,11 @@ a:active {
 @font-face {
 	font-family: Proxima;
 	src: url(ProximaNova-Regular.ttf);
+}
+
+@font-face {
+	font-family: CMU Bold;
+	src: url(CMU Bold.ttf);
 }
 
 .heading {

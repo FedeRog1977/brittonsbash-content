@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-	font-family: CMU Serif;
+	font-family: CMU Bold;
 	font-size: 40px; 
 	color: #ffffff;
 	text-align: center;
@@ -60,7 +60,7 @@ a:active {
 
 @font-face {
 	font-family: CMU Bold;
-	src: url(CMU Bold.ttf);
+	src: url(CMUBold.ttf);
 }
 
 .heading {

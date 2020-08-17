@@ -1,5 +1,6 @@
 /* coral = #fd5e53 */
-/* royal blue = #002366 */
+/* dark royal blue = #002366 */
+/* royal blue = #5576D1 */
 /* miami blue = #96b9ee */
 /* bordeaux = #800020 */
 /* black = #000000 */
@@ -67,7 +68,7 @@ a:active {
 }
 
 .heading {
-	background-color: #800020;
+	background-color: #5576D1;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin: 0-9999rem;
@@ -88,7 +89,7 @@ a:active {
 	text-align: center;
 	word-spacing: 5px;
 	letter-spacing: 0.5px;
-	background-color: #800020;
+	background-color: #5576D1;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin: 0-9999rem;
@@ -370,7 +371,7 @@ a:active {
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
-	background-color: #800020;
+	background-color: #5576D1;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	margin: 0-9999rem;

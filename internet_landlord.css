@@ -524,6 +524,19 @@ a:active {
 		padding-right: 15%;
 	}
 
+		table.gent {
+			font-family: CMU Serif;
+			font-size: 16px;
+			color: #002366;
+			border: 0px solid black;
+			text-align: center;
+		}
+
+			img {
+				max-width: 350px;
+				max-height: 350px;
+			}
+
 .debunkquickie {
 	font-family: CMU Serif;
 	font-size: 16px;

@@ -506,6 +506,24 @@ a:active {
 	padding-right: 15%
 }
 
+	.gentlemenintro {
+		font-family: CMU Serif;
+		font-size: 16px;
+		color: #002366;
+		text-align: justify;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	.gentlemenbody {
+		font-family: CMU Serif;
+		font-size: 16px;
+		color: #002366;
+		text-align: justify;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
 .debunkquickie {
 	font-family: CMU Serif;
 	font-size: 16px;

@@ -188,8 +188,8 @@ body {
 		float: left;
 		width: 22.5vw;
 		height: 35rem;
-		padding-left: 1vw;
-		padding-right: 1vw;
+		padding-left: 1.25%;
+		padding-right: 1.25%;
 		border-radius: 0.25rem;
 	}
 
@@ -207,8 +207,8 @@ body {
 		}
 
 			.meimg {
-				max-width: 10rem;
-				max-height: 10rem;
+				max-width: 50%;
+				max-height: 50%;
 				border-radius: 2.5%;
 			}
 
@@ -225,6 +225,7 @@ body {
 
 			.meimgbig {
 				max-width: 20rem;
+				max-height: 20rem;
 			}
 
 			.imgdrop:hover .imgdropcont {
@@ -240,8 +241,8 @@ body {
 		float: right;
 		width: 47.25vw;
 		height: 35rem;
-		padding-left: 1vw;
-		padding-right: 1vw;
+		padding-left: 1.25%;
+		padding-right: 1.25%;
 		border-radius: 0.25rem;
 	}
 
@@ -844,7 +845,7 @@ body {
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
+		padding-bottom: 1.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
 		border-radius: 0.25rem;

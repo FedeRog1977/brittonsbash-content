@@ -1,38 +1,49 @@
+/* ~~~~ Colours */
+
+/* coral = #fd5e53 */
+/* dark royal blue = #002366 */
+/* royal blue = #5576D1 */
+/* miami blue = #96b9ee */
+/* bordeaux = #800020 */
+/* black = #000000 */
+/* white = #ffffff */
+
 /* ~~~~ General Definitions */
 
 h1 {
 	font-family: ProximaBk;
-	font-size: 1.5rem; 
+	font-size: 1.5vw; 
 	color: #5576D1;
 	text-align: left;
-	letter-spacing: 0.25rem;
+	letter-spacing: 0.25vw;
 	font-weight: normal;
 	margin-top: 0rem;
-	margin-bottom: 0rem;	
+	margin-bottom: 0rem;
+	transform: translate(-1.125vw, 0.125vw);
 }
 
-h1:hover {
+	h1:hover {
 		text-shadow: 2.5px 2.5px 5px #D3D3D3;
 
 	}
 
 h2 {
 	font-family: ProximaBd;
-	font-size: 1.25rem;
+	font-size: 1.25vw;
 	color: #5576D1;
 	font-weight: normal;
 }
 
 h3 {
 	font-family: ProximaBd;
-	font-size: 1rem;
+	font-size: 0.95vw;
 	color: #5576D1;
 	font-weight: normal;
 }
 
 h4 {
 	font-family: ProximaBd;
-	font-size: 1rem;
+	font-size: 0.95vw;
 	color: #5576D1;
 	font-weight: normal;
 	display: inline;
@@ -40,7 +51,7 @@ h4 {
 
 h5 {
 	font-family: ProximaBd;
-	font-size: 1.25rem;
+	font-size: 1.25vw;
 	color: #5576D1;
 	font-weight: normal;
 }
@@ -74,20 +85,21 @@ body {
 
 .header {
 	background-color: #ffffff;
-	padding-top: 1.75rem;
-	padding-bottom: 1.75rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
-	margin: 0rem;
+	padding-top: 1.75vw;
+	padding-bottom: 1.75vw;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	margin: 0%;
 	box-shadow: 5px 5px 10px 0px #D3D3D3;
 }
 
 	.mainlogo {
 		float: left;
-		transform: translate(-7.5%, -32.5%);	
-		max-width: 5rem;
-		padding: 0rem;
-		margin: 0rem;
+		transform: translate(-0.75vw, -1.625vw);	
+		width: 5vw;
+		height: 5vw;
+		padding: 0%;
+		margin: 0%;
 		}
 
 	.title {
@@ -97,25 +109,25 @@ body {
 .topnavigation {
 	font-family: ProximaBd;
 	text-align: center;
-	letter-spacing: 0.05rem;
-	word-spacing: 0.25rem;
+	letter-spacing: 0.05vw;
+	word-spacing: 0.25vw;
 	background-color: #ffffff;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 	margin-left: 25%;
 	margin-right: 25%;
+	width: auto;
 	transform: translate(0%, 15%);
-	width: 50%;
 	box-shadow: 5px 5px 10px 0px #D3D3D3;
 	border-radius: 0.25rem;
 }
 
 	.pages {
-		font-size: 1.125rem;
+		font-size: 1.125vw;
 	}
 
 	.social {
-		font-size: 1rem;
+		font-size: 0.95vw;
 	}
 
 		a:link {
@@ -134,11 +146,11 @@ body {
 		}
 
 			.pages a:hover {
-				font-size: 1.25rem;
+				font-size: 1.25vw;
 			}
 
 			.social a:hover {
-				font-size: 1.125rem;
+				font-size: 1.125vw;
 			}
 		
 		a:active {
@@ -148,14 +160,14 @@ body {
 
 .footer {
 	font-family: ProximaBd;
-	font-size: 1rem;
+	font-size: 0.95vw;
 	text-align: center;
 	color: #5576D1;
 	background-color: #ffffff;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 	margin: 0rem;
 	box-shadow: -5px -5px 10px 0px #D3D3D3;
 }
@@ -163,21 +175,21 @@ body {
 /* ~~~~ Home */
 
 .intro {
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.summstats {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: center;
 		color: #5576D1;
 		background-color: #ffffff;
 		float: left;
-		width: 30%;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		width: 22.5vw;
 		height: 35rem;
+		padding-left: 1vw;
+		padding-right: 1vw;
 		border-radius: 0.25rem;
 	}
 
@@ -188,14 +200,16 @@ body {
 
 		.imgdrop {
   			display: inline-block;
+  			position: auto;
+  			padding-top: 1.75rem;
+			padding-left: 10%;
+			padding-right: 10%;
 		}
 
 			.meimg {
 				max-width: 10rem;
-				padding-top: 1.75rem;
-				padding-left: 10%;
-				padding-right: 10%;
-				border-radius: 0.25rem;
+				max-height: 10rem;
+				border-radius: 2.5%;
 			}
 
 			.meimg:hover {
@@ -219,15 +233,15 @@ body {
 
 	.summtxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
 		color: #5576D1;
 		background-color: #ffffff;
 		float: right;
-		width: 62.5%;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		width: 47.25vw;
 		height: 35rem;
+		padding-left: 1vw;
+		padding-right: 1vw;
 		border-radius: 0.25rem;
 	}
 
@@ -237,23 +251,23 @@ body {
 	}
 
 .skills {
-	padding-top: 36.8rem;
+	padding-top: 36.3rem;
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.skillstxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -264,21 +278,21 @@ body {
 
 .interests {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.intereststxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -289,21 +303,21 @@ body {
 
 .specification {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.specificationtxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -314,21 +328,21 @@ body {
 
 .fyi {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.fyitxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -342,32 +356,30 @@ body {
 .time {
 	padding-top: 2.5rem;
 	padding-bottom: 0rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 	font-family: Proxima;
-	font-size: 1rem;
 	text-align: center;
-	line-height: 0.5rem;
 	color: #5576D1;
 }
 
 .classes {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.classestxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -382,21 +394,21 @@ body {
 
 .projects {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.projectstxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -411,21 +423,21 @@ body {
 
 .roles {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.rolestxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -439,21 +451,21 @@ body {
 .cartime {
 	padding-top: 2.5rem;
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.cartimetxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -464,21 +476,21 @@ body {
 
 .income {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.incometxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -492,21 +504,21 @@ body {
 .knowledge {
 	padding-top: 2.5rem;
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.knowledgetxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -527,21 +539,21 @@ body {
 
 .media {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.mediatxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -562,21 +574,21 @@ body {
 
 .general {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.generaltxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -597,21 +609,21 @@ body {
 
 .world {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.worldtxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -635,21 +647,21 @@ body {
 .showintro {
 	padding-top: 2.5rem;
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.showintrotxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -660,21 +672,21 @@ body {
 
 .projects {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.projectstxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -685,21 +697,21 @@ body {
 
 .achieve {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.achievetxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -710,21 +722,21 @@ body {
 
 .miscmood {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.miscmoodtxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -738,21 +750,21 @@ body {
 .blogintro {
 	padding-top: 2.5rem;
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.blogintrotxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -763,21 +775,21 @@ body {
 
 .blogshell {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.blogshelltxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -792,21 +804,21 @@ body {
 
 .debunk {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.debunktxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -820,21 +832,21 @@ body {
 .gwcintro {
 	padding-top: 2.5rem;
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.gwcintrotxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 0.25rem;
 	}
 
@@ -845,15 +857,15 @@ body {
 
 .gwcbody {
 	padding-bottom: 1.2rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
 	.gwcbodytxt {
 		font-family: Proxima;
-		font-size: 1rem;
+		font-size: 0.95vw;
 		text-align: justify;
-		line-height: 1.5rem;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 2.5rem;

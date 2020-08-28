@@ -160,6 +160,10 @@ body {
 			text-decoration: none;
 		}
 
+.widgets {
+	padding-top: 2.5rem;
+}
+
 .rolex_clock {
    	width: 20%;
    	height: 5.9rem;
@@ -170,6 +174,16 @@ body {
    	border-top-left-radius: 0.25rem;
    	border-bottom-left-radius: 0.25rem;
 }
+
+	.rolex_clock_2 {
+	   	width: 25%;
+	   	height: 5.7rem;
+	    background-color: #006039;
+	   	transform: translate(-200%, -64.5%);
+	   	border-bottom-left-radius: 0.25rem;
+	   	border-bottom-right-radius: 0.25rem;
+	   	box-shadow: 5px 5px 10px #D3D3D3;
+	}
 
 .weatherwidget-io {
 	width: 60%;
@@ -385,8 +399,6 @@ body {
 /* ~~~~ University */
 
 .time {
-	padding-top: 2.5rem;
-	padding-bottom: 0rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 	font-family: Proxima;
@@ -482,7 +494,7 @@ body {
 /* ~~~~ Career */
 
 .cartime {
-	padding-top: 2.5rem;
+	/* padding-top: 2.5rem; */
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
@@ -535,7 +547,7 @@ body {
 /* ~~~~ Development */
 
 .knowledge {
-	padding-top: 2.5rem;
+	/* padding-top: 2.5rem; */
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
@@ -678,7 +690,7 @@ body {
 /* ~~~~ Showcase */
 
 .showintro {
-	padding-top: 2.5rem;
+	/* padding-top: 2.5rem; */
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
@@ -781,7 +793,7 @@ body {
 /* ~~~~ Blog */
 
 .blogintro {
-	padding-top: 2.5rem;
+	/* padding-top: 2.5rem; */
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
@@ -864,7 +876,7 @@ body {
 /* ~~~~ Blog - GWC */
 
 .gwcintro {
-	padding-top: 2.5rem;
+	/* padding-top: 2.5rem; */
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;

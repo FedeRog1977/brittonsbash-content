@@ -159,8 +159,9 @@ body {
 		}
 
 iframe {
-   		width: 175%;
-   		transform: translate(-21.5%, 0%);
+   		width: 100%;
+   		transform: translate(0%, 0%);
+   		border-radius: 0.25rem;
 	}
 
 	.rolex_clock {

@@ -160,16 +160,23 @@ body {
 			text-decoration: none;
 		}
 
-iframe {
-   		width: 100%;
-   		transform: translate(0%, 0%);
-   		border-radius: 0.25rem;
-	}
+.rolex_clock {
+   	width: 20%;
+   	height: 6.15rem;
+    background-color: #006039;
+   	transform: translate(0%, 0%);
+   	float: left;
+   	border-top-left-radius: 0.25rem;
+   	border-bottom-left-radius: 0.25rem;
+}
 
-	.rolex_clock {
-    	height: 5.3333vw;
-    	background-color: #006039;
-	}
+.weatherwidget-io {
+	width: 60%;
+	transform: translate(0%, -5%);
+	transform: scale(1);
+	border-top-right-radius: 0.25rem;
+   	border-bottom-right-radius: 0.25rem;
+}
 
 .footer {
 	font-family: ProximaBd;

@@ -167,7 +167,7 @@ iframe {
 	}
 
 	.rolex_clock {
-    	height: 4.45vw;
+    	height: 5.3333vw;
     	background-color: #006039;
 	}
 
@@ -177,13 +177,22 @@ iframe {
 	text-align: center;
 	color: #5576D1;
 	background-color: #ffffff;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: 1vw;
+	padding-bottom: 1.75rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 	margin: 0rem;
 	box-shadow: -5px -5px 10px 0px #D3D3D3;
 }
+
+	.bottomnav {
+		word-spacing: 1.25vw;
+	}
+
+		.bottomnav a:hover {
+			/* font-size: 1.25vw; */
+			border-bottom: 2.5px solid #5576D1;
+		}
 
 /* ~~~~ Home */
 

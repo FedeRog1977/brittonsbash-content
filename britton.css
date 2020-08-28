@@ -162,7 +162,8 @@ body {
 
 .rolex_clock {
    	width: 20%;
-   	height: 6.15rem;
+   	height: 5.9rem;
+   	padding-top: 0.25rem;
     background-color: #006039;
    	transform: translate(0%, 0%);
    	float: left;

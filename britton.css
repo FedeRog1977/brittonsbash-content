@@ -158,6 +158,15 @@ body {
 			text-decoration: none;
 		}
 
+iframe {
+   		width: 100%;
+	}
+
+	.rolex_clock {
+    	height: 4.45vw;
+    	background-color: #006039;
+	}
+
 .footer {
 	font-family: ProximaBd;
 	font-size: 0.95vw;

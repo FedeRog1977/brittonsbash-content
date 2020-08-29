@@ -219,8 +219,8 @@ body {
 /* ~~~~ Home */
 
 .intro {
-	padding-left: 12.5%;
-	padding-right: 12.5%;
+	padding-left: 3.3333%; /* w/o Strava - 12.5% */
+	padding-right: 22.25%; /* w/o Strava - 12.5% */
 }
 
 	.summstats {
@@ -294,6 +294,15 @@ body {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
+
+	.vastra {
+		float: right;
+		transform: translate(106.6666%, -122.5%);
+	}
+
+		.oova:hover {
+		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		}
 
 .skills {
 	padding-top: 36.3rem;

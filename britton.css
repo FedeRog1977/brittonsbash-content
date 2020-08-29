@@ -231,7 +231,7 @@ body {
 		background-color: #ffffff;
 		float: left;
 		width: 22.5vw;
-		height: 35rem;
+		height: 34.575rem; /* 35 w/o Strava */
 		padding-left: 1.25%;
 		padding-right: 1.25%;
 		border-radius: 0.25rem;
@@ -284,7 +284,7 @@ body {
 		background-color: #ffffff;
 		float: right;
 		width: 47.25vw;
-		height: 35rem;
+		height: 34.575rem; /* 35 w/o Strava */
 		padding-left: 1.25%;
 		padding-right: 1.25%;
 		border-radius: 0.25rem;
@@ -297,11 +297,17 @@ body {
 
 	.vastra {
 		float: right;
-		transform: translate(106%, -122.5%);
+		
 	}
 
-		.oova:hover {
-		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		.oovaheader {
+			position:absolute;
+			transform: translate(280.5%, -0.25%);
+		}
+
+		.oova {
+			position: absolute;
+			transform: translate(280.5%, 22%);
 		}
 
 .skills {

@@ -220,7 +220,7 @@ body {
 
 .intro {
 	padding-left: 3.3333%; /* w/o Strava - 12.5% */
-	padding-right: 22.25%; /* w/o Strava - 12.5% */
+	padding-right: 22%; /* w/o Strava - 12.5% */
 }
 
 	.summstats {
@@ -297,7 +297,7 @@ body {
 
 	.vastra {
 		float: right;
-		transform: translate(106.6666%, -122.5%);
+		transform: translate(106%, -122.5%);
 	}
 
 		.oova:hover {

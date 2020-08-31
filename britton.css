@@ -186,18 +186,17 @@ body {
    	width: 100%;
    	height: 5.65rem;
     background-color: #006039;
-   	float: left;
    	border-radius: 2.5rem;
    	box-shadow: 5px 5px 10px #D3D3D3;
 }
 
 	.rolex_clock_2 {
 	   	width: 25%;
-	   	height: 5.7rem;
+	   	height: 5.65rem;
 	    background-color: #006039;
-	   	transform: translate(-200%, -64.5%);
 	   	border-bottom-left-radius: 0.25rem;
 	   	border-bottom-right-radius: 0.25rem;
+	   	margin-bottom: 2.5rem;
 	   	box-shadow: 5px 5px 10px #D3D3D3;
 	}
 
@@ -206,8 +205,8 @@ body {
 	transform: translate(0%, -5%);
 	transform: scale(1);
 	border-top-right-radius: 0.25rem;
-   	border-bottom-right-radius: 0.25rem; */
-}
+   	border-bottom-right-radius: 0.25rem;
+} */
 
 .footer {
 	font-family: ProximaBd;

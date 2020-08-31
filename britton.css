@@ -89,8 +89,8 @@ body {
 
 	.topbanner {
 		background-color: #ffffff;
-		padding-top: 1.75vw;
-		padding-bottom: 1.75vw;
+		padding-top: 1.75%;
+		padding-bottom: 1.75%;
 		padding-left: 12.5%;
 		padding-right: 12.5%;
 		margin: 0%;
@@ -210,8 +210,8 @@ body {
 /* ~~~~ Home */
 
 .intro {
-	padding-left: 3.3333%; /* w/o Strava - 12.5% */
-	padding-right: 22%; /* w/o Strava - 12.5% */
+	padding-left: 12.5%; /* w Strava - 3.3333% */
+	padding-right: 12.5%; /* w Strava - 22% */
 }
 
 	.summstats {
@@ -221,8 +221,8 @@ body {
 		color: #5576D1;
 		background-color: #ffffff;
 		float: left;
-		width: 22.5vw;
-		height: 34.575rem; /* 35 w/o Strava */
+		width: 30%;
+		height: 35rem; /* 34.575 w Strava */
 		padding-left: 1.25%;
 		padding-right: 1.25%;
 		border-radius: 0.25rem;
@@ -275,8 +275,8 @@ body {
 		color: #5576D1;
 		background-color: #ffffff;
 		float: right;
-		width: 47.25vw;
-		height: 34.575rem; /* 35 w/o Strava */
+		width: 63.3333%;
+		height: 35rem; /* 34.575 w Strava */
 		padding-left: 1.25%;
 		padding-right: 1.25%;
 		border-radius: 0.25rem;
@@ -287,9 +287,8 @@ body {
 		border-radius: 0rem;
 	}
 
-	.vastra {
+	/* .vastra {
 		float: right;
-		
 	}
 
 		.oovaheader {
@@ -299,8 +298,8 @@ body {
 
 		.oova {
 			position: absolute;
-			transform: translate(280.5%, 22%);
-		}
+			transform: translate(280.5%, -0.25%);
+		} */
 
 .skills {
 	padding-top: 36.3rem;

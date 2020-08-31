@@ -109,28 +109,12 @@ body {
 			padding-left: 7.5rem;
 		}
 
-	/* .topnavigation {
-		font-family: ProximaBd;
-		text-align: center;
-		letter-spacing: 0.05vw;
-		word-spacing: 0.25vw;
-		background-color: #ffffff;
-		padding-top: 0.5rem;
-		padding-bottom: 0.5rem;
-		margin-left: 25%;
-		margin-right: 25%;
-		width: auto;
-		transform: translate(0%, 15%);
-		box-shadow: 5px 5px 10px 0px #D3D3D3;
-		border-radius: 0.25rem;
-	} */
-
 	.topnavigation {
 		font-family: ProximaBd;
 		text-align: center;
 		letter-spacing: 0.05vw;
-		word-spacing: 0.25vw;
-		background-color: #ffffff;
+		word-spacing: 0.75vw;
+		background-color: #ffffff; /* Light: #ffffff; */
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
 		margin-left: 0%;
@@ -199,14 +183,6 @@ body {
 	   	margin-bottom: 2.5rem;
 	   	box-shadow: 5px 5px 10px #D3D3D3;
 	}
-
-/* .weatherwidget-io {
-	width: 60%;
-	transform: translate(0%, -5%);
-	transform: scale(1);
-	border-top-right-radius: 0.25rem;
-   	border-bottom-right-radius: 0.25rem;
-} */
 
 .footer {
 	font-family: ProximaBd;

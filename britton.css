@@ -113,7 +113,7 @@ body {
 		font-family: ProximaBd;
 		text-align: center;
 		letter-spacing: 0.05vw;
-		word-spacing: 0.75vw;
+		word-spacing: 0.5vw;
 		background-color: #ffffff; /* Light: #ffffff; */
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
@@ -125,10 +125,12 @@ body {
 	} 
 
 		.pages {
+			color: #5576D1;
 			font-size: 1.125vw;
 		}
 
 		.social {
+			color: #5576D1;
 			font-size: 0.95vw;
 		}
 
@@ -162,17 +164,20 @@ body {
 				text-decoration: none;
 			}
 
-.widgets {
-	padding-top: 2.5rem;
+.time {
+	margin:0;
+	padding:0;
+	height: 5.65rem;
+	background-color: #006039;
+	box-shadow: 5px 10px 10px #D3D3D3;
 }
 
-.rolex_clock {
-   	width: 100%;
-   	height: 5.65rem;
-    background-color: #006039;
-   	border-radius: 2.5rem;
-   	box-shadow: 5px 5px 10px #D3D3D3;
-}
+	.rolex_clock {
+		margin: 0rem;
+   		width: 100%;
+   		height: 5.65rem;
+    	background-color: #006039;
+	}
 
 	.rolex_clock_2 {
 	   	width: 25%;
@@ -181,7 +186,7 @@ body {
 	   	border-bottom-left-radius: 0.25rem;
 	   	border-bottom-right-radius: 0.25rem;
 	   	margin-bottom: 2.5rem;
-	   	box-shadow: 5px 5px 10px #D3D3D3;
+	   	box-shadow: 5px 10px 10px #D3D3D3;
 	}
 
 .footer {
@@ -208,6 +213,37 @@ body {
 		}
 
 /* ~~~~ Home */
+
+.home-image {
+	background-image: url("wall.jpg");
+	background-attachment: fixed;
+  	background-position: top;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding: 20%;
+}
+
+	.home-image h1 {
+		font-family: Proxima;
+		font-size: 5vw;
+		color: #ffffff;
+		text-align: center;
+		letter-spacing: 0.75rem;
+		text-shadow: 1.5px 1.5px 10px #000000;
+		opacity: 75%;
+		transform: translate(0%, -100%);
+	}
+
+	.home-image h2 {
+		font-family: Proxima;
+		font-size: 1.5vw;
+		color: #ffffff;
+		text-align: center;
+		letter-spacing: 1.5rem;
+		text-shadow: 1.5px 1.5px 10px #000000;
+		opacity: 75%;
+		transform: translate(0%, -200%);
+	}
 
 .intro {
 	padding-left: 12.5%; /* w Strava - 3.3333% */
@@ -248,7 +284,6 @@ body {
 			.meimg {
 				max-width: 50%;
 				max-height: 50%;
-				border-radius: 25%;
 			}
 
 			.meimg:hover {
@@ -401,6 +436,15 @@ body {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
+
+.home-image2 {
+	background-image: url("wall2.jpg");
+	background-attachment: fixed;
+  	background-position: top;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding: 20%;
+}
 
 /* ~~~~ University */
 

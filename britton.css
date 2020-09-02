@@ -179,6 +179,10 @@ body {
     	background-color: #006039;
 	}
 
+.time2 {
+	position: center;
+}
+
 	.rolex_clock_2 {
 	   	width: 25%;
 	   	height: 5.65rem;
@@ -448,7 +452,7 @@ body {
 
 /* ~~~~ University */
 
-.time {
+.uni-time {
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 	font-family: Proxima;

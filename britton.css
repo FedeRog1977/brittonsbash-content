@@ -250,7 +250,7 @@ body {
 		height: 35rem; /* 34.575 w Strava */
 		padding-left: 1.25%;
 		padding-right: 1.25%;
-		border-radius: 0.25rem;
+		border-radius: 2rem; /* Old: 0.25rem */
 	}
 
 	.summstats:hover {
@@ -303,7 +303,7 @@ body {
 		height: 35rem; /* 34.575 w Strava */
 		padding-left: 1.25%;
 		padding-right: 1.25%;
-		border-radius: 0.25rem;
+		border-radius: 2rem;
 	}
 
 	.summtxt:hover {
@@ -343,7 +343,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 2rem;
 	}
 
 	.skillstxt:hover {
@@ -368,7 +368,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 2rem;
 	}
 
 	.intereststxt:hover {
@@ -393,7 +393,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 2rem;
 	}
 
 	.specificationtxt:hover {
@@ -418,7 +418,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 2rem;
 	}
 
 	.fyitxt:hover {

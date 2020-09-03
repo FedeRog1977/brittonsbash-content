@@ -84,7 +84,7 @@ body {
 /* ~~~~  Page Template */ 
 
 .header {
-	box-shadow: 5px 5px 10px 0px #D3D3D3;
+	/* No Content */
 }
 
 	.topbanner {
@@ -165,11 +165,15 @@ body {
 			}
 
 .time {
-	margin:0;
-	padding:0;
+	margin: 0rem;
+	padding: 0rem;
 	height: 5.65rem;
 	background-color: #006039;
-	box-shadow: 5px 10px 10px #D3D3D3;
+	position: sticky;
+	position: -webkit-sticky;
+  	top: 0;
+  	z-index: 1; /* Bring to Front */
+  	box-shadow: 0px 5px 10px -5px #000000;
 }
 
 	.rolex_clock {
@@ -190,6 +194,7 @@ body {
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 	margin: 0rem;
+	box-shadow: 0px 5px 10px 5px #000000;
 }
 
 	.bottomnav {

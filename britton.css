@@ -239,6 +239,52 @@ body {
 		transform: translate(0%, -200%);
 	}
 
+	.home-image-buttons {
+		text-align: center;
+		transform: translate(0%, -100%);
+	}
+
+		.btn {
+	  		font-family: Proxima;
+	  		font-size: 0.95vw;
+	  		text-align: center;
+			letter-spacing: 0.45rem;
+			margin: 0rem;
+			padding-top: 0.75rem;
+			padding-bottom: 0.75rem;
+			padding-left: 1.75rem;
+			padding-right: 1.75rem;
+			cursor: pointer;
+		}
+
+		.uni-button {
+			border: 2px solid #ffffff;
+			background-color: #ffffff00;
+			color: #ffffff;
+			opacity: 75%;
+		}
+
+		.uni-button:hover {
+	  		border-color: #ffffff; 
+			background-color: #ffffff;
+			color: #000000; 
+			opacity: 75%;
+		}
+
+		.car-button {
+			border: 2px solid #ffffff;
+			background-color: #ffffff00;
+			color: #ffffff;
+			opacity: 75%;
+		}
+
+		.car-button:hover {
+			border-color: #ffffff; 
+			background-color: #ffffff;
+			color: #000000; 
+			opacity: 75%;
+		}
+
 .intro {
 	padding-left: 12.5%; /* w Strava - 3.3333% */
 	padding-right: 12.5%; /* w Strava - 22% */

@@ -8,6 +8,7 @@
 /* black = #000000 */
 /* white = #ffffff */
 
+
 /* ~~~~ General Definitions */
 
 h1 {
@@ -80,6 +81,7 @@ body {
 	font-family: CMU Bold;
 	src: url(CMUBold.ttf);
 }
+
 
 /* ~~~~  Page Template */ 
 
@@ -194,7 +196,7 @@ body {
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 	margin: 0rem;
-	box-shadow: 0px 5px 10px 5px #000000;
+	box-shadow: 0px 5px 10px 5px #D3D3D3;
 }
 
 	.bottomnav {
@@ -206,10 +208,11 @@ body {
 			border-bottom: 2.5px solid #5576D1;
 		}
 
+
 /* ~~~~ Home */
 
 .home-image {
-	background-image: url("wall.jpg");
+	background-image: url("wall.png");
 	background-attachment: fixed;
   	background-position: top;
   	background-repeat: no-repeat;
@@ -249,7 +252,6 @@ body {
 	  		font-size: 0.95vw;
 	  		text-align: center;
 			letter-spacing: 0.45rem;
-			margin: 0rem;
 			padding-top: 0.75rem;
 			padding-bottom: 0.75rem;
 			padding-left: 1.75rem;
@@ -301,7 +303,7 @@ body {
 		height: 35rem; /* 34.575 w Strava */
 		padding-left: 1.25%;
 		padding-right: 1.25%;
-		border-radius: 2rem; /* Old: 0.25rem */
+		border-radius: 1.25rem; /* Old: 0.25rem */
 	}
 
 	.summstats:hover {
@@ -354,7 +356,7 @@ body {
 		height: 35rem; /* 34.575 w Strava */
 		padding-left: 1.25%;
 		padding-right: 1.25%;
-		border-radius: 2rem;
+		border-radius: 1.25rem;
 	}
 
 	.summtxt:hover {
@@ -394,7 +396,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 2rem;
+		border-radius: 1.25rem;
 	}
 
 	.skillstxt:hover {
@@ -419,7 +421,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 2rem;
+		border-radius: 1.25rem;
 	}
 
 	.intereststxt:hover {
@@ -444,7 +446,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 2rem;
+		border-radius: 1.25rem;
 	}
 
 	.specificationtxt:hover {
@@ -469,7 +471,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 2rem;
+		border-radius: 1.25rem;
 	}
 
 	.fyitxt:hover {
@@ -478,13 +480,14 @@ body {
 	}
 
 .home-image2 {
-	background-image: url("wall2.jpg");
+	background-image: url("wall2.png");
 	background-attachment: fixed;
   	background-position: top;
   	background-repeat: no-repeat;
   	background-size: cover;
   	padding: 25%;
 }
+
 
 /* ~~~~ University */
 
@@ -514,7 +517,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.classestxt:hover {
@@ -544,7 +547,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.projectstxt:hover {
@@ -574,13 +577,14 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.rolestxt:hover {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
+
 
 /* ~~~~ Career */
 
@@ -602,7 +606,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.cartimetxt:hover {
@@ -627,13 +631,14 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.incometxt:hover {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
+
 
 /* ~~~~ Development */
 
@@ -655,7 +660,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.knowledgetxt:hover {
@@ -690,7 +695,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.mediatxt:hover {
@@ -703,41 +708,6 @@ body {
 	}
 
 		.media th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5rem;
-		}
-
-.general {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.generaltxt {
-		font-family: Proxima;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #5576D1;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.25rem;
-	}
-
-	.generaltxt:hover {
-		box-shadow: 5px 5px 10px 0px #D3D3D3;
-		border-radius: 0rem;
-	}
-
-	.general u {
-		text-decoration: none;
-	}
-
-		.general th, td {
 			text-align: left;
 			vertical-align: top;
 			padding-right: 2.5rem;
@@ -760,7 +730,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.worldtxt:hover {
@@ -777,6 +747,147 @@ body {
 			vertical-align: top;
 			padding-right: 2.5rem;
 		}
+
+.fooddrink {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.fooddrinktxt {
+		font-family: Proxima;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #5576D1;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 1.25rem;
+	}
+
+	.fooddrinktxt:hover {
+		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		border-radius: 0rem;
+	}
+
+	.fooddrink u {
+		text-decoration: none;
+	}
+
+		.fooddrink th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
+
+.restaurants {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.restaurantstxt {
+		font-family: Proxima;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #5576D1;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 1.25rem;
+	}
+
+	.restaurantstxt:hover {
+		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		border-radius: 0rem;
+	}
+
+	.restaurants u {
+		text-decoration: none;
+	}
+
+		.restaurants th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
+
+.cafetour {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.cafetourtxt {
+		font-family: Proxima;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #5576D1;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 1.25rem;
+	}
+
+	.cafetourtxt:hover {
+		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		border-radius: 0rem;
+	}
+
+	.cafetour u {
+		text-decoration: none;
+	}
+
+		.cafetour th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
+
+.brands {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.brandstxt {
+		font-family: Proxima;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #5576D1;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 1.25rem;
+	}
+
+	.brandstxt:hover {
+		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		border-radius: 0rem;
+	}
+
+	.brands u {
+		text-decoration: none;
+	}
+
+		.brands th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
+
 
 /* ~~~~ Showcase */
 
@@ -798,7 +909,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.showintrotxt:hover {
@@ -823,7 +934,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.projectstxt:hover {
@@ -848,7 +959,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.achievetxt:hover {
@@ -873,13 +984,14 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.miscmoodtxt:hover {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
+
 
 /* ~~~~ Blog */
 
@@ -901,7 +1013,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.blogintrotxt:hover {
@@ -926,7 +1038,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.blogshelltxt:hover {
@@ -956,13 +1068,14 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.debunktxt:hover {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
+
 
 /* ~~~~ Blog - GWC */
 
@@ -984,7 +1097,7 @@ body {
 		padding-bottom: 1.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.gwcintrotxt:hover {
@@ -1009,7 +1122,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 5rem;
 		padding-right: 2.5rem;
-		border-radius: 0.25rem;
+		border-radius: 1.25rem;
 	}
 
 	.gwcbodytxt:hover {

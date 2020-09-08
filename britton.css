@@ -287,26 +287,27 @@ body {
 			opacity: 75%;
 		}
 
-.intro {
-	padding-left: 12.5%; /* w Strava - 3.3333% */
-	padding-right: 12.5%; /* w Strava - 22% */
+.sumstats {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
-	.summstats {
+	.summstatstxt {
 		font-family: Proxima;
 		font-size: 0.95vw;
 		text-align: center;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
-		float: left;
-		width: 30%;
-		height: 35rem; /* 34.575 w Strava */
-		padding-left: 1.25%;
-		padding-right: 1.25%;
-		border-radius: 1.25rem; /* Old: 0.25rem */
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 1.25rem;
 	}
 
-	.summstats:hover {
+	.summstatstxt:hover {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
@@ -315,8 +316,6 @@ body {
   			display: inline-block;
   			position: auto;
   			padding-top: 1.75rem;
-			padding-left: 10%;
-			padding-right: 10%;
 		}
 
 		.imgdrop:hover .imgdropcont {
@@ -324,8 +323,8 @@ body {
   		}
 
 			.meimg {
-				max-width: 50%;
-				max-height: 50%;
+				max-width: 25%;
+				max-height: 25%;
 			}
 
 			.meimg:hover {
@@ -337,6 +336,7 @@ body {
 				display: none;
   				position: absolute;
   				background-color: #F5F5F5;
+  				margin-left: 15%;
 				box-shadow: 5px 5px 10px #D3D3D3;
 			}
 
@@ -345,21 +345,27 @@ body {
 				max-height: 20rem;
 			}
 
-	.summtxt {
+.sumtxt {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%; 
+	padding-right: 12.5%;
+}
+
+	.summtxttxt {
 		font-family: Proxima;
 		font-size: 0.95vw;
 		text-align: justify;
+		line-height: 1.5vw;
 		color: #5576D1;
 		background-color: #ffffff;
-		float: right;
-		width: 63.3333%;
-		height: 35rem; /* 34.575 w Strava */
-		padding-left: 1.25%;
-		padding-right: 1.25%;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
 		border-radius: 1.25rem;
 	}
 
-	.summtxt:hover {
+	.summtxttxt:hover {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
@@ -379,7 +385,6 @@ body {
 		} */
 
 .skills {
-	padding-top: 36.3rem;
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;

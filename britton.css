@@ -107,6 +107,15 @@ body {
 			margin: 0%;
 			}
 
+		.UKflag, .USflag, .SUIflag {
+			float: right;
+			width: 5%;
+			height: 5%;
+			transform: translate(0rem, -1rem);
+			margin: 0rem;
+			padding-right: 1rem;
+		}
+
 		.title {
 			padding-left: 7.5rem;
 		}
@@ -116,13 +125,12 @@ body {
 		text-align: center;
 		letter-spacing: 0.05vw;
 		word-spacing: 0.5vw;
-		background-color: #ffffff; /* Light: #ffffff; */
+		background-color: #ffffff; 
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
 		margin-left: 0%;
 		margin-right: 0%;
 		width: auto;
-		transform: translate(0%, 0%);
 		border-top: 1px solid #E2E2E2;
 	} 
 
@@ -405,6 +413,31 @@ body {
 	}
 
 	.skillstxt:hover {
+		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		border-radius: 0rem;
+	}
+
+.values {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.valuestxt {
+		font-family: Proxima;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #5576D1;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 1.25rem;
+	}
+
+	.valuestxt:hover {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}

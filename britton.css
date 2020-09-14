@@ -1,7 +1,7 @@
 /* ~~~~ Colours */
 
 /* coral = #fd5e53 */
-/* dark royal blue = #002366 */
+/* navy blue = #002366 */
 /* royal blue = #5576D1 */
 /* miami blue = #96b9ee */
 /* bordeaux = #800020 */
@@ -12,7 +12,7 @@
 /* ~~~~ General Definitions */
 
 h1 {
-	font-family: ProximaBd;
+	font-family: ProximaBk;
 	font-size: 1.5vw; 
 	color: #5576D1;
 	text-align: left;
@@ -80,6 +80,11 @@ body {
 @font-face {
 	font-family: CMU Bold;
 	src: url(CMUBold.ttf);
+}
+
+@font-face {
+	font-family: Pictorial;
+	src: url(PictorialSignature.ttf);
 }
 
 

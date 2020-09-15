@@ -861,41 +861,6 @@ body {
 			padding-right: 2.5rem;
 		}
 
-.cafetour {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.cafetourtxt {
-		font-family: Proxima;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #5576D1;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 1.25rem;
-	}
-
-	.cafetourtxt:hover {
-		box-shadow: 5px 5px 10px 0px #D3D3D3;
-		border-radius: 0rem;
-	}
-
-	.cafetour u {
-		text-decoration: none;
-	}
-
-		.cafetour th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5rem;
-		}
-
 .brands {
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
@@ -1172,6 +1137,41 @@ body {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
+
+.cafetour {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.cafetourtxt {
+		font-family: Proxima;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #5576D1;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 1.25rem;
+	}
+
+	.cafetourtxt:hover {
+		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		border-radius: 0rem;
+	}
+
+	.cafetour u {
+		text-decoration: none;
+	}
+
+		.cafetour th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
 
 
 

@@ -165,12 +165,14 @@ body {
 			}
 
 				.pages a:hover {
-					/* font-size: 1.25vw; */
 					border-bottom: 2.5px solid #5576D1;
+					/* background-color: #002366;
+					border-color: #002366; 
+					border-radius: 1rem;
+					opacity: 75%; */
 				}
 
 				.social a:hover {
-					/* font-size: 1.125vw; */
 					border-bottom: 2.5px solid #5576D1;
 				}
 			

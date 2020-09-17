@@ -1075,7 +1075,7 @@ body {
 		color: #5576D1;
 		background-color: #ffffff;
 		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
+		padding-bottom: 1.25rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
 		border-radius: 1.25rem;
@@ -1085,6 +1085,38 @@ body {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
+
+		.collapsible-debunk {
+			font-family: Proxima;
+			font-size: 0.95vw;
+  			background-color: #A9A9A9;
+  			color: #FFFFFF;
+  			cursor: pointer;
+  			padding: 1rem;
+  			width: 100%;
+  			border: none;
+  			outline: none;
+  			border-radius: 1.25rem;
+		}
+
+		.active, .collapsible-debunk:hover {
+  			background-color: #808080;
+		}
+
+		.active, .collapsible-debunk:active {
+  			border-top-left-radius: 1.25rem;
+  			border-top-right-radius: 1.25rem;
+  			border-bottom-left-radius: 0rem;
+  			border-bottom-right-radius: 0rem;
+		}
+
+		.content {
+  			background-color: #F5F5F5;
+			padding-left: 1.25rem;
+			padding-right: 1.25rem;
+  			display: none;
+  			overflow: hidden;
+		}
 
 
 /* ~~~~ Blog - GWC */

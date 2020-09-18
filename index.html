@@ -15,34 +15,34 @@
   			
   			<div class="tradingview-widget-container__widget"></div>
   			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  			{
-  			"symbols": [
-    		{
-      		"proName": "FOREXCOM:SPXUSD",
-      		"title": "S&P 500"
-   	 		},
-    		{
-      		"proName": "FOREXCOM:NSXUSD",
-      		"title": "Nasdaq 100"
-    		},
-    		{
-      		"proName": "FX_IDC:EURUSD",
-      		"title": "EUR/USD"
-    		},
-    		{
-      		"proName": "BITSTAMP:BTCUSD",
-      		"title": "BTC/USD"
-    		},
-    		{
-      		"proName": "BITSTAMP:ETHUSD",
-      		"title": "ETH/USD"
-    		}
-  			],
-  			"colorTheme": "light",
-  			"isTransparent": false,
-  			"displayMode": "adaptive",
-  			"locale": "en"
-			}
+	  			{
+	  			"symbols": [
+	    		{
+	      		"proName": "FOREXCOM:SPXUSD",
+	      		"title": "S&P 500"
+	   	 		},
+	    		{
+	      		"proName": "FOREXCOM:NSXUSD",
+	      		"title": "Nasdaq 100"
+	    		},
+	    		{
+	      		"proName": "FX_IDC:EURUSD",
+	      		"title": "EUR/USD"
+	    		},
+	    		{
+	      		"proName": "BITSTAMP:BTCUSD",
+	      		"title": "BTC/USD"
+	    		},
+	    		{
+	      		"proName": "BITSTAMP:ETHUSD",
+	      		"title": "ETH/USD"
+	    		}
+	  			],
+	  			"colorTheme": "light",
+	  			"isTransparent": false,
+	  			"displayMode": "adaptive",
+	  			"locale": "en"
+				}
   			</script>
 
   			</div>
@@ -53,9 +53,9 @@
 
 					<a href="https://federog1977.github.io/Internet-Landlord/index.html"><img src="LB.png" alt="logo" class="mainlogo"></a>
 
-					<a href="https://rogerfederer.com/"><img src="SUI1.png" alt="flag3" class="SUIflag"></a>
+					<!-- <a href="https://rogerfederer.com/"><img src="SUI1.png" alt="flag3" class="SUIflag"></a>
 					<a href="https://www.gop.com/"><img src="US1.png" alt="flag2" class="USflag"></a>
-					<a href="https://www.conservatives.com/"><img src="UK1.png" alt="flag1" class="UKflag"></a>
+					<a href="https://www.conservatives.com/"><img src="UK1.png" alt="flag1" class="UKflag"></a> -->
 				
 				</div>
 
@@ -108,7 +108,7 @@
 
 			<h1>LEWIS BRITTON</h1>
 
-			<h2>UNIVERSITY OF <br>STRATHCLYDE</h2>
+			<h2>UNIVERSITY OF STRATHCLYDE</h2>
 
 			<div class="home-image-buttons">
 
@@ -141,33 +141,53 @@
 
 				<h2>Summary</h2>
 
-				<p>
-					<h4>Telephone: </h4>07415 212 056
-					<br>
-					<h4>Email: </h4>wi.lbritton@yahoo.com
-				</p>
+				<button type="button" class="collapsible-sum">Expand Summary Statistics</button>
+				<div class="content-sum">
+					<p>
+						<h4>Telephone: </h4>07415 212 056
+						<br>
+						<h4>Email: </h4>wi.lbritton@yahoo.com
+					</p>
 
-				<p>
-					<h4>Age: </h4>21yrs <h4>| Gender: </h4>Male
-					<br>
-					<h4>Height: </h4>6'1" <h4>| Mass: </h4>74.8kg <h4>| Weight: </h4>733.1Nkg 
-					<br>
-					<h4>Bodyfat: </h4>12.4% <h4>| Muscle Mass: </h4>34.9%
-					<br>
-					<h4>Hair: </h4>Brown/Red <h4>| Eyes: </h4>Green
-				</p>
-				
-				<p>	
-					<h4>Place of Residence: </h4>Giffnock, East Renfrewshire
-					<br>
-					<h4>Place of Brith: </h4>Glasgow, Scotland
-				</p>
-				
-				<p>
-					<h4>University of Strathclyde: </h4>BA(Hons) Finance & Economics {2017-2021}
-					<br>
-					<h4>University of Strathlcyde: </h4>MSc Quantitative Finance {Desired 2021-2022}
-				</p>
+					<p>
+						<h4>Age: </h4>21yrs <h4>| Gender: </h4>Male
+						<br>
+						<h4>Height: </h4>6'1" <h4>| Mass: </h4>74.8kg <h4>| Weight: </h4>733.1Nkg 
+						<br>
+						<h4>Bodyfat: </h4>12.4% <h4>| Muscle Mass: </h4>34.9%
+						<br>
+						<h4>Hair: </h4>Brown/Red <h4>| Eyes: </h4>Green
+					</p>
+					
+					<p>	
+						<h4>Place of Residence: </h4>Giffnock, East Renfrewshire
+						<br>
+						<h4>Place of Brith: </h4>Glasgow, Scotland
+					</p>
+					
+					<p>
+						<h4>University of Strathclyde: </h4>BA(Hons) Finance & Economics {2017-2021}
+						<br>
+						<h4>University of Strathlcyde: </h4>MSc Quantitative Finance {Desired 2021-2022}
+					</p>
+				</div>
+
+				<script>
+					var coll = document.getElementsByClassName("collapsible-sum");
+					var i;
+
+					for (i = 0; i < coll.length; i++) {
+	  					coll[i].addEventListener("click", function() {
+		    				this.classList.toggle("active-sum");
+		    				var content = this.nextElementSibling;
+		    				if (content.style.display === "block") {
+		      				content.style.display = "none";
+		    				} else {
+		      				content.style.display = "block";
+		    				}
+	  					});
+					}
+				</script>
 
 			</div>
 
@@ -206,39 +226,65 @@
 
 				<h3>University & Professional</h3>
 
-				<p>
-					<h4>Financial Theory: </h4>Three years of practice in financial theory classes at university, combined with statistical analysis in MATLAB
-					<br>
-					<h4>Economic & Econometric Theory: </h4>Three years of practice in economic theory in university, combined with econometric analysis in Gretl
-					<br>
-					<h4>Mathematics & Statistics: </h4>University practice and personal interest in manual and computer generated maths/stats, including advanced algebra and calculus 
-					<br>
-					<h4>Sales & Marketing Methods: </h4>One year of marketing practice in university combined with practical application trough my own company	
-				</p>
+				<button type="button" class="collapsible-skills">Expand Skillset</button>
+				<div class="content-skills">
+					<p>
+						<h4>Financial Theory: </h4>Three years of practice in financial theory classes at university, combined with statistical analysis in MATLAB
+						<br>
+						<h4>Economic & Econometric Theory: </h4>Three years of practice in economic theory in university, combined with econometric analysis in Gretl
+						<br>
+						<h4>Mathematics & Statistics: </h4>University practice and personal interest in manual and computer generated maths/stats, including advanced algebra and calculus 
+						<br>
+						<h4>Sales & Marketing Methods: </h4>One year of marketing practice in university combined with practical application trough my own company	
+					</p>
+				</div>
 
 				<h3>Other Intellectual</h3>
 
-				<p>
-					<h4>MATLAB & Gretl GUIs: </h4>University practice in Python and C-based graphical user interfaces in the context of portfolio optimisation and regression analysis
-					<br>
-					<h4>Advanced Excel: </h4>University projects and personal financial management practice in Excel & Visual Basic regularly
-					<br>
-					<h4>Autodesk CAD & Adobe DTP: </h4>School projects and ongoing interest in graphic design and computer-based modelling, seeking a wider and greater understanding
-					<br>
-					<h4>Trading Terminals: </h4>Practice in web-based UIs such as eToro & Trading212 for personal investements, now exploring a custom terminal-based stock ticker and tracker
-				</p>
+				<button type="button" class="collapsible-skills">Expand Skillset</button>
+				<div class="content-skills">
+					<p>
+						<h4>MATLAB & Gretl GUIs: </h4>University practice in Python and C-based graphical user interfaces in the context of portfolio optimisation and regression analysis
+						<br>
+						<h4>Advanced Excel: </h4>University projects and personal financial management practice in Excel & Visual Basic regularly
+						<br>
+						<h4>Autodesk CAD & Adobe DTP: </h4>School projects and ongoing interest in graphic design and computer-based modelling, seeking a wider and greater understanding
+						<br>
+						<h4>Trading Terminals: </h4>Practice in web-based UIs such as eToro & Trading212 for personal investements, now exploring a custom terminal-based stock ticker and tracker
+					</p>
+				</div>
 
 				<h3>Perosonality & Mentality</h3>
 
-				<p>
-					<h4>Organisation & Structure: </h4>Clear mental state allowing for rational decision making and well-structured execution 
-					<br>
-					<h4>Logic & Accuracy: </h4>Attention to the breakdown of a brief and the accurate assembly of a project
-					<br>
-					<h4>Efficiency & Care: </h4>Fast-working while identifying and caring for the intricacies of each project/task
-					<br>
-					<h4>Rational & Conservative: </h4>Not allowing decisions to be dictated by emotions, supporting a strong set of values and rationale
-				</p>
+				<button type="button" class="collapsible-skills">Expand Skillset</button>
+				<div class="content-skills">
+					<p>
+						<h4>Organisation & Structure: </h4>Clear mental state allowing for rational decision making and well-structured execution 
+						<br>
+						<h4>Logic & Accuracy: </h4>Attention to the breakdown of a brief and the accurate assembly of a project
+						<br>
+						<h4>Efficiency & Care: </h4>Fast-working while identifying and caring for the intricacies of each project/task
+						<br>
+						<h4>Rational & Conservative: </h4>Not allowing decisions to be dictated by emotions, supporting a strong set of values and rationale
+					</p>
+				</div>
+
+				<script>
+					var coll = document.getElementsByClassName("collapsible-skills");
+					var i;
+
+					for (i = 0; i < coll.length; i++) {
+	  					coll[i].addEventListener("click", function() {
+		    				this.classList.toggle("active-skills");
+		    				var content = this.nextElementSibling;
+		    				if (content.style.display === "block") {
+		      				content.style.display = "none";
+		    				} else {
+		      				content.style.display = "block";
+		    				}
+	  					});
+					}
+				</script>
 
 			</div>
 
@@ -252,15 +298,41 @@
 
 				<h3>1) Personality & Conduct</h3>
 
-				<p>Maturity & Strong Conduct \\ Honesty Where Appropriate \\ Competitiveness & Completionism \\ Exceedingly Punctual \\ Confidence & Charisma \\ Professional Linguistics & Accent \\ Exceptionally Independant \\ Truth to Self \\ Well-Practiced Manners & Generosity \\ Empathetic & Caring for Others \\ Unique & Diverse Humour</p>
+				<button type="button" class="collapsible-values">Expand Values</button>
+				<div class="content-values">
+					<p>Maturity & Strong Conduct \\ Honesty Where Appropriate \\ Competitiveness & Completionism \\ Exceedingly Punctual \\ Confidence & Charisma \\ Professional Linguistics & Accent \\ Exceptionally Independant \\ Truth to Self \\ Well-Practiced Manners & Generosity \\ Empathetic & Caring for Others \\ Unique & Diverse Humour</p>
+				</div>
 
 				<h3>2) Mental Integrity</h3>
 
-				<p>Academically & Professionally Intelligent \\ Self Aware \\ Socially Aware \\ Self-Believing \\ Emotionally Intelligent \\ Understanding of Values vs. Interests \\ Understanding of Logic vs. Emotion \\ Loyal & Trustworthy \\ Profanity Averse \\ Ability to Use Hindsight & Reflection \\ Care for & Understanding of Mental Health</p>
+				<button type="button" class="collapsible-values">Expand Values</button>
+				<div class="content-values">
+					<p>Academically & Professionally Intelligent \\ Self Aware \\ Socially Aware \\ Self-Believing \\ Emotionally Intelligent \\ Understanding of Values vs. Interests \\ Understanding of Logic vs. Emotion \\ Loyal & Trustworthy \\ Profanity Averse \\ Ability to Use Hindsight & Reflection \\ Care for & Understanding of Mental Health</p>
+				</div>
 
 				<h3>3) Physical Atrributes & Health</h3>
 
-				<p>Above-Average Knowledge & Understanding of Nutritional Science \\ High-Quality Nutritional Diet \\ Above-Average Fitness Level (Road Cycling, Running, Walking, Hiking, Tennis) \\ Lightweight, Low Bodyfat & Agile \\ Desirable Height & Build \\ Care for & Understanding of Physical Health</p> 
+				<button type="button" class="collapsible-values">Expand Values</button>
+				<div class="content-values">
+					<p>Above-Average Knowledge & Understanding of Nutritional Science \\ High-Quality Nutritional Diet \\ Above-Average Fitness Level (Road Cycling, Running, Walking, Hiking, Tennis) \\ Lightweight, Low Bodyfat & Agile \\ Desirable Height & Build \\ Care for & Understanding of Physical Health</p> 
+				</div>
+
+				<script>
+					var coll = document.getElementsByClassName("collapsible-values");
+					var i;
+
+					for (i = 0; i < coll.length; i++) {
+	  					coll[i].addEventListener("click", function() {
+		    				this.classList.toggle("active-values");
+		    				var content = this.nextElementSibling;
+		    				if (content.style.display === "block") {
+		      				content.style.display = "none";
+		    				} else {
+		      				content.style.display = "block";
+		    				}
+	  					});
+					}
+				</script>
 
 			</div>
 
@@ -274,40 +346,65 @@
 
 				<h3>1) Intellectual</h3>
 
-				<p>
-					<h4>Computer Systems: </h4>Lifelong interest in the construction of PC hardware and the intricacies of source interpretation
-					<br>
-					<h4>HTML, CSS, Python, Vim: </h4>Personal projects exploring HTML, CSS and Python, such as this site and various others of my creation, conducted in Vim and Sublime Text
-					<br>
-					<h4>Security & Other Asset Investment: </h4>Starting in 2017, I use various interfaces and terminals to analyse and invest in stocks, bonds, cryptocurrency and commodities  
-					<br>
-				</p>
+				<button type="button" class="collapsible-interests">Expand Interests</button>
+				<div class="content-interests">
+					<p>
+						<h4>Computer Systems: </h4>Lifelong interest in the construction of PC hardware and the intricacies of source interpretation
+						<br>
+						<h4>HTML, CSS, Python, Vim: </h4>Personal projects exploring HTML, CSS and Python, such as this site and various others of my creation, conducted in Vim and Sublime Text
+						<br>
+						<h4>Security & Other Asset Investment: </h4>Starting in 2017, I use various interfaces and terminals to analyse and invest in stocks, bonds, cryptocurrency and commodities  
+						<br>
+					</p>
+				</div>
 
 				<h3>2) Art & Design</h3>
 
-				<p>
-					<h4>Serif & Adobe Desktop Publishing: </h4>School projects, personal interest, graphic design for my company 
-					<br>
-					<h4>Autodesk Inventor Computer Aided Design: </h4>School projects and personal projects such as home development in Autodesk Inventor
-					<br>
-					<h4>Real Estate & Interiors: </h4>Interest beginning 2012 through Ryan Serhant. Expressed through art, CAD and video game personal projects
-					<br>
-					<h4>Luxury Goods & Production: </h4>I take pride in investment in high-quality products which offer long-term utility, happiness and potential return
-				</p>
+				<button type="button" class="collapsible-interests">Expand Interests</button>
+				<div class="content-interests">
+					<p>
+						<h4>Serif & Adobe Desktop Publishing: </h4>School projects, personal interest, graphic design for my company 
+						<br>
+						<h4>Autodesk Inventor Computer Aided Design: </h4>School projects and personal projects such as home development in Autodesk Inventor
+						<br>
+						<h4>Real Estate & Interiors: </h4>Interest beginning 2012 through Ryan Serhant. Expressed through art, CAD and video game personal projects
+						<br>
+						<h4>Luxury Goods & Production: </h4>I take pride in investment in high-quality products which offer long-term utility, happiness and potential return
+					</p>
+				</div>
 
 				<h3>3) Health, Fitness & Nutrition</h3>
 
-				<p>
-					<h4>Tennis & Tennis Statistics: </h4>Interest beginning in 2008, sparked by the GoAT Roger Federer. I enjoy statistically analysing matches
-					<br>
-					<h4>Road Cycling & Cycle Components: </h4>I Strava 30+ mile recreational rides and enjoy maintaining a high-end roadie and associated mechanical components
-					<br>
-					<h4>Bagging: </h4>A recent addition to my interests however, one of the more thrilling and rewarding ones. Current tally lies at 5/282 Munros
-					<br>
-					<h4>Culinary Science, Nutrition & Kitchen Equipment: </h4>I've built an arsenal of high-standard recipes and take pride in associated equipment and nutrition
-					<br>
-					
-				</p>
+				<button type="button" class="collapsible-interests">Expand Interests</button>
+				<div class="content-interests">
+					<p>
+						<h4>Tennis & Tennis Statistics: </h4>Interest beginning in 2008, sparked by the GoAT Roger Federer. I enjoy statistically analysing matches
+						<br>
+						<h4>Road Cycling & Cycle Components: </h4>I Strava 30+ mile recreational rides and enjoy maintaining a high-end roadie and associated mechanical components
+						<br>
+						<h4>Bagging: </h4>A recent addition to my interests however, one of the more thrilling and rewarding ones. Current tally lies at 5/282 Munros
+						<br>
+						<h4>Culinary Science, Nutrition & Kitchen Equipment: </h4>I've built an arsenal of high-standard recipes and take pride in associated equipment and nutrition
+						<br>
+					</p>
+				</div>
+
+				<script>
+					var coll = document.getElementsByClassName("collapsible-interests");
+					var i;
+
+					for (i = 0; i < coll.length; i++) {
+	  					coll[i].addEventListener("click", function() {
+		    				this.classList.toggle("active-interests");
+		    				var content = this.nextElementSibling;
+		    				if (content.style.display === "block") {
+		      				content.style.display = "none";
+		    				} else {
+		      				content.style.display = "block";
+		    				}
+	  					});
+					}
+				</script>
 
 			</div>
 
@@ -321,47 +418,76 @@
 
 				<h3>Consumables</h3>
 
-				<p>
-					<h4>Coffee Daily Driver: </h4>Lavazza Qualita Oro - 15g/350ml - Bialetti Omino Scatola French Press
-					<br>
-					<h4>Tea Daily Driver: </h4>Fortnum & Mason Chai Tea - Villeroy & Boch Artesano Glass Teapot
-					<br>
-					<h4>Breakfast Daily: </h4>50g of Steel-Cut Oats w/ Peanut Butter, Chia Seeds & Almond Milk - Wholemeal Seeded Bagel w/ Scrambled Egg, Avocado & Lettuce
-				</p>
+				<button type="button" class="collapsible-spec">Expand Consumable Elements</button>
+				<div class="content-spec">
+					<p>
+						<h4>Coffee Daily Driver: </h4>Lavazza Qualita Oro - 15g/350ml - Bialetti Omino Scatola French Press
+						<br>
+						<h4>Tea Daily Driver: </h4>Fortnum & Mason Chai Tea - Villeroy & Boch Artesano Glass Teapot
+						<br>
+						<h4>Breakfast Daily: </h4>50g of Steel-Cut Oats w/ Peanut Butter, Chia Seeds & Almond Milk - Wholemeal Seeded Bagel w/ Scrambled Egg, Avocado & Lettuce
+					</p>
+				</div>
 
 				<h3>Apparel</h3>
 
-				<p>
-					<h4>Timepiece(s): </h4>Tag Heuer Acquaracer 1992 Release - Apple Watch First Generation - Rolex Daytona Stainless Steel & Yellow Gold 2007 Release
-					<br>
-					<h4>Frangrance(s): </h4>Terre D'Hermes Parfum - Boss Bottled Eau de Toilette - Calvin Klein CK One Eau de Toilette
-					<br>
-					<h4>Writing Instrument(s): </h4>Mont Blanc Meisterstück Rose Gold-Coated Classique Rollerball - rOtring Rapid PRO 0.7mm
-				</p>
+				<button type="button" class="collapsible-spec">Expand Apparel Elements</button>
+				<div class="content-spec">
+					<p>
+						<h4>Timepiece(s): </h4>Tag Heuer Acquaracer 1992 Release - Apple Watch First Generation - Rolex Daytona Stainless Steel & Yellow Gold 2007 Release
+						<br>
+						<h4>Frangrance(s): </h4>Terre D'Hermes Parfum - Boss Bottled Eau de Toilette - Calvin Klein CK One Eau de Toilette
+						<br>
+						<h4>Writing Instrument(s): </h4>Mont Blanc Meisterstück Rose Gold-Coated Classique Rollerball - rOtring Rapid PRO 0.7mm
+					</p>
+				</div>
 
 				<h3>Technology</h3>
 
-				<p>
-					<h4>Daily Driver: </h4>Apple iPhone 6s 128GB Model
-					<br>
-					<h4>Workhorse Daily Driver: </h4>Corsair Carbide 100R - ASUS Z490 STRIX Z490-F - Intel Hex i5 10400F - Corsair H80i - ASUS GeForce RTX 2070 - 16GB Corsair Vengeance RGB PRO - 1TB Samsung 860 EVO - Corsair CX750 Modular 
-					<br>
-					<h4>SoyDev EmacsBook: </h4>Apple MacBook Pro 13" September 2015
-					<br>
-					<h4>Entertainment Box: </h4>LG OLED55CX6LA 55" Smart 4K
-					<br>
-					<h4>Subscriptions & Memberships: </h4>Spotify Premium, Netflix, Amazon Prime, Strava Premium, Adobe Photography Plan, M&S Sparks, myWaitrose, Booths Loyalty, myLakeland
-					<br>
-					<h4>Banks of Choice: </h4>M&S, Clydestale, Royal Bank of Scotland, HSBC, Starling, Virgin Money
-				</p>
+				<button type="button" class="collapsible-spec">Expand Technological Elements</button>
+				<div class="content-spec">
+					<p>
+						<h4>Daily Driver: </h4>Apple iPhone 6s 128GB Model
+						<br>
+						<h4>Workhorse Daily Driver: </h4>Corsair Carbide 100R - ASUS Z490 STRIX Z490-F - Intel Hex i5 10400F - Corsair H80i - ASUS GeForce RTX 2070 - 16GB Corsair Vengeance RGB PRO - 1TB Samsung 860 EVO - Corsair CX750 Modular 
+						<br>
+						<h4>SoyDev EmacsBook: </h4>Apple MacBook Pro 13" September 2015
+						<br>
+						<h4>Entertainment Box: </h4>LG OLED55CX6LA 55" Smart 4K
+						<br>
+						<h4>Subscriptions & Memberships: </h4>Spotify Premium, Netflix, Amazon Prime, Strava Premium, Adobe Photography Plan, M&S Sparks, myWaitrose, Booths Loyalty, myLakeland
+						<br>
+						<h4>Banks of Choice: </h4>M&S, Clydestale, Royal Bank of Scotland, HSBC, Starling, Virgin Money
+					</p>
+				</div>
 
 				<h3>Hobby</h3>
 
-				<p>
-					<h4>Tennis Racquet: </h4>Wilson Pro Staff RF 97 Autograph L4 - Luxilon Alu Power 52lbs - Wilson Leather Grip - Wilson Pro Overgrip 
-					<br>
-					<h4>Roadie: </h4>Giant TCR Advanced 1 Frame - Shimano Ultegra Full Groupset (22 Speed) - Giant PR-2 Wheelset w/ Gavia Course AC 1 Tyres w/ Continental R28 700x25c 60mm Presta Valve Inner Tubes - Giant Contact Stem (@55mm), Bars, Seatpost & Saddle
-				</p>
+				<button type="button" class="collapsible-spec">Expand Hobby Elements</button>
+				<div class="content-spec">
+					<p>
+						<h4>Tennis Racquet: </h4>Wilson Pro Staff RF 97 Autograph L4 - Luxilon Alu Power 52lbs - Wilson Leather Grip - Wilson Pro Overgrip 
+						<br>
+						<h4>Roadie: </h4>Giant TCR Advanced 1 Frame - Shimano Ultegra Full Groupset (22 Speed) - Giant PR-2 Wheelset w/ Gavia Course AC 1 Tyres w/ Continental R28 700x25c 60mm Presta Valve Inner Tubes - Giant Contact Stem (@55mm), Bars, Seatpost & Saddle
+					</p>
+				</div>
+
+				<script>
+					var coll = document.getElementsByClassName("collapsible-spec");
+					var i;
+
+					for (i = 0; i < coll.length; i++) {
+	  					coll[i].addEventListener("click", function() {
+		    				this.classList.toggle("active-spec");
+		    				var content = this.nextElementSibling;
+		    				if (content.style.display === "block") {
+		      				content.style.display = "none";
+		    				} else {
+		      				content.style.display = "block";
+		    				}
+	  					});
+					}
+				</script>
 
 			</div>
 

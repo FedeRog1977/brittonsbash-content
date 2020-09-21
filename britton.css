@@ -774,8 +774,16 @@ body {
 
 /* ~~~~ Career */
 
-.cartime {
+.car-time {
 	padding-top: 2.5%;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	font-family: Proxima;
+	text-align: center;
+	color: #5576D1;
+}
+
+.cartime {
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;

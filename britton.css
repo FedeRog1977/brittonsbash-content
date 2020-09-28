@@ -1405,7 +1405,58 @@ body {
 		border-radius: 0rem;
 	}
 
+/* ~~~~ Blog - FRC */
 
+.bhtintro {
+	padding-top: 2.5%;
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.bhtintrotxt {
+		font-family: Proxima;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #5576D1;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 1.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 1.25rem;
+	}
+
+	.bhtintrotxt:hover {
+		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		border-radius: 0rem;
+	}
+
+.bhtbody {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.bhtbodytxt {
+		font-family: Proxima;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #5576D1;
+		background-color: #ffffff;
+		padding-top: 2.5rem;
+		padding-bottom: 0.2rem;
+		padding-left: 5rem;
+		padding-right: 2.5rem;
+		border-radius: 1.25rem;
+	}
+
+	.bhtbodytxt:hover {
+		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		border-radius: 0rem;
+	}
 
 
 

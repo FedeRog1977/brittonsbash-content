@@ -199,6 +199,7 @@ body {
 
 	.bottomnav {
 		word-spacing: 1.25vw;
+		line-height: 1.5vw;
 	}
 
 		.bottomnav a:hover {

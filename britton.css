@@ -13,13 +13,11 @@
 
 h1 {
 	font-family: ProximaBk;
-	font-size: 2.25vw; 
+	font-size: 1.75vw; 
 	color: #5576D1;
 	text-align: left;
-	letter-spacing: 0.575vw;
-	margin-top: 0rem;
-	margin-bottom: 0rem;
-	transform: translate(0vw, 0.05vw);
+	letter-spacing: 0.25vw;
+	margin: 0rem;
 }
 
 	h1:hover {
@@ -47,13 +45,6 @@ h4 {
 	color: #5576D1;
 	font-weight: normal;
 	display: inline;
-}
-
-h5 {
-	font-family: ProximaBd;
-	font-size: 1.25vw;
-	color: #5576D1;
-	font-weight: normal;
 }
 
 body {
@@ -93,76 +84,76 @@ body {
 	/* No Content */
 }
 
-	.topbanner {
-		background-color: #ffffff;
-		padding-top: 1.75%;
-		padding-bottom: 1.75%;
-		padding-left: 12.5%;
-		padding-right: 12.5%;
-		margin: 0%;
-	}
-
-		.mainlogo {
-			float: left;
-			transform: translate(0vw, -0.9vw);	
-			width: 6%;
-			height: 6%;
-			padding: 0%;
-			margin: 0%;
-			}
-
 	.topnavigation {
 		font-family: ProximaBd;
-		text-align: center; 
-		letter-spacing: 0.25vw; /* 0.05vw w/ Lower-Case Font*/
-		word-spacing: 0.5vw;
-		line-height: 1.5vw;
-		background-color: #ffffff; 
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-		margin-left: 0%;
-		margin-right: 0%;
-		width: auto;
-		border-top: 1px solid #E2E2E2;
+		background-color: #ffffff;
+		padding-left: 6.25%;
+		padding-right: 6.25%;
 	} 
 
-		.pages {
-			color: #5576D1;
-			font-size: 1.125vw;
+		.topnav-title {
+			float: left;
+			letter-spacing: 0.25vw;
+			word-spacing: 0.5vw;
+			line-height: 1.75vw;
+			padding-top: 0.85rem;
+			padding-bottom: 0.85rem;
 		}
 
-		.social {
-			color: #5576D1;
-			font-size: 0.95vw;
+			.topnav-title h2 {
+				font-family: ProximaBd;
+				font-size: 1.25vw;
+				color: #5576D1;
+				font-weight: normal;
+				margin: 0rem;
+			}
+
+		.topnav-nav {
+			text-align: right; 
+			letter-spacing: 0.25vw;
+			word-spacing: 0.5vw;
+			line-height: 1.5vw;
+			padding-top: 1rem;
+			padding-bottom: 1rem;
 		}
 
-			a:link {
+			.pages {
 				color: #5576D1;
-				text-decoration: none;
+				font-size: 1.125vw;
 			}
 
-			a:visited {
+			.social {
 				color: #5576D1;
-				text-decoration: none;
+				font-size: 0.95vw;
 			}
 
-			a:hover {
-				color: #96b9ee;
-				text-decoration: none;
-			}
-
-				.pages a:hover {
-					border-bottom: 2.5px solid #5576D1;
+				a:link {
+					color: #5576D1;
+					text-decoration: none;
 				}
 
-				.social a:hover {
-					border-bottom: 2.5px solid #5576D1;
+				a:visited {
+					color: #5576D1;
+					text-decoration: none;
 				}
-			
-			a:active {
-				color: #5576D1;
-				text-decoration: none;
-			}
+
+				a:hover {
+					color: #96b9ee;
+					text-decoration: none;
+				}
+
+					.pages a:hover {
+						border-bottom: 2.5px solid #5576D1;
+					}
+
+					.social a:hover {
+						border-bottom: 2.5px solid #5576D1;
+					}
+				
+				a:active {
+					color: #5576D1;
+					text-decoration: none;
+				}
 
 .time {
 	margin: 0rem;

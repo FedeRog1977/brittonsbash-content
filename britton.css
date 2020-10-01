@@ -1308,13 +1308,13 @@ body {
 		border-radius: 0rem;
 	}
 
-.cafetour {
+.cafetour-gwc {
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.cafetourtxt {
+	.cafetour-gwctxt {
 		font-family: Proxima;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -1328,16 +1328,16 @@ body {
 		border-radius: 1.25rem;
 	}
 
-	.cafetourtxt:hover {
+	.cafetour-gwctxt:hover {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
 
-	.cafetour u {
+	.cafetour-gwc u {
 		text-decoration: none;
 	}
 
-		.cafetour th, td {
+		.cafetour-gwc th, td {
 			text-align: left;
 			vertical-align: top;
 			padding-right: 2.5rem;
@@ -1397,7 +1397,8 @@ body {
 		border-radius: 0rem;
 	}
 
-/* ~~~~ Blog - FRC */
+
+/* ~~~~ Blog - B&H */
 
 .bhtintro {
 	padding-top: 2.5%;
@@ -1449,6 +1450,41 @@ body {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
 	}
+
+.cafetour-bh {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.cafetour-bhtxt {
+		font-family: Proxima;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #5576D1;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 1.25rem;
+	}
+
+	.cafetour-bhtxt:hover {
+		box-shadow: 5px 5px 10px 0px #D3D3D3;
+		border-radius: 0rem;
+	}
+
+	.cafetour-bh u {
+		text-decoration: none;
+	}
+
+		.cafetour-bh th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
 
 
 

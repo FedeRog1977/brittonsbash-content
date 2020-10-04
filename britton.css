@@ -2,6 +2,8 @@
 
 /* coral = #fd5e53 */
 /* navy blue = #002366 */
+/* ink blue = #483D8B */
+/* MS Word blue-grey = #666699 */
 /* royal blue = #5576D1 */
 /* miami blue = #96b9ee */
 /* bordeaux = #800020 */
@@ -12,11 +14,11 @@
 /* ~~~~ General Definitions */
 
 h1 {
-	font-family: ProximaBk;
+	font-family: ProximaBd;
 	font-size: 1.75vw; 
-	color: #5576D1;
+	color: #483D8B;
 	text-align: left;
-	letter-spacing: 0.25vw;
+	letter-spacing: 0.375vw;
 	margin: 0rem;
 }
 
@@ -118,41 +120,45 @@ body {
 		}
 
 			.pages {
-				color: #5576D1;
+				color: #483D8B;
 				font-size: 1.125vw;
 			}
+
+				.pages a:link {
+					color: #483D8B;
+					text-decoration: none;
+				}
+
+				.pages a:visited {
+					color: #483D8B;
+					text-decoration: none;
+				}
+
+				.pages a:hover {
+					color: #96b9ee;
+					text-decoration: none;
+					border-bottom: 2.5px solid #483D8B;
+				}
 
 			.social {
 				color: #5576D1;
 				font-size: 0.95vw;
 			}
 
-				a:link {
+				.social a:link {
 					color: #5576D1;
 					text-decoration: none;
 				}
 
-				a:visited {
+				.social a:visited {
 					color: #5576D1;
 					text-decoration: none;
 				}
 
-				a:hover {
+				.social a:hover {
 					color: #96b9ee;
 					text-decoration: none;
-				}
-
-					.pages a:hover {
-						border-bottom: 2.5px solid #5576D1;
-					}
-
-					.social a:hover {
-						border-bottom: 2.5px solid #5576D1;
-					}
-				
-				a:active {
-					color: #5576D1;
-					text-decoration: none;
+					border-bottom: 2.5px solid #5576D1;
 				}
 
 .time {
@@ -185,15 +191,59 @@ body {
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 	margin: 0rem;
-	box-shadow: 0px 5px 10px 5px #D3D3D3;
+	/* box-shadow: 0px 5px 10px 5px #D3D3D3; */
 }
 
-	.bottomnav {
-		word-spacing: 1.25vw;
-		line-height: 1.5vw;
+	.collapsible-footer {
+		font-family: Proxima;
+		font-size: 0.95vw;
+		background-color: #F5F5F5;
+		color: #5576D1;
+		cursor: pointer;
+		padding: 0.75rem;
+		width: 100%;
+		border: none;
+		outline: none;
+		border-radius: 1rem;
 	}
 
-		.bottomnav a:hover {
+	.active-footer, .collapsible-footer:hover {
+		background-color: #A9A9A9;
+		color: #FFFFFF;
+	}
+
+	.active-footer, .collapsible-footer:active {
+		border-top-left-radius: 1.25rem;
+		border-top-right-radius: 1.25rem;
+		border-bottom-left-radius: 0rem;
+		border-bottom-right-radius: 0rem;
+	}
+
+	.content-footer {
+		background-color: #F5F5F5;
+		padding-top: 1.25rem;
+		padding-bottom: 1.25rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		word-spacing: 1.25vw;
+		line-height: 1.5vw;
+		display: none;
+		overflow: hidden;
+	}
+
+		.content-footer a:link {
+			color: #5576D1;
+			text-decoration: none;
+		}
+
+		.content-footer a:visited {
+			color: #5576D1;
+			text-decoration: none;
+		}
+
+		.content-footer a:hover {
+			color: #96b9ee;
+			text-decoration: none;
 			border-bottom: 2.5px solid #5576D1;
 		}
 
@@ -627,7 +677,7 @@ body {
 		}
 
 .fyi {
-	padding-bottom: 3.7rem; /* 1.2 + 2.5 */
+	padding-bottom: 3.7rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -649,6 +699,22 @@ body {
 	.fyitxt:hover {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
+	}
+
+	.fyi a:link {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.fyi a:visited {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.fyi a:hover {
+		color: #96b9ee;
+		text-decoration: none;
+		border-bottom: 2.5px solid #5576D1;
 	}
 
 .home-image2 {
@@ -697,8 +763,19 @@ body {
 		border-radius: 0rem;
 	}
 
+	.classes a:link {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.classes a:visited {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
 	.classes a:hover {
-		/* font-size: 1.125rem; */
+		color: #96b9ee;
+		text-decoration: none;
 		border-bottom: 2.5px solid #5576D1;
 	}
 
@@ -727,8 +804,19 @@ body {
 		border-radius: 0rem;
 	}
 
+	.projects a:link {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.projects a:visited {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
 	.projects a:hover {
-		/* font-size: 1.125rem; */
+		color: #96b9ee;
+		text-decoration: none;
 		border-bottom: 2.5px solid #5576D1;
 	}
 
@@ -1191,8 +1279,19 @@ body {
 		border-radius: 0rem;
 	}
 
+	.blogshell a:link {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.blogshell a:visited {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
 	.blogshell a:hover {
-		/* font-size: 1.125rem; */
+		color: #96b9ee;
+		text-decoration: none;
 		border-bottom: 2.5px solid #5576D1;
 	}
 

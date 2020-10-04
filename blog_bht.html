@@ -79,8 +79,8 @@
 							<h4>Purchased By: </h4><i>{0} Lewis Britton</i></p>
 						</td>
 						<td><img src="bh-cava2.png" style="width:15rem"><br>
-							<p><h4>Location: </h4>Ca Va, Giffnock (Same Day)<br>
-							<h4>Purchased By: </h4>{0} Lewis Britton</p>
+							<p><h4>Location: </h4><i>Ca Va, Giffnock (Same Day)</i><br>
+							<h4>Purchased By: </h4><i>{0} Lewis Britton</i></p>
 						</td>
 						<td><img src="..." style="width:15rem"><br>
 							<p><h4>Location: </h4><br>
@@ -124,7 +124,7 @@
 							</td>
 							<td>
 								<u style="list-style-type:none">			
-									<li>&check;Ca Va</li>
+									<li>&check; Ca Va</li>
 									<li>Orchard Park</li>
 									<li>Southside</li>
 									<li>Bramble</li>
@@ -198,15 +198,12 @@
 				Not One of Those Garbage Template Sites Like Squarespace or Wix
 			</p>
 			
-			<h3>Useful Links</h3>
-
-			<div class="bottomnav">
-
+			<button type="button" class="collapsible-footer">Useful Links</button>
+			<div class="content-footer">
 				<li style="display:inline">
 					<a href="https://www.youtube.com/?hl=en-GB&gl=GB">YouTube</a> |
 					<a href="https://www.netflix.com/browse">Netflix</a> |
 					<a href="https://www.amazon.co.uk/ref=nav_logo">Amazon</a> |
-					<a href="https://www.telegraph.co.uk/">Telegraph</a> |
 					<a href="https://live.trading212.com/">Market</a> |
 					<a href="https://www.atptour.com/">ATP-Tour</a> |
 					<a href="https://www.bbc.co.uk/weather/2648683">BBC-Weather</a> |
@@ -220,9 +217,34 @@
 					<a href="https://agreeordie.com/features/fashion/">Alex-Krasny</a> | 
 					<a href="https://www.masterofmalt.com/">Master-Of-Malt</a> |
 					<a href="https://www.bricklink.com/v2/main.page">BrickLink</a>
+					<br>
+					<a href="https://www.telegraph.co.uk/">Telegraph</a> |
+					<a href="">The-Wall-Street-Journal</a> |
+					<a href="">Financial-Times</a> |
+					<a href="">The-Daily-Wire</a> |
+					<a href="">Forbes</a> |
+					<a href="">BBC-News</a> |
+					<a href="">Fox-News</a> | 
+					<a href="https://www.investopedia.com/">Investopedia</a>
 				</li>
-
 			</div>
+
+			<script>
+					var coll = document.getElementsByClassName("collapsible-footer");
+					var i;
+
+					for (i = 0; i < coll.length; i++) {
+	  					coll[i].addEventListener("click", function() {
+		    				this.classList.toggle("active-footer");
+		    				var content = this.nextElementSibling;
+		    				if (content.style.display === "block") {
+		      				content.style.display = "none";
+		    				} else {
+		      				content.style.display = "block";
+		    				}
+	  					});
+					}
+			</script>
 
 		</div>
 

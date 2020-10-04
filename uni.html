@@ -206,6 +206,10 @@
 			
 					<p>In 2019 I also joined the Strathclyde Widening Access Team who aim to extend the reach of the university's admissions and encourage lower income, lower progression rate schools to accelerate their efforts in school in order to progress to university. This scheme exists to positively effect the university's image and reputation, and has done a reasonably good job of this in previous years. In 2019/2020 I was head of logistics and had a large influence in other aspects of the One Step Forward Event which was an event aimed at bringing low progression rate schools' students to the university and give them an enhanced introductory view of what could be theirs; in anticipation of creating a spark leading to their potential accelerated effort and grades. This event was planned to 100% completion, with myself acquiring visitors such as Ernst & Young. The event was never executed however due to COVID-19.</p>
 
+				<h3>Unibuddy Mentor & Advisor</h3>
+
+					<p>As part of my Student Ambassador role, I accepted a ...</p>
+
 			</div>
 
 		</div>
@@ -220,15 +224,12 @@
 				Not One of Those Garbage Template Sites Like Squarespace or Wix
 			</p>
 
-			<h3>Useful Links</h3>
-
-			<div class="bottomnav">
-
+			<button type="button" class="collapsible-footer">Useful Links</button>
+			<div class="content-footer">
 				<li style="display:inline">
 					<a href="https://www.youtube.com/?hl=en-GB&gl=GB">YouTube</a> |
 					<a href="https://www.netflix.com/browse">Netflix</a> |
 					<a href="https://www.amazon.co.uk/ref=nav_logo">Amazon</a> |
-					<a href="https://www.telegraph.co.uk/">Telegraph</a> |
 					<a href="https://live.trading212.com/">Market</a> |
 					<a href="https://www.atptour.com/">ATP-Tour</a> |
 					<a href="https://www.bbc.co.uk/weather/2648683">BBC-Weather</a> |
@@ -242,9 +243,34 @@
 					<a href="https://agreeordie.com/features/fashion/">Alex-Krasny</a> | 
 					<a href="https://www.masterofmalt.com/">Master-Of-Malt</a> |
 					<a href="https://www.bricklink.com/v2/main.page">BrickLink</a>
+					<br>
+					<a href="https://www.telegraph.co.uk/">Telegraph</a> |
+					<a href="">The-Wall-Street-Journal</a> |
+					<a href="">Financial-Times</a> |
+					<a href="">The-Daily-Wire</a> |
+					<a href="">Forbes</a> |
+					<a href="">BBC-News</a> |
+					<a href="">Fox-News</a> | 
+					<a href="https://www.investopedia.com/">Investopedia</a>
 				</li>
-
 			</div>
+
+			<script>
+					var coll = document.getElementsByClassName("collapsible-footer");
+					var i;
+
+					for (i = 0; i < coll.length; i++) {
+	  					coll[i].addEventListener("click", function() {
+		    				this.classList.toggle("active-footer");
+		    				var content = this.nextElementSibling;
+		    				if (content.style.display === "block") {
+		      				content.style.display = "none";
+		    				} else {
+		      				content.style.display = "block";
+		    				}
+	  					});
+					}
+			</script>
 
 		</div>
 

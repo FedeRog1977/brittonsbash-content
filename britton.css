@@ -1382,6 +1382,22 @@ body {
 		border-radius: 0rem;
 	}
 
+	.gwcintro a:link {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.gwcintro a:visited {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.gwcintro a:hover {
+		color: #96b9ee;
+		text-decoration: none;
+		border-bottom: 2.5px solid #5576D1;
+	}
+
 .gwcbody {
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
@@ -1471,6 +1487,22 @@ body {
 		border-radius: 0rem;
 	}
 
+	.frcintro a:link {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.frcintro a:visited {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.frcintro a:hover {
+		color: #96b9ee;
+		text-decoration: none;
+		border-bottom: 2.5px solid #5576D1;
+	}
+
 .frcbody {
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
@@ -1523,6 +1555,22 @@ body {
 	.bhtintrotxt:hover {
 		box-shadow: 5px 5px 10px 0px #D3D3D3;
 		border-radius: 0rem;
+	}
+
+	.bhtintro a:link {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.bhtintro a:visited {
+		color: #5576D1;
+		text-decoration: none;
+	}
+
+	.bhtintro a:hover {
+		color: #96b9ee;
+		text-decoration: none;
+		border-bottom: 2.5px solid #5576D1;
 	}
 
 .bhtbody {

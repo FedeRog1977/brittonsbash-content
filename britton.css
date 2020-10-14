@@ -30,14 +30,14 @@ h1 {
 h2 {
 	font-family: ProximaBd;
 	font-size: 1.25vw;
-	color: #5576D1;
+	color: #483D8B;
 	font-weight: normal;
 }
 
 h3 {
 	font-family: ProximaBd;
 	font-size: 0.95vw;
-	color: #5576D1;
+	color: #483D8B;
 	font-weight: normal;
 }
 
@@ -52,6 +52,7 @@ h4 {
 body {
 	background-color: #F5F5F5;
 	margin: 0rem;
+
 }
 
 @font-face {
@@ -184,21 +185,20 @@ body {
 	font-family: ProximaBd;
 	font-size: 0.95vw;
 	text-align: center;
-	color: #5576D1;
+	color: #483D8B;
 	background-color: #ffffff;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 	margin: 0rem;
-	/* box-shadow: 0px 5px 10px 5px #D3D3D3; */
 }
 
 	.collapsible-footer {
 		font-family: Proxima;
 		font-size: 0.95vw;
 		background-color: #F5F5F5;
-		color: #5576D1;
+		color: #483D8B;
 		cursor: pointer;
 		padding: 0.75rem;
 		width: 100%;
@@ -232,12 +232,12 @@ body {
 	}
 
 		.content-footer a:link {
-			color: #5576D1;
+			color: #483D8B;
 			text-decoration: none;
 		}
 
 		.content-footer a:visited {
-			color: #5576D1;
+			color: #483D8B;
 			text-decoration: none;
 		}
 

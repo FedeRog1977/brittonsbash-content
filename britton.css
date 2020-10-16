@@ -204,7 +204,7 @@ body {
 		width: 100%;
 		border: none;
 		outline: none;
-		border-radius: 1rem;
+		border-radius: 0.75rem;
 	}
 
 	.active-footer, .collapsible-footer:hover {
@@ -213,8 +213,8 @@ body {
 	}
 
 	.active-footer, .collapsible-footer:active {
-		border-top-left-radius: 1.25rem;
-		border-top-right-radius: 1.25rem;
+		border-top-left-radius: 0.75rem;
+		border-top-right-radius: 0.75rem;
 		border-bottom-left-radius: 0rem;
 		border-bottom-right-radius: 0rem;
 	}
@@ -345,7 +345,7 @@ body {
 		padding-bottom: 1.25rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .summstatstxt:hover {
@@ -396,7 +396,7 @@ body {
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 1rem;
+  			border-radius: 0.75rem;
 		}
 
 		.active-sum, .collapsible-sum:hover {
@@ -405,8 +405,8 @@ body {
 		}
 
 		.active-sum, .collapsible-sum:active {
-  			border-top-left-radius: 1.25rem;
-  			border-top-right-radius: 1.25rem;
+			border-top-left-radius: 0.75rem;
+			border-top-right-radius: 0.75rem;
   			border-bottom-left-radius: 0rem;
   			border-bottom-right-radius: 0rem;
 		}
@@ -436,7 +436,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .summtxttxt:hover {
@@ -461,7 +461,7 @@ body {
 		padding-bottom: 1.25rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .skillstxt:hover {
@@ -472,14 +472,17 @@ body {
 		.collapsible-skills {
 			font-family: Proxima;
 			font-size: 0.95vw;
+			text-align: left;
   			background-color: #F5F5F5;
   			color: #483D8B;
   			cursor: pointer;
-  			padding: 0.75rem;
+  			padding-top: 0.75rem;
+  			padding-bottom: 0.75rem;
+  			padding-left: 1.25rem;
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 1rem;
+  			border-radius: 0.75rem;
 		}
 
 		.active-skills, .collapsible-skills:hover {
@@ -488,8 +491,8 @@ body {
 		}
 
 		.active-skills, .collapsible-skills:active {
-  			border-top-left-radius: 1.25rem;
-  			border-top-right-radius: 1.25rem;
+			border-top-left-radius: 0.75rem;
+			border-top-right-radius: 0.75rem;
   			border-bottom-left-radius: 0rem;
   			border-bottom-right-radius: 0rem;
 		}
@@ -519,7 +522,7 @@ body {
 		padding-bottom: 1.25rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .valuestxt:hover {
@@ -530,14 +533,17 @@ body {
 		.collapsible-values {
 			font-family: Proxima;
 			font-size: 0.95vw;
+			text-align: left;
   			background-color: #F5F5F5;
   			color: #483D8B;
   			cursor: pointer;
-  			padding: 0.75rem;
+  			padding-top: 0.75rem;
+  			padding-bottom: 0.75rem;
+  			padding-left: 1.25rem;
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 1rem;
+  			border-radius: 0.75rem;
 		}
 
 		.active-values, .collapsible-values:hover {
@@ -546,8 +552,8 @@ body {
 		}
 
 		.active-values, .collapsible-values:active {
-  			border-top-left-radius: 1.25rem;
-  			border-top-right-radius: 1.25rem;
+			border-top-left-radius: 0.75rem;
+			border-top-right-radius: 0.75rem;
   			border-bottom-left-radius: 0rem;
   			border-bottom-right-radius: 0rem;
 		}
@@ -577,7 +583,7 @@ body {
 		padding-bottom: 1.25rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .intereststxt:hover {
@@ -588,14 +594,17 @@ body {
 		.collapsible-interests {
 			font-family: Proxima;
 			font-size: 0.95vw;
+			text-align: left;
   			background-color: #F5F5F5;
   			color: #483D8B;
   			cursor: pointer;
-  			padding: 0.75rem;
+  			padding-top: 0.75rem;
+  			padding-bottom: 0.75rem;
+  			padding-left: 1.25rem;
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 1rem;
+  			border-radius: 0.75rem;
 		}
 
 		.active-interests, .collapsible-interests:hover {
@@ -604,8 +613,8 @@ body {
 		}
 
 		.active-interests, .collapsible-interests:active {
-  			border-top-left-radius: 1.25rem;
-  			border-top-right-radius: 1.25rem;
+			border-top-left-radius: 0.75rem;
+			border-top-right-radius: 0.75rem;
   			border-bottom-left-radius: 0rem;
   			border-bottom-right-radius: 0rem;
 		}
@@ -635,7 +644,7 @@ body {
 		padding-bottom: 1.25rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .specificationtxt:hover {
@@ -646,14 +655,17 @@ body {
 		.collapsible-spec {
 			font-family: Proxima;
 			font-size: 0.95vw;
+			text-align: left;
   			background-color: #F5F5F5;
   			color: #483D8B;
   			cursor: pointer;
-  			padding: 0.75rem;
+  			padding-top: 0.75rem;
+  			padding-bottom: 0.75rem;
+  			padding-left: 1.25rem;
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 1rem;
+  			border-radius: 0.75rem;
 		}
 
 		.active-spec, .collapsible-spec:hover {
@@ -662,8 +674,8 @@ body {
 		}
 
 		.active-spec, .collapsible-spec:active {
-  			border-top-left-radius: 1.25rem;
-  			border-top-right-radius: 1.25rem;
+			border-top-left-radius: 0.75rem;
+			border-top-right-radius: 0.75rem;
   			border-bottom-left-radius: 0rem;
   			border-bottom-right-radius: 0rem;
 		}
@@ -693,7 +705,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .fyitxt:hover {
@@ -755,7 +767,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .classestxt:hover {
@@ -796,7 +808,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .projectstxt:hover {
@@ -837,7 +849,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .rolestxt:hover {
@@ -874,7 +886,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .cartimetxt:hover {
@@ -915,7 +927,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	.incometxt:hover {
@@ -944,7 +956,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .knowledgetxt:hover {
@@ -979,7 +991,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .mediatxt:hover {
@@ -1014,7 +1026,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .worldtxt:hover {
@@ -1049,7 +1061,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .fooddrinktxt:hover {
@@ -1084,7 +1096,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .restaurantstxt:hover {
@@ -1119,7 +1131,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .brandstxt:hover {
@@ -1158,7 +1170,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .showintrotxt:hover {
@@ -1183,7 +1195,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .projectstxt:hover {
@@ -1208,7 +1220,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .achievetxt:hover {
@@ -1233,7 +1245,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .miscmoodtxt:hover {
@@ -1262,7 +1274,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .blogintrotxt:hover {
@@ -1287,7 +1299,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .blogshelltxt:hover {
@@ -1328,7 +1340,7 @@ body {
 		padding-bottom: 1.25rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .debunktxt:hover {
@@ -1339,14 +1351,17 @@ body {
 		.collapsible-debunk {
 			font-family: Proxima;
 			font-size: 0.95vw;
+			text-align: left;
   			background-color: #F5F5F5;
   			color: #483D8B;
   			cursor: pointer;
-  			padding: 0.75rem;
+  			padding-top: 0.75rem;
+  			padding-bottom: 0.75rem;
+  			padding-left: 1.25rem;
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 1rem;
+  			border-radius: 0.75rem;
 		}
 
 		.active-debunk, .collapsible-debunk:hover {
@@ -1355,8 +1370,8 @@ body {
 		}
 
 		.active-debunk, .collapsible-debunk:active {
-  			border-top-left-radius: 1.25rem;
-  			border-top-right-radius: 1.25rem;
+			border-top-left-radius: 0.75rem;
+			border-top-right-radius: 0.75rem;
   			border-bottom-left-radius: 0rem;
   			border-bottom-right-radius: 0rem;
 		}
@@ -1390,7 +1405,7 @@ body {
 		padding-bottom: 1.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .gwcintrotxt:hover {
@@ -1431,7 +1446,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 5rem;
 		padding-right: 2.5rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .gwcbodytxt:hover {
@@ -1456,7 +1471,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .cafetour-gwctxt:hover {
@@ -1495,7 +1510,7 @@ body {
 		padding-bottom: 1.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .frcintrotxt:hover {
@@ -1536,7 +1551,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 5rem;
 		padding-right: 2.5rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .frcbodytxt:hover {
@@ -1565,7 +1580,7 @@ body {
 		padding-bottom: 1.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .bhtintrotxt:hover {
@@ -1606,7 +1621,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 5rem;
 		padding-right: 2.5rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .bhtbodytxt:hover {
@@ -1631,7 +1646,7 @@ body {
 		padding-bottom: 0.2rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		border-radius: 1.25rem;
+		border-radius: 0.75rem;
 	}
 
 	/* .cafetour-bhtxt:hover {

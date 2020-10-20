@@ -225,8 +225,8 @@ body {
 		padding-bottom: 1.25rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-		word-spacing: 1.25vw;
-		line-height: 1.5vw;
+		word-spacing: 1.5vw;
+		line-height: 1.75vw;
 		display: none;
 		overflow: hidden;
 	}

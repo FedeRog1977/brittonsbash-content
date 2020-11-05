@@ -14,7 +14,7 @@
 /* ~~~~ General Definitions */
 
 h1 {
-	font-family: ProximaBd;
+	font-family: Broadway;
 	font-size: 1.75vw; 
 	color: #483D8B;
 	text-align: left;
@@ -76,8 +76,8 @@ body {
 }
 
 @font-face {
-	font-family: Pictorial;
-	src: url(PictorialSignature.ttf);
+	font-family: Broadway;
+	src: url(Broadway Regular.ttf);
 }
 
 
@@ -104,7 +104,7 @@ body {
 		}
 
 			.topnav-title h2 {
-				font-family: ProximaBd;
+				font-family: Broadway;
 				font-size: 1.25vw;
 				color: #5576D1;
 				font-weight: normal;
@@ -262,7 +262,7 @@ body {
 }
 
 	.home-image h2 {
-		font-family: Proxima;
+		font-family: Broadway;
 		font-size: 5vw;
 		color: #ffffff;
 		letter-spacing: 1vw;
@@ -273,7 +273,7 @@ body {
 	}
 
 	.home-image h3 {
-		font-family: Proxima;
+		font-family: Broadway;
 		font-size: 1.5vw;
 		color: #ffffff;
 		letter-spacing: 1.2vw;

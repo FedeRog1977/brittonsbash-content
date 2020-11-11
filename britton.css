@@ -14,7 +14,7 @@
 /* ~~~~ General Definitions */
 
 h1 {
-	font-family: Broadway;
+	font-family: CMU Serif;
 	font-size: 1.75vw; 
 	color: #483D8B;
 	text-align: left;
@@ -104,7 +104,7 @@ body {
 		}
 
 			.topnav-title h2 {
-				font-family: Broadway;
+				font-family: CMU Serif;
 				font-size: 1.25vw;
 				color: #5576D1;
 				font-weight: normal;
@@ -256,77 +256,116 @@ body {
   	background-position: top;
   	background-repeat: no-repeat;
   	background-size: cover;
-  	padding-top: 15%;
-  	padding-bottom: 15%;
-  	text-align: center;
+  	text-align: left;
 }
 
-	.home-image h2 {
-		font-family: Broadway;
-		font-size: 5vw;
-		color: #ffffff;
-		letter-spacing: 1vw;
-		text-shadow: 1.5px 1.5px 10px #000000;
-		opacity: 75%;
-		margin-top: 0rem;
-		margin-bottom: 0rem;
+	.endorse-cage {
+		padding-top: 0.75%;
+		padding-left:40%;
+		padding-right:30%;
+		margin: center;
 	}
 
-	.home-image h3 {
-		font-family: Broadway;
-		font-size: 1.5vw;
-		color: #ffffff;
-		letter-spacing: 1.2vw;
-		text-shadow: 1.5px 1.5px 10px #000000;
-		opacity: 75%;
-		margin-top: 0rem;
-		margin-bottom: 1.25vw;
-	}
-
-	.home-image-buttons {
-		text-align: center;
-	}
-
-		.btn {
-	  		font-family: Proxima;
-	  		font-size: 0.95vw;
-	  		text-align: center;
-			letter-spacing: 0.4vw;
-			padding-top: 0.75vw;
-			padding-bottom: 0.75vw;
-			padding-left: 1.75vw;
-			padding-right: 1.75vw;
-			cursor: pointer;
+		.endorse {
+			font-family: Proxima;
+			font-size: 1.125vw;
+			letter-spacing: 0.25vw;
+			word-spacing: 0.5vw;
+			display: inline;
+			text-shadow: 1.5px 1.5px 10px #000000;
 		}
 
-		.uni-button {
-			border: 0.125rem solid #ffffff;
-			background-color: #ffffff00;
+			.endorse a:link {
+				color: #ffffff;
+				text-decoration: none;
+				opacity: 75%;
+			}
+
+			.endorse a:visited {
+				color: #ffffff;
+				text-decoration: none;
+				opacity: 75%;
+			}
+
+			.endorse a:hover {
+				color: #ffffff;
+				text-decoration: none;
+				opacity: 50%;
+			}
+
+	.titles-buttons {
+		padding-top: 14.25%;
+		padding-bottom: 15%;
+	  	padding-left: 12.5%;
+  		padding-right: 12.5%;
+	}
+
+		.home-image h2 {
+			font-family: CMU Serif;
+			font-size: 3.5vw;
 			color: #ffffff;
+			letter-spacing: 1vw;
+			text-shadow: 1.5px 1.5px 10px #000000;
 			opacity: 75%;
+			margin-top: 0rem;
+			margin-bottom: 0rem;
+		}
+
+		.home-image h3 {
+			font-family: CMU Serif;
+			font-size: 1.75vw;
+			color: #ffffff;
+			letter-spacing: 0.5vw;
+			text-shadow: 1.5px 1.5px 10px #000000;
+			opacity: 75%;
+			margin-top: 0rem;
 			margin-bottom: 1.25vw;
 		}
 
-		.uni-button:hover {
-	  		border-color: #ffffff; 
-			background-color: #ffffff;
-			color: #000000; 
-			opacity: 75%;
+		.home-image-buttons {
+			text-align: left;
 		}
 
-		.car-button {
-			border: 0.125rem solid #ffffff;
-			background-color: #ffffff00;
-			color: #ffffff;
-			opacity: 75%;
-		}
+			.btn {
+		  		font-family: Proxima;
+		  		font-size: 0.95vw;
+		  		text-align: left;
+				letter-spacing: 0.4vw;
+				padding-top: 0.75vw;
+				padding-bottom: 0.75vw;
+				padding-left: 1.75vw;
+				padding-right: 1.35vw;
+				cursor: pointer;
+			}
 
-		.car-button:hover {
-			border-color: #ffffff; 
-			background-color: #ffffff;
-			color: #000000; 
-			opacity: 75%;
-		}
+			.uni-button {
+				border: 0.125rem solid #ffffff;
+				background-color: #ffffff00;
+				color: #ffffff;
+				opacity: 75%;
+				margin-bottom: 1.25vw;
+			}
+
+			.uni-button:hover {
+		  		border-color: #ffffff; 
+				background-color: #ffffff;
+				color: #000000; 
+				opacity: 75%;
+			}
+
+			.car-button {
+				border: 0.125rem solid #ffffff;
+				background-color: #ffffff00;
+				color: #ffffff;
+				opacity: 75%;
+			}
+
+			.car-button:hover {
+				border-color: #ffffff; 
+				background-color: #ffffff;
+				color: #000000; 
+				opacity: 75%;
+			}
 
 .sumstats {
 	padding-bottom: 1.2rem;

@@ -261,8 +261,9 @@ body {
 
 	.endorse-cage {
 		padding-top: 0.75%;
-		padding-left:34%;
-		padding-right:20%;
+		padding-left: 35%;
+		padding-right:35%;
+		text-align: center;
 		margin: center;
 	}
 

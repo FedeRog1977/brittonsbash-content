@@ -260,15 +260,15 @@ body {
   	text-align: left;
 }
 
-	.endorse-cage {
+	.endorse-cage, .credit-cage {
 		padding-top: 0.75%;
 		padding-left: 35%;
-		padding-right:35%;
+		padding-right: 35%;
 		text-align: center;
 		margin: center;
 	}
 
-		.endorse {
+		.endorse, .credit {
 			font-family: Proxima;
 			font-size: 1.125vw;
 			letter-spacing: 0.25vw;
@@ -368,6 +368,39 @@ body {
 				color: #000000; 
 				opacity: 75%;
 			}
+
+	.credit-cage {
+		padding-bottom: 0.75%;
+		padding-left: 12.5%;
+		padding-right: 12.5%;
+		text-align: right;
+	}
+
+		.credit {
+			font-family: CMU Serif;
+			font-size: 1vw;
+			color: #ffffff;
+			opacity: 75%;
+			letter-spacing: 0vw;
+			word-spacing: -0.25vw;
+			text-shadow: 1.5px 1.5px 10px #000000;
+		}
+
+			.credit a:link {
+				color: #ffffff;
+				text-decoration: none;
+			}
+
+			.credit a:visited {
+				color: #ffffff;
+				text-decoration: none;
+			}
+
+			.credit a:hover {
+				color: #ffffff;
+				text-decoration: none;
+				opacity: 50%;
+			}		
 
 .sumstats {
 	padding-bottom: 1.2rem;

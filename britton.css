@@ -19,6 +19,7 @@ h1 {
 	color: #483D8B;
 	text-align: left;
 	letter-spacing: 0.3333vw;
+	font-weight: normal;
 	margin: 0rem;
 }
 
@@ -28,21 +29,21 @@ h1 {
 	}
 
 h2 {
-	font-family: ProximaBd;
+	font-family: CMU Serif;
 	font-size: 1.25vw;
 	color: #483D8B;
 	font-weight: normal;
 }
 
 h3 {
-	font-family: ProximaBd;
+	font-family: CMU Bold;
 	font-size: 0.95vw;
 	color: #483D8B;
 	font-weight: normal;
 }
 
 h4 {
-	font-family: ProximaBd;
+	font-family: CMU Bold;
 	font-size: 0.95vw;
 	color: #483D8B;
 	font-weight: normal;
@@ -182,7 +183,7 @@ body {
 	}
 
 .footer {
-	font-family: ProximaBd;
+	font-family: CMU Serif;
 	font-size: 0.95vw;
 	text-align: center;
 	color: #483D8B;
@@ -195,7 +196,7 @@ body {
 }
 
 	.collapsible-footer {
-		font-family: Proxima;
+		font-family: CMU Bold;
 		font-size: 0.95vw;
 		background-color: #F5F5F5;
 		color: #483D8B;
@@ -375,7 +376,7 @@ body {
 }
 
 	.summstatstxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: center;
 		line-height: 1.5vw;
@@ -427,7 +428,7 @@ body {
 			}
 
 		.collapsible-sum {
-			font-family: Proxima;
+			font-family: CMU Serif;
 			font-size: 0.95vw;
   			background-color: #F5F5F5;
   			color: #483D8B;
@@ -466,7 +467,7 @@ body {
 }
 
 	.summtxttxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -491,7 +492,7 @@ body {
 }
 
 	.skillstxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -510,7 +511,7 @@ body {
 	} */
 
 		.collapsible-skills {
-			font-family: Proxima;
+			font-family: CMU Serif;
 			font-size: 0.95vw;
 			text-align: left;
   			background-color: #F5F5F5;
@@ -552,7 +553,7 @@ body {
 }
 
 	.valuestxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -571,7 +572,7 @@ body {
 	} */
 
 		.collapsible-values {
-			font-family: Proxima;
+			font-family: CMU Serif;
 			font-size: 0.95vw;
 			text-align: left;
   			background-color: #F5F5F5;
@@ -613,7 +614,7 @@ body {
 }
 
 	.intereststxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -632,7 +633,7 @@ body {
 	} */
 
 		.collapsible-interests {
-			font-family: Proxima;
+			font-family: CMU Serif;
 			font-size: 0.95vw;
 			text-align: left;
   			background-color: #F5F5F5;
@@ -674,7 +675,7 @@ body {
 }
 
 	.specificationtxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -692,8 +693,16 @@ body {
 		border-radius: 0rem;
 	} */
 
+		.specificationtxt u {
+			text-decoration: none;
+		}
+
+			.specification li {
+				padding-left: 1vw;
+			}
+
 		.collapsible-spec {
-			font-family: Proxima;
+			font-family: CMU Serif;
 			font-size: 0.95vw;
 			text-align: left;
   			background-color: #F5F5F5;
@@ -735,7 +744,7 @@ body {
 }
 
 	.fyitxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -797,7 +806,7 @@ body {
 }
 
 	.classestxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -838,7 +847,7 @@ body {
 }
 
 	.projectstxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -879,7 +888,7 @@ body {
 }
 
 	.rolestxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -916,7 +925,7 @@ body {
 }
 
 	.cartimetxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -957,7 +966,7 @@ body {
 }
 
 	.incometxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -986,7 +995,7 @@ body {
 }
 
 	.knowledgetxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1021,7 +1030,7 @@ body {
 }
 
 	.mediatxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1056,7 +1065,7 @@ body {
 }
 
 	.worldtxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1091,7 +1100,7 @@ body {
 }
 
 	.fooddrinktxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1126,7 +1135,7 @@ body {
 }
 
 	.restaurantstxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1161,7 +1170,7 @@ body {
 }
 
 	.brandstxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1200,7 +1209,7 @@ body {
 }
 
 	.showintrotxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1225,7 +1234,7 @@ body {
 }
 
 	.achievetxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1254,7 +1263,7 @@ body {
 }
 
 	.blogintrotxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1279,7 +1288,7 @@ body {
 }
 
 	.blogshelltxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1320,7 +1329,7 @@ body {
 }
 
 	.debunktxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1339,7 +1348,7 @@ body {
 	} */
 
 		.collapsible-debunk {
-			font-family: Proxima;
+			font-family: CMU Serif;
 			font-size: 0.95vw;
 			text-align: left;
   			background-color: #F5F5F5;
@@ -1385,7 +1394,7 @@ body {
 }
 
 	.gwcintrotxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1426,7 +1435,7 @@ body {
 }
 
 	.gwcbodytxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1451,7 +1460,7 @@ body {
 }
 
 	.cafetour-gwctxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1490,7 +1499,7 @@ body {
 }
 
 	.frcintrotxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1531,7 +1540,7 @@ body {
 }
 
 	.frcbodytxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1560,7 +1569,7 @@ body {
 }
 
 	.bhtintrotxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1601,7 +1610,7 @@ body {
 }
 
 	.bhtbodytxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1626,7 +1635,7 @@ body {
 }
 
 	.cafetour-bhtxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;
@@ -1665,7 +1674,7 @@ body {
 }
 
 	.nvabodytxt {
-		font-family: Proxima;
+		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
 		line-height: 1.5vw;

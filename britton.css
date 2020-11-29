@@ -1392,9 +1392,13 @@ body {
 		background-color: #ffffff;
 		padding-top: 2.5rem;
 		padding-bottom: 0.2rem;
-		padding-left: 5rem;
+		padding-left: 2.5rem;
 		padding-right: 2.5rem;
 		border-radius: 0.75rem;
+	}
+
+	.gwcbody img {
+		width: 17.5rem;
 	}
 
 .cafetour-gwc {
@@ -1482,9 +1486,18 @@ body {
 		background-color: #ffffff;
 		padding-top: 2.5rem;
 		padding-bottom: 0.2rem;
-		padding-left: 5rem;
+		padding-left: 2.5rem;
 		padding-right: 2.5rem;
 		border-radius: 0.75rem;
+	}
+
+	.frcbody td {
+		text-align: center;
+		padding-bottom: 2.5rem;
+	}
+
+	.frcbody img {
+		width: 17.5rem;
 	}
 
 
@@ -1542,9 +1555,13 @@ body {
 		background-color: #ffffff;
 		padding-top: 2.5rem;
 		padding-bottom: 0.2rem;
-		padding-left: 5rem;
+		padding-left: 2.5rem;
 		padding-right: 2.5rem;
 		border-radius: 0.75rem;
+	}
+
+	.bhtbody img {
+		width: 17.5rem;
 	}
 
 .cafetour-bh {

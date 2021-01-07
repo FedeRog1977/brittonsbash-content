@@ -211,7 +211,7 @@ body {
 	}
 
 		.endorse, .credit {
-			font-family: CMU Serif;
+			font-family: Proxima;
 			font-size: 1.125vw;
 			letter-spacing: 0.25vw;
 			word-spacing: 0.5vw;
@@ -271,7 +271,7 @@ body {
 		}
 
 			.btn {
-		  		font-family: CMU Serif;
+		  		font-family: Proxima;
 		  		font-size: 0.95vw;
 		  		text-align: left;
 				letter-spacing: 0.4vw;
@@ -1703,6 +1703,70 @@ body {
 	}
 
 	.piubodytxt a:hover {
+		color: #96b9ee;
+		text-decoration: none;
+		border-bottom: 2.5px solid #483D8B;
+	}
+
+
+/* ~~~~ Blog - MV */
+
+.mvintro {
+	padding-top: 2.5%;
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.mvintrotxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 1.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 0.75rem;
+	}
+
+.mvbody {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.mvbodytxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 1.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 0.75rem;
+	}
+
+	.mvbodytxt u {
+		text-decoration: none;
+	}
+
+	.mvbodytxt a:link {
+		color: #483D8B;
+		text-decoration: none;
+	}
+
+	.mvbodytxt a:visited {
+		color: #483D8B;
+		text-decoration: none;
+	}
+
+	.mvbodytxt a:hover {
 		color: #96b9ee;
 		text-decoration: none;
 		border-bottom: 2.5px solid #483D8B;

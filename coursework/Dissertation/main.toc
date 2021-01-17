@@ -83,3 +83,28 @@
 \contentsline {paragraph}{\numberline {5.6.1.4}Omitting Christmas Days}{71}% 
 \contentsline {paragraph}{\numberline {5.6.1.5}Omitting New Year\IeC {\textquoteright }s Days}{71}% 
 \contentsline {subsubsection}{\numberline {5.6.2}The NASDAQ Composite Index}{71}% 
+\contentsline {paragraph}{\numberline {5.6.2.1}Standard Observation}{76}% 
+\contentsline {paragraph}{\numberline {5.6.2.2}Omitting Pre-Holiday Fridays}{76}% 
+\contentsline {paragraph}{\numberline {5.6.2.3}Omitting Winter Weekends}{76}% 
+\contentsline {paragraph}{\numberline {5.6.2.4}Omitting Christmas Days}{77}% 
+\contentsline {paragraph}{\numberline {5.6.2.5}Omitting New Year\IeC {\textquoteright }s Days}{77}% 
+\contentsline {subsubsection}{\numberline {5.6.3}The S\&P 500}{77}% 
+\contentsline {paragraph}{\numberline {5.6.3.1}Standard Observation}{82}% 
+\contentsline {paragraph}{\numberline {5.6.3.2}Omitting Pre-Holiday Fridays}{82}% 
+\contentsline {paragraph}{\numberline {5.6.3.3}Omitting Winter Weekends}{82}% 
+\contentsline {paragraph}{\numberline {5.6.3.4}Omitting Christmas Days}{83}% 
+\contentsline {paragraph}{\numberline {5.6.3.5}Omitting New Year\IeC {\textquoteright }s Days}{83}% 
+\contentsline {subsection}{\numberline {5.7}Measures of Model Integrity}{84}% 
+\contentsline {subsection}{\numberline {5.8}Question \& Answer Summary}{86}% 
+\contentsline {section}{\numberline {6}Research Conclusions}{87}% 
+\contentsline {subsection}{\numberline {6.1}Does Fama\IeC {\textquoteright }s (1970) EMH Hold In Practice?}{87}% 
+\contentsline {subsection}{\numberline {6.2}Is the Seasonal Effect Present in the US Market?}{88}% 
+\contentsline {subsubsection}{\numberline {6.2.1}Does the Weekend Effect Exist?}{88}% 
+\contentsline {subsubsection}{\numberline {6.2.2}Does the January Effect Exist?}{88}% 
+\contentsline {subsubsection}{\numberline {6.2.3}Does the Holiday Effect Exist?}{89}% 
+\contentsline {subsection}{\numberline {6.3}What Drives Abnormal Returns?}{90}% 
+\contentsline {subsubsection}{\numberline {6.3.1}Is the Holiday Effect Significantly Influenced By Pre-Holiday Fridays?}{90}% 
+\contentsline {subsubsection}{\numberline {6.3.2}Is the Holiday Effect Significantly Influenced By Winter Weekends?}{90}% 
+\contentsline {subsubsection}{\numberline {6.3.3}Is the Holiday Effect Significantly Influenced By Christmas Days?}{90}% 
+\contentsline {subsubsection}{\numberline {6.3.4}Is the Holiday Effect Significantly Influenced By New Year?}{91}% 
+\contentsline {subsection}{\numberline {6.4}Final Notes}{92}% 

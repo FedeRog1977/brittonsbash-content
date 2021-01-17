@@ -1883,7 +1883,7 @@ This piece would not have been as efficient without the aid of the only acceptab
 	\begin{figure}[H]
         \begin{center}
                 \includegraphics[width=9cm,height=5cm]{NYSE-HE1.png} 
-                \caption{NYSE Comprehensive January Effect Mean Daily Returns}
+                \caption{NYSE Comprehensive Holiday Effect Mean Daily Returns}
         \end{center}
         \end{figure}
 
@@ -1892,7 +1892,7 @@ This piece would not have been as efficient without the aid of the only acceptab
 	\begin{figure}[H]
         \begin{center}
                 \includegraphics[width=9cm,height=5cm]{NYSE-HE2.png}              
-		\caption{NYSE Comprehensive January Effect Mean Daily Returns H.E.E.}
+		\caption{NYSE Comprehensive Holiday Effect Mean Daily Returns H.E.E.}
         \end{center}
         \end{figure}
 
@@ -1901,7 +1901,7 @@ This piece would not have been as efficient without the aid of the only acceptab
 	\begin{figure}[H]
         \begin{center}
                 \includegraphics[width=9cm,height=5cm]{NYSE-HE3.png}              
-                \caption{NYSE Segmented January Effect Mean Daily Returns H.E.E.}    
+                \caption{NYSE Segmented Holiday Effect Mean Daily Returns H.E.E.}    
         \end{center}
         \end{figure}
 
@@ -2112,28 +2112,655 @@ This piece would not have been as efficient without the aid of the only acceptab
 
 		\subsubsection{The NASDAQ Composite Index}
 
+	\begin{figure}[H]
+        \begin{center}
+                \includegraphics[width=9cm,height=5cm]{NAS-HE1.png} 
+                \caption{NASDAQ Comprehensive Holiday Effect Mean Daily Returns}
+        \end{center}
+        \end{figure}
 
+	Figure 19 shows evidence of the Holiday Effect theory in the NASDAQ, though not as explicitly as Figure 16 does, the NYSE. Pre-holidays hold the only positive mean and in that, also the greatest magnitude by \~{}67\%. Negative post-holidays support the Holiday Effect also.
 
+	\begin{figure}[H]
+        \begin{center}
+                \includegraphics[width=9cm,height=5cm]{NAS-HE2.png}              
+                \caption{NASDAQ Comprehensive Holiday Effect Mean Daily Returns H.E.E.} 
+        \end{center}
+        \end{figure}
 
+	Figure 20 shows that the removal of pre-holiday Fridays has a similar effect to that of the NYSE’s. Pre-holiday average return becomes negative but not nearly as negative as that of the NYSE, only \~{}30\% of the magnitude. This again means many of the most valuable pre-holidays fall on Fridays. Omitting winter weekends reduces pre-holiday mean slightly and makes the post-holiday mean slightly more negative, meaning some high-return pre-holidays and some of the higher/positive post-holidays fall around winter weekends. Winter weekends hold an `inverse- post-holiday effect’ Omitting Christmas holidays has a very similar effect to winter weekends, with almost identical alterations. Meaning that Christmas periods hold this `inverse post-holiday effect’. Removing New Year has a negligible effect, likely meaning an even spread of positive/negative, high-magnitude/low-magnitude values were extracted in doing so.
 
+	\begin{figure}[H]
+        \begin{center}
+                \includegraphics[width=9cm,height=5cm]{NAS-HE3.png}              
+                \caption{NASDAQ Segmented Holiday Effect Mean Daily Returns H.E.E.}    
+        \end{center}
+        \end{figure}
 
+	Once again, prior arguments are supported when segmented, in Figure 21. The negative Friday-removal pre-holidays are primarily driven by 2000-2009, with the greatest negativity and magnitude across-the-board. Thus, 2000-2009 contained the most positive pre-holiday Fridays. The removal of winter weekends, Christmas and New Year saw roughly the same trends as each-other; with 2000-2009 actually experiencing increases in pre-holiday means for removal of winter weekends and New Year, meaning they held lower pre-holiday returns in those days. 2000-2009 does however see a flip to negativity in removal of Christmas meaning they held higher pre-Christmas-holiday days. 2000-2009 also led in the biggest drop (increase in negativity) in post-holiday days, being up to 100\% larger than prior periods. This means 2000-2009 also held the highest (least-negative/most-positive) winter/Christmas/New Year post-holidays. There’s also evidence that the near-zero ‘other day’ returns aren’t caused by opposing skews etc. but simply higher/lower (not- zero) returns are found on pre/post-holiday days. Other days’ find consistent deviation from zero over the period.
 
+	\newpage
 
+	\begin{center}
+                \scriptsize
+        \begin{longtable}{ p{2cm} p{2cm} p{2cm} p{2cm} p{2cm} }
+                & \textbf{coefficient} & \textbf{std.err} & \textbf{t-ratio} & \textbf{p-value}\\
+                \hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Standard}}\\
+                \hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+		\multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \hline                                 
+                \multicolumn{5}{c}{\textbf{Omitting Pre-Holiday Fridays}}\\         
+                \hline
+                \hline                                                 
+                \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline                                          
+                \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\   
+                \hline                                          
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \hline
+		\multicolumn{5}{c}{\textbf{Omitting Winter Weekends}}\\ 
+                \hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
+                \hline                                          
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \hline                                          
+                \multicolumn{5}{c}{\textbf{Omitting Christmas Days}}\\ 
+                \hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+		\hline 
+                \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
+                \hline                                          
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \hline                                          
+                \multicolumn{5}{c}{\textbf{Omitting New Year's Days}}\\ 
+                \hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
+                \hline                                          
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{l}{$^*$: 10\% Significance Level}\\  
+                \multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\ 
+                \multicolumn{5}{l}{$^{***}$: 1\% Significance Level}\\
+                \hline
+                \caption{NASDAQ Holiday Effect Regression Results}
+        \end{longtable}
+        \end{center}
 
+			\paragraph{Standard Observation}
 
+			Table 5.17 highlights significantly positive pre-holiday days in all periods apart from 2000-2009. The greatest significance is seen in 1990-1999, at 1\% ; highlighting a coefficient stating pre-holidays result in a higher average return 0.002248 units, over other days. Thus, the null hypothesis is rejected with 95-99\% confidence across these periods. There is therefore, a present pre-holiday effect but no Holiday Effect as there is no significance in negative post-holidays.
 
+			\paragraph{Omitting Pre-Holiday Fridays}
 
+			Removal of pre-holiday Fridays sees all significant positivity removed. Two of the four coefficients which were once significantly positive, flip to negative. Although they aren’t significantly negative, they still support the argument that pre-holiday days’ significance is primarily held on Fridays. Recall, this is most apparent from 2000-2009 (Figure 21).
 
+			\paragraph{Omitting Winter Weekends}
 
+			The removal of winter weekends sees a slight drop in significance comprehensive; from 1\% to 5\% in a positive pre-holiday effect. All pre-holiday significance is also removed from the periods of 1990-1999 and 2010-2016. This means winter weekends hold significantly higher pre-holiday days in these times. There is no notable significant change in post-holidays although, they are made slightly more negative; significant at the 10\% level. This means winter weekend post-holiday do contain some slightly significantly higher returns – ‘inverse post-holiday effect’ in winter weekends. There is no significant change on `other’ days.
 
+			\paragraph{Omitting Christmas Days}
 
+			Removal of Christmas days does not have as significant an impact as winter weekends however, significance is dropped to 10\% from 5\%. This means that Christmas Day pre-holidays do in fact contain significantly higher returns also. The same argument in winter weekend post-holiday days holds for Christmas Day post-holidays, meaning they too contain an `inverse post-holiday effect’.
 
+			\paragraph{Omitting New Year’s Days}
 
+			Removal of New Year, like Christmas Days, sees a drop from 1\% to 5\% significance in positive pre-holidays. All of 2000-2009’s pre-holiday positive significance, once at the 5\% level, is removed. Thus, meaning New Year pre-holidays contain significantly higher returns in 2000-2009. There is no significant change in post-holidays.
 
+		\subsubsection{The S\&P 500}
+
+	\begin{figure}[H]
+        \begin{center}
+                \includegraphics[width=9cm,height=5cm]{SP-HE1.png} 
+		\caption{S\&P 500 Comprehensive Holiday Effect Mean Daily Returns}
+        \end{center}
+        \end{figure}
+
+	Figure 22 highlights a large comprehensive pre-holiday effect; with pre-holiday mean return being \~{}260\% greater than that of other days. However, it is less than both NYSE and NASDAQ. Post-holidays do not support the Holiday Effect as their mean lies above zero, although it is only \~{}30\% of other days’.
+
+	\begin{figure}[H]
+        \begin{center}
+                \includegraphics[width=9cm,height=5cm]{SP-HE2.png} 
+		\caption{S\&P 500 Comprehensive Holiday Effect Mean Daily Returns H.E.E.}
+        \end{center}
+        \end{figure}
+
+	Figure 23 shows that the removal of pre-holiday Fridays has the greatest effect in the S\&P 500, with pre-holiday return obtaining the greatest magnitude by \~{}33\% over the NYSE’s and, being by far more negative/positive than any other observation on the S\&P 500. This means the S\&P 500 contains the most abnormally valuable Fridays falling on pre-holiday days. Omitting winter weekends and Christmas Days has an approximately equal effect on pre-holiday Fridays in that their mean is slightly reduced; meaning a few higher-valued pre-holiday days fell in these periods. Both of these omissions, in addition to New Year omissions, also make post-holiday means less-than-zero; meaning some higher-valued post-holiday days were contained in those observations; `inverse-post-holiday effect’ contained in removed days. Removing New Year increases pre-holiday mean slightly; meaning some lower-valued pre-holidays were contained around New Year; `inverse-pre-holiday effect’ contained in removed days. Other days go observably-unaltered meaning near-mean or equally positive/negative `other-day’ winter weekends were removed.
+
+	\begin{figure}[H]
+        \begin{center}
+                \includegraphics[width=9cm,height=5cm]{SP-HE3.png} 
+		\caption{S\&P 500 Segmented Holiday Effect Mean Daily Returns H.E.E.}
+        \end{center}
+        \end{figure}
+
+	Figure 24 shows the highest pre-holiday mean return in 1980-1989, in-line with the NYSE and NASDAQ. Pre-holiday means follow the trend of high-to-low in order: 1980-1989, 2010-2016, 1990-1999, 2000-2009 and hold this trend over removals of winter weekends, Christmas Days and New Year; meaning any effects these removals have work proportionately and don’t occur more-than-average at any given time. The aforementioned trend inverts in context of negativity when pre-holiday Fridays are removed (1980-1989 being least negative, 2000-2009 being most negative etc.); meaning again the effects of removing pre-holiday Fridays are consistent. Almost all of the negativity/flip-to-negativity in post-holiday days is contained within 2000-2016; there’s near-insignificant change the rest of the time; meaning the majority of higher- than-average post-holiday days are removed in 2000-2016. Other days follow a consistent trend across all amendments/periods.
+
+	\newpage
+
+	\begin{center}
+                \scriptsize
+        \begin{longtable}{ p{2cm} p{2cm} p{2cm} p{2cm} p{2cm} }
+                & \textbf{coefficient} & \textbf{std.err} & \textbf{t-ratio} & \textbf{p-value}\\
+                \hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Standard}}\\
+                \hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \hline                                 
+                \multicolumn{5}{c}{\textbf{Omitting Pre-Holiday Fridays}}\\
+		\hline
+                \hline                                                 
+                \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline                                          
+                \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\   
+                \hline                                          
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Omitting Winter Weekends}}\\
+		\hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
+                \hline                                          
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \hline                                          
+                \multicolumn{5}{c}{\textbf{Omitting Christmas Days}}\\
+		\hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
+                \hline                                          
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \hline                                          
+                \multicolumn{5}{c}{\textbf{Omitting New Year's Days}}\\
+		\hline
+                \hline
+                \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
+                \hline
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
+                \hline                                          
+                Pre-Hol & & & & \\
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline 
+                \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
+                \hline            
+                Pre-Hol & & & & \\ 
+                Post-Hol & & & & \\  
+                Other Days & & & & \\
+                \hline
+                \multicolumn{5}{l}{$^*$: 10\% Significance Level}\\  
+                \multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\ 
+                \multicolumn{5}{l}{$^{***}$: 1\% Significance Level}\\
+                \hline
+		\caption{S\&P 500 Holiday Effect Regression Results}
+        \end{longtable}
+        \end{center}
+
+			\paragraph{Standard Observation}
+
+			Table 5.18 highlights no cases of significantly positive pre-holiday observations or significantly negative post-holiday observations. Thus, there is no Holiday Effect present. The furthest from the Holiday Effect is 1990-1999, with non-pre/post-holiday days being the significant driver of positive returns in that period; at the 1\% significant level. Therefore, the null hypothesis is failed-to-be-rejected stating that returns on observed days (pre/post-holidays) are not significantly different from those of other days.
+
+			\paragraph{Omitting Pre-Holiday Fridays}
+
+			Removal of pre-holiday Fridays sees pre-holiday days comprehensively go from insignificant (actually 10\% level) to negative at the 1\% significance level. This is primarily driven by 1990-1999’s pre-holiday significant negativity at the 5\% level and the introduction of significant negativity at the 10\% level in 2000-2009. All coefficients, including insignificant ones, are indeed flipped to negative. Thus, the S\&P 500 supports the argument that pre-holiday days’ significance is primarily held on Fridays.
+
+			\paragraph{Omitting Winter Weekends}
+
+			The removal of winter weekends first, removes comprehensive significance in pre- holiday days but this was only relevant at the 10\% level. It does mean though that winter weekends contain marginally higher pre-holiday returns in this observation. Primarily, winter weekend removal lowers `other’ day positive significance in 1990- 1999 meaning non-pre/post-holiday winter weekend days were marginally higher in that period. And, it adds `other’ day positive significance in 2010-2016 meaning non- pre/post-holiday winter weekend days were marginally lower in that period. There is no significant change on `other’ days. There is no significant post-holiday change.
+
+			\paragraph{Omitting Christmas Days}
+
+			Removal of Christmas Days does not have any significant effect on pre-holiday or post-holiday returns, in any period. Significance and coefficients remain the same as the standard observation’s.
+
+			\paragraph{Omitting New Year’s Days}
+
+			The removal of New Year has a slight impact in the comprehensive positive significance of pre-holidays. Significance increases from 10\% to 5\%, caused by a fairly even spread of lower-return pre-New-Year-holidays across the segmented periods, as there is no significant spike in any particular period. This therefore means that, although it does not align with the expectation that pre-New-Year-holidays would be higher, the pre-holiday effect would be determined present in the S\&P 500, given the disappearance of New Year.
+
+	\newpage
+
+	\subsection{Measures of Model Integrity}
+
+	Models within this study use only variables which are products of correspondence with one set of values (in their relative model). Therefore, tests such as R$^2$ observation, omitted variable bias, information criteria, f-tests, RESET tests, endogeneity tests are irrelevant as an `optimal model’ with `optimal variables’ is not sought. There is simply observation of correspondence. All tests are outlined in full, in Figure B3, for your leisure. Below, in Tables 5.19 and 5.20, heteroscedasticity `White’ test and unit-root `Dickie-Fuller’ test results are displayed respectively. Accounting for the models with Holiday Effect omissions is irrelevant; not included.
+
+	\begin{table}[h]
+		\scriptsize
+	\begin{center}
+	\begin{tabular}{ p{2.25cm} p{2.25cm} p{2.25cm} p{2.25cm} p{2.25cm} }
+		\textbf{Comprehensive} & \textbf{1989--1989} & \textbf{1990--1999} & \textbf{2000--2009} & \textbf{2010--2016}\\
+		\hline
+		\hline
+		\multicolumn{5}{c}{\textbf{Weekend Effect Models}}\\
+		\hline
+		\hline
+		\multicolumn{5}{c}{\textbf{NYSE Composite p-values}}\\
+		\hline
+		0.070120 & 0.656886 & 0.060085 & 0.200971 & 0.987515\\
+		\hline
+		\multicolumn{5}{c}{\textbf{NASDAQ Composite p-values}}\\
+		\hline
+		0.321306 & 0.254783 & 0.052530 & 0.407484 & 0.955632\\
+		\hline
+		\multicolumn{5}{c}{\textbf{S\&P 500 p-values}}\\
+		\hline
+		0.087312 & 0.792264 & 0.070942 & 0.390712 & 0.967437\\
+		\hline
+		\hline
+		\multicolumn{5}{c}{\textbf{January Effect Models}}\\
+                \hline
+                \hline
+                \multicolumn{5}{c}{\textbf{NYSE Composite p-values}}\\
+		\hline
+		0.320315 & 0.225796 & 0.285982 & 0.548384 & 0.092961\\
+		\hline
+		\multicolumn{5}{c}{\textbf{NASDAQ Composite p-values}}\\
+		\hline
+		0.387380 & 0.097319 & 0.307185 & 0.485721 & 0.413817\\
+		\hline 
+		\multicolumn{5}{c}{\textbf{S\&P 500 p-values}}\\
+		\hline
+		0.073835 & 0.223072 & 0.182985 & 0.447122 & 0.059895\\
+		\hline
+		\hline
+		\multicolumn{5}{c}{\textbf{Holiday Effect Models}}\\
+		\hline
+		\hline
+		\multicolumn{5}{c}{\textbf{NYSE Composite p-values}}\\
+		\hline
+		0.360840 & 0.845632 & 0.316595 & 0.302404 & 0.868398\\
+		\hline
+                \multicolumn{5}{c}{\textbf{NASDAQ Composite p-values}}\\
+		\hline
+		0.064794 & 0.553657 & 0.303319 & 0.123635 & 0.135701\\
+		\hline
+                \multicolumn{5}{c}{\textbf{S\&P 500 p-values}}\\
+		\hline
+		0.421098 & 0.798743 & 0.287562 & 0.367225 & 0.821357\\
+		\hline
+	\end{tabular}
+		\caption{Heteroscedasticity `White' Test Results}
+	\end{center}
+	\end{table}
+
+	Again, all variables are products of correspondence with one set of values (in their relative model). Given this and the type of model usen, no heteroscedasticity issues should be present. Table 5.19 displays evidence that there is no heteroscedasticity present in any model, finding consistent p-values which are all over 0.05. Therefore, in all cases, the null hypothesis that there is homoscedasticity present (constant error terms) is failed-to-be-rejected.
+
+	\begin{table}[h]
+		\scriptsize
+	\begin{center}
+	\begin{tabular}{ p{3.5cm} p{3.5cm} p{3.5cm} }
+		\textbf{NYSE Composite} & \textbf{NASDAQ Composite} & \textbf{S\&P 500}\\
+		\hline
+		\multicolumn{3}{c}{\textbf{Daily Returns p-values}}\\
+		\hline
+		3.663e-37 & 2.642e-35 & 3.247e-36\\
+		\hline
+		\multicolumn{3}{c}{\textbf{Monthly Returns p-values}}\\
+		\hline
+		6.5e-35 & 9.315e-35 & 1.212e-35\\
+		\hline
+	\end{tabular}
+		\caption{Unit-Root `Dickie-Fuller’ Test Results}
+	\end{center}
+	\end{table}
+
+	Table 5.20 shows that there are no unit-roots present in any model, finding consistent p-values which are all significantly below 0.05. Therefore, in all cases, the null hypothesis that there is non-stationarity, unit-roots, is rejected with 99\% confidence. The alternative hypothesis that there is stationarity and no unit-roots is favoured.
+
+	\newpage 
+
+	\subsection{Question \& Answer Summary}
+
+	\begin{table}[h]
+        \begin{center}
+        	\scriptsize
+        \begin{tabular}{ l l l }
+        	\textbf{Question} & & \textbf{Status} \\ 
+        	\hline
+        	\textbf{Q1} & \textbf{Does Fama’s (1970) EMH hold in empirical evidence?} & Partial\\
+                \textbf{Q2} & \textbf{Is the Seasonal Effect apparent in the US Market?} & Partial\\
+        	Q2.1 & Does the Weekend Effect exist? & Partial\\
+                Q2.2 & Does the January Effect exist? & Partial\\
+                Q2.3 & Does the Holiday Effect exist? & Partial\\
+                \textbf{Q3} & \textbf{Do internal patterns influence Abnormal Returns?} & Partial\\
+                Q3.1 & Is the Holiday Effect significantly influenced by pre-holiday Fridays? & Yes\\
+                Q3.2 & Is the Holiday Effect significantly influenced by winter weekends? & Partial\\
+                Q3.3 & Is the Holiday Effect significantly influenced by Christmas Day? & Partial\\
+                Q3.4 & Is the Holiday Effect significantly influenced by New Year? & No\\
+                \textbf{Q4} & \textbf{Are methods in this research relevant?} & Yes\\
+                Q4.1 & Do up-to-date-sample results differ from those of past research? & Yes\\
+                Q4.2 & Do results significantly differ over indices? & Yes\\
+                Q4.3 & Do results significantly differ over time-period segments? & Yes\\
+                \hline
+                Yes/No: & There is/is no significant evidence in past research and current observations \\
+                Partial: & There is inconsistent significant evidence in past research and current observations \\
+                TBD/...: & To Be Discussed/Being Discussed \\
+                \hline
+        \end{tabular}                            
+                \caption {Questions (Chapter 5 Update)}
+        \end{center}
+	\end{table}
+
+	Table 5.21 evises questions. In result, it would be difficult to say that Fama’s (1970) EMH holds in empirical evidence. Much like previous literature, evidence of the Weekend Effect, the January Effect and the Holiday Effect is found, frequently in partial components, sometimes in the correct trends but not significant enough to be determined noteworthy. The removal of pre-holiday Fridays does have a consistent effect on pre-holidays; removing any pre-holiday effect and making pre-holiday returns negative in all observations. Removal of winter weekends has some effect on the removal of any pre-holiday effect however, this is inconsistent over time and indices. The omission of Christmas Days and New Year’s Days has a similar but, again, inconsistent effect. Although similar evidence holds with regards to past research, the up-to-date and segmented sample used shows various factors diminish towards the present day.
+
+\newpage 
+% Conclusion
+
+	\section{Research Conclusions}
+
+	\subsection{Does Fama’s (1970) EMH Hold In Practice?}
+
+	In the foundation of the US stock market, intensions of investors were as pure as they would have ever been. They sought the closest outcomes to ones as described by Fama; in fully-reflective prices, fair values, passive portfolios. Portfolios followed a risk- seeking/risk-averse pattern, in-line with Fama’s argument of higher-risk, higher- payoff. To this day, Fama’s outline has loosened. ``Historical prices are irrelevant..." is untrue in 2020. Previous literature and this study has reinforced the fact that there are patterns in seasonal stock returns. As always, these are never a given; `written-in- stone’, if you will. This information may be ``financially costless/available" but, these patterns do not reflect ``certain and agreed upon prices" (Fama, 1970). They are persistent but not reliable, meaning that they aren’t entirely irrelevant when predicting future prices, as Fama describes, but their stability has lost-grip in recent years and they’re becoming a less-reliable way for investors to react. If there is a peak in `disagreement’ with Fama’s arguments, it’s visible mostly in the mid-to-late 1900’s. Even the Seasonal Effect is becoming far more in-line with `luck’.
+
+	\newpage
+
+	\subsection{Is the Seasonal Effect Present in the US Market?}
+
+	Following headings are named according to Q2 and Q3. Conclusions are made considering the unlisted Q4. Recall:\\
+
+	\textbf{Q4 Are methods in this research relevant?}\\ Q4.1 Do up-to-date-sample results differ from those of past research?\\ Q4.2 Do results significantly differ over indices?\\ Q4.3 Do results significantly differ over time-period segments?
+
+		\subsubsection{Does the Weekend Effect Exist?}
+
+		The Weekend Effect exists partially. Most frequently, only the Monday Effect is present, with only one case of the full Weekend Effect. In-line with Keim and Stambaugh (1984), partial evidence is found in the S\&P 500. This is extended to the NYSE and NASDAQ and does show reason for including multiple indices in that, the NASDAQ shows the full Weekend Effect in 1980-1989 and, an overall/comprehensive Monday Effect. This differs from the NYSE and S\&P 500 which include only 1980- 1989/1990-1999 Monday Effects. From this it’s also clear that the time-period- segmentation are effective, showing the Weekend/Monday Effect diminishes over time. The NASDAQ shows the most negative Monday returns and the most consistent negative returns. They are negative until 2010-2016, after which they are still barely positive. The NYSE and S\&P 500 see positivity after 1990-1999 meaning their Monday Effect is lost. The NASDAQ’s full Weekend Effect also comes early in 1980-1989, supporting the former. It continues to support Weekend Effect trends longer than the other two indices, though not significantly.
+
+		\subsubsection{Does the January Effect Exist?}
+
+		The January Effect exists partially. This is said at a long stretch as it only appear in one period, 1990-1999 in the NASDAQ. The NASDAQ is the only index in which January is amongst the group which holds the highest returns. Rozeff and Kinney (1976) also find evidence over a long seventy-year period however, suggest that it is diminishing. The fact that, succeeding Rozeff and Kinney’s literature, the only observation here is in one period and one index shows that a once-visible January Effect has indeed died off. Thus, making the use of time-period-segmentations useful. The use of multiple indices however, does show there is more January Effect evidence around different types of investors/firms within the NASDAQ. Although from 2000, the NASDAQ’s January returns have too, become consistently negative. The January Effect is the least evident, persistent and stable factor in this study.
+
+		\subsubsection{Does the Holiday Effect Exist?}
+
+		The Holiday Effect exists partially. The Holiday Effect exists only in the form of the pre-holiday effect, in all observations. This aligns with Kim and Park’s (1994) observations of the NYSE and NASDAQ, on a more up-to-date basis. Pre-holiday returns are generally most positive in the NASDAQ and post-holiday returns are generally the most negative. This aligns with the persistence of the pre-holiday effect throughout almost periods in the NASDAQ, showing no sign of dying off. Thus, the NASDAQ highlights the most `predictable’ opportunity for positive abnormal returns. Meaning, investment factors aligned with the Holiday Effect are most apparent in more advancing, innovative, sometimes newer firms. This suggests that the Holiday Effect could continue to be persistent in firms of types such as those listed on the NASDAQ but, not within some older, more traditional and less growth-oriented firms. All of the former shows the effectiveness of utilising all three indices. The NYSE and S\&P 500 may show similar trends but nothing significant. They could still be argued as being ‘predictable’ however, returns may not be significant.
+
+	\newpage
+
+	\subsection{What Drives Abnormal Returns?}
+
+		\subsubsection{Is the Holiday Effect Significantly Influenced By Pre-Holiday Fridays?}
+
+		Pre-holiday Fridays influence pre-holidays. Liano, et al. (1992) suggest there’s a pattern in pre-holiday Fridays being the most profitable. Some evidence is provided but no definitive answer. This study shows persistent evidence across all indices and all time periods that removing pre-holiday Fridays makes pre-holiday returns hypothetically negative. There are only two cases in which this didn’t happen, both of which did still see a drop in positivity. The S\&P 500 saw the greatest negativity and the NASDAQ saw the most uncertainty over this amendment. The hypothetical case of the inverse-pre-holiday effect on pre-holidays means pre-holiday Fridays contain the most significant pre-holiday effect. We know there is a lack of the Friday Effect in this study meaning that if there was a Friday Effect, all Fridays would have to be pre-holidays. Thus, the majority of significantly positive Fridays fall on pre- holidays. The pre-holiday effect drives any Friday Effect that may be present on a smaller scale, e.g. when observing weekly/monthly intervals. This aligns well with expectations of this study and projections of Liano, et al. (1992). Finding a greater effect than Liano, et al., who only find a halving of pre-holiday magnitude.
+
+		\subsubsection{Is the Holiday Effect Significantly Influenced By Winter Weekends?}
+
+		Winter weekends influence pre-holidays, to some degree. In the same fashion as pre- holiday Fridays, winter weekends tend to hold slightly above-average-return pre- holidays. However, these are only high enough to remove significance from two periods across one index. Although the trend does agree with Kim and Park’s (1994) suggestion around amplified investor behaviour at the winter holiday period, there’s not enough significance to make any definitive conclusions.
+
+		\subsubsection{Is the Holiday Effect Significantly Influenced By Christmas Days?}
+
+		Christmas Days do not influence pre/post-holidays, to a significant degree. Across all indices and most time-periods, again, their removal has a similar effect to that of winter weekends; two periods of pre-holiday significance is removed, in one index. The trend again does align with the expectations of Christmas Day holidays holding above- average pre-holidays. There’s not much to be said regarding post-holidays.
+
+		\subsubsection{Is the Holiday Effect Significantly Influenced By New Year?}
+
+		New Year does not influence pre/post-holidays, to a significant degree. Their removal has the same effect as that of Christmas, with the trend again aligning with expectation, just not to a greatly significant degree. Their notable contribution is the hypothetical creation of the pre-holiday effect in the S\&P 500, upon removal. Meaning in that case, they contradict expectations in their lower-than-average pre-holiday values.
+
+	\newpage
+
+	\subsection{Final Notes}
+
+	The Monday Effect is more evident than the Friday Effect. The January Effect is barely present. The pre-holiday effect is more evident than the post-holiday effect, any post-holiday effect/post-holiday change after amendment is too insignificant to draw certain conclusions. Pre-holiday Fridays drive positive pre-holiday abnormal returns. The Holiday Effect drives any smaller-scale Friday Effect. Winter weekends, Christmas and New Year contain primarily higher pre-holidays than other holidays, although majorly insignificantly so. Results support findings and suggestions/projections from past literature. Effects are usually more evident in a single index. All effects diminish over time apart from the NASDAQ’s pre-holiday effect.\\
+
+	Yes, the Seasonal Effect exists but does this mean Fama’s idea of abnormal returns only being present under `luck’ is completely irrelevant? No, of course not. Seasonal patterns may be predictable to a degree however, there is a significantly lacking foundation for their integrity. Investor behaviour is unpredictable and just because investors have historically shown consistent seasonal patterns and changes in behaviour, circumstances could still change at any moment. If there was more rationale behind the Seasonal Effect, it could be a consistently reliable investment strategy but, like most financial patterns, it’s simply another futile theoretical overstatement.
 
 \newpage
 % Appendices
-% Dont need ToC, just use unlisted titles and headings
 
 	\pagenumbering{Roman}
 

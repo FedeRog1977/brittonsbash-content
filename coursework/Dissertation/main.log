@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  17 JAN 2021 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  17 JAN 2021 21:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -456,19 +456,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[4] [5] (./main.toc [6] [7])
+[4] [5] (./main.toc [6] [7] [8])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [8] (./main.lot)
+ [9] (./main.lot)
 \tf@lot=\write4
 \openout4 = `main.lot'.
 
- (./main.lof [9])
+ (./main.lof [10])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [10]
+ [11]
 Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
@@ -1223,7 +1223,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1206--1207
 
  []
 
-<./Graph-Pictures/NYSE-Returns.png, id=192, 359.9046pt x 227.4096pt>
+<./Graph-Pictures/NYSE-Returns.png, id=196, 359.9046pt x 227.4096pt>
 File: ./Graph-Pictures/NYSE-Returns.png Graphic file (type png)
 <use ./Graph-Pictures/NYSE-Returns.png>
 Package pdftex.def Info: ./Graph-Pictures/NYSE-Returns.png  used on input line 
@@ -1234,7 +1234,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1215--1216
 
  []
 
-<./Graph-Pictures/NASDAQ-Returns.png, id=194, 366.168pt x 216.3282pt>
+<./Graph-Pictures/NASDAQ-Returns.png, id=198, 366.168pt x 216.3282pt>
 File: ./Graph-Pictures/NASDAQ-Returns.png Graphic file (type png)
 <use ./Graph-Pictures/NASDAQ-Returns.png>
 Package pdftex.def Info: ./Graph-Pictures/NASDAQ-Returns.png  used on input lin
@@ -1245,7 +1245,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1224--1225
 
  []
 
-<./Graph-Pictures/S&P-Returns.png, id=200, 361.35pt x 218.7372pt>
+<./Graph-Pictures/S&P-Returns.png, id=203, 361.35pt x 218.7372pt>
 File: ./Graph-Pictures/S&P-Returns.png Graphic file (type png)
 <use ./Graph-Pictures/S&P-Returns.png>
 Package pdftex.def Info: ./Graph-Pictures/S&P-Returns.png  used on input line 1
@@ -1262,13 +1262,13 @@ Overfull \hbox (4.07016pt too wide) in paragraph at lines 1278--1278
  []
 
 [46] [47]
-<./Graph-Pictures/NYSE-WE1.png, id=213, 363.2772pt x 214.401pt>
+<./Graph-Pictures/NYSE-WE1.png, id=216, 363.2772pt x 214.401pt>
 File: ./Graph-Pictures/NYSE-WE1.png Graphic file (type png)
 <use ./Graph-Pictures/NYSE-WE1.png>
 Package pdftex.def Info: ./Graph-Pictures/NYSE-WE1.png  used on input line 1312
 .
 (pdftex.def)             Requested size: 256.08829pt x 142.26735pt.
-<./Graph-Pictures/NYSE-WE2.png, id=214, 363.2772pt x 218.7372pt>
+<./Graph-Pictures/NYSE-WE2.png, id=217, 363.2772pt x 218.7372pt>
 File: ./Graph-Pictures/NYSE-WE2.png Graphic file (type png)
 <use ./Graph-Pictures/NYSE-WE2.png>
 Package pdftex.def Info: ./Graph-Pictures/NYSE-WE2.png  used on input line 1321
@@ -1276,13 +1276,13 @@ Package pdftex.def Info: ./Graph-Pictures/NYSE-WE2.png  used on input line 1321
 (pdftex.def)             Requested size: 256.08829pt x 142.26425pt.
  [48 <./Graph-Pictures/NYSE-WE1.png> <./Graph-Pictures/NYSE-WE2.png>]
 [49] [50]
-<./Graph-Pictures/NAS-WE1.png, id=227, 364.2408pt x 215.3646pt>
+<./Graph-Pictures/NAS-WE1.png, id=230, 364.2408pt x 215.3646pt>
 File: ./Graph-Pictures/NAS-WE1.png Graphic file (type png)
 <use ./Graph-Pictures/NAS-WE1.png>
 Package pdftex.def Info: ./Graph-Pictures/NAS-WE1.png  used on input line 1391.
 
 (pdftex.def)             Requested size: 256.08951pt x 142.26593pt.
-<./Graph-Pictures/NAS-WE2.png, id=228, 363.2772pt x 220.6644pt>
+<./Graph-Pictures/NAS-WE2.png, id=231, 363.2772pt x 220.6644pt>
 File: ./Graph-Pictures/NAS-WE2.png Graphic file (type png)
 <use ./Graph-Pictures/NAS-WE2.png>
 Package pdftex.def Info: ./Graph-Pictures/NAS-WE2.png  used on input line 1400.
@@ -1290,25 +1290,25 @@ Package pdftex.def Info: ./Graph-Pictures/NAS-WE2.png  used on input line 1400.
 (pdftex.def)             Requested size: 256.08829pt x 142.26851pt.
  [51 <./Graph-Pictures/NAS-WE1.png> <./Graph-Pictures/NAS-WE2.png>]
 [52]
-<./Graph-Pictures/SP-WE1.png, id=237, 364.2408pt x 214.401pt>
+<./Graph-Pictures/SP-WE1.png, id=240, 364.2408pt x 214.401pt>
 File: ./Graph-Pictures/SP-WE1.png Graphic file (type png)
 <use ./Graph-Pictures/SP-WE1.png>
 Package pdftex.def Info: ./Graph-Pictures/SP-WE1.png  used on input line 1468.
 (pdftex.def)             Requested size: 256.08951pt x 142.26735pt.
-<./Graph-Pictures/SP-WE2.png, id=238, 366.168pt x 216.3282pt>
+<./Graph-Pictures/SP-WE2.png, id=241, 366.168pt x 216.3282pt>
 File: ./Graph-Pictures/SP-WE2.png Graphic file (type png)
 <use ./Graph-Pictures/SP-WE2.png>
 Package pdftex.def Info: ./Graph-Pictures/SP-WE2.png  used on input line 1477.
 (pdftex.def)             Requested size: 256.08118pt x 142.272pt.
  [53 <./Graph-Pictures/SP-WE1.png>] [54 <./Graph-Pictures/SP-WE2.png>]
 [55] [56]
-<./Graph-Pictures/NYSE-JE1.png, id=254, 363.2772pt x 214.401pt>
+<./Graph-Pictures/NYSE-JE1.png, id=257, 363.2772pt x 214.401pt>
 File: ./Graph-Pictures/NYSE-JE1.png Graphic file (type png)
 <use ./Graph-Pictures/NYSE-JE1.png>
 Package pdftex.def Info: ./Graph-Pictures/NYSE-JE1.png  used on input line 1551
 .
 (pdftex.def)             Requested size: 256.08829pt x 142.26735pt.
-<./Graph-Pictures/NYSE-JE2.png, id=255, 358.941pt x 214.401pt>
+<./Graph-Pictures/NYSE-JE2.png, id=258, 358.941pt x 214.401pt>
 File: ./Graph-Pictures/NYSE-JE2.png Graphic file (type png)
 <use ./Graph-Pictures/NYSE-JE2.png>
 Package pdftex.def Info: ./Graph-Pictures/NYSE-JE2.png  used on input line 1560
@@ -1316,14 +1316,14 @@ Package pdftex.def Info: ./Graph-Pictures/NYSE-JE2.png  used on input line 1560
 (pdftex.def)             Requested size: 256.07124pt x 142.26735pt.
  [57 <./Graph-Pictures/NYSE-JE1.png> <./Graph-Pictures/NYSE-JE2.png>]
 [58]
-<./Graph-Pictures/NAS-JE1.png, id=264, 364.2408pt x 214.401pt>
+<./Graph-Pictures/NAS-JE1.png, id=267, 364.2408pt x 214.401pt>
 File: ./Graph-Pictures/NAS-JE1.png Graphic file (type png)
 <use ./Graph-Pictures/NAS-JE1.png>
 Package pdftex.def Info: ./Graph-Pictures/NAS-JE1.png  used on input line 1661.
 
 (pdftex.def)             Requested size: 256.08951pt x 142.26735pt.
  [59]
-<./Graph-Pictures/NAS-JE2.png, id=268, 358.941pt x 214.401pt>
+<./Graph-Pictures/NAS-JE2.png, id=271, 358.941pt x 214.401pt>
 File: ./Graph-Pictures/NAS-JE2.png Graphic file (type png)
 <use ./Graph-Pictures/NAS-JE2.png>
 Package pdftex.def Info: ./Graph-Pictures/NAS-JE2.png  used on input line 1670.
@@ -1331,50 +1331,107 @@ Package pdftex.def Info: ./Graph-Pictures/NAS-JE2.png  used on input line 1670.
 (pdftex.def)             Requested size: 256.07124pt x 142.26735pt.
  [60 <./Graph-Pictures/NAS-JE1.png> <./Graph-Pictures/NAS-JE2.png>]
 [61]
-<./Graph-Pictures/SP-JE1.png, id=277, 364.2408pt x 214.401pt>
+<./Graph-Pictures/SP-JE1.png, id=281, 364.2408pt x 214.401pt>
 File: ./Graph-Pictures/SP-JE1.png Graphic file (type png)
 <use ./Graph-Pictures/SP-JE1.png>
 Package pdftex.def Info: ./Graph-Pictures/SP-JE1.png  used on input line 1771.
 (pdftex.def)             Requested size: 256.08951pt x 142.26735pt.
  [62]
-<./Graph-Pictures/SP-JE2.png, id=282, 358.941pt x 214.401pt>
+<./Graph-Pictures/SP-JE2.png, id=285, 358.941pt x 214.401pt>
 File: ./Graph-Pictures/SP-JE2.png Graphic file (type png)
 <use ./Graph-Pictures/SP-JE2.png>
 Package pdftex.def Info: ./Graph-Pictures/SP-JE2.png  used on input line 1780.
 (pdftex.def)             Requested size: 256.07124pt x 142.26735pt.
  [63 <./Graph-Pictures/SP-JE1.png> <./Graph-Pictures/SP-JE2.png>]
 [64] [65]
-<./Graph-Pictures/NYSE-HE1.png, id=294, 367.1316pt x 213.4374pt>
+<./Graph-Pictures/NYSE-HE1.png, id=297, 367.1316pt x 213.4374pt>
 File: ./Graph-Pictures/NYSE-HE1.png Graphic file (type png)
 <use ./Graph-Pictures/NYSE-HE1.png>
 Package pdftex.def Info: ./Graph-Pictures/NYSE-HE1.png  used on input line 1885
 .
 (pdftex.def)             Requested size: 256.07724pt x 142.27278pt.
-<./Graph-Pictures/NYSE-HE2.png, id=295, 365.2044pt x 261.6174pt>
+<./Graph-Pictures/NYSE-HE2.png, id=298, 365.2044pt x 261.6174pt>
 File: ./Graph-Pictures/NYSE-HE2.png Graphic file (type png)
 <use ./Graph-Pictures/NYSE-HE2.png>
 Package pdftex.def Info: ./Graph-Pictures/NYSE-HE2.png  used on input line 1894
 .
 (pdftex.def)             Requested size: 256.08156pt x 142.26527pt.
  [66 <./Graph-Pictures/NYSE-HE1.png> <./Graph-Pictures/NYSE-HE2.png>]
-<./Graph-Pictures/NYSE-HE3.png, id=301, 368.0952pt x 293.898pt>
+<./Graph-Pictures/NYSE-HE3.png, id=304, 368.0952pt x 293.898pt>
 File: ./Graph-Pictures/NYSE-HE3.png Graphic file (type png)
 <use ./Graph-Pictures/NYSE-HE3.png>
 Package pdftex.def Info: ./Graph-Pictures/NYSE-HE3.png  used on input line 1903
 .
 (pdftex.def)             Requested size: 256.06973pt x 142.26678pt.
 
-[67 <./Graph-Pictures/NYSE-HE3.png>] [68] [69] [70] [71] [1] (./main.aux)
+[67 <./Graph-Pictures/NYSE-HE3.png>] [68] [69] [70]
+<./Graph-Pictures/NAS-HE1.png, id=319, 367.1316pt x 213.4374pt>
+File: ./Graph-Pictures/NAS-HE1.png Graphic file (type png)
+<use ./Graph-Pictures/NAS-HE1.png>
+Package pdftex.def Info: ./Graph-Pictures/NAS-HE1.png  used on input line 2117.
+
+(pdftex.def)             Requested size: 256.07724pt x 142.27278pt.
+<./Graph-Pictures/NAS-HE2.png, id=320, 362.3136pt x 261.6174pt>
+File: ./Graph-Pictures/NAS-HE2.png Graphic file (type png)
+<use ./Graph-Pictures/NAS-HE2.png>
+Package pdftex.def Info: ./Graph-Pictures/NAS-HE2.png  used on input line 2126.
+
+(pdftex.def)             Requested size: 256.07242pt x 142.26527pt.
+ [71 <./Graph-Pictures/NAS-HE1.png>]
+<./Graph-Pictures/NAS-HE3.png, id=325, 363.2772pt x 291.9708pt>
+File: ./Graph-Pictures/NAS-HE3.png Graphic file (type png)
+<use ./Graph-Pictures/NAS-HE3.png>
+Package pdftex.def Info: ./Graph-Pictures/NAS-HE3.png  used on input line 2135.
+
+(pdftex.def)             Requested size: 256.08829pt x 142.26056pt.
+ [72 <./Graph-Pictures/NAS-HE2.png> <./Graph-Pictures/NAS-HE3.png>]
+[73] [74] [75] [76]
+<./Graph-Pictures/SP-HE1.png, id=344, 367.1316pt x 213.4374pt>
+File: ./Graph-Pictures/SP-HE1.png Graphic file (type png)
+<use ./Graph-Pictures/SP-HE1.png>
+Package pdftex.def Info: ./Graph-Pictures/SP-HE1.png  used on input line 2351.
+(pdftex.def)             Requested size: 256.07724pt x 142.27278pt.
+<./Graph-Pictures/SP-HE2.png, id=345, 362.3136pt x 261.6174pt>
+File: ./Graph-Pictures/SP-HE2.png Graphic file (type png)
+<use ./Graph-Pictures/SP-HE2.png>
+Package pdftex.def Info: ./Graph-Pictures/SP-HE2.png  used on input line 2360.
+(pdftex.def)             Requested size: 256.07242pt x 142.26527pt.
+ [77 <./Graph-Pictures/SP-HE1.png>]
+<./Graph-Pictures/SP-HE3.png, id=350, 364.2408pt x 292.9344pt>
+File: ./Graph-Pictures/SP-HE3.png Graphic file (type png)
+<use ./Graph-Pictures/SP-HE3.png>
+Package pdftex.def Info: ./Graph-Pictures/SP-HE3.png  used on input line 2369.
+(pdftex.def)             Requested size: 256.08951pt x 142.26521pt.
+ [78 <./Graph-Pictures/SP-HE2.png>] [79 <./Graph-Pictures/SP-HE3.png>] [80] [81
+] [82] [83]
+Overfull \hbox (1.46405pt too wide) in paragraph at lines 2591--2591
+[]\OT1/cmr/bx/n/8 Comprehensive| 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[84] [85] [86] [87]
+Underfull \hbox (badness 10000) in paragraph at lines 2718--2719
+
+ []
+
+[88] [89] [90] [91]
+Underfull \hbox (badness 10000) in paragraph at lines 2758--2759
+
+ []
+
+[92] [1] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 4418 strings out of 492616
- 66905 string characters out of 6129480
- 180954 words of memory out of 5000000
- 8247 multiletter control sequences out of 15000+600000
+ 4450 strings out of 492616
+ 67754 string characters out of 6129480
+ 181108 words of memory out of 5000000
+ 8273 multiletter control sequences out of 15000+600000
  14663 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,46p,1841b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1397,10 +1454,10 @@ ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on main.pdf (83 pages, 753400 bytes).
+Output written on main.pdf (105 pages, 941582 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 243 compressed objects within 3 object streams
+ 468 PDF objects out of 1000 (max. 8388607)
+ 291 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

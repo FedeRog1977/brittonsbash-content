@@ -58,7 +58,13 @@
 	% Inserting images
 	\usepackage{graphicx}
 	% Telling TeX to find images in 'Graph-Pictures' 
-	\graphicspath{{./Graph-Pictures/}}
+	\graphicspath{{./Figures/}}
+
+	% Little latin grammar pack
+	\usepackage{tipa}
+
+	% Enabling chnages to be made to BibTeX title
+	\usepackage{babel}
 
 \begin{document}
 
@@ -76,7 +82,7 @@
 	\author{\textsc{Lewis Britton}\\
                 \textsc{201724452}\\
                 \textsc{University of Strathclyde}\\
-		\textit{Glasgow}
+		\textit{Glasgow City, Glasgow}
                 }
 
         \date{}
@@ -87,13 +93,17 @@
         \end{center}
         
         \vspace{\fill}
+	
+	\begin{center}
+		\fbox{\textsc{15,287 Words}}
+	\end{center}
 
         \begin{center}
         	\textsc{Dissertation Submitted in Partial Fulfillment of the Requirements for the Degree of Bachelor of Arts Finance at the University of Strathclyde}
         \end{center}
 
         \begin{center}
-		\fbox{\textsc{Academic Year 2020/2021}}
+		\textsc{Academic Year 2020/2021}
         \end{center}
 
 \newpage
@@ -117,9 +127,9 @@
 	\textbf{Author Contact:} wi.lbritton@yahoo.com\\
 	\textbf{Author Reference: }http://lewisbritton.com/\\
 
-	This document’s presentation reflects the use of {\LaTeX} typesetting (Figure B7), using Computer Modern Unicode (Figure B8). Tags are neglected to minimise bloat. References are presented using Bib{\TeX}, favouring \textsl{oblique} over \textit{italic}, in-line with Donald E. Knuth’s preference (Knuth, 2020). This escapes the inane formatting requirements of my institution. The process is executed in command line using Vim, which is a very powerful editor that has many commands, too many to explain in a tutor such as this. For the optimal viewing experience, the use of MuPDF is vigorously advised, with [-I]. Alias this operation ASAP. Navigate this document using \textless h, j, k, l\textgreater, ensuring that the Caps-Lock and/or your Super-Key is not depressed. Note that this study focuses on pragmatics and syntax, disregarding bloated filler content. Arguments are coherent, logical, definitive and straight-to-the-point. Nugatory theory is ignored.\\
+	This document’s presentation reflects the use of {\LaTeX}\textcircled{\textsc{r}} typesetting (Figure B7), using Computer Modern Unicode (Figure B8). Tags are neglected to minimise bloat. References are presented using \textsc{Bib}{\TeX}, favouring \textsl{oblique} over \textit{italic}, in-line with Donald E. Knuth’s preference (Knuth, 2020). This escapes the inane formatting requirements of my institution. The process is executed in command line using Vim, which is a very powerful editor that has many commands, too many to explain in a tutor such as this. For the optimal viewing experience, the use of MuPDF is vigorously advised, with [-I]. Alias this operation ASAP. Navigate this document using $<$h, j, k, l$>$, ensuring that the Caps-Lock and/or your Super-Key is not depressed. Note that this study focuses on pragmatics and syntax, disregarding bloated filler content. Arguments are coherent, logical, definitive and straight-to-the-point. Nugatory theory is ignored.\\
  
-	The 15,287 word count reflects relevant content from paragraphs, titles, heading classes 1, 2 and 3, and footnotes in Chapters 1 to 6. Word count excludes tables, figures, table headings and figure headings and, any pre/succeeding content.\\
+	The word count reflects relevant content from paragraphs, titles, heading classes 1, 2 and 3, and footnotes in Chapters 1 to 6. Word count excludes tables, figures, table headings and figure headings and, any pre/succeeding content.\\
 
 	I declare that this document embodies the results of my own work and that it has been composed by myself. Following normal academic conventions, I have made due acknowledgement of the work of others.\\
 
@@ -138,7 +148,7 @@ I would like to thank my dissertation supervisor, Dr Devraj Basu, for his approa
 
 I would like to give credit for the computational aspect of this study to one of my biggest inspirations, John ``The Tzar” Kelly. He inspired my love for everything barebones computational, from simple arrays (of hope), through Hyperthreading-enabled, all the way to x86 Assembly. I would also like to accredit Luke Smith for the foundation of my knowledge of Bram Moolenaar’s Vim and {\LaTeX}. This study’s presentation would not have optimal without Smith (2015).\\
 
-This piece would not have been as efficient without the aid of the only acceptable Linux distribution, `distro’ if you will, Arch Linux. I would like to thank Judd Vinet for his eye-opening and life-altering contribution to the development and computer-system enthusiast community. ‘The Arch Principal’ is certainly out in high force. Finally, for making use of this software mechanically efficient, I would like to thank IBM for the creation of the ThinkPad T42 NeovimPad, the UltraDock, and the 1987 Model M \textit{Catastrophically Buckling Compression Column Switch and Actuator} typehorse (US3699296A, 1972).
+This piece would not have been as efficient without the aid of the only acceptable Linux distribution, `distro’ if you will, Arch Linux. I would like to thank Judd Vinet for his eye-opening and life-altering contribution to the development and computer-system enthusiast community. ‘The Arch Principal’ is certainly out in high force. Finally, for making use of this software mechanically efficient, I would like to thank IBM for the creation of the ThinkPad T42 NeovimPad, the UltraDock, and the 1987 Model M \textit{Catastrophically Buckling Compression Column Switch and Actuator} typehorse (US369 9296A, 1972).
 
 \newpage
 % Disclaimer becuase hypothesis testing is fraudulent
@@ -281,7 +291,7 @@ This piece would not have been as efficient without the aid of the only acceptab
 
 		\subsubsection{Why the US Stock Exchange}
 	
-		Analysing the US market, specifically the New York Stock Exchange, at the turn-of- the-year (Christmas/New Year holidays) dives deeper into irrationality stemming from personal behaviour such as over-optimism, excitement and `spirit’ etc. thus, New York’s market at Christmas is a very stimulating and enjoyable topic to explore. Results in this study extend further than the stock market to relevance in corporate financing, corporate investments, timing for mergers and acquisitions, and seasonal inventory/stock management (Ferson, Harvey, 1992).
+		Analysing the US market, specifically the New York Stock Exchange, at the turn-of-the-year (Christmas/New Year holidays) dives deeper into irrationality stemming from personal behaviour such as over-optimism, excitement and `spirit’ etc. thus, New York’s market at Christmas is a very stimulating and enjoyable topic to explore. Results in this study extend further than the stock market to relevance in corporate financing, corporate investments, timing for mergers and acquisitions, and seasonal inventory/stock management (Ferson, Harvey, 1992).
 
 	\newpage
 
@@ -398,33 +408,33 @@ This piece would not have been as efficient without the aid of the only acceptab
 		The four formerly discussed extensive factors are considered throughout the remainder of this study. Amendments to questions are included based on the structure of subsequent research. Table 2.2 revises questions and accounts for amendments.
 
 		\begin{table}[h]
-        		\begin{center}
-        			\scriptsize
-        			\begin{tabular}{ l l l }
-         	       		\textbf{Question} & & \textbf{Status} \\ 
-         	       		\hline
-         	       		\textbf{Q1} & \textbf{Does Fama’s (1970) EMH hold in empirical evidence?} & ... \\
-         	       		\textbf{Q2} & \textbf{Is the Seasonal Effect apparent in the US Market?} & TBD \\
-         	       		Q2.1 & Does the Weekend Effect exist? & TBD \\
-         	       		Q2.2 & Does the January Effect exist? & TBD \\
-         	       		Q2.3 & Does the Holiday Effect exist? & TBD \\
-         	       		\textbf{Q3} & \textbf{Do internal patterns influence Abnormal Returns?} & TBD \\
-         	       		Q3.1 & Is the Holiday Effect significantly influenced by pre-holiday Fridays? & TBD \\
-         	       		Q3.2 & Is the Holiday Effect significantly influenced by winter weekends? & TBD \\
-         	       		Q3.3 & Is the Holiday Effect significantly influenced by Christmas Day? & TBD \\
-         	       		Q3.4 & Is the Holiday Effect significantly influenced by New Year? & TBD \\
-				\textbf{Q4} & \textbf{Are methods in this research relevant?} & TBD \\
-				Q4.1 & Do up-to-date-sample results differ from those of past research? & TBD \\
-				Q4.2 & Do results significantly differ over indices? & TBD \\
-				Q4.3 & Do results significantly differ over time-period segments? & TBD \\
-				\hline
-				Yes/No: & There is/is no significant evidence in past research and current observations \\
-				Partial: & There is inconsistent significant evidence in past research and current observations \\
-				TBD/...: & To Be Discussed/Being Discussed \\
-				\hline
-        			\end{tabular}                            
-        			\caption {Questions (Chapter 2 Update)}
-        		\end{center}
+        	\begin{center}
+        		\scriptsize
+        	\begin{tabular}{ l l l }
+         	       	\textbf{Question} & & \textbf{Status} \\ 
+         	       	\hline
+         	       	\textbf{Q1} & \textbf{Does Fama’s (1970) EMH hold in empirical evidence?} & ... \\
+         	       	\textbf{Q2} & \textbf{Is the Seasonal Effect apparent in the US Market?} & TBD \\
+         	       	Q2.1 & Does the Weekend Effect exist? & TBD \\
+         	       	Q2.2 & Does the January Effect exist? & TBD \\
+         	       	Q2.3 & Does the Holiday Effect exist? & TBD \\
+         	       	\textbf{Q3} & \textbf{Do internal patterns influence Abnormal Returns?} & TBD \\
+         	       	Q3.1 & Is the Holiday Effect significantly influenced by pre-holiday Fridays? & TBD \\
+         	       	Q3.2 & Is the Holiday Effect significantly influenced by winter weekends? & TBD \\
+         	       	Q3.3 & Is the Holiday Effect significantly influenced by Christmas Day? & TBD \\
+         	       	Q3.4 & Is the Holiday Effect significantly influenced by New Year? & TBD \\
+			\textbf{Q4} & \textbf{Are methods in this research relevant?} & TBD \\
+			Q4.1 & Do up-to-date-sample results differ from those of past research? & TBD \\
+			Q4.2 & Do results significantly differ over indices? & TBD \\
+			Q4.3 & Do results significantly differ over time-period segments? & TBD \\
+			\hline
+			Yes/No: & There is/is no significant evidence in past research and current observations \\
+			Partial: & There is inconsistent significant evidence in past research and current observations \\
+			TBD/...: & To Be Discussed/Being Discussed \\
+			\hline
+        	\end{tabular}                            
+        		\caption {Questions (Chapter 2 Update)}
+        	\end{center}
         	\end{table}
 
 \newpage
@@ -697,7 +707,7 @@ This piece would not have been as efficient without the aid of the only acceptab
 
 		$$\mathrm{Y_t=\alpha+\beta_1X_1+\beta_2X_2+...+\beta_kX_k+\varepsilon_t}$$
 
-		For N observations; dependent variable Y; k explanatory\footnote{Semantic symmetry disregarded in favour of more-commonly used terms. See Figure B2 for correct terminology.} (X) variables; random error $\mathrm{\varepsilon_t}$ and; time \textit{t} (Wooldridge, 2012).\\
+		For N observations; dependent variable Y; k explanatory\footnote{Semantic symmetry disregarded in favour of more-commonly used terms. See Figure B2 for correct terminology.} (X) variables; random error $\mathrm{\varepsilon_t}$ and; time t (Wooldridge, 2012).\\
 
 		\textbf{ARCH Stochastic Time-Series Model:}\\
 
@@ -715,7 +725,7 @@ This piece would not have been as efficient without the aid of the only acceptab
 
 		$$\mathrm{Y_t=\alpha+\beta_1X_1+\tau D_t+\varepsilon_t}$$
 
-		$\mathrm{D_t=0:Y_t=\alpha+\beta_1X_1+\tau D_t+\varepsilon_t;}$\\ $\mathrm{D_t=1:Y_t=\alpha+\beta_1X_1+\tau+\varepsilon_t=(\alpha+\tau)+\beta_1X_1+\varepsilon_t}$
+		$\mathrm{D_t=0}$: $\mathrm{Y_t=\alpha+\beta_1X_1+\tau D_t+\varepsilon_t;}$\\ $\mathrm{D_t=1}$: $\mathrm{Y_t=\alpha+\beta_1X_1+\tau+\varepsilon_t=(\alpha+\tau)+\beta_1X_1+\varepsilon_t}$
 
 	\newpage
 	
@@ -1169,7 +1179,7 @@ This piece would not have been as efficient without the aid of the only acceptab
 
 	This chapter illustrates, describes and justifies research findings relevant to the Weekend Effect, January Effect and Holiday Effect. Results are preceded by general analysis of market returns and illustrative comparison methods. Seasonal Effect questions are answered in the previously displayed sequence.
 
-	\subsection{Suceeding Past Literature}
+	\subsection{Succeeding Past Literature}
 
 	\begin{table}[h]
 		\scriptsize
@@ -1335,43 +1345,43 @@ This piece would not have been as efficient without the aid of the only acceptab
 		\hline
 		\multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
 		\hline
-		Monday & & & & \\
-		Tuesday & & & & \\
-		Wednesday & & & & \\
-		Thursday & & & & \\
-		Friday & & & & \\
+		Monday & -0.000158420 & 0.000260438 & -0.6083 & 0.5430\\
+		Tuesday & 0.000426418 & 0.000250387 & 1.703 & 0.0886 *\\
+		Wednesday & 0.000553549 & 0.000250054 & 2.214 & 0.0269 **\\
+		Thursday & 0.000358779 & 0.000250054 & 1.435 & 0.1514\\
+		Friday & 0.000172204 & 0.000249836 & 0.6893 & 0.4907\\
 		\hline
 		\multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
 		\hline            
-                Monday & & & & \\   
-                Tuesday & & & & \\  
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+		Monday & -0.00131574 & 0.000487515 & -2.699 & 0.0070 ***\\   
+                Tuesday & 0.000695251 & 0.000470991 & 1.476 & 0.1400\\  
+                Wednesday & 0.00106458 & 0.000472086 & 2.255 & 0.0242 **\\
+                Thursday & 0.000732264 & 0.000472104 & 1.551 & 0.1210\\
+                Friday & 0.000694642 & 0.000468893 & 1.481 & 0.1386\\ 
                 \hline                                             
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\
 		\hline            
-                Monday & & & & \\   
-                Tuesday & & & & \\  
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+		Monday & 0.000739247 & 0.000362590 & 2.039 & 0.0416 **\\   
+		Tuesday & 0.000600608 & 0.000352473 & 1.704 & 0.0885 *\\  
+                Wednesday & 0.000756758 & 0.000352169 & 2.149 & 0.0317 **\\
+                Thursday & -0.000165051 & 0.000349810 & -0.4718 & 0.6371\\
+                Friday & 0.000415240 & 0.000349848 & 1.187 & 0.2354\\ 
                 \hline                                             
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
 		\hline            
-                Monday & & & & \\   
-                Tuesday & & & & \\  
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+                Monday & -4.66504e-05 & 0.000633229 & -0.07367 & 0.9413\\   
+                Tuesday & 0.000363680 & 0.000604824 & 0.6013 & 0.5477\\  
+                Wednesday & -0.000119243 & 0.000603187 & -0.1977 & 0.8433\\
+                Thursday & 0.000400567 & 0.000603197 & 0.6641 & 0.5067\\
+                Friday & -0.000385938 & 0.000604162 & -0.6388 & 0.5230\\     
                 \hline                                             
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\
 		\hline
-		Monday & & & & \\                               
-                Tuesday & & & & \\                              
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+		Monday & -4.33718e-05 & 0.000562799 & -0.07706 & 0.9386\\ 
+                Tuesday & -2.92778e-05 & 0.000540335 & -0.05418 & 0.9568\\
+                Wednesday & 0.000549100 & 0.000537484 & 1.022 & 0.3071\\
+                Thursday & 0.000575152 & 0.000541990 & 1.061 & 0.2888\\
+                Friday & -3.95463e-05 & 0.000539353 & -0.07332 & 0.9416\\ 
                 \hline
 		\multicolumn{5}{l}{$^*$: 10\% Significance Level}\\
 		\multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\
@@ -1412,43 +1422,43 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Monday & & & & \\
-                Tuesday & & & & \\
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\
+                Monday & -0.000803101 & 0.000275806 & -2.912 & 0.0036 ***\\
+                Tuesday & -0.000441599 & 0.000264911 & -1.667 & 0.0956 *\\
+                Wednesday & 0.000658692 & 0.000264556 & 2.490 & 0.0128 **\\
+                Thursday & 0.000488768 & 0.000264556 & 1.848 & 0.0647 *\\
+                Friday & 0.000112259 & 0.000264578 & 0.4243 & 0.6714\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline            
-                Monday & & & & \\   
-                Tuesday & & & & \\  
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+                Monday & -0.00162365 & 0.000312333 & -5.198 & 2.19e-07 ***\\   
+                Tuesday & -0.000609118 & 0.000308455 & -1.975 & 0.0484 **\\  
+                Wednesday & 0.00103126 & 0.000309681 & 3.330 & 0.0009 ***\\
+                Thursday & 0.00132859 & 0.000309704 & 4.290 & 1.86e-05 ***\\
+                Friday & 0.00124796 & 0.000301749 & 4.136 & 3.66e-05 ***\\  
                 \hline                                             
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\
                 \hline            
-                Monday & & & & \\   
-                Tuesday & & & & \\  
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+                Monday & -0.000207322 & 0.000442304 & -0.4687 & 0.6393\\   
+                Tuesday & -0.000664995 & 0.000429170 & -1.549 & 0.1214\\  
+                Wednesday & 0.00123071 & 0.000428767 & 2.870 & 0.0041 ***\\
+                Thursday & -0.000271807 & 0.000425882 & -0.6382 & 0.5234\\
+                Friday & 0.000385011 & 0.000426710 & 0.9023 & 0.3670\\  
                 \hline                                             
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline            
-                Monday & & & & \\   
-                Tuesday & & & & \\  
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+                Monday & -0.00131530 & 0.000772344 & -1.703 & 0.0887 *\\   
+                Tuesday & -0.000877236 & 0.000738194 & -1.188 & 0.2348\\  
+                Wednesday & 0.000161155 & 0.000736124 & 0.2189 & 0.8267\\
+                Thursday & 0.000725919 & 0.000736130 & 0.9861 & 0.3242\\
+                Friday & -0.00122902 & 0.000736779 & -1.668 & 0.0954 *\\  
                 \hline                                             
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\
                 \hline
-                Monday & & & & \\                               
-                Tuesday & & & & \\                              
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+                Monday & 7.74660e-05 & 0.000488737 & 0.1585 & 0.8741\\ 
+                Tuesday & 0.000758758 & 0.000466356 & 1.627 & 0.1039\\  
+                Wednesday & 6.01512e-05 & 0.000463784 & 0.1297 & 0.8968\\
+                Thursday & 0.000120874 & 0.000467718 & 0.2584 & 0.7961\\
+                Friday & 0.000112518 & 0.000467555 & 0.2407 & 0.8099\\ 
                 \hline
                 \multicolumn{5}{l}{$^*$: 10\% Significance Level}\\
                 \multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\
@@ -1491,43 +1501,43 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Monday & & & & \\
-                Tuesday & & & & \\
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\
+                Monday & -2.24580e-05 & 0.000265201 & -0.08468 & 0.9325\\
+                Tuesday & 0.000623720 & 0.000254397 & 2.452 & 0.0142 **\\
+                Wednesday & 0.000540701 & 0.000254061 & 2.128 & 0.0333 **\\
+                Thursday & 0.000365270 & 0.000254062 & 1.438 & 0.1505\\
+                Friday & 4.79272e-05 & 0.000254416 & 0.1884 & 0.8506\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline            
-                Monday & & & & \\   
-                Tuesday & & & & \\  
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+                Monday & -0.00105008 & 0.000519631 & -2.021 & 0.0434 **\\   
+                Tuesday & 0.000839367 & 0.000500469 & 1.677 & 0.0936 *\\  
+                Wednesday & 0.00104278 & 0.000501557 & 2.079 & 0.0377 **\\
+                Thursday & 0.000682904 & 0.000501563 & 1.362 & 0.1735\\
+                Friday & 0.000560032 & 0.000499647 & 1.121 & 0.2625\\
                 \hline                                             
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\
                 \hline            
-                Monday & & & & \\   
-                Tuesday & & & & \\  
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+                Monday & 0.00108387 & 0.000403922 & 2.683 & 0.0073 ***\\   
+                Tuesday & 0.000689118 & 0.000391553 & 1.760 & 0.0785 *\\  
+                Wednesday & 0.000896812 & 0.000391176 & 2.293 & 0.0220 **\\
+                Thursday & -0.000265584 & 0.000388541 & -0.6835 & 0.4943\\
+                Friday & 0.000433673 & 0.000389667 & 1.113 & 0.2658\\  
                 \hline                                             
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline            
-                Monday & & & & \\   
-                Tuesday & & & & \\  
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+                Monday & -4.98707e-05 & 0.000627971 & -0.07942 & 0.9367\\ 
+                Tuesday & 0.000277960 & 0.000599490 & 0.4637 & 0.6429\\  
+                Wednesday & -0.000135536 & 0.000597935 & -0.2267 & 0.8207\\
+                Thursday & 0.000583795 & 0.000597950 & 0.9763 & 0.3290\\
+                Friday & -0.000857529 & 0.000599240 & -1.431 & 0.1525\\            
                 \hline                                             
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\
                 \hline
-                Monday & & & & \\                               
-                Tuesday & & & & \\                              
-                Wednesday & & & & \\
-                Thursday & & & & \\
-                Friday & & & & \\                                  
+                Monday & -0.000204306 & 0.000520526 & -0.3925 & 0.6947\\ 
+                Tuesday & 0.000821474 & 0.000496655 & 1.654 & 0.0983 *\\             
+                Wednesday & 0.000343289 & 0.000493921 & 0.6950 & 0.4871\\
+                Thursday & 0.000551579 & 0.000498109 & 1.107 & 0.2683\\
+                Friday & 9.85101e-05 & 0.000497972 & 0.1978 & 0.8432 \\
                 \hline
                 \multicolumn{5}{l}{$^*$: 10\% Significance Level}\\
                 \multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\
@@ -1571,78 +1581,78 @@ This piece would not have been as efficient without the aid of the only acceptab
 		\hline
 		\multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
 		\hline
-		January & & & & \\
-		February & & & & \\
-		March & & & & \\
-		April & & & & \\
-		May & & & & \\
-		June & & & & \\
-		July & & & & \\
-		August & & & & \\
-		September & & & & \\
-		October & & & & \\
-		November & & & & \\
-		December & & & & \\
+		January & 0.00303997 & 0.00704341 & 0.4316 & 0.6662\\
+		February & 0.00488335 & 0.00704341 & 0.6933 & 0.4885\\
+		March & 0.0119680 & 0.00704341 & 1.699 & 0.0900 *\\
+		April & 0.0166544 & 0.00704341 & 2.365 & 0.0185 **\\
+		May & 0.00550646 & 0.00704341 & 0.7818 & 0.4348\\
+		June & -0.00189194 & 0.00704341 & -0.2686 & 0.7884\\
+		July & 0.00201054 & 0.00704341 & 0.2854 & 0.7754\\
+		August & -0.00324782 & 0.00704341 & -0.4611 & 0.6450\\
+		September & -0.00802029 & 0.00704341 & -1.139 & 0.2555\\
+		October & 0.00517541 & 0.00704341 & 0.7348 & 0.4629\\
+		November & 0.00664902 & 0.00704341 & 0.9440 & 0.3457\\
+		December & 0.0154441 & 0.00704341 & 2.193 & 0.0289 **\\
 		\hline
 		\multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
 		\hline
-		January & & & & \\                              
-                February & & & & \\
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+		January & 0.0270427 & 0.0157741 & 1.714 & 0.0897 *\\                   
+                February & 0.0130129 & 0.0157812 & 0.8246 & 0.4116\\
+                March & 0.0121088 & 0.0157812 & 0.7673 & 0.4448\\
+                April & 0.0121529 & 0.0157812 & 0.7701 & 0.4431\\
+                May & 0.00576031 & 0.0157812 & 0.3650 & 0.7159\\
+                June & 0.0115242 & 0.0157812 & 0.7302 & 0.4670\\
+                July & -0.00186441 & 0.0157812 & -0.1181 & 0.9062\\
+                August & 0.0218324 & 0.0157812 & 1.383 & 0.1697\\
+                September & -0.0107270 & 0.0157812 & -0.6797 & 0.4983\\
+                October & -0.00825068 & 0.0157812 & -0.5228 & 0.6023\\
+                November & -0.000119434 & 0.0157812 & -0.007568 & 0.9940\\
+                December & 0.00796021 & 0.0149789 & 0.5314 & 0.5963\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\ 
 		\hline
-                January & & & & \\
-                February & & & & \\                             
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & 0.0207685 & 0.0116966 & 1.776 & 0.0786 *\\
+                February & 0.0124930 & 0.0110977 & 1.126 & 0.2628\\  
+                March & 0.00579451 & 0.0110970 & 0.5222 & 0.6026\\
+                April & 0.0127043 & 0.0110970 & 1.145 & 0.2548\\
+                May & 0.0179142 & 0.0110970 & 1.614 & 0.1094\\
+                June & 0.00175625 & 0.0110970 & 0.1583 & 0.8745\\
+                July & 0.00297180 & 0.0110970 & 0.2678 & 0.7894\\
+                August & -0.0239663 & 0.0110970 & -2.160 & 0.0330 **\\
+                September & -0.000616317 & 0.0110970 & -0.05554 & 0.9558\\
+                October & 0.0136146 & 0.0110970 & 1.227 & 0.2226\\
+                November & 0.0146467 & 0.0110970 & 1.320 & 0.1897\\
+                December & 0.0221895 & 0.0110970 & 2.000 & 0.0481 **\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
 		\hline
-                January & & & & \\
-                February & & & & \\                             
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & -0.0181178 & 0.0151685 & -1.194 & 0.2349\\
+                February & -0.0241282 & 0.0145148 & -1.662 & 0.0994 *\\  
+                March & 0.0110380 & 0.0144574 & 0.7635 & 0.4469\\
+                April & 0.0268841 & 0.0144525 & 1.860 & 0.0656 *\\
+                May & 0.0154011 & 0.0144521 & 1.066 & 0.2890\\
+                June & -0.0161758 & 0.0144521 & -1.119 & 0.2655\\
+                July & -0.00453657 & 0.0144521 & -0.3139 & 0.7542\\
+                August & 0.0102286 & 0.0144521 & 0.7078 & 0.4806\\
+                September & -0.0149138 & 0.0144521 & -1.032 & 0.3044\\
+                October & -0.0101101 & 0.0144521 & -0.6996 & 0.4857\\
+                November & 0.00592419 & 0.0144521 & 0.4099 & 0.6827\\
+                December & 0.0177821 & 0.0144521 & 1.230 & 0.2212\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\
 		\hline
-		January & & & & \\
-                February & & & & \\                             
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+		January & -0.000197536 & 0.0150786 & -0.01310 & 0.9896\\
+                February & 0.0241595 & 0.0139748 & 1.729 & 0.0883 *\\   
+                March & 0.0221351 & 0.0139604 & 1.586 & 0.1173\\
+                April & 0.0134930 & 0.0139602 & 0.9665 & 0.3371\\
+                May & -0.0266704 & 0.0139602 & -1.910 & 0.0602 *\\
+                June & -0.00394496 & 0.0139602 & -0.2826 & 0.7783\\
+                July & 0.0149732 & 0.0139602 & 1.073 & 0.2872\\
+                August & -0.0251478 & 0.0139602 & -1.801 & 0.0759 *\\
+                September & -0.00526936 & 0.0139602 & -0.3775 & 0.7070\\
+                October & 0.0322180 & 0.0139602 & 2.308 & 0.0240 **\\
+                November & 0.00496157 & 0.0139602 & 0.3554 & 0.7234\\
+                December & 0.0118658 & 0.0150652 & 0.7876 & 0.4336\\
 		\hline
 		\multicolumn{5}{l}{$^*$: 10\% Significance Level}\\
                 \multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\
@@ -1681,78 +1691,78 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                January & & & & \\
-                February & & & & \\
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & 0.0136171 & 0.0104212 & 1.307 & 0.1920\\
+                February & 0.00441851 & 0.0104212 & 0.4240 & 0.6718\\
+                March & 0.00964426 & 0.0104212 & 0.9254 & 0.3553\\
+                April & 0.0124623 & 0.0104212 & 1.196 & 0.2324\\
+                May & 0.00963460 & 0.0104212 & 0.9245 & 0.3557\\
+                June & 0.00262160 & 0.0104212 & 0.2516 & 0.8015\\
+                July & 1.18723e-05 & 0.0104212 & 0.001139 & 0.9991\\
+                August & -0.00268288 & 0.0104212 & -0.2574 & 0.7970\\
+                September & -0.00741869 & 0.0104212 & -0.7119 & 0.4769\\
+                October & 0.00898799 & 0.0104212 & 0.8625 & 0.3889\\
+                November & 0.0153153 & 0.0104212 & 1.470 & 0.1424\\
+                December & 0.0150037 & 0.0104212 & 1.440 & 0.1507\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                January & & & & \\                              
-                February & & & & \\
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & 0.0354578 & 0.0184142 & 1.926 & 0.0571 *\\   
+                February & 0.0220918 & 0.0184493 & 1.197 & 0.2341\\
+                March & 0.0129441 & 0.0184508 & 0.7015 & 0.4846\\
+                April & 0.0233866 & 0.0184508 & 1.268 & 0.2080\\
+                May & 0.00908207 & 0.0184508 & 0.4922 & 0.6237\\
+                June & 0.00706661 & 0.0184508 & 0.3830 & 0.7026\\
+                July & -0.0164691 & 0.0184508 & -0.8926 & 0.3743\\
+                August & 0.0109357 & 0.0184508 & 0.5927 & 0.5548\\
+                September & -0.0169162 & 0.0184508 & -0.9168 & 0.3615\\
+                October & -0.0199597 & 0.0184508 & -1.082 & 0.2820\\
+                November & 0.0108535 & 0.0184508 & 0.5882 & 0.5577\\
+                December & 0.00354838 & 0.0175441 & 0.2023 & 0.8401\\
                 \hline
 		\multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\ 
                 \hline
-                January & & & & \\
-                February & & & & \\                             
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & 0.0537370 & 0.0194276 & 2.766 & 0.0067 ***\\
+                February & 0.0108736 & 0.0184528 & 0.5893 & 0.5569\\    
+                March & 0.00782851 & 0.0184413 & 0.4245 & 0.6720\\
+                April & 0.0103653 & 0.0184412 & 0.5621 & 0.5752\\
+                May & 0.0287757 & 0.0184412 & 1.560 & 0.1216\\
+                June & 0.00818765 & 0.0184412 & 0.4440 & 0.6579\\
+                July & 0.00919162 & 0.0184412 & 0.4984 & 0.6192\\
+                August & -0.0129087 & 0.0184412 & -0.7000 & 0.4855\\
+                September & 0.0240305 & 0.0184412 & 1.303 & 0.1953\\
+                October & 0.0133656 & 0.0184412 & 0.7248 & 0.4702\\
+                November & 0.0339488 & 0.0184412 & 1.841 & 0.0684 *\\
+                December & 0.0512077 & 0.0184412 & 2.777 & 0.0065 ***\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline
-                January & & & & \\
-                February & & & & \\                             
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & -0.00710508 & 0.0271159 & -0.2620 & 0.7938\\
+                February & -0.0339500 & 0.0257667 & -1.318 & 0.1905\\
+                March & -0.00104504 & 0.0257449 & -0.04059 & 0.9677\\
+                April & 0.0111692 & 0.0257446 & 0.4338 & 0.6653\\
+                May & 0.00372760 & 0.0257446 & 0.1448 & 0.8851\\
+                June & 0.000647608 & 0.0257446 & 0.02516 & 0.9800\\
+                July & -0.0130451 & 0.0257446 & -0.5067 & 0.6134\\
+                August & 0.00786053 & 0.0257446 & 0.3053 & 0.7607\\
+                September & -0.0430042 & 0.0257446 & -1.670 & 0.0978 *\\
+                October & 0.0121881 & 0.0257446 & 0.4734 & 0.6369\\
+                November & 0.00130666 & 0.0257446 & 0.05075 & 0.9596\\
+                December & -0.00468589 & 0.0257446 & -0.1820 & 0.8559\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\ 
                 \hline 
-                January & & & & \\
-                February & & & & \\                             
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & -0.00290563 & 0.0163715 & -0.1775 & 0.8596\\
+                February & 0.0292152 & 0.0151877 & 1.924 & 0.0585 *\\   
+                March & 0.0238454 & 0.0151584 & 1.573 & 0.1202\\
+                April & 0.00326544 & 0.0151577 & 0.2154 & 0.8301\\
+                May & -0.00855183 & 0.0151577 & -0.5642 & 0.5744\\
+                June & -0.00822534 & 0.0151577 & -0.5427 & 0.5891\\
+                July & 0.0267407 & 0.0151577 & 1.764 & 0.0821 *\\
+                August & -0.0206462 & 0.0151577 & -1.362 & 0.1775\\
+                September & 0.0107014 & 0.0151577 & 0.7060 & 0.4825\\
+                October & 0.0353812 & 0.0151577 & 2.334 & 0.0225 **\\
+                November & 0.0144449 & 0.0151577 & 0.9530 & 0.3439\\
+                December & 0.00512891 & 0.0163444 & 0.3138 & 0.7546\\
                 \hline                                             
                 \multicolumn{5}{l}{$^*$: 10\% Significance Level}\\  
                 \multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\ 
@@ -1791,78 +1801,78 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                January & & & & \\
-                February & & & & \\
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & 0.00540905 & 0.00721877 & 0.7493 & 0.4541\\
+                February & 0.00315688 & 0.00721877 & 0.4373 & 0.6621\\
+                March & 0.0143585 & 0.00721877 & 1.989 & 0.0473 **\\
+                April & 0.0146250 & 0.00721877 & 2.026 & 0.0434 **\\
+                May & 0.00826544 & 0.00721877 & 1.145 & 0.2529\\
+                June & -0.000643888 & 0.00721877 & -0.08920 & 0.9290\\
+                July & 0.00515595 & 0.00721877 & 0.7142 & 0.4755\\
+                August & -0.00259270 & 0.00721877 & -0.3592 & 0.7197\\
+                September & -0.00892558 & 0.00721877 & -1.236 & 0.2170\\
+                October & 0.0109054 & 0.00721877 & 1.511 & 0.1316\\
+                November & 0.0121457 & 0.00721877 & 1.683 & 0.0932 *\\
+                December & 0.0140835 & 0.00721877 & 1.951 & 0.0517 *\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                January & & & & \\                              
-                February & & & & \\
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & 0.0294820 & 0.0161016 & 1.831 & 0.0702 *\\     
+                February & 0.00678334 & 0.0161076 & 0.4211 & 0.6746\\
+                March & 0.0147210 & 0.0161077 & 0.9139 & 0.3630\\
+                April & 0.0135315 & 0.0161077 & 0.8401 & 0.4029\\
+                May & 0.00433206 & 0.0161077 & 0.2689 & 0.7885\\
+                June & 0.0144411 & 0.0161077 & 0.8965 & 0.3722\\
+                July & -0.00143894 & 0.0161077 & -0.08933 & 0.9290\\
+                August & 0.0245217 & 0.0161077 & 1.522 & 0.1312\\
+                September & -0.0175514 & 0.0161077 & -1.090 & 0.2786\\
+                October & -0.00135081 & 0.0161077 & -0.08386 & 0.9333\\
+                November & 0.00691562 & 0.0161077 & 0.4293 & 0.6686\\
+                December & 0.00768415 & 0.0152876 & 0.5026 & 0.6164\\
                 \hline
 		\multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\ 
                 \hline
-                January & & & & \\
-                February & & & & \\                             
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & 0.0246385 & 0.0125405 & 1.965 & 0.0520 *\\
+                February & 0.0133627 & 0.0119219 & 1.121 & 0.2649\\
+                March & 0.00754366 & 0.0119092 & 0.6334 & 0.5278\\
+                April & 0.0130309 & 0.0119089 & 1.094 & 0.2763\\
+                May & 0.0232437 & 0.0119089 & 1.952 & 0.0536 *\\
+                June & 0.00554912 & 0.0119089 & 0.4660 & 0.6422\\
+                July & 0.0118147 & 0.0119089 & 0.9921 & 0.3234\\
+                August & -0.0237833 & 0.0119089 & -1.997 & 0.0484 **\\
+                September & 0.00753803 & 0.0119089 & 0.6330 & 0.5281\\
+                October & 0.0170468 & 0.0119089 & 1.431 & 0.1552\\
+                November & 0.0221054 & 0.0119089 & 1.856 & 0.0662 *\\
+                December & 0.0285142 & 0.0119089 & 2.394 & 0.0184 **\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline
-                January & & & & \\
-                February & & & & \\                             
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & -0.0143499 & 0.0156172 & -0.9189 & 0.3602\\
+                February & -0.0286509 & 0.0148756 & -1.926 & 0.0568 *\\
+                March & 0.0140738 & 0.0148459 & 0.9480 & 0.3453\\
+                April & 0.0207444 & 0.0148448 & 1.397 & 0.1652\\
+                May & 0.0127795 & 0.0148447 & 0.8609 & 0.3912\\
+                June & -0.0159436 & 0.0148447 & -1.074 & 0.2852\\
+                July & -0.00586867 & 0.0148447 & -0.3953 & 0.6934\\
+                August & 0.00794347 & 0.0148447 & 0.5351 & 0.5937\\
+                September & -0.0255974 & 0.0148447 & -1.724 & 0.0875 *\\
+                October & -0.00108538 & 0.0148447 & -0.07312 & 0.9419\\
+                November & 0.00758948 & 0.0148447 & 0.5113 & 0.6102\\
+                December & 0.00657794 & 0.0148447 & 0.4431 & 0.6586\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\ 
                 \hline 
-                January & & & & \\
-                February & & & & \\                             
-                March & & & & \\
-                April & & & & \\
-                May & & & & \\
-                June & & & & \\
-                July & & & & \\
-                August & & & & \\
-                September & & & & \\
-                October & & & & \\
-                November & & & & \\
-                December & & & & \\
+                January & -0.000319698 & 0.0140640 & -0.02273 & 0.9819\\
+                February & 0.0277703 & 0.0130458 & 2.129 & 0.0368 **\\
+                March & 0.0246457 & 0.0130218 & 1.893 & 0.0625 *\\
+                April & 0.00955299 & 0.0130213 & 0.7336 & 0.4656\\
+                May & -0.0145067 & 0.0130213 & -1.114 & 0.2691\\
+                June & -0.00702875 & 0.0130213 & -0.5398 & 0.5911\\
+                July & 0.0198725 & 0.0130213 & 1.526 & 0.1315\\
+                August & -0.0222335 & 0.0130213 & -1.707 & 0.0922 *\\
+                September & 0.00246222 & 0.0130213 & 0.1891 & 0.8506\\
+                October & 0.0350198 & 0.0130213 & 2.689 & 0.0089 ***\\
+                November & 0.0111510 & 0.0130213 & 0.8564 & 0.3947\\
+                December & 0.0118427 & 0.0140417 & 0.8434 & 0.4019\\
                 \hline                                             
                 \multicolumn{5}{l}{$^*$: 10\% Significance Level}\\  
                 \multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\ 
@@ -1918,33 +1928,33 @@ This piece would not have been as efficient without the aid of the only acceptab
 		\hline
 		\multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
 		\hline
-		Pre-Hol & & & & \\
-		Post-Hol & & & & \\
-		Other Days & & & & \\
+		Pre-Hol & 0.00141170 & 0.000572469 & 2.466 & 0.0137 **\\
+		Post-Hol & -0.000431350 & 0.000572469 & -0.7535 & 0.4512\\
+		Other Days & 0.000259081 & 0.000119993 & 2.159 & 0.0309 **\\
 		\hline
 		\multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00187882 & 0.00108560 & 1.731 & 0.0836 *\\ 
+                Post-Hol & 0.000169209 & 0.00108564 & 0.1559 & 0.8762\\  
+                Other Days & 0.000365861 & 0.000242147 & 1.511 & 0.1309\\
                 \hline
 		\multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00128561 & 0.000796685 & 1.614 & 0.1067\\ 
+                Post-Hol & 0.000357986 & 0.000796699 & 0.4493 & 0.6532\\  
+                Other Days & 0.000433210 & 0.000175499 & 2.468 & 0.0136 **\\
                 \hline
 		\multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00110182 & 0.00136743 & 0.8058 & 0.4205\\ 
+                Post-Hol & -0.00108434 & 0.00136746 & -0.7930 & 0.4279\\  
+                Other Days & 4.25227e-05 & 0.000267858 & 0.1588 & 0.8739\\
                 \hline
 		\multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00136905 & 0.00124196 & 1.102 & 0.2705\\ 
+                Post-Hol & -0.00142683 & 0.00124196 & -1.149 & 0.2508\\  
+                Other Days & 0.000195958 & 0.000280161 & 0.6994 &  0.4844\\
                 \hline
                 \hline                                 
                 \multicolumn{5}{c}{\textbf{Omitting Pre-Holiday Fridays}}\\         
@@ -1952,33 +1962,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline                                                 
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.00150268 & 0.000731070 & -2.055 & 0.0399 **\\ 
+                Post-Hol & 0.000419140 & 0.000576829 & 0.7266 & 0.4675\\  
+                Other Days & 0.000284804 & 0.000121249 & 2.349 & 0.0189 **\\
                 \hline                                          
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.000504115 & 0.00146597 & -0.3439 & 0.7310\\ 
+                Post-Hol & 0.00173073 & 0.00109915 & 1.575 & 0.1155\\  
+                Other Days & 0.000391131 & 0.000245063 & 1.596 & 0.1106\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.00177162 & 0.00100747 & -1.758 & 0.0788 *\\ 
+                Post-Hol & 0.00174909 & 0.000806051 & 2.170 & 0.0301 **\\  
+                Other Days & 0.000477552 & 0.000175975 & 2.714 & 0.0067 ***\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\   
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.00198380 & 0.00170513 & -1.163 & 0.2448\\
+                Post-Hol & -0.000827460 & 0.00137483 & -0.6019 & 0.5473\\  
+                Other Days & 6.29468e-05 & 0.000271813 & 0.2316 & 0.8169\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.00129462 & 0.00155839 & -0.8307 & 0.4062\\ 
+                Post-Hol & -0.00150260 & 0.00124357 & -1.208 & 0.2271\\  
+                Other Days & 0.000196208 & 0.000280883 & 0.6985 & 0.4849\\
                 \hline
                 \hline                                          
                 \multicolumn{5}{c}{\textbf{Omitting Winter Weekends}}\\ 
@@ -1986,33 +1996,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00152137 & 0.000643778 & 2.363 & 0.0181 **\\
+                Post-Hol & -0.000521378 & 0.000627907 & -0.8303 & 0.4064\\
+                Other Days & 0.000290964 & 0.000126873 & 2.293 & 0.0219 **\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00160706 & 0.00122276 & 1.314 & 0.1889\\
+                Post-Hol & 0.000413653 & 0.00120705 & 0.3427 & 0.7319\\  
+                Other Days & 0.000405340 & 0.000258862 & 1.566 & 0.1175\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00160485 & 0.000911147 & 1.761 & 0.0783 *\\ 
+                Post-Hol & 0.000612921 & 0.000895123 & 0.6847 & 0.4936\\  
+                Other Days & 0.000435072 & 0.000188326 & 2.310 & 0.0210 **\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00139376 & 0.00154404 & 0.9027 & 0.3668\\
+                Post-Hol & -0.00164133 & 0.00148065 & -1.109 & 0.2678\\  
+                Other Days & 4.67395e-05 & 0.000280395 & 0.1667 & 0.8676\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00152402 & 0.00138415 & 1.101 & 0.2710\\ 
+                Post-Hol & -0.00176460 & 0.00134731 & -1.310 & 0.1905\\  
+                Other Days & 0.000276248 & 0.000295258 & 0.9356 & 0.3496\\
 		\hline 
                 \hline                                          
                 \multicolumn{5}{c}{\textbf{Omitting Christmas Days}}\\ 
@@ -2020,33 +2030,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00131747 & 0.000606656 & 2.172 & 0.0299 **\\
+                Post-Hol & -0.000639324 & 0.000606656 & -1.054 & 0.2920\\
+                Other Days & 0.000271065 & 0.000120512 & 2.249 & 0.0245 **\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00182931 & 0.00115746 & 1.580 & 0.1141\\
+                Post-Hol & 0.000178912 & 0.00115751 & 0.1546 & 0.8772\\  
+                Other Days & 0.000376895 & 0.00024259 & 1.554 & 0.1204\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00121223 & 0.000843801 & 1.437 & 0.1509\\ 
+                Post-Hol & 3.57112e-05 & 0.000843819 & 0.04232 & 0.9662\\  
+                Other Days & 0.000455551 & 0.000177254 & 2.570 & 0.0102 **\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.000858681 & 0.00144831 & 0.5929 & 0.5533\\
+                Post-Hol & -0.00145083 & 0.00144834 & -1.002 & 0.3166\\  
+                Other Days & 5.49683e-05 & 0.000269007 & 0.2043 & 0.8381\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00141020 & 0.00130677 & 1.079 & 0.2807\\ 
+                Post-Hol & -0.00153370 & 0.00130677 & -1.174 & 0.2407\\  
+                Other Days & 0.000194967 & 0.000280958 & 0.6939 & 0.4878\\
 		\hline 
                 \hline                                          
                 \multicolumn{5}{c}{\textbf{Omitting New Year's Days}}\\ 
@@ -2054,33 +2064,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00152558 & 0.000603382 & 2.528 & 0.0115 **\\
+                Post-Hol & -0.000691625 & 0.000605271 & -1.143 & 0.2532\\
+                Other Days & 0.000259846 & 0.000120287 & 2.160 & 0.0308 **\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00193972 & 0.00115728 & 1.676 & 0.0939 *\\
+                Post-Hol & -5.89566e-05 & 0.00115728 & -0.05094 & 0.9594\\  
+                Other Days & 0.000381266 & 0.000243318 & 1.567 & 0.1173\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00138690 & 0.000842539 & 1.646 & 0.0999 *\\ 
+                Post-Hol & 0.000792994 & 0.000847204 & 0.9360 & 0.3494\\  
+                Other Days & 0.000407709 & 0.000176963 & 2.304 & 0.0213 **\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00130797 & 0.00143400 & 0.9121 & 0.3618\\
+                Post-Hol & -0.00180243 & 0.00144195 & -1.250 & 0.2114\\  
+                Other Days & 4.58257e-05 & 0.000268320 & 0.1708 & 0.8644\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00138815 & 0.00130320 & 1.065 & 0.2869\\ 
+                Post-Hol & -0.00202406 & 0.00130320 & -1.553 & 0.1206\\  
+                Other Days & 0.000195549 & 0.000280832 & 0.6963 & 0.4863\\
 		\hline
 		\multicolumn{5}{l}{$^*$: 10\% Significance Level}\\  
                 \multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\ 
@@ -2152,33 +2162,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00156846 & 0.000606220 & 2.587 & 0.0097 ***\\
+                Post-Hol & -0.000912537 & 0.000606220 & -1.505 & 0.1323\\
+                Other Days & -1.01712e-05 & 0.000124931 & -0.08141 & 0.9351\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00224887 & 0.000679907 & 3.308 & 0.0010 ***\\ 
+                Post-Hol & -0.000722900 & 0.000680163 & -1.063 & 0.2880\\  
+                Other Days & 0.000317755 & 0.000196934 & 1.614 & 0.1068\\
                 \hline
 		\multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+		Pre-Hol & 0.00194637 & 0.000972569 & 2.001 & 0.0455 **\\ 
+                Post-Hol & -0.000427501 & 0.000972573 & -0.4396 & 0.6603\\  
+                Other Days & 2.18722e-05 & 0.000207586 & 0.1054 & 0.9161\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 1.72263e-05 & 0.00167270 & 0.01030 & 0.9918\\ 
+                Post-Hol & -0.00205496 & 0.00167272 & -1.229 & 0.2194\\  
+                Other Days & -0.000439952 & 0.000333051 & -1.321 & 0.1866\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00211149 & 0.00107610 & 1.962 & 0.0499 **\\ 
+                Post-Hol & 7.35177e-07 & 0.00107610 & 0.0006832 & 0.9995\\  
+                Other Days & 0.000154966 & 0.000209276 & 0.7405 & 0.4591\\
                 \hline
                 \hline                                 
                 \multicolumn{5}{c}{\textbf{Omitting Pre-Holiday Fridays}}\\         
@@ -2186,33 +2196,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline                                                 
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.000429706 & 0.000771428 & -0.5570 & 0.5775\\ 
+                Post-Hol & -0.000727540 & 0.000608664 & -1.195 & 0.2320\\  
+                Other Days & -8.11713e-06 & 0.000125347 & -0.06476 & 0.9484\\
                 \hline                                          
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00159576 & 0.000903622 & 1.766 & 0.0775 *\\ 
+                Post-Hol & -6.43781e-05 & 0.000681213 & -0.09451 & 0.9247\\  
+                Other Days & 0.000316679 & 0.000199769 & 1.585 & 0.1131\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.000250518 & 0.00121760 & -0.2057 & 0.8370\\ 
+                Post-Hol & -0.000424002 & 0.000974105 & -0.4353 & 0.6634\\  
+                Other Days & 2.09070e-05 & 0.000207545 & 0.1007 & 0.9198\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\   
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.00275312 & 0.00208068 & -1.323 & 0.1859\\
+                Post-Hol & -0.00199849 & 0.00167761 & -1.191 & 0.2337\\  
+                Other Days & -0.000440586 & 0.000333553 & -1.321 & 0.1867\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.000483441 & 0.00135396 & 0.3571 & 0.7211\\ 
+                Post-Hol & 4.64119e-05 & 0.00108014 & 0.04297 & 0.9657\\  
+                Other Days & 0.000154965 & 0.000210604 & 0.7358 & 0.4619\\
                 \hline
                 \hline
 		\multicolumn{5}{c}{\textbf{Omitting Winter Weekends}}\\ 
@@ -2220,33 +2230,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00144811 & 0.000665323 & 2.177 & 0.0295 **\\
+                Post-Hol & -0.00119945 & 0.000656510 & -1.827 & 0.0677 *\\
+                Other Days & -2.74774e-07 & 0.000129144 & -0.002128 & 0.9983\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00225072 & 0.000744704 & 3.022 & 0.0025 ***\\
+                Post-Hol & -0.00112949 & 0.000749543 & -1.507 & 0.1320\\  
+                Other Days & 0.000251180 & 0.000208654 & 1.204 & 0.2288\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00135438 & 0.00107827 & 1.256 & 0.2092\\ 
+                Post-Hol & -0.000525056 & 0.00106551 & -0.4928 & 0.6222\\  
+                Other Days & -6.52813e-05 & 0.000217461 & -0.3002 & 0.7641\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.000359494 & 0.00182811 & 0.1966 & 0.8441\\
+                Post-Hol & -0.00242113 & 0.00179595 & -1.348 & 0.1778\\  
+                Other Days & -0.000355734 & 0.000340424 & -1.045 & 0.2961\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00183366 & 0.00118766 & 1.544 & 0.1228\\ 
+                Post-Hol & -7.55556e-05 & 0.00114599 & -0.06593 & 0.9474\\  
+                Other Days & 0.000272307 & 0.000214917 & 1.267 & 0.2053\\
                 \hline 
                 \hline                                          
                 \multicolumn{5}{c}{\textbf{Omitting Christmas Days}}\\ 
@@ -2254,33 +2264,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00143649 & 0.000641038 & 2.241 & 0.0251 **\\
+                Post-Hol & -0.00110329 & 0.000641038 & -1.721 & 0.0853 *\\
+                Other Days & -8.20149e-06 & 0.000125246 & -0.06548 & 0.9478\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00229696 & 0.000722188 & 3.181 & 0.0015 ***\\
+                Post-Hol & -0.000925057 & 0.000722503 & -1.280 & 0.2006\\  
+                Other Days & 0.000324384 & 0.000198258 & 1.636 & 0.1019\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00201012 & 0.00102793 & 1.956 & 0.0506 *\\ 
+                Post-Hol & -0.000773998 & 0.00102793 & -0.7530 & 0.4515\\  
+                Other Days & 2.11926e-05 & 0.000207847 & 0.1020 & 0.9188\\
 		\hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.000606291 & 0.00176648 & -0.3432 & 0.7315\\
+                Post-Hol & -0.00216813 & 0.00176649 & -1.227 & 0.2198\\  
+                Other Days & -0.000438227 & 0.000333730 & -1.313 & 0.1893\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00221905 & 0.00113195 & 1.960 & 0.0501 *\\ 
+                Post-Hol & -0.000102744 & 0.00113195 & -0.09077 & 0.9277\\  
+                Other Days & 0.000154932 & 0.000209798 & 0.7385 & 0.4603\\
                 \hline 
                 \hline                                          
                 \multicolumn{5}{c}{\textbf{Omitting New Year's Days}}\\ 
@@ -2288,33 +2298,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00157019 & 0.000636601 & 2.467 & 0.0137 **\\
+                Post-Hol & -0.000912715 & 0.000638594 & -1.429 & 0.1530\\
+                Other Days & -8.09428e-06 & 0.000125769 & -0.06436 & 0.9487\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00190739 & 0.000721938 & 2.642 & 0.0083 ***\\
+                Post-Hol & -0.000872269 & 0.000721938 & -1.208 & 0.2271\\  
+                Other Days & 0.000313406 & 0.000197209 & 1.589 & 0.1122\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00160834 & 0.00102358 & 1.571 & 0.1162\\ 
+                Post-Hol & -0.000201933 & 0.00102925 & -0.1962 & 0.8445\\  
+                Other Days & 5.84864e-06 & 0.000208895 & 0.02800 & 0.9777\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.000611670 & 0.00174878 & 0.3498 & 0.7265\\
+                Post-Hol & -0.00209597 & 0.00175847 & -1.192 & 0.2334\\  
+                Other Days & -0.000435110 & 0.000336438 & -1.293 & 0.1960\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00231462 & 0.00112905 & 2.050 & 0.0405 **\\ 
+                Post-Hol & 4.12955e-05 & 0.00112905 & 0.03658 & 0.9708\\  
+                Other Days & 0.000155602 & 0.000209066 & 0.7443 & 0.4568\\
                 \hline
                 \multicolumn{5}{l}{$^*$: 10\% Significance Level}\\  
                 \multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\ 
@@ -2386,33 +2396,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00113295 & 0.000581634 & 1.948 & 0.0515 *\\
+                Post-Hol & 9.16999e-05 & 0.000581634 & 0.1577 & 0.8747\\
+                Other Days & 0.000291257 & 0.000116930 & 2.491 & 0.0128 **\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00184088 & 0.00115640 & 1.592 & 0.1115\\ 
+                Post-Hol & 0.000303647 & 0.00115641 & 0.2626 & 0.7929\\  
+                Other Days & 0.000402555 & 0.000246974 & 1.630 & 0.1032\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00110860 & 0.000887606 & 1.249 & 0.2118\\ 
+                Post-Hol & 0.000730313 & 0.000887607 & 0.8228 & 0.4107\\  
+                Other Days & 0.000521693 & 0.000187180 & 2.787 & 0.0054 ***\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.000274975 & 0.00135443 & 0.2030 & 0.8391\\ 
+                Post-Hol & -0.000774293 & 0.00135447 & -0.5717 & 0.5676\\  
+                Other Days & -1.84403e-05 & 0.000261754 & -0.07045 & 0.9438\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00142237 & 0.00114692 & 1.240 & 0.2151\\ 
+                Post-Hol & 0.000218594 & 0.00114692 & 0.1906 & 0.8489\\  
+                Other Days & 0.000278452 & 0.000222602 & 1.251 & 0.2111\\
                 \hline
                 \hline                                 
                 \multicolumn{5}{c}{\textbf{Omitting Pre-Holiday Fridays}}\\
@@ -2420,33 +2430,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline                                                 
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.00205252 & 0.000737792 & -2.782 & 0.0054 ***\\ 
+                Post-Hol & 9.27529e-05 & 0.000582134 & 0.1593 & 0.8734\\  
+                Other Days & 0.000291177 & 0.000117089 & 2.487 & 0.0129 **\\
                 \hline                                          
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.000808942 & 0.00154678 & -0.5230 & 0.6010\\ 
+                Post-Hol & 0.000300298 & 0.00115945 & 0.2590 & 0.7957\\  
+                Other Days & 0.000401195 & 0.000247290 & 1.622 & 0.1049\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.00253741 & 0.00110448 & -2.297 & 0.0217 **\\ 
+                Post-Hol & 0.000741831 & 0.000883596 & 0.8396 & 0.4012\\  
+                Other Days & 0.000521636 & 0.000187030 & 2.789 & 0.0053 ***\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\   
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.00293452 & 0.00168200 & -1.745 & 0.0812 *\\
+                Post-Hol & -0.000754821 & 0.00135630 & -0.5565 & 0.5779\\  
+                Other Days & -2.16374e-05 & 0.000262738 & -0.08235 & 0.9344\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -0.00143965 & 0.00143922 & -1.000 & 0.3173\\ 
+                Post-Hol & 0.000247920 & 0.00114818 & 0.2159 & 0.8291\\  
+                Other Days & 0.000278295 & 0.000222428 & 1.251 & 0.2110\\
                 \hline
                 \hline
                 \multicolumn{5}{c}{\textbf{Omitting Winter Weekends}}\\
@@ -2454,33 +2464,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00100114 & 0.000640866 & 1.562 & 0.1183\\
+                Post-Hol & -0.000166882 & 0.000626085 & -0.2665 & 0.7898\\
+                Other Days & 0.000290184 & 0.000120795 & 2.402 & 0.0163 **\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00145002 & 0.00124605 & 1.164 & 0.2447\\
+                Post-Hol & -0.000147785 & 0.00123795 & -0.1194 & 0.9050\\  
+                Other Days & 0.000351734 & 0.000254632 & 1.381 & 0.1673\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.000686120 & 0.000981504 & 0.6990 & 0.4846\\ 
+                Post-Hol & 0.000749152 & 0.000964233 & 0.7769 & 0.4373\\  
+                Other Days & 0.000428058 & 0.000192551 & 2.223 & 0.0263 **\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.000507641 & 0.00151894 & 0.3342 & 0.7383\\
+                Post-Hol & -0.00144735 & 0.00146503 & -0.9879 & 0.3233\\  
+                Other Days & 3.29669e-05 & 0.000272390 & 0.1210 & 0.9037\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00152487 & 0.00127044 & 1.200 & 0.2302\\ 
+                Post-Hol & 0.000373757 & 0.00122586 & 0.3049 & 0.7605\\  
+                Other Days & 0.000382112 & 0.000229960 & 1.662 & 0.0968 *\\
                 \hline 
                 \hline                                          
                 \multicolumn{5}{c}{\textbf{Omitting Christmas Days}}\\
@@ -2488,33 +2498,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00103202 & 0.000614103 & 1.681 & 0.0929 *\\
+                Post-Hol & -3.08974e-05 & 0.000614103 & -0.05031 & 0.9599\\
+                Other Days & 0.000291454 & 0.000117107 & 2.489 & 0.0128 **\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00179167 & 0.00122971 & 1.457 & 0.1453\\
+                Post-Hol & 0.000331287 & 0.00122973 & 0.2694 & 0.7876\\  
+                Other Days & 0.000403594 & 0.000247510 & 1.631 & 0.1031\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00109707 & 0.000932359 & 1.177 & 0.2394\\ 
+                Post-Hol & 0.000433506 & 0.000932360 & 0.4650 & 0.6420\\
+                Other Days & 0.000521176 & 0.000187397 & 2.781 & 0.0055 ***\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & -5.15422e-05 & 0.00143151 & -0.03601 & 0.9713\\
+                Post-Hol & -0.000936309 & 0.00143156 & -0.6541 & 0.5131\\  
+                Other Days & -1.71200e-05 & 0.000262063 & -0.06533 & 0.9479\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00143623 & 0.00120649 & 1.190 & 0.2340\\ 
+                Post-Hol & 0.000193764 & 0.00120649 & 0.1606 & 0.8724\\  
+                Other Days & 0.000278676 & 0.000223101 & 1.249 & 0.2118\\
                 \hline 
                 \hline                                          
                 \multicolumn{5}{c}{\textbf{Omitting New Year's Days}}\\
@@ -2522,33 +2532,33 @@ This piece would not have been as efficient without the aid of the only acceptab
                 \hline
                 \multicolumn{5}{c}{\textbf{Section I: Comprehensive}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\
-                Other Days & & & & \\
+                Pre-Hol & 0.00136367 & 0.000611394 & 2.230 & 0.0257 **\\
+                Post-Hol & -0.000170735 & 0.000613307 & -0.2784 & 0.7807\\
+                Other Days & 0.000292564 & 0.000116819 & 2.504 & 0.0123 **\\
                 \hline
                 \multicolumn{5}{c}{\textbf{Section II: 1980--1989}}\\
                 \hline
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00196326 & 0.00122659 & 1.601 & 0.1096\\
+                Post-Hol & 5.09600e-05 & 0.00122659 & 0.04155 & 0.9669\\  
+                Other Days & 0.000398415 & 0.000246745 & 1.615 & 0.1065\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section III: 1990--1999}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00139605 & 0.000935595 & 1.492 & 0.1358\\ 
+                Post-Hol & 0.00100422 & 0.000940778 & 1.067 & 0.2859\\  
+                Other Days & 0.000510528 & 0.000187848 & 2.718 & 0.0066 ***\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section IV: 2000--2009}}\\
                 \hline                                          
-                Pre-Hol & & & & \\
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.000577689 & 0.00141876 & 0.4072 & 0.6839\\
+                Post-Hol & -0.00141326 & 0.00142662 & -0.9906 & 0.3220\\  
+                Other Days & -1.18989e-05 & 0.000261724 & -0.04546 & 0.9637\\
                 \hline 
                 \multicolumn{5}{c}{\textbf{Section V: 2010--2016}}\\   
                 \hline            
-                Pre-Hol & & & & \\ 
-                Post-Hol & & & & \\  
-                Other Days & & & & \\
+                Pre-Hol & 0.00162236 & 0.00120045 & 1.351 & 0.1767\\ 
+                Post-Hol & -0.000243486 & 0.00120045 & -0.2028 & 0.8393\\  
+                Other Days & 0.000276633 & 0.000221884 & 1.247 & 0.2127\\
                 \hline
                 \multicolumn{5}{l}{$^*$: 10\% Significance Level}\\  
                 \multicolumn{5}{l}{$^{**}$: 5\% Significance Level}\\ 
@@ -2765,5 +2775,790 @@ This piece would not have been as efficient without the aid of the only acceptab
 	\pagenumbering{Roman}
 
 	\section*{Appendices}
+
+	\subsection*{Appendix 1: Existing Figures}
+
+		\subsubsection*{Figure A1: Average Daily Returns}
+			
+			\begin{center}
+				\includegraphics[width=7cm,height=3.5cm]{/Past-Lit-Pics/A1.png} 
+			\end{center}
+
+			(Draper, Paudyal, 1999)
+
+		\subsubsection*{Figure A2: Trading \& Non-Trading Hour Daily Returns}
+
+			\begin{center}
+                                \includegraphics[width=7cm,height=3.5cm]{/Past-Lit-Pics/A2.png}
+                        \end{center}
+
+			(Draper, Paudyal, 1999)
+
+		\subsubsection*{Figure A3: Monday Returns Adjusted for Order Size}
+                        
+                        \begin{center}
+                                \includegraphics[width=7cm,height=3.5cm]{/Past-Lit-Pics/A3.png}
+                        \end{center}
+
+                        (Draper, Paudyal, 1999)
+
+		\subsubsection*{Figure A4: Berkshire Hathaway’s Price Over Time}   
+                        
+                        \begin{center}
+                                \includegraphics[width=6.5cm,height=3cm]{/Past-Lit-Pics/A4.png}
+                        \end{center}
+
+                        (Investopedia, 2020) 
+
+		\subsubsection*{Figure A5: NYSE Total Value Over Time}  
+                        
+                        \begin{center}
+                                \includegraphics[width=6.5cm,height=3cm]{/Past-Lit-Pics/A5.png}
+                        \end{center}
+                                                
+                        (Yahoo Finance, 2020)
+
+		\subsubsection*{Figure A6: NASDAQ Total Value Over Time}          
+                        
+                        \begin{center}
+                                \includegraphics[width=6.5cm,height=3cm]{/Past-Lit-Pics/A6.png}
+                        \end{center}
+                                                
+                        (Yahoo Finance, 2020)
+
+		\subsubsection*{Figure A7: DJI Total Value Over Time} 
+                        
+                        \begin{center}
+                                \includegraphics[width=6.5cm,height=3cm]{/Past-Lit-Pics/A7.png}
+                        \end{center}
+                                                
+                        (Yahoo Finance, 2020)
+
+	\subsection*{Appendix 2: Foundational Material}
+
+		\subsubsection*{Author's Note}
+
+			\textit{The following content is manufactured by myself in aid of basic understanding of the background to contexts, data and methods present within this study. It is presented as teaching material, in a format I would output if in such position.}
+
+		\subsubsection*{Figure B1: US Market-Recognised Holidays (1980-2016)}
+
+		\begin{table}[h]
+			\tiny
+		\begin{center}
+		\begin{tabular}{ p{1cm} p{12cm} }
+			\textbf{Year} & \textbf{Holiday-Day Date}\\
+			\hline
+			\textbf{1980} & 01/01, 18/02, 26/05, 04/07, 01/09, 13/10, 11/11, 27/11, 25/12\\
+			\textbf{1981} & 01/01, 16/02, 25/05, 03/07, 04/07, 07/09, 12/10, 11/11, 26/11, 25/12\\
+			\textbf{1982} & 01/01, 15/02, 31/05, 04/07, 05/07, 06/09, 11/10, 11/11, 25/11, 24/12, 31/12\\
+			\textbf{1983} & 21/02, 30/05, 04/07, 05/09, 10/10, 11/11, 24/11, 26/12\\
+			\textbf{1984} & 02/01, 20/02, 28/05, 04/07, 03/09, 08/10, 11/11, 22/11, 25/12\\
+			\textbf{1985} & 01/01, 18/02, 27/05, 04/07, 02/09, 14/10, 11/11, 28/11, 25/12\\
+			\textbf{1986} & 01/01, 20/01, 17/02, 26/05, 04/07, 01/09, 13/10, 11/11, 27/11, 25/12\\
+			\textbf{1987} & 01/01, 19/01, 16/02, 25/05, 03/07, 04/07, 07/09, 12/10, 11/11, 26/11, 25/12\\    
+                        \textbf{1988} & 01/01, 18/01, 15/02, 30/05, 04/07, 05/09, 10/10, 11/11, 24/11, 26/12\\
+                        \textbf{1989} & 02/01, 16/01, 20/02, 29/05, 04/07, 04/09, 09/10, 11/11, 23/11, 25/12\\
+                        \textbf{1990} & 01/01, 15/01, 19/02, 28/05, 04/07, 03/09, 08/10, 11/11, 22/11, 25/12\\
+                        \textbf{1991} & 01/01, 21/01, 18/02, 27/05, 04/07, 02/09, 14/10, 11/11, 28/11, 25/12\\
+                        \textbf{1992} & 01/01, 20/01, 17/02, 25/05, 03/07, 04/07, 07/09, 12/10, 11/11, 26/11, 25/12\\
+			\textbf{1993} & 01/01, 18/01, 15/02, 31/05, 04/07, 05/07, 06/09, 11/10, 11/11, 25/11, 24/12, 31/12\\    
+                        \textbf{1994} & 17/01, 21/02, 30/05, 04/07, 05/09, 10/10, 11/11, 24/11, 26/12\\
+                        \textbf{1995} & 02/01, 16/01, 20/02, 29/05, 04/07, 04/09, 09/10, 11/11, 23/11, 25/12\\
+                        \textbf{1996} & 01/01, 15/01, 19/02, 27/05, 04/07, 02/09, 14/10, 11/11, 28/11, 25/12\\
+                        \textbf{1997} & 01/01, 20/01, 17/02, 26/05, 04/07, 01/09, 13/10, 11/11, 27/11, 25/12\\
+                        \textbf{1998} & 01/01, 19/01, 16/02, 25/05, 03/07, 04/07, 07/09, 12/10, 11/11, 26/11, 25/12\\
+			\textbf{1999} & 01/01, 18/01, 15/02, 31/05, 04/07, 05/07, 06/09, 11/10, 11/11, 25/11, 24/12, 31/12\\    
+                        \textbf{2000} & 17/01, 21/02, 29/05, 04/07, 04/09, 09/10, 11/11, 23/11, 25/12\\
+                        \textbf{2001} & 01/01, 15/01, 19/02, 28/05, 04/07, 03/09, 08/10, 11/11, 22/11, 25/12\\
+                        \textbf{2002} & 01/01, 21/01, 18/02, 27/05, 04/07, 02/09, 14/10, 11/11, 28/11, 25/12\\
+                        \textbf{2003} & 01/01, 20/01, 17/02, 26/05, 04/07, 01/09, 13/10, 11/11, 27/11, 25/12\\
+                        \textbf{2004} & 01/01, 19/01, 16/02, 31/05, 04/07, 05/07, 06/09, 11/10, 11/11, 25/11, 24/12, 31/12\\
+			\textbf{2005} & 17/01, 21/02, 30/05, 04/07, 05/09, 10/10, 11/11, 24/11, 26/12\\
+                        \textbf{2006} & 02/01, 16/01, 20/02, 29/05, 04/07, 04/09, 09/10, 11/11, 23/11, 25/12\\
+                        \textbf{2007} & 01/01, 15/01, 19/02, 28/05, 04/07, 03/09, 08/10, 11/11, 22/11, 25/12\\
+                        \textbf{2008} & 01/01, 21/01, 18/02, 26/05, 04/07, 01/09, 13/10, 11/11, 27/11, 25/12\\
+                        \textbf{2009} & 01/01, 19/01, 16/02, 25/05, 03/07, 04/07, 07/09, 12/10, 11/11, 26/11, 25/12\\
+                        \textbf{2010} & 01/01, 18/01, 15/02, 31/05, 04/07, 05/07, 06/09, 11/10, 11/11, 25/11, 24/12, 31/12\\
+			\textbf{2011} & 17/01, 21/02, 30/05, 04/07, 05/09, 10/10, 11/11, 24/11, 26/12\\
+                        \textbf{2012} & 02/01, 16/01, 20/02, 28/05, 04/07, 03/09, 08/10, 11/11, 22/11, 25/12\\
+                        \textbf{2013} & 01/01, 21/01, 18/02, 27/05, 04/07, 02/09, 14/10, 11/11, 28/11, 25/12\\
+                        \textbf{2014} & 01/01, 20/01, 17/02, 26/05, 04/07, 01/09, 13/10, 11/11, 27/11, 25/12\\
+                        \textbf{2015} & 01/01, 19/01, 16/02, 25/05, 03/07, 04/07, 07/09, 12/10, 11/11, 26/11, 25/12\\
+                        \textbf{2016} & 01/01, 18/01, 15/02, 30/05, 04/07, 05/09, 10/10, 11/11, 24/11, 26/12\\
+			\hline
+		\end{tabular}
+		\end{center}
+		\end{table}
+	\newpage
+
+		\subsubsection*{Figure B2: Elementary Basics of Statistics}
+
+		\begin{center}
+			\scriptsize
+		\begin{longtable}{ p{3cm} p{9cm} }
+			\hline
+			\hline
+			\multicolumn{2}{c}{\textbf{Variable Types}}\\
+			\hline
+			\hline
+			\multicolumn{2}{c}{\textbf{Numerical}}\\
+			\hline
+			Continuous & Infinite possible values.\newline Real line or interval.\newline E.g. page number on your Beamer slide show or; hh:MM:SS:ss -- dd/mm.yyyy.\\
+			Discrete & Restricted possible values.\newline Bound to lower and upper limit.\newline E.g. number of lexer errors in {\TeX} log when you try to use HTML shortcuts as opposed to basic Unicode shortcuts.\\
+			\hline
+			\multicolumn{2}{c}{\textbf{Categorical}}\\
+			\hline
+			Ordinal & Ordered/sequenced and has meaning.\newline E.g. gender, race, eye colour etc.; any type of group residence.\\
+			Regular & Ordered/sequenced and has no meaning.\newline E.g. surname, forename.\\
+			\hline
+			\multicolumn{2}{c}{\textbf{Relationships}}\\
+			\hline
+			Correlation & How variables move together (direction).\newline Correlation $\neq$ Causation\\
+			Association & Intuitively connected but, perhaps, not correlated.\\
+			Dependence & Does correlatively rely on the movement of another variable.\\
+			Independence & Does not correlatively rely on the movement of another variable.\\
+			\hline
+			\hline
+			\multicolumn{2}{c}{\textbf{Data Collection}}\\
+			\hline
+			\hline
+			Sample & Portion of population selected for analysis.\newline Used to make assumptions and inference upon entire populations.\\
+			Population & Entirety of the group from which a sample is extracted.\\
+			\hline
+			\multicolumn{2}{c}{\textbf{Sampling Bias}}\\
+			\hline
+			Non-Responsive & Only a small portion of a the proposed sample responded.\\
+			Voluntary Response & Irrational bias in opinions of people within sample.\\
+			Convenience & More accessibility leads to easier response. May lead to skewed results.\newline E.g. a farming survey’s results in Central Asia may be skewed towards commercial farming because of India (easier to survey), although subsistence farming is significantly more present in remote (harder to survey) areas such as Nepal; of which there is a larger quantity.\\
+			Observations & Conductor observes information and translates it to data (observations) from existing scenario.\\
+			Experiment & Conductor observes data from results of self-manufactured scenario.\\
+			\hline
+			\hline
+			\multicolumn{2}{c}{\textbf{Examining Data}}\\
+			\hline
+			\hline
+			Scatter Plot & Plots scattered across a 2D \textit{x}-axis/\textit{y}-axis\newline Allows for identification of relationship between \textit{x} (explanatory axis) and \textit{y} (response axis).\newline E.g. linear (positive/negative), polynomial (varying by degree \{quadratic, cubic, quartic, quintic, ...\}) etc.\\
+			Bar Graph & Basic comparison of values (\textit{y}-axis) of categories (\textit{x}-axis).\\
+			Population Pyramids & Comparison of intervals (\textit{y}-axis) across two categorical groups (\textit{x}-axis 1, \textit{x}-axis 2). Often used in human population.\\
+			Box Plot & Highlights minimum, first quartile, median, third quartile and maximum.\\
+			\hline
+			\multicolumn{2}{c}{\textbf{Distribution Moments}}\\
+			\hline
+			Mean & $\mu=\frac{\Sigma x}{N}$ = Population Mean; $\bar{x}=\frac{\Sigma x}{n}$ = Sample Mean\newline Common `average’ value.\newline Supplies line of best fit in linear equations.\newline Influenced by outliers so can be skewed.\\
+			Median & Central value in dataset.\newline Neglects outliers, to a degree (hence, used for salary etc.)\newline Finds quartile ranges: 0 - Q1 - Q2 - Q3 - N (IQR)\\
+			Standard Deviation & $\sigma$ = Standard Deviation\newline How much data deviates from the mean.\newline Same units as the data.\\
+			Variance & $\sigma^2$ = Variance\newline Fairly weighted measure of variation from the mean.\newline Discards negatives, weights higher deviations more.\\
+			Covariance & $\mathrm{cov_{\textit{x,y}}=\sigma_\textit{x}\sigma_\textit{y}\rho_{\textit{x,y}}}$ = Covariance\newline Variation of members of the dataset, relative to others.\\
+			Correlation & $\mathrm{\rho_{\textit{x,y}}=\frac{cov_{\textit{x,y}}}{\sigma_\textit{x}\sigma_{\textit{y}}}}$ = Correlation\newline If $\rho$ = 1: Perfect Positive Correlation (Together)\newline If $\rho$ = -1: Perfect Negative Correlation (Apart)\newline If $\rho$ = 0: No Correlation\newline Correlation Matrices map all possible movements together.\\
+			Skewness & Degree of asymmetry around the mean.\newline \textbf{Symmetric: }assume mean in centred.\newline \{mean $\approx$ median\}; \{skewness $\approx$ 0\}\newline \textbf{Left Skewness: }tail to left \{\underline{Negative Skewness} $<$ 0\}\newline \{mean $<$ median\}; Positive Distribution\newline \textbf{Right Skewness: } tail to right \{\underline{Positive Skewness} $>$ 0\}\newline \{mean $>$ median\}; Negative Distribution\\
+			Kurtosis & Measure of the peak of the data; likelihood of extremes.\newline `Excess Kurtosis’: how peaked the data is relative to the normal distribution.\newline Excess Kurtosis = $k-3$ (Generally, \{$k-3=1$\} is significant)\newline \textbf{Leptokurtic: }above Normal Distribution - skinny/high tails.\newline \{Excess Kurtosis $>$ 0; $k<0$\}; Positive Excess Kurtosis\newline \textbf{Platykurtic: }below Normal Distribution - fat/low tails.\newline \{Excess Kurtosis $<$ 0; $k>0$\}; Negative Excess Kurtosis\newline \textbf{Mesokurtic: }Normal Distribution\newline \{Excess Kurtosis = 0; $k=0$\}; Normal Distribution\\
+			Modality & \textbf{Unimodal: }1 peak\newline \textbf{Bimodal: }2 peaks\newline \textbf{Multimodal: }more than 2 peaks; \textit{n} peaks\newline \textbf{Uniform: }No peaks (outcomes have equal probabilities)\\
+			\hline
+			\hline
+			\multicolumn{2}{c}{\textbf{Types of Economic Data}}\\
+			\hline
+			\hline
+			Cross-Section & Observations of different units, over the same time period.\newline $\mathrm{R_i}$ for i = 1,2, ...N; for N unit observations.\newline E.g. returns of 226 companies over 69/62/26.\\
+			Time-Series & Observations of the same unit, over different times periods.\newline $\mathrm{R_t}$ for t = 1,2, ...,T; for T time periods.\newline E.g. returns of 1 company over 69/62/26 - 22/66/96.\\
+			Panels & Observations of different units, over different time periods.\newline $\mathrm{R_{it}}$ for $\mathrm{\begin{Bmatrix}\textrm{i}=1,2, ...,\textrm{N}\\ \textrm{t}=1,2, ...,\textrm{T}\end{Bmatrix}}$\newline E.g. returns of 226 companies over 69/62/26 - 22/66/96.\\
+			\hline
+		\end{longtable}
+		\end{center}
+
+	\newpage
+
+		\subsubsection*{Figure B3: Regression Modelling Basics (Expansive)}
+
+		\begin{center}
+			\scriptsize
+		\begin{longtable}{ p{14cm} }
+			\hline
+			\hline
+			\multicolumn{1}{c}{\textbf{Model Types}}\\
+			\hline
+			\hline
+			\multicolumn{1}{c}{\textbf{Standard Ordinary Least Squares (OLS) Multiple Regression}}\\
+			\hline
+			$$\mathrm{Y_t=\alpha+\beta_1X_1+\beta_2X_2+...+\beta_kX_k+\varepsilon_t}$$
+			For N observations; dependent (response) variable Y; k independent (explanatory) (X) variables; random error $\mathrm{\varepsilon_t}$ and; time t (Wooldridge, 2012).\newline\newline 
+			$\mathrm{\beta_1}$ is the marginal effect of X$_1$ on Y, ..., $\mathrm{\beta_k}$ is the marginal effect of X$\mathrm{_k}$ on Y.\newline\newline
+			Assumptions of a standard OLS Regression:\newline\newline
+			[1] $\mathrm{\Sigma\varepsilon_i\cong0}$\newline\newline
+			The sum of all residuals should approximately zero, meaning the degree to which observations outlie the line of best fit should be consistent. Errors should be minimised to satisfy $\mathrm{\min\left\{\Sigma_{i=1}^N\varepsilon_i^2=\Sigma_{i=1}^N\left(Y_i-\hat{Y}_i\right)^2\right\}}$ for $\mathrm{\hat{\alpha}=\hat{\beta}_0}$; $\mathrm{\hat{\beta}=\hat{\beta}_1}$\newline\newline
+			[2] var$\mathrm{(\varepsilon_i)=E(\varepsilon_i^2)=\sigma^2}$\newline\newline
+			All observations have constant errors, meaning that the variance of the residuals is constant. Therefore, they are homoscedastic; no need for a heteroscedasticity test (White, 1980) or the adjustment to a robust model.\newline\newline
+			[3] cov$\mathrm{(\varepsilon_i,\varepsilon_j)=0}$ (for $\mathrm{i\neq j}$)\newline\newline
+			Error terms uncorrelated with one another; observations are exogenous (X$_1$ does not cause changes in X$_2$), not endogenous. There is no need for Instrumental Variable approach. No endogeneity problem.\\
+			\hline
+			\multicolumn{1}{c}{\textbf{ARCH Stochastic Time-Series Model}}\\
+			\hline
+			$$\mathrm{Y_t=\alpha+Y_{t-1}+\varepsilon_t\rightarrow\Delta Y_t=\alpha+\varepsilon_t}$$
+                	Referring to $\mathrm{Y_t}$, stock prices increase by an average of $\mathrm{\alpha}$ each period but are otherwise unpredictable due to variation $\mathrm{\varepsilon_t}$ (Engle, 1982). Meaning that stock returns (referring to $\mathrm{\Delta Y_t}$; ``a stock return is the change in stock price”) are on average $\mathrm{\alpha}$ but are unpredictable due to error $\mathrm{\varepsilon_t}$.\newline\newline
+			We observe lagged variables $\mathrm{(Y_{t-1})}$ and therefore must ensure no autocorrelation between them and the dependent variable as such: $\mathrm{\rho=corr\left(Y_t,Y_{t-1}\right)}$. This takes form of the Autoregressive(1) (AR(1)) which allows unit-root tests which aim to identify stationarity, ensuring zero-mean, constant variance, no seasonality. Hence, testing for $\mathrm{\left(|\rho|<1\right)}$. They’re frequently referred to as tau-tests, also ensuring coefficients have a t-distribution and produce accurate t-stats and p-values. This follows:
+			$$\mathrm{Y_t=\alpha+\rho Y_{t-1}+\varepsilon_t}$$
+			Extended to the Autoregressive(p) (AR(p)) model for p time stamps in period T:
+			$$\mathrm{Y_t=\alpha+\rho_1Y_{t-1}+...+\rho_pY_{t-p}+\varepsilon_t}$$\\
+			Furthermore, for modelling financial time-series, the above is transformed into the Autoregressive Conditional Heteroscedasticity (ARCH) model (Bollerslev, 1986). This accounts for return volatility and an error function as follows:
+			$$\mathrm{Y_t=\alpha+\beta_1X_{1t}+...+\beta_kX_{k1}+\varepsilon_t}$$
+			$$\mathrm{\sigma_t^2=var(\varepsilon_t)=\gamma_0+\gamma_1\varepsilon_{t-1}^2+...+\gamma_p\varepsilon_{t-p}^2}$$
+			$$\mathrm{\varepsilon_t=\textit{f}\left(\varepsilon_{t-1},\varepsilon_{t-1},...,\varepsilon_{t-p}\right)}$$\\
+			\hline
+			\multicolumn{1}{c}{\textbf{Dummy Variables}}\\
+			\hline
+			Dummy variables are used to alter a sample according to a binary criteria (Wooldridge, 2003). A dummy (D) is placed in the model with a value of 1 or 0. For example, when isolating males and females. This alters the \textit{y-intercept} according to each in question thus, changing the premium. For example:
+                	$$\mathrm{Y_t=\alpha+\beta_1X_1+\tau D_t+\varepsilon_t}$$
+			$\mathrm{D_t=0}$: $\mathrm{Y_t=\alpha+\beta_1X_1+\tau D_t+\varepsilon_t;}$\\ $\mathrm{D_t=1}$: $\mathrm{Y_t=\alpha+\beta_1X_1+\tau+\varepsilon_t=(\alpha+\tau)+\beta_1X_1+\varepsilon_t}$\\
+			\hline
+			\hline
+			\multicolumn{1}{c}{\textbf{Measures of Model Integrity}}\\
+			\hline
+			\hline
+			\textbf{[1] R$^2$ Value: }Basic model integrity. The degree of explanation a selection of variables has regarding the chosen dependent variable.\newline\newline
+			[1.1] Standard R$^2$: Used in the case of single regression.\newline\newline
+			\textit{The R$^2$ value of 0.2672 suggests the explanatory variable is responsible for and can statistically explain 26.72\% of the variation in Y or; variation in Y is 26.72\% attributable to the explanatory variable.}\newline\newline
+			[1.2] Adjusted R$^2$ Value: Same as the former. Used in the case of multiple regression.\newline\newline
+			\textit{The R$^2$ value of 0.5672 suggests the collection of explanatory variables are responsible for and can statistically explain 56.72\% of the variation in Y or; variation in Y is 56.72\% attributable to the collection of explanatory variables.}\newline\newline
+			\textbf{[2] Omitted Variable Bias: }When one or more variables which could have an effect on Y are omitted from the model. This may happen when omitting variables in search of better p-values. Some explanation may be omitted.\newline\newline
+			\textbf{[3] Information Criteria: }One way of selecting an optimal model is by finding the one with the lowest possible \underline{Schwartz Information Criterion}, \underline{Akaike Information Criteria} and/or \underline{Hannan-Quinn Information Criteria}.\newline\newline
+			\textbf{[4] f-test: }Validity of the set of variables in explaining the dependent variable. Validity of the set of instruments also, in the case of an Instrumental Variable approach.\newline\newline
+			H$_0$: R$^2=0$; the model is not statistically significant\newline\newline
+			p-value $>$ 0.05: fail-to-reject; the model is not statistically significant\newline
+			p-value $<$ 0.05: reject; the model is statistically significant at $<$\textit{relevant}$>$ level\\
+			\textbf{[5] RESET Test: }Tests whether non-linear explanatories, such as polynomials and logarithms, assist in explaining the dependent variable. I.e. is your model well- specified? Hypothetically adds gamma coefficients to hypothetical polynomials and logs in the model. Try different selections of polys and logs and compare RESET results. Seek combination with highest possible p-value.\newline\newline
+			\textit{Aim to fail-to-reject (if not in desire of polys and logs):}\newline
+			H$_0$: Polynomials and logarithms do not aid explanation of Y\newline\newline
+			\textit{p-value desire flips with regards to hypothesis symmetry:}\newline
+			p-value $>$ 0.05: fail-to-reject; polynomials and logarithms do aid explanation of Y\newline
+			p-value $<$ 0.05: reject; polynomials and logarithms do not aid explanation of Y\newline\newline
+			\textbf{[6] Endogeneity Test: }The `\underline{Hausman Test}' is often used. Random unaccounted explanatories may be correlated with $\varepsilon$ so, the Instrumental Variable approach accounts for unknown coefficients where its variable is correlated with $\varepsilon$.\newline\newline
+			\textbf{Endogeneity: }factors in model cause $\Delta$X, $\Delta$X associated w/ $\Delta\varepsilon$\newline
+			\textbf{Exogeneity: }factors in model don't cause $\Delta$X, $\Delta$X not associated w/ $\Delta\varepsilon$\newline\newline 
+			\textit{Aim to fail-to-reject:}\newline
+			H$_0$: Explanatory variables uncorrelated with $\varepsilon$; no endogeneity problem\newline\newline
+			\textit{p-value desire flips with regards to hypothesis symmetry:}\newline
+			p-value $>$ 0.05: fail-to-reject; no endogeneity problem present\newline
+			p-value $<$ 0.05: reject; endogeneity problem present; need IV approach\newline\newline
+			\textbf{[7] Heteroskedasticity Test: }The `\underline{White Test}' is often used. Often referred to as `robustness test' finding need for robust standard errors. When there’re non-constant error terms (heteroscedasticity), OLS poorly fits a suitable line through the data.\newline\newline
+			\textbf{Homoscedastic Errors: }constant error terms/error variance\newline
+			\textbf{Heteroscedastic Errors: }non-constant error terms/error variance\newline\newline
+			\textit{Aim to fail-to-reject:}\newline
+			H$_0$: There is homoscedasticity present; there are constant error terms\newline\newline
+			\textit{p-value desire flips with regards to hypothesis symmetry:}\newline
+			p-value $>$ 0.05: fail-to-reject; there is no heteroscedasticity present; errors are constant\newline
+			p-value $<$ 0.05: reject; there is heteroscedasticity present; errors are non-constant\newline\newline
+			\textbf{[8] Unit-Root Test: }This may be found under various names including `tau-test’, `unit-root test’, `Augmented Dickie-Fuller Test’ etc. However, people frequently make the same mistake with these terms as they do when referring to `terminal’, `terminal emulator’ `command line’, `shell’ and `Bash/zsh’, for example.\newline\newline
+			A `unit-root’ is a possible characteristic of stochastic trend for example, when there’s a random walk. A `unit-root’ test aims to identify whether there is stationarity in a stochastic model. Stationarity requires: [1] constant mean, [2] constant variance, [3] no seasonality. The `\underline{Dickie-Fuller Test}' is the creator-based name given to a test for a unit-root, using a tau test-statistic ($\tau$-statistic) hence, `tau-test’. If Y is non-stationary, $\phi$ lacks a t-distribution so p-values/t-stats of t-tests are inaccurate. Syntax follows: `Y is stationary/non-stationary’.\newline\newline
+			[8.1] The `\underline{Dickie-Fuller Test}' is used for single-explanatory models, commonly AR(1):\\
+			Recall: $\mathrm{Y_t=\alpha+\rho Y_{t-1}+\varepsilon_t}$\newline
+			Testing Regression: $\mathrm{\Delta Y_t=\alpha+\phi Y_{t-1}+\varepsilon_t}$\newline\newline
+			H$_0$: $\mathrm{\phi=0\Rightarrow\left\{\rho=1\Rightarrow\phi=(\rho-1)\right\}}$; there is a uni-root present\newline\newline
+			p-value $>$ 0.05: fail-to-reject; $\{\phi=0\Rightarrow\rho=1\}$; Y non-stationary; unit-root present\newline
+			p-value $<$ 0.05: reject; $\left\{\{-2<\phi<0\}\Rightarrow\{-1<\rho<1\}\right\}$; Y stationary; no unit-root\newline\newline
+			[8.2] The `\underline{Augmented Dickie-Fuller Test}' follows the same principals and is used for multiple-variable models. Variables which present stationarity can be used. Syntax amendment follows: `Y is stationary/non-stationary about the trend of X’. The `\underline{Augmented Dickie-Fuller Test}' extends the testing methods to AR(p):\newline\newline
+			Recall: $\mathrm{Y_t=\alpha+\rho_1Y_{t-1}+...+\rho_pY_{t-p}+\varepsilon_t}$\newline
+			Testing Regression: $\mathrm{\Delta Y_t=\alpha+\phi Y_{t-1}+\gamma_1\Delta Y_{t-1}+...+\gamma_p\Delta Y_{t-p}+\delta t+\varepsilon_t}$\newline
+
+			H$_0$: $\phi=0\wedge\delta=0$; there is a uni-root present\newline\newline
+			p-value $>$ 0.05: fail-to-reject; Y non-stationary around trend; unit-root present\newline
+			p-value $<$ 0.05: reject; Y stationary around trend; no unit-root\\
+			\hline
+		\end{longtable}	
+		\end{center}
+	
+		\subsubsection*{Figure B4: Regression Results Interpretation}
+
+		\begin{table}[h]
+			\scriptsize
+		\begin{center}
+		\begin{tabular}{ p{3cm} p{5cm} p{5cm} }
+			\hline
+			\multicolumn{3}{c}{\textbf{Coefficients}}\\
+			\hline
+			$(+)$ & \multicolumn{2}{l}{X and Y positively related and move in the same direction.}\\
+			$(-)$ & \multicolumn{2}{l}{X and Y negatively related and move in opposing directions.}\\
+			\hline
+			\multicolumn{3}{c}{\textbf{Numerical Continuous Dependent Variable}}\\
+			\hline
+			Continuous\newline Explanatory & For a 1 unit change in X, there is a $<$\textit{coefficient}$>$ change in Y. & \textit{``For a 1 unit increase in management fee, there is a $<$coefficient$>$ change in hedge fund value."}\\
+			Binary Explanatory & X Binary 1 results in a $<$\textit{coefficient}$>$ difference in Y over X Binary 0. & \textit{``A fund with a high-water mark has a $<$coefficient$>$ different value from a fund without one."}\\
+			\hline
+			\multicolumn{3}{c}{\textbf{Binary Dummy Dependent Variable}}\\
+			\hline
+			Continuous\newline Explanatory & For a 1 unit change in X, the odds of Y being Binary 1 changes by $<$\textit{coefficient}$>$ units. & \textit{``For a 1 unit increase in management fee, the odds of a hedge fund being defunct changes by $<$coefficient$>$ units."}\\
+			Binary Explanatory & X Binary 1 results in the odds of Y being Binary 1 by $<$\textit{coefficient}$>$ different units over X Binary 0. & \textit{``A fund with a high-water mark is $<$coefficient$>$ differently probable of being defunct than a fund without one."}\\
+			\hline
+			\multicolumn{3}{c}{\textbf{Respective Numerical Examples (Coefficient = 0.226)}}\\
+			\hline
+			\multicolumn{3}{ p{14cm} }{\textit{``For a 1 unit change in management fee, there is a 0.226 unit increase in hedge fund value."}}\\
+			\multicolumn{3}{ p{14cm} }{\textit{``A hedge fund with a high-water mark has a 0.226 unit greater value than one without one."}}\\
+			\multicolumn{3}{ p{14cm} }{\textit{``For a 1 unit increase in management fee, the odds of a hedge fund being defunct increases by 0.226 units."}}\\
+			\multicolumn{3}{ p{14cm} }{\textit{``A hedge fund with a high-water mark is 0.226 units more probable of being defunct than one without one."}}\\
+			\hline
+		\end{tabular}
+		\end{center}
+		\end{table}
+
+		\subsubsection*{Figure B5: Hypothesis Testing Basics (Expansive)}
+
+		\begin{table}[h]                                                           
+                        \scriptsize                                                               
+                \begin{center}
+		\begin{tabular}{ p{4cm} p{4cm} p{4cm} }
+			\hline
+			\hline
+			\multicolumn{3}{c}{\textbf{Hypotheses}}\\
+			\hline
+			\hline
+			\multicolumn{3}{ p{12cm} }{\textbf{H$_0$: }Null Hypothesis \textit{Aim to Reject; may Fail-to-Reject; rarely Accept}\newline \textbf{H$\mathrm{_A}$: }Alternative Hypothesis \textit{Favour in the case of Rejection of the Null}}\\
+			\hline
+			\multicolumn{3}{ p{12cm} }{\textbf{Type I Error: }Rejection of null hypothesis when it is true\newline \textbf{Type II Error: }Failure-to-reject null hypothesis when it is false}\\
+			\hline
+			\multicolumn{3}{ p{12cm} }{\textbf{Reduce Type I Error Risk: }Reduce significance level; harder to reject null\newline \textbf{Reduce Type II Error Risk: }Use large sample; ensuring significant spread}\\
+			\hline
+			\hline
+			\multicolumn{3}{c}{\textbf{Error Examples}}\\
+			\hline
+			\hline
+			\multicolumn{1}{c|}{\textbf{Decision}} & \multicolumn{1}{c|}{H$_0$ is True} & \multicolumn{1}{c}{H$_0$ is False}\\
+			& \multicolumn{1}{|c|}{(Accused is Innocent)} & \multicolumn{1}{c}{(Accused is Guilty)}\\
+			\hline
+			\multicolumn{1}{c|}{Reject H$_0$} & \multicolumn{1}{c|}{\textbf{WRONG} Decision} & \multicolumn{1}{c}{\textbf{CORRECT} Decision}\\
+			\multicolumn{1}{c|}{(Accused Convicted)} & \multicolumn{1}{c|}{(Type I Error)} & \\
+			& \multicolumn{1}{|c|}{Probability $\alpha$} & \\
+			\hline
+			\multicolumn{1}{c|}{Fail-To-Reject H$_0$} & \multicolumn{1}{c|}{\textbf{CORRECT} Decision} & \multicolumn{1}{c}{\textbf{WRONG} Decision}\\
+			\multicolumn{1}{c|}{(Accused Goes Free)} & & \multicolumn{1}{|c}{(Type II Error)}\\
+			& \multicolumn{1}{|c|}{} & \multicolumn{1}{c}{Probability $\beta$}\\
+			\hline
+		\end{tabular}
+		\end{center}
+		\end{table}
+
+		\subsubsection*{Figure B6: t-stat \& p-value Interpretation}
+
+		\begin{table}[h]
+			\scriptsize
+		\begin{center}
+		\begin{tabular}{p{12cm}}
+			\hline
+			\multicolumn{1}{c}{\textbf{t-stat}}\\
+			\hline
+			\multicolumn{1}{c}{t-stat = $\mathit{\frac{\bar{x}-\bar{\mu}}{\left(\frac{\sigma^\mathrm{2}}{\sqrt{N}}\right)}}$}\\
+			\textbf{t-stat} $>$ 1.96: reject the null hypothesis at the 5\% significance level;\newline \textbf{t-stat} $>$ 2.58: reject the null hypothesis at the 1\% significance level\newline \textit{Given 1000 degrees of freedom}\\
+			\hline
+			\multicolumn{1}{c}{\textbf{p-value}}\\
+			\hline
+			\textbf{p-value} $<$ 0.05: reject the null hypothesis at the 5\% significance level;\newline \textbf{p-value} $<$ 0.01: reject the null hypothesis at the 1\% significance level\newline \textit{Given 1000 degrees of freedom}\\
+			\hline
+			\multicolumn{1}{c}{\textbf{Confidence Relevance}}\\
+			\hline
+			5\% and 1\% significance levels are also referred to as the 95\% and 99\% confidence [in rejecting the null] intervals. Correct syntax: refer to 5\% and 1\% significance levels when referring to p-values; 95\% and 99\% confidence levels when referring to hypotheses.\\
+			\hline
+			\multicolumn{1}{c}{\textbf{Error Relevance}}\\
+			\hline
+			5\% and 1\% levels are used to ensure accuracy and reduced probability of making a Type I error. That is, ``accepting a max 5\%/1\% chance that you are wrong when rejecting the null”; ``you are min 95\%/99\% confident you are right when rejecting”.\\
+			\hline
+		\end{tabular}
+		\end{center}
+		\end{table}
+
+	\newpage
+
+		\subsubsection*{Figure B7: Linguistics of `{\LaTeX}'}
+
+		{\LaTeX} (or LaTeX, even latex (Donald E. Knuth's more recent installment of {\TeX})) is usually pronounced /la\textlengthmark t$\varepsilon$k/ (`lah') or /le\textsc{i}t$\varepsilon$k/ (`lei'/`lay') in English (that is, not with the /ks/ pronunciation English speakers normally associate with X, but with a /k/). The characters T, E, X in the name come from capital Greek letters tau, epsilon, and chi, as the name of {\TeX} derives from the Greek: $\tau\varepsilon\chi\nu\eta$ (skill, art, technique, precision); for this reason, Donald E. Knuth promotes a pronunciation of /t$\varepsilon$k/ (tekh) (that is, with a voiceless velar fricative as in Modern Greek, similar to the last sound of the German word ``Bach", the Spanish ``j" sound, or as ch in a Scottish `loch'). 
+
+		\subsubsection*{Figure B8: F\"{u}hrer Knuth's Computer Modern Unicode (CMU) Font Family}
+
+		\begin{table}[h]
+			\scriptsize
+		\begin{center}
+			\begin{tabular}{ p{4cm} p{4cm} p{4cm} }
+			\hline
+			\multicolumn{1}{c}{\textbf{Serif}} & \multicolumn{1}{c}{\textbf{Sans Serif}} & \multicolumn{1}{c}{\textbf{Monospaced}}\\
+			\hline
+			CMU Serif Roman & \textsf{CMU Sans Serif} & \texttt{CMU Concrete}\\
+			\textbf{CMU Serif Bold} & \sffamily \textbf{CMU Sans Serif Bold} & \\ 
+				\textit{CMU Serif Italic} & & \ttfamily \textit{CMU Concrete Italic}\\
+			\textsl{CMU Serif Oblique} & \sffamily \textsl{CMU Sans Serif Oblique} & \ttfamily \textsl{CMU Concrete Oblique}\\
+				\textsc{CMU Serif Small Caps} & & \ttfamily \textsc{CMU Concrete Small Caps}\\
+			\hline
+				\multicolumn{3}{p{13cm}}{\textit{In the presence of traditionalists, a suitable alternative to Donald E. Knuth's Computer Modern Unicode font family may be considered: Andale Mono.}}\\
+			\hline
+		\end{tabular}
+		\end{center}
+		\end{table}
+
+		\subsubsection*{Figure B9: Why My Pre-Title’s Right and You’re Wrong}
+
+		I have received numerous comments which anyone would regard as na\"{i}ve and under-educated regarding my pre-title of this study: `AG436 Dissertation Coursework Assignment'. The argument originates in the `Coursework Assignment’ portion. People argue that a dissertation `s not’/`does not have’ an assignment. Not only is this poor characteristic recognition, it is semantically wrong. AG436: Dissertation is a class just like any other. However under this class, there are no lectures, no tutorials and therefore no exams as there is no [taught] content. Do not confuse this with the class `having no content’ though. AG436’s content is apparent through literature of the student’s choice. Therefore, it is possible for a `coursework assignment’ to be based on this. Hence, any further comments are null.
+
+\newpage
+% Bibliography
+
+	\renewcommand\refname{Bibliography}
+
+	\begin{thebibliography}{9}
+
+	% A's
+
+	\bibitem{a}
+		Abraham, A., Ikenberry, D. L. (1994).
+		\textsl{The Individual Investor and the Weekend Effect.}
+		Journal of Financial and Quantitative Analysis. Volume 29. Issue 2. Pages 263-277.
+	
+	\bibitem{b}
+		Anthony, J., Arline, A. (2000).
+		\textsl{The January Effect and Other Seasonal Anomalies: A Common Theoretical Framework.}
+		JAI Press Inc. Page 267.
+
+	\bibitem{c}
+		Ariel, R. (1987).
+		\textsl{A Monthly Effect in Stock Returns.}
+		Journal of Financial Economics. Volume 18. Pages 116-174.
+
+	%B's
+
+	\bibitem{d}
+		Basu, S. (1977).
+		\textsl{The Investment Performance of Common Stocks in Relation to Their Price-Earnings Ratios: A Test of the Efficient Market Hypothesis.}
+		Journal of Finance. Volume 32. Pages 663-682.
+
+	\bibitem{e}
+		Berglund, T. (1986).
+		\textsl{Anomalies in Stock Returns on a Thin Security Market.}
+		The Swedish School of Economics and Business Administration. Page 95.
+
+	\bibitem{f}
+		Bessembinder, H., Hertzel, M. (1993).
+		\textsl{Return Autocorrelations Around Non-Trading Days.}
+		Review of Financial Studies. Volume 6. Pages 155- 189.
+	
+	\bibitem{g}
+		Bodie, Z., Kane, A., Marcus., A. J. (2002).
+		\textsl{Investments.}
+		McGraw Hill Education. Eleventh Edition. Page 981.
+	
+	\bibitem{h}
+		Bollerslev, T. (1986).
+		\textsl{Generalized Autoregressive Conditional Heteroskedasticity.}
+		Journal of Econometrics. Volume 31. Issue 3. Pages 307-327.
+
+	%C's
+
+	\bibitem{i}
+		Cho, D.C., Taylor, W. (1987).
+		\textsl{The Seasonal Stability of the Factor Structure of Stock Returns.}
+		The Journal of Finance. Volume 42. Issue 5. Pages 1195-1211.
+
+	%D's
+
+	\bibitem{j}
+		Draper, P., Paudyal, K. (2002).
+		\textsl{Explaining Monday Returns.}
+		University of Edinburgh.
+
+	%E's
+
+	\bibitem{k}
+		Enders, W. (2004).
+		\textsl{Applied Econometric Time Series.}
+		J. Wiley. Second Edition.
+
+	\bibitem{l}
+		Engle, R. F. (1982).
+		\textsl{Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation.}
+		Econometrica. Volume 50. Number 4. Pages 987-1007.
+
+	%F's
+
+	\bibitem{m}
+		Fama, E. (1991).
+		\textsl{Efficient Capital Markets II.}
+		Journal of Finance. Volume 46. Number 5. Pages 1575-1617.
+
+	\bibitem{n}
+		Fama, E. (1970).
+		\textsl{Efficient Capital Markets: A Review of Theory and Empirical Work.}
+		The Journal of Finance. Volume 25. Number 2.
+
+	\bibitem{o}
+		Fama, E., (1965).
+		\textsl{Random walks in stock market prices.}
+		Financial Analysis Journal. Pages 75-78.
+
+	\bibitem{p}
+		Ferson, W., Harvey, C. (1992).
+		\textsl{Seasonality and Consumption-Based Asset Pricing.}
+		The Journal of Finance. Volume 47. Issue 2. Pages 511- 552.
+
+	\bibitem{q}
+		French, K. (1980).
+		\textsl{Stock returns and the weekend effect.}
+		Journal of Financial Economics. Volume 8. Issue 1. Pages 55-69.
+
+	%G's
+
+	\bibitem{r}
+		Gultekin, M. N., Gultekin, N. B. (1983).
+		\textsl{Stock Market Seasonality: International Evidence.}
+		Journal of Financial Economics. Volume 12. Pages 469-481.
+
+	%H's
+
+	\bibitem{s}
+		Haugen, R., Jorion, P. (1996).
+		\textsl{The January Effect: Still There After All These Years.}
+		Financial Analysts Journal. Volume 52. Number 1. Pages 27-31.
+
+	\bibitem{t}
+		Ho, Y-K. (1990).
+		\textsl{Stock Return Seasonalises in Asia Pacific Markets.}
+		Journal of Financial Management \& Accounting. Volume 2. Issue 1. Pages 47-77.
+
+	%I's
+
+	\bibitem{u}
+		Investopedia. (2020).
+		\textsl{What’s the Most Expensive Stock of All Time?}
+		Available At:
+		\texttt{https://www.investopedia.com/ask/answers/081314/whats- most-expensive-stock-all-time.asp.}
+		(Accessed: 08/10/2020).
+
+	%J's
+
+	\bibitem{v}
+		Keim, D. (1983).
+		\textsl{Size-Related Anomalies and Stock Return Seasonality: Further Empirical Evidence.}
+		Journal of Financial Economics. Volume 12. Issue 1. Pages 13-32.
+
+	%K's
+
+	\bibitem{w}
+		Keim, D. (1989).
+		\textsl{Trading Patterns, Bid-Ask Spreads, and Estimated Security Returns: The Case of Common Stocks at Calendar turning Points.}
+		Journal of Financial Economics. Volume 25. Pages 75-97.
+
+	\bibitem{x}
+		Keim, D., Stambaugh, R. (1984).
+		\textsl{A Further Investigation of the Weekend Effect in Stock Returns.}
+		The Journal of Finance. Volume 39. Issue 3. Pages 819-835.
+	
+	\bibitem{y}
+		Kendall, M. (1953).
+		\textsl{The analysis of economic time-series.}
+		Journal of the Royal Statistical Society. Series A, Volume 96. Pages 11-25.
+
+	\bibitem{z}
+		Kim, CW., Park, J. (1994).
+		\textsl{Holiday Effects and Stock Returns: Further Evidence.}
+		Journal of Financial and Quantitative Analysis. Volume 29. Number 1.
+
+	\bibitem{aa}
+		Knuth, D. E. (2020).
+		\textsl{Computer Musings.}
+		Available At:
+		\texttt{https://www-cs- faculty.stanford.edu/~knuth/musings.html.}
+		(Accessed: 25/11/2020).
+
+	%L's
+
+	\bibitem{ab}
+		Lakonishok, J., Maberly, E. (1990).
+		\textsl{The weekend effect: trading patterns of individual and institutional investors.}
+		Journal of Finance. Volume 45. Issue 1. Pages 231-243.
+
+	\bibitem{ac}
+		Lakonishok, J., Smidt, S. (1988).
+		\textsl{Are Seasonal Anomalies Real? A Ninety-Year Perspective.}
+		Review of Financial Studies. Volume 1. Pages 403-425.
+
+	\bibitem{ad}
+		Lhor, S. (1981).
+		\textsl{1980 A Very Good Wall St. Year.}
+		Available At:
+		\texttt{https://www.nytimes.com/1981/01/01/business/1980-a-very-good-wall- st- year.html}
+		(Accessed: 24/09/2020).
+
+	\bibitem{ae}
+		Liano, K., Marchand, P., Huang, GC. (1992).
+		\textsl{The Holiday Effect in Stock Returns: Evidence From The OTC Market.}
+		Review of Financial Economics.
+
+	%M's
+
+	\bibitem{af}
+		MacKinlay, C. (1997).
+		\textsl{Event Studies in Economics and Finance.}
+		Journal of Economic Literature. Volume 35. Number 1. Pages 13-39.
+
+	\bibitem{ag}
+		Marquering, W., Wissar, J., Valla., T. (2006).
+		\textsl{Disappearing anomalies: a dynamic analysis of the persistence of anomalies.}
+		Applied Financial Economics. Volume 16. Pages 291-302.
+
+	\bibitem{ah}
+		Mazal, L., Gardeazábal, J. (2009).
+		\textsl{Stock Market Seasonality: Day of the Week Effect and January Effect.}
+
+	\bibitem{ai}
+		MeasuringWorth. (2020).
+		\textsl{Comparing the Annualized Growth Rates of the DJIA, S\&P500 and NASDAQ in the United States Between Any Two Dates.}
+		Available At:
+		\texttt{https://www.measuringworth.com/calculators/DJIA\_SP\_NASDAQ/.}
+		(Accessed: 08/10/2020).
+
+	\bibitem{aj}
+		Moolenaar, B. (2020).
+		\textsl{Bram Moolenaar’s website – home.}
+		Available At:
+		texttt{https://moolenaar.net/.}
+		(Accessed: 14/10/2020).
+
+	%R's
+
+	\bibitem{ak}
+		Reinganum, M. (1983).
+		\textsl{The Anomalous Stock Market Behaviour of Small Firms in January: Empirical Tests for Tax-Loss Selling Effects.}
+		Journal of Financial Economics. Volume 12. Pages 89-104.
+
+	\bibitem{al}
+		Reinganum, M., Shapiro, A. (1987).
+		\textsl{Taxes and Stock Return Seasonality: Evidence from the London Stock Exchange.}
+		Journal of Business. Volume 60. Pages 281-295.
+
+	\bibitem{am}
+		Robson, C. (1993).
+		\textsl{Real World Research: A Resource for Social Scientists
+ and Practitioner-Researchers.}
+		Second Edition. Oxford.
+
+	\bibitem{an}
+		Rogalski, R. (1984).
+		\textsl{New Findings Regarding Day-of-the-Week Returns over Trading and Non-Trading Periods: A Note.}
+		The Journal of Finance. Volume 39. Issue 5. Pages 1603-1614.
+
+	\bibitem{ao}
+		Rogalski, R., Tinic, S. (1986).
+		\textsl{The January Effect: Anomaly or Mismeasurement?}
+		Financial Analyst Journal. Pages 63-70.
+
+	\bibitem{ap}
+		Roll, R. (1983).
+		\textsl{The Turn-of-the-Year Effect and the Return Premia of Small Firms.}
+		Journal of Portfolio Management. Volume 9. Pages 18-28.
+
+	\bibitem{aq}
+		Rozeff, M., Kinney, W. (1976).
+		\textsl{Capital market seasonality: The case of stock returns.}
+		Journal of Financial Economics. Volume 3. Issue 4. Pages 379-402.
+
+	%S'
+
+	\bibitem{ar}
+		Saunders, M., Lewis, P., Thornhill, A. (2003).
+		\textsl{Research Methods for Business Students.}
+		Third Edition. Prentice Hall. Page 83.
+
+	\bibitem{as}
+		Smith, L. (2015).
+		\textsl{External Possession and the Undisentanglability of Syntax and Semantics.}
+		University of Georgia.
+
+	\bibitem{at}
+		Snopes. (2000).
+		\textsl{The Superbowl Indicator.}
+		Available At:
+		\texttt{https://www.snopes.com/fact-check/super-bowl-indicator/.}
+		(Accessed: 06/10/2020).
+
+	\bibitem{au}
+		Statista. (2020).
+		\textsl{Largest stock exchange operators worldwide as of Mar 2020, by market capitalization of listed companies.}
+		Available At:
+		\texttt{https://www.statista.com/statistics/270126/largest-stock-exchange- operators-by-market-capitalization-of-listed- companies/.}
+		(Accessed: 28/09/2020).
+
+	\bibitem{av}
+		Strong, N. (1992).
+		\textsl{Modelling Abnormal Returns: A Review Article.}
+		Journal of Business Finance \& Accounting. Volume 19. Issue 4.
+
+	%T's
+
+	\bibitem{aw}
+		Time. (2017).
+		\textsl{How a Financial Panic Helped Launch the New York Stock Exchange.}
+		Available At:
+		\texttt{https://time.com/4777959/buttonwood- agreement-stock-exchange/.}
+		(Accessed: 28/09/2020).
+
+	%U's
+
+	\bibitem{ax}
+		US3699296A. (1972).
+		\textsl{Catastrophically Buckling Compression Column Switch and Actuator.}
+		International Business Machines Corporation.
+
+	%V's
+
+	\bibitem{ay}
+		VimDiesel. (2020).
+		\textsl{Programs and Equipment I Use.}
+		Available At:
+		\texttt{https://lukesmith.xyz/programs.}
+		(Accessed: 20/11/2020).
+
+	%W's
+
+	\bibitem{az}
+		Wang, K., Li, Y., Erickson, J. (1997).
+		\textsl{A New Look at the Monday Effect.}
+		The Journal of Finance. Volume 52. Issue 5. Pages 2171-2186.
+
+	\bibitem{ba}
+		White, H. (1980).
+		\textsl{A Heteroskedasticity-Consistent Covariance Matrix Estimator and a Direct Test for Heteroskedasticity.}
+		The Econometric Society. Volume 48. Number 4. Pages 817-838.
+
+	\bibitem{bb}
+		Wooldridge, J. M. (2003).
+		\textsl{Cluster-Sample Methods in Applied Econometrics.}
+		American Economic Review. Volume 93. Issue 2. Pages 133-138.
+	
+	\bibitem{bc}
+		Wooldridge, J. M. (2012).
+		\textsl{Introductory Econometrics: A Modern Approach.}
+		South-Western, Cengage Learning. Fifth Edition.
+
+	%Y's
+
+	\bibitem{bd}
+		Yan-Ki, H. (1990).
+		\textsl{Stock return seasonalises in Asia Pacific Markets.}
+		Journal of Financial Management \& Accounting. Volume 2. Issue 1. Pages 47-77.
+	
+	\bibitem{be}
+		Yahoo Finance. (2020).
+		\textsl{Dow Jones Industrial Average (DJI) Charts, Data \& News - Yahoo Finance.}
+		Available At:
+		\texttt{https://finance.yahoo.com/quote/\%5EDJI?p=\%5EDJI.}
+		(Accessed: 08/10/2020).
+
+	\bibitem{bf}
+		Yahoo Finance. (2020).
+		\textsl{NASDAQ Composite (IXIC) Charts, Data \& News - Yahoo Finance.}
+		Available At:
+		\texttt{https://finance.yahoo.com/quote/\%5EIXIC?p=\%5EIXIC.}
+		(Accessed: 08/10/2020).
+
+	\bibitem{bg}
+		Yahoo Finance. (2020).
+		\textsl{NYSE COMPOSITE (DJ) (NYA) Charts, Data \& News - Yahoo Finance.}
+		Available At:
+		\texttt{https://finance.yahoo.com/quote/\%5ENYA?p=\%5ENYA.}
+		(Accessed: 08/10/2020).
+
+	\end{thebibliography}
 
 \end{document}

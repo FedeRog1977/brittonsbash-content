@@ -1,3 +1,4 @@
+\babel@toc {nil}{}
 \contentsline {section}{\numberline {1}Introduction}{1}% 
 \contentsline {subsection}{\numberline {1.1}Introduction to the Issue \& Brief History}{1}% 
 \contentsline {subsection}{\numberline {1.2}Introduction to the US Stock Market}{3}% 
@@ -43,7 +44,7 @@
 \contentsline {subsubsection}{\numberline {3.2.1}NYSE Composite}{21}% 
 \contentsline {subsubsection}{\numberline {3.2.2}NASDAQ Composite}{21}% 
 \contentsline {subsubsection}{\numberline {3.2.3}S\&P 500}{21}% 
-\contentsline {subsubsection}{\numberline {3.2.4}Dow Jones Industrial Average}{22}% 
+\contentsline {subsubsection}{\numberline {3.2.4}Dow Jones Industrial Average}{21}% 
 \contentsline {subsection}{\numberline {3.3}Law \& Regulation of Listing}{23}% 
 \contentsline {section}{\numberline {4}Research Methodology}{24}% 
 \contentsline {subsection}{\numberline {4.1}Preliminaries}{24}% 
@@ -64,7 +65,7 @@
 \contentsline {paragraph}{\numberline {4.3.3.3}The Holiday Effect}{37}% 
 \contentsline {subsection}{\numberline {4.4}Summary Statistics}{39}% 
 \contentsline {section}{\numberline {5}Empirical Research}{42}% 
-\contentsline {subsection}{\numberline {5.1}Suceeding Past Literature}{42}% 
+\contentsline {subsection}{\numberline {5.1}Succeeding Past Literature}{42}% 
 \contentsline {subsection}{\numberline {5.2}Historical Returns}{44}% 
 \contentsline {subsection}{\numberline {5.3}Results Summary}{46}% 
 \contentsline {subsection}{\numberline {5.4}The Weekend Effect}{48}% 

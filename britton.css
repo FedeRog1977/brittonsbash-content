@@ -791,13 +791,13 @@ body {
 		border-bottom: 2.5px solid #483D8B;
 	}
 
-.projects {
+.writings {
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.projectstxt {
+	.writingstxt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -811,17 +811,17 @@ body {
 		border-radius: 0.75rem;
 	}
 
-	.projects a:link {
+	.writings a:link {
 		color: #483D8B;
 		text-decoration: none;
 	}
 
-	.projects a:visited {
+	.writings a:visited {
 		color: #483D8B;
 		text-decoration: none;
 	}
 
-	.projects a:hover {
+	.writings a:hover {
 		color: #96b9ee;
 		text-decoration: none;
 		border-bottom: 2.5px solid #483D8B;

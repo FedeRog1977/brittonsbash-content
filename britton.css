@@ -18,8 +18,9 @@ h1 {
 	font-size: 1.75vw; 
 	color: #483D8B;
 	text-align: left;
-	letter-spacing: 0.3333vw;
+	letter-spacing: 0.25vw;
 	font-weight: normal;
+	font-variant: small-caps;
 	margin: 0rem;
 }
 
@@ -103,6 +104,7 @@ body {
 				font-size: 1.25vw;
 				color: #5576D1;
 				font-weight: normal;
+				font-variant: small-caps;
 				margin: 0rem;
 			}
 
@@ -246,7 +248,8 @@ body {
 
 		.home-image h2 {
 			font-family: CMU Serif;
-			font-size: 3.5vw;
+			font-size: 5vw;
+			font-variant: small-caps;
 			color: #ffffff;
 			letter-spacing: 1vw;
 			text-shadow: 1.5px 1.5px 10px #000000;

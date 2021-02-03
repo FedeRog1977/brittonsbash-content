@@ -95,8 +95,8 @@ body {
 			letter-spacing: 0.25vw;
 			word-spacing: 0.5vw;
 			line-height: 1.75vw;
-			padding-top: 1.75rem;
-			padding-bottom: 1.75rem;
+			padding-top: 1.15rem;
+			padding-bottom: 1.15rem;
 		}
 
 			.topnav-title h2 {
@@ -206,14 +206,14 @@ body {
 
 	.endorse-cage, .credit-cage {
 		padding-top: 1%;
-		padding-left: 30%;
-		padding-right: 30%;
+		padding-left: 32.5%;
+		padding-right: 32.5%;
 		text-align: center;
 		margin: center;
 	}
 
 		.endorse, .credit {
-			font-family: Proxima;
+			font-family: CMU Serif;
 			font-size: 1.125vw;
 			letter-spacing: 0.25vw;
 			word-spacing: 0.5vw;
@@ -240,13 +240,13 @@ body {
 			}
 
 	.titles-buttons {
-		padding-top: 14.25%;
+		padding-top: 12.5%;
 		padding-bottom: 15%;
 	  	padding-left: 12.5%;
   		padding-right: 12.5%;
 	}
 
-		.home-image h2 {
+		.home-image h1 {
 			font-family: CMU Serif;
 			font-size: 5vw;
 			font-variant: small-caps;
@@ -258,7 +258,7 @@ body {
 			margin-bottom: 0rem;
 		}
 
-		.home-image h3 {
+		.home-image h2 {
 			font-family: CMU Serif;
 			font-size: 1.75vw;
 			color: #ffffff;
@@ -274,13 +274,13 @@ body {
 		}
 
 			.btn {
-		  		font-family: Proxima;
+		  		font-family: CMU Serif;
 		  		font-size: 0.95vw;
 		  		text-align: left;
-				letter-spacing: 0.4vw;
+				letter-spacing: 0.35vw;
 				padding-top: 0.75vw;
 				padding-bottom: 0.75vw;
-				padding-left: 1.75vw;
+				padding-left: 1.55vw;
 				padding-right: 1.35vw;
 				cursor: pointer;
 			}

@@ -204,43 +204,40 @@ body {
   	text-align: left;
 }
 
-	.endorse-cage, .credit-cage {
-		padding-top: 1%;
+	.credit-cage {
 		padding-left: 32.5%;
 		padding-right: 32.5%;
 		text-align: center;
 		margin: center;
 	}
 
-		.endorse, .credit {
+		.credit {
 			font-family: CMU Serif;
 			font-size: 1.125vw;
-			letter-spacing: 0.25vw;
-			word-spacing: 0.5vw;
 			display: inline;
 			text-shadow: 1.5px 1.5px 10px #000000;
 		}
 
-			.endorse a:link {
+			.credit a:link {
+				color: #ffffff;
+				text-decoration: none;
+				opacity: 100%;
+			}
+
+			.credit a:visited {
 				color: #ffffff;
 				text-decoration: none;
 				opacity: 75%;
 			}
 
-			.endorse a:visited {
-				color: #ffffff;
-				text-decoration: none;
-				opacity: 75%;
-			}
-
-			.endorse a:hover {
+			.credit a:hover {
 				color: #ffffff;
 				text-decoration: none;
 				opacity: 50%;
 			}
 
 	.titles-buttons {
-		padding-top: 12.5%;
+		padding-top: 15.5%;
 		padding-bottom: 15%;
 	  	padding-left: 12.5%;
   		padding-right: 12.5%;
@@ -286,7 +283,7 @@ body {
 			}
 
 			.uni-button {
-				border: 0.125rem solid #ffffff;
+				border: 0.115rem solid #ffffff;
 				background-color: #ffffff00;
 				color: #ffffff;
 				opacity: 75%;
@@ -301,7 +298,7 @@ body {
 			}
 
 			.car-button {
-				border: 0.125rem solid #ffffff;
+				border: 0.115rem solid #ffffff;
 				background-color: #ffffff00;
 				color: #ffffff;
 				opacity: 75%;
@@ -468,62 +465,6 @@ body {
 		text-decoration: none;
 		border-bottom: 2.5px solid #483D8B;
 	}
-
-.skills {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.skillstxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.25rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
-	}
-
-		.collapsible-skills {
-			font-family: CMU Serif;
-			font-size: 0.95vw;
-			text-align: left;
-  			background-color: #F5F5F5;
-  			color: #483D8B;
-  			cursor: pointer;
-  			padding-top: 0.75rem;
-  			padding-bottom: 0.75rem;
-  			padding-left: 1.25rem;
-  			width: 100%;
-  			border: none;
-  			outline: none;
-  			border-radius: 0.75rem;
-		}
-
-		.active-skills, .collapsible-skills:hover {
-  			background-color: #A9A9A9;
-  			color: #FFFFFF;
-		}
-
-		.active-skills, .collapsible-skills:active {
-			border-top-left-radius: 0.75rem;
-			border-top-right-radius: 0.75rem;
-  			border-bottom-left-radius: 0rem;
-  			border-bottom-right-radius: 0rem;
-		}
-
-		.content-skills {
-  			background-color: #F5F5F5;
-			padding-left: 1.25rem;
-			padding-right: 1.25rem;
-  			display: none;
-  			overflow: hidden;
-		}
 
 .values {
 	padding-bottom: 1.2rem;
@@ -702,7 +643,7 @@ body {
 		}
 
 .fyi {
-	padding-bottom: 3.7rem;
+	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -721,6 +662,10 @@ body {
 		border-radius: 0.75rem;
 	}
 
+	.fyi u {
+		text-decoration: none;
+	}
+
 	.fyi a:link {
 		color: #483D8B;
 		text-decoration: none;
@@ -737,17 +682,8 @@ body {
 		border-bottom: 2.5px solid #483D8B;
 	}
 
-/* .home-image2 {
-	background-image: url("wall2.png");
-	background-attachment: fixed;
-  	background-position: top;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	padding: 25%;
-} */
 
-
-/* ~~~~ University */
+/* ~~~~ Academia */
 
 .uni-time {
 	padding-top: 2.5%;
@@ -851,7 +787,7 @@ body {
 	}
 
 
-/* ~~~~ Career */
+/* ~~~~ Employment */
 
 .car-time {
 	padding-top: 2.5%;
@@ -935,16 +871,22 @@ body {
 	}
 
 
-/* ~~~~ Development */
+/* ~~~~ Library */
 
-.knowledge {
+.general {
 	padding-top: 2.5%;
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.knowledgetxt {
+.moredevelopment, .youtube, .brands, .film, .television {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.generaltxt, .moredevelopmenttxt, .youtubetxt, .brandstxt, .filmtxt, .televisiontxt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -958,228 +900,30 @@ body {
 		border-radius: 0.75rem;
 	}
 
-	.knowledge u {
+	.general u, .moredevelopment u, .youtube u, .brands u, .film u, .television u {
 		text-decoration: none;
 	}
 
-		.knowledge th, td {
+		.general th td, .moredevelopment th td, .youtube th td, .brands th, td, .film th td, .television th td {
 			text-align: left;
 			vertical-align: top;
 			padding-right: 2.5rem;
 		}
 
-.media {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.mediatxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
+	.general a:link, .moredevelopment a:link, .youtube a:link, .brands a:link, .film a:link, .television a:link {
 		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
-	}
-
-	.media u {
 		text-decoration: none;
 	}
 
-		.media th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5rem;
-		}
-
-.world {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.worldtxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
+	.general a:visited, .moredevelopment a:visited, .youtube a:visited, .brands a:visited, .film a:visited, .television a:visited {
 		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
-	}
-
-	.world u {
 		text-decoration: none;
 	}
 
-		.world th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5rem;
-		}
-
-.fooddrink {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.fooddrinktxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
-	}
-
-	.fooddrink u {
+	.general a:hover, .moredevelopment a:hover, .youtube a:hover, .brands a:hover, .film a:hover, .television a:hover {
+		color: #96b9ee;
 		text-decoration: none;
-	}
-
-		.fooddrink th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5rem;
-		}
-
-.restaurants {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.restaurantstxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
-	}
-
-	.restaurants u {
-		text-decoration: none;
-	}
-
-		.restaurants th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5rem;
-		}
-
-.brands {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.brandstxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
-	}
-
-	.brands u {
-		text-decoration: none;
-	}
-
-		.brands th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5rem;
-		}
-
-
-/* ~~~~ Showcase */
-
-.showintro {
-	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.showintrotxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
-	}
-
-.achieve {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.achievetxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
-	}
-
-.socialwell {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.socialwelltxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		border-bottom: 2.5px solid #483D8B;
 	}
 
 
@@ -1662,6 +1406,233 @@ body {
 	.fatherstxt td {
 		padding-bottom: 5rem;
 	}
+
+
+/* ~~~~ Blog - TG */
+
+.tgintro {
+	padding-top: 2.5%;
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.tgintrotxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 0.75rem;
+	}
+	
+.knowledge {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.knowledgetxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 0.75rem;
+	}
+
+	.knowledge u {
+		text-decoration: none;
+	}
+
+		.knowledge th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
+
+.media {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.mediatxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 0.75rem;
+	}
+
+	.media u {
+		text-decoration: none;
+	}
+
+		.media th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
+
+.world {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.worldtxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 0.75rem;
+	}
+
+	.world u {
+		text-decoration: none;
+	}
+
+		.world th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
+
+.fooddrink {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.fooddrinktxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 0.75rem;
+	}
+
+	.fooddrink u {
+		text-decoration: none;
+	}
+
+		.fooddrink th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
+
+.restaurants {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.restaurantstxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 0.75rem;
+	}
+
+	.restaurants u {
+		text-decoration: none;
+	}
+
+		.restaurants th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
+
+/* ~~~~ Blog - SC */
+
+.showintro {
+	padding-top: 2.5%;
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.showintrotxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 0.75rem;
+	}
+
+.achieve {
+	padding-bottom: 1.2rem;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.achievetxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		border-radius: 0.75rem;
+	}
+
+	.achieve u {
+		text-decoration: none;
+	}
+
+		.achieve th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5rem;
+		}
 
 
 /* ~~~~ Blog - PIU */

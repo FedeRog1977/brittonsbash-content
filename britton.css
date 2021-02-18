@@ -730,42 +730,6 @@ body {
 		border-bottom: 2.5px solid #483D8B;
 	}
 
-.writings {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.writingstxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
-	}
-
-	.writings a:link {
-		color: #483D8B;
-		text-decoration: none;
-	}
-
-	.writings a:visited {
-		color: #483D8B;
-		text-decoration: none;
-	}
-
-	.writings a:hover {
-		color: #96b9ee;
-		text-decoration: none;
-		border-bottom: 2.5px solid #483D8B;
-	}
-
 .roles {
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
@@ -873,20 +837,20 @@ body {
 
 /* ~~~~ Library */
 
-.general {
+.acawrite {
 	padding-top: 2.5%;
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-.moredevelopment, .youtube, .brands, .film, .television {
+.compsciprog, .mathstat, .general, .moredevelopment, .brands, .film, .television {
 	padding-bottom: 1.2rem;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.generaltxt, .moredevelopmenttxt, .youtubetxt, .brandstxt, .filmtxt, .televisiontxt {
+	.acawritetxt, .compsciprogtxt, .mathstattxt, .generaltxt, .moredevelopmenttxt, .brandstxt, .filmtxt, .televisiontxt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -900,27 +864,28 @@ body {
 		border-radius: 0.75rem;
 	}
 
-	.general u, .moredevelopment u, .youtube u, .brands u, .film u, .television u {
+	.acawrite u, .compsciprog u, .mathstat u, .general u, .moredevelopment u, .brands u, .film u, .television u {
 		text-decoration: none;
 	}
 
-		.general th td, .moredevelopment th td, .youtube th td, .brands th, td, .film th td, .television th td {
+		.acawrite th td, .compsciprog th td, .mathstat th td, .general th td, .moredevelopment th td, .brands th, td, .film th td, .television th td {
 			text-align: left;
 			vertical-align: top;
 			padding-right: 2.5rem;
+			padding-bottom: 1.25rem;
 		}
 
-	.general a:link, .moredevelopment a:link, .youtube a:link, .brands a:link, .film a:link, .television a:link {
+	.acawrite a:link, .compsciprog a:link, .mathstat a:link, .general a:link, .moredevelopment a:link, .brands a:link, .film a:link, .television a:link {
 		color: #483D8B;
 		text-decoration: none;
 	}
 
-	.general a:visited, .moredevelopment a:visited, .youtube a:visited, .brands a:visited, .film a:visited, .television a:visited {
+	.acawrite a:visited, .compsciprog a:visited, .mathstat a:visited, .general a:visited, .moredevelopment a:visited, .brands a:visited, .film a:visited, .television a:visited {
 		color: #483D8B;
 		text-decoration: none;
 	}
 
-	.general a:hover, .moredevelopment a:hover, .youtube a:hover, .brands a:hover, .film a:hover, .television a:hover {
+	.acawrite a:hover, .compsciprog a:hover, .mathstat a:hover, .general a:hover, .moredevelopment a:hover, .brands a:hover, .film a:hover, .television a:hover {
 		color: #96b9ee;
 		text-decoration: none;
 		border-bottom: 2.5px solid #483D8B;

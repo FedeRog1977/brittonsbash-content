@@ -1,4 +1,4 @@
-\documentclass[a4, 10pt]{article}
+\documentclass[11pt]{article}
         \usepackage{geometry}
                 \geometry{
                         legalpaper,
@@ -7,6 +7,10 @@
                         lmargin = 17.4mm,
                         rmargin = 17.4mm,
                 }
+
+	\usepackage[T1]{fontenc}
+	\usepackage{CormorantGaramond} 
+	% Luke's: noto; Also: libertinus,
 
 	\usepackage{titlesec}
                 \titleformat{\section}
@@ -27,13 +31,16 @@
 % START
 \begin{document}
 
+\pagenumbering{Roman}
+
 	\title{
 		\HRule{0.5pt}
 		\HRule{0.5pt}\\ [0.45cm]
-		\center{\textsc{Lewis Britton}}\\
-		\center{\textsc{University of Strathclyde}}\\ [0.5cm]
+		\huge\center{\textsc{Lewis Britton}}\\
+		\Large\center{\textit{The }\textsc{University of Strathclyde}}\\ [0.5cm]
+		% \huge\center{\textit{Bachelor of Arts }\textsc{Finance}} | \Large{\textit{Master of Science }\textsc{Software Development}}\\ [0.5cm]
 		\HRule{0.5pt}
-		\HRule{0.5pt}
+		\HRule{0.5pt}\\ [-0.45cm]
 		}
 	\date{}
 	\maketitle
@@ -41,7 +48,7 @@
 \setstretch{1.0}{
 
 \begin{center}
-\begin{tabular}{ l l }
+	\begin{tabular}{l|l}
 	\textbf{Mail To:} wi.lbritton@yahoo.com & \textbf{Telephone:} 07415 212 056\\ 
 	\textbf{Website:} http://lewisbritton.com/ & \textbf{GitHub:} https://github.com/FedeRog1977   
 \end{tabular}
@@ -53,18 +60,18 @@
 \setstretch{1.25}{
 
 % INTRODUCTION
-\section{Introduction}
+\section*{Introduction}
 
 \begin{itemize}
 \setlength\itemsep{0cm}
 	\item Fourth year bachelors student of Finance at the University of Strathclyde.
-	\item Focus on quantitative methods, asset pricing, corporate investment, corporate methods. For more info regarding classes and projects visit: http://lewisbritton.com/uni.html
+	\item Focus on quantitative methods, asset pricing, corporate investment, corporate methods. For more info regarding classes and projects visit: http://lewisbritton.com/academia.html
 	\item In satisfaction of the workplace standards, I have constructed an ability to set and attain goals efficently, organise and plan in depth and maintain a strong work ethic, all in good balance.	
 	\item I utilise honesty and respect to satisfy the greatest amount of people and, the right people for the objectively correct reasons. This always requires a dynamic and versatile approach.
 \end{itemize}
 
 % SKILLS 
-\section{Skills} 
+\section*{Skills} 
 
 \begin{minipage}[t]{.15\linewidth}
         \hfill                
@@ -72,29 +79,20 @@
 \end{minipage}                    
 \hfill\vline\hfill                
 \begin{minipage}[t]{.80\linewidth}                    
-	Financial Theory, Economic \& Econometric Theory, Maths \& Stats, Sales \& Marketing 
+	Financial Theory, Economic Theory, Econometric Methods, Mathematics \& Statistics, MATLAB \& Gretl, Microsoft Excel \& Visual Basic, Autodesk Computer Aided Design (CAD), Serif \& Adobe Desktop Publishing (DTP), Sales \& Marketing Methods
 \end{minipage}\\
 
 \begin{minipage}[t]{.15\linewidth}
         \hfill                    
-        \textsc{Intellectual}
-\end{minipage}                                        
-\hfill\vline\hfill                                   
-\begin{minipage}[t]{.80\linewidth}                   
-	MATLAB \& Gretl, Microsoft Excel, Autodesk CAD \& Adobe DTP, Trading Terminals
-\end{minipage}\\                                                                      
-
-\begin{minipage}[t]{.15\linewidth}
-        \hfill                    
-	\textsc{Mentality}
+	\textsc{Conduct}
 \end{minipage}                                        
 \hfill\vline\hfill                                   
 \begin{minipage}[t]{.80\linewidth}                   	
-	Organisation \& Structure, Logic \& Accuracy, Efficiency \& Care, Rational \& Pragmatic
+	Organisation \& Structure, Logic \& Accuracy, Efficiency \& Care, Rationale \& Pragmaticism, Maturity \& Strong Conduct, Strict Consistency, Honest Where Appropriate, Competitiveness \& Completionism, Exceedingly Punctual, Confident \& Charismatic, Professional Linguistics \& Accent, Exceptionally Independant, Self-Sufficient, Truth to Self, Well-Practiced Manners \& Generosity, Empathetic \& Caring for Others, Unique \& Diverse Humour
 \end{minipage}\\                                                                      
 
 % INSTITUTIONS
-\section{Institutions}
+\section*{Academia}
 
 \begin{minipage}[t]{.15\linewidth}
 	\hfill 
@@ -142,7 +140,7 @@
 \vspace{0.25cm}
 
 % EMPLOYMENT
-\section{Employment}
+\section*{Employment}
 
 \begin{minipage}[t]{.15\linewidth}
         \hfill 
@@ -193,7 +191,7 @@
 \vspace{0.25cm}
 
 % WRITINGS
-\section{Writings}
+\section*{Writings}
 
 \begin{minipage}[t]{.15\linewidth}
         \hfill                  
@@ -209,13 +207,13 @@
 \newpage 
 
 %INTERFACES
-\section{Interfaces}
+\section*{Communications \& Interfaces}
 
 \begin{center}
 	\textsc{Usual Workflow}
 \end{center}
 
-I am developing and maintaining a sustainable and minimalist Linux system. I main a Lenovo ThinkPad T420 (and burn an X220), the OS Manjaro on which I run i3-Gaps but with plans to transition to Suckless' dwm window tiling manager. I write documents using the text editor Vim before compiling {\LaTeX} and Markdown, etc., documents using pandoc and pdflatex, into basic PDFs or Beamer slide shows. I'm also very familiar with my Windows-based desktop workhorse and my MacBook Pro running MacOS.\
+I am developing and maintaining a sustainable and minimalist Linux system. I main a Lenovo ThinkPad T420 (and burn an X220), I currently use the OS Manjaro on which I run i3-Gaps but with plans to transition to Suckless' dwm window tiling manager. I tend to spend my days in the text editor Vim, writing and compiling documents in {\LaTeX}/Markdown using primarily pandoc and pdflatex. This sometimes extends to Beamer-compiled slide shows. I'm also very familiar with my desktop workhorse and other machines running Windows XP and Windows 7 and, my MacBook Pro running MacOS.
 
 \begin{center}
 	\textsc{Languages \& Computer Interfaces}
@@ -236,7 +234,7 @@ I am developing and maintaining a sustainable and minimalist Linux system. I mai
 \end{minipage}
 \hfill\vline\hfill
 \begin{minipage}[t]{.80\linewidth}
-	{\LaTeX}, Markdown, R Markdown, HTML, CSS, R, Python
+	Shell (bash/zsh), {\LaTeX}, Markdown, R Markdown, HTML, CSS, R, Python, MATLAB/GNU Octave
 \end{minipage}\\
 
 \begin{minipage}[t]{.15\linewidth}
@@ -245,7 +243,7 @@ I am developing and maintaining a sustainable and minimalist Linux system. I mai
 \end{minipage}
 \hfill\vline\hfill
 \begin{minipage}[t]{.80\linewidth}
-	Manjaro, i3-Gaps, dwm, st (Simple Terminal), Vim, neoVim, SC-IM, ranger, mutt, calcurse, cmus, mpv, pandoc, pdflatex, beamer, MuPDF, zathura, lynx, dxiv, GIMP, mop-tracker, tty-clock, neofetch, cmatrix, asciiquarium, sl
+	Manjaro, i3-Gaps, dwm, st (Simple Terminal), Vim, neoVim, SC-IM, ranger, mutt, calcurse, newsboat, cmus, mpv, pandoc, pdflatex, XeLaTeX, LuaTeX, Beamer, MuPDF, zathura, lynx, dxiv, GIMP, mop-tracker, tty-clock, neofetch, cmatrix, asciiquarium, sl
 \end{minipage}\\
 
 \begin{minipage}[t]{.15\linewidth}
@@ -254,33 +252,33 @@ I am developing and maintaining a sustainable and minimalist Linux system. I mai
 \end{minipage}
 \hfill\vline\hfill
 \begin{minipage}[t]{.80\linewidth}
-	IBM ThinkPad T42, IBM ThinkPad R50e, Lenovo ThinkPad X220, Lenovo ThinkPad T420, IBM Model M 1987, Cisco CP-7962G
+	IBM ThinkPad T23, IBM ThinkPad X30, IBM ThinkPad T42, IBM ThinkPad R50e, Lenovo ThinkPad X220, Lenovo ThinkPad T420, IBM Model M 1987, Cisco CP-7962G
 \end{minipage}\\
 
 % HOBBIES
-\section{Hobbies}
+\section*{Hobbies}
 
 \begin{minipage}[t]{.15\linewidth}
         \hfill                  
-        \textsc{Health}    
+        \textsc{Intellectual}    
 \end{minipage}
 \hfill\vline\hfill
 \begin{minipage}[t]{.80\linewidth}
-	Tennis \& Tennis Statistics, Road Cycling \& Components, Bagging Munros, Scotland \& The Natural Outdoors, Culinary Science, Crockery \& Glassware
+	Computer Hardware Architecture; Computer Software Architecture; Classic IBM Product Collection; ThinkPad Enthusiasm; Model M Enthusiasm; Linux-Based Systems and Efficiency; The Command Line; Document Typesetting \& Markup; Document Transcription; Web Markup \& Development; Further Mathematics; Further Statistical Methods; Trading Terminals \& Personal Investment
 \end{minipage}\\
 
 \begin{minipage}[t]{.15\linewidth}
         \hfill                  
-	\textsc{Art \& Design}      
+	\textsc{Lifestyle}      
 \end{minipage}
 \hfill\vline\hfill
 \begin{minipage}[t]{.80\linewidth}
-	Serif \& Adobe Desktop Publishing (DTP), Autodesk Computer Aided Design (CAD), Real Estate \& Interiors, Security Investment
+	Real Estate \& Interior Design; High-Quality Goods \& Sustainability; Tennis, Tennis Equipment, Tennis Statistics; Road Cycling \& Bicycle Components; Bagging Munros; Scotland \& The Natural Outdoors; Global Cultural Understanding; The United States of America; John Hughes \& 1980's Cinema; Miami Vice \& 1980's Television; Jan Hammer \& 1980's Music; Culinary Science; Good Nutrition; Kitchen Appliances, Utensils, Storage, Decor; Crockery, Cutlery, Glassware; A Good Cafe; High-End Food Stores
 \end{minipage}\\
 
 
 % REFERENCES
-\section{References}
+\section*{References}
 
 \begin{itemize}
 \setlength\itemsep{0cm}

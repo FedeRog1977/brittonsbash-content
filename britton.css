@@ -1395,36 +1395,6 @@ body {
 		padding-right: 1.25rem;
 		border-radius: 0.75rem;
 	}
-	
-.knowledge {
-	padding-bottom: 1.2rem;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.knowledgetxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
-	}
-
-	.knowledge u {
-		text-decoration: none;
-	}
-
-		.knowledge th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5rem;
-		}
 
 .media {
 	padding-bottom: 1.2rem;

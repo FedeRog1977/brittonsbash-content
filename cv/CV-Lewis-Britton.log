@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  18 FEB 2021 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  20 FEB 2021 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,11 +455,12 @@ mf-dist/fonts/enc/dvips/cormorantgaramond/cgrm_5fi625.enc}</usr/local/texlive/2
 019/texmf-dist/fonts/type1/catharsis/cormorantgaramond/CormorantGaramond-Bold.p
 fb></usr/local/texlive/2019/texmf-dist/fonts/type1/catharsis/cormorantgaramond/
 CormorantGaramond-Italic.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/ca
-tharsis/cormorantgaramond/CormorantGaramond-Regular.pfb>
-Output written on CV-Lewis-Britton.pdf (3 pages, 123441 bytes).
+tharsis/cormorantgaramond/CormorantGaramond-Regular.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+Output written on CV-Lewis-Britton.pdf (3 pages, 130722 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

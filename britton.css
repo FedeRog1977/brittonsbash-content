@@ -53,27 +53,27 @@ body {
 
 @font-face {
 	font-family: Proxima;
-	src: url(fonts/ProximaNova-Regular.ttf);
+	src: url(Fonts/ProximaNova-Regular.ttf);
 }
 
 @font-face {
 	font-family: ProximaBk;
-	src: url(fonts/ProximaNova-Black.ttf);
+	src: url(Fonts/ProximaNova-Black.ttf);
 }
 
 @font-face {
 	font-family: ProximaBd;
-	src: url(fonts/ProximaNova-Bold.ttf);
+	src: url(Fonts/ProximaNova-Bold.ttf);
 }
 
 @font-face {
 	font-family: CMU Bold;
-	src: url(fonts/CMUBold.ttf);
+	src: url(Fonts/CMUBold.ttf);
 }
 
 @font-face {
 	font-family: Broadway;
-	src: url(fonts/Broadway Regular.ttf);
+	src: url(Fonts/Broadway Regular.ttf);
 }
 
 
@@ -196,7 +196,7 @@ body {
 /* ~~~~ Home */
 
 .home-image {
-	background-image: url("pics-home/wall.png");
+	background-image: url("Photos-Home/wall.png");
 	background-attachment: fixed;
   	background-position: top;
   	background-repeat: no-repeat;

@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Capital Budgets}{1}% 
+\contentsline {subsection}{\numberline {1.1}Project A}{1}% 
+\contentsline {subsection}{\numberline {1.2}Project B}{2}% 
+\contentsline {subsection}{\numberline {1.3}Project A Analysis}{2}% 
+\contentsline {subsection}{\numberline {1.4}Project B Analysis}{5}% 
+\contentsline {subsection}{\numberline {1.5}Comparison, Conclusions \& Assumptions}{5}% 
+\contentsline {section}{\numberline {2}Data Tables}{7}% 
+\contentsline {subsection}{\numberline {2.1}Project A}{7}% 
+\contentsline {subsection}{\numberline {2.2}Project B}{7}% 
+\contentsline {subsection}{\numberline {2.3}Analysis}{8}% 
+\contentsline {section}{\numberline {3}Sensitivity Analysis}{9}% 
+\contentsline {subsection}{\numberline {3.1}Project A}{9}% 
+\contentsline {subsection}{\numberline {3.2}Project B (I)}{9}% 
+\contentsline {subsection}{\numberline {3.3}Project B (II)}{9}% 
+\contentsline {subsection}{\numberline {3.4}Analysis}{9}% 
+\contentsline {section}{\numberline {4}Solver}{11}% 
+\contentsline {subsection}{\numberline {4.1}Project A}{11}% 
+\contentsline {subsection}{\numberline {4.2}Project B}{11}% 
+\contentsline {subsection}{\numberline {4.3}Analysis}{12}% 

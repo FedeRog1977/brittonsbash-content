@@ -84,7 +84,7 @@ body {
 }
 
 	.topnavigation {
-		font-family: ProximaBd;
+		font-family: CMU Serif; /* ProximaBd Before */
 		background-color: #ffffff;
 		padding-left: 6.25%;
 		padding-right: 6.25%;
@@ -689,7 +689,7 @@ body {
 	padding-top: 2.5%;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
-	font-family: Proxima;
+	font-family: CMU Serif;
 	text-align: center;
 	color: #5576D1;
 }
@@ -757,7 +757,7 @@ body {
 	padding-top: 2.5%;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
-	font-family: Proxima;
+	font-family: CMU Serif;
 	text-align: center;
 	color: #483D8B;
 }

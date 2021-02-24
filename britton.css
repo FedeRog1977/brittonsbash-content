@@ -21,7 +21,7 @@ h1 {
 	letter-spacing: 0.25vw;
 	font-weight: normal;
 	font-variant: small-caps;
-	margin: 0rem;
+	margin: 0em;
 }
 
 h2 {
@@ -48,7 +48,12 @@ h4 {
 
 body {
 	background-color: #F5F5F5;
-	margin: 0rem;
+	margin: 0em;
+}
+
+@font-face {
+	font-family: CMU Bold;
+	src: url(Fonts/CMUBold.ttf);
 }
 
 @font-face {
@@ -67,11 +72,6 @@ body {
 }
 
 @font-face {
-	font-family: CMU Bold;
-	src: url(Fonts/CMUBold.ttf);
-}
-
-@font-face {
 	font-family: Broadway;
 	src: url(Fonts/Broadway Regular.ttf);
 }
@@ -84,7 +84,7 @@ body {
 }
 
 	.topnavigation {
-		font-family: CMU Serif; /* ProximaBd Before */
+		font-family: CMU Sans Serif; /* ProximaBd Before */
 		background-color: #ffffff;
 		padding-left: 6.25%;
 		padding-right: 6.25%;
@@ -95,8 +95,8 @@ body {
 			letter-spacing: 0.25vw;
 			word-spacing: 0.5vw;
 			line-height: 1.75vw;
-			padding-top: 1.05rem;
-			padding-bottom: 1.15rem;
+			padding-top: 1.05em;
+			padding-bottom: 1.15em;
 		}
 
 			.topnav-title h2 {
@@ -105,7 +105,7 @@ body {
 				color: #5576D1;
 				font-weight: normal;
 				font-variant: small-caps;
-				margin: 0rem;
+				margin: 0em;
 			}
 
 		.topnav-nav {
@@ -113,8 +113,8 @@ body {
 			letter-spacing: 0.25vw;
 			word-spacing: 0.5vw;
 			line-height: 1.5vw;
-			padding-top: 1.75rem;
-			padding-bottom: 1.75rem;
+			padding-top: 1.75em;
+			padding-bottom: 1.75em;
 		}
 
 			.pages {
@@ -160,9 +160,9 @@ body {
 				}
 
 /* .time {
-	margin: 0rem;
-	padding: 0rem;
-	height: 5.65rem;
+	margin: 0em;
+	padding: 0em;
+	height: 5.65em;
 	background-color: #006039;
 	position: sticky;
 	position: -webkit-sticky;
@@ -172,10 +172,10 @@ body {
 }
 
 	.rolex_clock {
-		margin: 0rem;
-		padding-bottom: 0.6rem;
+		margin: 0em;
+		padding-bottom: 0.6em;
    		width: 100%;
-   		height: 5.65rem;
+   		height: 5.65em;
     	background-color: #006039;
 	} */
 
@@ -185,11 +185,11 @@ body {
 	text-align: center;
 	color: #483D8B;
 	background-color: #ffffff;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
-	margin: 0rem;
+	margin: 0em;
 }
 
 
@@ -251,8 +251,8 @@ body {
 			letter-spacing: 1vw;
 			text-shadow: 1.5px 1.5px 10px #000000;
 			opacity: 75%;
-			margin-top: 0rem;
-			margin-bottom: 0rem;
+			margin-top: 0em;
+			margin-bottom: 0em;
 		}
 
 		.home-image h2 {
@@ -262,7 +262,7 @@ body {
 			letter-spacing: 0.5vw;
 			text-shadow: 1.5px 1.5px 10px #000000;
 			opacity: 75%;
-			margin-top: 0rem;
+			margin-top: 0em;
 			margin-bottom: 1.25vw;
 		}
 
@@ -283,7 +283,7 @@ body {
 			}
 
 			.uni-button {
-				border: 0.115rem solid #ffffff;
+				border: 0.115em solid #ffffff;
 				background-color: #ffffff00;
 				color: #ffffff;
 				opacity: 75%;
@@ -298,7 +298,7 @@ body {
 			}
 
 			.car-button {
-				border: 0.115rem solid #ffffff;
+				border: 0.115em solid #ffffff;
 				background-color: #ffffff00;
 				color: #ffffff;
 				opacity: 75%;
@@ -345,7 +345,7 @@ body {
 			}		
 
 .sumstats {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -357,17 +357,17 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.25rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.25em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 		.imgdrop {
   			display: inline-block;
   			position: auto;
-  			padding-top: 1.75rem;
+  			padding-top: 1.75em;
 		}
 
 		.imgdrop:hover .imgdropcont {
@@ -393,8 +393,8 @@ body {
 			}
 
 			.meimgbig {
-				max-width: 20rem;
-				max-height: 20rem;
+				max-width: 20em;
+				max-height: 20em;
 			}
 
 		.collapsible-sum {
@@ -403,11 +403,11 @@ body {
   			background-color: #F5F5F5;
   			color: #483D8B;
   			cursor: pointer;
-  			padding: 0.75rem;
+  			padding: 0.75em;
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 0.75rem;
+  			border-radius: 0.75em;
 		}
 
 		.active-sum, .collapsible-sum:hover {
@@ -416,22 +416,22 @@ body {
 		}
 
 		.active-sum, .collapsible-sum:active {
-			border-top-left-radius: 0.75rem;
-			border-top-right-radius: 0.75rem;
-  			border-bottom-left-radius: 0rem;
-  			border-bottom-right-radius: 0rem;
+			border-top-left-radius: 0.75em;
+			border-top-right-radius: 0.75em;
+  			border-bottom-left-radius: 0em;
+  			border-bottom-right-radius: 0em;
 		}
 
 		.content-sum {
   			background-color: #F5F5F5;
-			padding-left: 1.25rem;
-			padding-right: 1.25rem;
+			padding-left: 1.25em;
+			padding-right: 1.25em;
   			display: none;
   			overflow: hidden;
 		}
 
 .sumtxt {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%; 
 	padding-right: 12.5%;
 }
@@ -443,11 +443,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.sumtxt a:link {
@@ -467,7 +467,7 @@ body {
 	}
 
 .values {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -479,11 +479,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.25rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.25em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 		.collapsible-values {
@@ -493,13 +493,13 @@ body {
   			background-color: #F5F5F5;
   			color: #483D8B;
   			cursor: pointer;
-  			padding-top: 0.75rem;
-  			padding-bottom: 0.75rem;
-  			padding-left: 1.25rem;
+  			padding-top: 0.75em;
+  			padding-bottom: 0.75em;
+  			padding-left: 1.25em;
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 0.75rem;
+  			border-radius: 0.75em;
 		}
 
 		.active-values, .collapsible-values:hover {
@@ -508,22 +508,22 @@ body {
 		}
 
 		.active-values, .collapsible-values:active {
-			border-top-left-radius: 0.75rem;
-			border-top-right-radius: 0.75rem;
-  			border-bottom-left-radius: 0rem;
-  			border-bottom-right-radius: 0rem;
+			border-top-left-radius: 0.75em;
+			border-top-right-radius: 0.75em;
+  			border-bottom-left-radius: 0em;
+  			border-bottom-right-radius: 0em;
 		}
 
 		.content-values {
   			background-color: #F5F5F5;
-			padding-left: 1.25rem;
-			padding-right: 1.25rem;
+			padding-left: 1.25em;
+			padding-right: 1.25em;
   			display: none;
   			overflow: hidden;
 		}
 
 .interests {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -535,11 +535,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.25rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.25em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 		.collapsible-interests {
@@ -549,13 +549,13 @@ body {
   			background-color: #F5F5F5;
   			color: #483D8B;
   			cursor: pointer;
-  			padding-top: 0.75rem;
-  			padding-bottom: 0.75rem;
-  			padding-left: 1.25rem;
+  			padding-top: 0.75em;
+  			padding-bottom: 0.75em;
+  			padding-left: 1.25em;
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 0.75rem;
+  			border-radius: 0.75em;
 		}
 
 		.active-interests, .collapsible-interests:hover {
@@ -564,22 +564,22 @@ body {
 		}
 
 		.active-interests, .collapsible-interests:active {
-			border-top-left-radius: 0.75rem;
-			border-top-right-radius: 0.75rem;
-  			border-bottom-left-radius: 0rem;
-  			border-bottom-right-radius: 0rem;
+			border-top-left-radius: 0.75em;
+			border-top-right-radius: 0.75em;
+  			border-bottom-left-radius: 0em;
+  			border-bottom-right-radius: 0em;
 		}
 
 		.content-interests {
   			background-color: #F5F5F5;
-			padding-left: 1.25rem;
-			padding-right: 1.25rem;
+			padding-left: 1.25em;
+			padding-right: 1.25em;
   			display: none;
   			overflow: hidden;
 		}
 
 .specification {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -591,11 +591,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.25rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.25em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 		.specificationtxt u {
@@ -613,13 +613,13 @@ body {
   			background-color: #F5F5F5;
   			color: #483D8B;
   			cursor: pointer;
-  			padding-top: 0.75rem;
-  			padding-bottom: 0.75rem;
-  			padding-left: 1.25rem;
+  			padding-top: 0.75em;
+  			padding-bottom: 0.75em;
+  			padding-left: 1.25em;
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 0.75rem;
+  			border-radius: 0.75em;
 		}
 
 		.active-spec, .collapsible-spec:hover {
@@ -628,22 +628,22 @@ body {
 		}
 
 		.active-spec, .collapsible-spec:active {
-			border-top-left-radius: 0.75rem;
-			border-top-right-radius: 0.75rem;
-  			border-bottom-left-radius: 0rem;
-  			border-bottom-right-radius: 0rem;
+			border-top-left-radius: 0.75em;
+			border-top-right-radius: 0.75em;
+  			border-bottom-left-radius: 0em;
+  			border-bottom-right-radius: 0em;
 		}
 
 		.content-spec {
   			background-color: #F5F5F5;
-			padding-left: 1.25rem;
-			padding-right: 1.25rem;
+			padding-left: 1.25em;
+			padding-right: 1.25em;
   			display: none;
   			overflow: hidden;
 		}
 
 .fyi {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -655,11 +655,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.fyi u {
@@ -695,7 +695,7 @@ body {
 }
 
 .classes {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -707,11 +707,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.classes a:link {
@@ -731,7 +731,7 @@ body {
 	}
 
 .roles {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -743,11 +743,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 
@@ -779,7 +779,7 @@ body {
 	}
 
 .cartime {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -791,11 +791,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.cartime a:link {
@@ -815,7 +815,7 @@ body {
 	}
 
 .income {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -827,11 +827,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 
@@ -839,13 +839,13 @@ body {
 
 .acawrite {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
 .compsciprog, .mathstat, .general, .moredevelopment, .brands, .film, .television {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -857,11 +857,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.acawrite u, .compsciprog u, .mathstat u, .general u, .moredevelopment u, .brands u, .film u, .television u {
@@ -871,8 +871,8 @@ body {
 		.acawrite th td, .compsciprog th td, .mathstat th td, .general th td, .moredevelopment th td, .brands th, td, .film th td, .television th td {
 			text-align: left;
 			vertical-align: top;
-			padding-right: 2.5rem;
-			padding-bottom: 1.25rem;
+			padding-right: 2.5em;
+			padding-bottom: 1.25em;
 		}
 
 	.acawrite a:link, .compsciprog a:link, .mathstat a:link, .general a:link, .moredevelopment a:link, .brands a:link, .film a:link, .television a:link {
@@ -896,7 +896,7 @@ body {
 
 .blogintro {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -908,15 +908,15 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 .blogshell {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -928,11 +928,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.blogshell a:link {
@@ -952,7 +952,7 @@ body {
 	}
 
 .debunk {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -964,11 +964,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.25rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.25em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 		.collapsible-debunk {
@@ -978,13 +978,13 @@ body {
   			background-color: #F5F5F5;
   			color: #483D8B;
   			cursor: pointer;
-  			padding-top: 0.75rem;
-  			padding-bottom: 0.75rem;
-  			padding-left: 1.25rem;
+  			padding-top: 0.75em;
+  			padding-bottom: 0.75em;
+  			padding-left: 1.25em;
   			width: 100%;
   			border: none;
   			outline: none;
-  			border-radius: 0.75rem;
+  			border-radius: 0.75em;
 		}
 
 		.active-debunk, .collapsible-debunk:hover {
@@ -993,16 +993,16 @@ body {
 		}
 
 		.active-debunk, .collapsible-debunk:active {
-			border-top-left-radius: 0.75rem;
-			border-top-right-radius: 0.75rem;
-  			border-bottom-left-radius: 0rem;
-  			border-bottom-right-radius: 0rem;
+			border-top-left-radius: 0.75em;
+			border-top-right-radius: 0.75em;
+  			border-bottom-left-radius: 0em;
+  			border-bottom-right-radius: 0em;
 		}
 
 		.content-debunk {
   			background-color: #F5F5F5;
-			padding-left: 1.25rem;
-			padding-right: 1.25rem;
+			padding-left: 1.25em;
+			padding-right: 1.25em;
   			display: none;
   			overflow: hidden;
 		}
@@ -1012,7 +1012,7 @@ body {
 
 .gwcintro {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1024,11 +1024,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.gwcintro a:link {
@@ -1048,7 +1048,7 @@ body {
 	}
 
 .gwcbody {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1056,23 +1056,29 @@ body {
 	.gwcbodytxt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
-		text-align: justify;
+		text-align: center;
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 2.5rem;
-		padding-bottom: 0.2rem;
-		padding-left: 2.5rem;
-		padding-right: 2.5rem;
-		border-radius: 0.75rem;
+		padding-top: 2.5em;
+		padding-bottom: 0.2em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		border-radius: 0.75em;
 	}
 
 	.gwcbody img {
-		width: 17.5rem;
+		width: 17.5em;
+	}
+
+	.gwcbody td {
+		text-align: center;
+		padding-right: 1em;
+		padding-bottom: 2.5em;
 	}
 
 .cafetour-gwc {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1084,11 +1090,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.cafetour-gwc u {
@@ -1098,7 +1104,7 @@ body {
 		.cafetour-gwc th, td {
 			text-align: left;
 			vertical-align: top;
-			padding-right: 2.5rem;
+			padding-right: 2.5em;
 		}
 
 
@@ -1106,7 +1112,7 @@ body {
 
 .frcintro {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1118,11 +1124,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.frcintro a:link {
@@ -1142,7 +1148,7 @@ body {
 	}
 
 .frcbody {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1154,20 +1160,21 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 2.5rem;
-		padding-bottom: 0.2rem;
-		padding-left: 2.5rem;
-		padding-right: 2.5rem;
-		border-radius: 0.75rem;
+		padding-top: 2.5em;
+		padding-bottom: 0.2em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		border-radius: 0.75em;
+	}
+
+	.frcbody img {
+		width: 17.5em;
 	}
 
 	.frcbody td {
 		text-align: center;
-		padding-bottom: 2.5rem;
-	}
-
-	.frcbody img {
-		width: 17.5rem;
+		padding-right: 1em;
+		padding-bottom: 2.5em;
 	}
 
 
@@ -1175,7 +1182,7 @@ body {
 
 .bhtintro {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1187,11 +1194,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.bhtintro a:link {
@@ -1211,7 +1218,7 @@ body {
 	}
 
 .bhtbody {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1223,19 +1230,25 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 2.5rem;
-		padding-bottom: 0.2rem;
-		padding-left: 2.5rem;
-		padding-right: 2.5rem;
-		border-radius: 0.75rem;
+		padding-top: 2.5em;
+		padding-bottom: 0.2em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		border-radius: 0.75em;
 	}
 
 	.bhtbody img {
-		width: 17.5rem;
+		width: 17.5em;
+	}
+
+	.bhtbody td {
+		text-align: center;
+		padding-right: 1em;
+		padding-bottom: 2.5em;
 	}
 
 .cafetour-bh {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1247,11 +1260,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.cafetour-bh u {
@@ -1261,7 +1274,7 @@ body {
 		.cafetour-bh th, td {
 			text-align: left;
 			vertical-align: top;
-			padding-right: 2.5rem;
+			padding-right: 2.5em;
 		}
 
 
@@ -1269,7 +1282,7 @@ body {
 
 .nvaintro {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1281,15 +1294,15 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 .nvabody {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1301,11 +1314,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.nvabody a:link {
@@ -1329,7 +1342,7 @@ body {
 
 .fathersintro {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1341,15 +1354,15 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 .fathersbody {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1361,15 +1374,15 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.fatherstxt td {
-		padding-bottom: 5rem;
+		padding-bottom: 5em;
 	}
 
 
@@ -1377,7 +1390,7 @@ body {
 
 .tgintro {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1389,15 +1402,15 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 .media {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1409,11 +1422,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.media u {
@@ -1423,11 +1436,11 @@ body {
 		.media th, td {
 			text-align: left;
 			vertical-align: top;
-			padding-right: 2.5rem;
+			padding-right: 2.5em;
 		}
 
 .world {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1439,11 +1452,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.world u {
@@ -1453,11 +1466,11 @@ body {
 		.world th, td {
 			text-align: left;
 			vertical-align: top;
-			padding-right: 2.5rem;
+			padding-right: 2.5em;
 		}
 
 .fooddrink {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1469,11 +1482,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.fooddrink u {
@@ -1483,11 +1496,11 @@ body {
 		.fooddrink th, td {
 			text-align: left;
 			vertical-align: top;
-			padding-right: 2.5rem;
+			padding-right: 2.5em;
 		}
 
 .restaurants {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1499,11 +1512,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.restaurants u {
@@ -1513,14 +1526,14 @@ body {
 		.restaurants th, td {
 			text-align: left;
 			vertical-align: top;
-			padding-right: 2.5rem;
+			padding-right: 2.5em;
 		}
 
 /* ~~~~ Blog - SC */
 
 .showintro {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1532,15 +1545,15 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 .achieve {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1552,11 +1565,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.achieve u {
@@ -1566,7 +1579,7 @@ body {
 		.achieve th, td {
 			text-align: left;
 			vertical-align: top;
-			padding-right: 2.5rem;
+			padding-right: 2.5em;
 		}
 
 
@@ -1574,7 +1587,7 @@ body {
 
 .piuintro {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1586,15 +1599,15 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 .piubody {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1606,11 +1619,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.piubodytxt u {
@@ -1638,7 +1651,7 @@ body {
 
 .mvintro {
 	padding-top: 2.5%;
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1650,15 +1663,15 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 .mvbody {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -1670,11 +1683,11 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2rem;
-		padding-bottom: 1.2rem;
-		padding-left: 1.25rem;
-		padding-right: 1.25rem;
-		border-radius: 0.75rem;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
 	}
 
 	.mvbodytxt u {

@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}General Chain of Events}{1}% 
+\contentsline {subsection}{\numberline {1.1}Deregulation \& Shadow Banking}{1}% 
+\contentsline {subsection}{\numberline {1.2}Mortgage-Backed Securities}{1}% 
+\contentsline {subsection}{\numberline {1.3}Investors \& Credit Default Swaps}{2}% 
+\contentsline {subsection}{\numberline {1.4}Sub-Prime Offerings \& Collateralised Debt Obligations}{3}% 
+\contentsline {section}{\numberline {2}Structural Deregulation \& Shadow Banking}{4}% 
+\contentsline {section}{\numberline {3}Securitization of Mortgages \& Federal Reserve Rates}{7}% 
+\contentsline {subsection}{\numberline {3.1}Securitizing Sub-Prime Mortgages \& Using CDOs}{7}% 
+\contentsline {subsection}{\numberline {3.2}Off-Balance Sheet Entities \& Mortgage Portfolios}{8}% 
+\contentsline {subsection}{\numberline {3.3}CDS Issuance \& Fall of Issuers}{9}% 
+\contentsline {subsection}{\numberline {3.4}Repurchase Agreements \& The Federal Reserve}{10}% 
+\contentsline {section}{\numberline {4}Conclusions}{12}% 

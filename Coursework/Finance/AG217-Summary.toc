@@ -1,0 +1,42 @@
+\contentsline {section}{\numberline {1}Variables}{1}% 
+\contentsline {section}{\numberline {2}Mean Variance Analysis}{2}% 
+\contentsline {subsection}{\numberline {2.1}Expected Return}{2}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Two-Asset Portfolio}{2}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Generalised Infinite-Asset Portfolio}{2}% 
+\contentsline {subsubsection}{\numberline {2.1.3}Two-Asset Portfolio w/ Risk-Free Asset}{2}% 
+\contentsline {subsection}{\numberline {2.2}Variance \& Standard Deviation as Risk Measures}{2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Two-Asset Portfolio}{2}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Risk-Free Asset Portfolio}{2}% 
+\contentsline {subsubsection}{\numberline {2.2.3}Using the 1/N Strategy}{2}% 
+\contentsline {subsection}{\numberline {2.3}Correlation \& Covariance}{2}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Correlation}{2}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Covariance}{3}% 
+\contentsline {subsection}{\numberline {2.4}Optimal Weights in 0-Risk \& Perfect Negative Correlation}{3}% 
+\contentsline {subsection}{\numberline {2.5}Inputs}{3}% 
+\contentsline {subsubsection}{\numberline {2.5.1}Variance}{3}% 
+\contentsline {subsubsection}{\numberline {2.5.2}Covariance}{3}% 
+\contentsline {section}{\numberline {3}Asset Pricing}{4}% 
+\contentsline {subsection}{\numberline {3.1}Abnormal Return}{4}% 
+\contentsline {subsection}{\numberline {3.2}Expected Return}{4}% 
+\contentsline {subsubsection}{\numberline {3.2.1}Recall the $\mathbf {R_f}$ Tangent to the Efficient Frontier}{4}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Capital Market Line (CML)}{4}% 
+\contentsline {subsubsection}{\numberline {3.2.3}Security Market Line (SML)}{4}% 
+\contentsline {subsection}{\numberline {3.3}Beta Values}{4}% 
+\contentsline {subsubsection}{\numberline {3.3.1}Assets}{4}% 
+\contentsline {subsubsection}{\numberline {3.3.2}Portfolios}{4}% 
+\contentsline {section}{\numberline {4}Bond Pricing}{5}% 
+\contentsline {subsection}{\numberline {4.1}Price}{5}% 
+\contentsline {subsection}{\numberline {4.2}Current}{5}% 
+\contentsline {subsection}{\numberline {4.3}Yield to Maturity}{5}% 
+\contentsline {subsection}{\numberline {4.4}Spot Rates}{5}% 
+\contentsline {subsubsection}{\numberline {4.4.1}Price of Bond Using Spot Rates}{5}% 
+\contentsline {subsubsection}{\numberline {4.4.2}Spot Rates}{5}% 
+\contentsline {subsubsection}{\numberline {4.4.3}Expected Spot Rates}{6}% 
+\contentsline {subsubsection}{\numberline {4.4.4}Forward Rates}{6}% 
+\contentsline {subsection}{\numberline {4.5}Duration of Bond}{6}% 
+\contentsline {subsubsection}{\numberline {4.5.1}Basic Duration}{6}% 
+\contentsline {subsubsection}{\numberline {4.5.2}Modified Duration}{6}% 
+\contentsline {subsection}{\numberline {4.6}Convexity of Bond}{6}% 
+\contentsline {subsection}{\numberline {4.7}Unexpected Return}{6}% 
+\contentsline {subsubsection}{\numberline {4.7.1}With Duration}{6}% 
+\contentsline {subsubsection}{\numberline {4.7.2}With Duration \& Convexity}{6}% 

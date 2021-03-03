@@ -14,7 +14,7 @@
 /* ~~~~ General Definitions */
 
 h1 {
-	font-family: CMU Serif;
+	font-family: Proxima;
 	font-size: 1.75vw; 
 	color: #483D8B;
 	text-align: left;
@@ -84,7 +84,7 @@ body {
 }
 
 	.topnavigation {
-		font-family: CMU Sans Serif; /* ProximaBd Before */
+		font-family: Proxima; /* CMU Sans Serif Before */
 		background-color: #ffffff;
 		padding-left: 6.25%;
 		padding-right: 6.25%;
@@ -95,12 +95,12 @@ body {
 			letter-spacing: 0.25vw;
 			word-spacing: 0.5vw;
 			line-height: 1.75vw;
-			padding-top: 1.05em;
-			padding-bottom: 1.15em;
+			padding-top: 1.5em;
+			padding-bottom: 1em;
 		}
 
 			.topnav-title h2 {
-				font-family: CMU Serif;
+				font-family: Proxima;
 				font-size: 1.25vw;
 				color: #5576D1;
 				font-weight: normal;
@@ -180,7 +180,7 @@ body {
 	} */
 
 .footer {
-	font-family: CMU Serif;
+	font-family: Proxima;
 	font-size: 0.95vw;
 	text-align: center;
 	color: #483D8B;
@@ -237,8 +237,8 @@ body {
 			}
 
 	.titles-buttons {
-		padding-top: 15.5%;
-		padding-bottom: 15%;
+		padding-top: 16.5%;
+		padding-bottom: 16.5%;
 	  	padding-left: 12.5%;
   		padding-right: 12.5%;
 	}
@@ -248,7 +248,7 @@ body {
 			font-size: 5vw;
 			font-variant: small-caps;
 			color: #ffffff;
-			letter-spacing: 1vw;
+			letter-spacing: 0.25em;
 			text-shadow: 1.5px 1.5px 10px #000000;
 			opacity: 75%;
 			margin-top: 0em;
@@ -258,8 +258,9 @@ body {
 		.home-image h2 {
 			font-family: CMU Serif;
 			font-size: 1.75vw;
+			font-variant: small-caps;
 			color: #ffffff;
-			letter-spacing: 0.5vw;
+			letter-spacing: 0.2em;
 			text-shadow: 1.5px 1.5px 10px #000000;
 			opacity: 75%;
 			margin-top: 0em;
@@ -271,7 +272,7 @@ body {
 		}
 
 			.btn {
-		  		font-family: CMU Serif;
+		  		font-family: Proxima;
 		  		font-size: 0.95vw;
 		  		text-align: left;
 				letter-spacing: 0.35vw;

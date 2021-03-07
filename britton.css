@@ -1312,7 +1312,7 @@ body {
 		line-height: 1.5vw;
 		color: #483D8B;
 		background-color: #ffffff;
-		padding-top: 0.2em;
+		padding-top: 2.5em;
 		padding-bottom: 1.2em;
 		padding-left: 1.25em;
 		padding-right: 1.25em;
@@ -1774,6 +1774,59 @@ body {
 		text-decoration: none;
 	}
 
+
+/* ~~~~ Blog - TP */
+
+.tpintro {
+	padding-top: 2.5%;
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.tpintrotxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+.tpbody {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.tpbodytxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 2.5em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+	.tpbody img {
+		width: 17.5em;
+	}
+
+	.tpbody td {
+		text-align: center;
+		padding-right: 1em;
+		padding-bottom: 2.5em;
+	}
 
 
 

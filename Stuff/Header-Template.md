@@ -1,10 +1,10 @@
 ---
 title:
-- \textsc{Markdown Header Template\\ On A New New Line}
+- Markdown Header Template
 author:
-- \textit{Lewis Britton}
+- Lewis Britton
 date:
-- \textsc{22/6/26}
+- 22/6/26
 headerincludes:
 - \usepackage{geometry}
 - \geometry{

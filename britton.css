@@ -579,69 +579,6 @@ body {
   			overflow: hidden;
 		}
 
-.specification {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.specificationtxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: #483D8B;
-		background-color: #ffffff;
-		padding-top: 0.2em;
-		padding-bottom: 1.25em;
-		padding-left: 1.25em;
-		padding-right: 1.25em;
-		border-radius: 0.75em;
-	}
-
-		.specificationtxt u {
-			text-decoration: none;
-		}
-
-			.specification li {
-				padding-left: 1vw;
-			}
-
-		.collapsible-spec {
-			font-family: CMU Serif;
-			font-size: 0.95vw;
-			text-align: left;
-  			background-color: #F5F5F5;
-  			color: #483D8B;
-  			cursor: pointer;
-  			padding-top: 0.75em;
-  			padding-bottom: 0.75em;
-  			padding-left: 1.25em;
-  			width: 100%;
-  			border: none;
-  			outline: none;
-  			border-radius: 0.75em;
-		}
-
-		.active-spec, .collapsible-spec:hover {
-  			background-color: #A9A9A9;
-  			color: #FFFFFF;
-		}
-
-		.active-spec, .collapsible-spec:active {
-			border-top-left-radius: 0.75em;
-			border-top-right-radius: 0.75em;
-  			border-bottom-left-radius: 0em;
-  			border-bottom-right-radius: 0em;
-		}
-
-		.content-spec {
-  			background-color: #F5F5F5;
-			padding-left: 1.25em;
-			padding-right: 1.25em;
-  			display: none;
-  			overflow: hidden;
-		}
 
 .fyi {
 	padding-bottom: 1.2em;
@@ -1530,16 +1467,16 @@ body {
 			padding-right: 2.5em;
 		}
 
-/* ~~~~ Blog - SC */
+/* ~~~~ Blog - RC */
 
-.showintro {
+.rcintro {
 	padding-top: 2.5%;
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.showintrotxt {
+	.rcintrotxt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -1553,13 +1490,48 @@ body {
 		border-radius: 0.75em;
 	}
 
-.achieve {
+.bike {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.achievetxt {
+	.biketxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 2.5em;
+		padding-bottom: 0.2em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		border-radius: 0.75em;
+	}
+
+	.bike u {
+		text-decoration: none;
+	}
+
+	.bike img {
+		width: 25em;
+	}
+
+	.bike td {
+		text-align: right;
+		width: 35em;
+		padding-right: 0em;
+		padding-bottom: 2.5em;
+	}
+
+.sport-stats {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.sport-stats-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -1568,20 +1540,15 @@ body {
 		background-color: #ffffff;
 		padding-top: 0.2em;
 		padding-bottom: 0.2em;
-		padding-left: 1.25em;
-		padding-right: 1.25em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
 		border-radius: 0.75em;
+
 	}
 
-	.achieve u {
+	.sport-stats u {
 		text-decoration: none;
 	}
-
-		.achieve th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5em;
-		}
 
 
 /* ~~~~ Blog - PIU */
@@ -1711,6 +1678,101 @@ body {
 		border-bottom: 2.5px solid #483D8B;
 	}
 
+
+/* ~~~~ Blog - AK */
+
+.akintro {
+	padding-top: 2.5%;
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.akintrotxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+.akbody {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.akbodytxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+	.akbodytxt u {
+		text-decoration: none;
+	}
+
+
+/* ~~~~ Blog - SO */
+
+.overintro {
+	padding-top: 2.5%;
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.overintrotxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+.overbody {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.overbodytxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+	.overbodytxt u {
+		text-decoration: none;
+	}
 
 
 

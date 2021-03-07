@@ -27,6 +27,8 @@
 
         \usepackage{amsmath}
         \usepackage{amssymb}
+	\usepackage{tikz}
+	\usetikzlibrary{trees}
 
 	\usepackage[utf8]{inputenc}
 	\usepackage[official]{eurosym}
@@ -325,11 +327,71 @@
 	$$\mathrm{P_d=\left((pP_{u,d})+\left((1-p)P_{d,d}\right)\right)e^{-r\Delta t}}$$
 	$$\mathrm{P_0=\left((pP_u)+\left((1-p)P_d\right)\right)e^{-r\Delta t}}$$
 
+	\newpage
+
+	\textbf{The Binomial Tree}
+
+	\tikzstyle{level 1}=[level distance=6cm, sibling distance=4cm]
+	\tikzstyle{level 2}=[level distance=6cm, sibling distance=4cm]
+
+	\tikzstyle{bag} = [text width=2em, text centered]
+	\tikzstyle{end} = [minimum width=0pt, inner sep=0pt]
+
+	\begin{tikzpicture}[grow=right, sloped]
+		\node[bag] {$\mathrm{S_0}$\\ $\mathrm{P_0}$}
+    		child {
+			node[bag] {$\mathrm{S_d}$\\ $\mathrm{P_d}$}        
+           	 	child {
+                		node[end, label=right:
+					{$\mathrm{S_{d,d}}$\\ $\mathrm{P_{d,d}}$}
+					] {}
+                		edge from parent
+                			node[above] {\tiny$\mathrm{S_{d,d}=Pd^2}$}
+                			node[below]  {\tiny$\mathrm{P_{d,d}=K-S_{d,d}}$}
+            			}
+            		child {
+                		node[end, label=right:
+					{}
+					] {}
+                		edge from parent
+                			node[above] {}
+                			node[below]  {}
+            			}
+            			edge from parent 
+            				node[above] {\tiny$\mathrm{S_d=Pd}$}
+            				node[below]  {\tiny$\mathrm{P_d=\left((pP_{u,d})+\left((1-p)P_{d,d}\right)\right)e^{-r\Delta t}}$}
+    			}
+    		child {
+			node[bag] {$\mathrm{S_u}$\\ $\mathrm{P_u}$}
+        		child {
+                		node[end, label=right:
+					{$\mathrm{S_{u,d}}$\\ $\mathrm{P_{u,d}}$}
+					] {}
+                		edge from parent
+                			node[above] {\tiny$\mathrm{S_{u,d}=Pud}$}
+                			node[below]  {\tiny$\mathrm{P_{u,d}=K-S_{u,d}}$}
+            			}
+            		child {
+                		node[end, label=right:
+					{$\mathrm{S_{u,u}}$\\ $\mathrm{P_{u,u}}$}
+					] {}
+                		edge from parent
+					node[above] {\tiny$\mathrm{S_{u,u}=Pu^2}$} 
+					node[below] {\tiny$\mathrm{P_{u,u}=0}$}
+            			}
+        			edge from parent         
+            				node[above] {\tiny$\mathrm{S_u=Pu}$}
+            				node[below]  {\tiny$\mathrm{P_u=\left((pP_{u,u})+\left((1-p)P_{u,d}\right)\right)e^{-r\Delta t}}$}
+    			};
+	\end{tikzpicture}
+
 		\subsubsection{Binomial Option Tree: Converting to American Put}
 
-	$$\mathrm{P_d=\max\{K-S_d,P_d\}}$$
-	\begin{center}$\mathrm{P_{d_A}=Larger\ Outcome}$; $\mathrm{P_{u_A}=Remains\ Same}$\end{center}
+	$$\mathrm{P_{d_A}=\max\{K-S_d,P_d\}}$$
+	$$\mathrm{P_{d_A}=Larger\ Outcome\ of\ Either\ (K-S_d)\ or\ (P_d)}$$
+	$$\mathrm{P_{u_A}=Remains\ Same}$$
 	$$\mathrm{P_{0_A}=\left((pP_{u_A})+\left((1-p)P_{d_A}\right)\right)e^{-r\Delta t}}$$
+	\begin{center}Reform Binomial Tree\end{center}
 
 \newpage
 

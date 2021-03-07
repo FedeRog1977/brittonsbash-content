@@ -3,8 +3,6 @@ title:
 - Markdown Header Template
 author:
 - Lewis Britton
-date:
-- Today
 headerincludes:
 - \usepackage{geometry}
 - \geometry{

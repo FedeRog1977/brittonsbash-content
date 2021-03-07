@@ -4,7 +4,7 @@ title:
 author:
 - Lewis Britton
 date:
-- 22/6/26
+- Today
 headerincludes:
 - \usepackage{geometry}
 - \geometry{

@@ -1823,11 +1823,84 @@ body {
 	}
 
 	.tpbody td {
+		text-align: right;
+		padding-right: 2.5em;
+		padding-bottom: 2.5em;
+	}
+
+	.tpbodytxt u {
+		text-decoration: none;
+	}
+
+	.tpbodytxt a:link {
+		color: #483D8B;
+		text-decoration: none;
+	}
+
+	.tpbodytxt a:visited {
+		color: #483D8B;
+		text-decoration: none;
+	}
+
+	.tpbodytxt a:hover {
+		color: #96b9ee;
+		text-decoration: none;
+		border-bottom: 2.5px solid #483D8B;
+	}
+
+
+/* ~~~~ Blog - IG */
+
+.instaintro {
+	padding-top: 2.5%;
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.instaintrotxt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+.instabody1, .instabody2, .instabody3 {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.instabody1txt, .instabody2txt, .instabody3txt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: #483D8B;
+		background-color: #ffffff;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		border-radius: 0.75em;
+	}
+
+	.instabody1 img, .instabody2 img, .instabody3 img {
+		width: 17.5em;
+	}
+
+	.instabody1 td, .instabody2 td, .instabody3 td {
 		text-align: center;
 		padding-right: 1em;
 		padding-bottom: 2.5em;
 	}
-
 
 
 

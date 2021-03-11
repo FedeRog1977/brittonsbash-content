@@ -1041,7 +1041,7 @@ header-includes:
 	\textbf{Chinese Salt \& Chilli} & \textbf{Indian Tikka}\\
 	\begin{itemize} \item 1 Chilli Powder \item 1 Coriander Powder \item 1 Coriander Salt \item 1 Onion Salt \end{itemize} & \begin{itemize} \item 2 Garam Masala \item 2 Paprika \item 1 Cumin \item 1 Coriander Powder \item 1 Coriander Salt \item 1 Onion Salt \item $\frac{1}{2}$ Cinnamon \item $\frac{1}{2}$ Chilli Powder \end{itemize} \\
 	\textbf{Mexican Chilli} & \textbf{Indian Bhuna}\\
-	\begin{itemize} \item 2 Cumin \item 2 Paprika \item 2 Onion Salt \item 2 Coriander Salt \item 1 Chilli Powder \item 1 Oregano \end{itemize} & \begin{itemize} \item 2 Garam Masala \item 2 Coriander Powder \item 1 Cumin \item 1 Chilli Powder \item 1 Turmeric \item 1 Onion Salt \item 1 Coriander Salt \end{itemize}\\
+	\begin{itemize} \item 2 Cumin \item 2 Paprika \item 2 Onion Salt \item 2 Coriander Salt \item 1 Chilli Powder \item 1 Oregano \end{itemize} & \begin{itemize} \item 2 Garam Masala \item 2 Coriander Powder \item 2 Turmeric \item 2 Cumin \item 1 Chilli Powder \item 2 Garlic Salt \item 2 Coriander Salt \end{itemize}\\
 	\textbf{Mexican Bean Soup} & \textbf{Indian Dhal}\\
 	\begin{itemize} \item 2 Cumin \item 2 Oregano \item 2 Onion Salt \item 2 Coriander Salt \item $\frac{1}{4}$ Cayenne Pepper \end{itemize} & \begin{itemize} \item 2 Curry Powder \item 2 Garam Masala \item 1 Cumin \item 1 Coriander Powder \item 1 Turmeric \item 1 Onion Salt \item 1 Coriander Salt \item 1 Fennel Seeds \item 1 Nigella Seeds \end{itemize}\\
         \textbf{Italian Stew} & \\

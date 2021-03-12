@@ -138,6 +138,12 @@ body {
 					border-bottom: 2.5px solid #483D8B;
 				}
 
+				.pages a:active {
+					color: #96b9ee;
+					text-decoration: none;
+					border-bottom: 2.5px solid #483D8B;
+				}
+
 			.social {
 				color: #5576D1;
 				font-size: 0.95vw;

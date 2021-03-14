@@ -1,0 +1,61 @@
+\documentclass[10pt, english]{article}              
+        \usepackage{geometry}
+                \geometry{                          
+                        legalpaper,
+                        tmargin=16mm,
+                        bmargin=16mm,
+                        lmargin=12mm,
+                        rmargin=12mm,
+                }
+
+	\usepackage[T1]{fontenc}
+        \usepackage{CormorantGaramond}
+
+        \usepackage{titlesec}         
+                \titleformat{\section}
+                        {\normalfont\fontsize{18}{16}\bfseries}{\thesection}{0.5em}{}
+                \titleformat{\subsection}
+                        {\normalfont\fontsize{14}{16}\bfseries}{\thesubsection}{1em}{}
+                \titleformat{\subsubsection}
+                        {\normalfont\fontsize{11}{16}\bfseries}{\thesubsubsection}{1em}{}
+
+        \usepackage{longtable}
+        \usepackage{multirow}
+
+        \setlength{\parindent}{0pt}
+        \renewcommand{\baselinestretch}{1.00}
+       	\usepackage{setspace}
+
+        \usepackage{amsmath}
+        \usepackage{amssymb}
+
+        \usepackage{graphicx} 
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+	\title{Mathematical Symbols in {\LaTeX}}
+	\author{Lewis Britton}
+	\date{}
+	\maketitle
+
+\subsection*{Greek \& Hebrew Alphabetical Letters}
+
+	\begin{center}
+	\begin{tabular}{p{1cm}p{3cm}p{0.5cm}p{1.5cm}p{0.5cm}p{1.5cm}p{0.5cm}p{1.5cm}p{0.5cm}p{1.5cm}p{0.5cm}p{1.5cm}}
+		\hline
+		$\alpha$ \& A & \texttt{\textbackslash alpha} \& \texttt{\textbackslash Alpha} & & & & & & & & & & ...\\
+		$\beta$ \& $\beta$ & \\
+		\hline
+	\end{tabular}
+	\end{center}
+
+
+This is some test text. This is some test text. This is some test text. This is some test text. This is some test text. This is some test text. This is some test text.
+
+
+
+
+
+\end{document}

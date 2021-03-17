@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Variance-Covariance}{1}% 
+\contentsline {section}{\numberline {2}Errors}{2}% 
+\contentsline {subsection}{\numberline {2.1}Introduction to Errors}{2}% 
+\contentsline {subsection}{\numberline {2.2}Banks in 2008}{3}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Pre-Crisis}{3}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Post-Crisis}{3}% 
+\contentsline {section}{\numberline {3}Matrix OLS}{5}% 
+\contentsline {subsection}{\numberline {3.1}Preliminaries}{5}% 

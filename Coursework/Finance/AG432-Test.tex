@@ -1,0 +1,167 @@
+\documentclass[11pt, english]{article}              
+        \usepackage{geometry}
+                \geometry{                          
+                        a4paper,total={210mm,297mm},
+                        tmargin=40.8mm,
+                        bmargin=40.8mm,
+                        lmargin=32.6mm,
+                        rmargin=32.6mm,
+                }
+
+        \usepackage{titlesec}         
+                \titleformat{\section}
+                        {\normalfont\fontsize{18}{16}\bfseries}{\thesection}{0.5em}{}
+                \titleformat{\subsection}
+                        {\normalfont\fontsize{14}{16}\bfseries}{\thesubsection}{1em}{}
+                \titleformat{\subsubsection}
+                        {\normalfont\fontsize{11}{16}\bfseries}{\thesubsubsection}{1em}{}
+
+        \usepackage{longtable}
+        \usepackage{multirow}
+
+        \usepackage[labelfont=bf,textfont=bf,font=small,skip=8pt]{caption}
+
+        \setlength{\parindent}{0pt}
+        \renewcommand{\baselinestretch}{1.25}
+       \usepackage{setspace}
+
+        \usepackage{amsmath}
+        \usepackage{amssymb}
+
+        \usepackage{graphicx}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+        \title{\textsc{AG432 Financial Quantitative Methods\\ Coursework Test}}
+        \author{\textsc{Lewis Britton}}
+        \date{\textsc{Academic Year 2020/2021}}
+        \maketitle
+
+\newpage
+
+\pagenumbering{roman}
+
+        \renewcommand{\contentsname}{Table of Contents}
+
+        \tableofcontents
+
+\newpage
+
+\pagenumbering{arabic} 
+
+\section{Variance-Covariance}
+
+	\textit{Given a row vectors of portfolio weights for three companies} $v=[0.1\ 0.3\ 0.6]$ \textit{and the variance-covariance matrix for the three companies} $S=\left[\begin{matrix}1.5\\-0.1\\1\end{matrix}\ \begin{matrix}-0.1\\1\\2\end{matrix}\ \begin{matrix}1\\2\\1.5\end{matrix}\right]$, \textit{calculate the variance of the portfolio.}
+
+	$$\sigma_p^2=W_pcov_pW_p'$$
+	$$\therefore\sigma_p^2=W_pcov_pW_p'=[w_1\ w_2\ w_3]\left[\begin{matrix}\sigma_1^2\\\sigma_{1,2}\\\sigma_{1,3}\end{matrix}\ \begin{matrix}\sigma_{1,2}\\\sigma_2^2\\\sigma_{2,3}\end{matrix}\ \begin{matrix}\sigma_{1,3}\\\sigma_{2,3}\\\sigma_3^2\end{matrix}\right]\begin{bmatrix}w_1\\w_2\\w_3\end{bmatrix}$$
+	$$=[0.1\ 0.3\ 0.6]\left[\begin{matrix}1.5\\-0.1\\1\end{matrix}\ \begin{matrix}-0.1\\1\\2\end{matrix}\ \begin{matrix}1\\2\\1.5\end{matrix}\right]\begin{bmatrix}0.1\\0.3\\0.6\end{bmatrix}$$
+	$$=\left[(0.15-0.03+0.6)\ (-0.1+0.3+1.2)\ (0.1+0.6+0.9)\right]\begin{bmatrix}0.1\\0.3\\0.6\end{bmatrix}$$
+	$$=(0.15-0.03+0.6)0.1\ (-0.1+0.3+1.2)0.3\ (0.1+0.6+0.9)0.6$$
+	$$=0.072+0.447+0.96$$
+	$$\sigma_p^2=1.479$$
+
+\newpage 
+
+\section{Errors}
+
+	\textit{Use the concept of Type I and Type II errors to explain bank lending behaviour before and after the financial crisis in 2008}
+
+	\subsection{Introduction to Errors}
+
+		\begin{table}[h]
+                        \scriptsize 
+                        \renewcommand{\arraystretch}{1.25}
+                \begin{center}
+                \begin{tabular}{p{4cm}p{4cm}p{4cm}}
+                        \hline
+                        \hline
+                        \multicolumn{3}{c}{\textbf{Hypotheses}}\\
+                        \hline
+                        \hline
+                        \multicolumn{3}{ p{12cm} }{\textbf{H$_0$: }Null Hypothesis \textit{Aim to Reject; may Fail-to-Reject; rarely Accept}\newline \textbf{H$\mathrm{_A}$: }Alternative Hypothesis \textit{Favour in the case of Rejection of the Null}}\\
+                        \hline
+                        \multicolumn{3}{ p{12cm} }{\textbf{Type I Error: }Rejection of null hypothesis when it is true\newline \textbf{Type II Error: }Failure-to-reject null hypothesis when it is false}\\
+                        \hline
+                        \multicolumn{3}{ p{12cm} }{\textbf{Reduce Type I Error Risk: }Reduce significance level; harder to reject null\newline \textbf{Reduce Type II Error Risk: }Use large sample; ensuring significant spread}\\
+			\hline
+                        \multicolumn{3}{p{12cm}}{\textbf{Probability} $\mathbf{\alpha}$: Probability of making Type I Error\newline \textbf{Probability} $\mathbf{\beta}$: Probability of making Type II Error}\\
+                        \hline
+                        \hline
+                        \multicolumn{3}{c}{\textbf{Error Examples}}\\
+                        \hline
+                        \hline
+                        \multicolumn{1}{c|}{\textbf{Decision}} & \multicolumn{1}{c|}{H$_0$ is True} & \multicolumn{1}{c}{H$_0$ is False}\\
+                        & \multicolumn{1}{|c|}{(Accused is Innocent)} & \multicolumn{1}{c}{(Accused is Guilty)}\\
+                        \hline
+                        \multicolumn{1}{c|}{Reject H$_0$} & \multicolumn{1}{c|}{\textbf{WRONG} Decision} & \multicolumn{1}{c}{\textbf{CORRECT} Decision}\\
+                        \multicolumn{1}{c|}{(Accused Convicted)} & \multicolumn{1}{c|}{(Type I Error)} & \\
+                        & \multicolumn{1}{|c|}{Probability $\alpha$} & \\
+                        \hline
+                        \multicolumn{1}{c|}{Fail-To-Reject H$_0$} & \multicolumn{1}{c|}{\textbf{CORRECT} Decision} & \multicolumn{1}{c}{\textbf{WRONG} Decision}\\
+                        \multicolumn{1}{c|}{(Accused Goes Free)} & & \multicolumn{1}{|c}{(Type II Error)}\\
+                        & \multicolumn{1}{|c|}{} & \multicolumn{1}{c}{Probability $\beta$}\\
+                        \hline
+                \end{tabular}
+                \end{center}
+                \end{table}
+
+		\begin{table}[h]
+                        \scriptsize
+                        \renewcommand{\arraystretch}{1.25}
+                \begin{center}
+                \begin{tabular}{p{13cm}}
+                        \hline
+                        \multicolumn{1}{c}{\textbf{t-stat}}\\
+                        \hline
+                        \multicolumn{1}{c}{t-stat = $\mathit{\frac{\bar{x}-\bar{\mu}}{\left(\frac{\sigma}{\sqrt{N}}\right)}}$}\\
+                        \textbf{$|$t-stat$|$} $>$ 1.96: reject the null hypothesis at the 5\% significance level;\newline \textbf{$|$t-stat$|$} $>$ 2.58: reject the null hypothesis at the 1\% significance level\newline \textit{Given 1000 degrees of freedom}\\
+                        \hline
+                        \multicolumn{1}{c}{\textbf{p-value}}\\
+                        \hline
+                        \textbf{p-value} $<$ 0.05: reject the null hypothesis at the 5\% significance level;\newline \textbf{p-value} $<$ 0.01: reject the null hypothesis at the 1\% significance level\newline \textit{Given 1000 degrees of freedom}\\
+                        \hline
+                        \multicolumn{1}{c}{\textbf{Confidence Relevance}}\\
+                        \hline
+                        5\% and 1\% significance levels are also referred to as the 95\% and 99\% confidence [in rejecting the null] intervals. Correct syntax: refer to 5\% and 1\% significance levels when referring to p-values; 95\% and 99\% confidence levels when referring to hypotheses.\\
+                        \hline
+                        \multicolumn{1}{c}{\textbf{Error Relevance}}\\
+                        \hline
+                        5\% and 1\% levels are used to ensure accuracy and reduced probability of making a Type I error. That is, ``accepting a max 5\%/1\% chance that you are wrong when rejecting the null”; ``you are min 95\%/99\% confident you are right when rejecting”.\\
+                        \hline
+                \end{tabular}
+                \end{center}
+                \end{table}
+
+	\newpage
+
+	\subsection{Banks in 2008}
+
+	Banks experienced a lot of cases of Type I Errors prior to the crisis in 2008 and they experienced many cases of making Type II Errors post-2008 crisis. These tended to be centred around the same hypothetical null and alternative hypotheses:\\
+
+	\textbf{H}$\mathbf{_0}$: Mortgage Seeker is Risky\\
+	\textbf{H}$\mathbf{_A}$: Mortgage Seeker is Not Risky
+
+		\subsubsection{Pre-Crisis}
+
+	Prior to the 2008 crisis, it could be argued that the hypothetical null hypothesis (H$_0$) is as follows: ``people seeking mortgage loans are risky''; and the corresponding alternative hypothesis (H$\mathrm{_A}$) is: ``people seeking mortgage loans are not risky''. In other words, banks wanted to reject the null hypothesis in favour of the alternative hypothesis so they were able to give out more loans to non-worthy people. That is, to issue sub-prime mortgages, for their own self-interest. However, in practice, banks found this null hypothesis to in fact be true, therefore contradicting their desires. Furthermore, they rejected the null hypothesis even though it was true, making this a Type I Error [Reject H$_0$ when H$_0$ is true]. Therefore, loan application granted where it shouldn’t be. Cost of Type I Error = loss of mortgage value plus remaining interest to be paid [assigned: \$500,000 + $x$] upon default.
+
+		\subsubsection{Post-Crisis}
+
+	Post-crisis, the null hypothesis and alternative hypothesis remained the same: ``people seeking mortgage loans are (H$_0$)/are not (H$\mathrm{_A}$) risky''. Banks would simply react in a different manner, with added precaution after observing the domino effect they had helped cause over the course of 2007 and 2008. This time round, banks may refuse to give a perfectly eligible citizen a mortgage loan. That is, they find H$_0$ ``people seeking mortgage loans are risky'' to be false but fail to reject it. Meaning that they are acting as if it is true. In this case they should be favouring the alternative hypothesis but neglect this. This is therefore a Type II Error [Fail-to-reject H$_0$ when H$_0$ is false]. Therefore, loan application aren’t granted where they should be. Cost of Type II Error = full potential interest [assigned: $x$ = \$100,000]. By doing this they turn away the opportunity to earn the interest however, it is safer to lose just potential interest (acting in a Type II Error – this case) than it is to lose the full loan in the case of default, plus the remaining potential interest (acting in the Type I Error – pre-2008). But doing this over a long period will have significantly negative effects.\\
+
+	From a more, hypothetical, statistical point of view (and using the post-2008 reaction of banks): say the null hypothesis was as described, the t-test was run and the associated p-value of the t-test was 0.0003 (p-value $<$ 0.01). This would state that ``we should be willing to accept a 0.03\% probability that we are wrong when rejecting H$_0$''. Therefore we would reject the null hypothesis that mortgage seekers are risky. But despite this statistical evidence to the contrary, it was failed to be rejected anyway meaning banks could act in their own (safe) favour. Thus, rejecting mortgage loans when they should grant them; turning away safe customer when they should accept them.
+
+\newpage
+
+\section{Matrix OLS}
+
+	\subsection{Preliminaries}
+
+
+
+
+
+\end{document}

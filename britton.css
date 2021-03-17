@@ -1531,6 +1531,22 @@ body {
 		padding-bottom: 2.5em;
 	}
 
+	.biketxt a:link {
+		color: #483D8B;
+		text-decoration: none;
+	}
+
+	.biketxt a:visited {
+		color: #483D8B;
+		text-decoration: none;
+	}
+
+	.biketxt a:hover {
+		color: #96b9ee;
+		text-decoration: none;
+		border-bottom: 2.5px solid #483D8B;
+	}
+
 .sport-stats {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;

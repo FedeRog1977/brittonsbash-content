@@ -160,8 +160,191 @@
 
 	\subsection{Preliminaries}
 
+	Recall basic OLS regression:
 
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item $\hat{Y}_i=\hat{\alpha}+\hat{\beta}X_i+\varepsilon_i$
+		\item $Y=\alpha+\beta_1X_1+\beta_2X_2+...+\beta_KX_K+\varepsilon_i$
+		\item $Y=\alpha+\sum_{k=1}^K\beta_kX_k+\varepsilon_i$
+		\item $Y$: the dependent variable (what effects $Y$?)
+		\item $X_k$: the explanatory variable $k$ (does it effect $Y$?)
+		\item $\alpha$: the \textit{y-intercept} (level of $Y$ when $X=0$)
+		\item $\beta$: the slope of the line (degree of relationship)
+		\item $\varepsilon$: the residuals (random error term)
+		\begin{itemize}
+			\item Captures explanation not contained within explanatory variables(s)		
+		\end{itemize}
+		\item For observation $i$
+		\item (Hat denotes `estimation')
+	\end{itemize}
 
+	Know that:
 
+	\begin{enumerate}
+        \setlength\itemsep{0cm}
+		\item $\beta=\frac{\Delta Y}{\Delta X}=\frac{\partial Y}{\partial X}$
+		\begin{enumerate}
+			\item[$-$] ``For each ($+$) unit on the \textit{x} axis, expect the \textit{y} value to $\Delta$ by $\beta$''
+		\end{enumerate}
+		\item $\varepsilon_i=(Y_i-\hat{Y_i})$
+		\begin{enumerate} 
+			\item[$-$] Each observation has a predicted $\hat{Y}_i$ on the line of best fit, directly above or below its real $Y_i$
+			\item[$-$] Distance between each of these value is the \textit{error}
+		\end{enumerate}
+		\item This is a \textit{Linear Regression} which uses a straight `line of best fit' (hyperplane)
+		\begin{enumerate}
+			\item[$-$] For non-linear data, a \textit{Polynomial Model} can be used to account for concave/convex data 
+			\item[$-$] Hence: $Y_i=\alpha+\beta_1X_1+\beta_2X_2^2+...+\beta_KX_K^K+\varepsilon_i$
+		\end{enumerate}
+	\end{enumerate}
+
+	\newpage
+
+	\subsection{Assumptions}	
+
+	\begin{enumerate}
+	\setlength\itemsep{0cm}
+		\item $\sum\varepsilon_i=0$
+		\begin{enumerate}
+			\item[$-$] ``The sum of all residuals in the model are equal to zero''
+		\end{enumerate}
+		\item $var_{\varepsilon_i}=E(\varepsilon_i^2)=\sigma^2$; or $E(\varepsilon\varepsilon')=\sigma^2I$ in vector format
+		\begin{enumerate}
+			\item[$-$] ``Observations have constant errors''
+			\item[$-$] \textit{Homoskedasticity}: constant errors
+			\item[$-$] \textit{Heteroskedasticity}: non-constant errors (adjust to \textit{Robust Standard Errors})
+			\begin{enumerate}
+				\item[$-$] $var_{\varepsilon}=\sigma^2\omega_i^2$
+				\item[$-$] For $i\in\{1,...,N\}$
+				\item[$-$] The \textit{White Test} is used for heteroskedasticicty testing (H$_0$: Homoskedasticity is present $\therefore$ you wish to fail-to-reject H$_0$; associated p-value $>$ critical value)
+			\end{enumerate}
+		\end{enumerate}
+		\item $cov_{\varepsilon_i,\varepsilon_j}=0\ (\mathrm{for}\ i\neq j)\ \mathrm{or}\ E(X\varepsilon')=0$ in vector format
+		\begin{enumerate}
+			\item[$-$] ``Error terms should be uncorrelated''
+			\item[$-$] Expected observations should be uncorrelated with errors
+			\item[$-$] \textit{Instrumental Variable Approach} (IV): where explanatories are correlated with error terms (endogeniety problem), don't use OLS
+			\begin{enumerate}
+				\item[$-$] $X$ may be \textit{exogenous}, where factors within the model cause changes in $X$; $\therefore\Delta X$ associated w/ $\Delta\varepsilon$
+				\item[$-$] \textit{Endogenous} context: variables correlated with error term 
+				\item[$-$] \textit{Exogenous} context: variables uncorrelated with error term
+				\item[$-$] If two explanatories have high collinearity, omit one
+			\end{enumerate}
+		\end{enumerate}
+		\item (Extra for matrix OLS) $(X'X)^{-1}$ exists
+		\begin{enumerate}
+			\item[$-$] \textit{Multicollinearity} is not present
+				Under multicollinearity, two variables may have high correlation (e.g. $1,-1$)
+			\item[$-$] Model would struggle to undertstand which one explains $Y$
+			\item[$-$] Hence, w/o multicollinearity, each explanatory gives unique information
+		\end{enumerate}
+	\end{enumerate}
+
+	\newpage
+
+	\subsection{Beta Estimations}
+
+	$$\hat{Y}_i=\hat{\alpha}+\hat{beta}X_i+\varepsilon_i$$
+
+	$$\therefore\begin{bmatrix}Y_1\\Y2\\\vdots\\Y_N\end{bmatrix}=\begin{bmatrix}\beta_1\\\beta_2\\\vdots\\\beta_N\end{bmatrix}\left[\begin{matrix}1\\1\\\vdots\\1\end{matrix}\begin{matrix}X_{1,1}\\X_{1,2}\\\vdots\\X_{1,N}\end{matrix}\begin{matrix}X_{2,1}\\X_{2,2}\\\vdots\\X_{2,N}\end{matrix}\begin{matrix}\hdots\\\hdots\\\hdots\\\hdots\end{matrix}\begin{matrix}X_{k,1}\\X_{k,2}\\\vdots\\X_{k,N}\end{matrix}\right]+\begin{bmatrix}\varepsilon_1\\\varepsilon_2\\\vdots\\\varepsilon_N\end{bmatrix}$$
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Going forward, the following are unkown: $\beta,\ \sigma^2$
+		\item We wish to maximize the total variation of $\beta_iX_i$ in order to explain $Y$
+		\item In result, this will minimise variation of the random error value
+		\item In other words, choose $\alpha$ and $\beta$ to $\min\{\sum(Y_i-\hat{Y}_i)^2\}$
+		\item Optimization is required [$E(\varepsilon\varepsilon')$ with respect to $\beta$], to the first order
+		\item Again, choose $\alpha$ and $\beta$ to:
+		\begin{itemize}
+			\item $\min\{\sum(Y_i-\hat{Y}_i)^2\}=\min\{E(\varepsilon_i^2)\}=\min\{E(\varepsilon\varepsilon')\}$
+			\item Thus, minimizing for \~{}0 @ stationary point
+			\item The following uses relevant matrix algebraic notation
+			\item Hence, the use of ($Y-\beta X$) to represent the (error) distance of observations from the line of best fit
+			\item As $\varepsilon=(Y-\beta X)$ in a vector context:
+			\item $$\frac{d(min\{E(\varepsilon\varepsilon')\})}{d\beta}=\frac{d((y-\beta X)(Y-\beta X)')}{d\beta}$$
+			\item $$\therefore\frac{d(YY'-Y\beta'X'-X\beta Y'+X\beta\beta'X')}{d\beta}=0$$
+			\item $$\therefore\hat{\beta}=(X'X)^{-1}X'Y$$
+		\end{itemize}
+	\end{itemize}
+
+		\subsubsection{Gauss-Markov Theorem: Beta Estimations}
+
+	This states that, given the aforementioned assumptions, there are no alternative linear estimators of $\beta$'s with a smaller variance. That is, the OLS model is the Best Linear Unbiased Efficient (BLUE) estimator.
+
+	Recall: $\hat{\beta}=(X'X)^{-1}X'Y$, therefore:
+
+	$$\hat{\beta}=(X'X)^{-1}X'(X\beta+\varepsilon)$$
+	$$\therefore\hat{\beta}=\beta+(X'X)^{-1}X'\varepsilon$$
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item As $(X'X)^{-1}X'X=I$;
+		\item OLS is unbiased given that either [1] $X$ is not stochastic or [2] $X$ is stochastic but independent of $\varepsilon$
+		\item Therefore:
+		\item $E(\hat{\beta})=E(\beta)+(X'X)^{-1}X'\varepsilon=\beta+(X'X)^{-1}X'E(\varepsilon)$
+		\item[] or
+		\item $E(\hat{\beta})=E(\beta)+(X'X)^{-1}X'\varepsilon=\beta+(X'X)^{-1}E(X'\varepsilon)$
+		\item Therefore, $\hat{\beta}$ is a linear estimator of $\beta$
+		\item Where $\beta$ has minimal variance such that: $var_{\beta}-var_{\hat{\beta}}>0$
+		\item Meaning that $\hat{\beta}$ estimations should never exceed $\beta$
+	\end{itemize}
+
+	\newpage
+
+	\subsection{Variance Estimations}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Recall:
+		\begin{itemize}
+			\item $\hat{\beta}=(X'X)^{-1}X'Y$
+			\item $\varepsilon=(Y-\beta Y)$
+		\end{itemize}
+		\item Estimate $\sigma^2$ with $\hat{\sigma}^2$ in a similar manner to $\beta$
+		\item For $N$ observations and $k$ explanatory variables
+		\item $\hat{\sigma}^2=\frac{\varepsilon'\varepsilon}{N-k}$
+		\item $\therefore\hat{\sigma}^2=\frac{(Y-\beta X)'(Y-\beta X)}{N-K}$
+		\item Thus, like $\beta$, $\hat{\sigma}^2$ is an unbiased estimator of $\sigma^2$
+	\end{itemize}
+
+		\subsubsection{Variance-Covariance Matrix for $\mathbf{\hat{\beta}}$}
+	
+	$$E\left((\hat{\beta}-\beta)(\hat{\beta}-\beta)'\right)$$
+	$$=E\left(((X'X)^{-1}X'\varepsilon)((X'X)^{-1}X'\varepsilon)'\right)$$
+	$$=E\left((X'X)^{-1}X'\varepsilon\varepsilon'X(X'X)^{-1}\right)$$
+
+	Assume $X$ is stochastic and rearrange:
+
+	$$=(X'X)^{-1}X'E(\varepsilon\varepsilon')X(X'X)^{-1}$$
+
+	Recall $E(\varepsilon\varepsilon')=\sigma^2I$:
+
+	$$=(X'X)^{-1}X'(\sigma^2I)X(X'X)^{-1}$$
+	$$=\sigma^2I(X'X)^{-1}X'X(X'X)^{-1}$$
+	$$=\sigma^2I(X'X)^{-1}\ as\ req.$$
+	
+	\newpage
+
+	\subsection{Unbiasedness of OLS}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Meaning applying $\hat{\beta}$ to all observations will provide a central \textit{true value} $\beta$ on the distribution of $\beta$ values
+		\begin{itemize}
+			\item Hence $E(\hat{\beta})=\bar{\beta}_i$
+		\end{itemize}
+		\item $\hat{\beta}=(X'X)^{-1}X$ is referred to as a \textit{projection matrix} which is a vector that captures the error, denoted by $P_x$
+	\end{itemize}
+
+	Matrix algebra shown below:
+
+	$$E(\hat{\beta})=\bar{\beta}_i$$
+	$$\therefore E(\hat{\beta})=E(\left(X'X)^{-1}X'Y\right)$$
+	$$=E(\left(X'X)^{-1}X'(X\beta+\varepsilon)\right)$$
+	$$=E(\left(X'X)^{-1}X'X\beta+(X'X)^{-1}X'\varepsilon\right)$$
+	$$=E(\left(X'X)^{-1}X'\varepsilon\right)+\beta$$
+	$$=\beta\ as\ req.$$
 
 \end{document}

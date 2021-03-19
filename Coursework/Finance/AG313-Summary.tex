@@ -27,8 +27,9 @@
 
         \usepackage{amsmath}
         \usepackage{amssymb}
+	
 	\usepackage{tikz}
-	\usetikzlibrary{trees}
+		\usetikzlibrary{trees,arrows,topaths}
 
 	\usepackage[utf8]{inputenc}
 	\usepackage[official]{eurosym}
@@ -300,7 +301,7 @@
 
 		\subsubsection{Binomial Option Tree: European Put}
 
-	\textbf{Step 1}
+	\textbf{Step 1: Probability}
 
 	$$\mathrm{u=e^{\sigma\sqrt{\Delta t}}}$$
 	$$\mathrm{d=e^{-\sigma\sqrt{\Delta t}}=\frac{1}{u}}$$
@@ -308,7 +309,7 @@
 	$$\mathrm{p=\frac{e^{r\Delta t}-d}{u-d}=Risk\ Neutral\ Probability\ of\ Up\ Movement}$$
 	$$\mathrm{(1-p)=Risk\ Neautral\ Probability\ of\ Down\ Movement}$$
 
-	\textbf{Step 2}
+	\textbf{Step 2: Share Value}
 
 	$$\mathrm{S_{u/d}=Value\ of\ Stock\ Upon\ Increase/Decrease}$$
 	$$\mathrm{S_u=Pu}$$
@@ -317,7 +318,7 @@
 	$$\mathrm{S_{u,d}=Pud}$$
 	$$\mathrm{S_{d,d}=Pd^2}$$
 
-	\textbf{Step 3}
+	\textbf{Step 3: Put Value}
 
 	$$\mathrm{P_{u/d}=Value\ of\ Option\ Upon\ Increase/Decrease}$$
 	$$\mathrm{P_{u,u}=0}$$
@@ -329,59 +330,51 @@
 
 	\newpage
 
-	\textbf{The Binomial Tree}
+	\textbf{Step 4: The Binomial Tree}
 
 	\tikzstyle{level 1}=[level distance=6cm, sibling distance=4cm]
 	\tikzstyle{level 2}=[level distance=6cm, sibling distance=4cm]
 
-	\tikzstyle{bag} = [text width=2em, text centered]
-	\tikzstyle{end} = [minimum width=0pt, inner sep=0pt]
+	\tikzstyle{bag} = [text width=3em, text centered]
+	\tikzstyle{end} = [text width=3em, text centered]
 
 	\begin{tikzpicture}[grow=right, sloped]
 		\node[bag] {$\mathrm{S_0}$\\ $\mathrm{P_0}$}
     		child {
 			node[bag] {$\mathrm{S_d}$\\ $\mathrm{P_d}$}        
            	 	child {
-                		node[end, label=right:
-					{$\mathrm{S_{d,d}}$\\ $\mathrm{P_{d,d}}$}
-					] {}
+                		node[end] {$\mathrm{S_{d,d}}$\\ $\mathrm{P_{d,d}}$}
                 		edge from parent
                 			node[above] {\tiny$\mathrm{S_{d,d}=Pd^2}$}
-                			node[below]  {\tiny$\mathrm{P_{d,d}=K-S_{d,d}}$}
+                			node[below] {\tiny$\mathrm{P_{d,d}=K-S_{d,d}}$}
             			}
             		child {
-                		node[end, label=right:
-					{}
-					] {}
+                		node[end] {$\mathrm{S_{u,d}}$\\ $\mathrm{P_{u,d}}$}
                 		edge from parent
                 			node[above] {}
-                			node[below]  {}
+                			node[below] {}
             			}
             			edge from parent 
             				node[above] {\tiny$\mathrm{S_d=Pd}$}
-            				node[below]  {\tiny$\mathrm{P_d=\left((pP_{u,d})+\left((1-p)P_{d,d}\right)\right)e^{-r\Delta t}}$}
+            				node[below] {\tiny$\mathrm{P_d=\left((pP_{u,d})+\left((1-p)P_{d,d}\right)\right)e^{-r\Delta t}}$}
     			}
     		child {
 			node[bag] {$\mathrm{S_u}$\\ $\mathrm{P_u}$}
         		child {
-                		node[end, label=right:
-					{$\mathrm{S_{u,d}}$\\ $\mathrm{P_{u,d}}$}
-					] {}
+                		node[end] {$\mathrm{S_{u,d}}$\\ $\mathrm{P_{u,d}}$}
                 		edge from parent
                 			node[above] {\tiny$\mathrm{S_{u,d}=Pud}$}
-                			node[below]  {\tiny$\mathrm{P_{u,d}=K-S_{u,d}}$}
+                			node[below] {\tiny$\mathrm{P_{u,d}=K-S_{u,d}}$}
             			}
             		child {
-                		node[end, label=right:
-					{$\mathrm{S_{u,u}}$\\ $\mathrm{P_{u,u}}$}
-					] {}
+                		node[end] {$\mathrm{S_{u,u}}$\\ $\mathrm{P_{u,u}}$}
                 		edge from parent
 					node[above] {\tiny$\mathrm{S_{u,u}=Pu^2}$} 
 					node[below] {\tiny$\mathrm{P_{u,u}=0}$}
             			}
         			edge from parent         
             				node[above] {\tiny$\mathrm{S_u=Pu}$}
-            				node[below]  {\tiny$\mathrm{P_u=\left((pP_{u,u})+\left((1-p)P_{u,d}\right)\right)e^{-r\Delta t}}$}
+            				node[below] {\tiny$\mathrm{P_u=\left((pP_{u,u})+\left((1-p)P_{u,d}\right)\right)e^{-r\Delta t}}$}
     			};
 	\end{tikzpicture}
 

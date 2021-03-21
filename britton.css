@@ -1894,13 +1894,13 @@ body {
 		border-radius: 0.75em;
 	}
 
-.instabody1, .instabody2, .instabody3 {
+.instabody1, .instabody2, .instabody3, .instabody4 {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.instabody1txt, .instabody2txt, .instabody3txt {
+	.instabody1txt, .instabody2txt, .instabody3txt, .instabody4txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -1914,11 +1914,11 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.instabody1 img, .instabody2 img, .instabody3 img {
+	.instabody1 img, .instabody2 img, .instabody3 img, .instabody4 img {
 		width: 17.5em;
 	}
 
-	.instabody1 td, .instabody2 td, .instabody3 td {
+	.instabody1 td, .instabody2 td, .instabody3 td, .instabody4 td {
 		text-align: center;
 		padding-right: 1em;
 		padding-bottom: 2.5em;

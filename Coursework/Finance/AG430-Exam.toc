@@ -1,2 +1,12 @@
-\contentsline {section}{\numberline {1}Payout Policy (Section 1)}{1}% 
+\contentsline {section}{\numberline {1}Section 1: Payout Policy}{1}% 
 \contentsline {subsection}{\numberline {1.1}Question 1: Payout Policy \& Signalling}{1}% 
+\contentsline {subsection}{\numberline {1.2}Question 2: Payout Policy \& Agency Theory}{4}% 
+\contentsline {subsection}{\numberline {1.3}Question 3: Catering Theory}{7}% 
+\contentsline {section}{\numberline {2}Section 2: Capital Structure}{8}% 
+\contentsline {subsection}{\numberline {2.1}Question 1: Agency Theories of Capital Structure}{8}% 
+\contentsline {subsection}{\numberline {2.2}Question 2: Asymmetric Information}{9}% 
+\contentsline {subsection}{\numberline {2.3}Question 3: Market Timing Theories}{12}% 
+\contentsline {section}{\numberline {3}Section 3: Capital Markets}{13}% 
+\contentsline {subsection}{\numberline {3.1}Question 1: Determinants of Corporate Cash Holdings}{13}% 
+\contentsline {subsection}{\numberline {3.2}Question 2: Issuing Equity}{18}% 
+\contentsline {subsection}{\numberline {3.3}Question 3: Choice of Borrowing}{21}% 

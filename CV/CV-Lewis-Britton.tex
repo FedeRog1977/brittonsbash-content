@@ -26,9 +26,15 @@
         \newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
                 \setcounter{tocdepth}{5}
 		\setcounter{secnumdepth}{5}
+		
+	\usepackage{hyperref}
+		\hypersetup{
+                        colorlinks=true,
+                        linkcolor=black,
+                        filecolor=magenta,
+                        urlcolor=cyan,
+                }
 
-
-% START
 \begin{document}
 
 \pagenumbering{Roman}
@@ -48,29 +54,27 @@
 \setstretch{1.0}{
 
 \begin{center}
-	\begin{tabular}{l|l}
+\begin{tabular}{l|l}
 	\textbf{Mail To:} wi.lbritton@yahoo.com & \textbf{Telephone:} 07415 212 056\\ 
-	\textbf{Website:} http://lewisbritton.com/ & \textbf{GitHub:} https://github.com/FedeRog1977   
+	\textbf{Website:} \href{http://lewisbritton.com}{lewisbritton.com} & \textbf{GitHub:} \href{https://github.com/FedeRog1977}{FedeRog1977}
 \end{tabular}
 \end{center}
 
 }
 
-% BASICALLY A GLOBAL STRETCH
+% Basically a global stretch
 \setstretch{1.25}{
 
-% INTRODUCTION
 \section*{Introduction}
 
 \begin{itemize}
 \setlength\itemsep{0cm}
 	\item Fourth year bachelors student of Finance at the University of Strathclyde.
-	\item Focus on quantitative methods, asset pricing, corporate investment, corporate methods. For more info regarding classes and projects visit: http://lewisbritton.com/academia.html
-	\item In satisfaction of the workplace standards, I have constructed an ability to set and attain goals efficently, organise and plan in depth and maintain a strong work ethic, all in good balance.	
-	\item I utilise honesty and respect to satisfy the greatest amount of people and, the right people for the objectively correct reasons. This always requires a dynamic and versatile approach.
+	\item Focus on quantitative methods, asset pricing, corporate investment, corporate methods. For more information regarding classes and projects visit my \href{http://lewisbritton.com/academia.html}{academia} page.
+	\item In satisfaction of the workplace standards, I have constructed an ability to set and attain goals efficently, organise and plan in depth and maintain a strong work ethic, all in good balance. Visit my \href{http://lewisbritton.com/employment.html}{employment} page for more.
+	\item I utilise honesty and respect to satisfy the right and the greatest amount of people for the objectively correct reasons. This requires a dynamic and versatile approach.
 \end{itemize}
 
-% SKILLS 
 \section*{Skills} 
 
 \begin{minipage}[t]{.15\linewidth}
@@ -91,12 +95,11 @@
 	Organisation \& Structure, Logic \& Accuracy, Efficiency \& Care, Rationale \& Pragmaticism, Maturity \& Strong Conduct, Strict Consistency, Honest Where Appropriate, Competitiveness \& Completionism, Exceedingly Punctual, Confident \& Charismatic, Professional Linguistics \& Accent, Exceptionally Independant, Self-Sufficient, Truth to Self, Well-Practiced Manners \& Generosity, Empathetic \& Caring for Others, Unique \& Diverse Humour
 \end{minipage}\\                                                                      
 
-% INSTITUTIONS
 \section*{Academia}
 
 \begin{minipage}[t]{.15\linewidth}
 	\hfill 
-	\textsc{2017--Present}
+	\textsc{2020--Present}
 \end{minipage}
 \hfill\vline\hfill
 \begin{minipage}[t]{.80\linewidth}
@@ -139,12 +142,11 @@
 \end{minipage}\\
 \vspace{0.25cm}
 
-% EMPLOYMENT
 \section*{Employment}
 
 \begin{minipage}[t]{.15\linewidth}
         \hfill 
-        \textsc{2019--Present}
+        \textsc{2019--2021}
 \end{minipage}
 \hfill\vline\hfill
 \begin{minipage}[t]{.80\linewidth}
@@ -190,7 +192,6 @@
 \end{minipage}\\
 \vspace{0.25cm}
 
-% WRITINGS
 \section*{Writings}
 
 \begin{minipage}[t]{.15\linewidth}
@@ -199,14 +200,24 @@
 \end{minipage}
 \hfill\vline\hfill
 \begin{minipage}[t]{.80\linewidth}
-	\textbf{B.A. Dissertation}\\
+	\href{http://lewisbritton.com/Coursework/Dissertation/AG436-Assignment.pdf}{\textbf{B.A. Dissertation}}\\
 	\textit{New York's Seasonal Effect: Further Analysis of New York's Interlinking and Turn-of-the-Year Seasonal Stock Return Fluctuations with Evidence from the NYSE, NASDAQ and S\&P 500}\\
 	Honours dissertation focussing on time-series analysis of US stock returns, in search of Seasonal Patterns in the Weekend Effect, January Effect and Holiday Effect which contradict Efficient Market Hypothesis. Utilising mathematical and statistical methods such as regression analysis. 
 \end{minipage}\\
+\vspace{0.25cm}
+
+\begin{minipage}[t]{.15\linewidth}
+        \hfill                  
+        \textsc{2017-2021}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.80\linewidth}
+	\href{http://lewisbritton.com/library.html}{\textbf{Other Academic Writings}}\\
+	In 2020/2021, I decided to transcribe all of my old university notes, assignments, tests and exams in {\LaTeX}. Move away from this MicroBloat Soyffice, and that. It's a little bit of OCD, a little bit of completionism, desire for continuity, and a little bit of loving for Don. E. Knuth's {\TeX}.
+\end{minipage}
 
 \newpage 
 
-%INTERFACES
 \section*{Communications \& Interfaces}
 
 \begin{center}
@@ -255,7 +266,6 @@ I am developing and maintaining a sustainable and minimalist Linux system. I mai
 	IBM ThinkPad T23, IBM ThinkPad X30, IBM ThinkPad T42, IBM ThinkPad R50e, Lenovo ThinkPad X220, Lenovo ThinkPad T420, IBM Model M 1987, Cisco CP-7962G
 \end{minipage}\\
 
-% HOBBIES
 \section*{Hobbies}
 
 \begin{minipage}[t]{.15\linewidth}
@@ -276,8 +286,6 @@ I am developing and maintaining a sustainable and minimalist Linux system. I mai
 	Real Estate \& Interior Design; High-Quality Goods \& Sustainability; Tennis, Tennis Equipment, Tennis Statistics; Road Cycling \& Bicycle Components; Bagging Munros; Scotland \& The Natural Outdoors; Global Cultural Understanding; The United States of America; John Hughes \& 1980's Cinema; Miami Vice \& 1980's Television; Jan Hammer \& 1980's Music; Culinary Science; Good Nutrition; Kitchen Appliances, Utensils, Storage, Decor; Crockery, Cutlery, Glassware; A Good Cafe; High-End Food Stores
 \end{minipage}\\
 
-
-% REFERENCES
 \section*{References}
 
 \begin{itemize}

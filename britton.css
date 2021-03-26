@@ -202,7 +202,7 @@ body {
 /* ~~~~ Home */
 
 .home-image {
-	background-image: url("Photos-Home/wall.png");
+	background-image: url("Photos/wall.png");
 	background-attachment: fixed;
   	background-position: top;
   	background-repeat: no-repeat;
@@ -1325,8 +1325,14 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.fatherstxt td {
-		padding-bottom: 5em;
+	.fathersbody img {
+		width: 17.5em;
+	}
+
+	.fathersbody td {
+		text-align: center;
+		padding-right: 1em;
+		padding-bottom: 2.5em;
 	}
 
 

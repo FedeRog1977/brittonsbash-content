@@ -1,5 +1,9 @@
-% Style
+% STYLE
+
+	% DOCUMENT TYPE & GEOMETRY
+
 \documentclass[11pt, english]{article}
+
         \usepackage{geometry}
                 \geometry{
                         a4paper,total={210mm,297mm},
@@ -10,8 +14,11 @@
                 }
 
         % Change font
-        % \usepackage[T1]{fontenc}
-        % \usepackage{CormorantGaramond}
+        \usepackage[T1]{fontenc}
+        \usepackage{CormorantGaramond}
+
+        % Latin grammar pack
+        \usepackage{tipa}
 
         % Page header formatting
         \usepackage{fancyhdr}
@@ -23,37 +30,47 @@
                 \fancyfoot[C]{\thepage} % Page number footer center
                 \renewcommand{\headrulewidth}{0.5pt} % Rule along header
 
-	% Making ToC smallcaps (section, subsection, subsubsection and paragraph)
+	% Links
+        \usepackage{hyperref} 
+                \hypersetup{          
+                        colorlinks=true,        
+                        linkcolor=black,  
+                        filecolor=magenta,
+                        urlcolor=cyan,
+                        }
+
+	% TABLE OF CONTENTS, LIST OF TABLES, LIST OF FIGURES
+
         \usepackage{tocloft}
                 
-                % Making titles of ToC, LoT and LoF sc
+                % Style titles of ToC, LoT and LoF
                 \renewcommand{\cfttoctitlefont}{\fontsize{18}{16}\scshape}
                 \renewcommand{\cftlottitlefont}{\fontsize{18}{16}\scshape}
                 \renewcommand{\cftloftitlefont}{\fontsize{18}{16}\scshape}
 
-                % Making contents of ToC, LoT and LoF sc
+                % Style contents of ToC, LoT and LoF
                 \renewcommand{\cftsecfont}{\scshape}
                 \renewcommand{\cftsubsecfont}{\scshape}
                 \renewcommand{\cftsubsubsecfont}{\scshape}
                 \renewcommand{\cftparafont}{\scshape}
 
-        % Styling abstract title
+	% ABSTRACT TITLE
+
         \usepackage{abstract}
                 \renewcommand{\abstractnamefont}{\fontsize{11}{0}\scshape}
 
-        % Changing section to Roman case
+	% SECTION TITLES & HEADINGS
+
         \renewcommand{\thesection}{\arabic{section}}
         \renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
         \renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
         \renewcommand{\theparagraph}{\thesubsubsection.\arabic{paragraph}}
 
-        % Styling titles and headings
+        % Syntax section titles and headings
         \usepackage{titlesec}
 
                 \titleformat{\section}
-                        {\fontsize{18}{16}\scshape}{\thesection}{0.5em}{}
-                        % Used \bfseries before
-                        % Alt. ('Chapter' precededing): {\normalfont\fontsize{18}{16}\bfseries}{Chapter \thesection}{0.5em}{}
+			{\fontsize{18}{16}\scshape}{\thesection}{0.5em}{} % Can do: {Text \thesection}, also {\bfseries} etc.
 
                 \titleformat{\subsection}
                         {\fontsize{14}{16}\scshape}{\thesubsection}{1em}{}
@@ -65,28 +82,7 @@
                 \titleformat{\paragraph}
                         {\fontsize{11}{16}\scshape}{\theparagraph}{1em}{}
 
-	% Styling links
-        \usepackage{hyperref} 
-                \hypersetup{          
-                        colorlinks=true,        
-                        linkcolor=black,  
-                        filecolor=magenta,
-                        urlcolor=cyan,
-                        }
-
-        % Styling cations for tables and figures
-        \usepackage[labelfont=sc,textfont=sc,font=small,skip=8pt]{caption}
-
-        % Positioning for figures (also, 'float' sounds like 'bloat')
-        \usepackage{float}
-
-                % Adding \section numbers to table titles
-                \renewcommand{\thetable}
-                        {\thesection.\arabic{table}}
-
-                % The same for figures but not actually changing anything
-                \renewcommand{\thefigure}
-                        {\arabic{figure}}
+	% BODY TEXT & SOME SYNTAX
 
         % Removing paragraph indent
         \setlength{\parindent}{0pt}
@@ -96,37 +92,67 @@
         % Allow varying intervals of line-width change
         \usepackage{setspace}
 
-        % defining new ruled line
+        % Defining new ruled line
         \newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
                 \setcounter{tocdepth}{5}
                 \setcounter{secnumdepth}{5}
 
+	% GRAPHICS
+
+        \usepackage{graphicx}
+        % Path to graphics
+        \graphicspath{{./dir/}}
+
+	% TABLES & FIGURES
+
+        \usepackage{float}
+
         \usepackage{longtable}
-        % Was testing something
         \usepackage{multicol}
         \usepackage{multirow}
 
-        % Additional math features
+        % Caption style
+	\usepackage{caption} % Could use the captionsetup definitions in [] in this if lazy
+		\captionsetup[table]{labelfont=sc,textfont=sc,font=small,skip=8pt}
+		\captionsetup[figure]{labelfont=sc,textfont=sc,font=small,skip=8pt}
+	\usepackage{subcaption}
+		\captionsetup[subtable]{labelfont=sc,textfont=sc,font=small,skip=8pt,labelformat=parens,labelsep=space}
+		\captionsetup[subfigure]{labelfont=sc,textfont=sc,font=small,skip=8pt,labelformat=parens,labelsep=space}
+
+	% Table caption syntax
+        \renewcommand{\thetable}
+                {\thesection.\arabic{table}}
+	\renewcommand{\thesubtable}
+                {\roman{subtable}}
+
+        % Figure caption syntax
+        \renewcommand{\thefigure}
+                {\thesection.\arabic{figure}}
+	\renewcommand{\thesubfigure}
+                {\roman{subfigure}}
+
+	% MATH AND SYMBOLS
+
         \usepackage{amsmath}
         \usepackage{amssymb}
 
-        % Inserting images
-        \usepackage{graphicx}
-        % Telling TeX to find images in ''working_dir'/Figures' 
-        \graphicspath{{./Figures/}}
+	% Trees
+	\usepackage{tikz}
+                \usetikzlibrary{trees,arrows,topaths}
 
-        % Little latin grammar pack
-        \usepackage{tipa}
+	% BIBLIOGRAPHY
 
 	% Enabling chnages to be made to BibTeX title
         \usepackage{babel}
 
+% DOCUMENT
+
 \begin{document}
 
 	\title{
-                \HRule{0.5pt}\\ [0.3cm]
+                \HRule{0.5pt}\\[0.3cm]
                 \huge\textsc{Article Title Class 1}\\
-                \Large\textsc{Article Title Class 2}\\ [0.25cm]
+                \Large\textsc{Article Title Class 2}\\[0.25cm]
                 \HRule{0.5pt}
                 }
         \author{\textsc{Name}\\
@@ -256,6 +282,14 @@
 
 	\newpage
 
+	Graphics:
+
+	\begin{center}
+                \includegraphics[width=8cm,height=6cm]{../Blog/Photos_FF/knuth.png}
+        \end{center}
+
+	\newpage
+
 	Basic tabular:
 
 	\begin{center}
@@ -329,11 +363,13 @@
                 \hline
                 Word & \multicolumn{4}{l}{Left-aligned collective value}\\        
                 Word & \multicolumn{4}{r}{Right-aligned collective value}\\        
-                Word & \multicolumn{4}{c}{Centre-aligned collective value}\\                                     \hline                                                                           
+                Word & \multicolumn{4}{c}{Centre-aligned collective value}\\                                     
+		\hline                                                                           
                 \hline
                 \multicolumn{5}{c}{Heading}\\
                 \hline
-                \hline                                                                                           \multicolumn{5}{p{11.5cm}}{Some text in a paragraph.\newline Some more text in a paragraph, on a new line.}\\                                               
+                \hline                                                                                           
+		\multicolumn{5}{p{11.5cm}}{Some text in a paragraph.\newline Some more text in a paragraph, on a new line.}\\                                               
                 \hline                 
                 \caption{Table Caption}
         \end{longtable}                
@@ -341,26 +377,194 @@
 
 	\newpage
 
+	Table with subtables:
+
+	\begin{table}[h]
+	\begin{center}
+		\begin{subtable}[t]{4cm}
+		\begin{center}
+		\begin{tabular}{|l|l|l|}
+			\hline
+			Value & Value & Value\\
+			\hline
+			Value & Value & Value\\
+			\hline
+		\end{tabular}
+			\caption{Table Subcaption}
+		\end{center}
+		\end{subtable}
+	\quad
+		\begin{subtable}[t]{4cm}
+		\begin{center}
+		\begin{tabular}{|l|l|l|}
+			\hline
+			Value & Value & Value\\
+			\hline
+			Value & Value & Value\\
+			\hline
+		\end{tabular}
+			\caption{Table Subcaption}
+		\end{center}
+		\end{subtable}
+	\end{center}
+		\caption{Table Caption}
+	\end{table}
+
+	\newpage
+
+	Figure containing graphics:
+
 	\begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=8cm,height=5cm]{dir/image.png}
+		\includegraphics[width=8cm,height=6cm]{../Blog/Photos_FF/knuth.png}
 		\caption{Figure Caption}
 	\end{center}
 	\end{figure}
 
+	Figure with subfigures containing graphics:
 
+	\begin{figure}[H]
+	\begin{center}
+		\begin{subfigure}[t]{5cm}
+		\begin{center}
+			\includegraphics[width=4cm,height=3cm]{../Blog/Photos_FF/knuth.png}
+		\end{center}
+			\caption{Figure Subcaption}
+		\end{subfigure}
+                \begin{subfigure}[t]{5cm}
+                \begin{center}
+                        \includegraphics[width=4cm,height=3cm]{../Blog/Photos_FF/knuth.png}
+                \end{center}
+                        \caption{Figure Subcaption}
+                \end{subfigure}
+	\quad
+		\begin{subfigure}[t]{5cm}
+		\begin{center}
+			\includegraphics[width=4cm,height=3cm]{../Blog/Photos_FF/knuth.png}
+		\end{center}
+			\caption{Figure Subcaption}
+		\end{subfigure}
+                \begin{subfigure}[t]{5cm}
+                \begin{center}
+			\includegraphics[width=4cm,height=3cm]{../Blog/Photos_FF/knuth.png}
+                \end{center}
+                        \caption{Figure Subcaption}
+                \end{subfigure}
+	\end{center}
+		\caption{Figure Caption}
+	\end{figure}
 
+	\newpage
 
+	Math mode:
 
+	$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 
+	Math mode in-line:\\
 
+	$a=Standard\ Text$\\
+	$b=\mathrm{Roman\ Text}$\\
+	$c=\mathit{Italic\ Text}$\\
+	$x=\mathbf{Bold\ Face\ Text}$
+	
+	\newpage
 
+	Vertical (recursion) tree (Ti\textit{k}Z package):\\
 
+	\tikzstyle{level 1}=[level distance=2cm, sibling distance=8cm]
+        \tikzstyle{level 2}=[level distance=2cm, sibling distance=4cm]
 
+	\begin{tikzpicture}
+		\node {Root}
+			child
+				{node{Child}
+					child{node{Grandchild}}
+                                	child{node{Grandchild}}
+				}
+			child
+				{node{Child}
+					child{node{Grandchild}}
+					child{node{Grandchild}}
+				};
+	\end{tikzpicture}\\
 
+	Horizontal (probability) tree (Ti\textit{k}Z package):\\
 
+	\tikzstyle{level 1}=[level distance=6cm, sibling distance=6cm]
+        \tikzstyle{level 2}=[level distance=6cm, sibling distance=4cm]
 
+        \tikzstyle{bag} = [text width=3em, text centered]
+        \tikzstyle{end} = [text width=3em, text centered]
 
+        \begin{tikzpicture}[grow=right, sloped]
+		\node[bag] {Root}
+                	child {
+				node[bag] {Child}
+                	        child {
+					node[end] {Grandchild}
+                	                edge from parent
+                	                        node[above] {} % Text above line
+                	                        node[below] {} % Text below line
+                	                }
+                	        child {
+					node[end] {Grandchild}
+                	                edge from parent
+                	                        node[above] {}
+                	                        node[below] {}
+                	                }
+                	                edge from parent 
+						node[above] {}
+						node[below] {}
+                	        }
+                	child {
+				node[bag] {Child}
+                	        child {
+					node[end] {Grandchild}
+                	                edge from parent
+						node[above] {}
+						node[below] {}
+                	                }
+                	        child {
+					node[end] {Grandchild}
+                	                edge from parent
+						node[above] {}
+						node[below] {}
+                	                }
+                	                edge from parent         
+						node[above] {}
+						node[below] {}
+                	        };
+        \end{tikzpicture}
+
+\newpage      
+
+        Bibliography using simplest of the simple \textsc{Bib}{\TeX} syntax:
+
+\renewcommand\refname{Bibliography}
+                          
+\begin{thebibliography}{9}                                                                                                                           
+                                                                                                                                                    
+        \bibitem{a}                                                                                                                                 
+                Surname, Forename Initial., Surname, Forename Initial. (YYYY).
+                \textsl{Article Title.}                                
+                Publisher / Institution, Volume, Issue, Page Number(s).
+
+	\bibitem{b}                                                                                                                                 
+                Surname, Forename Initial., Surname, Forename Initial. (YYYY).
+                \textsl{Article Title.}                                
+                Publisher / Institution, Volume, Issue, Page Number(s).
+	
+	\bibitem{c}                                                                                                                                 
+                Surname, Forename Initial., Surname, Forename Initial. (YYYY).
+                \textsl{Article Title.}                                
+                Publisher / Institution, Volume, Issue, Page Number(s).
+
+	\bibitem{d}                                                                                                                                 
+                Surname, Forename Initial., Surname, Forename Initial. (YYYY).
+                \textsl{Article Title.}                                
+                Publisher / Institution, Volume, Issue, Page Number(s).
+
+\end{thebibliography}
 
 \newpage
 
@@ -368,34 +572,34 @@
 
 	No page number.
 
+\newpage 
+
+\pagenumbering{arabic}
+
+	Arabic page number.
+
 \newpage
 
 \pagenumbering{alph}
 
-	Lower-case alphabetical page numbering.
+	Lower-case alphabetical page number.
 
 \newpage 
 
 \pagenumbering{Alph}
 
-	Upper-case alphabetical page numbering.
-
-\newpage 
-
-\pagenumbering{arabic}
-
-	Arabic page numbering.
+	Upper-case alphabetical page number.
 
 \newpage
 
 \pagenumbering{roman}
 
-	Lower-case roman page numbering.
+	Lower-case roman page number.
 
 \newpage
 
 \pagenumbering{Roman}
 
-	Upper-case roman page numbering.
+	Upper-case roman page number.
 
 \end{document}

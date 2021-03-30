@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  24 MAR 2021 22:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  30 MAR 2021 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -410,28 +410,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-[10] [11] [12] (./BF201-Assignment.aux)
+[10] [11]
+<BF201-IMG/1.png, id=48, 452.69125pt x 193.72375pt>
+File: BF201-IMG/1.png Graphic file (type png)
+<use BF201-IMG/1.png>
+Package pdftex.def Info: BF201-IMG/1.png  used on input line 129.
+(pdftex.def)             Requested size: 341.43097pt x 142.26552pt.
+<BF201-IMG/2.png, id=50, 258.9675pt x 152.57pt>
+File: BF201-IMG/2.png Graphic file (type png)
+<use BF201-IMG/2.png>
+Package pdftex.def Info: BF201-IMG/2.png  used on input line 135.
+(pdftex.def)             Requested size: 227.63127pt x 128.04152pt.
+<BF201-IMG/3.png, id=51, 223.83624pt x 233.87375pt>
+File: BF201-IMG/3.png Graphic file (type png)
+<use BF201-IMG/3.png>
+Package pdftex.def Info: BF201-IMG/3.png  used on input line 141.
+(pdftex.def)             Requested size: 142.26762pt x 142.27022pt.
+ [12 <./BF201-IMG/1.png> <./BF201-IMG/2.png> <./BF201-IMG/3.png>]
+<BF201-IMG/4.png, id=58, 259.97125pt x 162.6075pt>
+File: BF201-IMG/4.png Graphic file (type png)
+<use BF201-IMG/4.png>
+Package pdftex.def Info: BF201-IMG/4.png  used on input line 149.
+(pdftex.def)             Requested size: 227.62105pt x 128.04663pt.
+<BF201-IMG/5.png, id=59, 263.98625pt x 154.5775pt>
+File: BF201-IMG/5.png Graphic file (type png)
+<use BF201-IMG/5.png>
+Package pdftex.def Info: BF201-IMG/5.png  used on input line 155.
+(pdftex.def)             Requested size: 227.6199pt x 128.04926pt.
+<BF201-IMG/6.png, id=60, 343.2825pt x 162.6075pt>
+File: BF201-IMG/6.png Graphic file (type png)
+<use BF201-IMG/6.png>
+Package pdftex.def Info: BF201-IMG/6.png  used on input line 161.
+(pdftex.def)             Requested size: 284.52629pt x 113.81454pt.
+
+[13 <./BF201-IMG/4.png> <./BF201-IMG/5.png> <./BF201-IMG/6.png>]
+<BF201-IMG/8.png, id=67, 280.04625pt x 180.675pt>
+File: BF201-IMG/8.png Graphic file (type png)
+<use BF201-IMG/8.png>
+Package pdftex.def Info: BF201-IMG/8.png  used on input line 169.
+(pdftex.def)             Requested size: 227.63101pt x 128.03752pt.
+<BF201-IMG/9.png, id=68, 252.945pt x 151.56625pt>
+File: BF201-IMG/9.png Graphic file (type png)
+<use BF201-IMG/9.png>
+Package pdftex.def Info: BF201-IMG/9.png  used on input line 175.
+(pdftex.def)             Requested size: 227.62523pt x 128.03865pt.
+<BF201-IMG/7.png, id=69, 368.37625pt x 188.705pt>
+File: BF201-IMG/7.png Graphic file (type png)
+<use BF201-IMG/7.png>
+Package pdftex.def Info: BF201-IMG/7.png  used on input line 181.
+(pdftex.def)             Requested size: 270.3008pt x 142.26263pt.
+ [14 <./BF201-IMG/8.png> <./BF201-IMG/9.png> <./BF201-IMG/7.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 190--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--212
+
+ []
+
+[15] [16] [17] [18] [19] (./BF201-Assignment.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 4393 strings out of 492616
- 64652 string characters out of 6129480
- 134977 words of memory out of 5000000
- 8249 multiletter control sequences out of 15000+600000
- 10408 words of font info for 39 fonts, out of 8000000 for 9000
+ 4479 strings out of 492616
+ 65646 string characters out of 6129480
+ 135092 words of memory out of 5000000
+ 8323 multiletter control sequences out of 15000+600000
+ 12317 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,38p,2469b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on BF201-Assignment.pdf (14 pages, 86504 bytes).
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on BF201-Assignment.pdf (21 pages, 416129 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

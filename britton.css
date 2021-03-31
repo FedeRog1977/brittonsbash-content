@@ -879,6 +879,10 @@ body {
 		border-radius: 0.75em;
 	}
 
+	.blogshell u {
+		text-decoration: none;
+	}
+
 	.blogshell a:link {
 		color: #483D8B;
 		text-decoration: none;

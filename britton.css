@@ -7,21 +7,23 @@
 - ink-blue: #483D8B; 		font when LIGHT
 - royal-blue: #5576D1; 		font when DARK
 - navy-blue: #002366;
-- miami-blue: #96b9ee;		font hover, usually
-- coral: #fd5e53;
+- miami-blue: #96B9EE;		font hover, usually
+- coral: #FD5E53;
 - bordeaux: #800020; */
 
 /* General Definitions */
 
 :root {	
-	--background: #323232;
-	--foreground: #232323;
-	--font: #FFFFFF;
-	--font2: #96b9ee;
-	--font-hover: #96b9ee;
-	--font2-hover: #483D8B;
-	--ghost: #FFFFFF;
-	--drop-bar-hover: #181818;
+	--background: #FF4F78; 		/*323232*/
+	--foreground: #FD5E53; 		/*232323*/
+	--font: #FFFFFF;			/*FFFFFF*/
+	--font2: #96B9EE;			/*96B9EE*/
+	--font-hover: #96B9EE;		/*96B9EE*/
+	--font2-hover: #483D8B;		/*483D8B*/
+	--ghost: #FFFFFF;			/*FFFFFF*/
+	--drop-bar-hover: #96B9EE;	/*181818*/
+	--miami: linear-gradient(to bottom,rgba(250,125,0,0.25),rgba(250,145,230,0.25));
+	--miami-solid: linear-gradient(to bottom,rgba(250,125,0,1),rgba(250,145,230,1));
 }
 
 h1 {
@@ -58,6 +60,7 @@ h4 {
 }
 
 body {
+	background-image: var(--miami-solid);
 	background-color: var(--background);
 	margin: 0em;
 }
@@ -233,7 +236,7 @@ body {
 /* Home */
 
 .home-image {
-	background-image: url("Photos/wall.png");
+	background-image: url("Photos/wall4.jpeg");
 	background-attachment: fixed;
   	background-position: top;
   	background-repeat: no-repeat;
@@ -243,7 +246,7 @@ body {
 
 	.titles-buttons {
 		padding-top: 15%;
-		padding-bottom: 15%;
+		padding-bottom: 17.5%;
 	  	padding-left: 12.5%;
   		padding-right: 12.5%;
 	}
@@ -453,7 +456,7 @@ body {
 	.sumtxt a:hover {
 		color: var(--font-hover);
 		text-decoration: none;
-		border-bottom: 2.5px solid #483D8B;
+		border-bottom: 2.5px solid var(--font);
 	}
 
 .values {
@@ -560,6 +563,17 @@ body {
 		border-radius: 0.75em;
 	}
 
+	.classes a:link, .classes a:visited {
+		color: var(--font);
+		text-decoration: none;
+	}
+
+	.classes a:hover {
+		color: #96b9ee;
+		text-decoration: none;
+		border-bottom: 2.5px solid var(--font);
+	}
+
 .roles {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
@@ -592,12 +606,7 @@ body {
 	color: var(--font);
 }
 	
-	.car-time a:link {
-		color: var(--font);
-		text-decoration: none;
-	}
-
-	.car-time a:visited {
+	.car-time a:link, .car-time a:visited {
 		color: var(--font);
 		text-decoration: none;
 	}

@@ -1,15 +1,18 @@
-/* Color Legend 
+/* Color Legend */
+
+/*
 - black: #000000;
-- light-grey: #f5f5f5; 		background when LIGHT
+- light-grey: #F5F5F5; 		background when LIGHT
 - lighter-grey: #282828;	background when DARK
-- white: #ffffff;			foreground when LIGHT
+- white: #FFFFFF;			foreground when LIGHT
 - grey: #232323;			foreground when DARK
 - ink-blue: #483D8B; 		font when LIGHT
 - royal-blue: #5576D1; 		font when DARK
 - navy-blue: #002366;
 - miami-blue: #96B9EE;		font hover, usually
 - coral: #FD5E53;
-- bordeaux: #800020; */
+- bordeaux: #800020;
+*/
 
 /* General Definitions */
 
@@ -23,7 +26,7 @@
 	--ghost: #FFFFFF;			/*FFFFFF*/
 	--drop-bar-hover: #96B9EE;	/*181818*/
 	--miami: linear-gradient(to bottom,rgba(250,125,0,0.25),rgba(250,145,230,0.25));
-	--miami-solid: linear-gradient(to bottom,rgba(250,125,0,1),rgba(250,145,230,1));
+	--miami-solid: linear-gradient(to bottom,rgba(250,125,0,1),rgba(220,60,100,1));
 }
 
 h1 {
@@ -94,74 +97,70 @@ body {
 /* Page Template */ 
 
 .header {
+	font-family: Proxima;
+	background-color: var(--foreground);
+	padding-left: 6.25%;
+	padding-right: 6.25%;
+} 
 
-}
+	.title {
+		float: left;
+		letter-spacing: 0.25vw;
+		word-spacing: 0.5vw;
+		line-height: 1.75vw;
+		padding-top: 1.5em;
+		padding-bottom: 1em;
+	}
 
-	.topnavigation {
-		font-family: Proxima;
-		background-color: var(--foreground);
-		padding-left: 6.25%;
-		padding-right: 6.25%;
-	} 
-
-		.topnav-title {
-			float: left;
-			letter-spacing: 0.25vw;
-			word-spacing: 0.5vw;
-			line-height: 1.75vw;
-			padding-top: 1.5em;
-			padding-bottom: 1em;
+		.title h2 {
+			font-family: Proxima;
+			font-size: 1.25vw;
+			color: var(--font2);
+			font-weight: normal;
+			font-variant: small-caps;
+			margin: 0em;
 		}
 
-			.topnav-title h2 {
-				font-family: Proxima;
-				font-size: 1.25vw;
-				color: var(--font2);
-				font-weight: normal;
-				font-variant: small-caps;
-				margin: 0em;
-			}
+	.navigation {
+		text-align: right; 
+		letter-spacing: 0.25vw;
+		word-spacing: 0.5vw;
+		line-height: 1.5vw;
+		padding-top: 1.75em;
+		padding-bottom: 1.75em;
+	}
 
-		.topnav-nav {
-			text-align: right; 
-			letter-spacing: 0.25vw;
-			word-spacing: 0.5vw;
-			line-height: 1.5vw;
-			padding-top: 1.75em;
-			padding-bottom: 1.75em;
+		.pages {
+			color: var(--font);
+			font-size: 1.125vw;
 		}
 
-			.pages {
+			.pages a:link, .pages a:visited {
 				color: var(--font);
-				font-size: 1.125vw;
+				text-decoration: none;
 			}
 
-				.pages a:link, .pages a:visited {
-					color: var(--font);
-					text-decoration: none;
-				}
+			.pages a:hover, .pages a:active {
+				color: var(--font-hover);
+				text-decoration: none;
+				border-bottom: 2.5px solid var(--font);
+			}
 
-				.pages a:hover, .pages a:active {
-					color: var(--font-hover);
-					text-decoration: none;
-					border-bottom: 2.5px solid var(--font);
-				}
+		.social {
+			color: var(--font2);
+			font-size: 0.95vw;
+		}
 
-			.social {
+			.social a:link, .social a:visited {
 				color: var(--font2);
-				font-size: 0.95vw;
+				text-decoration: none;
 			}
 
-				.social a:link, .social a:visited {
-					color: var(--font2);
-					text-decoration: none;
-				}
-
-				.social a:hover {
-					color: var(--font2-hover);
-					text-decoration: none;
-					border-bottom: 2.5px solid var(--font2);
-				}
+			.social a:hover, .social a:active {
+				color: var(--font2-hover);
+				text-decoration: none;
+				border-bottom: 2.5px solid var(--font2);
+			}
 
 /*.time {
 	margin: 0em;
@@ -244,14 +243,14 @@ body {
   	text-align: left;
 }
 
-	.titles-buttons {
+	.home-image-title {
 		padding-top: 15%;
 		padding-bottom: 17.5%;
 	  	padding-left: 12.5%;
   		padding-right: 12.5%;
 	}
 
-		.home-image h1 {
+		.home-image-title h1 {
 			font-family: Broadway;
 			font-size: 5vw;
 			font-variant: small-caps;
@@ -261,7 +260,7 @@ body {
 			opacity: 75%;
 		}
 
-		.home-image h2 {
+		.home-image-title h2 {
 			font-family: Broadway;
 			font-size: 1.75vw;
 			font-variant: small-caps;
@@ -271,11 +270,11 @@ body {
 			opacity: 75%;
 		}
 
-		.home-image-buttons {
+		.home-image-title-buttons {
 			text-align: left;
 		}
 
-			.btn {
+			.button-uni, .button-car {
 		  		font-family: Proxima;
 		  		font-size: 0.95vw;
 		  		text-align: left;
@@ -285,9 +284,6 @@ body {
 				padding-left: 1.55vw;
 				padding-right: 1.35vw;
 				cursor: pointer;
-			}
-
-			.uni-button {
 				border: 0.115em solid var(--ghost);
 				background-color: #FFFFFF00;
 				color: var(--ghost);
@@ -295,35 +291,21 @@ body {
 				margin-bottom: 1.25vw;
 			}
 
-			.uni-button:hover {
+			.button-uni:hover, .button-car:hover {
 		  		border-color: var(--ghost); 
 				background-color: var(--ghost);
 				color: #000000; 
 				opacity: 75%;
 			}
 
-			.car-button {
-				border: 0.115em solid var(--ghost);
-				background-color: #FFFFFF00;
-				color: var(--ghost);
-				opacity: 75%;
-			}
-
-			.car-button:hover {
-				border-color: var(--ghost); 
-				background-color: var(--ghost);
-				color: #000000; 
-				opacity: 75%;
-			}
-
-	.credit-cage {
+	.home-image-credit {
 		padding-bottom: 0.75%;
 		padding-left: 12.5%;
 		padding-right: 12.5%;
 		text-align: right;
 	}
 
-		.credit {
+		.home-image-credit-txt {
 			font-family: CMU Serif;
 			font-size: 1vw;
 			color: var(--ghost);
@@ -331,24 +313,24 @@ body {
 			text-shadow: 1.5px 1.5px 10px #000000;
 		}
 
-			.credit a:link {
+			.home-image-credit a:link {
 				color: var(--ghost);
 				text-decoration: none;
 			}
 
-			.credit a:hover {
+			.home-image-credit a:hover {
 				color: var(--ghost);
 				text-decoration: none;
 				opacity: 50%;
 			}		
 
-.sumstats {
+.home-sumstats {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.summstatstxt {
+	.home-summstats-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: center;
@@ -362,27 +344,27 @@ body {
 		border-radius: 0.75em;
 	}
 
-		.imgdrop {
+		.home-summstats-txt-imgdrop {
   			display: inline-block;
   			position: auto;
   			padding-top: 1.75em;
 		}
 
-		.imgdrop:hover .imgdropcont {
+		.home-summstats-txt-imgdrop:hover .imgdrop-meimg-imgdropcont {
   			display: block;
   		}
 
-			.meimg {
-				max-width: 25%;
-				max-height: 25%;
+			.imgdrop-meimg {
+				width: 25%;
+				height: 25%;
 			}
 
-			.meimg:hover {
+			.imgdrop-meimg:hover {
 				cursor: pointer;
 				opacity: 0.5;
 			}
 
-			.imgdropcont {
+			.imgdrop-meimg-imgdropcont {
 				display: none;
   				position: absolute;
   				background-color: var(--foreground);
@@ -390,9 +372,9 @@ body {
 				box-shadow: 5px 5px 10px var(--background);
 			}
 
-			.meimgbig {
-				max-width: 20em;
-				max-height: 20em;
+			.imgdrop-meimg-imgdropcont-meimgbig {
+				width: 20em;
+				height: 20em;
 			}
 
 		.collapsible-sum {
@@ -420,7 +402,7 @@ body {
   			border-bottom-right-radius: 0em;
 		}
 
-		.content-sum {
+		.home-sumstats-content-sum {
   			background-color: var(--background);
 			padding-left: 1.25em;
 			padding-right: 1.25em;
@@ -428,13 +410,13 @@ body {
   			overflow: hidden;
 		}
 
-.sumtxt {
+.home-sumtext {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%; 
 	padding-right: 12.5%;
 }
 
-	.summtxttxt {
+	.home-summtext-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -448,24 +430,24 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.sumtxt a:link, .sumtxt a:visited {
+	.home-sumtext a:link, .home-sumtext a:visited {
 		color: var(--font);
 		text-decoration: none;
 	}
 
-	.sumtxt a:hover {
+	.home-sumtext a:hover {
 		color: var(--font-hover);
 		text-decoration: none;
 		border-bottom: 2.5px solid var(--font);
 	}
 
-.values {
+.home-values {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.valuestxt {
+	.home-values-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -479,13 +461,13 @@ body {
 		border-radius: 0.75em;
 	}
 
-.interests {
+.home-interests {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.intereststxt {
+	.home-interests-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -499,14 +481,13 @@ body {
 		border-radius: 0.75em;
 	}
 
-
-.fyi {
+.home-fyi {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.fyitxt {
+	.home-fyi-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -520,12 +501,12 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.fyi a:link, a:visited {
+	.home-fyi a:link, a:visited {
 		color: var(--font);
 		text-decoration: none;
 	}
 
-	.fyi a:hover {
+	.home-fyi a:hover {
 		color: var(--font-hover);
 		text-decoration: none;
 		border-bottom: 2.5px solid var(--font);
@@ -534,7 +515,7 @@ body {
 
 /* Academia */
 
-.uni-time {
+.aca-time {
 	padding-top: 2.5%;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
@@ -543,13 +524,13 @@ body {
 	color: var(--font);
 }
 
-.classes {
+.aca-classes {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.classestxt {
+	.aca-classes-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -563,24 +544,24 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.classes a:link, .classes a:visited {
+	.aca-classes a:link, .aca-classes a:visited {
 		color: var(--font);
 		text-decoration: none;
 	}
 
-	.classes a:hover {
+	.aca-classes a:hover {
 		color: #96b9ee;
 		text-decoration: none;
 		border-bottom: 2.5px solid var(--font);
 	}
 
-.roles {
+.aca-roles {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.rolestxt {
+	.aca-roles-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -597,7 +578,7 @@ body {
 
 /* Employment */
 
-.car-time {
+.emp-time {
 	padding-top: 2.5%;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
@@ -606,24 +587,24 @@ body {
 	color: var(--font);
 }
 	
-	.car-time a:link, .car-time a:visited {
+	.emp-time a:link, .emp-time a:visited {
 		color: var(--font);
 		text-decoration: none;
 	}
 
-	.car-time a:hover {
+	.emp-time a:hover {
 		color: #96b9ee;
 		text-decoration: none;
 		border-bottom: 2.5px solid var(--font);
 	}
 
-.cartime {
+.emp-history {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.cartimetxt {
+	.emp-history-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -637,24 +618,24 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.cartime a:link {
+	.emp-history a:link, .emp-history a:visited {
 		color: var(--font);
 		text-decoration: none;
 	}
 
-	.cartime a:hover {
+	.emp-history a:hover {
 		color: var(--font-hover);
 		text-decoration: none;
 		border-bottom: 2.5px solid #483D8B;
 	}
 
-.income {
+.emp-income {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.incometxt {
+	.emp-income-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -671,20 +652,20 @@ body {
 
 /* Library */
 
-.acawrite {
+.lib-academic {
 	padding-top: 2.5%;
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-.compsciprog, .mathstat, .general, .moredevelopment, .brands, .film, .television {
+.lib-compsci, .lib-math, .lib-sites1, .lib-sites2, .lib-sites3, .lib-list1, .lib-list2 {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.acawritetxt, .compsciprogtxt, .mathstattxt, .generaltxt, .moredevelopmenttxt, .brandstxt, .filmtxt, .televisiontxt {
+	.lib-academic-txt, .lib-compsci-txt, .lib-math-txt, .lib-sites1-txt, .lib-sites2-txt, .lib-sites3-txt, .lib-list1-txt, .lib-list2-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -698,39 +679,39 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.acawrite u, .compsciprog u, .mathstat u, .general u, .moredevelopment u, .brands u, .film u, .television u {
+	.lib-academic u, .lib-compsci u, .lib-math u, .lib-sites1 u, .lib-sites2 u, .lib-sites3 u, .lib-list1 u, .lib-list2 u {
 		text-decoration: none;
 	}
 
-		.acawrite th td, .compsciprog th td, .mathstat th td, .general th td, .moredevelopment th td, .brands th, td, .film th td, .television th td {
+		.lib-academic th td, .lib-compsci th td, .lib-math th td, .lib-sites1 th td, .lib-sites2 th td, .lib-sites3 th, td, .lib-list1 th td, .lib-list2 th td {
 			text-align: left;
 			vertical-align: top;
 			padding-right: 2.5em;
 			padding-bottom: 1.25em;
 		}
 
-	.acawrite a:link, .compsciprog a:link, .mathstat a:link, .general a:link, .moredevelopment a:link, .brands a:link, .film a:link, .television a:link {
+	.lib-academic a:link, .lib-compsci a:link, .lib-math a:link, .lib-sites1 a:link, .lib-sites2 a:link, .lib-sites3 a:link, .film a:link, .television a:link {
 		color: var(--font);
 		text-decoration: none;
 	}
 
-	.acawrite a:hover, .compsciprog a:hover, .mathstat a:hover, .general a:hover, .moredevelopment a:hover, .brands a:hover, .film a:hover, .television a:hover {
+	.lib-academic a:hover, .lib-compsci a:hover, .lib-math a:hover, .lib-sites1 a:hover, .lib-sites2 a:hover, .lib-sites3 a:hover, .lib-list1 a:hover, .lib-list2 a:hover {
 		color: var(--font-hover);
 		text-decoration: none;
 		border-bottom: 2.5px solid var(--font);
 	}
 
 
-/* Blog */
+/* Blog ('blog-intro' and 'blog-intro-txt' for ALL blogs) */
 
-.blogintro {
+.blog-intro {
 	padding-top: 2.5%;
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.blogintrotxt {
+	.blog-intro-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -744,48 +725,64 @@ body {
 		border-radius: 0.75em;
 	}
 
-.blogshell {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.blogshelltxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 0.2em;
-		padding-bottom: 0.2em;
-		padding-left: 1.25em;
-		padding-right: 1.25em;
-		border-radius: 0.75em;
-	}
-
-	.blogshell u {
-		text-decoration: none;
-	}
-
-	.blogshell a:link {
+	.blog-intro a:link {
 		color: var(--font);
 		text-decoration: none;
 	}
 
-	.blogshell a:hover {
+	.blog-intro a:visited {
+		color: var(--font);
+		text-decoration: none;
+	}
+
+	.blog-intro a:hover {
 		color: var(--font-hover);
 		text-decoration: none;
 		border-bottom: 2.5px solid var(--font);
 	}
 
-.debunk {
+.blog-blogshell {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.debunktxt {
+	.blog-blogshell-txt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: var(--font);
+		background-color: var(--foreground);
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+	.blog-blogshell u {
+		text-decoration: none;
+	}
+
+	.blog-blogshell a:link {
+		color: var(--font);
+		text-decoration: none;
+	}
+
+	.blog-blogshell a:hover {
+		color: var(--font-hover);
+		text-decoration: none;
+		border-bottom: 2.5px solid var(--font);
+	}
+
+.blog-debunk {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.blog-debunk-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -799,33 +796,79 @@ body {
 		border-radius: 0.75em;
 	}
 
-		.collapsible-debunk {
-			font-family: CMU Serif;
-			font-size: 0.95vw;
-			text-align: left;
-  			color: var(--font);
-  			background-color: var(--foreground);
-  			cursor: pointer;
-  			padding-top: 0.75em;
-  			padding-bottom: 0.75em;
-  			padding-left: 1.25em;
-  			width: 100%;
-  			border: none;
-  			outline: none;
-  			border-radius: 0.75em;
-		}
 
+/* Blog - FRC */
 
-/* Blog - GLOBAL DECS */
-
-.blogsintro {
-	padding-top: 2.5%;
+.frc-body {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.blogsintrotxt {
+	.frc-body-txt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: var(--font);
+		background-color: var(--foreground);
+		padding-top: 2.5em;
+		padding-bottom: 0.2em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		border-radius: 0.75em;
+	}
+
+	.frc-body img {
+		width: 17.5em;
+	}
+
+	.frc-body td {
+		text-align: center;
+		padding-right: 1em;
+		padding-bottom: 2.5em;
+	}
+
+
+/* Blog - GWC */
+
+.gwc-body {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.gwc-body-txt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: center;
+		line-height: 1.5vw;
+		color: var(--font);
+		background-color: var(--foreground);
+		padding-top: 2.5em;
+		padding-bottom: 0.2em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		border-radius: 0.75em;
+	}
+
+	.gwc-body img {
+		width: 17.5em;
+	}
+
+	.gwc-body td {
+		text-align: center;
+		padding-right: 1em;
+		padding-bottom: 2.5em;
+	}
+
+.gwc-cafetour {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.gwc-cafetour-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -839,191 +882,193 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.blogsintro a:link {
+	.gwc-cafetour u {
+		text-decoration: none;
+	}
+
+	.gwc-cafetour th, td {
+		text-align: left;
+		vertical-align: top;
+		padding-right: 2.5em;
+	}
+
+
+/* Blog - B&H */
+
+.bht-body {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.bht-body-txt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: var(--font);
+		background-color: var(--foreground);
+		padding-top: 2.5em;
+		padding-bottom: 0.2em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		border-radius: 0.75em;
+	}
+
+	.bht-body img {
+		width: 17.5em;
+	}
+
+	.bht-body td {
+		text-align: center;
+		padding-right: 1em;
+		padding-bottom: 2.5em;
+	}
+
+.bh-cafetour {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.bh-cafetour-txt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: var(--font);
+		background-color: var(--foreground);
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+	.bh-cafetour u {
+		text-decoration: none;
+	}
+
+		.bh-cafetour th, td {
+			text-align: left;
+			vertical-align: top;
+			padding-right: 2.5em;
+		}
+
+
+/* Blog - IG */
+
+.insta-2021, .insta-2020, .insta-2019, .insta-2018 {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.insta-2021-txt, .insta-2020-txt, .insta-2019-txt, .insta-2018-txt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: var(--font);
+		background-color: var(--foreground);
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		border-radius: 0.75em;
+	}
+
+	.insta-2021 img, .insta-2020 img, .insta-2019 img, .insta-2018 img {
+		width: 17.5em;
+	}
+
+	.insta-2021 td, .insta-2020 td, .insta-2019 td, .insta-2018 td {
+		text-align: center;
+		padding-right: 1em;
+		padding-bottom: 2.5em;
+	}
+
+
+/* Blog - TG */
+
+.tg-media, .tg-world, .tg-consumables, .tg-restaurants {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.tg-media-txt, .tg-world-txt, .tg-consumables-txt, .tg-restaurants-txt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: var(--font);
+		background-color: var(--foreground);
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+	.tg-media u, .tg-world u, .tg-consumables u, .tg-restaurants u {
+		text-decoration: none;
+	}
+
+	.tg-media td, .tg-world td, .tg-consumables td, .tg-restaurants td {
+		text-align: left;
+		vertical-align: top;
+		padding-right: 2.5em;
+	}
+
+
+/* Blog - COMM */
+
+.comm-body {
+	padding-bottom: 1.2em;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
+	.comm-body-txt {
+		font-family: CMU Serif;
+		font-size: 0.95vw;
+		text-align: justify;
+		line-height: 1.5vw;
+		color: var(--font);
+		background-color: var(--foreground);
+		padding-top: 0.2em;
+		padding-bottom: 1.2em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		border-radius: 0.75em;
+	}
+
+	.comm-body u {
+		text-decoration: none;
+	}
+
+	.comm-body a:link, .comm-body a:visited {
 		color: var(--font);
 		text-decoration: none;
 	}
 
-	.blogsintro a:visited {
-		color: var(--font);
-		text-decoration: none;
-	}
-
-	.blogsintro a:hover {
+	.comm-body a:hover {
 		color: var(--font-hover);
 		text-decoration: none;
 		border-bottom: 2.5px solid var(--font);
 	}
 
 
-/* Blog - GWC */
+/* Blog - TF */
 
-.gwcbody {
+.tf-body {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.gwcbodytxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: center;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 2.5em;
-		padding-bottom: 0.2em;
-		padding-left: 2.5em;
-		padding-right: 2.5em;
-		border-radius: 0.75em;
-	}
-
-	.gwcbody img {
-		width: 17.5em;
-	}
-
-	.gwcbody td {
-		text-align: center;
-		padding-right: 1em;
-		padding-bottom: 2.5em;
-	}
-
-.cafetour-gwc {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.cafetour-gwctxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 0.2em;
-		padding-bottom: 0.2em;
-		padding-left: 1.25em;
-		padding-right: 1.25em;
-		border-radius: 0.75em;
-	}
-
-	.cafetour-gwc u {
-		text-decoration: none;
-	}
-
-		.cafetour-gwc th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5em;
-		}
-
-
-/* ~~~~ Blog - FRC */
-
-.frcbody {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.frcbodytxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 2.5em;
-		padding-bottom: 0.2em;
-		padding-left: 2.5em;
-		padding-right: 2.5em;
-		border-radius: 0.75em;
-	}
-
-	.frcbody img {
-		width: 17.5em;
-	}
-
-	.frcbody td {
-		text-align: center;
-		padding-right: 1em;
-		padding-bottom: 2.5em;
-	}
-
-
-/* ~~~~ Blog - B&H */
-
-.bhtbody {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.bhtbodytxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 2.5em;
-		padding-bottom: 0.2em;
-		padding-left: 2.5em;
-		padding-right: 2.5em;
-		border-radius: 0.75em;
-	}
-
-	.bhtbody img {
-		width: 17.5em;
-	}
-
-	.bhtbody td {
-		text-align: center;
-		padding-right: 1em;
-		padding-bottom: 2.5em;
-	}
-
-.cafetour-bh {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.cafetour-bhtxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 0.2em;
-		padding-bottom: 0.2em;
-		padding-left: 1.25em;
-		padding-right: 1.25em;
-		border-radius: 0.75em;
-	}
-
-	.cafetour-bh u {
-		text-decoration: none;
-	}
-
-		.cafetour-bh th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5em;
-		}
-
-
-/* ~~~~ Blog - FF */
-
-.fathersbody {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.fathersbodytxt {
+	.tf-body-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -1037,26 +1082,41 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.fathersbody img {
+	.tf-body img {
 		width: 17.5em;
 	}
 
-	.fathersbody td {
-		text-align: center;
-		padding-right: 1em;
+	.tf-body td {
+		text-align: right;
+		padding-right: 2.5em;
 		padding-bottom: 2.5em;
 	}
 
+	.tf-body u {
+		text-decoration: none;
+	}
 
-/* ~~~~ Blog - TG */
+	.tf-body a:link, .tf-body a:visited {
+		color: var(--font);
+		text-decoration: none;
+	}
 
-.media {
+	.tf-body a:hover {
+		color: var(--font-hover);
+		text-decoration: none;
+		border-bottom: 2.5px solid var(--font);
+	}
+
+
+/* Blog - RC */
+
+.rc-bike, .rc-stats {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.mediatxt {
+	.rc-bike-txt, .rc-stats-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -1064,243 +1124,48 @@ body {
 		color: var(--font);
 		background-color: var(--foreground);
 		padding-top: 0.2em;
-		padding-bottom: 0.2em;
+		padding-bottom: 0em;
 		padding-left: 1.25em;
 		padding-right: 1.25em;
 		border-radius: 0.75em;
 	}
 
-	.media u {
+	.rc-bike u, .rc-stats u {
 		text-decoration: none;
 	}
 
-		.media th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5em;
-		}
-
-.world {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.worldtxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 0.2em;
-		padding-bottom: 0.2em;
-		padding-left: 1.25em;
-		padding-right: 1.25em;
-		border-radius: 0.75em;
-	}
-
-	.world u {
-		text-decoration: none;
-	}
-
-		.world th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5em;
-		}
-
-.fooddrink {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.fooddrinktxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 0.2em;
-		padding-bottom: 0.2em;
-		padding-left: 1.25em;
-		padding-right: 1.25em;
-		border-radius: 0.75em;
-	}
-
-	.fooddrink u {
-		text-decoration: none;
-	}
-
-		.fooddrink th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5em;
-		}
-
-.restaurants {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.restaurantstxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 0.2em;
-		padding-bottom: 0.2em;
-		padding-left: 1.25em;
-		padding-right: 1.25em;
-		border-radius: 0.75em;
-	}
-
-	.restaurants u {
-		text-decoration: none;
-	}
-
-		.restaurants th, td {
-			text-align: left;
-			vertical-align: top;
-			padding-right: 2.5em;
-		}
-
-/* ~~~~ Blog - RC */
-
-.bike {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.biketxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 2.5em;
-		padding-bottom: 0.2em;
-		padding-left: 2.5em;
-		padding-right: 2.5em;
-		border-radius: 0.75em;
-	}
-
-	.bike u {
-		text-decoration: none;
-	}
-
-	.bike img {
+	.rc-bike img {
 		width: 25em;
 	}
 
-	.bike td {
+	.rc-bike td {
 		text-align: right;
 		width: 35em;
 		padding-right: 0em;
 		padding-bottom: 2.5em;
 	}
 
-	.biketxt a:link {
+	.rc-bike-txt a:link, .rc-biketxt a:visited {
 		color: var(--font);
 		text-decoration: none;
 	}
 
-	.biketxt a:visited {
-		color: var(--font);
-		text-decoration: none;
-	}
-
-	.biketxt a:hover {
-		color: var(--font-hover);
-		text-decoration: none;
-		border-bottom: 2.5px solid var(--font);
-	}
-
-.sport-stats {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.sport-stats-txt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 0.2em;
-		padding-bottom: 0.2em;
-		padding-left: 1.25em;
-		padding-right: 1.25em;
-		border-radius: 0.75em;
-
-	}
-
-	.sport-stats u {
-		text-decoration: none;
-	}
-
-
-/* ~~~~ Blog - PIU */
-
-.piubody {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.piubodytxt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 0.2em;
-		padding-bottom: 1.2em;
-		padding-left: 1.25em;
-		padding-right: 1.25em;
-		border-radius: 0.75em;
-	}
-
-	.piubodytxt u {
-		text-decoration: none;
-	}
-
-	.piubodytxt a:link {
-		color: var(--font);
-		text-decoration: none;
-	}
-
-	.piubodytxt a:visited {
-		color: var(--font);
-		text-decoration: none;
-	}
-
-	.piubodytxt a:hover {
+	.rc-bike-txt a:hover {
 		color: var(--font-hover);
 		text-decoration: none;
 		border-bottom: 2.5px solid var(--font);
 	}
 
 
-/* ~~~~ Blog - MV */
+/* Blog - MV */
 
-.mvbody {
+.mv-body {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.mvbodytxt {
+	.mv-body-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -1314,36 +1179,31 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.mvbodytxt u {
+	.mv-body-txt u {
 		text-decoration: none;
 	}
 
-	.mvbodytxt a:link {
+	.mv-body-txt a:link, .mv-body-txt a:visited {
 		color: var(--font);
 		text-decoration: none;
 	}
 
-	.mvbodytxt a:visited {
-		color: var(--font);
-		text-decoration: none;
-	}
-
-	.mvbodytxt a:hover {
+	.mv-body-txt a:hover {
 		color: var(--font-hover);
 		text-decoration: none;
 		border-bottom: 2.5px solid var(--font);
 	}
 
 
-/* ~~~~ Blog - AK */
+/* Blog - SO */
 
-.akbody {
+.over-body {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.akbodytxt {
+	.over-body-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -1357,20 +1217,20 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.akbodytxt u {
+	.over-body-txt u {
 		text-decoration: none;
 	}
 
 
-/* ~~~~ Blog - SO */
+/* Blog - AK */
 
-.overbody {
+.ak-body {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.overbodytxt {
+	.ak-body-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -1384,20 +1244,20 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.overbodytxt u {
+	.ak-body-txt u {
 		text-decoration: none;
 	}
 
 
-/* ~~~~ Blog - TP */
+/* ~~~~ Blog - FF */
 
-.tpbody {
+.fathers-body {
 	padding-bottom: 1.2em;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
 
-	.tpbodytxt {
+	.fathers-body-txt {
 		font-family: CMU Serif;
 		font-size: 0.95vw;
 		text-align: justify;
@@ -1411,68 +1271,34 @@ body {
 		border-radius: 0.75em;
 	}
 
-	.tpbody img {
+	.fathers-body img {
 		width: 17.5em;
 	}
 
-	.tpbody td {
-		text-align: right;
-		padding-right: 2.5em;
-		padding-bottom: 2.5em;
-	}
-
-	.tpbodytxt u {
-		text-decoration: none;
-	}
-
-	.tpbodytxt a:link {
-		color: var(--font);
-		text-decoration: none;
-	}
-
-	.tpbodytxt a:visited {
-		color: var(--font);
-		text-decoration: none;
-	}
-
-	.tpbodytxt a:hover {
-		color: var(--font-hover);
-		text-decoration: none;
-		border-bottom: 2.5px solid var(--font);
-	}
-
-
-/* ~~~~ Blog - IG */
-
-.instabody1, .instabody2, .instabody3, .instabody4 {
-	padding-bottom: 1.2em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-}
-
-	.instabody1txt, .instabody2txt, .instabody3txt, .instabody4txt {
-		font-family: CMU Serif;
-		font-size: 0.95vw;
-		text-align: justify;
-		line-height: 1.5vw;
-		color: var(--font);
-		background-color: var(--foreground);
-		padding-top: 0.2em;
-		padding-bottom: 0.2em;
-		padding-left: 2.5em;
-		padding-right: 2.5em;
-		border-radius: 0.75em;
-	}
-
-	.instabody1 img, .instabody2 img, .instabody3 img, .instabody4 img {
-		width: 17.5em;
-	}
-
-	.instabody1 td, .instabody2 td, .instabody3 td, .instabody4 td {
+	.fathers-body td {
 		text-align: center;
 		padding-right: 1em;
 		padding-bottom: 2.5em;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -301,7 +301,7 @@ body {
 				opacity: 75%;
 			}
 
-	.home-image-credit {
+	/*.home-image-credit {
 		padding-bottom: 0.75%;
 		padding-left: 12.5%;
 		padding-right: 12.5%;
@@ -325,7 +325,7 @@ body {
 				color: var(--ghost);
 				text-decoration: none;
 				opacity: 50%;
-			}		
+			}*/		
 
 .home-sumstats {
 	padding-bottom: 1.2em;

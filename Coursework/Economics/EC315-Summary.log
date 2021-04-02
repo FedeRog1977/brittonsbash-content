@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  2 APR 2021 10:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  2 APR 2021 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -221,7 +221,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 LaTeX Warning: Unused global option(s):
     [english].
 
-No file EC315-Summary.aux.
+(./EC315-Summary.aux)
 \openout1 = `EC315-Summary.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -236,6 +236,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -349,31 +350,32 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
 (Font)              size <17.28> substituted on input line 50.
 
-No file EC315-Summary.toc.
+(./EC315-Summary.toc)
 \tf@toc=\write3
 \openout3 = `EC315-Summary.toc'.
 
-[1] [1] (./EC315-Summary.aux)
+ [1] [1] (./EC315-Summary.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 4429 strings out of 492616
- 65096 string characters out of 6129480
+ 4435 strings out of 492616
+ 65192 string characters out of 6129480
  130493 words of memory out of 5000000
- 8286 multiletter control sequences out of 15000+600000
- 9793 words of font info for 37 fonts, out of 8000000 for 9000
+ 8287 multiletter control sequences out of 15000+600000
+ 10101 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,38p,280b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on EC315-Summary.pdf (3 pages, 33994 bytes).
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on EC315-Summary.pdf (3 pages, 41079 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 30 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

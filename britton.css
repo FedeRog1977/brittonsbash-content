@@ -423,19 +423,9 @@ ul {
 				background-color: var(--ghost);
 				color: #000000; 
 				opacity: 75%;
-			}	
-
-.meimg {
-	width: 25%;
-	height: 25%;
-}
+			}
 
 .meimg:hover {
 	cursor: pointer;
 	opacity: 0.5;
 }
-
-.meimgbig {
-	width: 20em;
-	height: 20em;
-}	

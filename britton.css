@@ -596,7 +596,7 @@ body {
 	}
 
 	.emp-time a:hover {
-		color: #96b9ee;
+		color: var(--font-hover);
 		text-decoration: none;
 		border-bottom: 2.5px solid var(--font);
 	}
@@ -629,7 +629,7 @@ body {
 	.emp-history a:hover {
 		color: var(--font-hover);
 		text-decoration: none;
-		border-bottom: 2.5px solid #483D8B;
+		border-bottom: 2.5px solid var(--font);
 	}
 
 .emp-income {

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  30 MAR 2021 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  2 APR 2021 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1250,7 +1250,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 605.
 Here is how much of TeX's memory you used:
  30638 strings out of 492616
  576292 string characters out of 6129480
- 715134 words of memory out of 5000000
+ 715133 words of memory out of 5000000
  34117 multiletter control sequences out of 15000+600000
  546081 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

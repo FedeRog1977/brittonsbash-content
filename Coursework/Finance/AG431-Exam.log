@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  5 APR 2021 10:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  5 APR 2021 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -667,102 +667,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--253
  []
 
 [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
-[21] [22] [23] [24]
-Overfull \hbox (39.57703pt too wide) in paragraph at lines 384--385
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+[21] [22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+[24] [25] [26] [27]
+Overfull \hbox (39.57703pt too wide) in paragraph at lines 414--415
 []$\OML/cmm/m/it/10.95 PV[] \OT1/cmr/m/n/10.95 = [][](\OML/cmm/m/it/10.95 EBIT\
 OT1/cmr/m/n/10.95 (1 \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 T\OT1/cmr/m/n/
 10.95 )(1 \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 Reinvestment Rate\OT1/cmr
 /m/n/10.95 ))((1 + \OML/cmm/m/it/10.95 g[]\OT1/cmr/m/n/10.95 )) []$ 
  []
 
-[25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
+[28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
 
  []
 
-[27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 507--508
+[30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
 
  []
 
-[29] [30] [31] [32]
-Overfull \hbox (39.57703pt too wide) in paragraph at lines 609--610
+[32] [33] [34] [35]
+Overfull \hbox (39.57703pt too wide) in paragraph at lines 639--640
 []$\OML/cmm/m/it/10.95 PV[] \OT1/cmr/m/n/10.95 = [][](\OML/cmm/m/it/10.95 EBIT\
 OT1/cmr/m/n/10.95 (1 \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 T\OT1/cmr/m/n/
 10.95 )(1 \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 Reinvestment Rate\OT1/cmr
 /m/n/10.95 ))((1 + \OML/cmm/m/it/10.95 g[]\OT1/cmr/m/n/10.95 )) []$ 
  []
 
-[33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 698--699
-
- []
-
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
-
- []
-
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 724--725
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
-
- []
-
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 734--735
+[36] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 728--729
 
  []
 
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 742--743
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
-
- []
-
-[39]
 Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 748--749
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 750--751
-
- []
-
-
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 752--753
 
  []
@@ -772,22 +742,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 754--755
 
  []
 
-[40] [41]
+
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
+
+ []
+
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 762--763
 
  []
 
-[42] [43]
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 774--775
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 784--785
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 788.
-[44]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 788.
+[43] [44]
+Underfull \hbox (badness 10000) in paragraph at lines 792--793
+
+ []
+
+[45] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 818.
+[47]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 818.
  (./AG431-Exam.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 788.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 788.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 818.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 818.
 Package rerunfilecheck Info: File `AG431-Exam.out' has not changed.
 (rerunfilecheck)             Checksum: 875575DE4EADAEEC2F7796D599EACB74;1029.
 
@@ -795,16 +815,16 @@ Package rerunfilecheck Info: File `AG431-Exam.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 788.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 818.
  ) 
 Here is how much of TeX's memory you used:
- 7744 strings out of 492616
- 114374 string characters out of 6129480
+ 7747 strings out of 492616
+ 114395 string characters out of 6129480
  220711 words of memory out of 5000000
  11472 multiletter control sequences out of 15000+600000
  13917 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,39p,1360b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,39p,1741b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -823,10 +843,10 @@ ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on AG431-Exam.pdf (46 pages, 325884 bytes).
+Output written on AG431-Exam.pdf (49 pages, 332989 bytes).
 PDF statistics:
- 439 PDF objects out of 1000 (max. 8388607)
- 369 compressed objects within 4 object streams
- 123 named destinations out of 1000 (max. 500000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 379 compressed objects within 4 object streams
+ 126 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

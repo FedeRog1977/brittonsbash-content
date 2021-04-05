@@ -1,29 +1,29 @@
 /* Color Legend */
 
 /*
-- black: #000000;
-- light-grey: #F5F5F5; 		background when LIGHT
-- lighter-grey: #282828;	background when DARK
-- white: #FFFFFF;			foreground when LIGHT
-- grey: #232323;			foreground when DARK
-- ink-blue: #483D8B; 		font when LIGHT
-- royal-blue: #5576D1; 		font when DARK
-- navy-blue: #002366;
-- miami-blue: #96B9EE;		font hover, usually
-- coral: #FD5E53;
-- bordeaux: #800020;
+black: #000000;
+light-grey: #F5F5F5; 		background when LIGHT
+lighter-grey: #282828;		background when DARK
+white: #FFFFFF;			foreground when LIGHT
+grey: #232323;			foreground when DARK
+ink-blue: #483D8B; 		font when LIGHT
+royal-blue: #5576D1; 		font when DARK
+navy-blue: #002366;
+miami-blue: #96B9EE;		font hover, usually
+coral: #FD5E53;
+bordeaux: #800020;
 */
 
 /* Variables */
 
-:root {	
+:root {
 	--background: #FF4F78; 		/*323232*/
 	--foreground: #FD5E53; 		/*232323*/
-	--font: #FFFFFF;			/*FFFFFF*/
-	--font2: #96B9EE;			/*96B9EE*/
+	--font: #FFFFFF;		/*FFFFFF*/
+	--font2: #96B9EE;		/*96B9EE*/
 	--font-hover: #96B9EE;		/*96B9EE*/
 	--font2-hover: #483D8B;		/*483D8B*/
-	--ghost: #FFFFFF;			/*FFFFFF*/
+	--ghost: #FFFFFF;		/*FFFFFF*/
 	--drop-bar-hover: #96B9EE;	/*181818*/
 	--miami: linear-gradient(to bottom,rgba(250,125,0,0.25),rgba(250,145,230,0.25));
 	--miami-solid: linear-gradient(to bottom,rgba(250,125,0,1),rgba(220,60,100,1));
@@ -165,7 +165,7 @@ body {
 				border-bottom: 2.5px solid var(--font2);
 			}
 
-/*.time {
+.time {
 	margin: 0em;
 	padding: 0em;
 	height: 5.65em;
@@ -183,7 +183,7 @@ body {
    		width: 100%;
    		height: 5.65em;
     	background-color: #006039;
-	}*/
+	}
 
 .footer {
 	font-family: Proxima;
@@ -317,6 +317,11 @@ body {
 		width: 17.5em;
 	}
 
+	.body img:hover {
+		cursor: pointer;
+		opacity: 0.75;
+	}
+
 /* Table & List Style */
 
 .standard td {
@@ -424,8 +429,3 @@ ul {
 				color: #000000; 
 				opacity: 75%;
 			}
-
-.meimg:hover {
-	cursor: pointer;
-	opacity: 0.5;
-}

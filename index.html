@@ -47,6 +47,10 @@
 
 		<div class="home-image">
 
+			<div class="switchcage">TOGGLE PARTY MODE            
+				<span class="switch">Disabled</span>
+			</div>
+
 			<div class="home-image-title">
 
 				<h1>Lewis Britton</h1>
@@ -265,6 +269,19 @@
     				}
 					});
 			}
+		</script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script>
+			$( ".switch" ).on("click", function() {
+			    if( $( ".body" ).hasClass( "dark" )) {
+			      $( ".body" ).removeClass( "dark" );
+			      $( ".switch" ).text( "Disabled" );
+			    } else {
+			      $( ".body" ).addClass( "dark" );
+			      $( ".switch" ).text( "Enabled" );
+			    }
+			});
 		</script>
 
 </html>

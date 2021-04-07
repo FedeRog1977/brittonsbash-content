@@ -3,7 +3,6 @@
 /*
 black: #000000;
 light-grey: #F5F5F5; 		background when LIGHT
-lighter-grey: #282828;		background when DARK
 white: #FFFFFF;			foreground when LIGHT
 grey: #232323;			foreground when DARK
 ink-blue: #483D8B; 		font when LIGHT
@@ -17,17 +16,61 @@ bordeaux: #800020;
 /* Variables */
 
 :root {
-	--background: #FF4F78; 		/*323232*/
-	--foreground: #FD5E53; 		/*232323*/
-	--font: #FFFFFF;		/*FFFFFF*/
-	--font2: #96B9EE;		/*96B9EE*/
-	--font-hover: #96B9EE;		/*96B9EE*/
-	--font2-hover: #483D8B;		/*483D8B*/
-	--ghost: #FFFFFF;		/*FFFFFF*/
-	--drop-bar-hover: #96B9EE;	/*181818*/
+	--bg: #F5F5F5;
+	--fg: #FFFFFF;
+	--font: #483D8B;
+	--font2: #96B9EE;		
+	--font-hover: #96B9EE;
+	--font2-hover: #483D8B;
+	--ghost: #FFFFFF;
+	--drop-bar-hover: #DCDCDC;
 	--miami: linear-gradient(to bottom,rgba(250,125,0,0.25),rgba(250,145,230,0.25));
 	--miami-solid: linear-gradient(to bottom,rgba(250,125,0,1),rgba(220,60,100,1));
+
+	--bg-dark: #323232;
+	--fg-dark: #232323;
+	--font-dark: #FFFFFF;
+	--font2-dark: #96B9EE;
+	--drop-bar-hover-dark: #181818;
+
+	--bg-miami: #FF4F78;
+	--fg-miami: #FD5E53;
+	--font-miami: #FFFFFF;
+	--font2-miami: #96B9EE;
+	--drop-bar-hover-miami: #96B9EE;
 }
+
+/* Dark/Party Mode */
+
+.dark, .dark * {
+	...
+}
+
+.switchcage {
+	font-family: Broadway;
+	letter-spacing: 0.25vw;
+    align-self: flex-end;
+    text-align: right;
+	color: var(--ghost);
+    padding-top: 1vw;
+    padding-right: 12.5%;
+    opacity: 75%;
+}
+
+	.switch {
+	    font-family: Proxima;
+	    font-size: 0.95vw;
+	    text-align: center;
+	    letter-spacing: 0vw;
+	    display: inline-block;
+	    width: 5em;
+	    cursor: pointer;
+	    border: 0.115em solid var(--ghost);
+	    border-radius: 1.25em;
+	    color: var(--ghost);
+	    padding: 0.25rem;
+	    margin-left: 0.3125rem;
+	}
 
 /* Headings */
 
@@ -65,8 +108,7 @@ h4 {
 }
 
 body {
-	background-image: var(--miami-solid);
-	background-color: var(--background);
+	background-color: var(--bg);
 	margin: 0em;
 }
 
@@ -101,7 +143,7 @@ body {
 
 .header {
 	font-family: Proxima;
-	background-color: var(--foreground);
+	background-color: var(--fg);
 	padding-left: 6.25%;
 	padding-right: 6.25%;
 } 
@@ -190,7 +232,7 @@ body {
 	font-size: 0.95vw;
 	text-align: center;
 	color: var(--font);
-	background-color: var(--foreground);
+	background-color: var(--fg);
 	padding-top: 2em;
 	padding-bottom: 2em;
 	padding-left: 12.5%;
@@ -204,7 +246,7 @@ body {
 	font-family: CMU Serif;
 	font-size: 0.95vw;
 	text-align: left;
-	background-color: var(--background);
+	background-color: var(--bg);
 	color: var(--font);
 	cursor: pointer;
 	padding-top: 0.75em;
@@ -229,7 +271,7 @@ body {
 	}
 
 	.content {
-		background-color: var(--background);
+		background-color: var(--bg);
 		padding-left: 1.25em;
 		padding-right: 1.25em;
 		display: none;
@@ -251,9 +293,9 @@ body {
 .imgdropcont {
 	display: none;
 	position: absolute;
-	background-color: var(--foreground);
+	background-color: var(--fg);
 	margin-left: 15%;
-	box-shadow: 5px 5px 10px var(--background);
+	box-shadow: 5px 5px 10px var(--bg);
 }
 
 /* Text Preceding Main Bodies */
@@ -305,7 +347,7 @@ body {
 	text-align: justify;
 	line-height: 1.5vw;
 	color: var(--font);
-	background-color: var(--foreground);
+	background-color: var(--fg);
 	padding-top: 0.75em;
 	padding-bottom: 1.25em;
 	padding-left: 1.25em;
@@ -367,7 +409,7 @@ ul {
 /* Additional */
 
 .home-image {
-	background-image: url("Photos/wall4.jpeg");
+	background-image: url("Photos/wall.jpeg");
 	background-attachment: fixed;
   	background-position: top;
   	background-repeat: no-repeat;

@@ -31,6 +31,8 @@
         \usepackage{graphicx}                  
                                
         \usepackage{float}                                                
+
+	\usepackage{tikz}
                                                   
 \begin{document}                               
                                               
@@ -40,7 +42,7 @@
         \author{\textsc{Lewis Britton}}
         \date{\textsc{Academic Year 2019/2020}}
         \maketitle
-                                                                                                                                 
+
 \newpage
                          
 \pagenumbering{roman} 
@@ -197,13 +199,381 @@
 		\end{itemize}
 	\end{enumerate}
 
+\newpage
 
+\section{Game Theory}
 
+	\subsection{Definitions}
 
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item \textit{Welfare Economics}: Generalising equilibriums. Competitive markets provide an incentive for firms to produce what customers want. Markets rock in fair play.
+		\begin{itemize}
+			\item Theorem 1: Every competitive economy is Pareto Efficient.
+			\item Theorem 2: Every Pareto Efficient allocation of resources can be achieved in competitive markets (w/ appropriate redistribution between parties).
+		\end{itemize}
+		\item \textit{Pareto Efficiency}: No additional person can be made better off without making someone else worse off. There should be no government intervention. Redistribution can take place meaning there is redistribution between parties within the economy rather than externally.
+		\item \textit{Prisoner's Dilemma}: Pursuing your own interests leads to inefficient markets because, using the prison example, if both people choose to confess, they get full long time each. If they both lie, they get full short time. If one lies and one confesses, the one who confesses gets reduction but the liar gets full time. This is risk. Both could deny for 2 years of the other lies (gets 10 years). But then they both risk getting 8 years. If they both deny they both get the full short time (3 years). Denying is best for them both but confessing could, but only could, be best for a single one of them.
+		\item \textit{Rationality}: Players will choose the option with the best payoff for themselves. But back to the Joey and Phoebe, if you are choosing the best for yourself, surely the opponent must be doing the same so can you forecast? Or will they think the same and one-up you?
+		\begin{itemize}
+			\item \textit{Common Knowledge of Rationality}: Where players don’t just know they possible outcomes of their decisions, they know the possible outcomes of the other’s decisions. But recall the prisoner’s dilemma.
+		\end{itemize}
+		\item \textit{Game Theory}: Our actions have external consequences. They effect the environment and all things around us (smoking example).
+		\begin{itemize}
+			\item \textit{Non-Cooperative Game}: In it for your own gain and only that.
+			\item \textit{Information Game}: Everyone knows they are playing.
+			\item \textit{Stage Game}: May be repeated (e.g. rearranging cost agreements).
+			\item \textit{Simultaneous Game} (Type 1): When players do not know the move of the opponent and move at the same time.
+			\item \textit{Sequential Game} (Type 2): When players know the move of the other player and can make their decision based on the opponent’s move. 
+		\end{itemize}
+		\item \textit{Imperfect/Perfect Information}: Not being able to see the others’ choice. Your outcome will always depend on their choice but your decision won’t. Or, you have information about their decision to look at as they have make it (historic forecasting).
+		\item \textit{Strategic Uncertainty} (When Simultaneous): Players must base decisions on what they think the other player will play as they do not know. But then they must consider what they think the opponent’s move will be but then, the opponent will surely think they will be thinking this and so make a different move and make the same prediction about their opponent... in practice usually it comes back round to them making the first decision that you predicted they would make (Joey and Phoebe e.g.) Can lead to \textit{Strategic Payoff} where the strategic nature of their thinking pays off and they’ve well forecasted the other’s choice.
+		\item \textit{Dominant Strategy}: When there is one clear winner in the strategy you use. It takes the lead the majority or all of the time when put into the matrix. This is found through \textit{Best Response Analysis} which is found by going through each option of B and selecting the best strategy for A to choose (repeat for all columns of B). Then repeating for B (for all rows of A). The double underlined is the dominant strategy.
+		\item \textit{Dominated Strategy}: When the strategy a player chooses is dominated than another strategy which would make you better-off than the one you’re choosing.
+		\item \textit{Nash Equilibrium}: When there is a clear equilibrium between the players' \textit{Dominant Strategies}. Means you can't \textit{Unilaterally Deviate} to become more profitable (no incentive to deviate).
+		\begin{itemize}
+			\item \textit{Unilateral Deviation}: When there is no dominant strategy.
+			\item \textit{Mixed Strategies}: Players randomise strategies on unpredictable patterns (e.g. with muscular workouts).
+			\item \textit{Pure Strategies}: When the player knows for sure what option they will choose.
+		\end{itemize}
+	\end{itemize}
 
+	\newpage
 
+	\subsection{Simultaneous Move Game}
 
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Sole entrant: obtains big payoff
+		\item Multiple entrants: perhaps lacking market space
+		\item There exists a \textit{First Mover Advantage}
+	\end{itemize}
 
+		\subsubsection{Pure \& Mixed Strategies}
+	
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item \textit{Chicken Game}: two players heading towards each other;
+		\begin{itemize}
+			\item They collide and both marginally lose out
+			\item One swerves and loses out bigger (chicken)
+		\end{itemize}
+		\item There may be two nash equilibria
+		\begin{itemize}
+			\item 
+				\begin{table}[h]
+					\scriptsize
+					\renewcommand{\arraystretch}{1.25}
+				\begin{center}
+				\begin{tabular}{|c|c|c|c|}
+					\hline
+					& \multicolumn{3}{|c|}{Player B}\\
+					\hline
+					\multirow{3}{*}{Player A} & & $E(q)$ & $N(1-q)$\\
+					\cline{2-4}
+					& $E(p)$ & $-50,100$ & $\underline{150},\underline{0}$\\
+					\cline{2-4}
+					& $E(1-p)$ & $\underline{0},\underline{100}$ & $0,0$\\
+					\hline
+				\end{tabular}
+				\end{center}
+				\end{table}
+			\item The nash equilibria are underlined. There are two
+			\item Pure strategies are shown through probability as seen by entering probabilities $p$ \& $q$ above
+			\item For Player A ($EV$ = Expected Value):
+				\begin{table}[h]
+                                        \renewcommand{\arraystretch}{1.25}
+				\begin{center}
+				\begin{tabular}{l|l}
+					$EV_A^E=-50q+150(1-q)$ & $EV_B^E=-100p+100(1-p)$\\
+					$EV_A^N=0q+0(1-q)$ & $EV_B^N=0p+0(1-p)$\\
+					$-50q+150-150q=0$ & $-100p+100(1-p)=0$\\
+					\underline{$q=\frac{3}{4}$} & \underline{$p=\frac{1}{2}$}\\
+				\end{tabular}
+				\end{center}
+				\end{table}
+			\item These are the probabilities of placing in the respective quartiles:
+				\begin{table}[h]
+					\scriptsize
+                                        \renewcommand{\arraystretch}{1.25}
+                                \begin{center}      
+                                \begin{tabular}{|c|c|c|}
+					\hline
+					& $E\frac{3}{4}$ & $N\frac{1}{4}$\\
+					\hline
+					$E\frac{1}{2}$ & $\frac{3}{8}$ & $\frac{1}{8}$\\
+					\hline
+					$N\frac{1}{2}$ & $\frac{3}{8}$ & $\frac{1}{8}$\\
+					\hline
+				\end{tabular}
+                                \end{center} 
+                                \end{table}
+			\item You are trying to find the option that would make you both indifferent between choosing options
+		\end{itemize}
+	\end{itemize}
+
+	\newpage
+
+	\subsection{Sequential Move Game}
+	
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Uses \textit{Backward Induction}
+		\begin{itemize}
+			\item Games are analysed from the end through to start
+		\end{itemize}
+		\item Transforms \textit{Normal Form} to \textit{Extensive Form}
+		\item Transforms \textit{Nash Equilibrium} to \textit{Sub-Game Nash Equilibrium}
+		\item Not subject to \textit{Strategic Uncertainty} (imperfect information)
+		\begin{itemize}
+			\item Can observe moments
+			\item Hence, \textit{Perfect Information}
+			\item E.g. supermarket price setting
+		\end{itemize}
+		\item If the first or last mover has a \textit{Dominant Strategy}, they'll use it
+	\end{itemize}
+
+		\subsubsection{Game Tree}
+
+	\tikzstyle{level 1}=[level distance=2cm, sibling distance=8cm]
+        \tikzstyle{level 2}=[level distance=2cm, sibling distance=4cm]
+
+	\begin{tikzpicture}[sloped]               
+                \node {A}
+                        child {                                
+                                node {B}
+                                        child {                
+						node {$(-1,-1)$} 
+						edge from parent
+                                                        node[above] {Arm}
+                                                }
+                                        child {                 
+						node {$(1,-2)$} 
+						edge from parent
+                                                        node[above] {Refrain}
+                                                }
+						edge from parent
+                                                        node[above] {Arm}
+                                }
+                        child {                                
+                                node {B'}
+                                        child {                 
+						node {$(-2,1)$} 
+						edge from parent
+                                                        node[above] {Arm}
+                                                }
+                                        child {                 
+						node {$(0,0)$}
+						edge from parent
+                                                        node[above] {Refrain}
+                                                }
+						edge from parent
+                                                        node[above] {Refrain}
+                                };
+        \end{tikzpicture}
+
+	\begin{table}[h]
+		\renewcommand{\arraystretch}{1,25}
+	\begin{center}
+	\begin{tabular}{crcccc}
+		& & \multicolumn{4}{c}{B}\\
+		& & (Arm, Arm') & (Arm, Refrain') & (Refrain, Arm') & (Refrain, Refrain')\\
+		\cline{3-6}
+		\multirow{2}{*}{A} & Arm & \multicolumn{1}{|c|}{$-1,-1$} & \multicolumn{1}{c|}{$-1,-1$} & \multicolumn{1}{c|}{$1,-2$} & \multicolumn{1}{c|}{$1,-2$}\\
+		\cline{3-6}
+		& Refrain & \multicolumn{1}{|c|}{$-2,1$} & \multicolumn{1}{c|}{$0,0$} & \multicolumn{1}{c|}{$-2,1$} & \multicolumn{1}{c|}{$0,0$}\\
+		\cline{3-6}
+	\end{tabular}
+	\end{center}
+	\end{table}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item In simultaneous games: \textit{Strategy} = \textit{Action}. This isn't the case in sequential games. \textit{Actions} are a simple move; \textit{Strategies} are plans based on the move of the first player
+		\item A's strategies: Arm, Refrain
+		\item B's strategies: (Arm, Arm'), (Arm, Refrain'). (Refrain, Arm'), (Refrain, Refrain')
+		\item \textit{Information Set}: don’t know which two nodes you are at
+		\item \textit{Subgame}: the mini-looking games which B is playing under A
+	\end{itemize}
+
+		\subsubsection{Choosing An Option}
+
+	Normal:
+
+	\begin{table}[h]
+                \renewcommand{\arraystretch}{1,25}
+        \begin{center}
+        \begin{tabular}{crcc}     
+                & & \multicolumn{2}{c}{B}\\
+                & & (Export) & (No Export)\\
+                \cline{3-4}
+		\multirow{2}{*}{A} & FDI & \multicolumn{1}{|c|}{$25,-5$} & \multicolumn{1}{c|}{$40,\underline{10}$}\\
+                \cline{3-4}
+		& Export & \multicolumn{1}{|c|}{$\underline{30},\underline{30}$} & \multicolumn{1}{c|}{$\underline{60},10$}\\
+                \cline{3-4}
+        \end{tabular}
+        \end{center}
+        \end{table}
+
+	Extensive:
+
+	\tikzstyle{level 1}=[level distance=2cm, sibling distance=8cm]
+        \tikzstyle{level 2}=[level distance=2cm, sibling distance=4cm]
+
+        \begin{tikzpicture}[sloped]               
+                \node {A}
+                        child {                                
+                                node {B}
+                                        child {                
+						node {$(25,-5)$} 
+                                                edge from parent
+                                                        node[above] {Export}
+                                                }
+                                        child {                 
+                                                node {$(40,10)$} 
+                                                edge from parent
+                                                        node[above] {No Export}
+                                                }
+                                                edge from parent
+                                                        node[above] {FDI}
+                                }
+                        child {                                
+                                node {B'}
+                                        child {                 
+                                                node {$(30,30)$} 
+                                                edge from parent
+                                                        node[above] {Export}
+                                                }
+                                        child {                 
+                                                node {$(60,10)$}
+                                                edge from parent
+                                                        node[above] {No Export}
+                                                }
+                                                edge from parent
+                                                        node[above] {Export}
+                                };
+        \end{tikzpicture}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item In \textit{Normal Form}, (Export, Export) is the \textit{Dominant Strategy}, but there are more options:
+		\begin{itemize}
+			\item (Export, Export')
+			\item (Export, No Export')
+			\item (No Export, Export')
+			\item (No Export, No Export')
+		\end{itemize}
+		\item If A plays FDI, will B ever export?
+		\begin{itemize}
+			\item (No Export, Export') allows \textit{Incredible Threats} to be made
+		\end{itemize}
+	\end{itemize}
+
+		\subsubsection{Backwards Induction}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item A process used to avoid \textit{Incredible Threats}
+		\item If A assumes B is rational, they expect B to play $(40,10)$ on FDI and $(30,30)$ on Export
+		\item \textit{Credible Threats}:
+		\begin{itemize}
+			\item Only on FDI as they could lower their payoff to punish A
+			\item $(25,-5)$
+		\end{itemize}
+	\end{itemize}
+
+	\begin{enumerate}
+	\itemsep\setlength{0cm}
+		\item Start on that last stage of the game
+		\item Break down into two of A's options
+		\item Select these two \textit{Subgame Nash Equilibria} for B on each A arm
+		\begin{itemize}
+			\item (No Export, Export') are the best for B here
+		\end{itemize}
+		\item A now has a choice
+		\begin{itemize}
+			\item FDI would be followed by B's  No Export $(40,10)$ [$>(25,-5)$]
+			\item Export would be followed by B's Export' $(30,30)$ [$<(60,10)$]
+			\item A plays FDI
+		\end{itemize}
+		\item \textit{Nash Equilibrium} is made clear
+		\begin{itemize}
+			\item \{FDI,(Not Export, Export')\}
+		\end{itemize}
+	\end{enumerate}
+
+		\subsubsection{Order Advantages}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item \textit{Commitment} in first mover vs. \textit{Flexibility} in follower
+		\begin{itemize}
+			\item Commitment has greater value in simultaneous games 
+			\item Flexibility has greater value in sequential games
+		\end{itemize}
+		\item Recall that in simultaneous games there’s a first mover advantage
+		\item \textit{First Mover Advantage} (Simultaneous):
+		\begin{itemize}
+			\item \begin{center}\includegraphics[width=6cm,height=3cm]{EC315-IMG/2.png}\end{center}
+			\item B maximises on both moves and A maximises on its one move
+			\item A lowers B’s payoff by choosing a more profitable option for them
+		\end{itemize}
+		\item \textit{Second Mover Advantage} (Sequential):
+			\begin{itemize}                      
+                        \item \begin{center}\includegraphics[width=6.5cm,height=3cm]{EC315-IMG/3.png}\end{center}
+                        \item M goes for overall highest payoff (6) by choosing move A
+                        \item P has the option to choose one which greater benefits them and lowers M’s expected payoff
+                \end{itemize}
+	\end{itemize}
+
+		\subsubsection{Manipulating Games}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Take actions to manipulate a game? That is, guaranteeing the outcome
+		\item \textit{Threats \& Promises}
+		\begin{itemize}
+			\item ``If you attack, I'll fight...''
+			\item ``If you enter, I'll enter too; making it less profitable for you...''
+			\item ``If you work hard, I'll work harder...''
+			\item These lack credibility as they could be bluffs
+		\end{itemize}
+		\item \textit{Credibility}
+		\begin{itemize}
+			\item ``If you're late, I'll set off a bomb...'' (\textit{Incredible}; bluffing / not factual?)
+			\item ``If you're late, the timed boomb will go off...'' (\textit{Credible}; more believable / factual)
+			\item Changes first mover's thinking
+		\end{itemize}
+	\end{itemize}
+
+		\subsubsection{Price Matching Guarantees}
+	
+	Standard \textit{Subgame Perfect Nash Equilibrium}:
+
+	\begin{center}
+		\includegraphics[width=6cm,height=3cm]{EC315-IMG/4.png}
+	\end{center}
+
+	Offering a \textit{Price Match Guarantee}:
+
+	\begin{center}
+		\includegraphics[width=4.5cm,height=6cm]{EC315-IMG/5.png}
+	\end{center}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Commitment to maintain high prices
+		\item By committing to match low prices, A changes payoffs such that it’s not beneficial for B to undercut – as bigger payoff can’t be seen 
+		\item Both firms end up paying high prices
+		\item (Pricing) \textit{Prisoner’s Dilemma}
+	\end{itemize}
+
+	\subsection{Prisoner's Dilemma}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item 
+	\end{itemize}
 
 
 

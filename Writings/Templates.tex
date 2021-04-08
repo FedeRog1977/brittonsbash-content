@@ -476,15 +476,23 @@
 
 	\begin{tikzpicture}
 		\node {Root}
-			child
-				{node{Child}
-					child{node{Grandchild}}
-                                	child{node{Grandchild}}
+			child {
+				node {Child}
+					child {
+						node {Grandchild}
+						}
+                                	child {
+						node {Grandchild}
+						}
 				}
-			child
-				{node{Child}
-					child{node{Grandchild}}
-					child{node{Grandchild}}
+			child {
+				node {Child}
+					child {
+						node {Grandchild}
+						}
+					child {
+						node {Grandchild}
+						}
 				};
 	\end{tikzpicture}\\
 
@@ -500,39 +508,39 @@
 		\node[bag] {Root}
                 	child {
 				node[bag] {Child}
-                	        child {
-					node[end] {Grandchild}
-                	                edge from parent
-                	                        node[above] {} % Text above line
-                	                        node[below] {} % Text below line
-                	                }
-                	        child {
-					node[end] {Grandchild}
-                	                edge from parent
-                	                        node[above] {}
-                	                        node[below] {}
-                	                }
-                	                edge from parent 
-						node[above] {}
-						node[below] {}
+	                		child {
+						node[end] {Grandchild}
+                	                	edge from parent
+                	                	        node[above] {} % Text above line
+                	                	        node[below] {} % Text below line
+                	                	}
+                	        	child {
+						node[end] {Grandchild}
+                	        	        edge from parent
+                	        	                node[above] {}
+                	        	                node[below] {}
+                	        	        }
+                	        	        edge from parent 
+							node[above] {}
+							node[below] {}
                 	        }
                 	child {
 				node[bag] {Child}
-                	        child {
-					node[end] {Grandchild}
-                	                edge from parent
-						node[above] {}
-						node[below] {}
-                	                }
-                	        child {
-					node[end] {Grandchild}
-                	                edge from parent
-						node[above] {}
-						node[below] {}
-                	                }
-                	                edge from parent         
-						node[above] {}
-						node[below] {}
+                	        	child {
+						node[end] {Grandchild}
+                	        	        edge from parent
+							node[above] {}
+							node[below] {}
+                	        	        }
+                	        	child {
+						node[end] {Grandchild}
+                	        	        edge from parent
+							node[above] {}
+							node[below] {}
+                	        	        }
+                	        	        edge from parent         
+							node[above] {}
+							node[below] {}
                 	        };
         \end{tikzpicture}
 

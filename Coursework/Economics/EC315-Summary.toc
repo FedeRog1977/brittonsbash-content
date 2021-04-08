@@ -3,3 +3,15 @@
 \contentsline {subsection}{\numberline {1.2}Program \& Policy Evaluation Summary}{2}% 
 \contentsline {subsection}{\numberline {1.3}Crime \& Punishment Summary}{3}% 
 \contentsline {subsection}{\numberline {1.4}Exam Arithmetic Summary}{5}% 
+\contentsline {section}{\numberline {2}Game Theory}{6}% 
+\contentsline {subsection}{\numberline {2.1}Definitions}{6}% 
+\contentsline {subsection}{\numberline {2.2}Simultaneous Move Game}{8}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Pure \& Mixed Strategies}{8}% 
+\contentsline {subsection}{\numberline {2.3}Sequential Move Game}{9}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Game Tree}{9}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Choosing An Option}{10}% 
+\contentsline {subsubsection}{\numberline {2.3.3}Backwards Induction}{11}% 
+\contentsline {subsubsection}{\numberline {2.3.4}Order Advantages}{11}% 
+\contentsline {subsubsection}{\numberline {2.3.5}Manipulating Games}{12}% 
+\contentsline {subsubsection}{\numberline {2.3.6}Price Matching Guarantees}{12}% 
+\contentsline {subsection}{\numberline {2.4}Prisoner's Dilemma}{13}% 

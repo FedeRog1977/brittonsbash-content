@@ -8,6 +8,8 @@
                         rmargin=32.6mm,                     
                 }                                     
                                 
+	\renewcommand{\theparagraph}{\thesubsubsection.\arabic{paragraph}}
+
         \usepackage{titlesec}         
                 \titleformat{\section}
                         {\normalfont\fontsize{18}{16}\bfseries}{\thesection}{0.5em}{}
@@ -15,7 +17,9 @@
                         {\normalfont\fontsize{14}{16}\bfseries}{\thesubsection}{1em}{}
                 \titleformat{\subsubsection} 
                         {\normalfont\fontsize{11}{16}\bfseries}{\thesubsubsection}{1em}{}
-                                                                    
+ 		\titleformat{\paragraph} 
+                        {\normalfont\fontsize{11}{16}\bfseries}{\theparagraph}{1em}{}
+
         \usepackage{longtable}                                                  
         \usepackage{multirow}                                                   
                              
@@ -568,12 +572,211 @@
 		\item (Pricing) \textit{Prisoner’s Dilemma}
 	\end{itemize}
 
+	\newpage
+
 	\subsection{Prisoner's Dilemma}
 
 	\begin{itemize}
 	\setlength\itemsep{0cm}
+		\item \textit{Cooperate} or \textit{Defect}
+		\item Mutual gain: \textit{Cooperate}
+		\item Individual incentive: \textit{Defect}
+		\item \textit{Pareto Efficienct Equilibrium}
+		\item Recall: someone has a dominant strategy where there’s harm done to each other and they could be better off (Pareto Efficient). Self-interest doesn’t pay off. But, games can be repeated (e.g. price re-setting), e.g. lower price than opponent now (get more custom volume), makes opponent less-off (also poor for aggregate prices), firms may form a passive collusion where they both think opponents will set low so they both set high
+		\item Both players have dominant strategy to defect but they could have a better result when the both cooperate. Hence, when choosing best interest, harm is done to the opponent when choosing to Defect for own interest, the opponent may choose to Cooperate so have a worse outcome
+	\end{itemize}
+
+	\begin{center}
+		\includegraphics[width=5cm,height=2cm]{EC315-IMG/6.png}
+	\end{center}
+
+	Example:
+
+	\begin{enumerate}
+	\setlength\itemsep{0cm}
+		\item (8,8) is Pareto Inefficient equilibrium as it is reached by both aiming for low by confessing. Could be made better off by both acting for mutual gain (3,3)
+		\item Pricing – non-brand loyal market, flow freely between
+
+		\item Team Work – (work vs shirk) shirk leads to more payoff as still full marks but no work done but if the other does all the work, they will get full marks but payoff will reduce due to workload
+		\item Clean vs Dope – (risk based) best self-interest response is to dope as highest possible payoff but the equilibrium they both do it is less than the payoff if they both don’t
+		\item Market Share – studying marketing is a waste of time. Market is a pie, we compete over our share. Ads try to [1] inform and [2] predatory (winning market share). Start: 50/50, engage in ads to win market share. I spend money, I get some in return but you won’t gain much more market share. The opponents do this to keep up. Each keep catching back up to 50\% each but both are still wasting millions on marketing. Market share isn’t changing proportionately but you’re still spending money
+	\end{enumerate}
+
+	\begin{center}
+		\includegraphics[width=3.5cm,height=4.5cm]{EC315-IMG/7.png}
+	\end{center}
+
+		\subsubsection{Externalities}
+
+	\begin{itemize}
+        \setlength\itemsep{0cm}
+		\item \textit{Negative Externalities}: (own interest – doing too much) Cooperation reduces amount of work you do for the better (e.g. not over-fishing)
+		\begin{itemize}
+			\item Don’t see costs from defecting – too much harmful activity is done
+		\end{itemize}
+		\item \textit{Positive Externalities}: (own interest – doing too little) Cooperation says you should do more work (e.g. not doing no work in a project)
+		\begin{itemize}
+                        \item Don’t see costs benefits form cooperating – too little of a good activity is done
+                \end{itemize}
+		\item Example: Marginal Benefit vs. Marginal Cost – (1) extracting fish from the ocean makes it harder in the future (e.g. do less fishing to allow repopulation). (2) But you want more to sell now. (3) Self-interest makes it harder for others
+	\end{itemize}
+
+		\subsubsection{Rationalise Cooperation Resolutions}
+
+	\begin{itemize}
+        \setlength\itemsep{0cm}
+		\item Resolutions to \textit{Prisoner's Dilemma}
+		\item Meet-up (verbal agreement): let’s set high prices (incentive of deception however – you want him to set high prices and you want to set low)
+		\item \textit{Threaten}: punishment of opponent doesn’t set high prices (lacking credibility as you ``will do it'' rather than it ``will be done (automatically etc.)'' – can fix credibility by using Mafia as they have more incentive to harm him)
+		\item \textit{Reward}: offer a reward that overcomes the incentive to defect (still lacks credibility as it involves giving money – lowers your payoff. May not even believe you)
+	\end{itemize}
+
+		\subsubsection{Behavioural Resolution}
+	
+	\begin{itemize}
+        \setlength\itemsep{0cm}
+		\item \textit{External Norms of Behaviour}: Think back to litter e.g.: many people won’t actually litter even though it’s the most beneficial for you. It conflicts with the social norm
+		\item \textit{Internal Norms of Behaviour}: Doing nice things for people who are nice to you (gain utility). Being bad to people but they are good to you (loss of utility). - you defect but if you care enough, you’ll maybe rationalise cooperation and change mind
+	\end{itemize}
+
+		\subsubsection{Price Matching Guarantee Resolution}
+
+	\begin{itemize}                                         
+        \setlength\itemsep{0cm}
+		\item You may be undercut for opponent to gain market share from you at lower prices
+		\item If you’re offered. PMG, you will simply match prices and keep customers ``he’s selling at that price, can you just sell me at that too''
+		\item Opponent now doesn’t gain, just sells at lower price as no market gain
+		\item Equilibrium of both pricing high – out of Prisoner’s Dilemma
+	\end{itemize}
+
+	\begin{center}
+		\includegraphics[width=4cm,height=4cm]{EC315-IMG/10.png}
+	\end{center}
+
+		\subsubsection{Dynamic Punishment Resolution}
+
+	\begin{itemize}                                         
+        \setlength\itemsep{0cm}
+		\item When defecting, a player may believe they will be ‘punished’ in the future
+		\item Can we achieve cooperation through fear of punishment?
+		\begin{itemize}
+			\item Credible: backed with fact
+			\item Incredible: maybe won’t happen 
+		\end{itemize}
+		\item \textit{Finite Period} ($T$ Periods): defect in last period as no more time for retaliation
+		\begin{itemize}
+			\item Final period: mutual dominant strategy to defect as no future punishment 
+			\item So: best to defect this period as well as you both will next
+		\end{itemize}
+		\item \textit{Infinite Period}: the game will continue [probability $p=1$] so retaliation 
+		\begin{itemize}
+			\item Always an opportunity to punish as there’s always another period
+		\end{itemize}
+		\item \textit{Impatient}: future worth less than present so defect (not caring for punishment)
+		\item \textit{Patient}: care more for future gain by waiting and cooperating
+	\end{itemize}
+		
+		\paragraph{Discounting}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item \pounds1 from \pounds1 today to \pounds1($1+r$) tomorrow; \pounds1 from \pounds1 tomorrow to \pounds$\frac{1}{(1+r)}$ today
+		\item PV: $\frac{1}{(1+r)}$, $\frac{1}{(1+r)^2}$, ..., $\frac{1}{(1+r)^N}$; for discount rate $r$ and discount factor $\delta=\frac{1}{(1+r)^t}$
+		\item Hence, \pounds$X$ in period $t$ is worth \pounds$X\frac{1}{(1+r)^t}$ today
+		\item Hence, \pounds$X$ in period $t$ is worth \pounds$X\delta^t$ today
+		\item $\delta$ close to 1: patient; $\delta$ close to 0: impatient
+		\item CFs: $X_0,X_1,...,X_N$; PVs: $X_0+\delta X_1+\delta^2X_2+,...,+\delta^NX_N$
+		\item Infinite: $1+\delta+\delta^2+\delta^3=\frac{1}{(1-\delta)}$
+	\end{itemize}
+
+	Example:
+
+	\begin{center}
+		\includegraphics[width=6cm,height=2cm]{EC315-IMG/11.png}
+	\end{center}
+
+	\begin{center}
+	\begin{tabular}{l|l}
+		Payoff of 7 in perpetuity & Payoff of 10 today and 2 in perpetuity\\
+		$7+7\delta+7\delta^2+...=7\frac{1}{1-\delta}$ & $10+2\delta+2\delta^2+...=10+2\delta\frac{1}{(1-\delta)}$
+	\end{tabular}
+	\end{center}
+
+	\newpage
+
+		\paragraph{Trigger Strategies: Grim Trigger}
+
+	\begin{itemize}                
+        \setlength\itemsep{0cm}
+		\item Start by cooperating
+		\item If opponent cooperated, cooperate
+		\item If opponent defected, defected in perpetuity
+	\end{itemize}
+
+	\begin{enumerate}                                      
+        \setlength\itemsep{0cm}
+		\item \textit{Cooperate}:
+		\begin{itemize}
+			\item Opponent gets 600 forever $\rightarrow$ $600+600\delta+600\delta^2+...=\frac{600}{(1-\delta)}$
+		\end{itemize}
+		\item \textit{Defect}:
+		\begin{itemize}                            
+			\item Get 1000 now but 400 after $\rightarrow$ $1000+400\delta+400\delta^2+...=1000+\frac{400\delta}{(1-\delta)}$
+                \end{itemize}
+		\item Answer:
+		\begin{itemize}                            
+			\item $\frac{600}{(1-\delta)}\ge1000+\frac{400\delta}{(1-\delta)}\Leftrightarrow\delta\ge\frac{2}{3}(\Leftrightarrow\le\frac{1}{2})$ = 50\%
+			\item \fbox{Hence, \textit{Grim Trigger} at $\delta>\frac{2}{3}$ so cooperate}
+                \end{itemize}
+	\end{enumerate}
+
+		\paragraph{Trigger Strategies: Tit-for-Tat}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}                             
+                \item Start by cooperating
+		\item Play as the opponent played in the last round
+		\item Cooperation followed by cooperation
+		\item Defection frollowed by defection 
+	\end{itemize}
+
+	\begin{enumerate}                              
+        \setlength\itemsep{0cm}                                   
+                \item \textit{Defect} in perpetuity:                         
+                \begin{itemize}                        
+			\item Same as Grim Trigger: $\delta\ge\frac{2}{3}$
+                \end{itemize}   
+                \item \textit{Defect} once:
+                \begin{itemize}       
+			\item Get 400 now but loses 430 after $\rightarrow$ $400\le430\delta\Rightarrow\delta\ge\frac{40}{43}(\Rightarrow\le0.075)$ = 7.5\%
+                \end{itemize}                              
+                \item Answer:
+                \begin{itemize}
+                        \item \fbox{Hence, \textit{TFT} at $\delta>\frac{40}{43}$ so cooperate}
+		\end{itemize}
+        \end{enumerate}
+
+	\fbox{If \textit{Grim} works: cooperation possible; If \textit{TFT} works: cooperation easy}
+
+	\newpage
+
+	\subsection{Games With Continuous Strategies}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item 
+		\item 
+		\item 
+		\item 
+		\begin{itemize}
+			\item 
+			\item 
+			\item 
+		\end{itemize}
 		\item 
 	\end{itemize}
+
+
 
 
 

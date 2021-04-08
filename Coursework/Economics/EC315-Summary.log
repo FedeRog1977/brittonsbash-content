@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  8 APR 2021 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  8 APR 2021 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,18 +520,18 @@ LaTeX Warning: Unused global option(s):
 (./EC315-Summary.aux)
 \openout1 = `EC315-Summary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -631,12 +631,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -645,29 +645,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 52.
+(Font)              size <17.28> substituted on input line 56.
 
 (./EC315-Summary.toc)
 \tf@toc=\write4
 \openout4 = `EC315-Summary.toc'.
 
  [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
  [1] [2]
 <EC315-IMG/1.png, id=27, 133.49875pt x 112.42pt>
 File: EC315-IMG/1.png Graphic file (type png)
 <use EC315-IMG/1.png>
-Package pdftex.def Info: EC315-IMG/1.png  used on input line 159.
+Package pdftex.def Info: EC315-IMG/1.png  used on input line 163.
 (pdftex.def)             Requested size: 142.27797pt x 113.81604pt.
  [3]
 [4 <./EC315-IMG/1.png>] [5] [6] [7] [8]
-Overfull \hbox (3.53046pt too wide) in paragraph at lines 378--387
+Overfull \hbox (3.53046pt too wide) in paragraph at lines 382--391
  [] 
  []
 
@@ -675,37 +675,63 @@ Overfull \hbox (3.53046pt too wide) in paragraph at lines 378--387
 <EC315-IMG/2.png, id=58, 211.79124pt x 108.405pt>
 File: EC315-IMG/2.png Graphic file (type png)
 <use EC315-IMG/2.png>
-Package pdftex.def Info: EC315-IMG/2.png  used on input line 517.
+Package pdftex.def Info: EC315-IMG/2.png  used on input line 521.
 (pdftex.def)             Requested size: 170.72266pt x 85.36276pt.
  [11 <./EC315-IMG/2.png>]
 <EC315-IMG/3.png, id=64, 200.75pt x 81.30376pt>
 File: EC315-IMG/3.png Graphic file (type png)
 <use EC315-IMG/3.png>
-Package pdftex.def Info: EC315-IMG/3.png  used on input line 523.
+Package pdftex.def Info: EC315-IMG/3.png  used on input line 527.
 (pdftex.def)             Requested size: 184.95566pt x 85.36523pt.
 <EC315-IMG/4.png, id=65, 218.8175pt x 98.3675pt>
 File: EC315-IMG/4.png Graphic file (type png)
 <use EC315-IMG/4.png>
-Package pdftex.def Info: EC315-IMG/4.png  used on input line 554.
+Package pdftex.def Info: EC315-IMG/4.png  used on input line 558.
 (pdftex.def)             Requested size: 170.71701pt x 85.35686pt.
  [12 <./EC315-IMG/3.png>]
 <EC315-IMG/5.png, id=70, 137.51375pt x 157.58875pt>
 File: EC315-IMG/5.png Graphic file (type png)
 <use EC315-IMG/5.png>
-Package pdftex.def Info: EC315-IMG/5.png  used on input line 560.
+Package pdftex.def Info: EC315-IMG/5.png  used on input line 564.
 (pdftex.def)             Requested size: 128.04802pt x 170.72711pt.
- [13 <./EC315-IMG/4.png> <./EC315-IMG/5.png>] (./EC315-Summary.aux)
+ [13 <./EC315-IMG/4.png> <./EC315-IMG/5.png>]
+<EC315-IMG/6.png, id=76, 144.54pt x 52.195pt>
+File: EC315-IMG/6.png Graphic file (type png)
+<use EC315-IMG/6.png>
+Package pdftex.def Info: EC315-IMG/6.png  used on input line 590.
+(pdftex.def)             Requested size: 142.27016pt x 56.90894pt.
+ [14 <./EC315-IMG/6.png>]
+<EC315-IMG/7.png, id=81, 130.4875pt x 151.56625pt>
+File: EC315-IMG/7.png Graphic file (type png)
+<use EC315-IMG/7.png>
+Package pdftex.def Info: EC315-IMG/7.png  used on input line 606.
+(pdftex.def)             Requested size: 99.58566pt x 128.03865pt.
+ [15 <./EC315-IMG/7.png>]
+<EC315-IMG/10.png, id=86, 131.49126pt x 103.38625pt>
+File: EC315-IMG/10.png Graphic file (type png)
+<use EC315-IMG/10.png>
+Package pdftex.def Info: EC315-IMG/10.png  used on input line 653.
+(pdftex.def)             Requested size: 113.8166pt x 113.81355pt.
+
+[16 <./EC315-IMG/10.png>]
+<EC315-IMG/11.png, id=91, 167.62625pt x 62.2325pt>
+File: EC315-IMG/11.png Graphic file (type png)
+<use EC315-IMG/11.png>
+Package pdftex.def Info: EC315-IMG/11.png  used on input line 695.
+(pdftex.def)             Requested size: 170.71559pt x 56.90704pt.
+ [17 <./EC315-IMG/11.png>] [18] [19]
+(./EC315-Summary.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 14792 strings out of 492616
- 287217 string characters out of 6129480
- 327185 words of memory out of 5000000
- 18416 multiletter control sequences out of 15000+600000
- 12647 words of font info for 48 fonts, out of 8000000 for 9000
+ 14816 strings out of 492616
+ 287620 string characters out of 6129480
+ 327189 words of memory out of 5000000
+ 18435 multiletter control sequences out of 15000+600000
+ 12942 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,48p,693b,1034s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -719,11 +745,12 @@ ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
 l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on EC315-Summary.pdf (15 pages, 249067 bytes).
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
+Output written on EC315-Summary.pdf (21 pages, 337298 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

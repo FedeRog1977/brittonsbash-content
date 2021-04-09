@@ -764,27 +764,204 @@
 
 	\begin{itemize}
 	\setlength\itemsep{0cm}
-		\item 
-		\item 
-		\item 
-		\item 
+		\item This is applying maths to what we already know
+		\item Nash equilibriums and sub-game perfect nash equilibriums remain the same
+		\item This is applying the following more generally  
+		\item Matrix strategy: can choose any option for the expected opponent’s options
 		\begin{itemize}
-			\item 
-			\item 
-			\item 
+			\item Simultaneous: best responses and mutually consistent best responses
+			\item Sequential: backward induction 
 		\end{itemize}
+		\item Take a long time to analyse a continuous strategy using discrete sets (matrix)
+	\end{itemize}
+
+		\subsubsection{Quantity Competition}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item In a \textit{Competitve Market}
+		\item Firm $i$ supplies $q_i$ (where $\sum_{i=1}^Nq\ \forall i\{1,...,N\}$)
+		\item \textit{Inverse Demand Function}: $p(Q)=a-bQ$
+		\item Payoff is \textit{Profit} ($\pi_i$): $q_ip(Q)-C_i(q_i)$
+		\item Hence: $\pi_i(q_{i=1},q_{i=2},...,q_N)=q_ip(Q)-C_i(q_i)$
+		\item There is an \textit{Oligopoly} if several firms compete
+		\item This method is shown in 1 to $N$ matrices for A to respond to B:
+		\item 
+			\begin{center}
+			\begin{tabular}{ccc}
+				\includegraphics[width=5cm,height=2cm]{EC315-IMG/12.png} & $\longrightarrow$ & \includegraphics[width=5cm,height=2cm]{EC315-IMG/13.png}\\
+			\end{tabular}
+			\end{center}
+		\item Hence, we find a \textit{Payoff Function} which is maximised at a point; ``find the level of $q_1$ maximising firm A's payoff for given $q_2$''
+	\end{itemize}
+
+		\subsubsection{Continuous Strategies}
+
+	\begin{itemize}
+        \setlength\itemsep{0cm}
+		\item Too hard to account for all the options (in this case quantities to produce)
+		\item Recall basic math: \textit{Function}: the level; \textit{Derivative}: the slope of the function; \textit{Parital Derivative}: fix a variable
+	\end{itemize}
+
+		\paragraph{Rules of Differentiation}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Woring towards \textit{Payoff Function}
+		\item Just like in the matrixes, fix the opponents option each time to find your best
+		\item Hence, $y=f(x_1,x_2)$
+		\item Fix $x_2$ (the adjacent firm's strategy) to observe how $x_1$ varies with $y$
+		\item Therefore, partial derivative $\frac{\partial y}{\partial x_1}$ for fixed $x_2$
+		\item Thus, best response at $\{\frac{\partial y}{\partial x_1}|_{x_2}=0\}$ (peak of function)
+		\item Note that, if you take the derivative on the incline of the function, you can be made better off by doing more. Take the derivative on the decline, better off by doing less
+		\item \includegraphics[width=3.5cm,height=3cm]{EC315-IMG/14.png}
+	\end{itemize}
+
+	\begin{itemize}                              
+        \setlength\itemsep{0cm}
+		\item Recall the function $f(x)$:
+		\begin{itemize}
+			\item $f'(x)$ positive at incline
+			\item $f'(x)$ negative at decline
+			\item $f'(x)=0$ at stationery point (max/min)
+			\item \includegraphics[width=3.5cm,height=3cm]{EC315-IMG/15.png}
+		\end{itemize}
+		\item Recall if $f(x)=x^n$ then $f'(x)=nx^n-1$
+		\begin{itemize}
+			\item Constant: $ch(x)\longrightarrow ch'(x)$
+			\item Sum: $g(x)\pm h(x)\longrightarrow g'(x)\pm h'(x)$
+			\item Product: $g(x)h(x)\longrightarrow g(x)h'(x)+g'(x)h(x)$
+			\item Chain: $g(h(x))\longrightarrow g'(h(x))h'(x)$
+			\item Quotient: $\frac{g(x)}{h(x)}\longrightarrow\frac{g'(x)h(x)-g(x)h'(x)}{{h(x)}^2}$
+			\item Log: $\ln x\longrightarrow\frac{1}{x}$
+		\end{itemize}
+		\item In practice:
+		\begin{itemize}
+			\item Power: $\sqrt{x}=x^{\frac{1}{2}}\longrightarrow\frac{1}{2}x^{-\frac{1}{2}}=\frac{1}{2\sqrt{x}}$
+			\item Constant: $3x^2\longrightarrow3\times2x$
+			\item Sum: $x^2+x^3\longrightarrow 2x+3x^2$
+			\item Product: $x^2(2x+3)^9\longrightarrow x^2\times9(2x+3)^8\times2+(2x+3)^9\times2x$
+			\item Chain: $x^2(2x+3)^9\longrightarrow9(2x+3)^8\times2$
+			\item Quotient: $\frac{x}{(1+x)}\longrightarrow\frac{(1+x)\times(1-x)\times1}{(1+x)^2}$
+		\end{itemize}
+	\end{itemize}
+
+		\subsubsection{Cournot Derivation of Payoff \& Reaction (Simultaneous)}
+	
+		\paragraph{Step 1}
+
+	\textit{Fix firm 2's action and find firm 1's best response to it.}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Find \textit{Payoff Function}
+		\item Partially derive and $=0$ for \textit{Best Response} with fixed $q_2$
+		\item Find best $q_1$ for \textit{Reaction Function}, sub for $q_1^*$
+	\end{itemize}
+		
+		\paragraph{Step 2}
+
+	\textit{Fix firm 1's action and find firm 1's best response to it.}
+
+	\begin{itemize}
+        \setlength\itemsep{0cm}
+                \item Find \textit{Payoff Function}
+		\item Partially derive and $=0$ for \textit{Best Response} with fixed $q_1$
+		\item Find best $q_2$ for \textit{Reaction Function}, sub for $q_2^*$
+	\end{itemize}
+
+		\paragraph{Step 3}
+
+	\textit{Find meeting point of Nash Equilibrium where Reaction Functions meet; substitute to find optimal $\pi$ for each firm.}
+
+		\paragraph{Definitions}
+
+	\begin{itemize}                                                    
+        \setlength\itemsep{0cm}                                            
+                \item Players: 2 firms $i=1,2$
+		\item Strategies: each firm chooses quantity of $q_i$, for $Q=q_1+q_2$
+		\item Payoff: given supply choices \textit{Marginal Cost} of $c$, \textit{Price} of $P(q_1+q_2)$, \textit{Payoff} (profit) of $\pi_i(q_1,q_2)=q_1p(q_1+q_2)-cq_i$
+	\end{itemize}
+
+		\paragraph{Working Example}
+
+	Firm 1's \textit{Payoff Function}: $\pi_1=q_1(a-b(q_1+q_2))-cq_1$\\
+	$\pi_1=q_1(a-bq_1-bq_2)-cq_1$\\
+	$\pi_i=aq_1-bq_1^2-bq_1q_2-cq_1$\\
+
+	Fix $q_2$: $\frac{\partial\pi_1}{\partial q_1}=a-2bq_1-bq_2-c$\\
+	$[a-2bq_1-bq_2-c=0]$\\
+	$[2bq_1=a-c-bq_2]$\\
+
+	Firm 1's \textit{Reaction Function}: $[q_1=\frac{a-c-bq_2}{2b}]...[q_1=\frac{a-c}{2b}-\frac{1}{2}q_2]$\\
+	Recall: $q_1$ is not $(-)$ as $q_2\le\frac{a-c}{b}$\\
+
+	Note that \textit{Reaction Function}: $q_1^*=\hat{q}_1(q_2)=\begin{Bmatrix}\frac{a-c}{2b}-\frac{1}{2}q_2\mathrm{if}q_2\le\frac{a-c}{b}\\0\mathrm{if}q_2>\frac{a-c}{b}\end{Bmatrix}$\\
+
+	Hence, \textit{Reaction Function}: output quantity should decline as the opponent's increases; when it reaches 0, leave market; obviously no negative
+
+	\begin{center}
+		\includegraphics[width=3cm,height=3cm]{EC315-IMG/16.png}
+	\end{center}
+
+	Firm 2's \textit{Payoff Function}: $\pi_2=q_2(a-b(q_1+q_2))-cq_2$\\
+	Fix $q_1$: $\frac{\partial\pi_2}{\partial q_2}=a-2bq_2-bq_1-c$\\
+	Firm 2's \textit{Reaction Function}: $[q_2=\frac{a-c-bq_1}{2b}]...[q_2=\frac{a-c}{2b}-\frac{1}{2}q_1]$\\
+
+	Note that \textit{Reaction Function}: $q_2^*=\hat{q}_2(q_1)=\begin{Bmatrix}\frac{a-c}{2b}-\frac{1}{2}q_1\mathrm{if}q_2\le\frac{a-c}{b}\\0\mathrm{if}q_1>\frac{a-c}{b}\end{Bmatrix}$
+	
+	\begin{center}
+                \includegraphics[width=3cm,height=3cm]{EC315-IMG/17.png}
+        \end{center}
+
+	\textit{Nash Equilibrium} (``The Courot Equilibrium''): flip firm 2's \textit{Reaction Function} and overlay\\
+	Seek $q_1^*,q_2^*$ from $q_1^*=\hat{q}_1(q_2^*)$ and $q_2^*=\hat{q}_2(q_1^*)$\\
+	``For firm 1's $q$ which maximises its $\pi$ given firm 2's $q$''\\
+	``For firm 2's $q$ which maximises its $\pi$ given firm 1's $q$''
+
+	\begin{center}
+                \includegraphics[width=7cm,height=3cm]{EC315-IMG/18.png}
+        \end{center}
+
+	\textit{Substitution} is as follows:\\
+	From $q_1=\frac{a-c}{2b}-\frac{1}{2}q_2$\\
+	$q_1=\frac{a-c}{2b}-\frac{1}{2}(\frac{a-c}{2b}-\frac{1}{2}q_1)$\\
+	$q_1=\frac{a-c}{2b}-\frac{a-c}{4b}+\frac{1}{4}q_1$\\
+	$q_1=\frac{4b\left(a-c\right)-2b(a-c)}{8b^2}+\frac{1}{4}q_1$\\
+	$q_1=\frac{2b\left(a-c\right)}{8b^2}+\frac{1}{4}q_1$\\
+	$q_1=\frac{a-c}{4b}+\frac{1}{4}q_1$\\
+	${\frac{3}{4}q}_1=\frac{a-c}{4b}$\\
+	$q_1=\frac{4}{3}\frac{a-c}{4b}$\\
+	$q_1=\frac{4(a-c)}{12b}$\\
+	$q_1^*=\frac{a-c}{3b}$
+	Sub for firm 2's $\pi$
+
+	\textit{Cournot Equilibrium} is as follows:
+	Hence: $Q^*=q_1^*+q_2^*$\\
+	So: $p^*=a-bQ^*$\\
+	Thus: $\pi^*=(p^*-c)Q^*$\\
+
+	\fbox{$q_1^*=q_2^*=\frac{a-c}{3b}$; $Q^*=\frac{2(a-c)}{3b}$; $p^*=\frac{a+2c}{3}$; $\pi_i^*=\frac{(a-c)^2}{9b}$}\\
+
+	Verify that:\\
+	Industry output between monopoly and PC: $Q^M<Q^\ast+Q^C$\\
+	Price between monopoly and PC: $p^M=p^\ast+p^C$\\
+	Industry profit between monopoly and PC: $\pi^M>{\pi_1}^\ast+{\pi_2}^\ast>0$
+
+		\subsubsection{Stakleberg Leader \& Follower (Sequential)}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
 		\item 
 	\end{itemize}
 
+		\paragraph{Step 1: Stage 2}
 
 
 
 
 
-
-
-
-
+	
 
 
 

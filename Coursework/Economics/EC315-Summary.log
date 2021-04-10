@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  9 APR 2021 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  10 APR 2021 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,11 +647,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
 (Font)              size <17.28> substituted on input line 56.
 
-(./EC315-Summary.toc)
+(./EC315-Summary.toc [1])
 \tf@toc=\write4
 \openout4 = `EC315-Summary.toc'.
 
- [1]
+ [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
@@ -660,7 +660,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
  [1] [2]
-<EC315-IMG/1.png, id=27, 133.49875pt x 112.42pt>
+<EC315-IMG/1.png, id=30, 133.49875pt x 112.42pt>
 File: EC315-IMG/1.png Graphic file (type png)
 <use EC315-IMG/1.png>
 Package pdftex.def Info: EC315-IMG/1.png  used on input line 163.
@@ -672,71 +672,71 @@ Overfull \hbox (3.53046pt too wide) in paragraph at lines 382--391
  []
 
 [9] [10]
-<EC315-IMG/2.png, id=58, 211.79124pt x 108.405pt>
+<EC315-IMG/2.png, id=62, 211.79124pt x 108.405pt>
 File: EC315-IMG/2.png Graphic file (type png)
 <use EC315-IMG/2.png>
 Package pdftex.def Info: EC315-IMG/2.png  used on input line 521.
 (pdftex.def)             Requested size: 170.72266pt x 85.36276pt.
  [11 <./EC315-IMG/2.png>]
-<EC315-IMG/3.png, id=64, 200.75pt x 81.30376pt>
+<EC315-IMG/3.png, id=67, 200.75pt x 81.30376pt>
 File: EC315-IMG/3.png Graphic file (type png)
 <use EC315-IMG/3.png>
 Package pdftex.def Info: EC315-IMG/3.png  used on input line 527.
 (pdftex.def)             Requested size: 184.95566pt x 85.36523pt.
-<EC315-IMG/4.png, id=65, 218.8175pt x 98.3675pt>
+<EC315-IMG/4.png, id=68, 218.8175pt x 98.3675pt>
 File: EC315-IMG/4.png Graphic file (type png)
 <use EC315-IMG/4.png>
 Package pdftex.def Info: EC315-IMG/4.png  used on input line 558.
 (pdftex.def)             Requested size: 170.71701pt x 85.35686pt.
  [12 <./EC315-IMG/3.png>]
-<EC315-IMG/5.png, id=70, 137.51375pt x 157.58875pt>
+<EC315-IMG/5.png, id=73, 137.51375pt x 157.58875pt>
 File: EC315-IMG/5.png Graphic file (type png)
 <use EC315-IMG/5.png>
 Package pdftex.def Info: EC315-IMG/5.png  used on input line 564.
 (pdftex.def)             Requested size: 128.04802pt x 170.72711pt.
  [13 <./EC315-IMG/4.png> <./EC315-IMG/5.png>]
-<EC315-IMG/6.png, id=76, 144.54pt x 52.195pt>
+<EC315-IMG/6.png, id=79, 144.54pt x 52.195pt>
 File: EC315-IMG/6.png Graphic file (type png)
 <use EC315-IMG/6.png>
 Package pdftex.def Info: EC315-IMG/6.png  used on input line 590.
 (pdftex.def)             Requested size: 142.27016pt x 56.90894pt.
  [14 <./EC315-IMG/6.png>]
-<EC315-IMG/7.png, id=81, 130.4875pt x 151.56625pt>
+<EC315-IMG/7.png, id=84, 130.4875pt x 151.56625pt>
 File: EC315-IMG/7.png Graphic file (type png)
 <use EC315-IMG/7.png>
 Package pdftex.def Info: EC315-IMG/7.png  used on input line 606.
 (pdftex.def)             Requested size: 99.58566pt x 128.03865pt.
  [15 <./EC315-IMG/7.png>]
-<EC315-IMG/10.png, id=86, 131.49126pt x 103.38625pt>
+<EC315-IMG/10.png, id=89, 131.49126pt x 103.38625pt>
 File: EC315-IMG/10.png Graphic file (type png)
 <use EC315-IMG/10.png>
 Package pdftex.def Info: EC315-IMG/10.png  used on input line 653.
 (pdftex.def)             Requested size: 113.8166pt x 113.81355pt.
 
 [16 <./EC315-IMG/10.png>]
-<EC315-IMG/11.png, id=91, 167.62625pt x 62.2325pt>
+<EC315-IMG/11.png, id=95, 167.62625pt x 62.2325pt>
 File: EC315-IMG/11.png Graphic file (type png)
 <use EC315-IMG/11.png>
 Package pdftex.def Info: EC315-IMG/11.png  used on input line 695.
 (pdftex.def)             Requested size: 170.71559pt x 56.90704pt.
  [17 <./EC315-IMG/11.png>] [18]
-<EC315-IMG/12.png, id=101, 169.63374pt x 68.255pt>
+<EC315-IMG/12.png, id=104, 169.63374pt x 68.255pt>
 File: EC315-IMG/12.png Graphic file (type png)
 <use EC315-IMG/12.png>
 Package pdftex.def Info: EC315-IMG/12.png  used on input line 792.
 (pdftex.def)             Requested size: 142.26875pt x 56.90575pt.
-<EC315-IMG/13.png, id=102, 172.645pt x 61.22874pt>
+<EC315-IMG/13.png, id=105, 172.645pt x 61.22874pt>
 File: EC315-IMG/13.png Graphic file (type png)
 <use EC315-IMG/13.png>
 Package pdftex.def Info: EC315-IMG/13.png  used on input line 792.
 (pdftex.def)             Requested size: 142.26526pt x 56.90662pt.
  [19 <./EC315-IMG/12.png> <./EC315-IMG/13.png>]
-<EC315-IMG/14.png, id=109, 491.8375pt x 443.6575pt>
+<EC315-IMG/14.png, id=112, 491.8375pt x 443.6575pt>
 File: EC315-IMG/14.png Graphic file (type png)
 <use EC315-IMG/14.png>
 Package pdftex.def Info: EC315-IMG/14.png  used on input line 817.
 (pdftex.def)             Requested size: 99.58153pt x 85.35185pt.
-<EC315-IMG/15.png, id=110, 82.3075pt x 69.25874pt>
+<EC315-IMG/15.png, id=113, 82.3075pt x 69.25874pt>
 File: EC315-IMG/15.png Graphic file (type png)
 <use EC315-IMG/15.png>
 Package pdftex.def Info: EC315-IMG/15.png  used on input line 827.
@@ -762,7 +762,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 899--900
 
  []
 
-<EC315-IMG/16.png, id=120, 101.37875pt x 84.315pt>
+<EC315-IMG/16.png, id=123, 101.37875pt x 84.315pt>
 File: EC315-IMG/16.png Graphic file (type png)
 <use EC315-IMG/16.png>
 Package pdftex.def Info: EC315-IMG/16.png  used on input line 904.
@@ -772,13 +772,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 907--910
 
  []
 
-<EC315-IMG/17.png, id=121, 102.3825pt x 85.31876pt>
+<EC315-IMG/17.png, id=124, 102.3825pt x 85.31876pt>
 File: EC315-IMG/17.png Graphic file (type png)
 <use EC315-IMG/17.png>
 Package pdftex.def Info: EC315-IMG/17.png  used on input line 914.
 (pdftex.def)             Requested size: 85.36331pt x 85.36409pt.
 [22 <./EC315-IMG/16.png>]
-<EC315-IMG/18.png, id=126, 191.71625pt x 81.30376pt>
+<EC315-IMG/18.png, id=130, 191.71625pt x 81.30376pt>
 File: EC315-IMG/18.png Graphic file (type png)
 <use EC315-IMG/18.png>
 Package pdftex.def Info: EC315-IMG/18.png  used on input line 923.
@@ -793,17 +793,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 944--945
 
  []
 
-[23 <./EC315-IMG/17.png> <./EC315-IMG/18.png>] [24] (./EC315-Summary.aux)
+[23 <./EC315-IMG/17.png> <./EC315-IMG/18.png>]
+<EC315-IMG/19.png, id=136, 145.54375pt x 96.36pt>
+File: EC315-IMG/19.png Graphic file (type png)
+<use EC315-IMG/19.png>
+Package pdftex.def Info: EC315-IMG/19.png  used on input line 964.
+(pdftex.def)             Requested size: 99.58582pt x 85.35724pt.
+ [24 <./EC315-IMG/19.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1014
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1027
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1055
+
+ []
+
+<EC315-IMG/20.png, id=144, 108.405pt x 96.36pt>
+File: EC315-IMG/20.png Graphic file (type png)
+<use EC315-IMG/20.png>
+Package pdftex.def Info: EC315-IMG/20.png  used on input line 1071.
+(pdftex.def)             Requested size: 113.81702pt x 113.81111pt.
+[26] [27 <./EC315-IMG/20.png>]
+<EC315-IMG/21.png, id=152, 165.61874pt x 143.53625pt>
+File: EC315-IMG/21.png Graphic file (type png)
+<use EC315-IMG/21.png>
+Package pdftex.def Info: EC315-IMG/21.png  used on input line 1137.
+(pdftex.def)             Requested size: 142.27013pt x 128.04033pt.
+ [28 <./EC315-IMG/21.png>] (./EC315-Summary.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 14851 strings out of 492616
- 288243 string characters out of 6129480
+ 14865 strings out of 492616
+ 288508 string characters out of 6129480
  327189 words of memory out of 5000000
- 18463 multiletter control sequences out of 15000+600000
+ 18475 multiletter control sequences out of 15000+600000
  12942 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,48p,693b,1034s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -822,10 +859,10 @@ live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on EC315-Summary.pdf (26 pages, 507456 bytes).
+Output written on EC315-Summary.pdf (31 pages, 595460 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 207 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

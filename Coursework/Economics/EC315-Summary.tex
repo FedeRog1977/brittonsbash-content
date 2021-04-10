@@ -952,16 +952,196 @@
 
 	\begin{itemize}
 	\setlength\itemsep{0cm}
-		\item 
+		\item The leader implements the first player’s reaction function intro their payoff function 
+		\item First mover advantage as leader gets higher payoff
+		\item Recall from sequential games: backward induction
+		\item \textit{Linear Demand}: $P(Q)=a-bQ$
+		\item \textit{Constant Marginal Costs}: $C_i(q_i)=cq_i$
+		\item \textit{Profits}: $\pi_i(q_i,q_j)=q_i\left(a-b(q_i+q_j)\right)-cq_i$
+		\item Firm 1 moves, firm 2 observes and moves
+		\item Firm 1 is the leader, firm 2 is the follower
+		\item Recall:
+		\item \includegraphics[width=3.5cm,height=3cm]{EC315-IMG/19.png}
 	\end{itemize}
 
-		\paragraph{Step 1: Stage 2}
+		\paragraph{Backward Induction: Step 1 (Stage 2)}
 
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Firm 2 maximises profits given $q_1$
+		\item Firm 2 uses Best Response to whatever firm 1 produces
+	\end{itemize}
 
+	\begin{enumerate}
+        \setlength\itemsep{0cm}
+		\item Recall: $\pi_2=q_2(a-b(q_1+q_2))-cq_2$ (\textit{Payoff Function})
+		\item Optimise and $=0$: $\frac{\partial_{\pi2}}{\partial_{q2}}=a-2{bq}_2-bq_1-c=0$
+		\item React: ${q_2}^\ast={\hat{q}}_2\left(q_2\right)=\frac{a-c}{2b}-\frac{1}{2}q_1$ (\textit{Reaction Function})
+	\end{enumerate}
 
+	\newpage
 
+		\paragraph{Backward Induction: Step 2 (Stage 1)}
 
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Firm 1 anticipates reaction of firm 2 to any decision made
+		\item Firm 1 maximises profits given response of firm 2
+		\item Firm 1 chooses point on firm 2’s reaction function which maximises profits
+	\end{itemize}
 	
+	\begin{enumerate}                                       
+        \setlength\itemsep{0cm}
+		\item Recall: $\pi_1(q_1{,q}_2)=q_1(a-b(q_1+q_2))-cq_1$ (\textit{Payoff Function})
+		\item It Knows: if they choose $q_1$ firm 2 will respond with ${q_2}^\ast={\hat{q}}_2({q_1}^\ast)$
+		\item Firm 1 (leader): $\pi_1(q_1{,\hat{q}}_2(q_1))=q_1(a-b(q_1+{\hat{q}}_2(q_1)))-cq_1$
+		\begin{itemize}
+			\item Therefore: $\pi_1\left(q_1{,\hat{q}}_2\left(q_1\right)\right)=\frac{a-c}{2}q_1-\frac{b}{2}q_1^2$
+		\end{itemize}
+		\item So firm 1 maximises: $\frac{\delta_{\pi1(q1,q2)}}{\delta_{q1}}=\frac{a-c}{2}-{bq}_1=0$
+		\begin{itemize}
+			\item Therefore: $q_1^L=\frac{a-c}{2b}$ (\textit{Reaction Function})
+		\end{itemize}
+		\item So firm 2 (follower): $q_2^F=\frac{a-c}{2b}-\frac{1}{2}q_1^L$
+		\begin{itemize}
+			\item $q_2^F=\frac{a-c}{4b}$
+		\end{itemize}
+	\end{enumerate}
+
+		\paragraph{Stakleberg Equilibrium}
+
+	\textit{``Rather than an equilibrium, there is an advantage''}\\
+
+	\fbox{$Q^S=\frac{3(a-c)}{4b}$; $\pi_1^L=\frac{{(a-c)}^2}{8b}$; $\pi_2^F=\frac{{(a-c)}^2}{16b}$}
+
+		\paragraph{Stakleberg vs. Cournot}
+
+	Cournot: $q_1^\ast=q_1^\ast=\frac{a-c}{3b}$; $Q^\ast=\frac{2(a-c)}{3b}$; $p^\ast=\frac{a+2c}{3}$; $\pi_1^\ast=\pi_2^\ast=\frac{{(a-c)}^2}{9b}$\\
+	
+	Stakleberg:
+	\begin{tabular}{ll}
+		$q_1^L=\frac{a-c}{2b}>q_1^\ast$; & $q_2^F=\frac{a-c}{4b}<q_2^\ast$;\\
+		$Q^S=\frac{3(a-c)}{4b}>Q^\ast$; & $p^S=\frac{a+3c}{4}<p^\ast$;\\
+		$\pi_1^L=\frac{(a-c)^2}{8b}>\pi_1^\ast$; & $\pi_2^F=\frac{(a-c)^2}{16b}<\pi_2^\ast$
+	\end{tabular}\\
+	
+	Hence, first mover (firm 1) advantage
+	
+	\newpage
+
+	\subsection{Applications of Prisoner's Dilemma}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item An example of a continuous game
+		\item Rather than using \textit{Reaction Functions}, find \textit{Isoprofit Curves}
+		\item This is like indifference curves for firms
+		\item Call firms $i,j$; strategies $x_i,x_j$; payoffs $\pi(x_i,x_j)$
+	\end{itemize}
+
+		\subsubsection{Typical Reaction Function}
+
+	$${\hat{q}}_i\left(q_j\right)=\frac{a-c}{2b}-\frac{1}{2}q_j$$
+	
+	From \textit{Isoprofit} contours\\
+	Equilibrium at intersection: $q_i^\ast=q_j^\ast=\frac{a-c}{3b}$
+
+		\subsubsection{Maximising Joint Profit}
+
+	$$J\left(q_i,q_j\right)=\left(q_i+q_j\right)\left(a-b(q_i+q_j)\right)-{cq}_i-{cq}_j$$
+
+	$\frac{\partial J}{\partial q_i}=a-2b\left(q_i+q_j\right)-c=0\rightarrow{\widetilde{q}}_i\left(q_j\right)=\frac{a-c}{2b}-q_i$\\
+	$\frac{\partial J}{\partial q_j}=a-2b\left(q_i+q_j\right)-c=0\rightarrow{\widetilde{q}}_j\left(q_i\right)=\frac{a-c}{2b}-q_j$\\
+
+	Hence, assuming $q_i=q_j=\widetilde{q}$\\
+	$\widetilde{q}=\frac{a-c}{4b}$\\
+	Makes sense as: $2\left(\frac{a-c}{4b}\right)=\frac{a-c}{2b}$ (Monopoly Output)
+
+		\subsubsection{Will Firms Agree?}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Will firms agree to produce at half the monopoly output?
+		\item \textbf{No}; if firms expect you to produce more than $\widetilde{q}$;
+		\item Best possible: ${\hat{q}}_i(\widetilde{q})$ $\rightarrow$ must expand output in excess of \textit{Cournot Output}
+		\item Defecting firm: \textit{Bonanza Payoff}
+		\item Cooperating firm: \textit{Sucker Payoff}
+		\item Hence, \textit{Prisoner's Dilemma}
+		\item $\pi^B>{\frac{1}{2}\pi}^M>\pi^\ast>\pi^S$
+		\item \includegraphics[width=4cm,height=4cm]{EC315-IMG/20.png}
+	\end{itemize}
+
+		\subsubsection{Externalities}
+
+		\paragraph{Negative}
+
+	You do more, you lower my payoff (\textit{Cournot Game})\\
+	$\frac{\partial \pi_i}{\partial x_j}<0$ (slope of \textit{Payoff Function})
+
+		\paragraph{Positive}
+
+	You do more, you lower my payoff\\
+	$\frac{\partial \pi_i}{\partial x_j}>0$ (slope of \textit{Payoff Function})
+
+		\subsubsection{Strategic Nature}
+
+		\paragraph{Strategic Substitutes}
+
+	Opponent does more of their action: you optimally do less (\textit{Reaction Function} downward)\\
+	$\left(\frac{\partial\frac{\partial \pi_i}{\partial x_i}}{\partial x_j}\right)<0$ ``with a higher $x_j$, the optimum is with a lower $x_i$''
+
+		\paragraph{Strategic Compliments}
+	
+	Opponent does more of their action: you optimally do more (\textit{Reaction Function} upward)\\
+	$\left(\frac{\partial\frac{\partial \pi_i}{\partial x_i}}{\partial x_j}\right)>0$ ``with a higher $x_j$ the optimum is with a higher $x_i$''
+
+		\subsubsection{Nash Equilibrium in Games}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item When non-cooperative, players optimise self-interest
+		\item Marginal Payoff $=0$: $\frac{\partial \pi_i}{\partial x_i}=0$; $\frac{\partial \pi_j}{\partial x_j}=0$
+		\item Nash equilibrium at: ${\hat{x}}_i\left(x_j\right)$ and ${\hat{x}}_j(x_i)$
+		\item Thus, nash equilibrium actions: $x_i^\ast,x_j^\ast$
+	\end{itemize}
+
+		\subsubsection{Social Planner}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item What happens when they `internalise' the externality?
+		\item \textit{Social Planner} maximises joint payoff
+	\end{itemize}
+
+	$$J=\pi_i\left(x_i,x_j\right)+\pi_j\left(x_i,x_i\right)$$
+
+	Chooses $x_i,x_j$ to maximise\\
+	$\frac{\partial J}{\partial x_i}=\frac{\partial \pi_i}{\partial x_i}+\frac{\partial \pi_j}{\partial x_j}=0\rightarrow{\widetilde{x}}_i(x_j)$\\
+	$\frac{\partial J}{\partial x_i}=\frac{\partial \pi_i}{\partial x_i}+\frac{\partial \pi_j}{\partial x_j}=0\rightarrow{\widetilde{x}}_i\left(x_j\right)$ $\rightarrow$ these are both \textit{Social Optimums}
+
+		\subsubsection{Nash Equilibrium vs. Optimum}
+
+		\paragraph{w/ Positive Externalities}
+
+	$\frac{\partial \pi_j}{\partial x_i}>0$\\
+	So for \textit{Social Planner} ($\frac{\partial \pi_i}{\partial x_i}$ must be $<$ NE)\\
+	So ${\widetilde{x}}_i\left(x_j\right)>{\hat{x}}_i\left(x_j\right)$
+
+		\paragraph{w/ Negative Externalities}
+	
+	$\frac{\partial \pi_j}{\partial x_i}<0$\\           
+        So for \textit{Social Planner} ($\frac{\partial \pi_i}{\partial x_i}$ must be $>$ NE)\\
+        So ${\widetilde{x}}_i\left(x_j\right)<{\hat{x}}_i\left(x_j\right)$
+
+	\begin{center}
+		\includegraphics[width=5cm,height=4.5cm]{EC315-IMG/21.png}
+	\end{center}
+	
+
+
+
+
+
 
 
 

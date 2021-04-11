@@ -2,14 +2,14 @@
         \usepackage{geometry}
                 \geometry{                          
                         legalpaper,
-                        tmargin=16mm,
-                        bmargin=16mm,
-                        lmargin=12mm,
-                        rmargin=12mm,
+                        tmargin=12mm,
+                        bmargin=12mm,
+                        lmargin=8mm,
+                        rmargin=8mm,
                 }
 
-	\usepackage[T1]{fontenc}
-        \usepackage{CormorantGaramond}
+	%\usepackage[T1]{fontenc}
+        %\usepackage{CormorantGaramond}
 
         \usepackage{titlesec}         
                 \titleformat{\section}
@@ -23,7 +23,7 @@
         \usepackage{multirow}
 
         \setlength{\parindent}{0pt}
-        \renewcommand{\baselinestretch}{1.00}
+        \renewcommand{\baselinestretch}{1.25}
        	\usepackage{setspace}
 
         \usepackage{amsmath}
@@ -35,24 +35,65 @@
 
 \pagenumbering{gobble}
 
-	\title{Mathematical Symbols in {\LaTeX}}
+	\title{Symbols \& Logical Syntax in {\LaTeX}}
 	\author{Lewis Britton}
 	\date{}
 	\maketitle
 
-\subsection*{Greek \& Hebrew Alphabetical Letters}
+\subsubsection*{Greek \& Hebrew Alphabetical Letters}
 
 	\begin{center}
-	\begin{tabular}{p{1cm}p{3cm}p{0.5cm}p{1.5cm}p{0.5cm}p{1.5cm}p{0.5cm}p{1.5cm}p{0.5cm}p{1.5cm}p{0.5cm}p{1.5cm}}
-		\hline
-		$\alpha$ \& A & \texttt{\textbackslash alpha} \& \texttt{\textbackslash Alpha} & & & & & & & & & & ...\\
-		$\beta$ \& $\beta$ & \\
-		\hline
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll}
+		A, $\alpha$ & \verb|\Alpha|, \verb|\alpha| & I, $\iota$ & \verb|\Iota|, \verb|\iota| & P, $\rho$, $\varrho$ & \verb|\Rho|, \verb|\rho|, \verb|\varrho| & $\digamma$ & \verb|\digamma| \\
+		B, $\beta$ & \verb|\Beta|, \verb|\beta| & K, $\kappa$, $\varkappa$ & \verb|\Kappa|, \verb|\kappa|, \verb|\varkappa| & $\Sigma$, $\sigma$, $\varsigma$ & \verb|\Sigma|, \verb|\sigma|, \verb|\varsigma| & $\aleph$ & \verb|\aleph| \\
+		$\Gamma$, $\gamma$ & \verb|\Gamma|, \verb|\gamma| & $\Lambda$, $\lambda$ & \verb|\Lambda|, \verb|\lambda| & T, $\tau$ & \verb|\Tau|, \verb|\tau| & $\beth$ & \verb|\beth| \\
+		$\Delta$, $\delta$ & \verb|\Delta|, \verb|\delta| & M, $\mu$ & \verb|\Mu|, \verb|\mu| & $\Upsilon$, $\upsilon$ & \verb|\Upsilon|, \verb|\upsilon| & $\daleth$ & \verb|\daleth|\\
+		E, $\epsilon$, $\varepsilon$ & \verb|\Epsilon|, \verb|\epsilon|, \verb|\varepsilon| & N, $\nu$ & \verb|\Nu|, \verb|\nu| & $\Phi$, $\phi$, $\varphi$ & \verb|\Phi|, \verb|\phi|, \verb|\varphi| & $\gimel$ & \verb|\gimel| \\
+		Z, $\zeta$ & \verb|\Zeta|, \verb|\zeta| & $\Xi$, $\xi$ & \verb|\Xi|, \verb|\xi| & X, $\chi$, & \verb|\Chi|, \verb|\chi| \\
+		H, $\eta$ & \verb|\Eta|, \verb|\eta| & O, o & \verb|\Omicron|, \verb|\omicron| & $\Psi$, $\psi$ & \verb|\Psi|, \verb|\psi| \\
+		$\Theta$, $\theta$, $\vartheta$ & \verb|\Theta|, \verb|\theta|, \verb|\vartheta| & $\Pi$, $\pi$, $\varpi$ & \verb|\Pi|, \verb|\pi|, \verb|\varpi| & $\Omega$, $\omega$ & \verb|\Omega|, \verb|\omega| \\
+	\end{tabular}
+	\end{center}
+
+\subsubsection*{Basic Math Mode Syntax}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll}
+		$XYZ\ xyz$ & \verb|$XYZ\ xyz$| & $\mathrm{XYZ\ xyz}$ & \verb|$\mathrm{XYZ\ xyz}$| & $\mathit{XYZ\ xyz}$ & \verb|$\mathit{XYZ\ xyz}$| & $\mathbf{XYZ\ xyz}$ & \verb|$\mathbf{XYZ\ xyz}$|\\
+		$\mathbb{XYZ}$ & \verb|\mathbb{XYZ}| & $\mathcal{XYZ}$ & \verb|$\mathcal{XYZ}$| & $\mathfrak{XYZ\ xyz}$ & \verb|$\mathfrak{XYZ\ xyz}$| & $\mathtt{XYZ\ xyz}$ & \verb|$\mathtt{XYZ\ xyz}$|\\
+	\end{tabular}
+	\end{center}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{lll|lll}
+		$xyz$ & \verb|$xyz$| & Math spacing & $\sin x\cos y$ & \verb|$\sin x\cos y$| & Operator spacing\\
+		$x\ y\ z$ & \verb|$x\ y\ z$| & Extended spacing & $a\,b\mspace{3mu}c\thinspace d$ & \verb|$a\,b\mspace{3mu}c\thinspace d$| & 3mu (`thin') space\\
+		$a\:b\mspace{4mu}c\medspace d$ & \verb|$a\:b\mspace{4mu}c\medspace d$| & 4mu (`medium') space & $a\;b\mspace{5mu}c\thickspace d$ & \verb|$a\;b\mspace{5mu}c\thickspace d$| & 5mu (`thick') space\\
+		$a\quad b\mspace{18mu}c\quad d$ & \verb|$a\quad b\mspace{18mu}c\quad d$| & 18mu (`quad') space & $a\!b\mspace{-3mu}c\negthinspace d$ & \verb|$a\!b\mspace{-3mu}c\negthinspace d$| & Neg. 3mu (`thin') space\\
+		$a\phantom{xxx}b$ & \verb|$a\phantom{xxx}b$| & Width of `xxx'\\
+	\end{tabular}
+	\end{center}
+
+\subsubsection*{Math Accents \& Constructs}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll|ll}
+		$\hat{x}$ & \verb|\hat{x}| & $\check{x}$ & \verb|$\check{x}$| & $\tilde{x}$ & \verb|$\tilde{x}$| & $\acute{x}$ & \verb|$\acute{x}$| & $\grave{x}$ & \verb|$\grave{x}$|\\
+		$\dot{x}$ & \verb|$\dot{x}$| & $\ddot{x}$ & \verb|$\ddot{x}$| & $\breve{x}$ & \verb|$\breve{x}$| & $\bar{x}$ & \verb|$\bar{x}$| & $\vec{x}$ & \verb|$\vec{x}$|\\
+		$\widehat{xyz}$ & \verb|$\widehat{xyz}$| & $\widetilde{xyz}$ & \verb|$\widetilde{xyz}$| & $\frac{abc}{xyz}$ & \verb|\frac{abc}{xyz}| & $f,\ f'$ & \verb|$f,\ f'$| & $\sqrt{x}$ & \verb|$\sqrt{x}$|\\
+		$\sqrt[n]{x}$ & \verb|$\sqrt[n]{x}$| & $\overline{xyz}$ & \verb|$\overline{xyz}$| & $\underline{xyz}$ & \verb|$\underline{xyz}$| & $\overbrace{xyz}$ & \verb|$\overbrace{xyz}$| & $\underbrace{xyz}$ & \verb|$\underbrace{xyz}$|\\
+		$\overrightarrow{xyz}$ & \verb|$\overrightarrow{xyz}$| & $\overleftarrow{xyz}$ & \verb|$\overleftarrow{xyz}$| \\
 	\end{tabular}
 	\end{center}
 
 
-This is some test text. This is some test text. This is some test text. This is some test text. This is some test text. This is some test text. This is some test text.
+
+
+
 
 
 

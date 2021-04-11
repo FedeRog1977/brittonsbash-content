@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  11 APR 2021 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  11 APR 2021 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -160,6 +160,12 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -304,6 +310,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 42.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Try loading font information for U+lasy on input line 42.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
 LaTeX Font Info:    Try loading font information for U+euf on input line 66.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueuf.fd
@@ -313,11 +324,11 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Symb
 ol-List.aux) ) 
 Here is how much of TeX's memory you used:
- 3289 strings out of 492616
- 44493 string characters out of 6129480
- 130066 words of memory out of 5000000
- 7145 multiletter control sequences out of 15000+600000
- 15021 words of font info for 59 fonts, out of 8000000 for 9000
+ 3316 strings out of 492616
+ 45078 string characters out of 6129480
+ 139012 words of memory out of 5000000
+ 7161 multiletter control sequences out of 15000+600000
+ 15763 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,20n,28p,278b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
@@ -336,9 +347,9 @@ r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/
 local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Symbol-List.pdf (1 page, 183385 bytes).
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy7.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on Symbol-List.pdf (1 page, 190467 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream

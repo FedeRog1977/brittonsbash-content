@@ -85,7 +85,7 @@
 	\begin{tabular}{ll|ll|ll|ll|ll}
 		$\hat{x}$ & \verb|\hat{x}| & $\check{x}$ & \verb|\check{x}| & $\tilde{x}$ & \verb|\tilde{x}| & $\acute{x}$ & \verb|\acute{x}| & $\grave{x}$ & \verb|\grave{x}|\\
 		$\dot{x}$ & \verb|\dot{x}| & $\ddot{x}$ & \verb|\ddot{x}| & $\breve{x}$ & \verb|\breve{x}| & $\bar{x}$ & \verb|\bar{x}| & $\vec{x}$ & \verb|\vec{x}|\\
-		$\widehat{xyz}$ & \verb|\widehat{xyz}| & $\widetilde{xyz}$ & \verb|\widetilde{xyz}| & $\frac{abc}{xyz}$ & \verb|\frac{abc}{xyz}| & $f$, $f'$ & \verb|f|, \verb|f'| & $\sqrt{x}$ & \verb|\sqrt{x}|\\
+		$\widehat{xyz}$ & \verb|\widehat{xyz}| & $\widetilde{xyz}$ & \verb|\widetilde{xyz}| & $\frac{abc}{xyz}$ & \verb|\frac{abc}{xyz}| & $f$, $f\prime$ & \verb|f|, \verb|f\prime| & $\sqrt{x}$ & \verb|\sqrt{x}|\\
 		$\sqrt[n]{x}$ & \verb|\sqrt[n]{x}| & $\overline{xyz}$ & \verb|\overline{xyz}| & $\underline{xyz}$ & \verb|\underline{xyz}| & $\overbrace{xyz}$ & \verb|\overbrace{xyz}| & $\underbrace{xyz}$ & \verb|\underbrace{xyz}|\\
 		$\overrightarrow{xyz}$ & \verb|\overrightarrow{xyz}| & $\overleftarrow{xyz}$ & \verb|\overleftarrow{xyz}| \\
 	\end{tabular}
@@ -93,7 +93,7 @@
 
 \subsubsection*{Binary Relations}
 
-	Note that you can produce according negations by either adding the \verb|\not| command as a prefix or ordinarily by preceding the commands with `\verb|n|', for example, \verb|\not=| or \verb|\neq| turns $=$ to $\neq$.
+	Note that you can produce according negations by either adding the \verb|\not| command as a prefix or ordinarily by preceding the commands with `\verb|n|'. For example, \verb|\not=| or \verb|\neq| turns $=$ to $\neq$.
 
 	\begin{center}
 		\scriptsize
@@ -102,11 +102,18 @@
 		$\le$ & \verb|\leq| or \verb|\le| & $\ge$ & \verb|\geq| or \verb|\ge| & $\equiv$ & \verb|\equiv| & $\vdash$ & \verb|\vdash| & $\dashv$ & \verb|\dashv| \\
 		$\ll$ & \verb|\ll| & $\gg$ & \verb|\gg| & $\doteq$ & \verb|\doteq| & $\mid$ & \verb|\mid| & $\parallel$ & \verb|\parallel| \\
 		$\prec$ & \verb|\prec| & $\succ$ & \verb|\succ| & $\sim$ & \verb|\sim| & $\smile$ & \verb|\smile| & $\frown$ & \verb|\frown| \\
-		$\preceq$ & \verb|\preceq| & $\succeq$ & \verb|\succeq| & $\simeq$ & \verb|\simeq| & $:$ & \verb|:| & $\notin$ & \verb|\notin| \\
+		$\preceq$ & \verb|\preceq| & $\succeq$ & \verb|\succeq| & $\simeq$ & \verb|\simeq| & $\colon$ & \verb|\colon| or \verb|:| & $;$ & \verb|;| \\
 		$\subset$ & \verb|\subset| & $\supset$ & \verb|\supset| & $\approx$ & \verb|\approx| & $\models$ & \verb|\models| & $\perp$ & \verb|\perp| \\
 		$\subseteq$ & \verb|\subseteq| & $\supseteq$ & \verb|\supseteq| & $\cong$ & \verb|\cong| & $\asymp$ & \verb|\asymp| & $\propto$ & \verb|\propto| \\
 		$\sqsubset$ & \verb|\sqsubset| & $\sqsupset$ & \verb|\sqsupset| & $\Join$ & \verb|Join| & $\neq$ & \verb|\neq| & $\forall$ & \verb|\forall| \\
-		$\sqsubseteq$ & \verb|\sqsubseteq| & $\sqsupseteq$ & \verb|\sqsupseteq| & $\bowtie$ & \verb|\bowtie| \\
+		$\sqsubseteq$ & \verb|\sqsubseteq| & $\sqsupseteq$ & \verb|\sqsupseteq| & $\bowtie$ & \verb|\bowtie| & $\notin$ & \verb|\notin| \\
+	\end{tabular}
+	\end{center}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll|ll|ll|ll}
+		$.$ & \verb|.| & $,$ & \verb|,| & $'$ & \verb|'| & $\prime$ & \verb|\prime| & $"$ & \verb|''| or \verb|"| & $!$ & \verb|!| & $?$ & \verb|?| \\
 	\end{tabular}
 	\end{center}
 
@@ -123,6 +130,37 @@
 		$\sqcup$ & \verb|\sqcup| & $\sqcap$ & \verb|\sqcap| & $\triangleleft$ & \verb|\triangleleft| & $\triangleright$ & \verb|\triangleright| & $\amalg$ & \verb|\amalg| & $\uplus$ & \verb|\uplus| \\
 	\end{tabular}
 	\end{center}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll|ll|ll}
+		$\sum$ & \verb|\sum| & $\int$ & \verb|\int| & $\bigcap$ & \verb|\bigcap| & $\bigoplus$ & \verb|\bigoplus| & $\bigvee$ & \verb|bigvee|\\
+		$\prod$ & \verb|\prod| & $\oint$ & \verb|\oint| & $\bigcup$ & \verb|\bigcup| & $\bigotimes$ & \verb|\bigotimes| & $\bigwedge$ & \verb|\bigwedge|\\
+		$\coprod$ & \verb|\coprod| & $\iint$ & \verb|\iint| & $\biguplus$ & \verb|\bigoplus| & $\bigodot$ & \verb|\bigodot| & $\bigsqcup$ & \verb|\bigsqcup|\\
+	\end{tabular}
+	\end{center}
+
+\subsubsection*{Delimiters}
+
+	Note that you can produce according relatively sized symbols by preceding the commands with \verb|\left| or \verb|\right|. For example, \verb|\left(\frac{abc}{xyz}\right)| turns $(\frac{abc}{xyz})$ to $\left(\frac{abc}{xyz}\right)$.
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll|ll|ll}
+		$($ & \verb|(| & $\lbrack$ & \verb|\lbrack| or \verb|[| & $\langle$ & \verb|\langle| & $\lfloor$ & \verb|\lfloor| & $\ulcorner$ & \verb|\ulcorner| & $\uparrow$ & \verb|\uparrow| \\
+		$)$ & \verb|)| & $\rbrack$ & \verb|\rbrack| or \verb|]| & $\rangle$ & \verb|\rangle| & $\lceil$ & \verb|\lceil| & $\urcorner$ & \verb|\urcorner| & $\downarrow$ & \verb|\downarrow| \\
+		$\vert$ & \verb|\vert| or $\mathtt{|}$ & $\lbrace$ & \verb|\lbrace| or \verb|\{| & $\lceil$ & \verb|\lceil| & $/$ & \verb|/| & $\llcorner$ & \verb|\llcorner| & $\Uparrow$ & \verb|\Uparrow| \\
+		$\Vert$ & \verb|\Vert| or $\verb|\||$ & $\rbrace$ & \verb|\rbrace| or \verb|\}| & $\lfloor$ & \verb|\lfloor| & $\backslash$ & \verb|\backslash| & $\lrcorner$ & \verb|\rcorner| & $\Downarrow$ & \verb|\Downarrow| \\
+	\end{tabular}
+	\end{center}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll|ll|ll|ll}
+		$\lgroup$ & \verb|\lgroup| & $\rgroup$ & \verb|\rgroup| & $\lmoustache$ & \verb|\lmoustache| & $\rmoustache$ & \verb|\rmoustache| & $\arrowvert$ & \verb|\arrowvert| & $\Arrowvert$ & \verb|\Arrowvert| & $\bracevert$ & \verb|\bracevert| \\
+	\end{tabular}
+	\end{center}
+
 
 
 

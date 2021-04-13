@@ -16,6 +16,8 @@
 
         \usepackage{longtable}
         \usepackage{multirow}
+	\usepackage{array}
+	\usepackage{booktabs}
 
         \setlength{\parindent}{0pt}
         \renewcommand{\baselinestretch}{1.25}
@@ -62,8 +64,12 @@
 		$\digamma$ & \verb|\digamma| & $\complement$ & \verb|\complement| & $\Im$ & \verb|\Im| & $\Game$ & \verb|\Game| & \pounds & \verb|\pounds| & . & \verb|.| \\
 		$\aleph$ & \verb|\aleph| & $\ell$ & \verb|\ell| & $\Re$ & \verb|\Re| & $\Finv$ & \verb|\Finv| & $\$$ & \verb|\$| & , & \verb|,| \\
 		$\beth$ & \verb|\beth| & $\eth$ & \verb|\eth| & $\mho$ & \verb|\mho| & $\partial$ & \verb|\partial| & $\S$ & \verb|\S| & `, ' & \verb|`|, \verb|'| \\
-		$\daleth$ & \verb|\daleth| & $\hbar$ & \verb|\hbar| & $\wp$ & \verb|\wp| & \texttrademark & \verb|\trademark| & ! & \verb|!| & ``, '' & \verb|``|, \verb|''| or \verb|"| \\
-		$\gimel$ & \verb|\gimel| & $\hslash$ & \verb|\hslash| & $\Bbbk$ & \verb|\Bbbk| & \textregistered, \circledR & \verb|\textregistered|, \verb|\circledR| & ? & \verb|?| & :, ; & \verb|\colon| or \verb|:|, \verb|;| \\
+		$\daleth$ & \verb|\daleth| & $\hbar$ & \verb|\hbar| & $\wp$ & \verb|\wp| & \texttrademark, \copyright & \verb|\trademark|, \verb|\copyright| & ! & \verb|!| & ``, '' & \verb|``|, \verb|''| or \verb|"| \\
+		$\gimel$ & \verb|\gimel| & $\hslash$ & \verb|\hslash| & $\Bbbk$ & \verb|\Bbbk| & \textregistered, \circledR & \verb|\textregistered|, \verb|\circledR| & ? & \verb|?| & : & \verb|\colon| or \verb|:| \\
+		$\imath$ & \verb|\imath| & $\top$ & \verb|\top| & $\emptyset$ & \verb|\emptyset| & $\diamondsuit$ & \verb|\diamondsuit| & $\natural$ &\verb|\natural| & ; & \verb|;| \\
+		$\jmath$ & \verb|\jmath| & $\bot$ & \verb|bot| & $\infty$ & \verb|\infty| & $\heartsuit$ & \verb|\heartsuit| & $\sharp$ & \verb|\sharp| & & \\
+		$\nabla$ & \verb|\nabla| & $\angle$ & \verb|\angle| & $\Box$ & \verb|\Box| & $\clubsuit$ & \verb|\clubsuit| & $\flat$ & \verb|\flat| & & \\
+		$\triangle$ & \verb|\triangle| & $\surd$ & \verb|\surd| & $\Diamond$ & \verb|Diamond| & $\spadesuit$ & \verb|\spadesuit| & & & & \\
 	\end{tabular}
 	\end{center}
 
@@ -113,15 +119,17 @@
 		$\le$ & \verb|\leq| or \verb|\le| & $\ge$ & \verb|\geq| or \verb|\ge| & $\equiv$ & \verb|\equiv| & $\vdash$ & \verb|\vdash| & $\dashv$ & \verb|\dashv| \\
 		$\ll$ & \verb|\ll| & $\gg$ & \verb|\gg| & $\doteq$ & \verb|\doteq| & $\mid$ & \verb|\mid| & $\parallel$ & \verb|\parallel| \\
 		$\prec$ & \verb|\prec| & $\succ$ & \verb|\succ| & $\sim$ & \verb|\sim| & $\smile$ & \verb|\smile| & $\frown$ & \verb|\frown| \\
-		$\preceq$ & \verb|\preceq| & $\succeq$ & \verb|\succeq| & $\simeq$ & \verb|\simeq| & & &  \\
+		$\preceq$ & \verb|\preceq| & $\succeq$ & \verb|\succeq| & $\simeq$ & \verb|\simeq| & $\exists$ & \verb|\exists| & $\lnot$ & \verb|\lnot| or \verb|\neg| \\
 		$\subset$ & \verb|\subset| & $\supset$ & \verb|\supset| & $\approx$ & \verb|\approx| & $\models$ & \verb|\models| & $\perp$ & \verb|\perp| \\
 		$\subseteq$ & \verb|\subseteq| & $\supseteq$ & \verb|\supseteq| & $\cong$ & \verb|\cong| & $\asymp$ & \verb|\asymp| & $\propto$ & \verb|\propto| \\
 		$\sqsubset$ & \verb|\sqsubset| & $\sqsupset$ & \verb|\sqsupset| & $\Join$ & \verb|Join| & $\neq$ & \verb|\neq| & $\forall$ & \verb|\forall| \\
-		$\sqsubseteq$ & \verb|\sqsubseteq| & $\sqsupseteq$ & \verb|\sqsupseteq| & $\bowtie$ & \verb|\bowtie| & $\notin$ & \verb|\notin| & $\prime$ & \verb|\prime| \\
+		$\sqsubseteq$ & \verb|\sqsubseteq| & $\sqsupseteq$ & \verb|\sqsupseteq| & $\bowtie$ & \verb|\bowtie| & $\notin$ & \verb|\notin| & $\prime$, $\backprime$ & \verb|\prime|, \verb|\backprime| \\
 	\end{tabular}
 	\end{center}
 
 \section{Binary Operators}
+
+	\subsection{Standard Operators}
 
 	\begin{center}
 		\scriptsize
@@ -135,6 +143,8 @@
 	\end{tabular}
 	\end{center}
 
+	\subsection{Large Operators}
+
 	\begin{center}
 		\scriptsize
 	\begin{tabular}{ll|ll|ll|ll|ll|ll}
@@ -144,9 +154,27 @@
 	\end{tabular}
 	\end{center}
 
+	\subsection{Functions}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll}
+		$\arccos$ & \verb|\arcoss| & $\csc$ & \verb|\csc| & $\injlim$ & \verb|\injlim| & $\max$ & \verb|\max| \\
+		$\arcsin$ & \verb|\arcsin| & $\deg$ & \verb|\deg| & $\ker$ & \verb|\ker| & $\min$ & \verb|\min| \\
+		$\arctan$ & \verb|\arctan| & $\det$ & \verb|\det| & $\lg$ & \verb|\lg| & $\Pr$ & \verb|\Pr| \\
+		$\arg$ & \verb|\arg| & $\dim$ & \verb|\dim| & $\lim$ & \verb|\lim| & $\projlim$ & \verb|\projlim| \\
+		$\cos$ & \verb|\cos| & $\exp$ & \verb|\exp| & $\liminf$ & \verb|\liminf| & $\sec$ & \verb|\sec| \\
+		$\cosh$ & \verb|\cosh| & $\gcd$ & \verb|\gcd| & $\limsup$ & \verb|\limsup| & $\sin$ & \verb|\sin| \\
+		$\cot$ & \verb|\cot| & $\hom$ & \verb|\hom| & $\ln$ & \verb|\ln| & $\sinh$ & \verb|\sinh| \\
+		$\coth$ & \verb|\coth| & $\inf$ & \verb|\inf| & $\log$ & \verb|\log| & $\sup$ & \verb|sup| \\ 
+	\end{tabular}
+	\end{center}
+
 \section{Delimiters}
 
 	Note that you can produce according relatively sized symbols by preceding the commands with \verb|\left| or \verb|\right|. For example, \verb|\left(\frac{abc}{xyz}\right)| turns $(\frac{abc}{xyz})$ to $\left(\frac{abc}{xyz}\right)$. Sometimes commands can be preceded with  `\verb|l|' or `\verb|r|' e.g., \verb|\lVert xyz\rVert| makes $\lVert xyz\rVert$. Thus, giving the \verb|\Vert| command properties of paired symbols.
+
+	\subsection{Standard Delimiters}
 
 	\begin{center}
 		\scriptsize
@@ -158,12 +186,14 @@
 	\end{tabular}
 	\end{center}
 
-	%\begin{center}
-		%\scriptsize
-	%\begin{tabular}{ll|ll|ll|ll|ll|ll|ll}
-		%$\lgroup$ & \verb|\lgroup| & $\rgroup$ & \verb|\rgroup| & $\lmoustache$ & \verb|\lmoustache| & $\rmoustache$ & \verb|\rmoustache| & $\arrowvert$ & \verb|\arrowvert| & $\Arrowvert$ & \verb|\Arrowvert| & $\bracevert$ & \verb|\bracevert| \\
-	%\end{tabular}
-	%\end{center}
+	\subsection{Large Delimiters}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll|ll|ll|ll}
+		$\lgroup$ & \verb|\lgroup| & $\rgroup$ & \verb|\rgroup| & $\lmoustache$ & \verb|\lmoustache| & $\rmoustache$ & \verb|\rmoustache| & $\arrowvert$ & \verb|\arrowvert| & $\Arrowvert$ & \verb|\Arrowvert| & $\bracevert$ & \verb|\bracevert| \\
+	\end{tabular}
+	\end{center}
 
 \section{Arrows}	
 
@@ -193,6 +223,47 @@
 	\end{tabular}
 	\end{center}
 
+	...
+
+\section{Matrices}
+
+Note that any of the following can also be displayed inline as well as stand-alone. It's recommended that you use \verb|smallmatrix| for this. Thus, you must preceed and succeed \verb|\begin| and \verb|\end| \verb|smallmatrix| with \verb|\left<delimiter>| and \verb|\right<delimiter>|, respectively. For example, \verb|\left(\begin{smallmatrix}a & b & c\\x & y & z\end{smallmatrix}\right)| yields $\left(\begin{smallmatrix}a & b & c\\x & y & z\end{smallmatrix}\right)$. 
+
+	\subsection{Syntax}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll}
+		\multirow{4}{*}{$\begin{matrix}a&b&c\\x&y&z\end{matrix}$} & \verb|\begin{matrix}| & \multirow{4}{*}{$\begin{pmatrix}a&b&c\\x&y&z\end{pmatrix}$} & \verb|\begin{pmatrix}| & \multirow{4}{*}{$\begin{bmatrix}a&b&c\\x&y&z\end{bmatrix}$} & \verb|\begin{bmatrix}|\\ 
+		& \verb|a & b & c\\| & & \verb|a & b & c\\| & & \verb|a & b & c\\|\\ 
+		& \verb|x & y & z| & & \verb|x & y & z| & & \verb|x & y & z|\\ 
+		& \verb|\end{matrix}| & & \verb|\end{pmatrix}| & & \verb|\end{bmatrix}|\\
+		\multicolumn{2}{l|}{} & \multicolumn{2}{l|}{} & \multicolumn{2}{l}{}\\
+                \multirow{4}{*}{$\begin{Bmatrix}a&b&c\\x&y&z\end{Bmatrix}$} & \verb|\begin{Bmatrix}| & \multirow{4}{*}{$\begin{vmatrix}a&b&c\\x&y&z\end{vmatrix}$} & \verb|\begin{vmatrix}| & \multirow{4}{*}{$\begin{Vmatrix}a&b&c\\x&y&z\end{Vmatrix}$} & \verb|\begin{Vmatrix}|\\
+                & \verb|a & b & c\\| & & \verb|a & b & c\\| & & \verb|a & b & c\\|\\
+                & \verb|x & y & z| & & \verb|x & y & z| & & \verb|x & y & z|\\
+                & \verb|\end{Bmatrix}| & & \verb|\end{vmatrix}| & & \verb|\end{Vmatrix}|\\
+	\end{tabular}
+	\end{center}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll}
+		\multirow{4}{*}{$\left\lceil\begin{matrix}a&b&c\\x&y&z\end{matrix}\right\rceil$} & \verb|\left\lceil\begin{matrix}| & \multirow{4}{*}{$\left\langle\begin{matrix}a&b&c\\x&y&z\end{matrix}\right\Vert$} & \verb|\left\langle\begin{matrix}|\\
+		& \verb|a & b & c\\| & & \verb|a & b & c\\|\\ 
+		& \verb|x & y & z| & & \verb|x & y & z| \\
+		& \verb|\left\rceil\end{matrix}| & & \verb|\right\Vert\end{pmatrix}|\\
+	\end{tabular}
+	\end{center}
+
+	\subsection{Dots}
+
+	\begin{center}
+                \scriptsize
+        \begin{tabular}{ll|ll|ll|ll}
+                $\dots$ & \verb|\dots| or \verb|\ldots| & $\cdots$ & \verb|\cdots| & $\ddots$ & \verb|\ddots| & $\vdots$ & \verb|\vdots|\\
+        \end{tabular}
+        \end{center}
 
 
 

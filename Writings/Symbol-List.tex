@@ -8,16 +8,11 @@
                         rmargin=8mm,
                 }
 
-	%\usepackage[T1]{fontenc}
-        %\usepackage{CormorantGaramond}
-
-        \usepackage{titlesec}         
+	\usepackage[center]{titlesec}         
                 \titleformat{\section}
-                        {\normalfont\fontsize{18}{16}\bfseries}{\thesection}{0.5em}{}
+                        {\fontsize{11}{16}\bfseries}{}{0em}{}
                 \titleformat{\subsection}
-                        {\normalfont\fontsize{14}{16}\bfseries}{\thesubsection}{1em}{}
-                \titleformat{\subsubsection}
-                        {\normalfont\fontsize{11}{16}\bfseries}{\thesubsubsection}{1em}{}
+			{\fontsize{10}{16}\centering}{}{0em}{}
 
         \usepackage{longtable}
         \usepackage{multirow}
@@ -41,23 +36,38 @@
 	\date{}
 	\maketitle
 
-\subsubsection*{Greek \& Hebrew Alphabetical Letters}
+\section{Greek \& Hebrew Letters}
+
+	\subsection{Alphabetical Characters}
 
 	\begin{center}
 		\scriptsize
-	\begin{tabular}{ll|ll|ll|ll}
-		A, $\alpha$ & \verb|\Alpha|, \verb|\alpha| & I, $\iota$ & \verb|\Iota|, \verb|\iota| & P, $\rho$, $\varrho$ & \verb|\Rho|, \verb|\rho|, \verb|\varrho| & $\digamma$ & \verb|\digamma| \\
-		B, $\beta$ & \verb|\Beta|, \verb|\beta| & K, $\kappa$, $\varkappa$ & \verb|\Kappa|, \verb|\kappa|, \verb|\varkappa| & $\Sigma$, $\sigma$, $\varsigma$ & \verb|\Sigma|, \verb|\sigma|, \verb|\varsigma| & $\aleph$ & \verb|\aleph| \\
-		$\Gamma$, $\gamma$ & \verb|\Gamma|, \verb|\gamma| & $\Lambda$, $\lambda$ & \verb|\Lambda|, \verb|\lambda| & T, $\tau$ & \verb|\Tau|, \verb|\tau| & $\beth$ & \verb|\beth| \\
-		$\Delta$, $\delta$ & \verb|\Delta|, \verb|\delta| & M, $\mu$ & \verb|\Mu|, \verb|\mu| & $\Upsilon$, $\upsilon$ & \verb|\Upsilon|, \verb|\upsilon| & $\daleth$ & \verb|\daleth|\\
-		E, $\epsilon$, $\varepsilon$ & \verb|\Epsilon|, \verb|\epsilon|, \verb|\varepsilon| & N, $\nu$ & \verb|\Nu|, \verb|\nu| & $\Phi$, $\phi$, $\varphi$ & \verb|\Phi|, \verb|\phi|, \verb|\varphi| & $\gimel$ & \verb|\gimel| \\
+	\begin{tabular}{ll|ll|ll}
+		A, $\alpha$ & \verb|\Alpha|, \verb|\alpha| & I, $\iota$ & \verb|\Iota|, \verb|\iota| & P, $\rho$, $\varrho$ & \verb|\Rho|, \verb|\rho|, \verb|\varrho| \\
+		B, $\beta$ & \verb|\Beta|, \verb|\beta| & K, $\kappa$, $\varkappa$ & \verb|\Kappa|, \verb|\kappa|, \verb|\varkappa| & $\Sigma$, $\sigma$, $\varsigma$ & \verb|\Sigma|, \verb|\sigma|, \verb|\varsigma| \\
+		$\Gamma$, $\gamma$ & \verb|\Gamma|, \verb|\gamma| & $\Lambda$, $\lambda$ & \verb|\Lambda|, \verb|\lambda| & T, $\tau$ & \verb|\Tau|, \verb|\tau| \\
+		$\Delta$, $\delta$ & \verb|\Delta|, \verb|\delta| & M, $\mu$ & \verb|\Mu|, \verb|\mu| & $\Upsilon$, $\upsilon$ & \verb|\Upsilon|, \verb|\upsilon| \\
+		E, $\epsilon$, $\varepsilon$ & \verb|\Epsilon|, \verb|\epsilon|, \verb|\varepsilon| & N, $\nu$ & \verb|\Nu|, \verb|\nu| & $\Phi$, $\phi$, $\varphi$ & \verb|\Phi|, \verb|\phi|, \verb|\varphi| \\
 		Z, $\zeta$ & \verb|\Zeta|, \verb|\zeta| & $\Xi$, $\xi$ & \verb|\Xi|, \verb|\xi| & X, $\chi$, & \verb|\Chi|, \verb|\chi| \\
 		H, $\eta$ & \verb|\Eta|, \verb|\eta| & O, o & \verb|\Omicron|, \verb|\omicron| & $\Psi$, $\psi$ & \verb|\Psi|, \verb|\psi| \\
 		$\Theta$, $\theta$, $\vartheta$ & \verb|\Theta|, \verb|\theta|, \verb|\vartheta| & $\Pi$, $\pi$, $\varpi$ & \verb|\Pi|, \verb|\pi|, \verb|\varpi| & $\Omega$, $\omega$ & \verb|\Omega|, \verb|\omega| \\
 	\end{tabular}
 	\end{center}
 
-\subsubsection*{Basic Math Mode Syntax}
+	\subsection{Miscellaneous Characters \& Punctuation}
+
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll|ll|ll}
+		$\digamma$ & \verb|\digamma| & $\complement$ & \verb|\complement| & $\Im$ & \verb|\Im| & $\Game$ & \verb|\Game| & \pounds & \verb|\pounds| & . & \verb|.| \\
+		$\aleph$ & \verb|\aleph| & $\ell$ & \verb|\ell| & $\Re$ & \verb|\Re| & $\Finv$ & \verb|\Finv| & $\$$ & \verb|\$| & , & \verb|,| \\
+		$\beth$ & \verb|\beth| & $\eth$ & \verb|\eth| & $\mho$ & \verb|\mho| & $\partial$ & \verb|\partial| & $\S$ & \verb|\S| & `, ' & \verb|`|, \verb|'| \\
+		$\daleth$ & \verb|\daleth| & $\hbar$ & \verb|\hbar| & $\wp$ & \verb|\wp| & \texttrademark & \verb|\trademark| & ! & \verb|!| & ``, '' & \verb|``|, \verb|''| or \verb|"| \\
+		$\gimel$ & \verb|\gimel| & $\hslash$ & \verb|\hslash| & $\Bbbk$ & \verb|\Bbbk| & \textregistered, \circledR & \verb|\textregistered|, \verb|\circledR| & ? & \verb|?| & :, ; & \verb|\colon| or \verb|:|, \verb|;| \\
+	\end{tabular}
+	\end{center}
+
+\section{Basic Math Mode Syntax}
 
 	\begin{center}
 		\scriptsize
@@ -78,7 +88,7 @@
 	\end{tabular}
 	\end{center}
 
-\subsubsection*{Math Accents \& Constructs}
+\section{Math Accents \& Constructs}
 
 	\begin{center}
 		\scriptsize
@@ -87,11 +97,12 @@
 		$\dot{x}$ & \verb|\dot{x}| & $\ddot{x}$ & \verb|\ddot{x}| & $\breve{x}$ & \verb|\breve{x}| & $\bar{x}$ & \verb|\bar{x}| & $\vec{x}$ & \verb|\vec{x}|\\
 		$\widehat{xyz}$ & \verb|\widehat{xyz}| & $\widetilde{xyz}$ & \verb|\widetilde{xyz}| & $\frac{abc}{xyz}$ & \verb|\frac{abc}{xyz}| & $f$, $f\prime$ & \verb|f|, \verb|f\prime| & $\sqrt{x}$ & \verb|\sqrt{x}|\\
 		$\sqrt[n]{x}$ & \verb|\sqrt[n]{x}| & $\overline{xyz}$ & \verb|\overline{xyz}| & $\underline{xyz}$ & \verb|\underline{xyz}| & $\overbrace{xyz}$ & \verb|\overbrace{xyz}| & $\underbrace{xyz}$ & \verb|\underbrace{xyz}|\\
-		$\overrightarrow{xyz}$ & \verb|\overrightarrow{xyz}| & $\overleftarrow{xyz}$ & \verb|\overleftarrow{xyz}| \\
+		$\overrightarrow{xyz}$ & \verb|\overrightarrow{xyz}| & $\overleftarrow{xyz}$ & \verb|\overleftarrow{xyz}| & $\overleftrightarrow{xyz}$ & \verb|\overleftrightarrow{xyz}| & $\xleftarrow[abc]{xyz}$ & \verb|\xleftarrow[abc]{xyz}| & $\xleftarrow[abc]{xyz}$ & \verb|\xrightarrow[abc]{xyz}| \\
+		$\sideset{_y^x}{_k^j}\sum$ & \verb|\sideset{_y^x}{_k^j}\sum| & $\overset{K}{\sum}$ & \verb|\overset{K}{\sum}| & $\underset{k=1}{\sum}$ & \verb|\sunderset{k=1}{\sum}| \\
 	\end{tabular}
 	\end{center}
 
-\subsubsection*{Binary Relations}
+\section{Binary Relations}
 
 	Note that you can produce according negations by either adding the \verb|\not| command as a prefix or ordinarily by preceding the commands with `\verb|n|'. For example, \verb|\not=| or \verb|\neq| turns $=$ to $\neq$.
 
@@ -102,31 +113,24 @@
 		$\le$ & \verb|\leq| or \verb|\le| & $\ge$ & \verb|\geq| or \verb|\ge| & $\equiv$ & \verb|\equiv| & $\vdash$ & \verb|\vdash| & $\dashv$ & \verb|\dashv| \\
 		$\ll$ & \verb|\ll| & $\gg$ & \verb|\gg| & $\doteq$ & \verb|\doteq| & $\mid$ & \verb|\mid| & $\parallel$ & \verb|\parallel| \\
 		$\prec$ & \verb|\prec| & $\succ$ & \verb|\succ| & $\sim$ & \verb|\sim| & $\smile$ & \verb|\smile| & $\frown$ & \verb|\frown| \\
-		$\preceq$ & \verb|\preceq| & $\succeq$ & \verb|\succeq| & $\simeq$ & \verb|\simeq| & $\colon$ & \verb|\colon| or \verb|:| & $;$ & \verb|;| \\
+		$\preceq$ & \verb|\preceq| & $\succeq$ & \verb|\succeq| & $\simeq$ & \verb|\simeq| & & &  \\
 		$\subset$ & \verb|\subset| & $\supset$ & \verb|\supset| & $\approx$ & \verb|\approx| & $\models$ & \verb|\models| & $\perp$ & \verb|\perp| \\
 		$\subseteq$ & \verb|\subseteq| & $\supseteq$ & \verb|\supseteq| & $\cong$ & \verb|\cong| & $\asymp$ & \verb|\asymp| & $\propto$ & \verb|\propto| \\
 		$\sqsubset$ & \verb|\sqsubset| & $\sqsupset$ & \verb|\sqsupset| & $\Join$ & \verb|Join| & $\neq$ & \verb|\neq| & $\forall$ & \verb|\forall| \\
-		$\sqsubseteq$ & \verb|\sqsubseteq| & $\sqsupseteq$ & \verb|\sqsupseteq| & $\bowtie$ & \verb|\bowtie| & $\notin$ & \verb|\notin| \\
+		$\sqsubseteq$ & \verb|\sqsubseteq| & $\sqsupseteq$ & \verb|\sqsupseteq| & $\bowtie$ & \verb|\bowtie| & $\notin$ & \verb|\notin| & $\prime$ & \verb|\prime| \\
 	\end{tabular}
 	\end{center}
+
+\section{Binary Operators}
 
 	\begin{center}
 		\scriptsize
 	\begin{tabular}{ll|ll|ll|ll|ll|ll|ll}
-		$.$ & \verb|.| & $,$ & \verb|,| & $'$ & \verb|'| & $\prime$ & \verb|\prime| & $"$ & \verb|''| or \verb|"| & $!$ & \verb|!| & $?$ & \verb|?| \\
-	\end{tabular}
-	\end{center}
-
-\subsubsection*{Binary Operators}
-
-	\begin{center}
-		\scriptsize
-	\begin{tabular}{ll|ll|ll|ll|ll|ll|ll|ll}
-		$+$ & \verb|+| & $-$ & \verb|-| & $\lor$ & \verb|\lor| or \verb|\vee| & $\land$ & \verb|\land| or \verb|\wedge| & $\lhd$ & \verb|\lhd| & $\rhd$ & \verb|\rhd| & $\dagger$ & \verb|\dagger| & $\ddagger$ & \verb|\ddagger| \\
-		$\pm$ & \verb|\pm| & $\mp$ & \verb|\mp| & $\oplus$ & \verb|\oplus| & $\ominus$ & \verb|\ominus| & $\unlhd$ & \verb|\unlhd| & $\unrhd$ & \verb|\unrhd| \\
-		$\times$ & \verb|\times| & $\cdot$ & \verb|\cdot| & $\odot$ & \verb|\odot| & $\oslash$ & \verb|\oslash| & $\bullet$ & \verb|\bullet| & $\circ$ & \verb|\circ| \\
+		$+$ & \verb|+| & $-$ & \verb|-| & $\lor$ & \verb|\lor| or \verb|\vee| & $\land$ & \verb|\land| or \verb|\wedge| & $\lhd$ & \verb|\lhd| & $\rhd$ & \verb|\rhd| & $\dagger$ & \verb|\dagger| \\ 
+		$\pm$ & \verb|\pm| & $\mp$ & \verb|\mp| & $\oplus$ & \verb|\oplus| & $\ominus$ & \verb|\ominus| & $\unlhd$ & \verb|\unlhd| & $\unrhd$ & \verb|\unrhd| & $\ddagger$ & \verb|\ddagger| \\
+		$\times$ & \verb|\times| & $\cdot$ & \verb|\cdot| & $\odot$ & \verb|\odot| & $\oslash$ & \verb|\oslash| & $\bullet$ & \verb|\bullet| & $\circ$ & \verb|\circ| & $\P$ & \verb|\P| \\
 		$\div$ & \verb|\div| & $\setminus$ & \verb|\setminus| & $\otimes$ & \verb|\otimes| & $\bigcirc$ & \verb|\bigcirc| & $\ast$ & \verb|\ast| & $\star$ & \verb|\star| \\
-		$\cup$ & \verb|\cup| & $\cap$ & \verb|\cap| & $\bigtriangleup$ & \verb|\bigtriangleup| & $\bigtriangledown$ & \verb|\bigtriangledown| & $\diamond$ & \verb|\diamond| & $\wr$ & \verb|\wr| \\
+		$\cup$ & \verb|\cup| & $\cap$ & \verb|\cap| & $\bigtriangleup$ & \verb|\bigtriangleup| & $\bigtriangledown$ & \verb|\bigtriangledown| & $\diamond$ & \verb|\diamond| & $\wr$ & \verb|\wr| \\ 
 		$\sqcup$ & \verb|\sqcup| & $\sqcap$ & \verb|\sqcap| & $\triangleleft$ & \verb|\triangleleft| & $\triangleright$ & \verb|\triangleright| & $\amalg$ & \verb|\amalg| & $\uplus$ & \verb|\uplus| \\
 	\end{tabular}
 	\end{center}
@@ -140,9 +144,9 @@
 	\end{tabular}
 	\end{center}
 
-\subsubsection*{Delimiters}
+\section{Delimiters}
 
-	Note that you can produce according relatively sized symbols by preceding the commands with \verb|\left| or \verb|\right|. For example, \verb|\left(\frac{abc}{xyz}\right)| turns $(\frac{abc}{xyz})$ to $\left(\frac{abc}{xyz}\right)$.
+	Note that you can produce according relatively sized symbols by preceding the commands with \verb|\left| or \verb|\right|. For example, \verb|\left(\frac{abc}{xyz}\right)| turns $(\frac{abc}{xyz})$ to $\left(\frac{abc}{xyz}\right)$. Sometimes commands can be preceded with  `\verb|l|' or `\verb|r|' e.g., \verb|\lVert xyz\rVert| makes $\lVert xyz\rVert$. Thus, giving the \verb|\Vert| command properties of paired symbols.
 
 	\begin{center}
 		\scriptsize
@@ -154,28 +158,40 @@
 	\end{tabular}
 	\end{center}
 
+	%\begin{center}
+		%\scriptsize
+	%\begin{tabular}{ll|ll|ll|ll|ll|ll|ll}
+		%$\lgroup$ & \verb|\lgroup| & $\rgroup$ & \verb|\rgroup| & $\lmoustache$ & \verb|\lmoustache| & $\rmoustache$ & \verb|\rmoustache| & $\arrowvert$ & \verb|\arrowvert| & $\Arrowvert$ & \verb|\Arrowvert| & $\bracevert$ & \verb|\bracevert| \\
+	%\end{tabular}
+	%\end{center}
+
+\section{Arrows}	
+
 	\begin{center}
 		\scriptsize
-	\begin{tabular}{ll|ll|ll|ll|ll|ll|ll}
-		$\lgroup$ & \verb|\lgroup| & $\rgroup$ & \verb|\rgroup| & $\lmoustache$ & \verb|\lmoustache| & $\rmoustache$ & \verb|\rmoustache| & $\arrowvert$ & \verb|\arrowvert| & $\Arrowvert$ & \verb|\Arrowvert| & $\bracevert$ & \verb|\bracevert| \\
-	\end{tabular}
-	\end{center}
-
-\subsubsection*{Arrows}	
-
-	\begin{center}
-		\scriptsize
-	\begin{tabular}{ll|ll|ll|ll|ll}
-		$\leftarrow$ & \verb|\leftarrow| or \verb|\gets| & $\rightarrow$ & \verb|\rightarrow| or \verb|\to| & $\Leftarrow$ & \verb|\Leftarrow| & $\Rightarrow$ & \verb|\Rightarrow| & $\leftharpoonup$ & \verb|\leftharpoonup| \\
-		$\longleftarrow$ & \verb|\longleftarrow| & $\longrightarrow$ & \verb|\longrightarrow| & $\Longleftarrow$ & \verb|\Longleftarrow| & $\Longrightarrow$ & \verb|\Longrightarrow| & $\rightharpoonup$ & \verb|\rightharpoonup| \\
-		$\leftrightarrow$ & \verb|\leftrightarrow| & $\longleftrightarrow$ & \verb|\longlaeftrightarrow| & $\Leftrightarrow$ & \verb|\Leftrightarrow| & $\Longleftrightarrow$ & \verb|\Longleftrightarrow| & $\leftharpoondown$ & \verb|\leftharpoondown| \\
-		$\uparrow$ & \verb|\uparrow| & $\downarrow$ & \verb|\downarrow| & $\Uparrow$ & \verb|\Uparrow| & $\Downarrow$ & \verb|\Downarrow| & $\rightharpoondown$ & \verb|\rightharpoondown| \\
-		$\updownarrow$ & \verb|\updownarrow| & $\mapsto$ & \verb|\mapsto| & $\Updownarrow$ & \verb|Updownarrow| & $\longmapsto$ & \verb|longapsto| & $\rightleftharpoons$ & \verb|\rightleftharpoons| \\
-		$\hookleftarrow$ & \verb|\hookleftarrow| & $\hookrightarrow$ & \verb|\hookrightarrow| &  &  & $\iff$ & \verb|\iff| (larger spaces) & $\leadsto$ & \verb|\leadsto| \\
+	\begin{tabular}{ll|ll|ll|ll}
+		$\leftarrow$ & \verb|\leftarrow| or \verb|\gets| & $\rightarrow$ & \verb|\rightarrow| or \verb|\to| & $\Leftarrow$ & \verb|\Leftarrow| & $\Rightarrow$ & \verb|\Rightarrow| \\
+		$\longleftarrow$ & \verb|\longleftarrow| & $\longrightarrow$ & \verb|\longrightarrow| & $\Longleftarrow$ & \verb|\Longleftarrow| & $\Longrightarrow$ & \verb|\Longrightarrow| \\
+		$\leftrightarrow$ & \verb|\leftrightarrow| & $\longleftrightarrow$ & \verb|\longlaeftrightarrow| & $\Leftrightarrow$ & \verb|\Leftrightarrow| & $\Longleftrightarrow$ & \verb|\Longleftrightarrow| \\
+		$\uparrow$ & \verb|\uparrow| & $\downarrow$ & \verb|\downarrow| & $\Uparrow$ & \verb|\Uparrow| & $\Downarrow$ & \verb|\Downarrow| \\
+		$\updownarrow$ & \verb|\updownarrow| & $\mapsto$ & \verb|\mapsto| & $\Updownarrow$ & \verb|Updownarrow| & $\longmapsto$ & \verb|\longmapsto| \\
+		$\hookleftarrow$ & \verb|\hookleftarrow| & $\hookrightarrow$ & \verb|\hookrightarrow| & $\iff$ & \verb|\iff| (larger spaces) \\ 
 		$\nearrow$ & \verb|\nearrow| & $\searrow$ & \verb|\searrow| & $\swarrow$ & \verb|\swarrow| & $\nwarrow$ & \verb|\nwarrow| \\
 	\end{tabular}
 	\end{center}
 
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll|ll|ll|ll}
+		$\dashleftarrow$ & \verb|\dashleftarrow| & $\dashrightarrow$ & \verb|\dashrightarrow| & $\leftleftarrows$ & \verb|\leftleftarrows| & $\rightrightarrows$ & \verb|\rightroghtarrows| & $\leftrightarrows$ & \verb|\leftrightarrows| \\ 
+		$\Lleftarrow$ & \verb|\Lleftarrow| & $\Rrightarrow$ & \verb|\Rrightarrow| & $\upuparrows$ & \verb|\upuparrows| & $\downdownarrows$ & \verb|\downdownarrows| & $\rightleftarrows$ & \verb|\rightleftarrows| \\
+		$\upharpoonleft$ & \verb|\upharpoonleft| & $\upharpoonright$ & \verb|\upharpoonright| & $\downharpoonleft$ & \verb|\downharpoonleft| & $\downharpoonright$ & \verb|\downharpoonright| & $\leftrightharpoons$ & \verb|\leftrightharpoons|\\
+		$\twoheadleftarrow$ & \verb|\twoheadleftarrow| & $\twoheadrightarrow$ & \verb|\twoheadrightarrow| & $\leftarrowtail$ & \verb|\leftarrowtail| & $\rightarrowtail$ & \verb|\rightarrowtail| & $\rightleftharpoons$ & \verb|\rightleftharpoons| \\
+		$\Lsh$ & \verb|\Lsh| & $\Rsh$ & \verb|\Rsh| & $\looparrowleft$ & \verb|\looparrowleft| & $\looparrowright$ & \verb|\looparrowright| \\
+		$\curvearrowleft$ & \verb|\curvearrowleft| & $\curvearrowright$ & \verb|\curvearrowright| & $\circlearrowleft$ & \verb|\circlearrowleft| & $\circlearrowright$ & \verb|\circlearrowright| \\
+		$\leadsto$ & \verb|\leadsto| & $\rightsquigarrow$ & \verb|\rightsquigarrow| & $\leftrightsquigarrow$ & \verb|\leftrightsquigarrow| & $\multimap$ & \verb|\multimap| \\
+	\end{tabular}
+	\end{center}
 
 
 
@@ -184,5 +200,8 @@
 
 
 
+
+
+% MATRICES
 
 \end{document}

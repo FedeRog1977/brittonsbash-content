@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  13 APR 2021 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  13 APR 2021 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -368,11 +368,11 @@ Overfull \hbox (44.5663pt too wide) in paragraph at lines 101--109
 Here is how much of TeX's memory you used:
  3447 strings out of 492616
  46877 string characters out of 6129480
- 149639 words of memory out of 5000000
+ 150639 words of memory out of 5000000
  7282 multiletter control sequences out of 15000+600000
  16058 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,20n,28p,503b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,21n,28p,503b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmbx7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/am
@@ -396,7 +396,7 @@ usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy7.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7
 .pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
 bm7.pfb>
-Output written on Symbol-List.pdf (2 pages, 264542 bytes).
+Output written on Symbol-List.pdf (2 pages, 265799 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream

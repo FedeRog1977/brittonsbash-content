@@ -292,6 +292,8 @@ Note that any of the following can also be displayed inline as well as stand-alo
 
 	\subsection{Array Environment}
 
+	...
+
 \section{Sizes}
 
 	\subsection{Math Mode}
@@ -313,15 +315,11 @@ Note that any of the following can also be displayed inline as well as stand-alo
 		\scriptsize
 		\renewcommand{\arraystretch}{1.5}
 	\begin{tabular}{ll|ll|ll}
-		\tiny{tiny} & \verb|\tiny{tiny}| & \normalsize{normal} & \verb|\normalsize{normal}| & \multirow{2}{*}{\huge{huge}} & \multirow{2}{*}{\texttt{\textbackslash huge\{huge\}}}\\
+		\tiny{tiny} & \verb|\tiny{tiny}| & \normalsize{normal} & \verb|\normalsize{normal}| & \huge{huge} & \verb|\huge{huge}| \\ 
 		\scriptsize{script} & \verb|\scriptsize{script}| & \large{large} & \verb|\large{large}| & & \\
-		\footnotesize{footnote} & \verb|\footnotesize{footnote}| & \Large{Large} & \verb|\Large{Large}| & \multirow{2}{*}{\Huge{Huge}} & \multirow{2}{*}{\texttt{\textbackslash huge\{huge\}}}\\
+		\footnotesize{footnote} & \verb|\footnotesize{footnote}| & \Large{Large} & \verb|\Large{Large}| & \Huge{Huge} & \verb|\Huge{Huge}| \\
 		\small{small} & \verb|\small{small}| & \LARGE{LARGE} & \verb|\LARGE{LARGE}| & & \\
 	\end{tabular}
 	\end{center}
-
-
-
-
 
 \end{document}

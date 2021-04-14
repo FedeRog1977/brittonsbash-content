@@ -158,10 +158,10 @@
 
 	\begin{center}
 		\scriptsize
-	\begin{tabular}{ll|ll|ll|ll|ll|ll|ll}
-		$+$ & \verb|+| & $-$ & \verb|-| & $\lor$ & \verb|\lor| or \verb|\vee| & $\land$ & \verb|\land| or \verb|\wedge| & $\lhd$ & \verb|\lhd| & $\rhd$ & \verb|\rhd| & $\dagger$ & \verb|\dagger| \\ 
-		$\pm$ & \verb|\pm| & $\mp$ & \verb|\mp| & $\oplus$ & \verb|\oplus| & $\ominus$ & \verb|\ominus| & $\unlhd$ & \verb|\unlhd| & $\unrhd$ & \verb|\unrhd| & $\ddagger$ & \verb|\ddagger| \\
-		$\times$ & \verb|\times| & $\cdot$ & \verb|\cdot| & $\odot$ & \verb|\odot| & $\oslash$ & \verb|\oslash| & $\bullet$ & \verb|\bullet| & $\circ$ & \verb|\circ| & $\P$ & \verb|\P| \\
+	\begin{tabular}{ll|ll|ll|ll|ll|ll}
+		$+$ & \verb|+| & $-$ & \verb|-| & $\lor$ & \verb|\lor| or \verb|\vee| & $\land$ & \verb|\land| or \verb|\wedge| & $\lhd$ & \verb|\lhd| & $\rhd$ & \verb|\rhd| \\ 
+		$\pm$ & \verb|\pm| & $\mp$ & \verb|\mp| & $\oplus$ & \verb|\oplus| & $\ominus$ & \verb|\ominus| & $\unlhd$ & \verb|\unlhd| & $\unrhd$ & \verb|\unrhd| \\
+		$\times$ & \verb|\times| & $\cdot$ & \verb|\cdot| & $\odot$ & \verb|\odot| & $\oslash$ & \verb|\oslash| & $\bullet$ & \verb|\bullet| & $\circ$ & \verb|\circ| \\
 		$\div$ & \verb|\div| & $\setminus$ & \verb|\setminus| & $\otimes$ & \verb|\otimes| & $\bigcirc$ & \verb|\bigcirc| & $\ast$ & \verb|\ast| & $\star$ & \verb|\star| \\
 		$\cup$ & \verb|\cup| & $\cap$ & \verb|\cap| & $\bigtriangleup$ & \verb|\bigtriangleup| & $\bigtriangledown$ & \verb|\bigtriangledown| & $\diamond$ & \verb|\diamond| & $\wr$ & \verb|\wr| \\ 
 		$\sqcup$ & \verb|\sqcup| & $\sqcap$ & \verb|\sqcap| & $\triangleleft$ & \verb|\triangleleft| & $\triangleright$ & \verb|\triangleright| & $\amalg$ & \verb|\amalg| & $\uplus$ & \verb|\uplus| \\
@@ -254,7 +254,7 @@
 
 Note that any of the following can also be displayed inline as well as stand-alone. It's recommended that you use \verb|smallmatrix| for this. Thus, you must preceed and succeed \verb|\begin| and \verb|\end| \verb|smallmatrix| with \verb|\left<delimiter>| and \verb|\right<delimiter>|, respectively. For example, \verb|\left(\begin{smallmatrix}a & b & c\\x & y & z\end{smallmatrix}\right)| yields $\left(\begin{smallmatrix}a & b & c\\x & y & z\end{smallmatrix}\right)$. 
 
-	\subsection{Syntax}
+	\subsection{Basic Syntax}
 
 	\begin{center}
 		\scriptsize
@@ -290,14 +290,38 @@ Note that any of the following can also be displayed inline as well as stand-alo
         \end{tabular}
         \end{center}
 
+	\subsection{Array Environment}
+
+\section{Sizes}
+
+	\subsection{Math Mode}
+
+	\begin{center}
+		\scriptsize
+		\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{ll}
+		$\displaystyle x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ & \verb|\displaystyle x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}| \\
+		$\textstyle x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ & \verb|\textstyle x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}| \\
+		$\scriptstyle x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ & \verb|\scriptstyle x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}| \\
+		$\scriptscriptstyle x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ & \verb|\scriptscriptstyle x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}| \\
+	\end{tabular}
+	\end{center}
+
+	\subsection{Text Mode}
+
+	\begin{center}
+		\scriptsize
+		\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{ll|ll|ll}
+		\tiny{tiny} & \verb|\tiny{tiny}| & \normalsize{normal} & \verb|\normalsize{normal}| & \multirow{2}{*}{\huge{huge}} & \multirow{2}{*}{\texttt{\textbackslash huge\{huge\}}}\\
+		\scriptsize{script} & \verb|\scriptsize{script}| & \large{large} & \verb|\large{large}| & & \\
+		\footnotesize{footnote} & \verb|\footnotesize{footnote}| & \Large{Large} & \verb|\Large{Large}| & \multirow{2}{*}{\Huge{Huge}} & \multirow{2}{*}{\texttt{\textbackslash huge\{huge\}}}\\
+		\small{small} & \verb|\small{small}| & \LARGE{LARGE} & \verb|\LARGE{LARGE}| & & \\
+	\end{tabular}
+	\end{center}
 
 
 
 
-
-
-
-
-% MATRICES
 
 \end{document}

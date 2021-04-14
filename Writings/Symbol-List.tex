@@ -254,7 +254,7 @@
 	\end{tabular}
 	\end{center}
 
-\section{Matrices}
+\section{Matrices \& Arrays}
 
 Note that any of the following can also be displayed inline as well as stand-alone. It's recommended that you use \verb|smallmatrix| for this. Thus, you must preceed and succeed \verb|\begin| and \verb|\end| \verb|smallmatrix| with \verb|\left<delimiter>| and \verb|\right<delimiter>|, respectively. For example, \verb|\left(\begin{smallmatrix}a & b & c\\x & y & z\end{smallmatrix}\right)| yields $\left(\begin{smallmatrix}a & b & c\\x & y & z\end{smallmatrix}\right)$. 
 
@@ -296,9 +296,36 @@ Note that any of the following can also be displayed inline as well as stand-alo
 
 	\subsection{Array Environment}
 
-	...
+	Note that arrays operate in the same manner as tables such that they permit column alignment \verb|l|, \verb|c| and \verb|r| etc., columns can be divided using pipes (\texttt{\textbar}) new row lines with \verb|\\|, and the use of \verb|\hline|, to name a few examples. Columns are separated the same as within tables; with $(n-1)$ \verb|&| ampersand symbols, for $n$ columns. Some simple examples follow.
 
-\section{Sizes}
+	\begin{center}
+		\scriptsize
+	\begin{tabular}{ll|ll}
+		\multirow{5}{*}{$\begin{array}{lcr}a & b & c\\ x & y & z\\ k & j & i\end{array}$} & \verb|\begin{array}{lcr}| & \multirow{5}{*}{$\begin{array}{lcr}a & b & c\\\hline x & y & z\\\hline k & j & i\end{array}$} & \verb|\begin{array}{lcr}| \\
+		& \verb|a & b & c\\| & & \verb|a & b & c\\| \\
+		& \verb|x & y & z\\| & & \verb|x & y & z\\| \\
+		& \verb|k & j & i| & & \verb|k & j & i| \\
+		& \verb|\end{array}| & & \verb|\end{array}| \\
+		& & & \\
+	\end{tabular}
+	\end{center}
+
+	\begin{center}
+                \scriptsize
+        \begin{tabular}{ll|ll}
+		\multirow{9}{*}{$\left(\begin{array}{cc}2\tau & 7\phi-\frac{5}{12}\\3\psi & \frac{\pi}{8}\end{array}\right)\mbox{~and~}\left[\begin{array}{cc|r}3 & 4 & 5\\1 & 3 & 729\end{array}\right]$} & \verb|\left(\begin{array}{cc}| & \multirow{5}{*}{$f(z)=\left\{\begin{array}{rcl}z^2+\cos z & \mbox{for} & k\leq3\\0 & \mbox{for} & j\leq5\\\sin\bar{z} & \mbox{for} & i\leq7\end{array}\right.$} & \verb|f(z)=\left\{\begin{array}{rcl}|\\
+		& \verb|2\tau & 7\phi-\frac{5}{12}\\| & & \verb|z^2+\cos z & \mbox{for} & k\leq3\\|\\
+		& \verb|3\psi & \frac{\pi}{8}| & & \verb|0 & \mbox{for} & j\leq5\\|\\
+		& \verb|\end{array}\right)| & & \verb|\sin\bar{z} & \mbox{for} & i\leq7|\\
+		& \verb|\mbox{~and~}| & & \verb|\end{array}\right.|\\
+		& \verb|\left[\begin{array}{cc|\textbar\verb|r}| \\
+		& \verb|3 & 4 & 5\\| \\
+		& \verb|1 & 3 & 729| \\
+		& \verb|\end{array}\right]| \\
+	\end{tabular}
+	\end{center}
+
+\section{Relative Font Sizes}
 
 	\subsection{Math Mode}
 

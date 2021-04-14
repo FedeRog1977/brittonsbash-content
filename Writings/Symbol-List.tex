@@ -77,41 +77,45 @@
 
 \section{Basic Math Mode}
 
-	\subsection{Math Alphabets}
+	\subsection{Alphabets}
 
 	\begin{center}
 		\scriptsize
-	\begin{tabular}{ll|ll|ll|ll}
-		$XYZ\ xyz$ & \verb|XYZ\ xyz| & $\mathrm{XYZ\ xyz}$ & \verb|\mathrm{XYZ\ xyz}| & $\mathit{XYZ\ xyz}$ & \verb|\mathit{XYZ\ xyz}| & $\mathbf{XYZ\ xyz}$ & \verb|\mathbf{XYZ\ xyz}|\\
-		$\mathbb{XYZ}$ & \verb|\mathbb{XYZ}| & $\mathcal{XYZ}$ & \verb|\mathcal{XYZ}| & $\mathfrak{XYZ\ xyz}$ & \verb|\mathfrak{XYZ\ xyz}| & $\mathtt{XYZ\ xyz}$ & \verb|\mathtt{XYZ\ xyz}|\\
-		$\mathsf{XYZ\ xyz}$ & \verb|\mathsf{XYZ\ xyz}|
+	\begin{tabular}{ll|ll|ll}
+		$XYX\ xyz$ & \verb|XYZ\ xyz| & $\mathbf{XYZ\ xyz}$ & \verb|\mathbf{XYZ\ xyz}| & $\mathbb{XYZ}$ & \verb|\mathbb{XYZ}| \\ 
+		$\mathnormal{XYZ\ xyz}$ & \verb|\mathnormal{XYZ\ xyz}| & $\mathsf{XYZ\ xyz}$ & \verb|\mathsf{XYZ\ xyz}| & $\mathcal{XYZ}$ & \verb|\mathcal{XYZ}| \\
+		$\mathit{XYZ\ xyz}$ & \verb|\mathit{XYZ\ xyz}| & $\mathtt{XYZ\ xyz}$ & \verb|\mathtt{XYZ\ xyz}| & $\mathfrak{XYZ}$ & \verb|\mathfrak{XYZ}| \\
+		$\mathrm{XYZ\ xyz}$ & \verb|\mathrm{XYZ\ xyz}| & 
 	\end{tabular}
 	\end{center}
 
-	\subsection{Math Spacing}
+	\subsection{Spacing}
 
 	\begin{center}
 		\scriptsize
 	\begin{tabular}{lll|lll}
-		$xyz$ & \verb|xyz| & Math spacing & $\sin x\cos y$ & \verb|\sin x\cos y| & Operator spacing\\
-		$x\ y\ z$ & \verb|x\ y\ z| & Extended spacing & $a\,b\mspace{3mu}c\thinspace d$ & \verb|a\,b\mspace{3mu}c\thinspace d| & 3mu (`thin') space\\
-		$a\:b\mspace{4mu}c\medspace d$ & \verb|a\:b\mspace{4mu}c\medspace d| & 4mu (`medium') space & $a\;b\mspace{5mu}c\thickspace d$ & \verb|a\;b\mspace{5mu}c\thickspace d| & 5mu (`thick') space\\
-		$a\quad b\mspace{18mu}c\quad d$ & \verb|a\quad b\mspace{18mu}c\quad d| & 18mu (`quad') space & $a\!b\mspace{-3mu}c\negthinspace d$ & \verb|a\!b\mspace{-3mu}c\negthinspace d| & Neg. 3mu (`thin') space\\
-		$a\phantom{xxx}b$ & \verb|a\phantom{xxx}b| & Space width of `xxx'\\
+		$xyz$ & \verb|xyz| & Default math & $a\!b\mspace{-3mu}c\negthinspace d$ & \verb|a\!b\mspace{-3mu}c\negthinspace d| & Neg. 3mu `thin' \\
+		$x\ y\ z$ & \verb|x\ y\ z| & Expanded & $a\negmedspace b\mspace{-4mu}c\negmedspace d$ & \verb|a\negmedspace b\mspace{-4mu}c\negmedspace d| & Neg. 4mu `medium' \\
+		$\sin x\cos y$ & \verb|\sin x\cos y| & Operator & $a\negthickspace b\mspace{-5mu}c\negthickspace d$ & \verb|a\negthickspace b\mspace{-5mu}c\negthickspace d| & Neg. 5mu `thick' \\
+		$a\,b\mspace{3mu}c\thinspace d$ & \verb|a\,b\mspace{3mu}c\thinspace d| & 3mu `thin' & $a\phantom{xxx}b$ & \verb|a\phantom{xxx}b| & Width of `xxx' \\
+		$a\:b\mspace{4mu}c\medspace d$ & \verb|a\:b\mspace{4mu}c\medspace d| & 4mu `medium' \\
+		$a\;b\mspace{5mu}c\thickspace d$ & \verb|a\;b\mspace{5mu}c\thickspace d| & 5mu `thick' \\
 	\end{tabular}
 	\end{center}
 
 \section{Math Accents \& Constructs}
 
+	Note that most basic accents can be stacked. For example, \verb|\acute{\acute{x}}| yields $\acute{\acute{x}}$. Or, \verb|\acute{\tilde{x}}| yields $\acute{\tilde{x}}$.
+
 	\begin{center}
 		\scriptsize
 	\begin{tabular}{ll|ll|ll|ll|ll}
-		$\hat{x}$ & \verb|\hat{x}| & $\check{x}$ & \verb|\check{x}| & $\tilde{x}$ & \verb|\tilde{x}| & $\acute{x}$ & \verb|\acute{x}| & $\grave{x}$ & \verb|\grave{x}|\\
-		$\dot{x}$ & \verb|\dot{x}| & $\ddot{x}$ & \verb|\ddot{x}| & $\breve{x}$ & \verb|\breve{x}| & $\bar{x}$ & \verb|\bar{x}| & $\vec{x}$ & \verb|\vec{x}|\\
-		$\widehat{xyz}$ & \verb|\widehat{xyz}| & $\widetilde{xyz}$ & \verb|\widetilde{xyz}| & $\frac{abc}{xyz}$ & \verb|\frac{abc}{xyz}| & $f$, $f\prime$ & \verb|f|, \verb|f\prime| & $\sqrt{x}$ & \verb|\sqrt{x}|\\
-		$\sqrt[n]{x}$ & \verb|\sqrt[n]{x}| & $\overline{xyz}$ & \verb|\overline{xyz}| & $\underline{xyz}$ & \verb|\underline{xyz}| & $\overbrace{xyz}$ & \verb|\overbrace{xyz}| & $\underbrace{xyz}$ & \verb|\underbrace{xyz}|\\
-		$\overrightarrow{xyz}$ & \verb|\overrightarrow{xyz}| & $\overleftarrow{xyz}$ & \verb|\overleftarrow{xyz}| & $\overleftrightarrow{xyz}$ & \verb|\overleftrightarrow{xyz}| & $\xleftarrow[abc]{xyz}$ & \verb|\xleftarrow[abc]{xyz}| & $\xleftarrow[abc]{xyz}$ & \verb|\xrightarrow[abc]{xyz}| \\
-		$\sideset{_y^x}{_k^j}\sum$ & \verb|\sideset{_y^x}{_k^j}\sum| & $\overset{K}{\sum}$ & \verb|\overset{K}{\sum}| & $\underset{k=1}{\sum}$ & \verb|\sunderset{k=1}{\sum}| \\
+		$\acute{x}$ & \verb|\acute{x}| & $\dot{x}$ & \verb|\dot{x}| & $\overline{xyz}$ & \verb|\overline{xyz}| & $\xleftarrow[abc]{xyz}$ & \verb|\xleftarrow[abc]{xyz}| & $\overset{K}{\sum}$ & \verb|\overset{K}{\sum}| \\
+		$\grave{x}$ & \verb|\grave{x}| & $\ddot{x}$ & \verb|\ddot{x}| & $\underline{xyz}$ & \verb|\underline{xyz}| & $\xrightarrow[abc]{xyz}$ & \verb|\xrightarrow[abc]{xyz}| & $\underset{k=1}{\sum}$ & \verb|\underset{k=1}{\sum}| \\
+		$\bar{x}$ & \verb|\bar{x}| & $\check{x}$ & \verb|\check{x}| & $\overrightarrow{xyz}$ & \verb|\overrightarrow{xyz}| & $\overbrace{xyz}$ & \verb|\overbrace{xyz}| & $\sqrt{x}$ & \verb|\sqrt{x}| \\
+		$\hat{x}$ & \verb|\hat{x}| & $\vec{x}$ & \verb|\vec{x}| & $\overleftarrow{xyz}$ & \verb|\overleftarrow{xyz}| & $\underbrace{xyz}$ & \verb|\underbrace{xyz}| & $\sqrt[n]{x}$ & \verb|\sqrt[n]{x}| \\
+		$\tilde{x}$ & \verb|\tilde{x}| & $\widehat{xyz}$ & \verb|\widehat{xyz}| & $\overleftrightarrow{xyz}$ & \verb|\overleftrightarrow{xyz}| & $f$, $f'$, $f\prime$ & \verb|f|, \verb|f'|, \verb|f\prime| \\
+		$\breve{x}$ & \verb|\breve{x}| & $\widetilde{xyz}$ & \verb|\widetilde{xyz}| & $\frac{abc}{xyz}$ & \verb|\frac{abc}{xyz}| & $\sideset{_y^x}{_k^j}\sum$ & \verb|\sideset{_y^x}{_k^j}\sum| \\
 	\end{tabular}
 	\end{center}
 

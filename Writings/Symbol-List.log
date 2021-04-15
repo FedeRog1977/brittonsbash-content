@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  14 APR 2021 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  15 APR 2021 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -366,16 +366,16 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 299
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 333
 .
-LaTeX Font Info:    No file OMScmtt.fd. on input line 299.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 333.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbar' on input line 299.
+(Font)              for symbol `textbar' on input line 333.
 
-[3] (./Symbol-List.aux)
+[3] [4] (./Symbol-List.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -383,7 +383,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  3491 strings out of 492616
  47461 string characters out of 6129480
- 155639 words of memory out of 5000000
+ 149639 words of memory out of 5000000
  7318 multiletter control sequences out of 15000+600000
  18158 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -414,10 +414,10 @@ fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2019/texmf-dist
 /fonts/type1/public/amsfonts/latxfont/lasy7.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Symbol-List.pdf (3 pages, 313433 bytes).
+Output written on Symbol-List.pdf (4 pages, 328744 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

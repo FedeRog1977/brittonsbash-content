@@ -1,0 +1,327 @@
+\documentclass[11pt, english]{article}              
+        \usepackage{geometry}
+                \geometry{                          
+                        a4paper,total={210mm,297mm},
+                        tmargin=40.8mm,
+                        bmargin=40.8mm,
+                        lmargin=32.6mm,        
+                        rmargin=32.6mm,                     
+                }                                     
+                                
+        \renewcommand{\theparagraph}{\thesubsubsection.\arabic{paragraph}}
+
+        \usepackage{titlesec}         
+                \titleformat{\section}
+                        {\normalfont\fontsize{18}{16}\bfseries}{\thesection}{0.5em}{}
+                \titleformat{\subsection}
+                        {\normalfont\fontsize{14}{16}\bfseries}{\thesubsection}{1em}{}
+                \titleformat{\subsubsection} 
+                        {\normalfont\fontsize{11}{16}\bfseries}{\thesubsubsection}{1em}{}
+                \titleformat{\paragraph} 
+                       {\normalfont\fontsize{11}{16}\bfseries}{\theparagraph}{1em}{}
+
+        \usepackage{longtable}                                                  
+        \usepackage{multirow}                                                   
+                             
+        \usepackage[labelfont=bf,textfont=bf,font=small,skip=8pt]{caption}
+                               
+        \setlength{\parindent}{0pt}                                 
+        \renewcommand{\baselinestretch}{1.25}      
+        \usepackage{setspace}                             
+                                                                        
+        \usepackage{amsmath}                                                    
+        \usepackage{amssymb}                                      
+                             
+        \usepackage{graphicx}                  
+                               
+        \usepackage{float}                                                
+
+        \usepackage{tikz}
+                                                  
+\begin{document}                               
+                                              
+\pagenumbering{gobble}       
+                       
+        \title{\textsc{EC315 Topics in Microeconomics with Cross-Section Econometrics\\ Coursework Assignment}}
+        \author{\textsc{Lewis Britton}}
+        \date{\textsc{Academic Year 2019/2020}}
+        \maketitle
+
+\newpage
+                         
+\pagenumbering{roman} 
+
+	\renewcommand{\contentsname}{Table of Contents}
+
+        \tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
+
+\section{Background}
+
+	The goal here is to make an attempt to find a best fitting model based on a series of linear, polynomial and logarithmic variables and dummy variables, best explaining the variation in a citizen’s level of worry of being a victim of crime – the dependent variable. We observe low scores as low levels of worry and high scores as high levels of worry. The survey carried out uses a sample size of 35,371 with a variable amount being disregarded conditionally on a negligibility basis.\\
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Sample Information:
+		\begin{itemize}
+			\item Location: England \& Wales
+			\item Size of Observation: 35,371 (Variable)
+		\end{itemize}
+		\item Age of Data:
+		\begin{itemize}
+			\item 2013-14 (5-6 Years)
+		\end{itemize}
+		\item Source of Data:
+		\begin{itemize}
+			\item UK Data Service: Crime Survey for England \& Wales
+		\end{itemize}
+	\end{itemize}
+
+\newpage
+
+\section{Dataset Details}
+
+	$$\mathrm{worry}x=\alpha+\beta_1X_2+\beta_2X_2+...+\beta_KX_K+\varepsilon$$
+
+	Intuition was first used to determine which variables were likely to affect degree of crime worry. This number totalled roughly fifty. It was then important to identify statistically significant variables in the context of explanation of the dependent variable. This was possible through the observation of associated p-values when regressing these in the context of the dependent variable, individually. To determine statistical significance, a p-value of less than 0.01 must be achieved for significance at the 1\% level, less than 0.05 for the 5\% level and 0.1 for the 10\% level. Anything out-with these observations was disregarded. These variables also produced the highest R2 values and combined to show stronger comparisons (higher values) of the Schwartz Criterion. Our criteria of choice.\\
+
+	We observe from the results, in the subsequent document, seventeen variables which are statistically significant, out of a possible fifty, and are as follows:
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item sex
+		\item genhealt
+		\item agegrp7
+		\item rural2
+		\item confx
+	\end{itemize}
+
+	Note that the specific ``worry'' variables were omitted from analysis due to the fact that our dependent variable (worryx) was derived from these variables. Therefore, when regressing worryx against all of the ``worry'' explanatory variables, there is a perfect R$^2$ value of 1 (100\%) produced. These were clearly also highly correlated and we know this ideally leads to omission. This is therefore a weak and zero-explanatory method of explaining worry$x$.\\
+
+	We must also have a basic understanding of the intuition behind the variables. The `sex' variable can effect crime worry simply due to the difference in the nature of crime between males and females. For example, females are more prone to rape etc. and males may have more of an ignorant mindset involving violence as a response to attack etc. The ‘health’ variable is pretty self-explanatory where you would see less healthy and less physically able people worry more as physical crime or simply response to crime could impact them more. Expect a negative correlation with worry. The `age group' variable is also quite self-explanatory where you would expect older people to worry more about crime as their response would be limited. Expect a positive correlation with worry. Within the `rural/urban' variable, we would expect to see urban areas worry less due to more advanced security, regulation and policing. Despite the increased population and general crime in these areas. Finally, the `confidence in police' variable is the most self-explanatory of them all. If people believe less in their police, they don’t believe they have good protection from crime. Expect a negative correlation with worry.
+
+\newpage
+
+\section{Descriptive Analysis of Dependent Variable}
+
+	Here we are observing worry$x$ as the dependent or `explained' variable. This means that we are seeking variables in attempt to explain the degree to which citizens worry about being a victim of crime. Therefore, as the dependent variable relying on any linear or polynomial explanatory variables, the dependent variable worry$x$ is displayed on the $y$ axis.\\
+
+	Simply for means of ease, not statistical advantage, we eliminate any negligible observations where people have not answered or answered incorrectly etc. by stating a restriction where the variable worry$x$ is equal to any real number ($\mathbb{R}$). This reduced the number of observations from 35,371 to 8,183 and displayed the $(1,N)$ matrix in a more simplistic form.\\
+
+	Summary statistics follow:\\
+
+	\begin{tabular}{ll}
+		Mean & $-$2.1330e$-$10\\
+		Median & 0.22631\\
+		Minimum & $-$2.9024\\
+		Maximum & 1.3885\\
+		Std.Dev & 1.0000\\
+		C.V. & 4.6882e$+$09\\
+		Skewness & $-$0.91221\\
+		Ex. Kurtosis & 0.63565\\
+		5\%'ile & $-$2.0699\\
+		95\%'ile & 1.3885\\
+		Intrqrt. Range & 0.99016\\
+		Missing Obvs. & 27188\\
+	\end{tabular}
+
+	As this worry$x$ variable was derived from various other ``worry'' variables, the scale is slightly off-norm however, an increase in value still represents an increase in worry. This is shown with minimum and maximum ``worry'' values of $-$2.9024 and 1.3885, respectively.\\
+
+	We observe the Mean to be extremely close to 0 at $-2\times{10}^{-10}$ and the Median at 0.22631.\\
+
+	We observe the Skewness at $-$0.91221 which is less than 0 meaning there is Left Skewness, as observed from the likelihood of this, implied through the maximum and minimum values. This means there is a tail of the distribution to the left. Thus, implies the outliers worry less than the mean but the majority worry more. This is reinforced where the median is shown to be greater than the mean, hence the Positive Distribution in relation to skewness.\\
+
+	We observe the Excess Kurtosis at 0.6356 which is greater than 0 and therefore shows Platykurtic (Negative) Kurtosis where the distribution lies slightly below the normal distribution and therefore has slightly fatter tails meaning outliers, as has been previously implied. This further enhances the statement of negative outliers, worrying less than the mean value.
+
+\newpage
+
+\section{OLS Regressions: Hypothesis Testing}
+
+	\begin{enumerate}
+	\setlength\itemsep{0cm}
+		\item Dummy Variables
+		\item Polynomials \& Logs
+		\item Individual t-test Values
+		\begin{itemize}
+			\item p-values
+			\item t-ratios
+			\item Coefficients
+		\end{itemize}
+		\item Integrity of Model
+		\begin{itemize}
+			\item Adjusted R$2$ Value
+			\item Collective f-test Values
+			\item RESET Test
+		\end{itemize}
+		\item Are the Assumptions Met?
+	\end{enumerate}
+
+	We now want to attempt to best explain the statements seen in the descriptive analysis.\\
+
+	\subsection{Dummy Variables}
+
+	The variable sex requires 2 – one real and one hypothetical of binary values 0 and 1, male and female [sex\_male where female is hypothetical]. As here is no clear description of what gender 1 and 2 represent in in the sex variable, it will be assumed: 1 – male, 2 – female. The variable rural2 also requires a real and hypothetical, rural and urban [rural2\_urban where rural is hypothetical]. These dummy variables will now be used in the multiple regression in order to compare male worry to female worry and rural worry to urban worry.
+
+	\subsection{Polynomials \& Logs}
+
+	A number of RESET tests and p-value comparisons took place in order to define which variables required polynomial and logarithmic values. The sex\_male variable required none due to exact collinearity. The genhealt variable responded well to its logarithmic values being used (genhealt\_log) where it increased the RESET p-value. Using the agegrp7\_poly2 variable with exponent 2, the Ramsay’s RESET test returned a p-value closer to 0.05, which we want. The rural2\_urban variable required none due to exact collinearity. And finally, the confx\_log variable was used with logarithmic values of confx as it also returned a higher p-value, closer to 0.05, in the RESET test. Note that higher R2 and lower t-test p-values are possible on a small level however, it sacrifices a lot of the RESET p-value.\\
+
+	This produced:\\
+
+	\verb|ols worryx 0 sex_male genhealt_log agegrp7_poly2 rural2_urban confx_log|
+
+	\newpage
+
+	\subsection{Integrity of Model}
+
+		\subsubsection{Adjusted R$\mathbf{^2}$ Value}
+
+	As this is a multiple regression, we must observe the adjusted R$^2$ value rather than the regular R$^2$ value. We see from the results that this value was equal to 0.0898 therefore, the collection of explanatory variables selected were responsible for and can statistically explain 8.98\% of the variation in the dependent variable, worry$x$. This is a mediocre explanatory rate however, is a strong result in comparison to other combinations as seen previously.
+
+		\subsubsection{Collective f-test Values}
+
+	We observe the f-test as a hypothesis test, like a t-test, but for the model as a whole. Therefore, we interpret the associated p-value in the same manner. Here we see an f-test p-value of $4.17\times{10}^{-91}$, which is less than 0.01, meaning the model is statistically significant at explaining the dependent variable at the 1\% level (99\% certainty). And, we can reject the Null Hypothesis that R$^2$ = 0, in favour of the Alternative Hypothesis showing a strong R2 value. 
+
+		\subsubsection{RESET Test}
+
+	Using the Ramsay’s RESET test in Gretl, we are able to observe how well-specified the regression model is. As discussed previously, RESET values were compared to choose a combination of explanatory variables however now we can experiment with polynomials and logs in search of an associated p-value of greater than 0.05. A p-value of less than 0.05 suggests there’s still a need for logarithmic and polynomial values. The model was altered until the closest possible value to 0.05 was met. This is observed at 0.109 in the optimal case here, which is far greater than 0.05. Therefore, we fail to reject the null hypothesis and observe a well-specified model after polynomial and log experimentation.
+
+		\subsubsection{Heteroscedasticity (White) Test}
+
+	For this we observe an H$_0$ that there is homoscedasticity meaning there is constant error variance. Alternatively, we observe an H$_A$ that there is heteroscedasticity meaning there is non-constant error variance. We seek homoscedasticity and therefore want to fail to reject the null hypothesis with a p-value of greater than 0.05. In this case, we observe an associated p-value of 0.0917 which is greater than 0.05 and therefore homoscedasticity is present and we have constant error variance.
+
+	\newpage
+
+	\subsection{t-test Values}
+
+	\verb|ols worryx 0 sex_male genhealt_log agegrp7_poly2 rural2_urban confx_log|
+
+		\subsubsection{Variables}
+
+	\begin{enumerate}
+	\setlength\itemsep{0cm}
+		\item sex\_male: standard dummy variable for male in comparison to female
+		\item genhealt\_log: logarithmic values of a general health rating
+		\item agegrp7\_poly2: polynomial values of age group change
+		\item rural2\_urban: standard dummy variable for urban compared to rural
+		\item confx\_log: logarithmic values of the rating of people’s confidence in the police
+	\end{enumerate}
+
+		\subsubsection{p-values}
+
+	The goal here is to confirm statistical significance of each variable by observing the relevant individual p-values. For this we are seeking a p-value of, ideally, less than 0.01 or 0.05.\\
+
+	sex\_male, genhealt\_log, agegrp7\_poly2, rural2\_urban, confx\_log:
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item All $<$ 0.01
+		\item Statistically significant at the 1\% level (99\% certainty)
+		\item Reject the Null Hypothesis in favour of the Alternative Hypothesis stating that this variable is significant in explaining the dependent variable, with a coefficient $\neq$ 0
+		\item This reasoning remains the same throughout all variables, as observed...
+	\end{itemize}
+
+		\subsubsection{t-ratios}
+
+	We see from the results that all of the associated t-ratios are either less than $-$1.96 or are greater than 1.96. As we have rejected all of the Null Hypotheses at the 1\% or 5\% significance level, we see that at least 95\% of the normal distribution of results lies within 1.96 standard deviations of the mean. Note that the confx\_log variable’s close proximity to $-$1.96 reinforces the fact that it is observed at the 5\% significance level.
+
+		\subsubsection{Coefficients}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item sex\_male: coefficient = 0.504
+		\begin{itemize}
+			\item Positive Correlation w/ worry$x$
+			\item ``Males worry more than females''
+			\item Males are observed to worry 0.504 units more than females in this model
+		\end{itemize}
+		\item genhealt\_log: coefficient = $-$0.216
+                \begin{itemize}
+                        \item Negative Correlation w/ worry$x$
+                        \item ``As general health decreases, worry increases''
+                        \item For a 1 unit increase in general health, people worry 0.216 units less 
+                \end{itemize}
+		\item agegrp7\_poly2: coefficient = 0.006
+                \begin{itemize}
+                        \item Positive Correlation w/ worry$x$
+                        \item ``As age increases, worry increases''
+                        \item For a 1 unit increase in age group category, people worry 0.006 units more
+                \end{itemize}
+		\item rural2\_urban: coefficient = $-$0.321
+                \begin{itemize}
+                        \item Negative Correlation w/ worry$x$
+                        \item ``Urban areas worry less than rural areas''
+                        \item Urban areas are shown to worry 0.321 units less than rural areas
+                \end{itemize}
+		\item confx\_log: coefficient = $-$0.042
+                \begin{itemize}
+                        \item Negative Correlation w/ worry$x$
+                        \item ``As confidence in the police decreases, worry increases''
+                        \item For a 1 unit increase in confidence in police, worry decreases by 0.042 units
+                \end{itemize}
+	\end{itemize}
+
+	\newpage
+	
+	\subsection{Are Assumptions Met?}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Dependent variable lies on the best fit line
+		\item Homoscedasticity is met where observations have constant
+		\item Observations are not heavily correlated (if so, omitted)
+		\item Errors are normally distributed (not a lot of outliers)
+		\item Explanatory variables are fixed
+	\end{itemize}
+
+\newpage
+
+\section{Gretl Code}
+
+	\subsection{Dummy Variables}
+
+	\verb|genr sex_male = sex = 1|\\
+
+	Where Gretl assumes sex = 2 is not sex\_male and therefore in this case female\\
+
+	\verb|genr rural2_urban = rural = 1|\\
+
+	Where Gretl assumes rural2 = 2 is not rural2\_urban and therefore in this case rural
+
+	\subsection{Polynomials \& Logs}
+
+	\verb|genr sex_male_poly2 = sex_male^2|\\
+	\verb|genr sex_male_poly3 = sex_male^3| (Disregarded Due to Exact Collinearity)\\
+	\verb|genr sex_male_log = log(sex_male)|\\
+
+	\verb|genr genhealt_poly2 = genhealt^2|\\
+	\verb|genr genhealt_poly3 = genhealt^3| (Use **genhealt\_log**)\\
+	\verb|genr genhealt_log = log(genhealt)|\\
+
+	\verb|genr agegrp7_poly2 = agegrp7^2|\\
+	\verb|genr agegrp7_poly3 = agegrp7^3| (Use **agegrp7\_poly2**)\\
+	\verb|genr agegrp7_log = log(agegrp7)|\\
+
+	\verb|genr rural2_urban_poly2 = rural2_urban^2|\\
+	\verb|genr rural2_urban_poly3 = rural2_urban^3| (Disregarded Due to Exact Collinearity)\\
+	\verb|genr rural2_urban_log = log(rural2_urban)|\\
+
+	\verb|genr confx_poly2 = confx^2|\\
+	\verb|genr confx_poly3 = confx^3| (Use: **confx\_log**)\\
+	\verb|genr confx_log = log(confx)|
+
+	\subsection{Attempts}
+
+	\verb|ols worryx 0 sex_male genhealt agegrp7 rural2_urban polatt7 confx_log|\\
+	p-value (RESET) = 0.0171\\
+
+	\verb|ols worryx 0 sex_male genhealt agegrp7_poly2 rural2_urban confx_log|\\
+	p-value (RESET) = 0.0369\\
+
+	\verb|**ols worryx 0 sex_male genhealt_log agegrp7_poly2 rural2_urban confx_log**|\\
+	p-value (RESET) = 0.04
+
+\end{document}

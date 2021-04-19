@@ -3074,8 +3074,9 @@ As always, these effects are never a given; `written-in-stone', if you will. Thi
 			\hline
 			$$\mathrm{Y_t=\alpha+\sum_{k=1}^K\beta_kX_k+\varepsilon_t}$$
 			$$\mathrm{\lor\ Y_t=\alpha+\beta_1X_1+\beta_2X_2+...+\beta_KX_K+\varepsilon_t}$$
-			For N observations; dependent (response) variable Y; k independent (explanatory) (X) variables; random error $\mathrm{\varepsilon_t}$ and; time t (Wooldridge, 2012). For $\mathrm{k\in\{1,...,K\}}$ and $\mathrm{t\in\{1,...,N\}}$.\newline\newline 
-			$\mathrm{\beta_1}$ is the marginal effect of X$_1$ on Y, ..., $\mathrm{\beta_K}$ is the marginal effect of X$\mathrm{_K}$ on Y.\newline\newline
+			For N observations; dependent (response) variable Y; k independent (explanatory) (X) variables; random error $\mathrm{\varepsilon_t}$ ($\varepsilon_i=(Y_i-\hat{Y_i})$, each observation has a predicted $\hat{Y}_i$ on the line of best fit, directly above or below its real $Y_i$, distance between each of these value is the \textit{error}) and; time t (Wooldridge, 2012). For $\mathrm{k\in\{1,...,K\}}$ and $\mathrm{t\in\{1,...,N\}}$.\newline\newline 
+			$\mathrm{\beta_1}$ is the marginal effect of X$_1$ on Y, ..., $\mathrm{\beta_K}$ is the marginal effect of X$\mathrm{_K}$ on Y. Hence, $\beta=\frac{\Delta Y}{\Delta X}=\frac{\partial Y}{\partial X}$\newline\newline
+			This is a \textit{Linear Regression} which uses a straight `line of best fit' (hyperplane). For non-linear data, a \textit{Polynomial Model} can be used to account for concave/convex data. Hence: $Y_i=\alpha+\beta_1X_1+\beta_2X_2^2+...+\beta_KX_K^K+\varepsilon_i$\newline\newline
 			Assumptions of a standard OLS Regression:\newline\newline
 			[1] $\mathrm{\Sigma\varepsilon_i\cong0}$\newline\newline
 			The sum of all residuals should approximately zero, meaning the degree to which observations outlie the line of best fit should be consistent. Errors should be minimised to satisfy $\mathrm{\min\left\{\Sigma_{i=1}^N\varepsilon_i^2=\Sigma_{i=1}^N\left(Y_i-\hat{Y}_i\right)^2\right\}}$ for $\mathrm{\hat{\alpha}=\hat{\beta}_0}$; $\mathrm{\hat{\beta}=\hat{\beta}_1}$\newline\newline
@@ -3088,7 +3089,7 @@ As always, these effects are never a given; `written-in-stone', if you will. Thi
 			\hline
 			$$\mathrm{Y_t=\alpha+Y_{t-1}+\varepsilon_t\rightarrow\Delta Y_t=\alpha+\varepsilon_t}$$
                 	Referring to $\mathrm{Y_t}$, stock prices increase by an average of $\mathrm{\alpha}$ each period but are otherwise unpredictable due to variation $\mathrm{\varepsilon_t}$ (Engle, 1982). Meaning that stock returns (referring to $\mathrm{\Delta Y_t}$; ``a stock return is the change in stock price”) are on average $\mathrm{\alpha}$ but are unpredictable due to error $\mathrm{\varepsilon_t}$.\newline\newline
-			We observe lagged variables $\mathrm{(Y_{t-1})}$ and therefore must ensure no autocorrelation between them and the dependent variable as such: $\mathrm{\rho=corr\left(Y_t,Y_{t-1}\right)}$. This takes form of the Autoregressive(1) (AR(1)) which allows unit-root tests which aim to identify stationarity, ensuring zero-mean, constant variance, no seasonality. Hence, testing for $\mathrm{\left(|\rho|<1\right)}$. They’re frequently referred to as tau-tests, also ensuring coefficients have a t-distribution and produce accurate t-stats and p-values. This follows:
+			We observe lagged variables $\mathrm{(Y_{t-1})}$ and therefore must ensure no autocorrelation between them and the dependent variable as such: $\mathrm{\rho=corr\left(Y_t,Y_{t-1}\right)}$. This takes form of the Autoregressive(1) (AR(1)) which allows unit-root tests which aim to identify stationarity, ensuring zero-mean, constant variance, no seasonality. Hence, testing for $\mathrm{\left(|\rho|<1\right)}$. They’re frequently referred to as tau-tests, also ensuring coefficients have a t-distribution and produce accurate t-stats and p-values. This follows:\\
 			$$\mathrm{Y_t=\alpha+\rho Y_{t-1}+\varepsilon_t}$$\\
 			Extended to the Autoregressive(p) (AR(p)) model for p time stamps in period T:
 			$$\mathrm{Y_t=\alpha+\rho_1Y_{t-1}+...+\rho_pY_{t-p}+\varepsilon_t}$$

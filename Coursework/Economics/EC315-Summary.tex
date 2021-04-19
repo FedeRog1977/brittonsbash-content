@@ -1136,13 +1136,297 @@
 	\begin{center}
 		\includegraphics[width=5cm,height=4.5cm]{EC315-IMG/21.png}
 	\end{center}
-	
 
+\newpage
 
+...
 
+\newpage
 
+\section{Cross-Section Econometrics}
 
+	\subsection{Descriptive Statistics}
 
+	\begin{center}
+                \scriptsize
+        \begin{longtable}{p{3cm}p{9cm}}
+                \hline
+                \hline
+	       	\multicolumn{2}{c}{\textbf{Variable Types}}\\
+                \hline
+                \hline
+                \multicolumn{2}{c}{\textbf{Numerical}}\\
+                \hline
+                Continuous & Infinite possible values.\newline Real line or interval.\newline E.g. page number on your Beamer slide show or; hh:MM:SS:ss -- dd/mm.yyyy.\\
+                Discrete & Restricted possible values.\newline Bound to lower and upper limit.\newline E.g. number of lexer errors in {\TeX} log when you try to use HTML shortcuts as opposed to basic Unicode shortcuts.\\
+                \hline
+                \multicolumn{2}{c}{\textbf{Categorical}}\\
+                \hline
+                Ordinal & Ordered/sequenced and has meaning.\newline E.g. gender, race, eye colour etc.; any type of group residence.\\
+                Regular & Ordered/sequenced and has no meaning.\newline E.g. surname, forename.\\
+                \hline
+                \multicolumn{2}{c}{\textbf{Relationships}}\\
+                \hline
+                Correlation & How variables move together (direction).\newline Correlation $\neq$ Causation\\
+                Association & Intuitively connected but, perhaps, not correlated.\\
+                Dependence & Does correlatively rely on the movement of another variable.\\
+                Independence & Does not correlatively rely on the movement of another variable.\\
+                \hline
+                \hline
+                \multicolumn{2}{c}{\textbf{Data Collection}}\\
+                \hline
+                \hline
+                Sample & Portion of population selected for analysis.\newline Used to make assumptions and inference upon entire populations.\\
+                Population & Entirety of the group from which a sample is extracted.\\
+                \hline
+                \multicolumn{2}{c}{\textbf{Sampling Bias}}\\
+                \hline
+		Non-Responsive & Only a small portion of a the proposed sample responded.\\
+                Voluntary Response & Irrational bias in opinions of people within sample.\\
+                Convenience & More accessibility leads to easier response. May lead to skewed results.\newline E.g. a farming survey’s results in Central Asia may be skewed towards commercial farming because of India (easier to survey), although subsistence farming is significantly more present in remote (harder to survey) areas such as Nepal; of which there is a larger quantity.\\
+                Observations & Conductor observes information and translates it to data (observations) from existing scenario.\\
+                Experiment & Conductor observes data from results of self-manufactured scenario.\\
+                \hline
+                \hline
+                \multicolumn{2}{c}{\textbf{Examining Data}}\\
+                \hline
+                \hline
+                Scatter Plot & Plots scattered across a 2D \textit{x}-axis/\textit{y}-axis\newline Allows for identification of relationship between \textit{x} (explanatory axis) and \textit{y} (response axis).\newline E.g. linear (positive/negative), polynomial (varying by degree \{quadratic, cubic, quartic, quintic, ...\}) etc.\\
+                Bar Graph & Basic comparison of values (\textit{y}-axis) of categories (\textit{x}-axis).\\
+                Population Pyramids & Comparison of intervals (\textit{y}-axis) across two categorical groups (\textit{x}-axis 1, \textit{x}-axis 2). Often used in human population.\\
+                Box Plot & Highlights minimum, first quartile, median, third quartile and maximum.\\
+                \hline
+                \multicolumn{2}{c}{\textbf{Distribution Moments}}\\
+                \hline
+                Mean & $\mu=\frac{\Sigma x}{N}$ = Population Mean; $\bar{x}=\frac{\Sigma x}{n}$ = Sample Mean\newline Common `average’ value.\newline Supplies line of best fit in linear equations.\newline Influenced by outliers so can be skewed.\\
+                Median & Central value in dataset.\newline Neglects outliers, to a degree (hence, used for salary etc.)\newline Finds quartile ranges: 0 - Q1 - Q2 - Q3 - N (IQR)\\
+                Standard Deviation & $\sigma$ = Standard Deviation\newline How much data deviates from the mean.\newline Same units as the data.\\
+                Variance & $\sigma^2$ = Variance\newline Fairly weighted measure of variation from the mean.\newline Discards negatives, weights higher deviations more.\\
+                Covariance & $\mathrm{cov_{\textit{x,y}}=\sigma_\textit{x}\sigma_\textit{y}\rho_{\textit{x,y}}}$ = Covariance\newline Variation of members of the dataset, relative to others.\\
+                Correlation & $\mathrm{\rho_{\textit{x,y}}=\frac{cov_{\textit{x,y}}}{\sigma_\textit{x}\sigma_{\textit{y}}}}$ = Correlation\newline If $\rho$ = 1: Perfect Positive Correlation (Together)\newline If $\rho$ = -1: Perfect Negative Correlation (Apart)\newline If $\rho$ = 0: No Correlation\newline Correlation Matrices map all possible movements together.\\
+		Skewness & Degree of asymmetry around the mean.\newline \textbf{Symmetric: }assume mean in centred.\newline \{mean $\approx$ median\}; \{skewness $\approx$ 0\}\newline \textbf{Left Skewness: }tail to left \{\underline{Negative Skewness} $<$ 0\}\newline \{mean $<$ median\}; Positive Distribution\newline \textbf{Right Skewness: } tail to right \{\underline{Positive Skewness} $>$ 0\}\newline \{mean $>$ median\}; Negative Distribution\\
+                Kurtosis & Measure of the peak of the data; likelihood of extremes.\newline `Excess Kurtosis’: how peaked the data is relative to the normal distribution.\newline Excess Kurtosis = $k-3$ (Generally, \{$k-3=1$\} is significant)\newline \textbf{Leptokurtic: }above Normal Distribution - skinny/high tails.\newline \{Excess Kurtosis $>$ 0; $k<0$\}; Positive Excess Kurtosis\newline \textbf{Platykurtic: }below Normal Distribution - fat/low tails.\newline \{Excess Kurtosis $<$ 0; $k>0$\}; Negative Excess Kurtosis\newline \textbf{Mesokurtic: }Normal Distribution\newline \{Excess Kurtosis = 0; $k=0$\}; Normal Distribution\\
+                Modality & \textbf{Unimodal: }1 peak\newline \textbf{Bimodal: }2 peaks\newline \textbf{Multimodal: }more than 2 peaks; \textit{n} peaks\newline \textbf{Uniform: }No peaks (outcomes have equal probabilities)\\
+                \hline
+                \hline
+                \multicolumn{2}{c}{\textbf{Types of Economic Data}}\\
+                \hline
+                \hline
+                Cross-Section & Observations of different units, over the same time period.\newline $\mathrm{R_i}$ for $\mathrm{i\in\{1,2,...,N\}}$; $\forall$ N unit observations.\newline E.g. returns of 226 companies over 69/62/26.\\
+                Time-Series & Observations of the same unit, over different times periods.\newline $\mathrm{R_t}$ for $\mathrm{t\in\{1,2, ...,T\}}$; $\forall$ T time periods.\newline E.g. returns of 1 company over 69/62/26 - 22/66/96.\\
+                Panels & Observations of different units, over different time periods.\newline $\mathrm{R_{it}}$ for $\mathrm{\begin{Bmatrix}i\in\{1,2,...,N\}\\t\in\{1,2, ...,T\}\end{Bmatrix}}$\newline E.g. returns of 226 companies over 69/62/26 - 22/66/96.\\
+                \hline
+        \end{longtable}
+        \end{center}
 
+	\newpage
+
+	\subsection{Regression Modelling Basics}
+
+	\begin{center}
+                \scriptsize
+        \begin{longtable}{p{14cm}}
+                \hline
+                \hline
+                \multicolumn{1}{c}{\textbf{Model Types}}\\
+                \hline
+                \hline
+                \multicolumn{1}{c}{\textbf{Standard Ordinary Least Squares (OLS) Multiple Regression}}\\
+                \hline
+                $$\mathrm{Y_t=\alpha+\sum_{k=1}^K\beta_kX_k+\varepsilon_t}$$
+                $$\mathrm{\lor\ Y_t=\alpha+\beta_1X_1+\beta_2X_2+...+\beta_KX_K+\varepsilon_t}$$
+		For N observations; dependent (response) variable Y; k independent (explanatory) (X) variables; random error $\mathrm{\varepsilon_t}$ ($\varepsilon_i=(Y_i-\hat{Y_i})$, each observation has a predicted $\hat{Y}_i$ on the line of best fit, directly above or below its real $Y_i$, distance between each of these value is the \textit{error}) and; time t (Wooldridge, 2012). For $\mathrm{k\in\{1,...,K\}}$ and $\mathrm{t\in\{1,...,N\}}$.\newline\newline 
+                $\mathrm{\beta_1}$ is the marginal effect of X$_1$ on Y, ..., $\mathrm{\beta_K}$ is the marginal effect of X$\mathrm{_K}$ on Y. Hence, $\beta=\frac{\Delta Y}{\Delta X}=\frac{\partial Y}{\partial X}$\newline\newline
+		This is a \textit{Linear Regression} which uses a straight `line of best fit' (hyperplane). For non-linear data, a \textit{Polynomial Model} can be used to account for concave/convex data. Hence: $Y_i=\alpha+\beta_1X_1+\beta_2X_2^2+...+\beta_KX_K^K+\varepsilon_i$\newline\newline
+                Assumptions of a standard OLS Regression:\newline\newline
+                [1] $\mathrm{\Sigma\varepsilon_i\cong0}$\newline\newline
+                The sum of all residuals should approximately zero, meaning the degree to which observations outlie the line of best fit should be consistent. Errors should be minimised to satisfy $\mathrm{\min\left\{\Sigma_{i=1}^N\varepsilon_i^2=\Sigma_{i=1}^N\left(Y_i-\hat{Y}_i\right)^2\right\}}$ for $\mathrm{\hat{\alpha}=\hat{\beta}_0}$; $\mathrm{\hat{\beta}=\hat{\beta}_1}$\newline\newline
+                [2] var$\mathrm{(\varepsilon_i)=E(\varepsilon_i^2)=\sigma^2}$\newline\newline
+                All observations have constant errors, meaning that the variance of the residuals is constant. Therefore, they are homoskedastic; no need for a heteroskedasticity test (White, 1980) or the adjustment to a robust model.\newline\newline
+                [3] cov$\mathrm{(\varepsilon_i,\varepsilon_j)=0}$ (for $\mathrm{i\neq j}$)\newline\newline
+                Error terms uncorrelated with one another; observations are exogenous (X$_1$ does not cause changes in X$_2$), not endogenous. There is no need for Instrumental Variable approach. No endogeneity problem.\\
+                \hline
+                \multicolumn{1}{c}{\textbf{ARCH Stochastic Time-Series Model}}\\
+                \hline
+                $$\mathrm{Y_t=\alpha+Y_{t-1}+\varepsilon_t\rightarrow\Delta Y_t=\alpha+\varepsilon_t}$$
+		Referring to $\mathrm{Y_t}$, stock prices increase by an average of $\mathrm{\alpha}$ each period but are otherwise unpredictable due to variation $\mathrm{\varepsilon_t}$ (Engle, 1982). Meaning that stock returns (referring to $\mathrm{\Delta Y_t}$; ``a stock return is the change in stock price”) are on average $\mathrm{\alpha}$ but are unpredictable due to error $\mathrm{\varepsilon_t}$.\newline\newline
+                We observe lagged variables $\mathrm{(Y_{t-1})}$ and therefore must ensure no autocorrelation between them and the dependent variable as such: $\mathrm{\rho=corr\left(Y_t,Y_{t-1}\right)}$. This takes form of the Autoregressive(1) (AR(1)) which allows unit-root tests which aim to identify stationarity, ensuring zero-mean, constant variance, no seasonality. Hence, testing for $\mathrm{\left(|\rho|<1\right)}$. They’re frequently referred to as tau-tests, also ensuring coefficients have a t-distribution and produce accurate t-stats and p-values. This follows:\\
+                $$\mathrm{Y_t=\alpha+\rho Y_{t-1}+\varepsilon_t}$$\\
+                Extended to the Autoregressive(p) (AR(p)) model for p time stamps in period T:
+                $$\mathrm{Y_t=\alpha+\rho_1Y_{t-1}+...+\rho_pY_{t-p}+\varepsilon_t}$$
+                Furthermore, for modelling financial time-series, the above is transformed into the Autoregressive Conditional Heteroskedasticity (ARCH) model (Bollerslev, 1986). This accounts for return volatility and an error function as follows:
+                $$\mathrm{Y_t=\alpha+\beta_1X_{1t}+...+\beta_kX_{k1}+\varepsilon_t}$$
+                $$\mathrm{\sigma_t^2=var(\varepsilon_t)=\gamma_0+\gamma_1\varepsilon_{t-1}^2+...+\gamma_p\varepsilon_{t-p}^2}$$
+                $$\mathrm{\varepsilon_t=\textit{f}\left(\varepsilon_{t-1},\varepsilon_{t-1},...,\varepsilon_{t-p}\right)}$$\\
+                \hline
+                \multicolumn{1}{c}{\textbf{Dummy Variables}}\\
+                \hline
+                        Dummy variables are used to alter a sample according to a binary criteria (Wooldridge, 2003). A dummy (D) is placed in the model with a value of 1 or 0. For example, when isolating males and females. This alters the \textit{y-intercept} according to each in question thus, changing the premium. For example:
+                        $$\mathrm{Y_t=\alpha+\beta_1X_1+\tau D_t+\varepsilon_t}$$
+                        $\mathrm{D_t=0}$: $\mathrm{Y_t=\alpha+\beta_1X_1+\tau D_t+\varepsilon_t;}$\\ $\mathrm{D_t=1}$: $\mathrm{Y_t=\alpha+\beta_1X_1+\tau+\varepsilon_t=(\alpha+\tau)+\beta_1X_1+\varepsilon_t}$\\
+                \hline
+                \hline
+                \multicolumn{1}{c}{\textbf{Measures of Model Integrity}}\\
+                \hline
+                \hline
+		\textbf{[1] R$^2$ Value: }Basic model integrity. The degree of explanation a selection of variables has regarding the chosen dependent variable.\newline\newline
+                [1.1] Standard R$^2$: Used in the case of single regression.\newline\newline
+                \textit{The R$^2$ value of 0.2672 suggests the explanatory variable is responsible for and can statistically explain 26.72\% of the variation in Y or; variation in Y is 26.72\% attributable to the explanatory variable.}\newline\newline
+                [1.2] Adjusted R$^2$ Value: Same as the former. Used in the case of multiple regression.\newline\newline
+                \textit{The R$^2$ value of 0.5672 suggests the collection of explanatory variables are responsible for and can statistically explain 56.72\% of the variation in Y or; variation in Y is 56.72\% attributable to the collection of explanatory variables.}\newline\newline
+                \textbf{[2] Omitted Variable Bias: }When one or more variables which could have an effect on Y are omitted from the model. This may happen when omitting variables in search of better p-values. Some explanation may be omitted.\newline\newline
+                \textbf{[3] Information Criteria: }One way of selecting an optimal model is by finding the one with the lowest possible \underline{Schwartz Information Criterion}, \underline{Akaike Information Criteria} and/or \underline{Hannan-Quinn Information Criteria}.\\
+                \textbf{[4] f-test: }Validity of the set of variables in explaining the dependent variable. Validity of the set of instruments also, in the case of an Instrumental Variable approach.\newline\newline
+                H$_0$: R$^2=0$; the model is not statistically significant\newline\newline
+                p-value $>$ 0.05: fail-to-reject; the model is not statistically significant\newline
+                p-value $<$ 0.05: reject; the model is statistically significant at $<$\textit{relevant}$>$ level\newline\newline
+                \textbf{[5] RESET Test: }Tests whether non-linear explanatories, such as polynomials and logarithms, assist in explaining the dependent variable. I.e. is your model well- specified? Hypothetically adds gamma coefficients to hypothetical polynomials and logs in the model. Try different selections of polys and logs and compare RESET results. Seek combination with highest possible p-value.\newline\newline
+                \textit{Aim to fail-to-reject (if not in desire of polys and logs):}\newline
+                H$_0$: Polynomials and logarithms do not aid explanation of Y\newline\newline
+                \textit{p-value desire flips with regards to hypothesis symmetry:}\newline
+                p-value $>$ 0.05: fail-to-reject; polynomials and logarithms do aid explanation of Y\newline
+                p-value $<$ 0.05: reject; polynomials and logarithms do not aid explanation of Y\newline\newline
+                \textbf{[6] Endogeneity Test: }The `\underline{Hausman Test}' is often used. Random unaccounted explanatories may be correlated with $\varepsilon$ so, the Instrumental Variable approach accounts for unknown coefficients where its variable is correlated with $\varepsilon$.\newline\newline
+                \textbf{Endogeneity: }factors in model cause $\Delta$X, $\Delta$X associated w/ $\Delta\varepsilon$\newline
+                \textbf{Exogeneity: }factors in model don't cause $\Delta$X, $\Delta$X not associated w/ $\Delta\varepsilon$\newline\newline 
+                \textit{Aim to fail-to-reject:}\newline
+                        H$_0$: Explanatory variables uncorrelated with $\varepsilon$; no endogeneity problem\newline\newline
+		\textit{p-value desire flips with regards to hypothesis symmetry:}\newline
+                p-value $>$ 0.05: fail-to-reject; no endogeneity problem present\newline
+                p-value $<$ 0.05: reject; endogeneity problem present; need IV approach\newline\newline
+                \textbf{[7] Heteroskedasticity Test: }The `\underline{White Test}' is often used. Often referred to as `robustness test' finding need for robust standard errors. When there’re non-constant error terms (heteroskedasticity), OLS poorly fits a suitable line through the data.\newline\newline
+                \textbf{Homoskedastic Errors: }constant error terms/error variance\newline
+                \textbf{Heteroskedastic Errors: }non-constant error terms/error variance\newline\newline
+                \textit{Aim to fail-to-reject:}\newline
+                H$_0$: There is homoscedasticity present; there are constant error terms\newline\newline
+                \textit{p-value desire flips with regards to hypothesis symmetry:}\newline
+                p-value $>$ 0.05: fail-to-reject; there is no heteroskedasticity present; errors are constant\newline
+                p-value $<$ 0.05: reject; there is heteroskedasticity present; errors are non-constant\\
+                \textbf{[8] Unit-Root Test: }This may be found under various names including `tau-test’, `unit-root test’, `Augmented Dickie-Fuller Test’ etc. However, people frequently make the same mistake with these terms as they do when referring to `terminal’, `terminal emulator’ `command line’, `shell’ and `Bash/zsh’, for example.\newline\newline
+                A `unit-root’ is a possible characteristic of stochastic trend for example, when there’s a random walk. A `unit-root’ test aims to identify whether there is stationarity in a stochastic model. Stationarity requires: [1] constant mean, [2] constant variance, [3] no seasonality. The `\underline{Dickie-Fuller Test}' is the creator-based name given to a test for a unit-root, using a tau test-statistic ($\tau$-statistic) hence, `tau-test’. If Y is non-stationary, $\phi$ lacks a t-distribution so p-values/t-stats of t-tests are inaccurate. Syntax follows: `Y is stationary/non-stationary’.\newline\newline
+                [8.1] The `\underline{Dickie-Fuller Test}' is used for single-explanatory models, commonly AR(1):\\
+                Recall: $\mathrm{Y_t=\alpha+\rho Y_{t-1}+\varepsilon_t}$\newline
+                Testing Regression: $\mathrm{\Delta Y_t=\alpha+\phi Y_{t-1}+\varepsilon_t}$\newline\newline
+                H$_0$: $\mathrm{\phi=0\Rightarrow\left\{\rho=1\Rightarrow\phi=(\rho-1)\right\}}$; there is a uni-root present\newline\newline
+                p-value $>$ 0.05: fail-to-reject; $\{\phi=0\Rightarrow\rho=1\}$; Y non-stationary; unit-root present\newline
+                p-value $<$ 0.05: reject; $\left\{\{-2<\phi<0\}\Rightarrow\{-1<\rho<1\}\right\}$; Y stationary; no unit-root\newline\newline
+                [8.2] The `\underline{Augmented Dickie-Fuller Test}' follows the same principals and is used for multiple-variable models. Variables which present stationarity can be used. Syntax amendment follows: `Y is stationary/non-stationary about the trend of X’. The `\underline{Augmented Dickie-Fuller Test}' extends the testing methods to AR(p):\newline\newline
+		Recall: $\mathrm{Y_t=\alpha+\rho_1Y_{t-1}+...+\rho_pY_{t-p}+\varepsilon_t}$\newline
+                Testing Regression: $\mathrm{\Delta Y_t=\alpha+\phi Y_{t-1}+\gamma_1\Delta Y_{t-1}+...+\gamma_p\Delta Y_{t-p}+\delta t+\varepsilon_t}$\newline
+
+                H$_0$: $\phi=0\land\delta=0$; there is a uni-root present\newline\newline
+                p-value $>$ 0.05: fail-to-reject; Y non-stationary around trend; unit-root present\newline
+                p-value $<$ 0.05: reject; Y stationary around trend; no unit-root\\
+                \hline
+        \end{longtable} 
+        \end{center}
+
+	\newpage
+
+	\subsection{Regression Results Interpretation}
+
+	\begin{table}[h]
+                \scriptsize
+                \renewcommand{\arraystretch}{1.25}
+        \begin{center}
+        \begin{tabular}{p{3cm}p{5cm}p{5cm}}
+                \hline
+                \multicolumn{3}{c}{\textbf{Coefficients}}\\
+                \hline
+                $(+)$ & \multicolumn{2}{l}{X and Y positively related and move in the same direction.}\\
+                $(-)$ & \multicolumn{2}{l}{X and Y negatively related and move in opposing directions.}\\
+                \hline
+                \multicolumn{3}{c}{\textbf{Numerical Continuous Dependent Variable}}\\
+                \hline
+                Continuous\newline Explanatory & For a 1 unit change in X, there is a $<$\textit{coefficient}$>$ change in Y. & \textit{``For a 1 unit increase in management fee, there is a $<$coefficient$>$ change in hedge fund value."}\\
+                Binary Explanatory & X being Binary 1 results in a $<$\textit{coefficient}$>$ difference in Y over X being Binary 0. & \textit{``A fund with a high-water mark has a $<$coefficient$>$ different value from a fund without one."}\\
+                \hline
+                \multicolumn{3}{c}{\textbf{Binary Dummy Dependent Variable}}\\
+                \hline
+                Continuous\newline Explanatory & For a 1 unit change in X, the odds of Y being Binary 1 changes by $<$\textit{coefficient}$>$ units. & \textit{``For a 1 unit increase in management fee, the odds of a hedge fund being defunct changes by $<$coefficient$>$ units."}\\
+                Binary Explanatory & X being Binary 1 results in the odds of Y being Binary 1 by $<$\textit{coefficient}$>$ different units over X being Binary 0. & \textit{``A fund with a high-water mark is $<$coefficient$>$ differently probable of being defunct than a fund without one."}\\
+                \hline
+                \multicolumn{3}{c}{\textbf{Respective Numerical Examples (Coefficient = 0.226)}}\\
+                \hline
+                \multicolumn{3}{ p{14cm} }{\textit{``For a 1 unit change in management fee, there is a 0.226 unit increase in hedge fund value."}}\\
+                \multicolumn{3}{ p{14cm} }{\textit{``A hedge fund with a high-water mark has a 0.226 unit greater value than one without one."}}\\
+                \multicolumn{3}{ p{14cm} }{\textit{``For a 1 unit increase in management fee, the odds of a hedge fund being defunct increases by 0.226 units."}}\\
+                \multicolumn{3}{ p{14cm} }{\textit{``A hedge fund with a high-water mark is 0.226 units more probable of being defunct than one without one."}}\\
+                \hline
+        \end{tabular}
+        \end{center}
+        \end{table}
+
+	\newpage
+
+	\subsection{Hypothesis Testing Basics}
+
+	\begin{table}[h]
+                \scriptsize 
+                \renewcommand{\arraystretch}{1.25}
+        \begin{center}
+        \begin{tabular}{p{4cm}p{4cm}p{4cm}}
+                \hline
+                \hline
+                \multicolumn{3}{c}{\textbf{Hypotheses}}\\
+                \hline
+                \hline
+                \multicolumn{3}{ p{12cm} }{\textbf{H$_0$: }Null Hypothesis \textit{Aim to Reject; may Fail-to-Reject; rarely Accept}\newline \textbf{H$\mathrm{_A}$: }Alternative Hypothesis \textit{Favour in the case of Rejection of the Null}}\\
+                \hline
+                \multicolumn{3}{ p{12cm} }{\textbf{Type I Error: }Rejection of null hypothesis when it is true\newline \textbf{Type II Error: }Failure-to-reject null hypothesis when it is false}\\
+                \hline
+                \multicolumn{3}{ p{12cm} }{\textbf{Reduce Type I Error Risk: }Reduce significance level; harder to reject null\newline \textbf{Reduce Type II Error Risk: }Use large sample; ensuring significant spread}\\
+                \hline
+                \multicolumn{3}{p{12cm}}{\textbf{Probability} $\mathbf{\alpha}$: Probability of making Type I Error\newline \textbf{Probability} $\mathbf{\beta}$: Probability of making Type II Error}\\
+                \hline
+                \hline
+                \multicolumn{3}{c}{\textbf{Error Examples}}\\
+                \hline
+                \hline
+                \multicolumn{1}{c|}{\textbf{Decision}} & \multicolumn{1}{c|}{H$_0$ is True} & \multicolumn{1}{c}{H$_0$ is False}\\
+                & \multicolumn{1}{|c|}{(Accused is Innocent)} & \multicolumn{1}{c}{(Accused is Guilty)}\\
+                \hline
+                \multicolumn{1}{c|}{Reject H$_0$} & \multicolumn{1}{c|}{\textbf{WRONG} Decision} & \multicolumn{1}{c}{\textbf{CORRECT} Decision}\\
+                \multicolumn{1}{c|}{(Accused Convicted)} & \multicolumn{1}{c|}{(Type I Error)} & \\
+                & \multicolumn{1}{|c|}{Probability $\alpha$} & \\
+                \hline
+                \multicolumn{1}{c|}{Fail-To-Reject H$_0$} & \multicolumn{1}{c|}{\textbf{CORRECT} Decision} & \multicolumn{1}{c}{\textbf{WRONG} Decision}\\
+                \multicolumn{1}{c|}{(Accused Goes Free)} & & \multicolumn{1}{|c}{(Type II Error)}\\
+                & \multicolumn{1}{|c|}{} & \multicolumn{1}{c}{Probability $\beta$}\\
+                \hline
+        \end{tabular}
+        \end{center}
+        \end{table}
+
+	\newpage
+
+	\subsection{t-stat \& p-value Interpretation}
+
+	\begin{table}[h]
+                \scriptsize
+                \renewcommand{\arraystretch}{1.25}
+        \begin{center}
+        \begin{tabular}{p{13cm}}
+                \hline
+                \multicolumn{1}{c}{\textbf{t-stat}}\\
+                \hline
+                \multicolumn{1}{c}{t-stat = $\mathit{\frac{\bar{x}-\bar{\mu}}{\left(\frac{\sigma}{\sqrt{N}}\right)}}$}\\
+                \textbf{$|$t-stat$|$} $>$ 1.96: reject the null hypothesis at the 5\% significance level;\newline \textbf{$|$t-stat$|$} $>$ 2.58: reject the null hypothesis at the 1\% significance level\newline \textit{Given 1000 degrees of freedom}\\
+                \hline
+                \multicolumn{1}{c}{\textbf{p-value}}\\
+                \hline
+                \textbf{p-value} $<$ 0.05: reject the null hypothesis at the 5\% significance level;\newline \textbf{p-value} $<$ 0.01: reject the null hypothesis at the 1\% significance level\newline \textit{Given 1000 degrees of freedom}\\
+                \hline
+                \multicolumn{1}{c}{\textbf{Confidence Relevance}}\\
+                \hline
+                5\% and 1\% significance levels are also referred to as the 95\% and 99\% confidence [in rejecting the null] intervals. Correct syntax: refer to 5\% and 1\% significance levels when referring to p-values; 95\% and 99\% confidence levels when referring to hypotheses.\\
+                \hline
+                \multicolumn{1}{c}{\textbf{Error Relevance}}\\
+                \hline
+                5\% and 1\% levels are used to ensure accuracy and reduced probability of making a Type I error. That is, ``accepting a max 5\%/1\% chance that you are wrong when rejecting the null”; ``you are min 95\%/99\% confident you are right when rejecting”.\\
+                \hline
+        \end{tabular}
+        \end{center}
+        \end{table}
 
 \end{document}

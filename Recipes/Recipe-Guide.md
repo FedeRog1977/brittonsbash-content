@@ -174,6 +174,35 @@ header-includes:
 
 \newpage
 
+## Venison Steak
+
+### Venison
+
+* 1 tsp Olive Oil
+* Venison Steak 
+
+### Porchini Mushroom Sauce
+
+* 1 tsp Olive Oil 
+* 1 Clove Garlic
+* $\frac{1}{4}$ Red Onion
+* 75g Porchini Mushrooms
+* 50ml Double Cream 
+* 50ml Water
+
+### Vegetables
+
+* Asparagus
+* Baby Chantennay Carrots
+* 1 tsp Olive Oil
+
+### Potatoes 
+
+* 250g Ruby Gem Potatoes 
+* 1 tbsp Olive Oil
+
+\newpage
+
 # Mexican 
 
 ## Chile Con Carne 

@@ -24,6 +24,7 @@
         \usepackage{multirow}                                                   
                              
         \usepackage[labelfont=bf,textfont=bf,font=small,skip=8pt]{caption}
+	\usepackage{subcaption}
                                
         \setlength{\parindent}{0pt}                                 
         \renewcommand{\baselinestretch}{1.25}      
@@ -1139,7 +1140,374 @@
 
 \newpage
 
-...
+\section{Public Economics}
+
+	\subsection{Equity \& Distribution}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Social Welfare Theorem
+		\item Can the \textit{Social Planner} decide between allocations of utility? (Efficient redistributions)
+		\item Can lump sum taxes achieve desired outcome?
+		\item Is \textit{Pareto Efficiency} the desired outcome?
+		\item Measure income and income equality
+	\end{itemize}
+		
+		\subsubsection{First \& Second Welfare Theorems}
+
+	\begin{enumerate}
+	\setlength\itemsep{0cm}
+		\item Every Walrasian Equilibrium is pareto efficient
+		\begin{itemize}
+			\item Competitive market conditions: market equilibrium is efficient 
+		\end{itemize}
+		\item Every Pareto Efficient Allocation Supported by Walrasian Equilibrium
+		\begin{itemize}
+			\item Competitive market conditions: efficient allocation is supported by market equilibrium
+		\end{itemize}
+	\end{enumerate}
+
+		\subsubsection{Edgeworth Box}
+
+	\begin{enumerate}                               
+        \setlength\itemsep{0cm}
+		\item Getting the Pareto Efficient outcome
+		\begin{itemize}
+			\item ``For a pareto efficient outcome, both sides can't be made better-off''
+		\end{itemize}
+		\item \textit{Social Planner}: redistribute for efficiency 
+	\end{enumerate}
+
+	\begin{figure}[H]
+        \begin{center}
+                \begin{subfigure}[t]{4cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/22.png}
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{4cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/23.png}
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{4cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/24.png}
+                \end{center}
+                \end{subfigure}
+	\par
+                \begin{subfigure}[t]{4cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/25.png}
+		\end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{4cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/26.png}
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{4cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/27.png}
+                \end{center}
+                \end{subfigure}
+        \end{center}
+        \end{figure}
+
+		\subsubsection{Social Planner}
+
+	``How much of $X$'s utility can/`should' be traded-off for more efficiency?''
+
+	\begin{figure}[H]
+	\begin{center}
+		\begin{subfigure}[t]{4cm}  
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/28.png}        
+                \end{center}
+                \end{subfigure}      
+                \begin{subfigure}[t]{4cm}  
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/29.png}        
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{4cm}  
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/30.png}      
+                \end{center}
+                \end{subfigure}
+	\end{center}
+	\end{figure}
+
+		\subsubsection{Individual to Aggregate Utility}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item \textit{Aggregate Utility}: given individual happiness (Utility), what’s the social happiness (Welfare)
+		\item Hence, $W$ denotes Welfare
+		\item \textit{Utilitarian}: $W=U_2+U_1+...+U_N$
+		\item \textit{Rawlsian}: $W=\min\{U_2+U_1+...+U_N\}$
+		\item ``If the lowest level of utility is still quite high, we're doing well''
+	\end{itemize}
+
+		\subsubsection{How do We Achieve the Optimal Allocation?}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item There are two types of people (differing in ability)
+		\item The government (social planner) observes these abilities `perfectly'
+		\item $s_l$ = Low Ability; $s_h$ = High Ability; $x$ = Consumption; $l$ = Labour
+		\item Utility Function: $U(x,l)=u(x)-v(l)$ (same for both abilities)
+		\item $\frac{dU}{dx}>0$ then $\frac{d^2U}{dx^2}<0$;
+		\item $\frac{dU}{dl}<0$ then $\frac{d^2U}{dl^2}>0$
+		\item Lump Sum Taxes: individual pays tax $T_i$ is $T_i>0$
+		\item At what rate do you turn additional labour into additional consumption?
+		\item Higher ability people are more efficient at this
+		\item Budget Constraint: $x_i=s_il_i-T_i$
+		\item Individual $i$ trades-off MU of consumption with Mdis-U of labour:
+		\item $s_i$: $\frac{du}{dx_i}-\frac{dv}{dl_i}=0$
+		\item Utilitarian to maximise total U:
+		\item $\max\{\sum_{l,h}{u(s_il_i\left(T_i)-T_i\right)-v(l_i(T_i))}\}$
+		\item Government must run balanced budget:
+		\item $T_h+T_l=0$ where $\frac{du}{dx_h}=\frac{du}{dx_l}$
+	\end{itemize}
+
+		\subsubsection{Measuring Inequality}
+
+	\begin{enumerate}
+	\setlength\itemsep{0cm}
+		\item Range of M
+		\item Relative Mean Deviation of M
+		\item Coefficient of Variation
+		\item Gini
+		\item Lorenz Curve
+	\end{enumerate}
+
+	\textbf{Range of M}
+
+	$$R=\frac{M^H-M^1}{H_{\mu}}$$
+
+	\textbf{Relative Mean Deviation of M}
+
+	$$D=\frac{\sum\vert\mu-M^h\vert}{2(H-1)\mu}$$
+
+	\textbf{Coefficient of Variation}
+
+	$$\sigma=\sqrt{\frac{\sum(M^h-\mu)^2}{H}}$$
+
+	$$C=\frac{\sigma}{\mu(H-1)^{\frac{1}{2}}}$$
+
+	\textbf{Gini}
+
+	$$G=1-\frac{1}{H^2\mu}\ \left\{\begin{matrix}\sum_i=1^H\min\{M^i\}\\\sum_j=1^H\min\{M^j\}\end{matrix}\right.$$
+
+	$$G=1-\frac{1}{H^2\mu}((2H-1)M^1+(2H-3)M^2+(2H-5)M^3+...+M^H)$$
+
+	\textbf{Lorez Curve}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item $y$-axis: share of income
+		\item $x$-axis: share of population
+		\item Rank income distribution based on degree of equality
+		\item Area below \textit{Line of Equality} always = $\frac{1}{2}$
+		\item $G=\mathrm{Line\ of\ Equality}-\mathrm{Lorenz\ Curve}$
+		\item \includegraphics[width=3.5cm,height=3cm]{EC315-IMG/31.png}
+	\end{itemize}
+
+	\subsection{Commodity \& Income Tax}
+
+		\subsubsection{Commodity Tax}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item \textit{Deadweight Loss} of commodity tax
+		\item Calculating \textit{Deadweight Tax}
+	\end{itemize}
+
+	\begin{figure}[H]
+        \begin{center}
+                \begin{subfigure}[t]{4cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/32.png}
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{4cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/33.png}
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{4cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/34.png}
+                \end{center}
+                \end{subfigure}
+        \par
+                \begin{subfigure}[t]{4cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/35.png}
+                \end{center}
+                \end{subfigure}
+        \end{center}
+        \end{figure}
+
+	Deadweight Loss is the triangle `edb', where:\\
+	$DWL=\frac{1}{2}((X^0-X^1)t)$\\
+	$DWL=\frac{1}{2}\left(\vert\varepsilon^d\vert\frac{X^0}{p}t^2\right)$\\
+	Recall: $\varepsilon^d=\frac{p}{X}\frac{dX}{dp}$
+
+	\begin{figure}[H]
+        \begin{center}
+                \begin{subfigure}[t]{3.5cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/36.png}
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{3.5cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/37.png}
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{3.5cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/38.png}
+                \end{center}
+                \end{subfigure}
+		\begin{subfigure}[t]{3.5cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/39.png}
+                \end{center}
+                \end{subfigure}
+	\quad
+                \begin{subfigure}[t]{3.5cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/40.png}
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{3.5cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/41.png}
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{3.5cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/42.png}
+                \end{center}
+                \end{subfigure}
+        \end{center}
+        \end{figure}
+
+		\subsubsection{Optimal Taxation}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item Firm
+		\item Consumer
+		\item Two Goods (labour $l$ and consumption $x$)
+	\end{itemize}
+
+	\begin{figure}[H]
+        \begin{center}
+                \begin{subfigure}[t]{7cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/43.png}
+                \end{center}
+			\caption{Production in Robinson Crusoe World}
+                \end{subfigure}
+                \begin{subfigure}[t]{7cm}
+                \begin{center}
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/44.png}
+                \end{center}
+			\caption{Production in Robinson Crusoe World}
+                \end{subfigure}
+        \quad
+                \begin{subfigure}[t]{3.5cm}
+                \begin{center}
+			$p$ = price; $\pi$ = 0; $R$ = Tax Revenue
+                \end{center}
+                \end{subfigure}
+                \begin{subfigure}[t]{3.5cm}
+                \begin{center}
+			$i=qx$ = Consumer Budget Constraint; $q$ = Price Consumer Pays; $p$ = Price Firm Recieves
+                \end{center}
+                \end{subfigure}
+        \end{center}
+        \end{figure}
+
+	Combine producer and consumer for optimal commodity taxation:
+	
+	\begin{figure}[H]      
+        \begin{center}                     
+                \begin{subfigure}[t]{7cm}  
+                \begin{center}             
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/45.png}
+                \end{center}               
+                \end{subfigure}            
+                \begin{subfigure}[t]{7cm}  
+                \begin{center}                                                    
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/46.png}
+                \end{center}   
+                \end{subfigure}
+	\end{center}
+        \end{figure}
+
+		\subsubsection{Modelling Consumer Choice}
+
+	$$U=U(x,(L-\ell))=U(x,\ell)$$
+
+	$L$ = Time\\
+	$\ell$ = Labour\\
+	$(L-\ell)$ = Leisure\\
+	$w$ = Wage\\
+	$t$ = Tax Rate\\
+	$z=w\ell$ = Pre-Tax Income\\
+	$\left(L-\frac{z^*}{w}\right)$ = Hours of Leisure\\
+	$px=w\ell(1-t)$ = Budget Constraint\\
+	$\therefore U=U(x,\frac{z}{w})$\\
+	$\therefore px=z(1-t)$
+
+		\subsubsection{Graphing Income Tax}
+
+	\begin{figure}[H]      
+        \begin{center}                     
+                \begin{subfigure}[t]{3.5cm}  
+                \begin{center}             
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/48.png}
+                \end{center}               
+                \end{subfigure}            
+                \begin{subfigure}[t]{3.5cm}  
+                \begin{center}                                                    
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/49.png}
+                \end{center}   
+                \end{subfigure}
+		\begin{subfigure}[t]{3.5cm}                                         
+                \begin{center}                                                    
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/50.png}
+                \end{center}             
+                \end{subfigure}
+		\begin{subfigure}[t]{3.5cm}                                         
+                \begin{center}                                                    
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/51.png}
+                \end{center}             
+                \end{subfigure}
+        \end{center}
+        \end{figure}
+
+		\subsubsection{Graphing Income Tax w/ Thresholds}
+	
+	\begin{figure}[H]      
+        \begin{center}                     
+                \begin{subfigure}[t]{7cm}  
+                \begin{center}             
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/52.png}
+                \end{center}               
+                \end{subfigure}            
+                \begin{subfigure}[t]{7cm}  
+                \begin{center}                                                    
+                        \includegraphics[width=3cm,height=2.5cm]{EC315-IMG/53.png}
+                \end{center}   
+                \end{subfigure}
+        \end{center}
+        \end{figure}
 
 \newpage
 

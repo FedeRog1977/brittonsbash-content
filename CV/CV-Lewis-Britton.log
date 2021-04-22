@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  6 APR 2021 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  22 APR 2021 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -594,22 +594,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./CV-Lewis-Britton.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
-
-
-Package rerunfilecheck Warning: File `CV-Lewis-Britton.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CV-Lewis-Britton.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  A321DE6AB629D8EFEF76D7F61CF77248;329.
+Package rerunfilecheck Info: File `CV-Lewis-Britton.out' has not changed.
+(rerunfilecheck)             Checksum: A321DE6AB629D8EFEF76D7F61CF77248;329.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
  ) 
 Here is how much of TeX's memory you used:
- 6729 strings out of 492616
- 103120 string characters out of 6129480
+ 6737 strings out of 492616
+ 103199 string characters out of 6129480
  194212 words of memory out of 5000000
- 10566 multiletter control sequences out of 15000+600000
+ 10574 multiletter control sequences out of 15000+600000
  72277 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,6n,34p,923b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -623,10 +616,10 @@ texmf-dist/fonts/type1/catharsis/cormorantgaramond/CormorantGaramond-Italic.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/catharsis/cormorantgaramond/Co
 rmorantGaramond-Regular.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmmi10.pfb>
-Output written on CV-Lewis-Britton.pdf (3 pages, 132311 bytes).
+Output written on CV-Lewis-Britton.pdf (3 pages, 132683 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

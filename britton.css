@@ -49,27 +49,27 @@ bordeaux: #800020;
 .switchcage {
 	font-family: Broadway;
 	letter-spacing: 0.25vw;
-    align-self: flex-end;
-    text-align: right;
+    	align-self: flex-end;
+    	text-align: right;
 	color: var(--ghost);
-    padding-top: 1vw;
-    padding-right: 12.5%;
-    opacity: 75%;
+    	padding-top: 1vw;
+    	padding-right: 12.5%;
+    	opacity: 75%;
 }
 
 	.switch {
-	    font-family: Proxima;
-	    font-size: 0.95vw;
-	    text-align: center;
-	    letter-spacing: 0vw;
-	    display: inline-block;
-	    width: 5em;
-	    cursor: pointer;
-	    border: 0.115em solid var(--ghost);
-	    border-radius: 1.25em;
-	    color: var(--ghost);
-	    padding: 0.25rem;
-	    margin-left: 0.3125rem;
+	    	font-family: Proxima;
+	    	font-size: 0.95vw;
+	    	text-align: center;
+	    	letter-spacing: 0vw;
+	    	display: inline-block;
+	    	width: 5em;
+	    	cursor: pointer;
+	    	border: 0.115em solid var(--ghost);
+	    	border-radius: 1.25em;
+	    	color: var(--ghost);
+	    	padding: 0.25rem;
+	   	margin-left: 0.3125rem;
 	}
 
 /* Headings */
@@ -86,21 +86,21 @@ h1 {
 }
 
 h2 {
-	font-family: CMU Serif;
+	font-family: CMU-Serif;
 	font-size: 1.25vw;
 	color: var(--font);
 	font-weight: normal;
 }
 
 h3 {
-	font-family: CMU Bold;
+	font-family: CMU-Bold;
 	font-size: 0.95vw;
 	color: var(--font);
 	font-weight: normal;
 }
 
 h4 {
-	font-family: CMU Bold;
+	font-family: CMU-Bold;
 	font-size: 0.95vw;
 	color: var(--font);
 	font-weight: normal;
@@ -112,11 +112,29 @@ body {
 	margin: 0em;
 }
 
+b {
+	font-family: CMU-Bold;
+}
+
+i {
+	font-family: CMU-Italic;
+}
+
 /* Fonts */
 
 @font-face {
-	font-family: CMU Bold;
+	font-family: CMU-Serif;
+	src: url(Fonts/CMUSerif.ttf);
+}
+
+@font-face {
+	font-family: CMU-Bold;
 	src: url(Fonts/CMUBold.ttf);
+}
+
+@font-face {
+	font-family: CMU-Italic;
+	src: url(Fonts/CMUItalic.ttf);
 }
 
 @font-face {
@@ -136,7 +154,7 @@ body {
 
 @font-face {
 	font-family: Broadway;
-	src: url(Fonts/Broadway Regular.ttf);
+	src: url(Fonts/Broadway-Regular.ttf);
 }
 
 /* Header & Footer */ 
@@ -224,7 +242,7 @@ body {
 		padding-bottom: 0em;
    		width: 100%;
    		height: 5.65em;
-    	background-color: #006039;
+    		background-color: #006039;
 	}
 
 .footer {
@@ -243,7 +261,7 @@ body {
 /* Drop-Down Boxes */
 
 .collapsible {
-	font-family: CMU Serif;
+	font-family: CMU-Serif;
 	font-size: 0.95vw;
 	text-align: left;
 	background-color: var(--bg);
@@ -342,7 +360,7 @@ body {
 /* Body Text */
 
 .body {
-	font-family: CMU Serif;
+	font-family: CMU-Serif;
 	font-size: 0.95vw;
 	text-align: justify;
 	line-height: 1.5vw;

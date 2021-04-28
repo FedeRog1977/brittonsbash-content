@@ -184,6 +184,17 @@ i {
 			margin: 0em;
 		}
 
+		.title a:link, .title a:visited {
+ 		       color: var(--font2);
+ 		       text-decoration: none;
+		}
+
+		.title a:hover, .title a:active {
+		        color: var(--font2-hover);
+		        text-decoration: none;
+		        border-bottom: 2.5px solid var(--font);
+		}
+
 	.navigation {
 		text-align: right; 
 		letter-spacing: 0.25vw;

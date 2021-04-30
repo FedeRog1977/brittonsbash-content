@@ -161,6 +161,51 @@ header-includes:
 
 \newpage
 
+## BBQ Platter
+
+\textit{Herbs, spices and rubs etc. are displayed relative to what they're being used on, in second class lists.}
+
+### Meat \& Fish
+
+* 1 tbsp Olive Oil
+* 1 Ribeye Steak
+	- Black Pepper
+* 1 Chicken Breast
+	- 1 tsp Smoked Paprika
+	- 1 tsp Cumin
+	- 1 tsp Oregano
+	- 1 tsp Onion Salt
+	- 1 tsp Garlic Salt
+	- 1 tsp Demerara Sugar
+* 2 Pork Chop Medallions
+	- ...
+* 2 Pork Sausages
+	- ...
+* 1 Salmon Fillet
+	- 1 tsp Paprika
+	- 1 tsp Onion Salt
+	- 1 tsp Coriander Powder
+	- $\frac{1}{2}$ tsp Chilli Powder
+
+### Potato Salad
+
+* 250g Charlotte Potatoes
+* ...
+
+### Coleslaw
+
+* ...
+
+### Grilled Vegetables
+
+* Red Onion
+* Red Pepper
+* Courgette
+* Carrot
+* ...
+
+\newpage
+
 ## Beef In Peppercorn Sauce 
 
 * $\frac{1}{2}$ Red Onion 

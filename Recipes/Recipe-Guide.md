@@ -662,11 +662,10 @@ header-includes:
 * 2 tsp Garlic Salt
 * 150ml Water
 * 150ml Passata
-* 50ml Milk 
 * 1 Beef Stock Cube
-* 2 tsp Tomato Puree
-* 70g of 70\% Cocoa Chocolate
+* 2 tbsp Tomato Puree
 * 1 tsp Balsamic Vinegar
+* 50ml Milk 
 * 30g Parmesan
 * Fresh Basil
 

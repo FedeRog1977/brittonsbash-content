@@ -228,12 +228,13 @@ header-includes:
 
 ### Sauce
 
-* 25g Butter
+* 1 tsp Olive Oil
+* 15g Butter
 * 2 Cloves Garlic
 * $\frac{1}{2}$ Red Onion
 * 250g Chestnut Mushrooms
 * $\frac{1}{2}$ tsp Paprika
-* 100ml Beef Stock
+* 150ml Beef Stock
 * 150ml Sour Cream
 * 1 tsp Lemon Juice
 * Fresh Parsley

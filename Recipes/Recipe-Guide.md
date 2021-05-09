@@ -1018,6 +1018,28 @@ header-includes:
 
 \newpage 
 
+## Apple \& Rhubarb Crumble
+
+### Filling
+
+* 400g Pink Lady Apples
+* 400g Rhubarb 
+* 120g Light Brown Caster Sugar
+* 1 tsp Vanilla Extract
+* 1 tsp Cinnamon
+* Fresh Ginger
+
+### Topping
+
+- 120g Flour
+- 80g Oats
+- 100g Unsalted Butter
+- 50g Demerara Sugar 
+- 50g Flaked Almonds
+- 2 tsp Cinnamon
+
+\newpage
+
 ## Strawberry Eton Mess
 
 ### Base 

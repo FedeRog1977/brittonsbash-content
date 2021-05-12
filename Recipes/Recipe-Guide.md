@@ -1,6 +1,6 @@
 ---
 title:
-- Recipe Collection
+- Recipe Guide 
 author:
 - Lewis Britton
 header-includes:

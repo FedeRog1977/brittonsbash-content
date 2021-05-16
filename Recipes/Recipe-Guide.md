@@ -751,22 +751,29 @@ header-includes:
 
 ## Garlic \& Chilli Beef
 
-### Beef
+### Paste
 
-* 1 tbsp Sesame Oil 
-* $\frac{1}{2}$ Red Onion 
-* $\frac{1}{2}$ Red Pepper
-* 3 Cloves of Garlic
-* Ginger
-* 1 Red Chilli 
-* Sirloin Steak 
-* Cornflour (For Coating)
 * 1 tbsp Soy Sauce
 * 1 tbsp Oyster Sauce
 * 1 tsp Fish Sauce
+* 1 tsp Tamarind Paste
+* 1 tsp Lime Juice
+* 1 tsp Rapeseed Oil
+* 3 Cloves Garlic
+* Ginger
+* 1 Red Chilli
+* Lemongrass
+
+### Beef
+
+* 2 tsp Rapeseed Oil
+* $\frac{1}{2}$ Red Onion
+* $\frac{1}{2}$ Red Pepper
+* 250g 5\% Fat Minced Beef
+* 2 tsp Corn Flour
+* The \textit{Paste}
+* 200ml Beef Stock
 * Sesame Seeds
-* Spring Onion 
-* Fresh Coriander
 
 ### Noodles 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.21)  11 MAY 2021 11:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.21)  17 MAY 2021 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,6 +405,10 @@ LaTeX Font Info:    Font shape `TS1/CormorantGaramond-LF/m/n' aliased to
 (Font)              `TS1/CormorantGaramond-LF/regular/n' on input line 72.
 LaTeX Font Info:    Font shape `TS1/CormorantGaramond-LF/regular/n' will be
 (Font)              scaled to size 10.95pt on input line 72.
+LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/it' aliased to
+(Font)              `T1/CormorantGaramond-LF/regular/it' on input line 73.
+LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 73.
 LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/sc' aliased to
 (Font)              `T1/CormorantGaramond-LF/regular/sc' on input line 82.
 LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/sc' will be
@@ -419,10 +423,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--97
 
  []
 
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/it' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/it' on input line 107.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 107.
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--110
 
@@ -432,36 +432,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--110
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/n' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/n' on input line 216.
+(Font)              `T1/CormorantGaramond-LF/regular/n' on input line 214.
 LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 216.
+(Font)              scaled to size 8.0pt on input line 214.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 233--241
+Underfull \hbox (badness 10000) in paragraph at lines 231--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--250
+Underfull \hbox (badness 10000) in paragraph at lines 240--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--259
+Underfull \hbox (badness 10000) in paragraph at lines 249--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--268
+Underfull \hbox (badness 10000) in paragraph at lines 258--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--279
+Underfull \hbox (badness 10000) in paragraph at lines 269--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--288
+Underfull \hbox (badness 10000) in paragraph at lines 278--286
 
  []
 
@@ -472,7 +472,7 @@ Package rerunfilecheck Info: File `CV-Lewis-Britton.out' has not changed.
 Here is how much of TeX's memory you used:
  6488 strings out of 479383
  103161 string characters out of 5875830
- 414476 words of memory out of 5000000
+ 413476 words of memory out of 5000000
  23474 multiletter control sequences out of 15000+600000
  472849 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -486,7 +486,7 @@ f-dist/fonts/enc/dvips/cormorantgaramond/cgrm_hnmd4t.enc}</usr/share/texmf-dist
 b></usr/share/texmf-dist/fonts/type1/catharsis/cormorantgaramond/CormorantGaram
 ond-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
 b>
-Output written on CV-Lewis-Britton.pdf (3 pages, 141690 bytes).
+Output written on CV-Lewis-Britton.pdf (3 pages, 142701 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream

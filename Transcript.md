@@ -83,8 +83,9 @@ As always, there is the extreme solution of making other interfaces so bad that 
 ## Problem
 
 * People don't just want to see low prices, they want to see progressively greater value
-* There is already a page which allows you to view energy usage. This is good but it's mundane. Its comprised of status bars to represent cost and bar charts to represent cost over time. This relies heavily on the user having their own motivation to  
-* The younger generation need competition to stimulate their prolonged interest in something. 
+* The *Energy Usage* page is a bit mundane. It relies on the user's own motivation
+* This may not be stimulating enough to keep new users enticed
+* The younger, perhaps *First Timer*, generation need competition to stimulate their prolonged interest
 
 ## Enhancements
 
@@ -92,9 +93,11 @@ As always, there is the extreme solution of making other interfaces so bad that 
 * The use of a 'usage floor' and a 'usage ceiling' is a good starting place
 * More precise analytics based on user definitions
 * Cross-user competition for lower costs and energy usage
+* Compatability with a new maps feature
 * These methods would be specifically effective with the energetic younger *First Timers*, and even the overly-competative neighborly da's (*Loyalists*)
 
 <!--
+The current energy usage page is good or giving an introductory overview of statistics but its not enough to keep the user motivated and stimulated over time. They must not become bored of the app. People must see things changing over time (preogress), which creates the opportunity for competition between the user's self and others. The app has the ability to use many useful mobile features which require less effort from the user compared to a desktop method.
 
 Note: For this section, note that <i> denotes floating time periods such as `hourly', `daily', `weekly', `monthly', `annually', etc.
 
@@ -102,7 +105,9 @@ A usage floor and a usage ceiling can be used to start by making users competati
 
 Based on quite extensive data collected by ScottishPower from external sources (in-app estimate data) and from the users themselves (as previously and subsequently listed), analytics can be produced to highlight to the user which appliances they could better-optimize; providing further (relative to those listed above) suggestions. This section creates more specific goals for the user to follow and optimize their behaviours relative to. Subjective parameters may include [how much a user feels they need certain appliances (i.e. a rating/ranking of appliance importance which highlights perhaps unecessary usage in unimportant areas)], [at what times they require appliances (i.e. is there a better / more efficient time on the local grid to use this appliance?)], [is an appliance dependent upon another? (i.e. link tree between a user's appliances - do things need to be on at the same time? <e.g. ``Turn <lamp> off, you don't need it while using <ThinkPad X220 w/ ThinkLight>!''>)]. The output from this operation can be presented on a new app segment/page and with the classic optional push notifications. Very simply, a status page may include progress bars showing progression towards usage/cost goals, perhaps on specific appliances. And, a notification may read ``use <j> application <k> less per <l> to reduce energy usage/cost by <x>''. Again, time-series progression should be displayed to the user for ongoing motivation.
 
-On a more corss-sectional note, user data can be shared to compare across the platform. Of course this involves a lot of data protection, user permissions etc. however, can be very effective amongst users who like to be more efficient than others. Maybe that's just me, I don't know. For example, users could be compared over total energy usage and costs, or on segments perhaps sorted specific to [region (streets, council areas)], [commonality in appliances] ... This surely would encourage users to spend and consumer more wisely, and making the app more enjoyable.
+On a more corss-sectional note, user data can be shared to compare across the platform. Of course this involves a lot of data protection, user permissions etc. however, can be very effective amongst users who like to be more efficient than others. Maybe that's just me, I don't know. For example, users could be compared over total energy usage and costs, or on segments perhaps sorted specific to [region (streets, council areas)], or [common appliance type]; for comparison of different stats and ratios such as [who the most efficient user is (average cost per appliance etc.)], [who the most efficient user of a specific appliance is], etc. This surely would encourage users to spend and consumer more wisely, and making the app more enjoyable.
+
+A map feature can be integrated as a way of displaying distribution and density of resultsto all segments discussed. Not only does this aid the competative nature, it can also assist users with more basic things like highlighting an area of energy efficiency when moving home etc. There is room for many layers on the map feature.
 -->
 
 \newpage
@@ -111,13 +116,19 @@ On a more corss-sectional note, user data can be shared to compare across the pl
 
 ## Problem
 
-
+* There may be concern over entry to the app as it does contain 'private' informaiton
+* The *Card Payment* and *Direct Debit* pages may be 'scary' to older generations
 
 ## Enhancements
 
 * Facial recognition, fingerprint recognition, 2/3-factor authentication, dynamic passwords (OTP) (some of these may compromise convenience/efficicency)
 * Monero (XMR), Neo (NEO), etc. accessability and interactivity
 
+<!--
+
+
+Computational solutions to these problems are simple, it's gaining the trust of individuals which is the hard part. Especially when people don't understand the solutions. Generally, if a large and trustworthy firm such as ScottishPower assures someone of safety, they will not refrain from engagement. 
+-->
 
 \newpage
 
@@ -131,6 +142,5 @@ On a more corss-sectional note, user data can be shared to compare across the pl
 * Users' custom definitions of macros using dynamic gesture technology
 
 <!--
-
 Allowing users to fully customize the UI (layout, transitions, color scheme, etc.) can make them feel more familiar with the app and allow them to be more `snappy' through their full processes. Users may also create their own macros using recent developments in Android and Apple's dynamic gesturing; allowing the users to become familiar with their own gestures which make accesssability more efficient. This of course relies heavily on app compatability with these, very recent and incomplete, external technologies of a users device (which can vary in age and stage in life potentially leading to in-app issues). But, as thse become closer to reality, they should be implemented. The customization features also have to potential to sell further to the younger generations, creatin the illusion of something more `personal' in an era where it's fashionable to be as `unique' as possible
 -->

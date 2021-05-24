@@ -46,10 +46,10 @@ From desktop to mobile - condensation and generalization
 
 # Motivating Factors in Mobile Apps
 
-I. Convenience, Reliability & Trade-Off
-II. Progress \& Competition
-IV. General \& Financial Safety
-V. Slight of Hand
+1. Convenience, Reliability & Trade-Off
+2. Progress \& Competition
+3. General \& Financial Safety
+4. Slight of Hand
 
 \newpage
 
@@ -89,14 +89,20 @@ As always, there is the extreme solution of making other interfaces so bad that 
 ## Enhancements
 
 * The *Energy Usage* page holds the potential to be extremely extensive and stimulating to competitive natures
-* The use of a `usage floor' and a `usage ceiling' is a good starting place
-* More precise analytics based on user definitions 
+* The use of a 'usage floor' and a 'usage ceiling' is a good starting place
+* More precise analytics based on user definitions
+* Cross-user competition for lower costs and energy usage
+* These methods would be specifically effective with the energetic younger *First Timers*, and even the overly-competative neighborly da's (*Loyalists*)
 
 <!--
 
-A usage floor and a usage ceiling can be used to start by making users competative with themselves. They already have historical prices and and energy usage available to view but this only makes them normalize to the median, perhaps mean, value over time. Creating a usage floor based on parameters defined by the users in a separate page gives them a motivating number to tend towards. Parameters may include what they'd like to pay on a variable basis (such as monthly, annually etc.); . This would involve greater rear-end data holding and math however, nothing outwith the capabilities of a simple applicaiton such as this.
+Note: For this section, note that <i> denotes floating time periods such as `hourly', `daily', `weekly', `monthly', `annually', etc.
 
-Users may be allowed to define ... Based on data collected by ScottishPower from external sources and from the users themselves, analytics can be produced (perhaps in the form of push notifications and of course a full app segment or page) to highlight to the user which appliances they could better-optimize; providing suggestions based on subjective inputs such as how much a user feels they need certain appliances, at what times they require appliances, . This could perhaps even be optimization relative to user parameters discussed prior.
+A usage floor and a usage ceiling can be used to start by making users competative with themselves. They already have historical prices and and energy usage available to view but this only makes them normalize to the median, perhaps mean, value over time. Creating a usage floor based on parameters defined by the users in a new app page gives them a motivating number to float towards. Objective parameters may include [what they'd like to pay on an <i> basis]; [how many appliances they run]; [the type of appliance (requires in-app estimate data)]; [how long appliances are used on an <i> basis]; etc. This would involve greater rear-end data holding and math capabilities however, nothing outwith the resources and statistcial capabilities already utilized in this app. The range of output from calculations here are good benchmark values for how little energy a user could consumer (floor) and how much they could consume (ceiling). This gives not only a possible range of variation for peace of mind, and a motivation to stay low, but also, has the capability to produce cost floor/ceiling estimates for the more money-amount-inclined users. Of course, to my dislike, questions/prompts for input of these parameters can be worded less pragmatically and more `humanly' to create harmony with the user. For the ease of matching data, most options should be presented in a slection manner, like a drop-down list. As always, time-series progression should be displayed to the user to create ongoing motivation.
+
+Based on quite extensive data collected by ScottishPower from external sources (in-app estimate data) and from the users themselves (as previously and subsequently listed), analytics can be produced to highlight to the user which appliances they could better-optimize; providing further (relative to those listed above) suggestions. This section creates more specific goals for the user to follow and optimize their behaviours relative to. Subjective parameters may include [how much a user feels they need certain appliances (i.e. a rating/ranking of appliance importance which highlights perhaps unecessary usage in unimportant areas)], [at what times they require appliances (i.e. is there a better / more efficient time on the local grid to use this appliance?)], [is an appliance dependent upon another? (i.e. link tree between a user's appliances - do things need to be on at the same time? <e.g. ``Turn <lamp> off, you don't need it while using <ThinkPad X220 w/ ThinkLight>!''>)]. The output from this operation can be presented on a new app segment/page and with the classic optional push notifications. Very simply, a status page may include progress bars showing progression towards usage/cost goals, perhaps on specific appliances. And, a notification may read ``use <j> application <k> less per <l> to reduce energy usage/cost by <x>''. Again, time-series progression should be displayed to the user for ongoing motivation.
+
+On a more corss-sectional note, user data can be shared to compare across the platform. Of course this involves a lot of data protection, user permissions etc. however, can be very effective amongst users who like to be more efficient than others. Maybe that's just me, I don't know. For example, users could be compared over total energy usage and costs, or on segments perhaps sorted specific to [region (streets, council areas)], [commonality in appliances] ... This surely would encourage users to spend and consumer more wisely, and making the app more enjoyable.
 -->
 
 \newpage

@@ -71,9 +71,7 @@ ScottishPower is one of the classics. It has a long-term relaible reputation and
 
 Sometimes there isn't enough of a gap between a desktop UI and a mobile app. That is, frequently you don't just need to make a mobile app better, you must unfortunately make a desktop UI worse. The idea is that, especially with the older segments of the demographic, you create the illusion that a mobile app is more functional first by making unique features available on them and then by making those features rely on things only a smartphone may be capable of. This will make it appear as though the smartphone is more `capable' and therefore a more convenient method of transfering whats in a users mind, to text. As a desktop user, this makes me sad to say as the keyboard is the most efficient way of navigating anything but many firms now are simply removing features from desktop and making them only compatable with smartphone features.
 
-Possibilities of this are quite expansive; they could include using optical character recognition technology for the meter readings page which allows the user to use a smartphone camera to take a picture of their readings in real life. This means users simply must check over inputted text, rather than inputting it themselves. This avoids the classic comments like ``my fingers are too big for that'' nonsence and theoretically should attract more from older generations. OCR would hold-up fine with the cylindrical tickers on meters.
-
-Furthermore, ...
+Possibilities of this are quite expansive; one of which could be using optical character recognition technology for the meter readings page which allows the user to use a smartphone camera to take a picture of their readings in real life. This means users simply must check over inputted text, rather than inputting it themselves. This avoids the classic comments like ``my fingers are too big for that'' nonsence and theoretically should attract more from older generations. OCR would hold-up fine with the cylindrical tickers on meters.
 
 As always, there is the extreme solution of making other interfaces so bad that users hate them. For example, a 10GB transparrent picture on the desktop site so it takes forever to load; removing website functionality all together; reducing functionality and options available with telephone and mail services; etc.
 --> 
@@ -92,11 +90,11 @@ As always, there is the extreme solution of making other interfaces so bad that 
 ## Enhancements
 
 * The *Energy Usage* page holds the potential to be extremely extensive and stimulating to competitive natures
-* The use of a 'usage floor' and a 'usage ceiling' is a good starting place
+* A 'usage floor' and a 'usage ceiling' is a good starting place
 * More precise analytics based on user definitions
 * Cross-user competition for lower costs and energy usage
 * Compatability with a new maps feature
-* These methods would be specifically effective with the energetic younger *First Timers*, and even the overly-competative neighborly da's (*Loyalists*)
+* Effective with the energetic younger *First Timers*, and overly-competative da's (*Loyalists*)
 
 <!--
 The current energy usage page is good or giving an introductory overview of statistics but its not enough to keep the user motivated and stimulated over time. They must not become bored of the app. People must see things changing over time (preogress), which creates the opportunity for competition between the user's self and others. The app has the ability to use many useful mobile features which require less effort from the user compared to a desktop method.
@@ -110,6 +108,8 @@ Based on quite extensive data collected by ScottishPower from external sources (
 On a more corss-sectional note, user data can be shared to compare across the platform. Of course this involves a lot of data protection, user permissions etc. however, can be very effective amongst users who like to be more efficient than others. Maybe that's just me, I don't know. For example, users could be compared over total energy usage and costs, or on segments perhaps sorted specific to [region (streets, council areas)], or [common appliance type]; for comparison of different stats and ratios such as [who the most efficient user is (average cost per appliance etc.)], [who the most efficient user of a specific appliance is], etc. This surely would encourage users to spend and consumer more wisely, and making the app more enjoyable.
 
 A map feature can be integrated as a way of displaying distribution and density of resultsto all segments discussed. Not only does this aid the competative nature, it can also assist users with more basic things like highlighting an area of energy efficiency when moving home etc. There is room for many layers on the map feature.
+
+These methods would be specifically effective with the energetic younger first timers, and even the overly-competative neighborhood da's loyalists.
 -->
 
 \newpage
@@ -142,11 +142,16 @@ Finally, Monero payments should be normalized and mainstreamed. It is the only c
 
 ## Problem
 
+* Users can become bored and frustrated through repetative and tedious navigation
+* Users aim to be able to interface with closed eyes, in an ideal world
+
 ## Enhancements
 
 * User customization of UI to allow muscle memory and comfort/familiarity of thier preference
-* Users' custom definitions of macros using dynamic gesture technology
+* Allow users to create custom macros using dynamic gesture technology
 
 <!--
+Users can become bored and frustrated through repetative and tedious navigation leading to exit from th app and lack of use. Users aim to be able to interface with closed eyes, in an ideal world so it's important to give them a way to make something usable as quick as possible, suject to their abilities and preferences.
+
 Allowing users to fully customize the UI (layout, transitions, color scheme, etc.) can make them feel more familiar with the app and allow them to be more `snappy' through their full processes. Users may also create their own macros using recent developments in Android and Apple's dynamic gesturing; allowing the users to become familiar with their own gestures which make accesssability more efficient. This of course relies heavily on app compatability with these, very recent and incomplete, external technologies of a users device (which can vary in age and stage in life potentially leading to in-app issues). But, as thse become closer to reality, they should be implemented. The customization features also have to potential to sell further to the younger generations, creatin the illusion of something more `personal' in an era where it's fashionable to be as `unique' as possible
 -->

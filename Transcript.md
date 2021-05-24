@@ -89,12 +89,12 @@ As always, there is the extreme solution of making other interfaces so bad that 
 
 ## Enhancements
 
-* The *Energy Usage* page holds the potential to be extremely extensive and stimulating to competitive natures
+* The *Energy Usage* page holds the potential to be extremely extensive and stimulating to competitive natures and provide functionality to *Plan*
 * A 'usage floor' and a 'usage ceiling' is a good starting place
 * More precise analytics based on user definitions
 * Cross-user competition for lower costs and energy usage
 * Compatability with a new maps feature
-* Effective with the energetic younger *First Timers*, and overly-competative da's (*Loyalists*)
+* Effective with whole demographic
 
 <!--
 The current energy usage page is good or giving an introductory overview of statistics but its not enough to keep the user motivated and stimulated over time. They must not become bored of the app. People must see things changing over time (preogress), which creates the opportunity for competition between the user's self and others. The app has the ability to use many useful mobile features which require less effort from the user compared to a desktop method.
@@ -108,6 +108,8 @@ Based on quite extensive data collected by ScottishPower from external sources (
 On a more corss-sectional note, user data can be shared to compare across the platform. Of course this involves a lot of data protection, user permissions etc. however, can be very effective amongst users who like to be more efficient than others. Maybe that's just me, I don't know. For example, users could be compared over total energy usage and costs, or on segments perhaps sorted specific to [region (streets, council areas)], or [common appliance type]; for comparison of different stats and ratios such as [who the most efficient user is (average cost per appliance etc.)], [who the most efficient user of a specific appliance is], etc. This surely would encourage users to spend and consumer more wisely, and making the app more enjoyable.
 
 A map feature can be integrated as a way of displaying distribution and density of resultsto all segments discussed. Not only does this aid the competative nature, it can also assist users with more basic things like highlighting an area of energy efficiency when moving home etc. There is room for many layers on the map feature.
+
+We can also note that many of these features have potential to interact with the plans page, to suggest optimal plans based on usage and cost-based calculated and defined by the user in this process.
 
 These methods would be specifically effective with the energetic younger first timers, and even the overly-competative neighborhood da's loyalists.
 -->
@@ -143,7 +145,7 @@ Finally, Monero payments should be normalized and mainstreamed. It is the only c
 ## Problem
 
 * Users can become bored and frustrated through repetative and tedious navigation
-* Users aim to be able to interface with closed eyes, in an ideal world
+* Modern-day users especially aim to be able to interface with closed eyes, in an ideal world
 
 ## Enhancements
 

@@ -71,7 +71,9 @@ ScottishPower is one of the classics. It has a long-term relaible reputation and
 
 Sometimes there isn't enough of a gap between a desktop UI and a mobile app. That is, frequently you don't just need to make a mobile app better, you must unfortunately make a desktop UI worse. The idea is that, especially with the older segments of the demographic, you create the illusion that a mobile app is more functional first by making unique features available on them and then by making those features rely on things only a smartphone may be capable of. This will make it appear as though the smartphone is more `capable' and therefore a more convenient method of transfering whats in a users mind, to text. As a desktop user, this makes me sad to say as the keyboard is the most efficient way of navigating anything but many firms now are simply removing features from desktop and making them only compatable with smartphone features.
 
-Possibilities of this are quite expansive; they could include using optical character recognition technology for the meter readings page which allows the user to use a smartphone camera to take a picture of their readings in real life. This means users simply must check over inputted text, rather than inputting it themselves. This avoids the classic comments like ``my fingers are too big for that'' nonsence and theoretically should entice more older generations. OCR would hold-up fine with the cylindrical tickers on meters. Furthermore, ...
+Possibilities of this are quite expansive; they could include using optical character recognition technology for the meter readings page which allows the user to use a smartphone camera to take a picture of their readings in real life. This means users simply must check over inputted text, rather than inputting it themselves. This avoids the classic comments like ``my fingers are too big for that'' nonsence and theoretically should attract more from older generations. OCR would hold-up fine with the cylindrical tickers on meters.
+
+Furthermore, ...
 
 As always, there is the extreme solution of making other interfaces so bad that users hate them. For example, a 10GB transparrent picture on the desktop site so it takes forever to load; removing website functionality all together; reducing functionality and options available with telephone and mail services; etc.
 --> 
@@ -125,9 +127,13 @@ A map feature can be integrated as a way of displaying distribution and density 
 * Monero (XMR), Neo (NEO), etc. accessability and interactivity
 
 <!--
+There may be concern regarding the security of entering the app. That is, there's a variety of private data in use on the app, including banking details and of course any generation does not want this to be compromised. Additonally, especially regarding older generations, the card payment and direct debit pages may be scary to some. There are still individuals who hesitate over giving email addresses, never mind bank details, on a digital platform. Sadly some of these people will never be swayed unless they are guaranteed absolute certainty.
 
+Computational solutions to these problems are simple, it's gaining the trust of individuals which is the hard part. Especially when people don't understand the solutions. Generally, if a large and trustworthy firm such as ScottishPower assures someone of safety, they won't refrain from engagement.
 
-Computational solutions to these problems are simple, it's gaining the trust of individuals which is the hard part. Especially when people don't understand the solutions. Generally, if a large and trustworthy firm such as ScottishPower assures someone of safety, they will not refrain from engagement. 
+Making it exceptionally hard to enter the app if you're not the user but exceptionally easy if you are can be tricky. Components must align perfectly; records must match and therefore be stored, which there is of course a safety concern over. I mean, it's up to you to decide if multiple bodies having access to your fingerprint and portrait is actually `safe' but, as long as people think it is and it's properly regulated by ScottishPower, users should be happy. There is no doubt that dynamic passwords (One Time Passwords (OTP)) are the safest as they are random, unique, varying and disconnected from the user. Users today don't mind trading off the time taken to recieve an OTP for the added safety. A two or three factor combination of authentication would work best; allowing the user to define their own degrees of security preferences of course. For example, open app, scan finger, recieve text with OTP, enter OTP. 
+
+Finally, Monero payments should be normalized and mainstreamed. It is the only cryptocurrency which is actually fully private, encrypted and decentralized. Never mind that Bitcoin hype. Integrating payment by Monero in the app and using Monero wallets on either side of the transaction is likely the safest way to transact in the current day as there is very little risk of user association and theft. Therefore, giving older generations or perhaps naive individuals more assurance.
 -->
 
 \newpage

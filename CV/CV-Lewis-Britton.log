@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.21)  17 MAY 2021 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.24)  26 MAY 2021 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,40 +428,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--110
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--119
+
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/n' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/n' on input line 214.
+(Font)              `T1/CormorantGaramond-LF/regular/n' on input line 213.
 LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 214.
+(Font)              scaled to size 8.0pt on input line 213.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 231--239
+Underfull \hbox (badness 10000) in paragraph at lines 230--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--248
+Underfull \hbox (badness 10000) in paragraph at lines 239--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--257
+Underfull \hbox (badness 10000) in paragraph at lines 248--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--266
+Underfull \hbox (badness 10000) in paragraph at lines 257--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--277
+Underfull \hbox (badness 10000) in paragraph at lines 268--276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--286
+Underfull \hbox (badness 10000) in paragraph at lines 277--285
 
  []
 

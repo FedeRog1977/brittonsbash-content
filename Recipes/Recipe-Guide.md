@@ -755,6 +755,7 @@ header-includes:
 
 * 1 tbsp Soy Sauce
 * 1 tbsp Oyster Sauce
+* 1 tbsp Hoisin Sauce
 * 1 tsp Fish Sauce
 * 1 tsp Tamarind Paste
 * 1 tsp Lime Juice

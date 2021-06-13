@@ -47,7 +47,7 @@ bordeaux: #800020;
 }
 
 .switchcage {
-	font-family: Broadway;
+	font-family: Proxima;
 	letter-spacing: 0.25vw;
     	align-self: flex-end;
     	text-align: right;
@@ -57,17 +57,18 @@ bordeaux: #800020;
     	opacity: 75%;
 }
 
-	.switch {
+	.switch, .switch2 {
 	    	font-family: Proxima;
 	    	font-size: 0.95vw;
 	    	text-align: center;
 	    	letter-spacing: 0vw;
 	    	display: inline-block;
-	    	width: 5em;
+	    	width: 15em;
 	    	cursor: pointer;
 	    	border: 0.115em solid var(--ghost);
 	    	border-radius: 1.25em;
 	    	color: var(--ghost);
+		text-decoration:none;
 	    	padding: 0.25rem;
 	   	margin-left: 0.3125rem;
 	}

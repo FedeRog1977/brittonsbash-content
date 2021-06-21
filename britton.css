@@ -172,8 +172,7 @@ i {
 		letter-spacing: 0.25vw;
 		word-spacing: 0.5vw;
 		line-height: 1.75vw;
-		padding-top: 1.5em;
-		padding-bottom: 1em;
+		padding-top: 2em;
 	}
 
 		.title h2 {
@@ -201,8 +200,8 @@ i {
 		letter-spacing: 0.25vw;
 		word-spacing: 0.5vw;
 		line-height: 1.5vw;
-		padding-top: 1.75em;
-		padding-bottom: 1.75em;
+		padding-top: 2.25em;
+		padding-bottom: 2.25em;
 	}
 
 		.pages {

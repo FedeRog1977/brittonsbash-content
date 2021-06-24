@@ -172,7 +172,7 @@ i {
 		letter-spacing: 0.25vw;
 		word-spacing: 0.5vw;
 		line-height: 1.75vw;
-		padding-top: 2em;
+		padding-top: 2.125vw;
 	}
 
 		.title h2 {
@@ -200,8 +200,8 @@ i {
 		letter-spacing: 0.25vw;
 		word-spacing: 0.5vw;
 		line-height: 1.5vw;
-		padding-top: 2.25em;
-		padding-bottom: 2.25em;
+		padding-top: 2.25vw;
+		padding-bottom: 2.25vw;
 	}
 
 		.pages {
@@ -262,8 +262,8 @@ i {
 	text-align: center;
 	color: var(--font);
 	background-color: var(--fg);
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 2.25vw;
+	padding-bottom: 2.25vw;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 	margin: 0em;
@@ -447,7 +447,7 @@ ul {
 }
 
 	.home-image-title {
-		padding-top: 15%;
+		padding-top: 13.5%;
 		padding-bottom: 17.5%;
 	  	padding-left: 12.5%;
   		padding-right: 12.5%;

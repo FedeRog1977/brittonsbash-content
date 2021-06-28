@@ -398,6 +398,10 @@ i {
 
 /* Table & List Style */
 
+table h4 {
+	border-bottom: 1px solid #483D8B;
+}
+
 .standard td {
 	text-align: left;
 	vertical-align: top;

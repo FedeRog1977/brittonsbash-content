@@ -98,6 +98,7 @@ h3 {
 	font-size: 0.95vw;
 	color: var(--font);
 	font-weight: normal;
+	font-variant: small-caps;
 }
 
 h4 {

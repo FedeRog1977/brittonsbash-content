@@ -434,13 +434,13 @@ table h4 {
 	width:auto;
 }
 
-u {
+u, ul {
 	text-decoration: none;
 }
 
-ul {
-	text-decoration: none;
-}
+	table u, ul {
+		list-style-type:none
+	}
 
 /* Additional */
 

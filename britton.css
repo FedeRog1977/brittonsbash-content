@@ -76,14 +76,11 @@ bordeaux: #800020;
 /* Headings */
 
 h1 {
-	font-family: Proxima;
+	font-family: CMU-Serif;
 	font-size: 1.75vw; 
 	color: var(--font);
-	text-align: left;
-	letter-spacing: 0.25vw;
 	font-weight: normal;
 	font-variant: small-caps;
-	margin: 0em;
 }
 
 h2 {
@@ -177,6 +174,13 @@ i {
 		line-height: 1.75vw;
 		padding-top: 2.125vw;
 	}
+
+		.title h1 {
+			font-family: Proxima;
+			text-align: left;
+			letter-spacing: 0.25vw;
+			margin: 0em;
+		}
 
 		.title h2 {
 			font-family: Proxima;
@@ -398,8 +402,8 @@ i {
 
 /* Table & List Style */
 
-table h4 {
-	border-bottom: 1px solid #483D8B;
+table h2, table h4 {
+	border-bottom: 0.05vw solid var(--font);
 }
 
 .standard td {
@@ -436,10 +440,11 @@ table h4 {
 
 u, ul {
 	text-decoration: none;
+	list-style-type: lower-roman;
 }
 
-	table u, ul {
-		list-style-type:none
+	table u, table ul {
+		list-style-type: none
 	}
 
 /* Additional */
@@ -468,6 +473,7 @@ u, ul {
 			letter-spacing: 0.25em;
 			text-shadow: 1.5px 1.5px 10px #000000;
 			opacity: 75%;
+			margin: 0em;
 		}
 
 		.home-image-title-buttons {
@@ -485,7 +491,7 @@ u, ul {
 				padding-left: 1.55vw;
 				padding-right: 1.35vw;
 				cursor: pointer;
-				border: 0.115em solid var(--ghost);
+				border: 0.1vw solid var(--ghost);
 				background-color: #FFFFFF00;
 				color: var(--ghost);
 				opacity: 75%;

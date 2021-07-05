@@ -943,9 +943,9 @@ header-includes:
 * 2 Tomatoes
 * 2 tsp Garam Masala
 * 2 tsp Coriander Powder
-* 1 tsp Cumin 
+* 2 tsp Cumin
+* 2 tsp Turmeric
 * 1 tsp Chilli Powder
-* 1 tsp Turmeric
 * 1 tbsp Tomato Puree
 * 150ml Water
 * 150ml Passata
@@ -966,9 +966,9 @@ header-includes:
 * 1 tsp Lemon Juice
 * $\frac{1}{2}$ tsp Red Food Colouring
 * 2 tsp Garam Masala
+* 2 tsp Coriander Powder
 * 2 tsp Paprika
-* 1 tsp Cumin 
-* 1 tsp Coriander
+* 1 tsp Cumin
 * 1 tsp Coriander Salt 
 * 1 tsp Onion Salt 
 * $\frac{1}{2}$ tsp Cinnamon
@@ -997,6 +997,26 @@ header-includes:
 * 150ml Passata
 * 1 tsp Double Cream
 * Fresh Coriander
+
+\newpage
+
+## Lentil Dahl
+
+* 2 tsp Rapeseed Oil
+* 3 Cloves of Garlic
+* Ginger
+* $\frac{1}{2}$ White Onion
+* $\frac{1}{2}$ Red Pepper
+* 2 Tomatoes
+* 1 Can Green Lentils
+* 2 tsp Garam Masala
+* 2 tsp Coriander Powder
+* 2 tsp Cumin
+* 2 tsp Turmeric
+* 1 tbsp Tomato Puree
+* 100ml Passata
+* 100ml Coconut Milk
+* 80g Spinach
 
 \newpage
 

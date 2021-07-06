@@ -1007,7 +1007,7 @@ header-includes:
 * Ginger
 * $\frac{1}{2}$ White Onion
 * $\frac{1}{2}$ Red Pepper
-* 2 Tomatoes
+* 1 Tomato
 * 1 Can Green Lentils
 * 2 tsp Garam Masala
 * 2 tsp Coriander Powder

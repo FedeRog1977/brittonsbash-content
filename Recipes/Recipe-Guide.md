@@ -280,20 +280,18 @@ header-includes:
 * 4 Cloves Garlic 
 * 1 Red Onion 
 * 1 Red Pepper
+* 4 Tomatoes
 * 500g 5\% Fat Ground Beef 
-* 1 Can Red Kidney Beans
-* 4 tsp Cumin 
-* 4 tsp Paprika 
-* 4 tsp Onion Salt 
-* 4 tsp Coriander Salt 
+* 2 Cans Red Kidney Beans
+* 4 tsp Cumin
+* 4 tsp Paprika
+* 4 tsp Oregano
 * 2 tsp Chilli Powder
-* 2 tsp Oregano 
-* 300ml Water 
+* 300ml Beef Stock
 * 300ml Passata 
-* 1 Beef Stock Cube 
-* 1 tbsp Tomato Puree
-* 1 tsp Chipotle Chilli Paste
-* 70g 70\% Cocoa Chocolate 
+* 2 tbsp Tomato Puree
+* 2 tsp Chipotle Chilli Paste
+* 140g 70\% Cocoa Chocolate 
 * 2 tsp Worcestershire Sauce
 * Fresh Coriander
 
@@ -303,15 +301,14 @@ header-includes:
 * 2 Cloves Garlic
 * $\frac{1}{2}$ Red Onion 
 * $\frac{1}{2}$ Red Pepper
+* 2 Tomatoes
 * 250g 5\% Fat Ground Beef
-* $\frac{1}{2}$ Can Red Kidney Beans
+* 1 Can Red Kidney Beans
 * 2 tsp Cumin
 * 2 tsp Paprika
-* 2 tsp Onion Salt    
-* 2 tsp Coriander Salt
+* 2 tsp Oregano
 * 1 tsp Chilli Powder
-* 1 tsp Oregano
-* 150ml Water
+* 150ml Beef Stock
 * 150ml Passata
 * 1 tsp Tomato Puree
 * 1 tsp Chipotle Chilli Paste
@@ -627,8 +624,7 @@ header-includes:
 * 3 Cloves of Garlic
 * Chicken Breast (Optional)
 * 4 tsp Smoked Paprika
-* 4 tsp Onion Salt
-* 2 tsp Oregano
+* 4 tsp Oregano
 * 90g Any Suitable Rice
 * 25ml White Wine
 * 360ml Chicken/Fish Stock
@@ -651,19 +647,18 @@ header-includes:
 
 ### Ragu
 
-* 1 tsp Olive Oil 
+* 2 tsp Olive Oil 
 * $\frac{1}{2}$ White Onion 
+* $\frac{1}{2}$ Red Pepper
+* 2 Tomatoes
 * 1 Carrot
 * 1 Stick of Celery
 * 3 Cloves of Garlic
 * 250g 5\% Fat Ground Beef 
 * 4 tsp Oregano 
 * 2 tsp Rosemary
-* 2 tsp Onion Salt
-* 2 tsp Garlic Salt
-* 150ml Water
+* 150ml Beef Stock
 * 150ml Passata
-* 1 Beef Stock Cube
 * 2 tbsp Tomato Puree
 * 1 tsp Balsamic Vinegar
 * 50ml Milk 
@@ -684,7 +679,7 @@ header-includes:
 * 170ml Water
 * 7g Fast Action Yeast 
 * 260g Double Zero Flour
-* 4g Seas Salt
+* 4g Sea Salt
 
 ### Anchovy \& Olive Toppping
 
@@ -754,11 +749,9 @@ header-includes:
 ### Paste
 
 * 1 tbsp Soy Sauce
+* 1 tbsp Teriyaki Sauce
 * 1 tbsp Oyster Sauce
-* 1 tbsp Hoisin Sauce
 * 1 tsp Fish Sauce
-* 1 tsp Tamarind Paste
-* 1 tsp Lime Juice
 * 1 tsp Rapeseed Oil
 * 3 Cloves Garlic
 * Ginger
@@ -780,7 +773,6 @@ header-includes:
 
 * 1 Nest of Medium-Cut Egg Noodles
 * 100g Beansprouts 
-* 1 tbsp Soy Sauce 
 * 1 tsp Sesame Oil 
 
 \newpage
@@ -794,6 +786,7 @@ header-includes:
 * Soy Sauce
 * Fish Sauce
 * Hoisin Sauce 
+* Teriyaki Sauce
 * Oyster Sauce 
 * Spring Onion
 * Fresh Coriander

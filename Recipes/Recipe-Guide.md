@@ -274,31 +274,8 @@ header-includes:
 
 ## Chile Con Carne 
 
-### Big Boy Batch With S'more Ingredients
-
-* 1 tbsp Olive Oil 
-* 4 Cloves Garlic 
-* 1 Red Onion 
-* 1 Red Pepper
-* 4 Tomatoes
-* 500g 5\% Fat Ground Beef 
-* 2 Cans Red Kidney Beans
-* 4 tsp Cumin
-* 4 tsp Paprika
-* 4 tsp Oregano
-* 2 tsp Chilli Powder
-* 300ml Beef Stock
-* 300ml Passata 
-* 2 tbsp Tomato Puree
-* 2 tsp Chipotle Chilli Paste
-* 140g 70\% Cocoa Chocolate 
-* 2 tsp Worcestershire Sauce
-* Fresh Coriander
-
-### For One (Or For Tacos)
-
-* 1 tsp Olive Oil
-* 2 Cloves Garlic
+* 2 tsp Olive Oil
+* 3 Cloves Garlic
 * $\frac{1}{2}$ Red Onion 
 * $\frac{1}{2}$ Red Pepper
 * 2 Tomatoes
@@ -310,10 +287,10 @@ header-includes:
 * 1 tsp Chilli Powder
 * 150ml Beef Stock
 * 150ml Passata
-* 1 tsp Tomato Puree
+* 1 tbsp Tomato Puree
 * 1 tsp Chipotle Chilli Paste
 * 70g 70\% Cocoa Chocolate
-* 1 tsp Worcestershire Sauce
+* 50ml Milk 
 * Fresh Coriander
 
 \newpage
@@ -647,19 +624,19 @@ header-includes:
 
 ### Ragu
 
-* 2 tsp Olive Oil 
+* 2 tsp Olive Oil
+* 3 Cloves of Garlic
 * $\frac{1}{2}$ White Onion 
 * $\frac{1}{2}$ Red Pepper
 * 2 Tomatoes
 * 1 Carrot
 * 1 Stick of Celery
-* 3 Cloves of Garlic
 * 250g 5\% Fat Ground Beef 
 * 4 tsp Oregano 
 * 2 tsp Rosemary
 * 150ml Beef Stock
 * 150ml Passata
-* 2 tbsp Tomato Puree
+* 1 tbsp Tomato Puree
 * 1 tsp Balsamic Vinegar
 * 50ml Milk 
 * 30g Parmesan

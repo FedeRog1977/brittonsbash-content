@@ -284,12 +284,11 @@ header-includes:
 * 2 tsp Cumin
 * 2 tsp Paprika
 * 2 tsp Oregano
-* 1 tsp Chilli Powder
+* $\frac{1}{2}$ tsp Chilli Powder
 * 150ml Beef Stock
 * 150ml Passata
 * 1 tbsp Tomato Puree
-* 1 tsp Chipotle Chilli Paste
-* 70g 70\% Cocoa Chocolate
+* 30g 70\% Cocoa Chocolate
 * 50ml Milk 
 * Fresh Coriander
 

@@ -137,26 +137,25 @@ header-includes:
 ### Patty 
 
 * 1 tsp Olive Oil (For Frying)
+* 1 tsp Olive Oil (To Mix In)
 * 250g 12\% Fat Ground Beef
-* 1 tsp Onion Salt
-* 1 tsp Garlic Salt 
+* S\&P
 
 ### \textit{Special} Sauce
 
 * 2 tbsp Mayonnaise 
 * 2 tsp Ketchup 
-* 1 tsp Hot Sauce 
 * Red Onion 
 * Gherkin
-* $\frac{1}{2}$ tsp Onion Salt
-* $\frac{1}{2}$ tsp Garlic Salt
 
-### The Rest
+### Assembly 
 
-* Multiseed Rye Bun 
-* 50g Mature Cheddar Cheese 
-* Beef Tomato 
-* Iceberg Lettuce
+* Bun of Choice
+* *The Special Sauce*
+* Lettuce Leaves
+* Beef Tomato
+* *The Patty*
+* Mature Cheddar Cheese 
 * Red Onion (Grilled)
 
 \newpage

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.21)  17 AUG 2021 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.21)  19 AUG 2021 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -505,8 +505,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 73.
 
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 77.
+(Font)              size <17.28> substituted on input line 79.
 
 (./Recipes.toc [1
 
@@ -515,7 +520,7 @@ ination with the same identifier (name{page.}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.65 ...line {}Mojito (Short)}{63}{subsection.9.1}
+l.62 ...umberline {}Blue Sky}{61}{subsection.7.10}
                                                   % [2])
 \tf@toc=\write4
 \openout4 = `Recipes.toc'.
@@ -524,300 +529,300 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 \newpage
+l.81 \newpage
               [3] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
 [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
 [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
-[44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
+[44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 1665.
+(Font)              <5> on input line 1732.
 
-Overfull \hbox (91.2482pt too wide) in paragraph at lines 1665--1682
+Overfull \hbox (91.2482pt too wide) in paragraph at lines 1732--1749
  [] 
  []
 
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 1694--1694
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 1761--1761
 []\OT1/cmr/bx/n/8 Chocolate Or-
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 1694--1694
+Underfull \hbox (badness 4621) in paragraph at lines 1761--1761
 []\OT1/cmr/bx/n/8 Lemon Cheese-
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 1694--1695
+Underfull \hbox (badness 3417) in paragraph at lines 1761--1762
 []\OT1/cmr/bx/n/8 Lime & Pis-ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1697--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []\OT1/cmr/m/n/8 30g of Un-salted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1697--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []\OT1/cmr/m/n/8 30g of Un-salted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1697--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []\OT1/cmr/m/n/8 30g of Un-salted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1697--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []\OT1/cmr/m/n/8 30g of Un-salted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1697--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1764
 []\OT1/cmr/m/n/8 30g of Un-salted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1697--1698
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1765
 []\OT1/cmr/m/n/8 30g of Un-salted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1765
 []\OT1/cmr/m/n/8 100g of Brown
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1765
 []\OT1/cmr/m/n/8 100g of Brown
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1765
 []\OT1/cmr/m/n/8 100g of Brown
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1765
 []\OT1/cmr/m/n/8 100g of Brown
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1765
 []\OT1/cmr/m/n/8 100g of Brown
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1698--1699
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1766
 []\OT1/cmr/m/n/8 100g of Brown
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1699--1699
+Underfull \hbox (badness 10000) in paragraph at lines 1766--1766
 []\OT1/cmr/m/n/8 50g of White
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1699--1699
+Underfull \hbox (badness 10000) in paragraph at lines 1766--1766
 []\OT1/cmr/m/n/8 50g of White
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1699--1700
+Underfull \hbox (badness 10000) in paragraph at lines 1766--1767
 []\OT1/cmr/m/n/8 50g of White
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 1700--1700
+Underfull \hbox (badness 6396) in paragraph at lines 1767--1767
 []\OT1/cmr/m/n/8 3 tsp of Salted
  []
 
 
-Overfull \hbox (86.79541pt too wide) in paragraph at lines 1692--1704
- [] 
- []
-
-[55]
-Overfull \hbox (91.2482pt too wide) in alignment at lines 1713--1749
- [] [] [] [] 
- []
-
-
-Overfull \hbox (91.2482pt too wide) in alignment at lines 1749--1779
- [] [] [] [] 
- []
-
-
-Overfull \hbox (91.2482pt too wide) in alignment at lines 1779--1782
- [] [] [] [] 
- []
-
-[56]
-Overfull \hbox (8.11632pt too wide) in paragraph at lines 1889--1901
+Overfull \hbox (86.79541pt too wide) in paragraph at lines 1759--1771
  [] 
  []
 
 [57]
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1917
+Overfull \hbox (91.2482pt too wide) in alignment at lines 1780--1816
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (91.2482pt too wide) in alignment at lines 1816--1846
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (91.2482pt too wide) in alignment at lines 1846--1849
+ [] [] [] [] 
+ []
+
+[58]
+Overfull \hbox (8.11632pt too wide) in paragraph at lines 1956--1968
+ [] 
+ []
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1984--1984
 []\OT1/cmr/m/n/8 200g of Caster
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1984--1984
 []\OT1/cmr/m/n/8 200g of Caster
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1984--1984
 []\OT1/cmr/m/n/8 200g of Caster
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1984--1984
 []\OT1/cmr/m/n/8 200g of Caster
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1984--1984
 []\OT1/cmr/m/n/8 200g of Caster
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1918
+Underfull \hbox (badness 10000) in paragraph at lines 1984--1985
 []\OT1/cmr/m/n/8 200g of Caster
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1919--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1986--1986
 []\OT1/cmr/m/n/8 100g of Glu-cose
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1919--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1986--1986
 []\OT1/cmr/m/n/8 100g of Glu-cose
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1919--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1986--1986
 []\OT1/cmr/m/n/8 100g of Glu-cose
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1919--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1986--1986
 []\OT1/cmr/m/n/8 100g of Glu-cose
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1919--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1986--1986
 []\OT1/cmr/m/n/8 100g of Glu-cose
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1919--1920
+Underfull \hbox (badness 10000) in paragraph at lines 1986--1987
 []\OT1/cmr/m/n/8 100g of Glu-cose
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 1920--1920
+Underfull \hbox (badness 4403) in paragraph at lines 1987--1987
 []\OT1/cmr/m/n/8 2 tsp of Lemon
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 1920--1920
+Underfull \hbox (badness 4403) in paragraph at lines 1987--1987
 []\OT1/cmr/m/n/8 2 tsp of Lemon
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 1920--1920
+Underfull \hbox (badness 4403) in paragraph at lines 1987--1987
 []\OT1/cmr/m/n/8 2 tsp of Lemon
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 1920--1920
+Underfull \hbox (badness 4403) in paragraph at lines 1987--1987
 []\OT1/cmr/m/n/8 2 tsp of Lemon
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 1920--1920
+Underfull \hbox (badness 4403) in paragraph at lines 1987--1987
 []\OT1/cmr/m/n/8 2 tsp of Lemon
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 1920--1921
+Underfull \hbox (badness 4403) in paragraph at lines 1987--1988
 []\OT1/cmr/m/n/8 2 tsp of Lemon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1921--1921
+Underfull \hbox (badness 10000) in paragraph at lines 1988--1988
 []\OT1/cmr/m/n/8 Blackcurrant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1921--1921
+Underfull \hbox (badness 10000) in paragraph at lines 1988--1988
 []\OT1/cmr/m/n/8 Strawberry
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1923--1923
+Underfull \hbox (badness 10000) in paragraph at lines 1990--1990
 []\OT1/cmr/m/n/8 Caster Sugar to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1923--1923
+Underfull \hbox (badness 10000) in paragraph at lines 1990--1990
 []\OT1/cmr/m/n/8 Caster Sugar to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1923--1923
+Underfull \hbox (badness 10000) in paragraph at lines 1990--1990
 []\OT1/cmr/m/n/8 Caster Sugar to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1923--1923
+Underfull \hbox (badness 10000) in paragraph at lines 1990--1990
 []\OT1/cmr/m/n/8 Caster Sugar to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1923--1923
+Underfull \hbox (badness 10000) in paragraph at lines 1990--1990
 []\OT1/cmr/m/n/8 Caster Sugar to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1923--1924
+Underfull \hbox (badness 10000) in paragraph at lines 1990--1991
 []\OT1/cmr/m/n/8 Caster Sugar to
  []
 
 
-Overfull \hbox (86.79541pt too wide) in paragraph at lines 1911--1926
+Overfull \hbox (86.79541pt too wide) in paragraph at lines 1978--1993
  [] 
  []
 
-[58]
-Overfull \hbox (8.11632pt too wide) in paragraph at lines 1936--1947
+[60]
+Overfull \hbox (8.11632pt too wide) in paragraph at lines 2003--2014
  [] 
  []
 
-[59] [60] [61] [62] [63] [64]
-Overfull \hbox (20.8644pt too wide) in paragraph at lines 2112--2113
+[61] [62] [63] [64] [65] [66]
+Overfull \hbox (20.8644pt too wide) in paragraph at lines 2179--2180
 []\OT1/cmr/m/n/10.95 Mediterranean Dip Plat-ter (tzatziki; tara-masalata; beet-
 root and car-rot; babaganoush) 
  []
 
-[65] [66] (./Recipes.aux)
+[67] [68] (./Recipes.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
 Package rerunfilecheck Info: File `Recipes.out' has not changed.
-(rerunfilecheck)             Checksum: 03E028C2705186A81A29C437DA1C46B2;9290.
+(rerunfilecheck)             Checksum: FB3D99FEF45851B20845808CB6646D49;9617.
  ) 
 Here is how much of TeX's memory you used:
- 11091 strings out of 478994
- 167142 string characters out of 5864751
+ 11097 strings out of 478994
+ 167220 string characters out of 5864751
  523482 words of memory out of 5000000
- 28298 multiletter control sequences out of 15000+600000
+ 28300 multiletter control sequences out of 15000+600000
  410498 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,12n,74p,523b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,12n,74p,525b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -827,10 +832,10 @@ r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super
 /sfrm1095.pfb>
-Output written on Recipes.pdf (69 pages, 199539 bytes).
+Output written on Recipes.pdf (71 pages, 202126 bytes).
 PDF statistics:
- 715 PDF objects out of 1000 (max. 8388607)
- 628 compressed objects within 7 object streams
- 142 named destinations out of 1000 (max. 500000)
- 545 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 735 PDF objects out of 1000 (max. 8388607)
+ 646 compressed objects within 7 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 561 words of extra memory for PDF output out of 10000 (max. 10000000)
 

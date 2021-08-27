@@ -11,64 +11,65 @@
 \contentsline {subsection}{\numberline {}Boeuf Bourguignon (Beef Burgundy)}{12}{subsection.2.8}%
 \contentsline {subsection}{\numberline {}Venison Steak}{13}{subsection.2.9}%
 \contentsline {subsection}{\numberline {}Chicken Pot Pie}{14}{subsection.2.10}%
-\contentsline {subsection}{\numberline {}Chicken in Red Wine}{15}{subsection.2.11}%
-\contentsline {section}{\numberline {}South American}{16}{section.3}%
-\contentsline {subsection}{\numberline {}Chile Con Carne}{16}{subsection.3.1}%
-\contentsline {subsection}{\numberline {}Carne Asada Tacos}{17}{subsection.3.2}%
-\contentsline {subsection}{\numberline {}Cheesy Beef Burrito}{18}{subsection.3.3}%
-\contentsline {subsection}{\numberline {}Lime Chicken Tacos}{19}{subsection.3.4}%
-\contentsline {subsection}{\numberline {}Prawn Tacos}{20}{subsection.3.5}%
-\contentsline {section}{\numberline {}Mediterranean}{21}{section.4}%
-\contentsline {subsection}{\numberline {}Seared Sea Bass}{21}{subsection.4.1}%
-\contentsline {subsection}{\numberline {}Seared Salmon}{23}{subsection.4.2}%
-\contentsline {subsection}{\numberline {}Tuna Steak}{24}{subsection.4.3}%
-\contentsline {subsection}{\numberline {}Salmon Fritters}{25}{subsection.4.4}%
-\contentsline {subsection}{\numberline {}Tapas Selection}{26}{subsection.4.5}%
-\contentsline {subsection}{\numberline {}Seafood Paella}{27}{subsection.4.6}%
-\contentsline {subsection}{\numberline {}Bolognese}{28}{subsection.4.7}%
-\contentsline {subsection}{\numberline {}Italian Sausage Rigatoni}{29}{subsection.4.8}%
-\contentsline {subsection}{\numberline {}Pasta Puttanesca}{30}{subsection.4.9}%
-\contentsline {subsection}{\numberline {}Neapolitan Style Pizza}{31}{subsection.4.10}%
-\contentsline {subsection}{\numberline {}Tomato Bruschetta}{33}{subsection.4.11}%
-\contentsline {subsection}{\numberline {}Vegetarian Halloumi Bake}{34}{subsection.4.12}%
-\contentsline {section}{\numberline {}Oriental}{35}{section.5}%
-\contentsline {subsection}{\numberline {}Garlic \& Chilli Beef}{35}{subsection.5.1}%
-\contentsline {subsection}{\numberline {}Beef \& Coconut Curry}{36}{subsection.5.2}%
-\contentsline {subsection}{\numberline {}Salt \& Chilli Chicken Curry}{36}{subsection.5.3}%
-\contentsline {subsection}{\numberline {}Thai Red Curry}{38}{subsection.5.4}%
-\contentsline {subsection}{\numberline {}Thai Green Curry}{39}{subsection.5.5}%
-\contentsline {subsection}{\numberline {}Poached Salmon}{40}{subsection.5.6}%
-\contentsline {subsection}{\numberline {}Korean Sea Bass}{41}{subsection.5.7}%
-\contentsline {subsection}{\numberline {}Fish Cakes}{42}{subsection.5.8}%
-\contentsline {section}{\numberline {}Middle Eastern}{44}{section.6}%
-\contentsline {subsection}{\numberline {}Prawn Bhuna}{44}{subsection.6.1}%
-\contentsline {subsection}{\numberline {}Chicken Tikka Garam Masala}{45}{subsection.6.2}%
-\contentsline {subsection}{\numberline {}Lentil Dahl}{47}{subsection.6.3}%
-\contentsline {section}{\numberline {}Sandwiches}{48}{section.7}%
-\contentsline {subsection}{\numberline {}Roast Beef \& Onion}{48}{subsection.7.1}%
-\contentsline {subsection}{\numberline {}Chicken Caesar Club}{49}{subsection.7.2}%
-\contentsline {subsection}{\numberline {}Chicken Salad}{50}{subsection.7.3}%
-\contentsline {subsection}{\numberline {}Christmas Dinner}{51}{subsection.7.4}%
-\contentsline {subsection}{\numberline {}Salmon, Egg \& Avocado}{52}{subsection.7.5}%
-\contentsline {subsection}{\numberline {}Prawn Salad}{53}{subsection.7.6}%
-\contentsline {subsection}{\numberline {}Red Pepper, Houmous \& Goat's Cheese}{54}{subsection.7.7}%
-\contentsline {section}{\numberline {}Desserts \& Sweets}{55}{section.8}%
-\contentsline {subsection}{\numberline {}Trifle}{55}{subsection.8.1}%
-\contentsline {subsection}{\numberline {}Apple \& Rhubarb Crumble}{56}{subsection.8.2}%
-\contentsline {subsection}{\numberline {}Strawberry Eton Mess}{57}{subsection.8.3}%
-\contentsline {subsection}{\numberline {}Christmas Sweets}{58}{subsection.8.4}%
-\contentsline {subsection}{\numberline {}Cookies}{59}{subsection.8.5}%
-\contentsline {subsection}{\numberline {}Fudge}{60}{subsection.8.6}%
-\contentsline {subsection}{\numberline {}Truffles}{61}{subsection.8.7}%
-\contentsline {subsection}{\numberline {}Truffle Cakes}{62}{subsection.8.8}%
-\contentsline {subsection}{\numberline {}Fruit Jellies}{63}{subsection.8.9}%
-\contentsline {subsection}{\numberline {}Blue Sky}{64}{subsection.8.10}%
-\contentsline {section}{\numberline {}Health \& Hills}{65}{section.9}%
-\contentsline {subsection}{\numberline {}Oat Pots}{65}{subsection.9.1}%
-\contentsline {subsection}{\numberline {}Energy Balls}{66}{subsection.9.2}%
-\contentsline {section}{\numberline {}Cocktails}{68}{section.10}%
-\contentsline {subsection}{\numberline {}Mojito (Short)}{68}{subsection.10.1}%
-\contentsline {subsection}{\numberline {}Mojito (Long)}{68}{subsection.10.2}%
-\contentsline {section}{\numberline {}Appendices}{69}{section.11}%
-\contentsline {subsection}{\numberline {}Additional Recipe Titles}{69}{subsection.11.1}%
-\contentsline {subsection}{\numberline {}El Cielo Azul Tacos}{71}{subsection.11.2}%
+\contentsline {subsection}{\numberline {}Chicken in White Wine}{15}{subsection.2.11}%
+\contentsline {subsection}{\numberline {}Chicken in Red Wine}{16}{subsection.2.12}%
+\contentsline {section}{\numberline {}South American}{17}{section.3}%
+\contentsline {subsection}{\numberline {}Chile Con Carne}{17}{subsection.3.1}%
+\contentsline {subsection}{\numberline {}Carne Asada Tacos}{18}{subsection.3.2}%
+\contentsline {subsection}{\numberline {}Cheesy Beef Burrito}{19}{subsection.3.3}%
+\contentsline {subsection}{\numberline {}Lime Chicken Tacos}{20}{subsection.3.4}%
+\contentsline {subsection}{\numberline {}Prawn Tacos}{21}{subsection.3.5}%
+\contentsline {section}{\numberline {}Mediterranean}{22}{section.4}%
+\contentsline {subsection}{\numberline {}Seared Sea Bass}{22}{subsection.4.1}%
+\contentsline {subsection}{\numberline {}Seared Salmon}{24}{subsection.4.2}%
+\contentsline {subsection}{\numberline {}Tuna Steak}{25}{subsection.4.3}%
+\contentsline {subsection}{\numberline {}Salmon Fritters}{26}{subsection.4.4}%
+\contentsline {subsection}{\numberline {}Tapas Selection}{27}{subsection.4.5}%
+\contentsline {subsection}{\numberline {}Seafood Paella}{28}{subsection.4.6}%
+\contentsline {subsection}{\numberline {}Bolognese}{29}{subsection.4.7}%
+\contentsline {subsection}{\numberline {}Italian Sausage Rigatoni}{30}{subsection.4.8}%
+\contentsline {subsection}{\numberline {}Pasta Puttanesca}{31}{subsection.4.9}%
+\contentsline {subsection}{\numberline {}Neapolitan Style Pizza}{32}{subsection.4.10}%
+\contentsline {subsection}{\numberline {}Tomato Bruschetta}{34}{subsection.4.11}%
+\contentsline {subsection}{\numberline {}Vegetarian Halloumi Bake}{35}{subsection.4.12}%
+\contentsline {section}{\numberline {}Oriental}{36}{section.5}%
+\contentsline {subsection}{\numberline {}Garlic \& Chilli Beef}{36}{subsection.5.1}%
+\contentsline {subsection}{\numberline {}Beef \& Coconut Curry}{37}{subsection.5.2}%
+\contentsline {subsection}{\numberline {}Salt \& Chilli Chicken Curry}{37}{subsection.5.3}%
+\contentsline {subsection}{\numberline {}Thai Red Curry}{39}{subsection.5.4}%
+\contentsline {subsection}{\numberline {}Thai Green Curry}{40}{subsection.5.5}%
+\contentsline {subsection}{\numberline {}Poached Salmon}{41}{subsection.5.6}%
+\contentsline {subsection}{\numberline {}Korean Sea Bass}{42}{subsection.5.7}%
+\contentsline {subsection}{\numberline {}Fish Cakes}{43}{subsection.5.8}%
+\contentsline {section}{\numberline {}Middle Eastern}{45}{section.6}%
+\contentsline {subsection}{\numberline {}Prawn Bhuna}{45}{subsection.6.1}%
+\contentsline {subsection}{\numberline {}Chicken Tikka Garam Masala}{46}{subsection.6.2}%
+\contentsline {subsection}{\numberline {}Lentil Dahl}{48}{subsection.6.3}%
+\contentsline {section}{\numberline {}Sandwiches}{49}{section.7}%
+\contentsline {subsection}{\numberline {}Roast Beef \& Onion}{49}{subsection.7.1}%
+\contentsline {subsection}{\numberline {}Chicken Caesar Club}{50}{subsection.7.2}%
+\contentsline {subsection}{\numberline {}Chicken Salad}{51}{subsection.7.3}%
+\contentsline {subsection}{\numberline {}Christmas Dinner}{52}{subsection.7.4}%
+\contentsline {subsection}{\numberline {}Salmon, Egg \& Avocado}{53}{subsection.7.5}%
+\contentsline {subsection}{\numberline {}Prawn Salad}{54}{subsection.7.6}%
+\contentsline {subsection}{\numberline {}Red Pepper, Houmous \& Goat's Cheese}{55}{subsection.7.7}%
+\contentsline {section}{\numberline {}Desserts \& Sweets}{56}{section.8}%
+\contentsline {subsection}{\numberline {}Trifle}{56}{subsection.8.1}%
+\contentsline {subsection}{\numberline {}Apple \& Rhubarb Crumble}{57}{subsection.8.2}%
+\contentsline {subsection}{\numberline {}Strawberry Eton Mess}{58}{subsection.8.3}%
+\contentsline {subsection}{\numberline {}Christmas Sweets}{59}{subsection.8.4}%
+\contentsline {subsection}{\numberline {}Cookies}{60}{subsection.8.5}%
+\contentsline {subsection}{\numberline {}Fudge}{61}{subsection.8.6}%
+\contentsline {subsection}{\numberline {}Truffles}{62}{subsection.8.7}%
+\contentsline {subsection}{\numberline {}Truffle Cakes}{63}{subsection.8.8}%
+\contentsline {subsection}{\numberline {}Fruit Jellies}{64}{subsection.8.9}%
+\contentsline {subsection}{\numberline {}Blue Sky}{65}{subsection.8.10}%
+\contentsline {section}{\numberline {}Health \& Hills}{66}{section.9}%
+\contentsline {subsection}{\numberline {}Oat Pots}{66}{subsection.9.1}%
+\contentsline {subsection}{\numberline {}Energy Balls}{67}{subsection.9.2}%
+\contentsline {section}{\numberline {}Cocktails}{69}{section.10}%
+\contentsline {subsection}{\numberline {}Mojito (Short)}{69}{subsection.10.1}%
+\contentsline {subsection}{\numberline {}Mojito (Long)}{69}{subsection.10.2}%
+\contentsline {section}{\numberline {}Appendices}{70}{section.11}%
+\contentsline {subsection}{\numberline {}Additional Recipe Titles}{70}{subsection.11.1}%
+\contentsline {subsection}{\numberline {}El Cielo Azul Tacos}{72}{subsection.11.2}%

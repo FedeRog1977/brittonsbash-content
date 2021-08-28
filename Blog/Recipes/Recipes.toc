@@ -35,8 +35,8 @@
 \contentsline {section}{\numberline {}Oriental}{36}{section.5}%
 \contentsline {subsection}{\numberline {}Garlic \& Chilli Beef}{36}{subsection.5.1}%
 \contentsline {subsection}{\numberline {}Beef \& Coconut Curry}{37}{subsection.5.2}%
-\contentsline {subsection}{\numberline {}Thai Beef Curry}{37}{subsection.5.3}%
-\contentsline {subsection}{\numberline {}Salt \& Chilli Chicken Curry}{38}{subsection.5.4}%
+\contentsline {subsection}{\numberline {}Thai Beef Curry}{38}{subsection.5.3}%
+\contentsline {subsection}{\numberline {}Salt \& Chilli Chicken Curry}{39}{subsection.5.4}%
 \contentsline {subsection}{\numberline {}Thai Red Curry}{40}{subsection.5.5}%
 \contentsline {subsection}{\numberline {}Thai Green Curry}{41}{subsection.5.6}%
 \contentsline {subsection}{\numberline {}Poached Salmon}{42}{subsection.5.7}%

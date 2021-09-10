@@ -35,43 +35,44 @@
 \contentsline {section}{\numberline {}Oriental}{36}{section.5}%
 \contentsline {subsection}{\numberline {}Garlic \& Chilli Beef}{36}{subsection.5.1}%
 \contentsline {subsection}{\numberline {}Beef \& Coconut Curry}{37}{subsection.5.2}%
-\contentsline {subsection}{\numberline {}Thai Beef Curry}{38}{subsection.5.3}%
-\contentsline {subsection}{\numberline {}Salt \& Chilli Chicken Curry}{39}{subsection.5.4}%
-\contentsline {subsection}{\numberline {}Thai Red Curry}{40}{subsection.5.5}%
-\contentsline {subsection}{\numberline {}Thai Green Curry}{41}{subsection.5.6}%
-\contentsline {subsection}{\numberline {}Poached Salmon}{42}{subsection.5.7}%
-\contentsline {subsection}{\numberline {}Korean Sea Bass}{43}{subsection.5.8}%
-\contentsline {subsection}{\numberline {}Fish Cakes}{44}{subsection.5.9}%
-\contentsline {section}{\numberline {}Middle Eastern}{46}{section.6}%
-\contentsline {subsection}{\numberline {}Prawn Bhuna}{46}{subsection.6.1}%
-\contentsline {subsection}{\numberline {}Chicken Tikka Garam Masala}{47}{subsection.6.2}%
-\contentsline {subsection}{\numberline {}Lentil Dahl}{49}{subsection.6.3}%
-\contentsline {subsection}{\numberline {}Indian Rice}{50}{subsection.6.4}%
-\contentsline {section}{\numberline {}Sandwiches}{51}{section.7}%
-\contentsline {subsection}{\numberline {}Roast Beef \& Onion}{51}{subsection.7.1}%
-\contentsline {subsection}{\numberline {}Chicken Caesar Club}{52}{subsection.7.2}%
-\contentsline {subsection}{\numberline {}Chicken Salad}{53}{subsection.7.3}%
-\contentsline {subsection}{\numberline {}Christmas Dinner}{54}{subsection.7.4}%
-\contentsline {subsection}{\numberline {}Salmon, Egg \& Avocado}{55}{subsection.7.5}%
-\contentsline {subsection}{\numberline {}Prawn Salad}{56}{subsection.7.6}%
-\contentsline {subsection}{\numberline {}Red Pepper, Houmous \& Goat's Cheese}{57}{subsection.7.7}%
-\contentsline {section}{\numberline {}Desserts \& Sweets}{58}{section.8}%
-\contentsline {subsection}{\numberline {}Trifle}{58}{subsection.8.1}%
-\contentsline {subsection}{\numberline {}Apple \& Rhubarb Crumble}{59}{subsection.8.2}%
-\contentsline {subsection}{\numberline {}Strawberry Eton Mess}{60}{subsection.8.3}%
-\contentsline {subsection}{\numberline {}Christmas Sweets}{61}{subsection.8.4}%
-\contentsline {subsection}{\numberline {}Cookies}{62}{subsection.8.5}%
-\contentsline {subsection}{\numberline {}Fudge}{63}{subsection.8.6}%
-\contentsline {subsection}{\numberline {}Truffles}{64}{subsection.8.7}%
-\contentsline {subsection}{\numberline {}Truffle Cakes}{65}{subsection.8.8}%
-\contentsline {subsection}{\numberline {}Fruit Jellies}{66}{subsection.8.9}%
-\contentsline {subsection}{\numberline {}Blue Sky}{67}{subsection.8.10}%
-\contentsline {section}{\numberline {}Health \& Hills}{68}{section.9}%
-\contentsline {subsection}{\numberline {}Oat Pots}{68}{subsection.9.1}%
-\contentsline {subsection}{\numberline {}Energy Balls}{69}{subsection.9.2}%
-\contentsline {section}{\numberline {}Cocktails}{71}{section.10}%
-\contentsline {subsection}{\numberline {}Mojito (Short)}{71}{subsection.10.1}%
-\contentsline {subsection}{\numberline {}Mojito (Long)}{71}{subsection.10.2}%
-\contentsline {section}{\numberline {}Appendices}{72}{section.11}%
-\contentsline {subsection}{\numberline {}Additional Recipe Titles}{72}{subsection.11.1}%
-\contentsline {subsection}{\numberline {}El Cielo Azul Tacos}{74}{subsection.11.2}%
+\contentsline {subsection}{\numberline {}Yellow Beef Curry}{38}{subsection.5.3}%
+\contentsline {subsection}{\numberline {}Beef Panang Curry}{39}{subsection.5.4}%
+\contentsline {subsection}{\numberline {}Salt \& Chilli Chicken Curry}{40}{subsection.5.5}%
+\contentsline {subsection}{\numberline {}Thai Red Curry}{41}{subsection.5.6}%
+\contentsline {subsection}{\numberline {}Thai Green Curry}{42}{subsection.5.7}%
+\contentsline {subsection}{\numberline {}Poached Salmon}{43}{subsection.5.8}%
+\contentsline {subsection}{\numberline {}Korean Sea Bass}{44}{subsection.5.9}%
+\contentsline {subsection}{\numberline {}Fish Cakes}{45}{subsection.5.10}%
+\contentsline {section}{\numberline {}Middle Eastern}{47}{section.6}%
+\contentsline {subsection}{\numberline {}Prawn Bhuna}{47}{subsection.6.1}%
+\contentsline {subsection}{\numberline {}Chicken Tikka Garam Masala}{48}{subsection.6.2}%
+\contentsline {subsection}{\numberline {}Lentil Dahl}{50}{subsection.6.3}%
+\contentsline {subsection}{\numberline {}Indian Rice}{51}{subsection.6.4}%
+\contentsline {section}{\numberline {}Sandwiches}{52}{section.7}%
+\contentsline {subsection}{\numberline {}Roast Beef \& Onion}{52}{subsection.7.1}%
+\contentsline {subsection}{\numberline {}Chicken Caesar Club}{53}{subsection.7.2}%
+\contentsline {subsection}{\numberline {}Chicken Salad}{54}{subsection.7.3}%
+\contentsline {subsection}{\numberline {}Christmas Dinner}{55}{subsection.7.4}%
+\contentsline {subsection}{\numberline {}Salmon, Egg \& Avocado}{56}{subsection.7.5}%
+\contentsline {subsection}{\numberline {}Prawn Salad}{57}{subsection.7.6}%
+\contentsline {subsection}{\numberline {}Red Pepper, Houmous \& Goat's Cheese}{58}{subsection.7.7}%
+\contentsline {section}{\numberline {}Desserts \& Sweets}{59}{section.8}%
+\contentsline {subsection}{\numberline {}Trifle}{59}{subsection.8.1}%
+\contentsline {subsection}{\numberline {}Apple \& Rhubarb Crumble}{60}{subsection.8.2}%
+\contentsline {subsection}{\numberline {}Strawberry Eton Mess}{61}{subsection.8.3}%
+\contentsline {subsection}{\numberline {}Christmas Sweets}{62}{subsection.8.4}%
+\contentsline {subsection}{\numberline {}Cookies}{63}{subsection.8.5}%
+\contentsline {subsection}{\numberline {}Fudge}{64}{subsection.8.6}%
+\contentsline {subsection}{\numberline {}Truffles}{65}{subsection.8.7}%
+\contentsline {subsection}{\numberline {}Truffle Cakes}{66}{subsection.8.8}%
+\contentsline {subsection}{\numberline {}Fruit Jellies}{67}{subsection.8.9}%
+\contentsline {subsection}{\numberline {}Blue Sky}{68}{subsection.8.10}%
+\contentsline {section}{\numberline {}Health \& Hills}{69}{section.9}%
+\contentsline {subsection}{\numberline {}Oat Pots}{69}{subsection.9.1}%
+\contentsline {subsection}{\numberline {}Energy Balls}{70}{subsection.9.2}%
+\contentsline {section}{\numberline {}Cocktails}{72}{section.10}%
+\contentsline {subsection}{\numberline {}Mojito (Short)}{72}{subsection.10.1}%
+\contentsline {subsection}{\numberline {}Mojito (Long)}{72}{subsection.10.2}%
+\contentsline {section}{\numberline {}Appendices}{73}{section.11}%
+\contentsline {subsection}{\numberline {}Additional Recipe Titles}{73}{subsection.11.1}%
+\contentsline {subsection}{\numberline {}El Cielo Azul Tacos}{75}{subsection.11.2}%

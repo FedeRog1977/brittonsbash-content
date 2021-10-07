@@ -42,9 +42,118 @@ bordeaux: #800020;
 
 /* Dark/Party Mode */
 
-.dark, .dark * {
-	...
+.dark h1, .dark h2, .dark h3, .dark h4 {
+	color: var(--font-dark);
 }
+
+.dark body {
+	background-color: var(--bg-dark);
+}
+
+.dark.body {
+       	color: var(--font-dark);
+        background-color: var(--fg-dark);
+}
+
+.dark.header {
+	background-color: var(--fg-dark);
+}
+
+	.dark.title h2 {
+                color: var(--font2-dark);
+        }
+
+	.dark.title a:link, .dark.title a:visited {
+                color: var(--font2-dark);
+        }
+
+        .dark.title a:hover, .dark.title a:active {
+                color: var(--font2-hover-dark);
+                border-bottom: 2.5px solid var(--font-dark);
+        }
+
+	.dark.pages {
+                color: var(--font-dark);
+        }
+
+                .dark.pages a:link, .dark.pages a:visited {
+                        color: var(--font-dark);
+                }
+
+                .dark.pages a:hover, .dark.pages a:active {
+                        color: var(--font-hover-dark);
+                        border-bottom: 2.5px solid var(--font-dark);
+                }
+
+        .dark.social {
+                color: var(--font2-dark);
+        }
+
+                .dark.social a:link, .dark.social a:visited {
+                        color: var(--font2-dark);
+                }
+
+                .dark.social a:hover, .dark.social a:active {
+                        color: var(--font2-hover-dark);
+                        border-bottom: 2.5px solid var(--font2-dark);
+                }
+
+.dark.footer {
+        color: var(--font-dark);
+        background-color: var(--fg-dark);
+}
+
+.dark.collapsible {
+        background-color: var(--bg-dark);
+        color: var(--font-dark);
+}
+
+        .dark.active, .dark.collapsible:hover {
+                background-color: var(--drop-bar-hover-dark);
+                color: var(--font-dark);
+        }
+
+        .dark.content {
+                background-color: var(--bg-dark);
+        }
+
+.dark.imgdropcont {
+        background-color: var(--fg-dark);
+        box-shadow: 5px 5px 10px var(--bg-dark);
+}
+
+.dark.pretext {
+        color: var(--font-dark);
+}
+
+        .dark.pretext a:link, .dark.pretext a:visited {
+                color: var(--font);
+        }
+
+        .dark.pretext a:hover, .dark.pretext a:active {
+                color: var(--font-hover-dark);
+                border-bottom: 2.5px solid var(--font-dark);
+        }
+
+.dark.bodycage a:link, .dark.bodycage a:visited {
+        color: var(--font-dark);
+}
+
+.dark.bodycage a:hover, .dark.bodycage a:active {
+        color: var(--font-hover-dark);
+        border-bottom: 2.5px solid var(--font-dark);
+}
+
+.dark.body {
+        color: var(--font-dark);
+        background-color: var(--fg-dark);
+} 
+
+table.dark h2, table.dark h4 {
+        border-bottom: 0.05vw solid var(--font-dark);
+}
+
+/* Dark/Party Mode Toggles */
 
 .switchcage {
 	font-family: Proxima;

@@ -40,15 +40,19 @@
 		</div>
 
 		<audio autoplay>
-        	<iframe src="../Music/Finale-Jan-Hammer.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+			<iframe src="../Music/Finale-Jan-Hammer.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
 			<!--<source src="Finale-Jan-Hammer.mp3" type="audio/mpeg"></source>-->
-        </audio>
+		</audio>
 
 		<!--<div class="time">
 			<iframe src="https://www.atptour.com/assets/atpwt/third-party/rolex/standard/index.html" class="rolex_clock" SCROLLING=NO frameborder=NO></iframe>
 		</div>-->
 
 	<body>
+
+		<div class="switchcage">
+                        <span class="switch4">Toggle Night Mode: Disabled</span>
+                </div>
 
 		<div class="bodycage" style="padding-top:2.5em">
 
@@ -213,5 +217,20 @@
 			</p>
 
 		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+                <script>
+                        $(".switch4").on("click", function() {
+                                if( $("*").hasClass("dark")) {
+                                        $("*").removeClass("dark");
+                                        $(".switch4").text("Toggle Night Mode: Disabled");
+                                }
+                                else {
+                                        $("*").addClass("dark");
+                                        $(".switch4").text("Toggle Night Mode: Enabled");
+                                }
+                        });
+                </script>
 
 </html>

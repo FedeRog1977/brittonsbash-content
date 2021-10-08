@@ -26,134 +26,25 @@ bordeaux: #800020;
 	--drop-bar-hover: #DCDCDC;
 	--miami: linear-gradient(to bottom,rgba(250,125,0,0.25),rgba(250,145,230,0.25));
 	--miami-solid: linear-gradient(to bottom,rgba(250,125,0,1),rgba(220,60,100,1));
-
-	--bg-dark: #323232;
-	--fg-dark: #232323;
-	--font-dark: #FFFFFF;
-	--font2-dark: #96B9EE;
-	--drop-bar-hover-dark: #181818;
-
-	--bg-miami: #FF4F78;
-	--fg-miami: #FD5E53;
-	--font-miami: #FFFFFF;
-	--font2-miami: #96B9EE;
-	--drop-bar-hover-miami: #96B9EE;
 }
 
-/* Dark/Party Mode */
-
-.dark h1, .dark h2, .dark h3, .dark h4 {
-	color: var(--font-dark);
+:root.dark {
+	--bg: #323232;
+        --fg: #232323;
+        --font: #FFFFFF;
+        --font2: #96B9EE;
+        --drop-bar-hover: #181818;
 }
 
-.dark body {
-	background-color: var(--bg-dark);
+:root.miami {
+	--bg: #FF4F78;
+	--fg: #FD5E53;
+	--font: #FFFFFF;
+	--font2: #96B9EE;
+	--drop-bar-hover: #96B9EE;
 }
 
-.dark.body {
-       	color: var(--font-dark);
-        background-color: var(--fg-dark);
-}
-
-.dark.header {
-	background-color: var(--fg-dark);
-}
-
-	.dark.title h2 {
-                color: var(--font2-dark);
-        }
-
-	.dark.title a:link, .dark.title a:visited {
-                color: var(--font2-dark);
-        }
-
-        .dark.title a:hover, .dark.title a:active {
-                color: var(--font2-hover-dark);
-                border-bottom: 2.5px solid var(--font-dark);
-        }
-
-	.dark.pages {
-                color: var(--font-dark);
-        }
-
-                .dark.pages a:link, .dark.pages a:visited {
-                        color: var(--font-dark);
-                }
-
-                .dark.pages a:hover, .dark.pages a:active {
-                        color: var(--font-hover-dark);
-                        border-bottom: 2.5px solid var(--font-dark);
-                }
-
-        .dark.social {
-                color: var(--font2-dark);
-        }
-
-                .dark.social a:link, .dark.social a:visited {
-                        color: var(--font2-dark);
-                }
-
-                .dark.social a:hover, .dark.social a:active {
-                        color: var(--font2-hover-dark);
-                        border-bottom: 2.5px solid var(--font2-dark);
-                }
-
-.dark.footer {
-        color: var(--font-dark);
-        background-color: var(--fg-dark);
-}
-
-.dark.collapsible {
-        background-color: var(--bg-dark);
-        color: var(--font-dark);
-}
-
-        .dark.active, .dark.collapsible:hover {
-                background-color: var(--drop-bar-hover-dark);
-                color: var(--font-dark);
-        }
-
-        .dark.content {
-                background-color: var(--bg-dark);
-        }
-
-.dark.imgdropcont {
-        background-color: var(--fg-dark);
-        box-shadow: 5px 5px 10px var(--bg-dark);
-}
-
-.dark.pretext {
-        color: var(--font-dark);
-}
-
-        .dark.pretext a:link, .dark.pretext a:visited {
-                color: var(--font);
-        }
-
-        .dark.pretext a:hover, .dark.pretext a:active {
-                color: var(--font-hover-dark);
-                border-bottom: 2.5px solid var(--font-dark);
-        }
-
-.dark.bodycage a:link, .dark.bodycage a:visited {
-        color: var(--font-dark);
-}
-
-.dark.bodycage a:hover, .dark.bodycage a:active {
-        color: var(--font-hover-dark);
-        border-bottom: 2.5px solid var(--font-dark);
-}
-
-.dark.body {
-        color: var(--font-dark);
-        background-color: var(--fg-dark);
-} 
-
-table.dark h2, table.dark h4 {
-        border-bottom: 0.05vw solid var(--font-dark);
-}
-
-/* Dark/Party Mode Toggles */
+/* Toggles */
 
 .switchcage {
 	font-family: Proxima;
@@ -166,7 +57,7 @@ table.dark h2, table.dark h4 {
     	opacity: 75%;
 }
 
-	.switch, .switch2 {
+	.switch, .switch2, .switch3, .switch4, .switch5 {
 	    	font-family: Proxima;
 	    	font-size: 0.95vw;
 	    	text-align: center;
@@ -180,6 +71,16 @@ table.dark h2, table.dark h4 {
 		text-decoration:none;
 	    	padding: 0.25rem;
 	   	margin-left: 0.3125rem;
+	}
+
+	.switch3, .switch4 {
+	    	border: 0.115em solid var(--font2);
+		color: var(--font2);
+	}
+
+	.dark.switch3, .dark.switch4 {
+        	border: 0.115em solid var(--ghost);
+        	color: var(--ghost);
 	}
 
 /* Headings */
@@ -567,8 +468,12 @@ u, ul {
   	text-align: left;
 }
 
+.home-image.miami {
+	background-image: url("Photos/wall-miami.jpg");
+}
+
 	.home-image-title {
-		padding-top: 13.5%;
+		padding-top: 15%;
 		padding-bottom: 17.5%;
 	  	padding-left: 12.5%;
   		padding-right: 12.5%;

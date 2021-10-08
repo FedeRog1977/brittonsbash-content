@@ -41,6 +41,11 @@
 
 	<body>
 
+		<div class="switchcage">
+                        <a class="switch3" href="Library-Nudist.html">Switch To Nudist Site</a>
+                        <span class="switch4">Toggle Night Mode: Disabled</span>
+                </div>
+
 		<div class="bodycage" style="padding-top:2.5em">
 
 			<div class="body">
@@ -471,5 +476,20 @@
 			</p>
 
 		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+                <script>
+                        $(".switch4").on("click", function() {
+                                if( $("*").hasClass("dark")) {
+                                        $("*").removeClass("dark");
+                                        $(".switch4").text("Toggle Night Mode: Disabled");
+                                }
+                                else {
+                                        $("*").addClass("dark");
+                                        $(".switch4").text("Toggle Night Mode: Enabled");
+                                }
+                        });
+                </script>
 
 </html>

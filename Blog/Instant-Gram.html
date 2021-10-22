@@ -57,15 +57,18 @@
 
 				<h2><a id="index">Index</a></h2>
 
+				<p>
 				<table class="center" style="margin-left:auto;margin-right:auto">
-					<tr>
+					<!--<tr>
 						<td style="padding-bottom:1.25em"><h4>2021 ii</h4></td>
 						<td style="padding-bottom:1.25em"><h4>2021 i</h4></td>
 						<td style="padding-bottom:1.25em"><h4>2020</h4></td>
-					</tr>
+					</tr>-->
 					<tr>
 						<td>
-							<ul>
+							<button class="collapsible" style="text-align:center;padding-left:2.5em;padding-right:2.5em"><h4 style="border:none">2021 ii</h4></button>
+							<div class="content" style="padding:1.25em">
+							<u>
 							<li><b><a href="#glencoe7">Glencoe VII: Give Me M&ograve;r</a></b></li>
 							<li><b><a href="#linn">Cnoc Linn Park Mh&ograve;r</a></b></li>
 							<li><b><a href="#sumc">SUMC Cobble</a></b></li>
@@ -84,10 +87,13 @@
 							<li><b><a href="#glencoe4">Glencoe IV: Skyfall - Pause</a></b></li>
 							<li><b><a href="#playground">The Playground</a></b></li>
 							<li><b><a href="#cruachan">Cruachan Ridge Walk</a></b></li>
-							</ul>
+							</u>
+							</div>
 						</td>
 						<td>
-							<ul>
+							<button class="collapsible" style="text-align:center;padding-left:2.5em;padding-right:2.5em"><h4 style="border:none">2021 i</h4></button>
+							<div class="content" style="padding:1.25em">
+							<u>
 							<li><b><a href="#glencoe3">Glencoe III: Get Creased &amp; Do Creise</a></b></li>
 							<li><b><a href="#windfarmcycle">Fenwick &#43; Wind Farm Loop</a></b></li>
 							<li><b><a href="#turning30">Turning 30</a></b></li>
@@ -106,10 +112,13 @@
 							<li><b><a href="#southside2021">Southside Explorations</a></b></li>
 							<li><b><a href="#diss">Dissertation SoyPoses</a></b></li>
 							<li><b><a href="#mothersday">Mother&rsquo;s Day</a></b></li>
-							</ul>
+							</u>
+							</div>
 						</td>
 						<td>
-							<ul>
+							<button class="collapsible" style="text-align:center;padding-left:2.5em;padding-right:2.5em"><h4 style="border:none">2020</h4></button>
+							<div class="content" style="padding:1.25em">
+							<u>
 							<li><b><a href="#stuff2">Some Stuff</a></b></li>
 							<li><b><a href="#cairnsmore">Cairnsmore of Carsphairn</a></b></li>
 							<li><b><a href="#chullum">Ultimate Supreme Depression</a></b></li>
@@ -121,10 +130,12 @@
 							<li><b><a href="#gentlemen2">Glasgow Adventures</a></b></li>
 							<li><b><a href="#gentlemen">Cheshire 2020 - The Golden Triangle</a></b></li>
 							<li><b><a href="#lomondshores">Loch Lomond</a></b></li>
-							</ul>
+							</u>
+							</div>
 						</td>
 					</tr>
 				</table>
+				</p>
 
 			</div>
 
@@ -1652,6 +1663,22 @@
 			</p>
 
 		</div>
+
+		<script>                                                                                             var coll = document.getElementsByClassName("collapsible");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                                        coll[i].addEventListener("click", function() {
+                                this.classList.toggle("active");
+                                var content = this.nextElementSibling;
+                                if (content.style.display === "block") {
+                                content.style.display = "none";
+                                } else {
+                                content.style.display = "block";
+                                }
+                                        });
+                        }
+                </script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 

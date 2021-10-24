@@ -229,7 +229,6 @@ i {
 			.pages a:link, .pages a:visited {
 				color: var(--font);
 				text-decoration: none;
-				padding: 0.25em;
 			}
 
 			.pages a:hover, .pages a:active {
@@ -319,6 +318,8 @@ i {
 
 	.content {
 		background-color: var(--bg);
+		padding-left: 1.25em;
+		padding-right: 1.25em;
 		display: none;
 		overflow: hidden;
 	}

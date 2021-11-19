@@ -86,8 +86,8 @@ bordeaux: #800020;
 /* Headings */
 
 h1 {
-	font-family: CMU-Serif;
-	font-size: 1.75vw; 
+	font-family: CMU-Bold;
+	font-size: 1.25vw; 
 	color: var(--font);
 	font-weight: normal;
 	font-variant: small-caps;
@@ -95,7 +95,7 @@ h1 {
 
 h2 {
 	font-family: CMU-Serif;
-	font-size: 1.25vw;
+	font-size: 1.1vw;
 	color: var(--font);
 	font-weight: normal;
 }
@@ -187,6 +187,7 @@ i {
 
 		.title h1 {
 			font-family: Proxima;
+			font-size: 1.75vw;
 			text-align: left;
 			letter-spacing: 0.25vw;
 			margin: 0em;

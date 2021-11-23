@@ -401,7 +401,7 @@ i {
 	padding-left: 1.25em;
 	padding-right: 1.25em;
 	border-radius: 0.75em;
-	border: 0.125vw double var(--font);
+	/*border: 0.125vw double var(--font);*/
 }
 
 	.body h2 {

@@ -68,7 +68,7 @@ bordeaux: #800020;
 	    	border: 0.115em solid var(--ghost);
 	    	border-radius: 1.25em;
 	    	color: var(--ghost);
-		text-decoration:none;
+		text-decoration: none;
 	    	padding: 0.25rem;
 	   	margin-left: 0.3125rem;
 	}
@@ -401,7 +401,12 @@ i {
 	padding-left: 1.25em;
 	padding-right: 1.25em;
 	border-radius: 0.75em;
+	border: 0.125vw double var(--font);
 }
+
+	.body h2 {
+		border-bottom: 0.05vw double var(--font);
+	}
 
 	.body img {
 		width: 17.5em;

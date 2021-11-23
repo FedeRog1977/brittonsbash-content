@@ -239,49 +239,8 @@
 
 		</div>
 
-		<script>
-			var coll = document.getElementsByClassName("collapsible");
-			var i;
-
-			for (i = 0; i < coll.length; i++) {
-					coll[i].addEventListener("click", function() {
-    				this.classList.toggle("active");
-    				var content = this.nextElementSibling;
-    				if (content.style.display === "block") {
-      				content.style.display = "none";
-    				} else {
-      				content.style.display = "block";
-    				}
-					});
-			}
-		</script>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-
-		<script>
-			$(".switch2").on("click", function() {
-				if( $("*").hasClass("dark")) {
-			      		$("*").removeClass("dark");
-			      		$(".switch2").text("Toggle Night Mode: Disabled");
-			    	}
-				else {
-			      		$("*").addClass("dark");
-			      		$(".switch2").text("Toggle Night Mode: Enabled");
-			   	}
-			});
-		</script>
-
-		<script>
-                        $(".switch5").on("click", function() {
-                                if( $("*").hasClass("miami")) {
-                                        $("*").removeClass("miami");
-                                        $(".switch5").text("Toggle Miami Mode: Disabled");
-                                }
-                                else {
-                                        $("*").addClass("miami");
-                                        $(".switch5").text("Toggle Miami Mode: Enabled");
-                                }
-                        });
-                </script>
+		<script src="Scripts/Collapsible.js"></script>
+		<script src="Scripts/primeTheme.js"></script>
+		<script src="Scripts/Theme.js"></script>
 
 </html>

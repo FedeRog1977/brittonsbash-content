@@ -405,7 +405,7 @@ i {
 }
 
 	.body h2 {
-		border-bottom: 0.05vw double var(--font);
+		border-bottom: double var(--font);
 	}
 
 	.body img {

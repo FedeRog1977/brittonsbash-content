@@ -3,7 +3,7 @@ title:
 - Markdown Header Template
 author:
 - Lewis Britton
-headerincludes:
+header-includes:
 - \usepackage{geometry}
 - \geometry{
         a4paper,

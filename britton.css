@@ -44,44 +44,57 @@ bordeaux: #800020;
 	--drop-bar-hover: #96B9EE;
 }
 
-/* Toggles */
+/* Fonts */
 
-.switchcage {
-	font-family: Proxima;
-	letter-spacing: 0.25vw;
-    	align-self: flex-end;
-    	text-align: right;
-	color: var(--ghost);
-    	padding-top: 1vw;
-    	padding-right: 12.5%;
-    	opacity: 75%;
+@font-face {
+	font-family: CMU-Serif;
+	src: url(Fonts/CMUSerif.ttf);
 }
 
-	.switch, .switch2, .switch3, .switch4, .switch5 {
-	    	font-family: Proxima;
-	    	font-size: 0.95vw;
-	    	text-align: center;
-	    	letter-spacing: 0vw;
-	    	display: inline-block;
-	    	width: 15em;
-	    	cursor: pointer;
-	    	border: 0.115em solid var(--ghost);
-	    	border-radius: 1.25em;
-	    	color: var(--ghost);
-		text-decoration: none;
-	    	padding: 0.25rem;
-	   	margin-left: 0.3125rem;
-	}
+@font-face {
+	font-family: CMU-Bold;
+	src: url(Fonts/CMUBold.ttf);
+}
 
-	.switch3, .switch4 {
-	    	border: 0.115em solid var(--font2);
-		color: var(--font2);
-	}
+@font-face {
+	font-family: CMU-Italic;
+	src: url(Fonts/CMUItalic.ttf);
+}
 
-	.dark.switch3, .dark.switch4 {
-        	border: 0.115em solid var(--ghost);
-        	color: var(--ghost);
-	}
+@font-face {
+	font-family: Proxima;
+	src: url(Fonts/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+	font-family: ProximaBk;
+	src: url(Fonts/ProximaNova-Black.ttf);
+}
+
+@font-face {
+	font-family: ProximaBd;
+	src: url(Fonts/ProximaNova-Bold.ttf);
+}
+
+@font-face {
+	font-family: Broadway;
+	src: url(Fonts/Broadway-Regular.ttf);
+}
+
+@font-face {
+	font-family: Audi-Extended;
+	src: url(Fonts/Audi/Extended-Bold.ttf);
+}
+
+@font-face {
+	font-family: Audi-Wide;
+	src: url(Fonts/Audi/Wide-Bold.ttf);
+}
+
+@font-face {
+	font-family: Audi-Normal;
+	src: url(Fonts/Audi/Bold.ttf);
+}
 
 /* Headings */
 
@@ -131,42 +144,44 @@ i {
 	font-family: CMU-Italic;
 }
 
-/* Fonts */
+/* Toggles */
 
-@font-face {
-	font-family: CMU-Serif;
-	src: url(Fonts/CMUSerif.ttf);
-}
-
-@font-face {
-	font-family: CMU-Bold;
-	src: url(Fonts/CMUBold.ttf);
-}
-
-@font-face {
-	font-family: CMU-Italic;
-	src: url(Fonts/CMUItalic.ttf);
-}
-
-@font-face {
+.switchcage {
 	font-family: Proxima;
-	src: url(Fonts/ProximaNova-Regular.ttf);
+	letter-spacing: 0.25vw;
+    	align-self: flex-end;
+    	text-align: right;
+	color: var(--ghost);
+    	padding-top: 1vw;
+    	padding-right: 12.5%;
+    	opacity: 75%;
 }
 
-@font-face {
-	font-family: ProximaBk;
-	src: url(Fonts/ProximaNova-Black.ttf);
-}
+	.switch, .switch2, .switch3, .switch4, .switch5 {
+	    	font-family: Proxima;
+	    	font-size: 0.95vw;
+	    	text-align: center;
+	    	letter-spacing: 0vw;
+	    	display: inline-block;
+	    	width: 15em;
+	    	cursor: pointer;
+	    	border: 0.115em solid var(--ghost);
+	    	border-radius: 1.25em;
+	    	color: var(--ghost);
+		text-decoration: none;
+	    	padding: 0.25rem;
+	   	margin-left: 0.3125rem;
+	}
 
-@font-face {
-	font-family: ProximaBd;
-	src: url(Fonts/ProximaNova-Bold.ttf);
-}
+	.switch3, .switch4 {
+	    	border: 0.115em solid var(--font2);
+		color: var(--font2);
+	}
 
-@font-face {
-	font-family: Broadway;
-	src: url(Fonts/Broadway-Regular.ttf);
-}
+	.dark.switch3, .dark.switch4 {
+        	border: 0.115em solid var(--ghost);
+        	color: var(--ghost);
+	}
 
 /* Header & Footer */ 
 
@@ -428,7 +443,15 @@ table h2, table h4 {
 	vertical-align: top;
 	padding-right: 2.5em;
 	padding-bottom: 1.25em;
-	width:auto;
+	width: auto;
+}
+
+.justify td {
+	text-align: justify;
+        vertical-align: top;
+        padding-right: 1em;
+        padding-bottom: 1.25em;
+        width: auto;
 }
 
 .center td {
@@ -436,7 +459,7 @@ table h2, table h4 {
 	vertical-align: top;
 	padding-right: 1em;
 	padding-bottom: 2.5em;
-	width:auto;
+	width: auto;
 }
 
 .left td {
@@ -444,7 +467,7 @@ table h2, table h4 {
 	vertical-align: top;
 	padding-right: 1em;
 	padding-bottom: 2.5em;
-	width:auto;
+	width: auto;
 }
 
 .right td {
@@ -452,7 +475,7 @@ table h2, table h4 {
 	vertical-align: center;
 	padding-right: 2.5em;
 	padding-bottom: 0em;
-	width:auto;
+	width: auto;
 }
 
 u, ul {

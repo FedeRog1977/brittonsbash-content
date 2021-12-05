@@ -11,6 +11,7 @@ navy-blue: #002366;
 miami-blue: #96B9EE;
 coral: #FD5E53;
 bordeaux: #800020;
+elderflower tea: #FBEACF;
 */
 
 /* Variables */
@@ -96,7 +97,27 @@ bordeaux: #800020;
 	src: url(Fonts/Audi/Bold.ttf);
 }
 
-/* Headings */
+@font-face {
+	font-family: Instagram;
+	src: url(Fonts/Grandista.ttf);
+}
+
+@font-face {
+	font-family: Giant;
+	src: url(Fonts/NFS.ttf);
+}
+
+@font-face {
+	font-family: Signature;
+	src: url(Fonts/Signature2.ttf);
+}
+
+@font-face {
+	font-family: Rolex;
+	src: url(Fonts/Rolex.ttf);
+}
+
+/* Headings & Body */
 
 h1 {
 	font-family: CMU-Bold;
@@ -128,6 +149,7 @@ h4 {
 	font-weight: normal;
 	font-variant: small-caps;
 	display: inline;
+	border-bottom: 0.05vw solid var(--font);
 }
 
 body {
@@ -434,7 +456,7 @@ i {
 
 /* Table & List Style */
 
-table h2, table h4 {
+table h2 {
 	border-bottom: 0.05vw solid var(--font);
 }
 
@@ -514,7 +536,7 @@ u, ul {
 			font-size: 5vw;
 			font-variant: small-caps;
 			color: var(--ghost);
-			letter-spacing: 1.125vw;
+			letter-spacing: 0.5vw;
 			text-shadow: 1.5px 1.5px 10px #000000;
 			opacity: 75%;
 			margin: 0em;

@@ -510,11 +510,11 @@ u, ul {
 	}
 
 		.home-image-title h1 {
-			font-family: Broadway;
+			font-family: Audi-Extended;
 			font-size: 5vw;
 			font-variant: small-caps;
 			color: var(--ghost);
-			letter-spacing: 0.25em;
+			letter-spacing: 1.125vw;
 			text-shadow: 1.5px 1.5px 10px #000000;
 			opacity: 75%;
 			margin: 0em;

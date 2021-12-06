@@ -27,6 +27,11 @@ elderflower tea: #FBEACF;
 	--drop-bar-hover: #DCDCDC;
 	--miami: linear-gradient(to bottom,rgba(250,125,0,0.25),rgba(250,145,230,0.25));
 	--miami-solid: linear-gradient(to bottom,rgba(250,125,0,1),rgba(220,60,100,1));
+	--finest: #9C7C38;
+	--instant-gram: #000000;
+	--foodrc: #800020;
+	--sport: #002366;
+	--allroad: #484848;
 }
 
 :root.dark {
@@ -35,6 +40,11 @@ elderflower tea: #FBEACF;
         --font: #FFFFFF;
         --font2: #96B9EE;
         --drop-bar-hover: #181818;
+	--finest: #FFFFFF;
+	--instant-gram: #FFFFFF;
+	--foodrc: #FFFFFF;
+	--sport: #FFFFFF;
+	--allroad: #FFFFFF;
 }
 
 :root.miami {

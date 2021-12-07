@@ -190,7 +190,7 @@ i {
     	opacity: 75%;
 }
 
-	.switch, .switch2, .switch3, .switch4, .switch5 {
+	.switch, .switch2, .switch3 {
 	    	font-family: Proxima;
 	    	font-size: 0.95vw;
 	    	text-align: center;
@@ -198,20 +198,15 @@ i {
 	    	display: inline-block;
 	    	width: 15em;
 	    	cursor: pointer;
-	    	border: 0.115em solid var(--ghost);
+	    	border: 0.115em solid var(--font2);
 	    	border-radius: 1.25em;
-	    	color: var(--ghost);
+	    	color: var(--font2);
 		text-decoration: none;
 	    	padding: 0.25rem;
 	   	margin-left: 0.3125rem;
 	}
 
-	.switch3, .switch4 {
-	    	border: 0.115em solid var(--font2);
-		color: var(--font2);
-	}
-
-	.dark.switch3, .dark.switch4 {
+	.dark.switch, .dark.switch2, .dark.switch3 {
         	border: 0.115em solid var(--ghost);
         	color: var(--ghost);
 	}
@@ -322,6 +317,13 @@ i {
    		height: 5.65em;
     		background-color: #006039;
 	}
+
+.titlescroll {
+	position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        z-index: 1;
+}
 
 .footer {
 	font-family: Proxima;
@@ -551,7 +553,7 @@ u, ul {
 }
 
 	.home-image-title {
-		padding-top: 15%;
+		padding-top: 17.5%; /* 15% w/ buttons */
 		padding-bottom: 17.5%;
 	  	padding-left: 12.5%;
   		padding-right: 12.5%;

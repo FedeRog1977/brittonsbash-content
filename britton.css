@@ -132,32 +132,33 @@ elderflower tea: #FBEACF;
 h1 {
 	font-family: CMU-Bold;
 	font-size: 1.25vw; 
-	color: var(--font);
 	font-weight: normal;
 	font-variant: small-caps;
+	color: var(--font);
 }
 
 h2 {
 	font-family: CMU-Serif;
 	font-size: 1.1vw;
-	color: var(--font);
 	font-weight: normal;
+	color: var(--font);
+	border-bottom: double var(--font);
 }
 
 h3 {
 	font-family: CMU-Bold;
 	font-size: 0.95vw;
-	color: var(--font);
 	font-weight: normal;
 	font-variant: small-caps;
+	color: var(--font);
 }
 
 h4 {
 	font-family: CMU-Bold;
 	font-size: 0.95vw;
-	color: var(--font);
 	font-weight: normal;
 	font-variant: small-caps;
+	color: var(--font);
 	display: inline;
 	border-bottom: 0.05vw solid var(--font);
 }
@@ -247,6 +248,7 @@ i {
 			font-weight: normal;
 			font-variant: small-caps;
 			margin: 0em;
+			border-bottom: none;
 		}
 
 		.title a:link, .title a:visited {
@@ -448,12 +450,7 @@ i {
 	padding-left: 1.25em;
 	padding-right: 1.25em;
 	border-radius: 0.75em;
-	/*border: 0.125vw double var(--font);*/
 }
-
-	.body h2 {
-		border-bottom: double var(--font);
-	}
 
 	.body img {
 		width: 17.5em;
@@ -466,8 +463,18 @@ i {
 
 /* Table & List Style */
 
-table h2 {
-	border-bottom: 0.05vw solid var(--font);
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	text-align: center;
+	font-weight: normal;
+	font-variant: small-caps;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
 }
 
 .standard td {
@@ -506,6 +513,15 @@ table h2 {
 	text-align: right;
 	vertical-align: center;
 	padding-right: 2.5em;
+	padding-bottom: 0em;
+	width: auto;
+}
+
+.data td {
+	text-align: left;
+	vertical-align: center;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
 	padding-bottom: 0em;
 	width: auto;
 }

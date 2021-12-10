@@ -166,6 +166,15 @@ h4 {
 body {
 	background-color: var(--bg);
 	margin: 0em;
+	-webkit-text-size-adjust: 100%;
+}
+
+p {
+	display: block;
+    	margin-block-start: 1em;
+    	margin-block-end: 1em;
+    	margin-inline-start: 0px;
+    	margin-inline-end: 0px;
 }
 
 b {
@@ -343,7 +352,7 @@ i {
 .collapsible {
 	font-family: CMU-Serif;
 	font-size: 0.95vw;
-	text-align: left;
+	text-align: center;
 	background-color: var(--bg);
 	color: var(--font);
 	cursor: pointer;
@@ -419,7 +428,7 @@ i {
 		border-bottom: 2.5px solid var(--font);
 	}
 
-/* Body Text Cages */
+/* Body */
 
 .bodycage {
 	padding-bottom: 1.25em;
@@ -438,8 +447,6 @@ i {
 	border-bottom: 2.5px solid var(--font);
 }
 
-/* Body Text */
-
 .body {
 	font-family: CMU-Serif;
 	font-size: 0.95vw;
@@ -447,21 +454,9 @@ i {
 	line-height: 1.5vw;
 	color: var(--font);
 	background-color: var(--fg);
-	padding-top: 0.75em;
-	padding-bottom: 1.25em;
-	padding-left: 1.25em;
-	padding-right: 1.25em;
+	padding: 1.25em;
 	border-radius: 0.75em;
-}
-
-	.body img {
-		width: 17.5em;
-	}
-
-	.body img:hover {
-		cursor: pointer;
-		opacity: 0.90;
-	}
+}	
 
 /* Table & List Style */
 
@@ -598,3 +593,95 @@ u, ul {
 				color: #000000; 
 				opacity: 75%;
 			}
+
+
+
+
+
+
+
+
+*, :after, :before {
+    	box-sizing: border-box;
+}
+
+div {
+	display: block;
+}
+
+img {
+	vertical-align: middle;
+}
+
+	img:hover {
+		cursor: pointer;
+		opacity: 0.90;
+	}
+
+.imgcage {
+	width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
+}
+
+.imgrow {
+    	--bs-gutter-x: 0.75em;
+    	--bs-gutter-y: 0.25em;
+    	display: flex;
+    	flex-wrap: wrap;
+    	margin-top: calc(var(--bs-gutter-y)*-1);
+    	margin-left: calc(var(--bs-gutter-x)*-0.5);
+    	margin-right: calc(var(--bs-gutter-x)*-0.5);
+}
+
+.imgrow > * {
+	flex-shrink: 0;
+    	width: 100%;
+    	max-width: 100%;
+    	padding-left: calc(var(--bs-gutter-x)*0.5);
+    	padding-right: calc(var(--bs-gutter-x)*0.5);
+    	margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width: 768px)
+.imgcol {
+	flex: 1 0;
+}
+
+.imgfancy {
+	margin: 0em;
+	padding: 0.5em;
+    	background-color: var(--bg);
+    	border: 1px solid var(--font);
+    	border-radius: 0.25em;
+}
+
+.imgfluid {
+	max-width: 100%;
+    	height: auto;
+}
+
+@media (min-width: 1400px)
+.imgcage {
+	max-width: 1320px;
+}
+
+@media (min-width: 1200px)
+.imgcage {
+    max-width: 1140px;
+}
+
+@media (min-width: 992px)
+.imgcage {
+    max-width: 960px;
+}
+
+@media (min-width: 768px)
+.imgcage {
+    max-width: 720px;
+}
+
+@media (min-width: 576px)
+.imgcage {
+    max-width: 540px;
+}

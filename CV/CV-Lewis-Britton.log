@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.21)  30 NOV 2021 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.21)  8 DEC 2021 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -49,12 +49,17 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks16
 )
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(/usr/share/texmf-dist/tex/latex/cormorantgaramond/CormorantGaramond.sty
-Package: CormorantGaramond 2020/04/12 (Bob Tennent and autoinst) Style file for
- Cormorant Garamond fonts.
+(/usr/share/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
+Package: ebgaramond 2020/04/12 (Bob Tennent and autoinst) Style file for EB Gar
+amond fonts.
 
 (/usr/share/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
@@ -67,8 +72,8 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
 )
 \XKV@depth=\count190
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -92,7 +97,8 @@ LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
 )
-LaTeX Info: Redefining \oldstylenums on input line 133.
+LaTeX Info: Redefining \oldstylenums on input line 179.
+LaTeX Info: Redefining \textsw on input line 187.
 )
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
@@ -101,7 +107,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \aftertitleunit=\skip50
 \ttl@plus=\dimen147
 \ttl@minus=\dimen148
-\ttl@toksa=\toks19
+\ttl@toksa=\toks21
 \titlewidth=\dimen149
 \titlewidthlast=\dimen150
 \titlewidthfirst=\dimen151
@@ -242,18 +248,20 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip51
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 36.
-LaTeX Font Info:    Trying to load font information for T1+CormorantGaramond-LF
- on input line 38.
+Package hyperref Info: Option `colorlinks' set `true' on input line 40.
+LaTeX Font Info:    Trying to load font information for T1+EBGaramond-OsF on in
+put line 42.
 
-(/usr/share/texmf-dist/tex/latex/cormorantgaramond/T1CormorantGaramond-LF.fd
-File: T1CormorantGaramond-LF.fd 2019/12/11 (autoinst) Font definitions for T1/C
-ormorantGaramond-LF.
+(/usr/share/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-OsF.fd
+File: T1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for T1/EBGaram
+ond-OsF.
 )
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/n' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/n' on input line 38.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 38.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <10.95> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 42.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 42.
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
@@ -263,24 +271,24 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 (./CV-Lewis-Britton.aux)
 \openout1 = `CV-Lewis-Britton.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -336,14 +344,14 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \scratchbox=\box49
 \nofMPsegments=\count271
 \nofMParguments=\count272
-\everyMPshowfont=\toks20
+\everyMPshowfont=\toks22
 \MPscratchCnt=\count273
 \MPscratchDim=\dimen157
 \MPnumerator=\count274
 \makeMPintoPDFobject=\count275
-\everyMPtoPDFconversion=\toks21
+\everyMPtoPDFconversion=\toks23
 )))
-Package hyperref Info: Link coloring ON on input line 38.
+Package hyperref Info: Link coloring ON on input line 42.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -355,117 +363,142 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count276
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
 
 (./CV-Lewis-Britton.out) (./CV-Lewis-Britton.out)
 \@outlinefile=\write3
 \openout3 = `CV-Lewis-Britton.out'.
 
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/n' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/n' on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/n' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/n' on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/sc' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/sc' on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/sc' will be
-(Font)              scaled to size 20.74pt on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/n' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/n' on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/it' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/it' on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/it' will be
-(Font)              scaled to size 14.4pt on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/sc' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/sc' on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/sc' will be
-(Font)              scaled to size 14.4pt on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/n' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/n' on input line 52.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 52.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <17.28> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 17.28pt on input line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <20.74> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 20.74pt on input line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <20.74> not ava
+ilable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on 
+input line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
+(Font)              scaled to size 20.74pt on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 52.
+(Font)              <20.74> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 52.
+(Font)              <14.4> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <12> on input line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <14.4> not avail
+able
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <14.4> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
+input line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
+(Font)              scaled to size 14.4pt on input line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <14.4> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on 
+input line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
+(Font)              scaled to size 14.4pt on input line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <12> not availab
+le
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 61.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 61.
 
 
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 56.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/b/n' aliased to
-(Font)              `T1/CormorantGaramond-LF/bold/n' on input line 57.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 57.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/b/n' aliased to
-(Font)              `T1/CormorantGaramond-LF/bold/n' on input line 67.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 67.
-LaTeX Font Info:    Trying to load font information for TS1+CormorantGaramond-L
-F on input line 71.
-(/usr/share/texmf-dist/tex/latex/cormorantgaramond/TS1CormorantGaramond-LF.fd
-File: TS1CormorantGaramond-LF.fd 2019/12/11 (autoinst) Font definitions for TS1
-/CormorantGaramond-LF.
+(Font)              <10.95> on input line 65.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <10.95> not avai
+lable
+(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
+t line 66.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
+(Font)              scaled to size 10.95pt on input line 66.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <12> not availab
+le
+(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
+t line 76.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on i
+nput line 80.
+(/usr/share/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
+File: TS1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for TS1/EBGar
+amond-OsF.
 )
-LaTeX Font Info:    Font shape `TS1/CormorantGaramond-LF/m/n' aliased to
-(Font)              `TS1/CormorantGaramond-LF/regular/n' on input line 71.
-LaTeX Font Info:    Font shape `TS1/CormorantGaramond-LF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 71.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/it' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/it' on input line 72.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 72.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/sc' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/sc' on input line 81.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/sc' will be
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' in size <10.95> not ava
+ilable
+(Font)              Font shape `TS1/EBGaramond-OsF/regular/n' tried instead on 
+input line 80.
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 80.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <10.95> not ava
+ilable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
+input line 81.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
 (Font)              scaled to size 10.95pt on input line 81.
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--87
-
- []
-
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <10.95> not ava
+ilable
+(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on 
+input line 90.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
+(Font)              scaled to size 10.95pt on input line 90.
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--109
+Underfull \hbox (badness 10000) in paragraph at lines 97--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--120
+Underfull \hbox (badness 10000) in paragraph at lines 108--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--129
+Underfull \hbox (badness 10000) in paragraph at lines 119--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--138
 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/m/n' aliased to
-(Font)              `T1/CormorantGaramond-LF/regular/n' on input line 237.
-LaTeX Font Info:    Font shape `T1/CormorantGaramond-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 237.
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--260
-
- []
-
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <8> not availabl
+e
+(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
+nput line 246.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 246.
 
 Underfull \hbox (badness 10000) in paragraph at lines 261--269
 
@@ -482,7 +515,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--287
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--298
+Underfull \hbox (badness 10000) in paragraph at lines 288--296
 
  []
 
@@ -491,31 +524,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 299--307
 
  []
 
-[4] (./CV-Lewis-Britton.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--316
+
+ []
+
+[3] (./CV-Lewis-Britton.aux)
 Package rerunfilecheck Info: File `CV-Lewis-Britton.out' has not changed.
 (rerunfilecheck)             Checksum: 0211BE7B0AC3604ED087049C7DFB0720;715.
  ) 
 Here is how much of TeX's memory you used:
- 9116 strings out of 478994
- 138249 string characters out of 5864751
- 445078 words of memory out of 5000000
- 26468 multiletter control sequences out of 15000+600000
- 472849 words of font info for 64 fonts, out of 8000000 for 9000
+ 9227 strings out of 478994
+ 139691 string characters out of 5864751
+ 446710 words of memory out of 5000000
+ 26576 multiletter control sequences out of 15000+600000
+ 476653 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,6n,74p,918b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cormorantgaramond/cgrm_v7t4yx.enc}{/us
-r/share/texmf-dist/fonts/enc/dvips/cormorantgaramond/cgrm_yah5fp.enc}{/usr/shar
-e/texmf-dist/fonts/enc/dvips/cormorantgaramond/cgrm_xwhmgi.enc}{/usr/share/texm
-f-dist/fonts/enc/dvips/cormorantgaramond/cgrm_hnmd4t.enc}</usr/share/texmf-dist
-/fonts/type1/catharsis/cormorantgaramond/CormorantGaramond-Bold.pfb></usr/share
-/texmf-dist/fonts/type1/catharsis/cormorantgaramond/CormorantGaramond-Italic.pf
-b></usr/share/texmf-dist/fonts/type1/catharsis/cormorantgaramond/CormorantGaram
+ 71i,7n,74p,918b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ld6df2.enc}{/usr/share
+/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.enc}{/usr/share/texmf-dist/f
+onts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}{/usr/share/texmf-dist/fonts/enc/dvip
+s/ebgaramond/ebgm_byuyni.enc}</usr/share/texmf-dist/fonts/type1/public/ebgaramo
+nd/EBGaramond-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBG
+aramond-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaram
 ond-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
 b>
-Output written on CV-Lewis-Britton.pdf (4 pages, 145542 bytes).
+Output written on CV-Lewis-Britton.pdf (3 pages, 333701 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

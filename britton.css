@@ -403,6 +403,7 @@ i {
 	position: absolute;
 	background-color: var(--fg);
 	box-shadow: 5px 5px 10px var(--bg);
+	margin-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
@@ -456,7 +457,10 @@ i {
 	background-color: var(--fg);
 	padding: 1.25em;
 	border-radius: 0.75em;
-}	
+}
+
+/* Images */
+
 
 /* Table & List Style */
 
@@ -493,8 +497,7 @@ th {
 .center td {
 	text-align: center;
 	vertical-align: top;
-	padding-right: 1em;
-	padding-bottom: 2.5em;
+	padding: 0.25em;
 	width: auto;
 }
 
@@ -599,7 +602,14 @@ u, ul {
 
 
 
-
+.body img {
+	width: 17.5em;
+	margin: 0em;
+        padding: 0.25em;
+        background-color: var(--bg);
+        border: 1px solid var(--font);
+        border-radius: 0.25em;
+}
 
 *, :after, :before {
     	box-sizing: border-box;
@@ -650,7 +660,7 @@ img {
 
 .imgfancy {
 	margin: 0em;
-	padding: 0.5em;
+	padding: 0.25em;
     	background-color: var(--bg);
     	border: 1px solid var(--font);
     	border-radius: 0.25em;

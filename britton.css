@@ -498,8 +498,12 @@ th {
 .center td {
 	text-align: center;
 	vertical-align: top;
-	padding: 0.25em;
+	padding: 0.5em;
 	width: auto;
+}
+
+.caption-align td {
+	width: 0em;
 }
 
 .left td {

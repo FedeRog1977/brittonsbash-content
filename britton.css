@@ -602,6 +602,48 @@ u, ul {
 				opacity: 75%;
 			}
 
+.blog-title {
+	text-align: center;
+}
+
+	.blog-title-fancy {
+		line-height: 1.5vw;
+	}
+
+		.blog-title-fancy h1 {
+			font-variant: normal;
+		}
+
+        	.blog-title-fancy a:hover, .blog-title-fancy a:active {
+        		border-bottom: none;
+		}
+
+	.blog-title-plain {
+		line-height: 1.5vw;
+		letter-spacing: 0.25vw;
+	}
+
+		.blog-title-plain h1 {
+			font-family: Proxima;
+			font-size: 1.25vw;
+		        font-variant: small-caps;
+		}
+
+		.blog-title-plain a:link, .blog-title-plain a:visited {
+        	        color: var(--font2);
+        	        text-decoration: none;
+        	}
+
+        	.blog-title-plain a:hover, .blog-title-plain a:active {
+        	        color: var(--font2-hover);
+        	        text-decoration: none;
+        		border-bottom: none;
+		}
+
+
+
+
+
 
 
 

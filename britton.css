@@ -540,6 +540,10 @@ u, ul {
 		list-style-type: none;
 	}
 
+td p {
+	font-variant: small-caps;
+}
+
 /* Additional */
 
 .home-image {

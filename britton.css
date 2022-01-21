@@ -32,6 +32,8 @@ elderflower tea: #FBEACF;
 	--foodrc: #800020;
 	--sport: #002366;
 	--allroad: #484848;
+	--link-trans: 0.25s;
+	--dark-trans: 0.5s;
 }
 
 :root.dark {
@@ -138,11 +140,10 @@ h1 {
 }
 
 h2 {
-	font-family: CMU-Serif;
+	font-family: CMU-Bold;
 	font-size: 18px;
 	font-weight: normal;
 	color: var(--font);
-	/* border-bottom: double var(--font); */
 }
 
 h3 {
@@ -160,12 +161,13 @@ h4 {
 	font-variant: small-caps;
 	color: var(--font);
 	display: inline;
-	border-bottom: 0.05vw solid var(--font);
+	border-bottom: 1px solid var(--font);
 }
 
 body {
 	background-color: var(--bg);
 	margin: 0em;
+	transition: background var(--dark-trans);
 	-webkit-text-size-adjust: 100%;
 }
 
@@ -202,6 +204,7 @@ i {
 	height: 125px;
 	padding-left: 6.25%;
 	padding-right: 6.25%;
+	transition: background var(--dark-trans);
 } 
 
 	.title {
@@ -229,13 +232,13 @@ i {
 		.title a:link, .title a:visited {
  			color: var(--font2);
  			text-decoration: none;
-			transition: color 0.25s;
+			transition: color var(--link-trans);
 		}
 
 		.title a:hover, .title a:active {
 			color: var(--font2-hover);
 		        text-decoration: none;
-			transition: color 0.25s;
+			transition: color var(--link-trans);
 		}
 
 	.navigation {
@@ -259,19 +262,19 @@ i {
 				cursor: pointer;
 				color: var(--font-hover);
 				text-decoration: none;
-				transition: color 0.25s;
+				transition: color var(--link-trans);
 			}
 
 			.pages a:link, .pages a:visited {
 				color: var(--font);
 				text-decoration: none;
-				transition: color 0.25s;
+				transition: color var(--link-trans);
 			}
 
 			.pages a:hover, .pages a:active {
 				color: var(--font-hover);
 				text-decoration: none;
-				transition: color 0.25s;
+				transition: color var(--link-trans);
 			}
 
 			.pages u {
@@ -315,13 +318,13 @@ i {
 			.social a:link, .social a:visited {
 				color: var(--font2);
 				text-decoration: none;
-				transition: color 0.25s;
+				transition: color var(--link-trans);
 			}
 
 			.social a:hover, .social a:active {
 				color: var(--font2-hover);
 				text-decoration: none;
-				transition: color 0.25s;
+				transition: color var(--link-trans);
 			}
 
 .time {
@@ -395,15 +398,16 @@ i {
 
 .footer {
 	font-family: Proxima;
-	font-size: 0.95vw;
+	font-size: 16px;
 	text-align: center;
 	color: var(--font);
 	background-color: var(--fg);
-	padding-top: 2.25vw;
-	padding-bottom: 2.25vw;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 	margin: 0em;
+	transition: background var(--dark-trans);
 }
 
 /* Drop-Down Boxes */
@@ -423,13 +427,13 @@ i {
 	border: none;
 	outline: none;
 	border-radius: 0.75em;
-	transition: background-color 0.25s;
+	transition: background var(--dark-trans);
 }
 
 	.active, .collapsible:hover {
 		background-color: var(--drop-bar-hover);
 		color: var(--font);
-		transition: background-color 0.25s;
+		transition: background var(--link-trans);
 	}
 
 	.active, .collapsible:active {
@@ -445,6 +449,7 @@ i {
 		padding-right: 1.25em;
 		display: none;
 		overflow: hidden;
+		transition: background var(--dark-trans);
 	}
 
 /* Drop-Down Images */
@@ -467,6 +472,7 @@ i {
 	box-shadow: 5px 5px 10px var(--bg);
 	margin-top: 0.5em;
 	padding-bottom: 0.5em;
+	transition: background var(--dark-trans);
 }
 
 /* Text Preceding Main Bodies */
@@ -483,14 +489,13 @@ i {
 	.pretext a:link, .pretext a:visited {
 		color: var(--font);
 		text-decoration: none;
-		transition: color 0.25s, border-bottom 0.25s;
+		transition: color var(--link-trans);
 	}
 
 	.pretext a:hover, .pretext a:active {
 		color: var(--font-hover);
 		text-decoration: none;
-		border-bottom: 2.5px solid var(--font);
-		transition: color 0.25s, border-bottom 0.25s;
+		transition: color var(--link-trans);
 	}
 
 /* Body */
@@ -510,19 +515,19 @@ i {
 		background-color: var(--fg);
 		padding: 1.25em;
 		border-radius: 0.75em;
+		transition: background var(--dark-trans);
 	}
 
 	.body a:link, .body a:visited {
 		color: var(--font);
 		text-decoration: none;
-		transition: color 0.25s, border-bottom 0.25s;
+		transition: color var(--link-trans);
 	}
 
 	.body a:hover, .body a:active {
 		color: var(--font-hover);
 		text-decoration: none;
-		border-bottom: 2.5px solid var(--font);
-		transition: color 0.25s, border-bottom 0.25s;
+		transition: color var(--link-trans);
 	}
 
 
@@ -533,6 +538,7 @@ i {
 	        background-color: var(--bg);
 	        border: 1px solid var(--font);
 	        border-radius: 0.25em;
+		transition: background var(--dark-trans);
 	}
 
 	.body img:hover {
@@ -683,7 +689,7 @@ u, ul {
 				color: #000000; 
 				background-color: var(--ghost);
 				opacity: 75%;
-				transition: color 0.25s, background 0.25s;
+				transition: color var(--link-trans), background var(--link-trans);
 			}
 
 /* Blog Titles */
@@ -698,10 +704,6 @@ u, ul {
 
 		.blog-title-fancy h1 {
 			font-variant: normal;
-		}
-
-        	.blog-title-fancy a:hover, .blog-title-fancy a:active {
-        		border-bottom: none;
 		}
 
 	.blog-title-plain {
@@ -723,7 +725,6 @@ u, ul {
         	.blog-title-plain a:hover, .blog-title-plain a:active {
         	        color: var(--font2-hover);
         	        text-decoration: none;
-        		border-bottom: none;
 		}
 
 /* Image Flexing */

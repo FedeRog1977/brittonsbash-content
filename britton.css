@@ -32,6 +32,7 @@ elderflower tea: #FBEACF;
 	--foodrc: #800020;
 	--sport: #002366;
 	--allroad: #484848;
+	--blog-fancy-hover: #96B9EE;
 	--link-trans: 0.25s;
 	--dark-trans: 0.5s;
 }
@@ -47,6 +48,7 @@ elderflower tea: #FBEACF;
 	--foodrc: #FFFFFF;
 	--sport: #FFFFFF;
 	--allroad: #FFFFFF;
+	--blog-fancy-hover: #483D8B;
 }
 
 :root.miami {
@@ -202,8 +204,8 @@ i {
 	font-family: Proxima;
 	background-color: var(--fg);
 	height: 125px;
-	padding-left: 6.25%;
-	padding-right: 6.25%;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
 	transition: background var(--dark-trans);
 } 
 
@@ -309,6 +311,50 @@ i {
                 			margin-right: 0.5em;
                 			padding: 1em;
         			}
+
+
+				#finest-menu {
+					font-family: CMU-Bold;
+					font-size: 14px;
+					font-variant: small-caps;
+					color: var(--finest);
+				}
+			
+				#gram-menu {
+					font-family: Instagram;
+					font-size: 12px;
+					font-variant: normal;
+					color: var(--instant-gram);
+				}
+
+				#food-menu {
+					font-family: Signature;
+					font-size: 14px;
+					font-variant: normal;
+					color: var(--foodrc);
+				}
+
+				#sport-menu {
+					font-family: Giant;
+					font-size: 12px;
+					font-variant: normal;
+					color: var(--sport);
+				}
+
+				#all-menu {
+					font-family: Audi-Extended;
+					font-size: 12px;
+					font-variant: normal;
+					color: var(--allroad);
+				}
+
+				#finest-menu:hover,
+				#gram-menu:hover,
+				#food-menu:hover,
+				#sport-menu:hover,
+				#all-menu:hover {
+					color: var(--blog-fancy-hover);
+				}
 
 		.social {
 			color: var(--font2);
@@ -705,6 +751,46 @@ u, ul {
 
 		.blog-title-fancy h1 {
 			font-variant: normal;
+		}
+
+		#finest {
+			font-family: CMU-Bold;
+			font-size: 27.5px;
+			font-variant: small-caps;
+			color: var(--finest);
+		}
+
+		#gram {
+			font-family: Instagram;
+			font-size: 25px;
+			color: var(--instant-gram);
+		}
+
+		#food {
+			font-family: Signature;
+			font-size: 27.5px;
+			color: var(--foodrc);
+		}
+
+		#sport {
+			font-family: Giant;
+			font-size: 25px;
+			color: var(--sport);
+		}
+
+		#all {
+			font-family: Audi-Extended;
+			font-size: 25px;
+			color: var(--allroad);
+		}
+
+		#finest:hover,
+		#gram:hover,
+		#food:hover,
+		#sport:hover,
+		#all:hover {
+			color: var(--blog-fancy-hover);
+
 		}
 
 	.blog-title-plain {

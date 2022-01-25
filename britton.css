@@ -516,8 +516,9 @@ i {
 	position: absolute;
 	background-color: var(--fg);
 	box-shadow: 5px 5px 10px var(--bg);
-	margin-top: 0.5em;
-	padding-bottom: 0.5em;
+	margin-top: 10px;
+	padding: 10px;
+	padding-bottom: 0;
 	transition: background var(--dark-trans);
 }
 
@@ -746,11 +747,17 @@ u, ul {
 }
 
 	.blog-title-fancy {
-		line-height: 1.5vw;
+		line-height: 1.5vw;	
+		border: 1.5px solid var(--font2);
+		border-radius: 0.75em;
 	}
 
 		.blog-title-fancy h1 {
 			font-variant: normal;
+			border: 1.5px solid var(--font2);
+			border-radius: 0.25em;
+			margin: 5px;
+			padding: 15px;
 		}
 
 		#finest {
@@ -770,6 +777,7 @@ u, ul {
 			font-family: Signature;
 			font-size: 27.5px;
 			color: var(--foodrc);
+			padding-top: 20px;
 		}
 
 		#sport {

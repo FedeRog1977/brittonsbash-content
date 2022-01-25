@@ -49,7 +49,7 @@
 \contentsline {section}{\numberline {}Middle Eastern}{52}{section.6}%
 \contentsline {subsection}{\numberline {}Prawn Bhuna}{52}{subsection.6.1}%
 \contentsline {subsection}{\numberline {}Chicken Tikka Garam Masala}{53}{subsection.6.2}%
-\contentsline {subsection}{\numberline {}Lentil Dahl}{54}{subsection.6.3}%
+\contentsline {subsection}{\numberline {}Dahl}{54}{subsection.6.3}%
 \contentsline {section}{\numberline {}Sandwiches}{55}{section.7}%
 \contentsline {subsection}{\numberline {}Roast Beef \& Onion}{55}{subsection.7.1}%
 \contentsline {subsection}{\numberline {}Chicken Caesar Club}{56}{subsection.7.2}%

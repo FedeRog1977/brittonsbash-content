@@ -33,6 +33,7 @@ elderflower tea: #FBEACF;
 	--sport: #002366;
 	--allroad: #484848;
 	--blog-fancy-hover: #96B9EE;
+	--audi-line: #FFFFFF;
 	--link-trans: 0.25s;
 	--dark-trans: 0.5s;
 }
@@ -49,6 +50,7 @@ elderflower tea: #FBEACF;
 	--sport: #FFFFFF;
 	--allroad: #FFFFFF;
 	--blog-fancy-hover: #483D8B;
+	--audi-line: #232323;
 }
 
 :root.miami {
@@ -747,17 +749,16 @@ u, ul {
 }
 
 	.blog-title-fancy {
-		line-height: 1.5vw;	
-		border: 1.5px solid var(--font2);
-		border-radius: 0.75em;
+		/* border: 1.5px solid var(--font2);
+		   border-radius: 0.75em; */
 	}
 
 		.blog-title-fancy h1 {
 			font-variant: normal;
-			border: 1.5px solid var(--font2);
-			border-radius: 0.25em;
+			/* border: 1.5px solid var(--font2);
+			   border-radius: 0.25em; */
 			margin: 5px;
-			padding: 15px;
+			padding: 10px;
 		}
 
 		#finest {
@@ -777,7 +778,7 @@ u, ul {
 			font-family: Signature;
 			font-size: 27.5px;
 			color: var(--foodrc);
-			padding-top: 20px;
+			padding-top: 15px;
 		}
 
 		#sport {
@@ -798,11 +799,19 @@ u, ul {
 		#sport:hover,
 		#all:hover {
 			color: var(--blog-fancy-hover);
-
 		}
 
+			.audi-line {
+				background-color: (--audi-line);
+				width: 500px;
+			}
+
+			.audi-line:hover {
+				width: 750px;
+				transition: width 1s;
+			}
+
 	.blog-title-plain {
-		line-height: 1.5vw;
 		letter-spacing: 0.25vw;
 	}
 

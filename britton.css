@@ -12,6 +12,9 @@ miami-blue: #96B9EE;
 coral: #FD5E53;
 bordeaux: #800020;
 elderflower tea: #FBEACF;
+
+	--miami: linear-gradient(to bottom,rgba(250,125,0,0.25),rgba(250,145,230,0.25));
+	--miami-solid: linear-gradient(to bottom,rgba(250,125,0,1),rgba(220,60,100,1));
 */
 
 /* Variables */
@@ -25,13 +28,12 @@ elderflower tea: #FBEACF;
 	--font2-hover: #483D8B;
 	--ghost: #FFFFFF;
 	--drop-bar-hover: #DCDCDC;
-	--miami: linear-gradient(to bottom,rgba(250,125,0,0.25),rgba(250,145,230,0.25));
-	--miami-solid: linear-gradient(to bottom,rgba(250,125,0,1),rgba(220,60,100,1));
 	--finest: #9C7C38;
 	--instant-gram: #000000;
 	--foodrc: #800020;
 	--sport: #002366;
 	--allroad: #484848;
+	--miami: #F890E7;
 	--blog-fancy-hover: #96B9EE;
 	--audi-line: #FFFFFF;
 	--link-trans: 0.25s;
@@ -49,6 +51,7 @@ elderflower tea: #FBEACF;
 	--foodrc: #FFFFFF;
 	--sport: #FFFFFF;
 	--allroad: #FFFFFF;
+	--miami: #FFFFFF;
 	--blog-fancy-hover: #483D8B;
 	--audi-line: #232323;
 }
@@ -125,7 +128,7 @@ elderflower tea: #FBEACF;
 
 @font-face {
 	font-family: Signature;
-	src: url(Fonts/Signature2.ttf);
+	src: url(Fonts/Signature.ttf);
 }
 
 @font-face {
@@ -410,7 +413,7 @@ i {
 		float: left;
 	}
 
-		.blogtitle h2 {
+		.blogtitle h1 {
 			margin: 0;
 		}
 
@@ -745,25 +748,49 @@ u, ul {
 /* Blog Titles */
 
 .blog-title {
-	text-align: center;
+	border: 1.5px solid var(--font2);
 }
 
+		.audi-line {
+			text-align: left;
+			border: 1.5px solid var(--font2);
+			background-color: (--audi-line);
+		}
+
+		.audi-line:hover {
+			padding-left: 5%;
+			transition: padding 1s;
+		}
+
+		.miami-base {
+			text-align: center;
+        		background-color: #0BD3D3;
+        		width: 275px;
+			height: 21px;
+		}
+
 	.blog-title-fancy {
-		/* border: 1.5px solid var(--font2);
-		   border-radius: 0.75em; */
+		border: 1.5px solid var(--font2);
+		margin: 5px;
+		padding: 10px;
 	}
 
 		.blog-title-fancy h1 {
-			font-variant: normal;
-			/* border: 1.5px solid var(--font2);
-			   border-radius: 0.25em; */
+			border: 1.5px solid var(--font2);
 			margin: 5px;
-			padding: 10px;
+			padding: 7.5px;
 		}
+
+			.blog-title-fancy h1:hover {
+				padding-top: 15px;
+				padding-bottom: 15px;
+				padding-left: 5%;
+				transition: padding 1s;
+			}
 
 		#finest {
 			font-family: CMU-Bold;
-			font-size: 27.5px;
+			font-size: 25px;
 			font-variant: small-caps;
 			color: var(--finest);
 		}
@@ -771,55 +798,72 @@ u, ul {
 		#gram {
 			font-family: Instagram;
 			font-size: 25px;
+			font-variant: normal;
 			color: var(--instant-gram);
 		}
 
 		#food {
 			font-family: Signature;
-			font-size: 27.5px;
+			font-size: 25px;
+			font-variant: normal;
 			color: var(--foodrc);
-			padding-top: 15px;
 		}
 
 		#sport {
 			font-family: Giant;
 			font-size: 25px;
+			font-variant: normal;
 			color: var(--sport);
 		}
 
 		#all {
 			font-family: Audi-Extended;
 			font-size: 25px;
+			font-variant: normal;
 			color: var(--allroad);
+		}
+
+		#miami-music {
+			font-family: Broadway;
+			font-size: 25px;
+			font-variant: normal;
+			color: var(--miami);
+			text-shadow: 2.5px 2.5px 0px rgba(0, 0, 0, 0.0625);
+		}
+
+		#finst, #gram, #food, #sport, #all, #miami-music {
+			transition: color var(--dark-trans);
 		}
 
 		#finest:hover,
 		#gram:hover,
 		#food:hover,
 		#sport:hover,
-		#all:hover {
+		#all:hover,
+		#miami-music:hover {
 			color: var(--blog-fancy-hover);
 		}
 
-			.audi-line {
-				background-color: (--audi-line);
-				width: 500px;
-			}
-
-			.audi-line:hover {
-				width: 750px;
-				transition: width 1s;
-			}
-
 	.blog-title-plain {
 		letter-spacing: 0.25vw;
+		border: 1.5px solid var(--font2);
+		margin: 5px;
+		padding: 10px;
 	}
 
 		.blog-title-plain h1 {
 			font-family: Proxima;
 			font-size: 20px;
 		        font-variant: small-caps;
+			border: 1.5px solid var(--font2);
+			margin: 5px;
+			padding: 5px;
 		}
+
+			.blog-title-plain h1:hover {
+                                padding-left: 5%;
+                                transition: padding 1s;
+                        }
 
 		.blog-title-plain a:link, .blog-title-plain a:visited {
         	        color: var(--font2);

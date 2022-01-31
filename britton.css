@@ -834,6 +834,7 @@ u, ul {
 			/* border: 1.5px solid var(--font2); */
 			margin: 5px;
 			padding: 10px;
+			transition: padding 1s;
 		}
 
 			.blog-title-fancy h1:hover {
@@ -909,6 +910,7 @@ u, ul {
 			/* border: 1.5px solid var(--font2); */
 			margin: 5px;
 			padding: 5px;
+			transition: padding 1s;
 		}
 
 			.blog-title-plain h1:hover {

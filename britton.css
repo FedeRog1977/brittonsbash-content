@@ -256,42 +256,43 @@ i {
 		margin-top: 40px;
 	}
 
-		.pages {
+		.pages-desktop, .pages-mobile {
 			font-size: 20px;
 			color: var(--font);
 		}
 
-			.pages p {
-				display: inline;
+			@media only screen and (max-width: 1026px) {
+    				.pages-desktop {
+        				display: none;
+    				}
 			}
 
-			.pages p:hover {
-				cursor: pointer;
-				color: var(--font-hover);
-				text-decoration: none;
-				transition: color var(--link-trans);
+			@media only screen and (min-width: 1026px) {
+    				.pages-mobile {
+        				display: none;
+    				}
 			}
 
-			.pages a:link, .pages a:visited {
+			.pages-desktop a:link, .pages-desktop a:visited, .pages-mobile a:link, .pages-mobile a:visited {
 				color: var(--font);
 				text-decoration: none;
 				transition: color var(--link-trans);
 			}
 
-			.pages a:hover, .pages a:active {
+			.pages-desktop a:hover, .pages-dekstop a:active, .pages-mobile a:hover, .pages-mobile a:active {
 				color: var(--font-hover);
 				text-decoration: none;
 				transition: color var(--link-trans);
 			}
 
-			.pages u {
+			.pages-desktop u, .pages-mobile u {
                                 list-style-type: none;
                                 text-decoration: none;
 				letter-spacing: 1px;
                                 word-spacing: 1px;
                         }
 
-                        .pages li:hover {
+                        .pages-desktop li:hover, .pages-mobile li:hover {
                                 color: var(--font-hover);
                         }
 
@@ -381,22 +382,45 @@ i {
 					color: var(--blog-fancy-hover);
 				}
 
-		.social {
+		.social-desktop, .social-mobile {
 			color: var(--font2);
 			font-size: 16px;
 		}
 
-			.social a:link, .social a:visited {
+			@media only screen and (max-width: 1026px) {
+    				.social-desktop {
+        				display: none;
+    				}
+			}
+
+			@media only screen and (min-width: 1026px) {
+    				.social-mobile {
+        				display: none;
+    				}
+			}
+
+			.social-desktop a:link, .social-desktop a:visited, .social-mobile a:link, .social-mobile a:visited {
 				color: var(--font2);
 				text-decoration: none;
 				transition: color var(--link-trans);
 			}
 
-			.social a:hover, .social a:active {
+			.social-desktop a:hover, .social-desktop a:active, .social-mobile a:hover, .social-mobile a:active {
 				color: var(--font2-hover);
 				text-decoration: none;
 				transition: color var(--link-trans);
 			}
+
+			.social-desktop u, .social-mobile u {
+                                list-style-type: none;
+                                text-decoration: none;
+				letter-spacing: 1px;
+                                word-spacing: 1px;
+                        }
+
+                        .social-desktop li:hover, .social-mobile li:hover  {
+                                color: var(--font-hover);
+                        }
 
 .time {
 	margin: 0em;
@@ -700,6 +724,12 @@ table {
 u, ul {
 	text-decoration: none;
 	list-style-type: lower-roman;
+}
+
+/* Hiding Content */
+
+.hidden {
+	display: none;
 }
 
 /* Home Background Image */

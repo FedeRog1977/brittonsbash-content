@@ -743,6 +743,12 @@ u, ul {
   	text-align: left;
 }
 
+	 @media only screen and (max-width: 1026px) {
+                .home-image {
+                        display: none;
+                }
+        }
+
 .home-image.miami {
 	background-image: url("Photos/wall-miami.jpg");
 }

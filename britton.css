@@ -173,9 +173,9 @@ h4 {
 
 body {
 	background-color: var(--bg);
-	margin: 0em;
 	transition: background var(--dark-trans);
 	-webkit-text-size-adjust: 100%;
+	margin: 0;
 }
 
 *, :after, :before {
@@ -188,10 +188,6 @@ div {
 
 p {
 	display: block;
-    	margin-block-start: 1em;
-    	margin-block-end: 1em;
-    	margin-inline-start: 0px;
-    	margin-inline-end: 0px;
 }
 
 b {
@@ -209,22 +205,22 @@ i {
 	font-family: Proxima;
 	background-color: var(--fg);
 	height: 125px;
-	padding-left: 7.5%;
-	padding-right: 7.5%;
 	transition: background var(--dark-trans);
+	margin: 0;
+	padding: 0 7.5% 0 7.5%;
 } 
 
 	.title {
 		float: left;
 		text-align: left;
 		letter-spacing: 5px;
-		margin-top: 30px;
+		margin: 30px 0 0 0;
 	}
 
 		.title h1 {
 			font-family: Proxima;
 			font-size: 30px;
-			margin: 0em;
+			margin: 0;
 		}
 
 		.title h2 {
@@ -233,7 +229,7 @@ i {
 			color: var(--font2);
 			font-weight: normal;
 			font-variant: small-caps;
-			margin: 0em;
+			margin: 0;
 		}
 
 		.title a:link, .title a:visited {
@@ -249,11 +245,12 @@ i {
 		}
 
 	.navigation {
+		float: left;
 		float: right;
 		text-align: right; 
 		letter-spacing: 5px;
 		word-spacing: 5px;
-		margin-top: 40px;
+		margin: 40px 0 0 0;
 	}
 
 		.pages-desktop, .pages-mobile {
@@ -313,8 +310,7 @@ i {
                 			background-color: var(--fg);
                 			display: none;
                 			position: fixed;
-                			margin-top: 0.25em;
-                			margin-right: 0.5em;
+					margin: 0.25em 0.5em 0 0;
                 			padding: 1em;
         			}
 				
@@ -423,8 +419,6 @@ i {
                         }
 
 .time {
-	margin: 0em;
-	padding: 0em;
 	height: 5.65em;
 	background-color: #006039;
 	position: sticky;
@@ -432,57 +426,60 @@ i {
   	top: 0;
   	z-index: 1;
   	box-shadow: 0px 5px 10px -5px #000000;
+	margin: 0;
+	padding: 0;
 }
 
 	.rolex_clock {
-		margin: 0em;
-		padding-bottom: 0em;
    		width: 100%;
    		height: 5.65em;
     		background-color: #006039;
+		margin: 0;
+		padding: 0;
 	}
 
 .titlescroll {
-	padding-top: 20px;
-        padding-left: 12.5%;
-        padding-right: 12.5%;
+	border: 1px solid black;
 	position: sticky;
-        position: -webkit-sticky;
         top: 0;
         z-index: 1;
+	margin: 1.25em 12.5% 1.25em 12.5%;
 }
 
 	.blogtitle {
+		border: 1px solid black;
 		text-align: left;
 		float: left;
+		margin: 0.5em;
 	}
 
 		.blogtitle h1 {
 			margin: 0;
+		    	padding: 0;
 		}
 
 	.switchcage {
-		font-family: Proxima;
+		border: 1px solid black;
 	    	align-self: flex-end;
 	    	text-align: right;
 		color: var(--ghost);
 	    	opacity: 75%;
+		margin: 0.5em;
 	}
 
 		.switch, .switch2, .switch3 {
 		    	font-family: Proxima;
 		    	font-size: 16px;
+			font-variant: small-caps;
 		    	text-align: center;
-			letter-spacing: 0px;
 		    	display: inline-block;
-		    	width: 15em;
+		    	width: 250px;
 		    	cursor: pointer;
 		    	border: 0.115em solid var(--font2);
 		    	border-radius: 1.25em;
 		    	color: var(--font2);
 			text-decoration: none;
-			margin: 0.5em;
-			margin-right: 0;
+			margin: 0.25em 0 0.25em 0;
 		    	padding: 0.25em;
 		}
 
@@ -491,18 +488,20 @@ i {
 	        	color: var(--ghost);
 		}
 
+.banner {
+	border: 1px solid black;
+	margin: 1.25em 12.5% 1.25em 12.5%;
+}
+
 .footer {
 	font-family: Proxima;
 	font-size: 16px;
 	text-align: center;
 	color: var(--font);
 	background-color: var(--fg);
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
-	margin: 0em;
 	transition: background var(--dark-trans);
+	margin: 0;
+	padding: 1.25em 12.5% 1.25em 12.5%;
 }
 
 /* Drop-Down Boxes */
@@ -514,15 +513,12 @@ i {
 	background-color: var(--bg);
 	color: var(--font);
 	cursor: pointer;
-	padding-top: 0.75em;
-	padding-bottom: 0.75em;
-	padding-left: 1.25em;
-	padding-right: 1.25em;
 	width: 100%;
 	border: none;
 	outline: none;
 	border-radius: 0.75em;
 	transition: background var(--dark-trans);
+	padding: 0.75em 1.25em 0.75em 1.25em;
 }
 
 	.active, .collapsible:hover {
@@ -552,8 +548,7 @@ i {
 .img-drop {
 	display: inline-block;
 	position: auto;
-	padding-top: 0.75vw;
-	padding-bottom: 0.75vw;
+	margin: 0 0 1.25em 0;
 }
 
 .img-drop:hover .img-drop-cont {
@@ -565,21 +560,20 @@ i {
 	position: absolute;
 	background-color: var(--fg);
 	box-shadow: 5px 5px 10px var(--bg);
-	margin-top: 10px;
-	padding: 10px;
 	padding-bottom: 0;
 	transition: background var(--dark-trans);
+	margin: 2.5em 0 0 0;
+	padding: 2.5em;
 }
 
 /* Text Preceding Main Bodies */
 
 .pretext {
-	padding-top: 2.5em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
+	border: 1px solid black;
 	font-family: CMU Serif;
 	text-align: center;
 	color: var(--font);
+	margin: 1.25em 12.5% 1.25em 12.5%;
 }
 
 	.pretext a:link, .pretext a:visited {
@@ -597,21 +591,22 @@ i {
 /* Body */
 
 .bodycage {
-	padding-bottom: 1.25em;
-	padding-left: 12.5%;
-	padding-right: 12.5%;
+	border: 1px solid black;
+	margin: 1.25em 12.5% 1.25em 12.5%;
 }
 
 	.body {
+		border: 1px solid black;
 		font-family: CMU-Serif;
 		font-size: 16px;
 		text-align: justify;
 		line-height: 25px;
 		color: var(--font);
 		background-color: var(--fg);
-		padding: 1.25em;
 		border-radius: 0.75em;
 		transition: background var(--dark-trans);
+		margin: 0.5em;
+		padding: 1.25em;
 	}
 
 	.body a:link, .body a:visited {
@@ -630,18 +625,17 @@ i {
 	.body img {
 		width: 280px;
 		max-width: 280px;
-		margin: 0em;
-	        padding: 0.25em;
 	        background-color: var(--bg);
 	        border: 1px solid var(--font);
 	        border-radius: 0.25em;
 		transition: background var(--dark-trans);
+		margin: 0;
+	        padding: 0.25em;
 	}
 
 	.body img:hover {
 		opacity: 0.90;
 	}
-
 
 /* Images */
 
@@ -653,8 +647,7 @@ img {
 
 table {
 	border-collapse: collapse;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto 0 auto;
 }
 
 	table u, table ul {
@@ -754,52 +747,21 @@ u, ul {
 }
 
 	.home-image-title {
-		padding-top: 17.5%; /* 15% w/ buttons */
-		padding-bottom: 17.5%;
-	  	padding-left: 12.5%;
-  		padding-right: 12.5%;
+		margin: 0;
+		padding: 20% 12.5% 24% 12.5%;
 	}
 
 		.home-image-title h1 {
 			font-family: Audi-Extended;
-			font-size: 5vw;
+			font-size: 84px;
 			font-variant: small-caps;
 			color: var(--ghost);
-			letter-spacing: 0.5vw;
+			letter-spacing: 6px;
 			text-shadow: 1.5px 1.5px 10px #000000;
 			opacity: 75%;
-			margin: 0em;
+			margin: 0;
+			padding: 0;
 		}
-
-		.home-image-title-buttons {
-			text-align: left;
-			padding-top: 0.75vw;
-		}
-
-			.button-main {
-		  		font-family: Proxima;
-		  		font-size: 0.95vw;
-		  		text-align: left;
-				letter-spacing: 0.35vw;
-				padding-top: 0.75vw;
-				padding-bottom: 0.75vw;
-				padding-left: 1.55vw;
-				padding-right: 1.35vw;
-				cursor: pointer;
-				border: 0.1vw solid var(--ghost);
-				color: var(--ghost);
-				background-color: #FFFFFF00;
-				opacity: 75%;
-				margin-bottom: 1.25vw;
-			}
-
-			.button-main:hover {
-		  		border-color: var(--ghost); 
-				color: #000000; 
-				background-color: var(--ghost);
-				opacity: 75%;
-				transition: color var(--link-trans), background var(--link-trans);
-			}
 
 /* Blog Titles */
 
@@ -831,16 +793,14 @@ u, ul {
 			}
 
 	.blog-title-fancy {
-		/* border: 1.5px solid var(--font2); */
 		margin: 5px;
 		padding: 10px;
 	}
 
 		.blog-title-fancy h1 {
-			/* border: 1.5px solid var(--font2); */
+			transition: padding 1s;
 			margin: 5px;
 			padding: 10px;
-			transition: padding 1s;
 		}
 
 			.blog-title-fancy h1:hover {
@@ -914,9 +874,9 @@ u, ul {
 			font-size: 20px;
 		        font-variant: small-caps;
 			/* border: 1.5px solid var(--font2); */
+			transition: padding 1s;
 			margin: 5px;
 			padding: 5px;
-			transition: padding 1s;
 		}
 
 			.blog-title-plain h1:hover {

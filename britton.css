@@ -697,11 +697,11 @@ table {
 
 	.data td {
 		text-align: left;
-		vertical-align: center;
+		vertical-align: top;
 		width: auto;
 		padding: 0.25em 0.75em 0.25em 0.75em;
 	}
-	
+
 	.caption-align td {
 		width: 0;
 	}

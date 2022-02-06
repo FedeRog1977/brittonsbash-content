@@ -1,10 +1,20 @@
-$(".switch2").on("click", function() {
+$(".switch2-desktop").on("click", function() {
     if( $("*").hasClass("dark")) {
         $("*").removeClass("dark");
-        $(".switch2").text("Toggle Night Mode: Disabled");
+        $(".switch2-desktop").text("Toggle Night Mode: Disabled");
     } else {
         $("*").addClass("dark");
-        $(".switch2").text("Toggle Night Mode: Enabled");
+        $(".switch2-desktop").text("Toggle Night Mode: Enabled");
+    }
+});
+
+$(".switch2-mobile").on("click", function() {
+    if( $("*").hasClass("dark")) {
+        $("*").removeClass("dark");
+        $(".switch2-mobile").text("🌗");
+    } else {
+        $("*").addClass("dark");
+        $(".switch2-mobile").text("🌓");
     }
 });
 

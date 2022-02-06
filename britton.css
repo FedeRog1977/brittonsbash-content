@@ -483,16 +483,20 @@ i {
 		    	display: inline-block;
 		    	width: 250px;
 		    	cursor: pointer;
-		    	border: 0.115em solid var(--font2);
+		    	border: 1.5px solid var(--font2);
 		    	border-radius: 1.25em;
 		    	color: var(--font2);
 			text-decoration: none;
 			margin: 0.25em 0 0.25em 0;
-		    	padding: 0.25em;
+			padding: 0.25em;
+		}
+
+		.switch2-mobile {
+		    	width: 30px;
 		}
 
 		.dark.switch, .dark.switch2-desktop, .dark.switch2-mobile, .dark.switch3 {
-	        	border: 1px solid var(--ghost);
+	        	border: 1.5px solid var(--ghost);
 	        	color: var(--ghost);
 		}
 

@@ -22,6 +22,7 @@ elderflower tea: #FBEACF;
 :root {
 	--bg: #F5F5F5;
 	--fg: #FFFFFF;
+	--drop: #DCDCDC;
 	--font: #483D8B;
 	--font2: #96B9EE;		
 	--font-hover: #96B9EE;
@@ -43,6 +44,7 @@ elderflower tea: #FBEACF;
 :root.dark {
 	--bg: #323232;
         --fg: #232323;
+	--drop: #181818;
         --font: #FFFFFF;
         --font2: #96B9EE;
         --drop-bar-hover: #181818;
@@ -216,7 +218,7 @@ i {
 	transition: background var(--dark-trans);
 	margin: 0;
 	padding: 0 7.5% 0 7.5%;
-} 
+}
 
 	.title {
 		float: left;
@@ -262,7 +264,52 @@ i {
 		margin: 40px 0 0 0;
 	}
 
-		.pages-desktop, .pages-mobile {
+		.pages-mobile, .social-mobile, .blog-links {
+			font-family: Proxima;
+			font-variant: small-caps;
+			background-color: var(--drop);
+			text-align: right;
+			transition: background var(--dark-trans);
+			margin: 0;
+			padding: 1em 12.5% 1em 12.5%;
+		}
+
+		.blog-links {
+                	font-size: 20px;
+                	text-align: right;
+		}
+
+			.blog-links a:link, .blog-links a:visited {
+				color: var(--font2);
+				text-decoration: none;
+				transition: color var(--link-trans);
+			}
+
+			.blog-links a:hover, .blog-links a:active {
+				color: var(--font2-hover);
+				text-decoration: none;
+				transition: color var(--link-trans);
+			}
+
+			.blog-links u {
+                                list-style-type: none;
+                                text-decoration: none;
+				letter-spacing: 1px;
+                                word-spacing: 1px;
+                        }
+
+                        .blog-links li:hover {
+                                color: var(--font-hover);
+                        }
+
+				.blog-links-fancy {
+				}
+
+				.blog-links-plain {
+					letter-spacing: 3px;
+				}
+
+		.pages-desktop, .pages-mobile, .pages-mobile-button {
 			font-size: 20px;
 			color: var(--font);
 		}
@@ -274,18 +321,18 @@ i {
 			}
 
 			@media only screen and (min-width: 1026px) {
-    				.pages-mobile {
+    				.pages-mobile, .pages-mobile-button {
         				display: none;
     				}
 			}
 
-			.pages-desktop a:link, .pages-desktop a:visited, .pages-mobile a:link, .pages-mobile a:visited {
+			.pages-desktop a:link, .pages-desktop a:visited, .pages-mobile a:link, .pages-mobile-button a:link, .pages-mobile a:visited, .pages-mobile-button a:visited {
 				color: var(--font);
 				text-decoration: none;
 				transition: color var(--link-trans);
 			}
 
-			.pages-desktop a:hover, .pages-dekstop a:active, .pages-mobile a:hover, .pages-mobile a:active {
+			.pages-desktop a:hover, .pages-dekstop a:active, .pages-mobile a:hover, .pages-mobile-button a:hover, .pages-mobile a:active, .pages-mobile-button a:active {
 				color: var(--font-hover);
 				text-decoration: none;
 				transition: color var(--link-trans);
@@ -301,30 +348,6 @@ i {
                         .pages-desktop li:hover, .pages-mobile li:hover {
                                 color: var(--font-hover);
                         }
-
-			.pages-drop {
-        			display: inline-block;
-        			position: relative;
-			}
-
-			.pages-drop:hover .pages-drop-cont {
-        			display: block;
-			}
-
-        			.pages-drop-cont {
-                			font-size: 12px;
-					font-variant: small-caps;
-                			text-align: left;
-                			line-height: 25px;
-                			background-color: var(--fg);
-					border: double var(--font);
-					min-width: 180px;
-                			display: none;
-                			position: absolute;
-					z-index: 1;
-					margin: 0;
-                			padding: 1em;
-        			}
 				
 				.miami-base-container-menu {
                         		text-align: center;
@@ -340,42 +363,42 @@ i {
 
 				#finest-menu {
 					font-family: CMU-Bold;
-					font-size: 12px;
+					font-size: 20px;
 					font-variant: small-caps;
 					color: var(--finest);
 				}
 			
 				#gram-menu {
 					font-family: Instagram;
-					font-size: 12px;
+					font-size: 20px;
 					font-variant: normal;
 					color: var(--instant-gram);
 				}
 
 				#food-menu {
 					font-family: Signature;
-					font-size: 14px;
+					font-size: 22px;
 					font-variant: normal;
 					color: var(--foodrc);
 				}
 
 				#sport-menu {
 					font-family: Giant;
-					font-size: 12px;
+					font-size: 20px;
 					font-variant: normal;
 					color: var(--sport);
 				}
 
 				#all-menu {
 					font-family: Audi-Extended;
-					font-size: 12px;
+					font-size: 20px;
 					font-variant: normal;
 					color: var(--allroad);
 				}
 
 				#miami-music-menu {
                         		font-family: Broadway;
-                        		font-size: 12px;
+                        		font-size: 20px;
                         		font-variant: normal;
                         		color: var(--miami);
                         		text-shadow: 1.25px 1.25px 0px rgba(0, 0, 0, 0.0625);
@@ -390,7 +413,7 @@ i {
 					color: var(--blog-fancy-hover);
 				}
 
-		.social-desktop, .social-mobile {
+		.social-desktop, .social-mobile, .social-mobile-button {
 			color: var(--font2);
 			font-size: 16px;
 		}
@@ -402,18 +425,18 @@ i {
 			}
 
 			@media only screen and (min-width: 1026px) {
-    				.social-mobile {
+    				.social-mobile, .social-mobile-button {
         				display: none;
     				}
 			}
 
-			.social-desktop a:link, .social-desktop a:visited, .social-mobile a:link, .social-mobile a:visited {
+			.social-desktop a:link, .social-desktop a:visited, .social-mobile a:link, .social-mobile-button a:link, .social-mobile a:visited, .social-mobile-button a:visited {
 				color: var(--font2);
 				text-decoration: none;
 				transition: color var(--link-trans);
 			}
 
-			.social-desktop a:hover, .social-desktop a:active, .social-mobile a:hover, .social-mobile a:active {
+			.social-desktop a:hover, .social-desktop a:active, .social-mobile a:hover, .social-mobile-button a:hover, .social-mobile a:active, .social-mobile-button a:active {
 				color: var(--font2-hover);
 				text-decoration: none;
 				transition: color var(--link-trans);
@@ -515,11 +538,6 @@ i {
                                 display: none;
                         }
                 }
-
-.banner {
-	border: 1px solid black;
-	margin: 1.25em 12.5% 1.25em 12.5%;
-}
 
 .footer {
 	font-family: Proxima;

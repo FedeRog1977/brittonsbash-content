@@ -4,6 +4,7 @@
 	<head>
 		<title>Home | BrittonsBashRC</title>
 		<link rel="stylesheet" type="text/css" href="britton.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" type="image/png" href="Photos/LB.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
@@ -19,44 +20,10 @@
 				<a href="./Academia.html">Academia</a> |
 				<a href="./Employment.html">Employment</a> |
 				<a href="./Library.html">Library</a> |
-				<div class="pages-drop">
-					<a href="./Blog.html">Blog&#9662;</a>
-                                        <div class="pages-drop-cont">
-                                        <u>
-                                        <li><a id="gram-menu" href="./Blog/Instant-Gram.html">Instant Gram</a></li>
-                                        <li><a id="sport-menu" href="./Blog/Sport.html">Sport And Nutrition</a></li>
-                                        <li><a id="food-menu" href="./Blog/FoodRC.html">BrittonsFoodRC</a></li>
-                                        <li><a id="finest-menu" href="./Blog/Finest-Moments.html">Finest Moments</a></li>
-                                        <li><a id="all-menu" href="./Blog/Allroad.html">allroad quattro</a></li>
-					<li><a id="miami-music-menu" href="./Blog/Miami-Vice.html">Miami Vice Music</a>
-					</li>
-                                        <li><a href="./Blog/Gentlemen-Who-Cafe.html">Gentlemen Who Caf&eacute;</a></li>
-                                        <li><a href="./Blog/Goaterer.html">Roger GoATerer</a></li>
-                                        <li><a href="./Blog/Consoomables.html">Consoomables</a></li>
-                                        <li><a href="./Blog/Overflow.html">Stacked Overflow</a></li>
-                                        <li><a href="./Blog/Communications-Interfaces.html">Communications And Interfaces</a></li>
-                                        <li><a href="./Blog/ThinkFlow.html">ThinkFlow</a></li>
-                                        <li><a href="./Blog/Founding-Fathers.html">Founding Fathers</a></li>
-                                        <li><a href="./Blog/Film-Television.html">Film, Television And Music</a></li>
-                                        <li><a href="./Blog/Arkham-Knight.html">Arkham Knight</a></li>
-                                        <li><a href="./Blog/Graphic-Design.html">Graphic Design</a></li>
-                                        </u>
-                                        </div>
-                                </div>
+				<a href="./Blog.html">Blog</a> <a id="blogDrop" href="#">&#9662;</a>
 	    		</div>
-			<div class="pages-mobile">
-				<div class="pages-drop">
-					<a href="#">Pages&#9662;</a>
-					<div class="pages-drop-cont">
-					<u>
-					<li><a href="./index.html">Home</a></li>
-					<li><a href="./Academia.html">Academia</a></li>
-					<li><a href="./Employment.html">Employment</a></li>
-					<li><a href="./Library.html">Library</a></li>
-					<li><a href="./Blog.html">Blog</a></li>
-					</u>
-					</div>
-				</div>
+			<div class="pages-mobile-button">
+				<a id="pagesDrop" href="#" class="fa fa-bars"></a>
 			</div>
 	    		<div class="social-desktop">
 				<a href="https://github.com/FedeRog1977">GitHub</a> |
@@ -64,21 +31,51 @@
 				<a href="https://www.myfitnesspal.com/profile/lewisbritton23">MyFitnessPal</a> |
 				<a href="https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=182872">Walkhighlands</a>
 			</div>
-			<div class="social-mobile">
-				<div class="pages-drop">
-					<a href="#">Soycial&#9662;</a>
-					<div class="pages-drop-cont">
-					<u>
-					<li><a href="https://github.com/FedeRog1977">GitHub</a></li>
-					<li><a href="https://www.strava.com/athletes/23679031">Strava</a></li>
-					<li><a href="https://www.myfitnesspal.com/profile/lewisbritton23">MyFitnessPal</a></li>
-					<li><a href="https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=182872">Walkhighlands</a></li>
-					</u>
-					</div>
-				</div>
+			<div class="social-mobile-button">
+				<a id="socialDrop" href="#" class="fa fa-bars"></a>
 			</div>
 		</div>
 	</div>
+	<div id="pagesDropCont" class="pages-mobile hidden">
+		<u>
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./Academia.html">Academia</a></li>
+		<li><a href="./Employment.html">Employment</a></li>
+		<li><a href="./Library.html">Library</a></li>
+		<li><a href="./Blog.html">Blog</a> <a id="blogDrop2" href="#">&#9662;</a></li>
+		</u>
+	</div>
+	<div id="socialDropCont" class="social-mobile hidden">
+		<u>
+		<li><a href="https://github.com/FedeRog1977">GitHub</a></li>
+		<li><a href="https://www.strava.com/athletes/23679031">Strava</a></li>
+		<li><a href="https://www.myfitnesspal.com/profile/lewisbritton23">MyFitnessPal</a></li>
+		<li><a href="https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=182872">Walkhighlands</a></li>
+		</u>
+	</div>
+	<div id="blogDropCont" class="blog-links hidden">
+		<u>
+		<li><a id="gram-menu" href="./Blog/Instant-Gram.html">Instant Gram</a></li>
+		<li><a id="sport-menu" href="./Blog/Sport.html">Sport And Nutrition</a></li>
+                <li><a id="food-menu" href="./Blog/FoodRC.html">BrittonsFoodRC</a></li>
+                <li><a id="finest-menu" href="./Blog/Finest-Moments.html">Finest Moments</a></li>
+                <li><a id="all-menu" href="./Blog/Allroad.html">allroad quattro</a></li>
+		<li><a id="miami-music-menu" href="./Blog/Miami-Vice.html">Miami Vice Music</a></li>
+		<div class="blog-links-plain">
+                <li><a href="./Blog/Gentlemen-Who-Cafe.html">Gentlemen Who Caf&eacute;</a></li>
+                <li><a href="./Blog/Goaterer.html">Roger GoATerer</a></li>
+                <li><a href="./Blog/Consoomables.html">Consoomables</a></li>
+                <li><a href="./Blog/Overflow.html">Stacked Overflow</a></li>
+                <li><a href="./Blog/Communications-Interfaces.html">Communications And Interfaces</a></li>
+                <li><a href="./Blog/ThinkFlow.html">ThinkFlow</a></li>
+                <li><a href="./Blog/Founding-Fathers.html">Founding Fathers</a></li>
+                <li><a href="./Blog/Film-Television.html">Film, Television And Music</a></li>
+                <li><a href="./Blog/Arkham-Knight.html">Arkham Knight</a></li>
+                <li><a href="./Blog/Graphic-Design.html">Graphic Design</a></li>
+		</div>
+		</u>
+	</div>
+
 
     	<body>
 
@@ -90,15 +87,15 @@
 
         	<div class="titlescroll">
 	    		<div class="switchcage">
-				<a class="switch" href="index-Nudist.html">Switch To Nudist Site</a>
+				<!--<a class="switch" href="index-Nudist.html">Switch To Nudist Site</a>-->
 				<span class="switch2-desktop">Toggle Night Mode: Disabled</span>
 				<span class="switch2-mobile">🌗</span>
 				<!--<span class="switch3">Toggle Miami Mode: Disabled</span>-->
 	    		</div>
 		</div>
 
-		<div class="banner">
-			<h2><marquee behavior="scroll" direction="left">I&rsquo;m an Internet Landlord a.k.a. LandChad, not an Internet Peasant! Welcome to BrittonsBashRC &#124; Or as some call it, CS226 Advanced Applied Autism &#124; Also, 6/7 6/1 6/7 6/4 8/7 [40-15]</marquee></h2>
+		<div class="bodycage">
+			<h1><marquee behavior="scroll" direction="left">I&rsquo;m an Internet Landlord a.k.a. LandChad, not an Internet Peasant! Welcome to BrittonsBashRC &#124; Or as some call it, CS226 Advanced Applied Autism &#124; Also, 6/7 6/1 6/7 6/4 8/7 [40-15]</marquee></h1>
 		</div>
 
 		<div class="bodycage">
@@ -276,5 +273,6 @@
 	<script src="Scripts/Collapsible.js"></script>
 	<script src="Scripts/primeTheme.js"></script>
 	<script src="Scripts/Theme.js"></script>
+	<script src="Scripts/Drop.js"></script>
 
 </html>

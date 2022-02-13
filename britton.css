@@ -149,9 +149,10 @@ h1 {
 }
 
 h2 {
-	font-family: CMU-Bold;
+	font-family: CMU-Serif;
 	font-size: 18px;
 	font-weight: normal;
+	font-variant: small-caps;
 	color: var(--font);
 }
 

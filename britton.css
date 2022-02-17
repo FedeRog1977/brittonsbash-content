@@ -278,6 +278,7 @@ i {
 		.blog-links {
                 	font-size: 20px;
                 	text-align: right;
+			line-height: 30px;
 		}
 
 			.blog-links a:link, .blog-links a:visited {

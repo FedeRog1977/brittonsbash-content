@@ -1,29 +1,19 @@
-$(".switch2-desktop").on("click", function() {
+$(".switch-desktop").on("click", function() {
     if( $("*").hasClass("dark")) {
         $("*").removeClass("dark");
-        $(".switch2-desktop").text("Toggle Night Mode: Disabled");
+        $(".switch-desktop").text("Toggle Night Mode: Disabled");
     } else {
         $("*").addClass("dark");
-        $(".switch2-desktop").text("Toggle Night Mode: Enabled");
+        $(".switch-desktop").text("Toggle Night Mode: Enabled");
     }
 });
 
-$(".switch2-mobile").on("click", function() {
+$(".switch-mobile").on("click", function() {
     if( $("*").hasClass("dark")) {
         $("*").removeClass("dark");
-        $(".switch2-mobile").text("🌗");
+        $(".switch-mobile").text("🌗");
     } else {
         $("*").addClass("dark");
-        $(".switch2-mobile").text("🌓");
-    }
-});
-
-$(".switch3").on("click", function() {
-    if( $("*").hasClass("miami")) {
-        $("*").removeClass("miami");
-        $(".switch5").text("Toggle Miami Mode: Disabled");
-    } else {
-        $("*").addClass("miami");
-        $(".switch5").text("Toggle Miami Mode: Enabled");
+        $(".switch-mobile").text("🌓");
     }
 });

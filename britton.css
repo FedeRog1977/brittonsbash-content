@@ -301,6 +301,13 @@ i {
 	}
 }
 
+@media only screen and (max-width: 1026px) {
+        .data {
+                font-size: 0.5vw;
+                width: 100%;
+        }
+}
+
 /* Header & Footer */ 
 
 .header {

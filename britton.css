@@ -146,6 +146,7 @@ h1 {
 	font-weight: normal;
 	font-variant: small-caps;
 	color: var(--font);
+	transition: color var(--dark-trans);
 }
 
 h2 {
@@ -154,6 +155,7 @@ h2 {
 	font-weight: normal;
 	font-variant: small-caps;
 	color: var(--font);
+	transition: color var(--dark-trans);
 }
 
 h3 {
@@ -162,6 +164,7 @@ h3 {
 	font-weight: normal;
 	font-variant: small-caps;
 	color: var(--font);
+	transition: color var(--dark-trans);
 }
 
 h4 {
@@ -172,6 +175,7 @@ h4 {
 	color: var(--font);
 	display: inline;
 	border-bottom: 1px solid var(--font);
+	transition: color var(--dark-trans);
 }
 
 body {
@@ -239,6 +243,7 @@ i {
 			font-family: Proxima;
 			font-size: 30px;
 			margin: 0;
+			transition: color var(--dark-trans);
 		}
 
 		.title h2 {
@@ -248,6 +253,7 @@ i {
 			font-weight: normal;
 			font-variant: small-caps;
 			margin: 0;
+			transition: color var(--dark-trans);
 		}
 
 		.title a:link, .title a:visited {
@@ -272,6 +278,12 @@ i {
 		margin: 40px 0 0 0;
 	}
 
+		.pages-desktop, .pages-mobile, .pages-mobile-button {
+			font-size: 20px;
+			color: var(--font);
+			transition: color var(--dark-trans);
+		}
+
 		.pages-mobile, .social-mobile {
 			font-family: Proxima;
 			font-variant: small-caps;
@@ -280,11 +292,6 @@ i {
 			transition: background var(--dark-trans);
 			margin: 0;
 			padding: 1em 12.5% 1em 12.5%;
-		}
-
-		.pages-desktop, .pages-mobile, .pages-mobile-button {
-			font-size: 20px;
-			color: var(--font);
 		}
 
 			.pages-desktop a:link, .pages-desktop a:visited,
@@ -313,18 +320,6 @@ i {
                         .pages-desktop li:hover, .pages-mobile li:hover {
                                 color: var(--font-hover);
                         }
-				
-				.miami-base-container-menu {
-                        		text-align: center;
-                        		width: 150px;
-                		}
-
-                        		.miami-base-menu {
-                                		text-align: center;
-                		                background-color: #0BD3D3;
-                        		        width: 150px;
-        		                        height: 10px;
-		                        }
 
 			@media only screen and (max-width: 1026px) {
 			    	.pages-desktop {
@@ -341,6 +336,7 @@ i {
 		.social-desktop, .social-mobile, .social-mobile-button {
 			color: var(--font2);
 			font-size: 16px;
+			transition: color var(--dark-trans), background var(--dark-trans);
 		}
 
 			.social-desktop a:link, .social-desktop a:visited, .social-mobile a:link, .social-mobile-button a:link, .social-mobile a:visited, .social-mobile-button a:visited {
@@ -366,7 +362,6 @@ i {
                                 color: var(--font-hover);
                         }
 
-			
 			@media only screen and (max-width: 1026px) {
 				.social-desktop {
 			        	display: none;
@@ -615,7 +610,7 @@ i {
 		color: var(--font);
 		background-color: var(--fg);
 		border-radius: 0.75em;
-		transition: background var(--dark-trans);
+		transition: color var(--dark-trans), background var(--dark-trans);
 		margin: 0.5em;
 		padding: 1.25em;
 	}
@@ -815,12 +810,14 @@ u, ul {
 .blog-title {
 	text-align: right;
 	background-color: var(--drop);
+	transition: background var(--dark-trans);
 	padding: 1.25em 12.5% 1.25em 12.5%;
 }
 
 	.blog-title-fancy {
 		background-color: var(--fg);
 		border-radius: 0.5em;
+		transition: background var(--dark-trans);
                 margin: 10px;
                 padding: 15px;
 	}
@@ -915,6 +912,7 @@ u, ul {
 		letter-spacing: 5px;
 		background-color: var(--fg);
 		border-radius: 0.5em;
+		transition: background var(--dark-trans);
                 margin: 10px;
                 padding: 15px;
 	}

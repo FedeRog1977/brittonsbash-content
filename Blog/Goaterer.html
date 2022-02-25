@@ -2,42 +2,84 @@
 <html>
 
 	<head>
-
 		<title>Blog - RG | BrittonsBashRC</title>
 		<link rel="stylesheet" type="text/css" href="../britton.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" type="image/png" href="../Photos/LB.png">
-
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+                <script src="https://kit.fontawesome.com/9824331ae6.js" crossorigin="anonymous"></script>
 	</head>
 
-		<div class="header">
+	<div class="header">
+                <div class="title">
+                        <h1>BrittonsBashRC</h1>
+                        <h2>BLOG / Roger GoATerer</h2>
+                </div>
+                <div class="navigation">
+                        <div class="pages-desktop">
+                                <a href="../index.html">Home</a> |
+                                <a href="../Academia.html">Academia</a> |
+                                <a href="../Employment.html">Employment</a> |
+                                <a href="../Library.html">Library</a> |
+                                Blog <a id="blogDrop" href="#">&#9662;</a>
+                        </div>
+                        <div class="pages-mobile-button">
+                                <a id="pagesDrop" href="#" class="fa fa-bars"></a>
+                        </div>
+                        <div class="social-desktop">
+                                <a href="https://github.com/FedeRog1977">GitHub</a> |
+                                <a href="https://www.strava.com/athletes/23679031">Strava</a> |
+                                <a href="https://www.myfitnesspal.com/profile/lewisbritton23">MyFitnessPal</a> |
+                                <a href="https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=182872">Walkhighlands</a>
+                        </div>
+                        <div class="social-mobile-button">
+                                <a id="socialDrop" href="#" class="fa fa-bars"></a>
+                        </div>
+                </div>
+        </div>
 
-			<div class="title">
-	
-				<h1>Lewis Britton</h1>
-				<h2><a href="../Blog.html">BLOG</a> / Roger GoATerer</h2>
+        <div id="pagesDropCont" class="pages-mobile hidden">
+                <u>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Academia.html">Academia</a></li>
+                <li><a href="../Employment.html">Employment</a></li>
+                <li><a href="../Library.html">Library</a></li>
+                <li>Blog <a id="blogDrop2" href="#">&#9662;</a></li>
+                </u>
+        </div>
 
-			</div>
+	<div id="blogDropCont" class="blog-title hidden">
+                <div class="blog-title-fancy">
+                        <h1><a id="gram" href="./Instant-Gram.html">Instant Gram</a></h1>
+                        <h1><a id="sport" href="./Sport.html">Sport And Nutrition</a></h1>
+                        <h1><a id="food" href="./FoodRC.html">BrittonsFoodRC</a></h1>
+                        <h1><a id="finest" href="./Finest-Moments.html">Finest Moments</a></h1>
+                        <h1><a id="all" href="./Allroad.html">allroad quattro</a></h1>
+                        <h1><a id="miami-music" href="./Miami-Vice.html">Miami Vice Music</a>
+                        </h1>
+                </div>
+                <div class="blog-title-plain">
+                        <h1><a href="./Gentlemen-Who-Cafe.html">Gentlemen Who Caf&eacute;</a></h1>
+                        <h1><a href="./Goaterer.html">Roger GoATerer</a></h1>
+                        <h1><a href="./Consoomables.html">Consoomables</a></h1>
+                        <h1><a href="./Overflow.html">Stacked Overflow</a></h1>
+                        <h1><a href="./Communications-Interfaces.html">Communications And Interfaces</a></h1>
+                        <h1><a href="./ThinkFlow.html">ThinkFlow</a></h1>
+                        <h1><a href="./Founding-Fathers.html">Founding Fathers</a></h1>
+                        <h1><a href="./Film-Television.html">Film, Television And Music</a></h1>
+                        <h1><a href="./Arkham-Knight.html">Arkham Knight</a></h1>
+                        <h1><a href="./Graphic-Design.html">Graphic Design</a></h1>
+                </div>
+        </div>
 
-			<div class="navigation">
-
-				<div class="pages">
-					<a href="../index.html">HOME</a> |
-					<a href="../Academia.html">ACADEMIA</a> |
-					<a href="../Employment.html">EMPLOYMENT</a> |
-					<a href="../Library.html">LIBRARY</a> |
-					<a href="../Blog.html">BLOG</a>
-				</div>
-
-				<div class="social">
-					<a href="https://github.com/FedeRog1977">GITHUB</a> |
-					<a href="https://www.strava.com/athletes/23679031" class="theva">STRAVA</a> |
-					<a href="https://www.myfitnesspal.com/profile/lewisbritton23">MYFITNESSPAL</a> |
-					<a href="https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=182872">WALKHIGHLANDS</a>
-				</div>
-
-			</div>
-
-		</div>
+        <div id="socialDropCont" class="social-mobile hidden">
+                <u>
+                <li><a href="https://github.com/FedeRog1977">GitHub</a></li>
+                <li><a href="https://www.strava.com/athletes/23679031">Strava</a></li>
+                <li><a href="https://www.myfitnesspal.com/profile/lewisbritton23">MyFitnessPal</a></li>
+                <li><a href="https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=182872">Walkhighlands</a></li>
+                </u>
+        </div>
 
 	<div class="time">
                 <iframe src="https://www.atptour.com/assets/atpwt/third-party/rolex/standard/index.html" class="rolex_clock" SCROLLING=NO frameborder=NO></iframe>
@@ -117,5 +159,6 @@
 
 		<script src="../Scripts/primeTheme.js"></script>
                 <script src="../Scripts/Theme.js"></script>
+		<script src="../Scripts/Drop.js"></script>
 
 </html>

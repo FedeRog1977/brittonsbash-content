@@ -217,9 +217,9 @@ p {
 	.caption {
 		font-variant: small-caps;
 		text-align: center;
-		border: double var(--font);
+		background-color: var(--drop);
 		border-radius: 0.25em;
-		transition: border var(--dark-trans);
+		transition: background var(--dark-trans);
 		padding: 0.125em 0.25em 0.125em 0.25em;
 	}
 
@@ -537,10 +537,8 @@ i {
 	}
 
 	.active, .collapsible:active {
-		border-top-left-radius: 0.75em;
-		border-top-right-radius: 0.75em;
-		border-bottom-left-radius: 0em;
-		border-bottom-right-radius: 0em;
+		border-radius: 0.75em 0.75em 0 0;
+		transition: color var(--dark-trans), background var(--dark-trans);
 	}
 
 	.content {
@@ -708,7 +706,7 @@ img {
 	background-color: var(--drop);
 	border-radius: 0.5em;
 	transition: background var(--dark-trans);
-	margin: 0 0 0.75em 0;
+	margin: 0 0 1.25em 0;
 	padding: 0.75em;
 }
 

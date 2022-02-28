@@ -725,7 +725,12 @@ table {
 		text-align: center;
 		font-weight: normal;
 		font-variant: small-caps;
+		transition: border var(--dark-trans);
 		padding: 0.25em 0.75em 0.25em 0.75em;
+	}
+
+	td {
+		transition: border var(--dark-trans);
 	}
 
 	.left td {

@@ -100,6 +100,21 @@ elderflower tea: #FBEACF;
 }
 
 @font-face {
+	font-family: Garamond-Serif;
+	src: url(Fonts/Garamond/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+	font-family: Garamond-Bold;
+	src: url(Fonts/Garamond/EBGaramond-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: Garamond-Italic;
+	src: url(Fonts/Garamond/EBGaramond-Italic.ttf);
+}
+
+@font-face {
 	font-family: Proxima;
 	src: url(Fonts/ProximaNova-Regular.ttf);
 }
@@ -158,7 +173,7 @@ elderflower tea: #FBEACF;
 
 h1 {
 	/*font-family: CMU-Bold;*/
-	font-family: "EB Garamond", Garamond, Bold;
+	font-family: Garamond-Bold;
 	font-size: 20px; 
 	font-weight: normal;
 	font-variant: small-caps;
@@ -169,7 +184,7 @@ h1 {
 
 h2 {
 	/*font-family: CMU-Bold;*/
-	font-family: "EB Garamond", Garamond, Bold;
+	font-family: Garamond-Bold;
 	font-size: 18px;
 	font-weight: normal;
 	font-variant: small-caps;
@@ -180,7 +195,7 @@ h2 {
 
 h3 {
 	/*font-family: CMU-Bold;*/
-	font-family: "EB Garamond", Garamond, Bold;
+	font-family: Garamond-Bold;
 	font-size: 16px;
 	font-weight: normal;
 	font-variant: small-caps;
@@ -190,7 +205,7 @@ h3 {
 
 h4 {
 	/*font-family: CMU-Bold;*/
-	font-family: "EB Garamond", Garamond, Bold;
+	font-family: Garamond-Bold;
 	font-size: 16px;
 	font-weight: normal;
 	font-variant: small-caps;
@@ -230,13 +245,13 @@ p {
 
 b {
 	/*font-family: CMU-Bold;*/
-	font-family: "EB Garamond", Garamond, Bold;
+	font-family: Garamond-Bold;
 	font-variant: small-caps;
 }
 
 i {
 	/*font-family: CMU-Italic;*/
-	font-family: "EB Garamond", Garamond, Italic;
+	font-family: Garamond-Italic;
 }
 
 /* Header & Footer */ 
@@ -523,7 +538,7 @@ i {
 
 .collapsible {
 	/*font-family: CMU-Serif;*/
-	font-family: "EB Garamond", Garamond, Serif;
+	font-family: Garamond-Serif; 
 	font-size: 16px;
 	text-align: center;
 	background-color: var(--bg);
@@ -590,7 +605,7 @@ i {
 .pretext {
 	/*border: 1px solid black;*/
 	/*font-family: CMU-Serif;*/
-	font-family: "EB Garamond", Garamond, Serif;
+	font-family: Garamond-Serif; 
 	text-align: center;
 	color: var(--font);
 	margin: 1.25em 12.5% 1.25em 12.5%;
@@ -629,7 +644,7 @@ i {
 	.body {
 		/*border: 1px solid black;*/
 		/*font-family: CMU-Serif;*/
-		font-family: "EB Garamond", Garamond, Serif;
+		font-family: Garamond-Serif; 
 		font-size: 16px;
 		text-align: justify;
 		line-height: 25px;

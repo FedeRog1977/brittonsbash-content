@@ -551,12 +551,16 @@ i {
 	padding: 0.5em 1.25em 0.5em 1.25em;
 }
 
+	.boxset-item {
+		border-radius: 0;
+	}
+
 	.active, .collapsible:hover {
 		background-color: var(--drop-bar-hover);
 		color: var(--font);
 		transition: background var(--link-trans);
 	}
-
+		
 	.active, .collapsible:active {
 		border-radius: 0.75em 0.75em 0 0;
 		transition: color var(--dark-trans), background var(--dark-trans);
@@ -570,6 +574,10 @@ i {
 		margin: 0;
 		padding: 0 1.25em 0 1.25em;
 	}
+		
+		.boxset-items {
+			padding: 0;
+		}
 
 /* Drop-Down Images */
 

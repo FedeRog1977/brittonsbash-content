@@ -310,7 +310,6 @@ i {
 
 	.navigation {
 		font-variant: small-caps;
-		float: left;
 		float: right;
 		text-align: right; 
 		letter-spacing: 3px;
@@ -734,6 +733,18 @@ img {
 	padding: 0.75em;
 }
 
+	.coverart {
+		width: 100px;
+                max-width: 100px;
+                background-color: var(--bg);
+                border: 1px solid var(--font);
+                border-radius: 0.125em;
+		float: right;
+                transition: background var(--dark-trans), border var(--dark-trans);
+                margin: 0.5em 2.25em 0 0;
+                padding: 0.125em;
+	}
+
 /* Table & List Style */
 
 table {
@@ -807,6 +818,7 @@ table {
 		}
 
 u, ul {
+	text-align: left;
 	text-decoration: none;
 	list-style-type: lower-roman;
 }

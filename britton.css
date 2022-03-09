@@ -23,13 +23,13 @@ elderflower tea: #FBEACF;
 	--bg: #F5F5F5;
 	--fg: #FFFFFF;
 	--fg-fancy: linear-gradient(to bottom left, #A8A8A8 20%, #FFFFFF);
-	--drop: #DCDCDC;
+	--drop: #E8E8E8; /*DCDCDC*/
 	--font: #483D8B;
 	--font2: #96B9EE;		
 	--font-hover: #96B9EE;
 	--font2-hover: #483D8B;
 	--ghost: #FFFFFF;
-	--drop-bar-hover: #DCDCDC;
+	--drop-bar-hover: #E8E8E8; /*DCDCDC*/
 	--finest: #9C7C38;
 	--instant-gram: #000000;
 	--foodrc: #800020;

@@ -326,8 +326,8 @@ i {
 		.pages-mobile, .social-mobile {
 			font-family: Proxima;
 			font-variant: small-caps;
-			background-color: var(--drop);
 			text-align: right;
+			background-color: var(--drop);
 			transition: background var(--dark-trans);
 			margin: 0;
 			padding: 1em 12.5% 1em 12.5%;
@@ -836,9 +836,12 @@ table {
 	}
 
 u, ul {
-	text-align: left;
 	text-decoration: none;
 	list-style-type: lower-roman;
+}
+
+ul {
+	text-align: left;
 }
 
 /* Hiding Content */

@@ -741,6 +741,21 @@ img {
 	padding: 0.75em;
 }
 
+	.statistics {
+		list-style-type:none;
+		width: 50%;
+		background-color: var(--bg);
+		border-radius: 0.25em;
+		transition: background var(--dark-trans);
+		padding: 0.75em;
+	}
+
+		@media only screen and (max-width: 1026px) {
+		        .statistics {
+        		        width: 100%;
+        		}
+		}
+
 	.coverart {
 		width: 100px;
                 max-width: 100px;

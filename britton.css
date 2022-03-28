@@ -591,9 +591,10 @@ i {
 	display: none;
 	position: absolute;
 	background-color: var(--fg);
-	box-shadow: 5px 5px 10px var(--bg);
 	transition: background var(--dark-trans);
-	margin: 2.5em 0 0 0;
+	border: 1px solid var(--font);
+	border-radius: 0.75em;
+	margin: 0;
 	padding: 2.5em 2.5em 0 2.5em;
 }
 

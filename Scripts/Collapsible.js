@@ -12,3 +12,18 @@ for (i = 0; i < coll.length; i++) {
         }
     });
 }
+
+var coll2 = document.getElementsByClassName("collapsible-boxset-item");
+var k;
+
+for (k = 0; k < coll.length; k++) {
+    coll2[k].addEventListener("click", function() {
+        this.classList.toggle("active2");
+        var content2 = this.nextElementSibling;
+        if (content2.style.display === "block") {
+            content2.style.display = "none";
+        } else {
+            content2.style.display = "block";
+        }
+    });
+}

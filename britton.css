@@ -533,6 +533,34 @@ i {
 	padding: 1.25em 12.5% 1.25em 12.5%;
 }
 
+/* Select Buttons */
+
+.select {
+	/*font-family: CMU-Serif;*/
+	font-family: Garamond-Serif; 
+	font-size: 16px;
+	text-align: center;
+	background-color: var(--bg);
+	color: var(--font);
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 0.75em;
+	transition: color var(--dark-trans), background var(--dark-trans);
+	padding: 0.5em 1.25em 0.5em 1.25em;
+}
+
+	.select:hover {
+		background-color: var(--drop-bar-hover);
+		color: var(--font);
+		transition: background var(--link-trans);
+	}
+
+	.select:active {
+		transform: scale(0.95);
+		transition: color var(--dark-trans), background var(--dark-trans);
+	}
+
 /* Drop-Down Boxes */
 
 .collapsible {
@@ -551,10 +579,6 @@ i {
 	padding: 0.5em 1.25em 0.5em 1.25em;
 }
 
-	.boxset-item {
-		border-radius: 0;
-	}
-
 	.active, .collapsible:hover {
 		background-color: var(--drop-bar-hover);
 		color: var(--font);
@@ -566,6 +590,30 @@ i {
 		transition: color var(--dark-trans), background var(--dark-trans);
 	}
 
+	.collapsible-boxset-item {
+		font-family: Garamond-Serif; 
+		font-size: 16px;
+		text-align: center;
+		background-color: var(--bg);
+		color: var(--font);
+		cursor: pointer;
+		width: 100%;
+		border: none;
+		outline: none;
+		border-radius: 0;
+		transition: color var(--dark-trans), background var(--dark-trans);
+		padding: 0.5em 1.25em 0.5em 1.25em;
+	}
+
+		.active2, .collapsible-boxset-item:hover {
+			background-color: var(--drop-bar-hover);
+		}
+
+		.active2, .collapsible:active {
+			border-radius: 0;
+			transition: color var(--dark-trans), background var(--dark-trans);
+		}
+
 	.content {
 		background-color: var(--bg);
 		display: none;
@@ -576,7 +624,11 @@ i {
 	}
 		
 		.boxset-items {
-			padding: 0;
+			padding: 1.25em;
+		}
+
+		.boxset-item-content {
+			background-color: var(--fg);
 		}
 
 /* Drop-Down Images */

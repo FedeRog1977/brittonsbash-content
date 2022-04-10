@@ -172,8 +172,8 @@ elderflower tea: #FBEACF;
 /* Headings & Body */
 
 h1 {
-	/*font-family: CMU-Bold;*/
-	font-family: Garamond-Bold;
+	font-family: CMU-Bold;
+	/*font-family: Garamond-Bold;*/
 	font-size: 20px; 
 	font-weight: normal;
 	font-variant: small-caps;
@@ -183,8 +183,8 @@ h1 {
 }
 
 h2 {
-	/*font-family: CMU-Bold;*/
-	font-family: Garamond-Bold;
+	font-family: CMU-Bold;
+	/*font-family: Garamond-Bold;*/
 	font-size: 18px;
 	font-weight: normal;
 	font-variant: small-caps;
@@ -194,8 +194,8 @@ h2 {
 }
 
 h3 {
-	/*font-family: CMU-Bold;*/
-	font-family: Garamond-Bold;
+	font-family: CMU-Bold;
+	/*font-family: Garamond-Bold;*/
 	font-size: 16px;
 	font-weight: normal;
 	font-variant: small-caps;
@@ -204,8 +204,8 @@ h3 {
 }
 
 h4 {
-	/*font-family: CMU-Bold;*/
-	font-family: Garamond-Bold;
+	font-family: CMU-Bold;
+	/*font-family: Garamond-Bold;*/
 	font-size: 16px;
 	font-weight: normal;
 	font-variant: small-caps;
@@ -244,14 +244,14 @@ p {
 	}
 
 b {
-	/*font-family: CMU-Bold;*/
-	font-family: Garamond-Bold;
+	font-family: CMU-Bold;
+	/*font-family: Garamond-Bold;*/
 	font-variant: small-caps;
 }
 
 i {
-	/*font-family: CMU-Italic;*/
-	font-family: Garamond-Italic;
+	font-family: CMU-Italic;
+	/*font-family: Garamond-Italic;*/
 }
 
 /* Header & Footer */ 
@@ -536,8 +536,8 @@ i {
 /* Select Buttons */
 
 .select {
-	/*font-family: CMU-Serif;*/
-	font-family: Garamond-Serif; 
+	font-family: CMU-Serif;
+	/*font-family: Garamond-Serif;*/ 
 	font-size: 16px;
 	text-align: center;
 	background-color: var(--bg);
@@ -564,8 +564,8 @@ i {
 /* Drop-Down Boxes */
 
 .collapsible {
-	/*font-family: CMU-Serif;*/
-	font-family: Garamond-Serif; 
+	font-family: CMU-Serif;
+	/*font-family: Garamond-Serif;*/ 
 	font-size: 16px;
 	text-align: center;
 	background-color: var(--bg);
@@ -591,7 +591,8 @@ i {
 	}
 
 	.collapsible-boxset-item {
-		font-family: Garamond-Serif; 
+		font-family: CMU-Serif;
+		/*font-family: Garamond-Serif; */
 		font-size: 16px;
 		text-align: center;
 		background-color: var(--bg);
@@ -664,8 +665,8 @@ i {
 
 .pretext {
 	/*border: 1px solid black;*/
-	/*font-family: CMU-Serif;*/
-	font-family: Garamond-Serif; 
+	font-family: CMU-Serif;
+	/*font-family: Garamond-Serif;*/ 
 	text-align: center;
 	color: var(--font);
 	margin: 1.25em 12.5% 1.25em 12.5%;
@@ -703,8 +704,8 @@ i {
 
 	.body {
 		/*border: 1px solid black;*/
-		/*font-family: CMU-Serif;*/
-		font-family: Garamond-Serif; 
+		font-family: CMU-Serif;
+		/*font-family: Garamond-Serif;*/ 
 		font-size: 16px;
 		text-align: justify;
 		line-height: 25px;

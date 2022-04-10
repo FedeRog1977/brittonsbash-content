@@ -31,13 +31,22 @@ document.addEventListener("DOMContentLoaded", () => {
         inst2021.classList.add("hidden");
     });
 
-    document.querySelector("#hideProjs").addEventListener("click", e => {
+    document.querySelector("#allShow").addEventListener("click", e => {
         e.preventDefault();
-        if (proj.classList.contains("hidden")) {
-            proj.classList.remove("hidden");
-        } else {
-            proj.classList.add("hidden");
-	}
+        $(".proj").show();
+        $(".non-proj").show();
+    });
+
+    document.querySelector("#onlyProjs").addEventListener("click", e => {
+        e.preventDefault();
+        $(".proj").show();
+        $(".non-proj").hide();
+    });
+
+    document.querySelector("#nonProjs").addEventListener("click", e => {
+        e.preventDefault();
+        $(".proj").hide();
+        $(".non-proj").show();
     });
 
 });

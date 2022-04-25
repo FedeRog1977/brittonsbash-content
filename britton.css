@@ -795,6 +795,10 @@ img {
 	padding: 0.75em;
 }
 
+	.instantgram h2 {
+		text-align: center;
+	}
+
 	.statistics {
 		list-style-type:none;
 		width: 50%;

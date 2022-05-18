@@ -926,7 +926,7 @@ ul {
 /* Home Background Image */
 
 .home-image {
-	background-image: url("Photos/wall-bookle.jpg");
+	background-image: url("./Photos/wall-bookle.jpg");
 	background-attachment: fixed;
   	background-position: top;
   	background-repeat: no-repeat;

@@ -826,6 +826,11 @@ img {
                 padding: 0.125em;
 	}
 
+
+.unavail {
+	color: var(--drop);
+}
+
 /* Table & List Style */
 
 table {

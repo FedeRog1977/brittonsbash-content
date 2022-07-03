@@ -238,8 +238,9 @@ p {
 		font-variant: small-caps;
 		text-align: center;
 		background-color: var(--drop);
+		border-bottom: 1px solid var(--font);
 		border-radius: 0.25em;
-		transition: background var(--dark-trans);
+		transition: background var(--dark-trans), border var(--dark-trans);
 		padding: 0.125em 0.25em 0.125em 0.25em;
 	}
 
@@ -621,7 +622,7 @@ i {
 		overflow: hidden;
 		transition: background var(--dark-trans);
 		margin: 0;
-		padding: 0 1.25em 0 1.25em;
+		padding: 0.5em;
 	}
 		
 		.boxset-items {
@@ -714,7 +715,7 @@ i {
 		border-radius: 0.75em;
 		transition: color var(--dark-trans), background var(--dark-trans);
 		margin: 0.5em;
-		padding: 1.25em;
+		padding: 0.75em;
 	}
 
 	.body a:link, .body a:visited {
@@ -763,7 +764,7 @@ img {
 
 .imgcage {
 	width: 100%;
-	margin: 1.25em auto 1.25em auto;
+	margin: auto;
 }
 
 	.imgrow {

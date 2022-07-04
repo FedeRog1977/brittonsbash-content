@@ -458,7 +458,7 @@ i {
 		border: 1px solid rgba(0, 0, 0, 0);
 		text-align: left;
 		float: left;
-		margin: 0.5em;
+		margin: 0;
 	}
 
 		.blogtitle h1 {
@@ -472,7 +472,7 @@ i {
 	    	text-align: right;
 		color: var(--ghost);
 	    	opacity: 75%;
-		margin: 0.5em;
+		margin: 0;
 	}
 
 		.switch-desktop, .switch-mobile {
@@ -688,7 +688,6 @@ i {
 /* Body */
 
 .bodycage {
-	/*border: 1px solid black;*/
 }
 
 	@media only screen and (max-width: 1026px) {
@@ -704,9 +703,7 @@ i {
 	}
 
 	.body {
-		/*border: 1px solid black;*/
 		font-family: CMU-Serif;
-		/*font-family: Garamond-Serif;*/ 
 		font-size: 16px;
 		text-align: justify;
 		line-height: 25px;
@@ -714,8 +711,16 @@ i {
 		background-color: var(--fg);
 		border-radius: 0.75em;
 		transition: color var(--dark-trans), background var(--dark-trans);
+		margin: 0;
+		padding: 0.5em;
+	}
+
+	.body h1, .body h2 {
+		text-align: center;
+	}
+
+	.body p {
 		margin: 0.5em;
-		padding: 0.75em;
 	}
 
 	.body a:link, .body a:visited {
@@ -792,8 +797,8 @@ img {
 	background-color: var(--drop);
 	border-radius: 0.5em;
 	transition: background var(--dark-trans);
-	margin: 0 0 1.25em 0;
-	padding: 0.75em;
+	margin: 0.5em 0 0.5em 0;
+	padding: 0.5em;
 }
 
 	.instantgram h2 {
@@ -806,7 +811,7 @@ img {
 		background-color: var(--bg);
 		border-radius: 0.25em;
 		transition: background var(--dark-trans);
-		padding: 0.75em;
+		padding: 0.5em;
 	}
 
 		@media only screen and (max-width: 1026px) {

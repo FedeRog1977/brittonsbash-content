@@ -22,8 +22,3 @@ var liList5 = document.getElementById("countable5").getElementsByTagName("li");
 var liLength5 = liList5.length;
 var titleText5 = document.getElementById("dispCount5").innerText;
 document.getElementById("dispCount5").innerHTML = (titleText5) + " (" + (liLength5) + ")";
-
-/**
- * Future reference for alerts
-alert(liLength);
-*/

@@ -1,5 +1,5 @@
-\babel@toc {english}{}
-\contentsline {section}{\numberline {1}Section Title}{1}{section.1}% 
-\contentsline {subsection}{\numberline {1.1}Subsection Heading}{1}{subsection.1.1}% 
-\contentsline {subsubsection}{\numberline {1.1.1}Subsubsection Heading}{1}{subsubsection.1.1.1}% 
-\contentsline {paragraph}{\numberline {1.1.1.1}Paragraph Heading}{1}{paragraph.1.1.1.1}% 
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Section Title}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Subsection Heading}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Subsubsection Heading}{1}{subsubsection.1.1.1}%
+\contentsline {paragraph}{\numberline {1.1.1.1}Paragraph Heading}{1}{paragraph.1.1.1.1}%

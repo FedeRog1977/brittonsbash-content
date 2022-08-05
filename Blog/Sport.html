@@ -110,19 +110,20 @@
 				<p>
 					<table class="data">
 						<tr>
-							<th colspan=10 style="border-bottom: double var(--font)">Roadie&rsquo;ing</th>
+							<th colspan=11 style="border-bottom: double var(--font)">Roadie&rsquo;ing</th>
 						</tr>
 						<tr>
 							<th style="border-bottom: 1px solid var(--font); border-right: 1px solid var(--font)"></th>
+							<th style="border-bottom: 1px solid var(--font); border-right: 1px solid var(--font)">Points</th>
 							<th style="border-bottom: 1px solid var(--font)">Rides</th>
 							<th style="border-bottom: 1px solid var(--font)">Distance</th>
 							<th style="border-bottom: 1px solid var(--font); border-right: 1px solid var(--font)">Elevation</th>
-							<th style="border-bottom: 1px solid var(--font)">T&rsquo;hall</th>
-							<th style="border-bottom: 1px solid var(--font)">Wind Farm</th>
-							<th style="border-bottom: 1px solid var(--font)">Fenwick</th>
-							<th style="border-bottom: 1px solid var(--font)">Fen. &#43; WF</th>
+							<th style="border-bottom: 1px solid var(--font)">Century</th>
 							<th style="border-bottom: 1px solid var(--font)">Strathaven</th>
-							<th style="border-bottom: 1px solid var(--font)">Centuries</th>
+							<th style="border-bottom: 1px solid var(--font)">Fenwick / Wind Farm</th>
+							<th style="border-bottom: 1px solid var(--font)">Fenwick</th>
+							<th style="border-bottom: 1px solid var(--font)">Wind Farm</th>
+							<th style="border-bottom: 1px solid var(--font)">Thorntonhall</th>
 						</tr>
 						<tr>
 							<td style="text-align:right; border-right: 1px solid var(--font)">
@@ -133,60 +134,44 @@
 								<li>2020</li>
 								<u>
 							</td>
-							<td>
+							<td style="border-right: 1px solid var(--font)">
 								<u>
-								<li>136</li>
-								<li>19</li>
-								<li>79</li>
-								<li>38</li>
+								<li><span id="ptsTotal"></span></li>
+								<li><span id="pts2022"></span></li>
+								<li><span id="pts2021"></span></li>
+								<li><span id="pts2020"></span></li>
 								</u>
 							</td>
 							<td>
 								<u>
-								<li>3,904mi</li>
-								<li>562mi</li>
-								<li>2,354mi</li>
-								<li>987mi</li>
+								<li><span id="ridesTotal">137</span></li>
+								<li><span id="rides2022">20</span></li>
+								<li><span id="rides2021">79</span></li>
+								<li><span id="rides2020">38</span></li>
+								</u>
+							</td>
+							<td>
+								<u>
+								<li><span id="miTotalRoad">3937</span>mi</li>
+								<li><span id="mi2022Road">595</span>mi</li>
+								<li><span id="mi2021Road">2354</span>mi</li>
+								<li><span id="mi2020Road">987</span>mi</li>
 								</u>
 							</td>
 							<td style="border-right: 1px solid var(--font)">
 								<u>
-								<li>210,112ft</li>
-								<li>34,157ft</li>
-								<li>131,270ft</li>
-								<li>44,778ft</li>
+								<li><span id="ftTotalRoad">211828</span>ft</li>
+								<li><span id="ft2022Road">36230</span>ft</li>
+								<li><span id="ft2021Road">131270</span>ft</li>
+								<li><span id="ft2020Road">44778</span>ft</li>
 								</u>
 							</td>
 							<td>
 								<u>
-								<li>4</li>
-								<li>0</li>
-								<li>4</li>
-								<li>0</li>
-								</u>
-							</td>
-							<td>
-								<u>
-								<li>7</li>
+								<li>1</li>
 								<li>0</li>
 								<li>1</li>
-								<li>6</li>
-								</u>
-							</td>
-							<td>
-								<u>
-								<li>16</li>
 								<li>0</li>
-								<li>3</li>
-								<li>13</li>
-								</u>
-							</td>
-							<td>
-								<u>
-								<li>52</li>
-								<li>8</li>
-								<li>41</li>
-								<li>3</li>
 								</u>
 							</td>
 							<td>
@@ -199,9 +184,33 @@
 							</td>
 							<td>
 								<u>
-								<li>1</li>
+								<li>53</li>
+								<li>9</li>
+								<li>41</li>
+								<li>3</li>
+								</u>
+							</td>
+							<td>
+								<u>
+								<li>16</li>
+								<li>0</li>
+								<li>3</li>
+								<li>13</li>
+								</u>
+							</td>
+							<td>
+								<u>
+								<li>7</li>
 								<li>0</li>
 								<li>1</li>
+								<li>6</li>
+								</u>
+							</td>
+							<td>
+								<u>
+								<li>4</li>
+								<li>0</li>
+								<li>4</li>
 								<li>0</li>
 								</u>
 							</td>
@@ -213,11 +222,29 @@
 								<li>Highest Climb</li>
 								</u>
 							</td>
-							<td colspan=9 style="border-top: double var(--font)">
+							<td colspan=4 style="border-top: double var(--font)">
 								<u>
 								<li>105.31mi</li>
 								<li>822ft</li>
 								</u>
+							</td>
+							<td style="border-top: double var(--font)">
+								2000pts
+							</td>
+							<td style="border-top: double var(--font)">
+								1000pts
+							</td>
+							<td style="border-top: double var(--font)">
+								750pts
+							</td>
+							<td style="border-top: double var(--font)">
+								500pts
+							</td>
+							<td style="border-top: double var(--font)">
+								250pts
+							</td>
+							<td style="border-top: double var(--font)">
+								100pts
 							</td>
 						</tr>
 					</table>
@@ -431,7 +458,7 @@
 				<p>
 					<table class="data">
 						<tr>
-							<th colspan=17 style="border-bottom: double var(--font)">Tennis</th>
+							<th colspan=17 style="border-bottom: double var(--font)">L&rsquo;nnis</th>
 						</tr>
 						<tr>
 							<td style="border-right: 1px solid var(--font); border-bottom: 1px solid var(--font)"></td>
@@ -948,6 +975,7 @@
 
 		</div>
 
+		<script src="../Scripts/Sport.js"></script>
 		<script src="../Scripts/primeTheme.js"></script>
                 <script src="../Scripts/Theme.js"></script>
 		<script src="../Scripts/Collapsible.js"></script>

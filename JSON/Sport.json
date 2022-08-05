@@ -1,0 +1,23 @@
+{
+    "roadie": [
+        {
+	    "route": "",
+	    "dist": 0,
+	    "elev": 0
+        }
+    ],
+    "hike": [
+        {
+	    "route": "",
+	    "dist": 0,
+	    "elev": 0
+        }
+    ],
+    "walk": [
+        {
+	    "route": "",
+	    "dist": 0,
+	    "elev": 0
+        }
+    ]
+}

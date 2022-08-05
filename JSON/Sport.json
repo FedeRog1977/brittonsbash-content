@@ -1,21 +1,22 @@
 {
     "roadie": [
         {
-	    "route": "",
-	    "dist": 0,
-	    "elev": 0
+	    "route": "fenwf",
+	    "dist": 29.48,
+	    "elev": 1716,
+	    "time": 111
         }
     ],
     "hike": [
         {
-	    "route": "",
+	    "route": "...",
 	    "dist": 0,
 	    "elev": 0
         }
     ],
     "walk": [
         {
-	    "route": "",
+	    "route": "...",
 	    "dist": 0,
 	    "elev": 0
         }

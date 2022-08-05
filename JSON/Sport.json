@@ -9,14 +9,14 @@
     ],
     "hike": [
         {
-	    "route": "...",
+	    "route": "Hello",
 	    "dist": 0,
 	    "elev": 0
         }
     ],
     "walk": [
         {
-	    "route": "...",
+	    "route": "Hello",
 	    "dist": 0,
 	    "elev": 0
         }

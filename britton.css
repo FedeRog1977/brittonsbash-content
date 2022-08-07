@@ -249,6 +249,10 @@ i {
 	font-family: CMU-Italic;
 }
 
+code {
+	font-size: 14px;
+}
+
 /* Header & Footer */ 
 
 .header {

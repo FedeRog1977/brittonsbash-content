@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    	<title>Login | Personal Circumstances - CIS</title>
+    	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="strath.png">
+	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+
+	<div class="bodycage">
+
+		<div class="login">
+		
+			<h1 style="margin-bottom:0;">University<i>of</i><img src="strath.png" style="width:100px;padding-left:20px;"></h1>
+			<h1 style="font-size:66px;margin-top:0;">Strathclyde</h1>
+			<h2>Computer &amp; Information Sciences<br><b style="font-family:ProximaBd;color:#50729F;<!---webkit-text-stroke: 0.75px var(--font);-->">Personal Circumstances</b></h2>
+
+			<p>
+				<form class="form" id="chooseAccount">
+
+				<p>Which login form do you wish to proceed to?</p>
+
+        	    			<button class="form-button" id="selectDirector">Course Director</button>
+        	    			<button class="form-button" id="selectStudent">Student</button>
+
+        			</form>
+			</p>
+		
+			<p>
+				<form class="form hidden" id="loginDirector">
+            	
+					<h2>Login<br><b style="font-family:ProximaBd;color:#50729F;">Course Director</b></h2>
+            	
+					<div class="form-message form-message-error"></div>
+        		
+					<div class="form-input-element">
+						<input type="text" id="loginUsername" class="form-input" autofocus placeholder="Course Director Username">
+						<div class="form-input-error-message"></div>
+        	    			</div>
+				
+        	    			<div class="form-input-element">
+						<input type="password" id="loginPassword" class="form-input" autofocus placeholder="Password">
+						<div class="form-input-error-message"></div>
+					</div>
+		
+	        	    		<button class="form-button" type="submit">Submit</button>
+		
+					<p class="form-text">
+						<a href="./index.html" class="form-link" id="linkIAm">Back to Accout Type</a>
+					</p>
+	
+	        		</form>
+			</p>
+	
+			<p>
+				<form class="form hidden" id="loginStudent">
+	            	
+					<h2>Login<br><b style="font-family:ProximaBd;color:#50729F;">Student</b></h2>
+		            	
+					<div class="form-message form-message-error"></div>
+	        	
+					<div class="form-input-element">
+						<input type="text" id="loginUsername" class="form-input" autofocus placeholder="Student Username">
+						<div class="form-input-error-message"></div>
+	        	    		</div>
+					
+	        	    		<div class="form-input-element">
+						<input type="password" id="loginPassword" class="form-input" autofocus placeholder="Password">
+						<div class="form-input-error-message"></div>
+					</div>
+		
+		            		<button class="form-button" type="submit">Submit</button>
+		
+					<p class="form-text">
+						<a href="./index.html" class="form-link" id="linkIAm">Back to Accout Type</a>
+					</p>
+		
+		        	</form>
+			</p>
+
+		</div>
+
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>

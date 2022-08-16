@@ -249,6 +249,10 @@ i {
 	font-family: CMU-Italic;
 }
 
+	i.titleit {
+		font-variant: small-caps;
+	}
+
 code {
 	font-size: 14px;
 }
@@ -544,7 +548,7 @@ code {
 	cursor: pointer;
 	border: none;
 	outline: none;
-	border-radius: 0.75em;
+	border-radius: 0.5em;
 	transition: color var(--dark-trans), background var(--dark-trans);
 	padding: 0.5em 1.25em 0.5em 1.25em;
 }

@@ -857,6 +857,10 @@ table {
 		transition: border var(--dark-trans);
 		padding: 0.25em 0.75em 0.25em 0.75em;
 	}
+	
+	tr {
+		transition: border var(--link-trans);
+	}
 
 	td {
 		transition: border var(--dark-trans);

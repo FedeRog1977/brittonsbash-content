@@ -1,0 +1,73 @@
+\contentsline {section}{\numberline {1}Cryptography}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Scenario}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Question}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Answer}{2}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Cryptography Background}{2}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Cryptography Choice}{3}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Algorithm Background}{3}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Algorithm Choice}{6}{subsubsection.1.3.4}%
+\contentsline {section}{\numberline {2}Steganography \& Authentication}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Scenario 1}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Question 1}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Answer}{7}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Steganography Background}{7}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Least Significant Bit (LSB) Approach}{8}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}In Practice}{8}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Selecting An Image}{8}{subsubsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.4}Scenario 2}{10}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Question 2}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Answer}{10}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Authentication Background}{10}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Authentication Factors}{11}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Knowledge-Based Athentication}{11}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Posession-Based Authentication}{12}{subsubsection.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.6.5}Inherence / Biometrics-Based Authentication}{12}{subsubsection.2.6.5}%
+\contentsline {subsubsection}{\numberline {2.6.6}Location-Based Authentication}{14}{subsubsection.2.6.6}%
+\contentsline {subsubsection}{\numberline {2.6.7}Time-Based Authentication}{14}{subsubsection.2.6.7}%
+\contentsline {subsubsection}{\numberline {2.6.8}Token-Based Authentication}{14}{subsubsection.2.6.8}%
+\contentsline {subsubsection}{\numberline {2.6.9}Algorithms}{15}{subsubsection.2.6.9}%
+\contentsline {subsubsection}{\numberline {2.6.10}Recommendations}{15}{subsubsection.2.6.10}%
+\contentsline {section}{\numberline {3}Malware}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Scenario 1}{17}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Question 1}{17}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Answer}{17}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Viruses}{17}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Worms}{18}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Trojans}{18}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Intensions \& Sub-Types}{19}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Company Policy Recommendations}{19}{subsubsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.4}Scenario 2}{21}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Question 2}{21}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Answer}{21}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Viruses}{21}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Worms}{22}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Trojans}{22}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Intensions \& Sub-Types}{23}{subsubsection.3.6.4}%
+\contentsline {subsubsection}{\numberline {3.6.5}Relative Malware \& Impact}{23}{subsubsection.3.6.5}%
+\contentsline {section}{\numberline {4}Human Security}{25}{section.4}%
+\contentsline {section}{\numberline {5}Network Attacks}{26}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Scenario}{26}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Question}{26}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Answer}{26}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Background}{26}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Comminications \& Interfaces}{26}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Server Vulnerabilities}{28}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Port \& Router Vulnerabilities}{28}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {5.3.5}Communication Vulnerabilities}{28}{subsubsection.5.3.5}%
+\contentsline {subsubsection}{\numberline {5.3.6}Recommendations}{29}{subsubsection.5.3.6}%
+\contentsline {section}{\numberline {6}Network Defense}{30}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Scenario}{30}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Question}{30}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Answer}{30}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Background}{30}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Firewalls}{30}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Virtual Private Networks}{31}{subsubsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.4}Demilitarized Zone}{32}{subsubsection.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.5}Intrusion Detection Systems}{33}{subsubsection.6.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.6}Digital Certificates}{34}{subsubsection.6.3.6}%
+\contentsline {subsubsection}{\numberline {6.3.7}Recommendations}{35}{subsubsection.6.3.7}%
+\contentsline {section}{\numberline {7}Threat Modelling}{36}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Answer}{36}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Background}{36}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}STRIDE}{36}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Cyber Kill Chains\textregistered }{38}{subsubsection.7.1.3}%

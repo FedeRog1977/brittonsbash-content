@@ -9,7 +9,6 @@
 	    "elev": 0,
 	    "time": 0,
 	    "companionship": 0,
-	    "subRoadie": [],
 	    "year": "2022"
         }
     ],
@@ -44,36 +43,6 @@
 	    	    "grahams": [],
 	    	    "subTwos": [],
 	    	    "donalds": []
-		},
-		{
-	            "nameSuffix": "",
-	            "route": "",
-	            "dist": 0,
-	            "elev": 0,
-	            "time": 0,
-	            "companionship": 0,
-	    	    "munros": [],
-	    	    "munroTops": [],
-	    	    "corbetts": [],
-	    	    "corbettTops": [],
-	    	    "grahams": [],
-	    	    "subTwos": [],
-	    	    "donalds": []
-		},
-		{
-	            "nameSuffix": "",
-	            "route": "",
-	            "dist": 0,
-	            "elev": 0,
-	            "time": 0,
-	            "companionship": 0,
-	    	    "munros": [],
-	    	    "munroTops": [],
-	    	    "corbetts": [],
-	    	    "corbettTops": [],
-	    	    "grahams": [],
-	    	    "subTwos": [],
-	    	    "donalds": []
 		}
 	    ],
 	    "year": "2022"
@@ -88,8 +57,28 @@
 	    "dist": 0,
 	    "elev": 0,
 	    "time": 0,
-	    "subWalk": [],
 	    "year": "2022"
+        }
+    ],
+    "event": [
+	{
+	    "namePrefix": "",
+            "nameSuffix": "",
+            "period": "",
+            "id": "",
+            "type": "proj",
+            "description": "",
+            "imgs": [
+                {
+                    "suffix": "",
+                    "description": ""
+                },
+                {
+                    "suffix": "",
+                    "description": ""
+                }
+            ],
+            "year": "2022"
         }
     ]
 }

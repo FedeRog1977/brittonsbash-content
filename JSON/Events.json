@@ -1,5 +1,5 @@
 {
-    "roadie": [
+    "roadies": [
         {
 	    "namePrefix": "",
 	    "nameSuffix": "Fenwick &#43; Wind Farm Loop II",
@@ -8,11 +8,10 @@
 	    "dist": 29.48,
 	    "elev": 1716,
 	    "time": 111,
-	    "subRoadie": [],
 	    "year": "2022"
         }
     ],
-    "hike": [
+    "hikes": [
         {
 	    "namePrefix": "Fifth Different Kind Hol-e-day &#8211; Baptism Of Fire:",
 	    "nameSuffix": "",
@@ -1567,7 +1566,7 @@
         }
 
     ],
-    "walk": [
+    "walks": [
         {
 	    "namePrefix": "",
 	    "nameSuffix": "",
@@ -1576,8 +1575,47 @@
 	    "dist": 0,
 	    "elev": 0,
 	    "time": 0,
-	    "subWalk": [],
 	    "year": "2022"
         }
+    ],
+    "events": [
+	{
+	    "namePrefix": "",
+	    "nameSuffix": "",
+	    "period": "",
+	    "id": "",
+	    "type": "non-proj",
+	    "description": "",
+	    "imgs": [
+		{
+		    "suffix": "",
+		    "description": ""
+		},
+		{
+		    "suffix": "",
+		    "description": ""
+		}
+	    ],
+	    "year": "2022"
+	},
+	{
+	    "namePrefix": "",
+	    "nameSuffix": "",
+	    "period": "",
+	    "id": "",
+	    "type": "proj",
+	    "description": "",
+	    "imgs": [
+		{
+		    "suffix": "",
+		    "description": ""
+		},
+		{
+		    "suffix": "",
+		    "description": ""
+		}
+	    ],
+	    "year": "2022"
+	}
     ]
 }

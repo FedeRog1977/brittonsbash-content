@@ -4,7 +4,7 @@
 	    "namePrefix": "",
 	    "nameSuffix": "",
 	    "period": "",
-	    "route": "",
+	    "id": "",
 	    "dist": 0,
 	    "elev": 0,
 	    "time": 0,
@@ -17,7 +17,7 @@
 	    "namePrefix": "",
 	    "nameSuffix": "",
 	    "period": "",
-	    "route": "",
+	    "id": "",
 	    "dist": 0,
 	    "elev": 0,
 	    "time": 0,
@@ -31,7 +31,7 @@
 	    "subHike": [
 		{
 	            "nameSuffix": "",
-	            "route": "",
+	            "id": "",
 	            "dist": 0,
 	            "elev": 0,
 	            "time": 0,
@@ -53,7 +53,7 @@
 	    "namePrefix": "",
 	    "nameSuffix": "",
 	    "period": "",
-	    "route": "",
+	    "id": "",
 	    "dist": 0,
 	    "elev": 0,
 	    "time": 0,
@@ -68,7 +68,7 @@
             "id": "",
             "type": "proj",
             "description": "",
-            "imgs": [
+            "img": [
                 {
                     "suffix": "",
                     "description": ""

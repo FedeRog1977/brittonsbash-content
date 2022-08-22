@@ -593,6 +593,16 @@ code {
 		transition: color var(--dark-trans), background var(--dark-trans);
 	}
 
+	.boxset {
+		border-collapse: separate;
+		border-spacing: 0 0.25em;
+	}
+
+	.collapsible-item {
+		background-color: var(--drop-bar-hover);
+		transition: color var(--dark-trans), background var(--dark-trans);
+	}
+
 	.collapsible-boxset-item {
 		font-family: CMU-Serif;
 		/*font-family: Garamond-Serif; */
@@ -836,7 +846,7 @@ img {
 
 
 .unavail {
-	color: var(--drop);
+	color: var(--fg);
 }
 
 /* Table & List Style */
@@ -924,6 +934,14 @@ table {
 		text-align: left;
 		padding: 0 0 0 0.25em;
 	}
+
+		.listingl h3 {
+			margin: 0.25em 0 0.25em 0.75em;
+		} 
+
+		.listingr h3 {
+			margin: 0.25em 0.75em 0.25em 0;
+		} 
 
 u, ul {
 	text-decoration: none;

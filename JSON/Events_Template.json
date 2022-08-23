@@ -45,6 +45,7 @@
     "walks": [
         {
 	    "id": "",
+	    "route": "",
 	    "dist": 0,
 	    "elev": 0,
 	    "time": 0,

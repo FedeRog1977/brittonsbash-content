@@ -1,22 +1,1185 @@
 {
     "roadies": [
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Fenwick &#43; Wind Farm Loop II",
-	    "period": "12th of August",
-	    "id": "fenwickwindfarm",
+	    "id": "",
+	    "route": "strathaven",
+	    "dist": 36.87,
+	    "elev": 2569,
+	    "time": "2:09:25",
+	    "year": "2022"
+	},
+        {
+	    "id": "",
+	    "route": "strathaven",
+	    "dist": 36.86,
+	    "elev": 2343,
+	    "time": "2:06:29",
+	    "year": "2022"
+	},
+        {
+	    "id": "fenwind",
+	    "route": "fenwickwindfarm",
+	    "dist": 34.05,
+	    "elev": 1847,
+	    "time": "2:01:31",
+	    "year": "2022"
+	},
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 34.02,
+	    "elev": 1860,
+	    "time": "2:01:17",
+	    "year": "2022"
+	},
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 34.33,
+	    "elev": 1890,
+	    "time": "2:05:13",
+	    "year": "2022"
+	},
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 34.03,
+	    "elev": 1827,
+	    "time": "2:04:54",
+	    "year": "2022"
+	},
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 34.00,
+	    "elev": 1886,
+	    "time": "2:01:19",
+	    "year": "2022"
+	},
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 34.07,
+	    "elev": 2087,
+	    "time": "2:13:02",
+	    "year": "2022"
+	},
+        {
+	    "id": "",
+	    "route": "strathaven",
+	    "dist": 37.22,
+	    "elev": 2382,
+	    "time": "2:35:13",
+	    "year": "2022"
+	},
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
 	    "dist": 29.48,
 	    "elev": 1716,
-	    "time": 111,
+	    "time": "1:51:39",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "other",
+	    "dist": 3.91,
+	    "elev": 358,
+	    "time": "15:09",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "strathaven",
+	    "dist": 36.70,
+	    "elev": 2201,
+	    "time": "2:12:44",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 34.03,
+	    "elev": 2034,
+	    "time": "2:09:33",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 34.03,
+	    "elev": 2129,
+	    "time": "2:02:56",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "other",
+	    "dist": 14.20,
+	    "elev": 1201,
+	    "time": "56:33",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 34.03,
+	    "elev": 1926,
+	    "time": "2:00:45",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 34.03,
+	    "elev": 1893,
+	    "time": "2:04:17",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 33.98,
+	    "elev": 1909,
+	    "time": "2:06:50",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "strathaven",
+	    "dist": 36.86,
+	    "elev": 2283,
+	    "time": "2:34:02",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "strathaven",
+	    "dist": 36.88,
+	    "elev": 2300,
+	    "time": "2:23:32",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "strathaven",
+	    "dist": 36.85,
+	    "elev": 2274,
+	    "time": "2:09:49",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "strathaven",
+	    "dist": 36.88,
+	    "elev": 2323,
+	    "time": "2:11:20",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "strathaven",
+	    "dist": 36.88,
+	    "elev": 2480,
+	    "time": "2:19:16",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 29.12,
+	    "elev": 1673,
+	    "time": "1:48:38",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 31.58,
+	    "elev": 1759,
+	    "time": "1:55:25",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "other",
+	    "dist": 1.70,
+	    "elev": 82,
+	    "time": "8:06",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "thorntonhall",
+	    "dist": 11.93,
+	    "elev": 771,
+	    "time": "47:44",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "fenwickwindfarm",
+	    "dist": 28.93,
+	    "elev": 1621,
+	    "time": "1:57:25",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "strathaven",
+	    "dist": 38.70,
+	    "elev": 2543,
+	    "time": "2:53:49",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "other",
+	    "dist": 15.01,
+	    "elev": 755,
+	    "time": "1:00:48",
+	    "year": "2021"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "",
+	    "dist": ,
+	    "elev": ,
+	    "time": "",
 	    "year": "2022"
         }
     ],
     "hikes": [
         {
-	    "namePrefix": "Fifth Different Kind Hol-e-day &#8211; Baptism Of Fire:",
-	    "nameSuffix": "",
-	    "period": "29th of July &#8211 3rd of August",
-	    "id": "",
+	    "id": "baptismoffire",
 	    "dist": 0,
 	    "elev": 0,
 	    "time": "",
@@ -29,7 +1192,6 @@
 	    "donalds": [],
 	    "subHike": [
 		{
-	            "nameSuffix": "A New Hope",
 	            "id": "benhope",
 	            "dist": 4.96,
 	            "elev": 3018,
@@ -46,7 +1208,6 @@
 	    	    "donalds": []
 		},
 		{
-	            "nameSuffix": "Out Of Commission",
 	            "id": "ullapoolhill",
 	            "dist": 11.03,
 	            "elev": 2418,
@@ -63,7 +1224,6 @@
 	    	    "donalds": []
 		},
 		{
-	            "nameSuffix": "Ah Jeez, I Lost My Groin And It&rsquo;s GitHub&rsquo;s Fault",
 	            "id": "benmoreassynt",
 	            "dist": 11.66,
 	            "elev": 4281,
@@ -84,9 +1244,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "The Maze",
-	    "period": "16th of July",
 	    "id": "creagmeagaidh",
 	    "dist": 14.13,
 	    "elev": 4150,
@@ -107,9 +1264,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Beinn Last of Drumochter",
-	    "period": "2nd of July",
 	    "id": "drumochter",
 	    "dist": 7.45,
 	    "elev": 2474,
@@ -129,9 +1283,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "Lui Five:",
-	    "nameSuffix": "Resurrection",
-	    "period": "20th of June",
 	    "id": "benluifive",
 	    "dist": 20.72,
 	    "elev": 8688,
@@ -155,9 +1306,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "Cairngorms V:",
-	    "nameSuffix": "",
-	    "period": "3rd-5th of June",
 	    "id": "cairngorms5",
 	    "dist": 0,
 	    "elev": 0,
@@ -172,7 +1320,6 @@
 	    "donalds": [],
 	    "subHike": [
 		{
-	            "nameSuffix": "L&rsquo;Hotel D&rsquo;ALL",
 	            "id": "drumochterall",
 	            "dist": 10.53,
 	            "elev": 2848,
@@ -211,9 +1358,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Beinn England",
-	    "period": "28th of May",
 	    "id": "beinnengland",
 	    "dist": 17.01,
 	    "elev": 3661,
@@ -232,9 +1376,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "The Fruit",
-	    "period": "22nd of May",
 	    "id": "thefruit",
 	    "dist": 4.34,
 	    "elev": 781,
@@ -253,9 +1394,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "The Magnificent Seven",
-	    "period": "14th of May",
 	    "id": "magnificentseven",
 	    "dist": 18.86,
 	    "elev": 7129,
@@ -280,9 +1418,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Beinn Uruguay",
-	    "period": "7th of May",
 	    "id": "beinnuruguay",
 	    "dist": 12.34,
 	    "elev": 4232,
@@ -301,9 +1436,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "T2 Trainspotting",
-	    "period": "3rd of May",
 	    "id": "trainspotting2",
 	    "dist": 14.66,
 	    "elev": 3530,
@@ -325,9 +1457,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Trainspotting",
-	    "period": "26th of April",
 	    "id": "trainspotting",
 	    "dist": 11.01,
 	    "elev": 2156,
@@ -346,9 +1475,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "The Cairnwell Nine",
-	    "period": "23rd of April",
 	    "id": "cairnwell",
 	    "dist": 21.86,
 	    "elev": 6,886,
@@ -375,9 +1501,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "Fort William &amp; Mallaig II:",
-	    "nameSuffix": "Fort William &amp; Mallaig Reloaded (Exclusive Glenfinnan DLC)",
-	    "period": "15th-17th of April",
 	    "id": "glenfinnan",
 	    "dist": 15.24,
 	    "elev": 5390,
@@ -401,9 +1524,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Beinn Slugger",
-	    "period": "9th of April",
 	    "id": "beinnslugger",
 	    "dist": 8.65,
 	    "elev": 4308,
@@ -424,9 +1544,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "lencoe IX:",
-	    "nameSuffix": "",
-	    "period": "1st-3rd of April",
 	    "id": "glencoe9",
 	    "dist": 0,
 	    "elev": 0,
@@ -441,7 +1558,6 @@
 	    "donalds": [],
 	    "subHike": [
 		{
-	            "nameSuffix": "&Ugrave;rar &#8211; 2022 Edition",
 	            "id": "urar",
 	            "dist": 9.88,
 	            "elev": 4426,
@@ -462,7 +1578,6 @@
 	    	    "donalds": []
 		},
 		{
-	            "nameSuffix": "Glencoe Wage",
 	            "id": "glencoewage",
 	            "dist": 4.18,
 	            "elev": 371,
@@ -480,9 +1595,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Loch YeeYeeAssHaircut",
-	    "period": "26th of March",
 	    "id": "lochyeeyeeass",
 	    "dist": 19.02,
 	    "elev": 4541,
@@ -507,9 +1619,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Beinn Bhuidhe",
-	    "period": "19th of March",
 	    "id": "beinnbhuidhe",
 	    "dist": 12.65,
 	    "elev": 3809,
@@ -528,9 +1637,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "D&ugrave;ran D&ugrave;ran III:",
-	    "nameSuffix": "The Bipass &#8211; Ride Across the River",
-	    "period": "12th of March",
 	    "id": "duranduran3",
 	    "dist": 15.22,
 	    "elev": 3117,
@@ -549,9 +1655,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Fort of Bogs",
-	    "period": "5th of March",
 	    "id": "fortofbogs",
 	    "dist": 18.29,
 	    "elev": 5036,
@@ -571,9 +1674,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Chips, Dips, Chains &amp; Whips",
-	    "period": "20th of February",
 	    "id": "dumyat",
 	    "dist": 4.43,
 	    "elev": 1362,
@@ -592,9 +1692,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Simulated Failed Project",
-	    "period": "12th of February",
 	    "id": "simulatedfailed",
 	    "dist": 0,
 	    "elev": 0,
@@ -611,9 +1708,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "Beinn Shariq Malik:",
-	    "nameSuffix": "Riders on the Storm",
-	    "period": "5th of February",
 	    "id": "shariq",
 	    "dist": 7.45,
 	    "elev": 2851,
@@ -632,9 +1726,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Lung Buster 3000",
-	    "period": "22nd of January",
 	    "id": "lungbuster",
 	    "dist": 9.55,
 	    "elev": 3051,
@@ -654,9 +1745,6 @@
 	    "year": "2022"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "To Live and Breathe Ben More",
-	    "period": "18th of December",
 	    "id": "benmorestobbinnein2",
 	    "dist": 11.06,
 	    "elev": 4380,
@@ -676,9 +1764,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Glencoe VIII:",
-	    "nameSuffix": "",
-	    "period": "10th-12th of December",
 	    "id": "glencoe8",
 	    "dist": 0,
 	    "elev": 0,
@@ -693,7 +1778,6 @@
 	    "donalds": [],
 	    "subHike": [
 		{
-	            "nameSuffix": "Farewell, My Love...",
 	            "id": "beinnahollister",
 	            "dist": 7.3,
 	            "elev": 2323,
@@ -710,7 +1794,6 @@
 	    	    "donalds": []
 		},
 		{
-	            "nameSuffix": "Papped Out.",
 	            "id": "pupofglincoe",
 	            "dist": 4.72,
 	            "elev": 2526,
@@ -730,9 +1813,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "David Meikle Bin",
-	    "period": "27th of November",
 	    "id": "meiklebin",
 	    "dist": 6.68,
 	    "elev": 1444,
@@ -751,9 +1831,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Back on the Horse",
-	    "period": "20th of November",
 	    "id": "glenlyon",
 	    "dist": 11.25,
 	    "elev": 5003,
@@ -773,9 +1850,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Beinn a&rsquo; Ghl&ograve;",
-	    "period": "23rd of October",
 	    "id": "beinnaghlo",
 	    "dist": 14.09,
 	    "elev": 4544,
@@ -796,9 +1870,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Glencoe VII:",
-	    "nameSuffix": "",
-	    "period": "15th-17th of October",
 	    "id": "glencoe7",
 	    "dist": 0,
 	    "elev": 0,
@@ -813,7 +1884,6 @@
 	    "donalds": [],
 	    "subHike": [
 		{
-	            "nameSuffix": "Give Me M&ograve;r",
 	            "id": "curvedridge",
 	            "dist": 8.23,
 	            "elev": 3859,
@@ -833,7 +1903,6 @@
 	    	    "donalds": []
 		},
 		{
-	            "nameSuffix": "&Ugrave;rar",
 	            "id": "beinnurar",
 	            "dist": 9.02,
 	            "elev": 3655,
@@ -855,9 +1924,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "SUMC Cobble",
-	    "period": "2nd of October",
 	    "id": "sumccobble",
 	    "dist": 8.25,
 	    "elev": 2949,
@@ -876,9 +1942,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Glencoe VI:",
-	    "nameSuffix": "The Mountain Goat",
-	    "period": "24th-25th of September",
 	    "id": "glencoe6",
 	    "dist": 7.8,
 	    "elev": 4436,
@@ -900,9 +1963,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "1v1&rsquo;ing Mark",
-	    "period": "18th of September",
 	    "id": "lawersbonus",
 	    "dist": 6.27,
 	    "elev": 2940,
@@ -921,9 +1981,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Last Day of Summer?",
-	    "period": "8th of September",
 	    "id": "narnaintrig",
 	    "dist": 15.38,
 	    "elev": 5384,
@@ -945,9 +2002,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Cairngorms II:",
-	    "nameSuffix": "A Weekend on Dave",
-	    "period": "3rd-5th of September",
 	    "id": "cairngorms2",
 	    "dist": 17.15,
 	    "elev": 4016,
@@ -968,9 +2022,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Beinn an Lochain",
-	    "period": "28th of August",
 	    "id": "beinnanlochain",
 	    "dist": 3.6,
 	    "elev": 2277,
@@ -989,9 +2040,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "D&ugrave;ran D&ugrave;ran II:",
-	    "nameSuffix": "I&rsquo;m McLovin It",
-	    "period": "20th-21st of August",
 	    "id": "duranduran2",
 	    "dist": 21.74,
 	    "elev": 6555,
@@ -1013,9 +2061,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "D&ugrave;ran D&ugrave;ran:",
-	    "nameSuffix": "Race Against the Thunderstorm",
-	    "period": "12th of August",
 	    "id": "duranduran",
 	    "dist": 9.02,
 	    "elev": 3811,
@@ -1035,9 +2080,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Glencoe V:",
-	    "nameSuffix": "The Rereturn &#8211; Unpause",
-	    "period": "6th-7th of August",
 	    "id": "glencoe5",
 	    "dist": 14.25,
 	    "elev": 4534,
@@ -1059,9 +2101,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "The Big Four-O:",
-	    "nameSuffix": "Lindt Master Chocolatier",
-	    "period": "3rd of August",
 	    "id": "lochawe",
 	    "dist": 11.57,
 	    "elev": 4134,
@@ -1081,9 +2120,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Glencoe IV:",
-	    "nameSuffix": "Skyfall &#8211; Pause",
-	    "period": "23rd-24th of July",
 	    "id": "glencoe4",
 	    "dist": 16.54,
 	    "elev": 6105,
@@ -1104,9 +2140,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "The Playground",
-	    "period": "15th of July",
 	    "id": "playground",
 	    "dist": 23.94,
 	    "elev": 9162,
@@ -1130,9 +2163,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Cruachan Ridge Walk",
-	    "period": "1st of July",
 	    "id": "cruachan",
 	    "dist": 15.22,
 	    "elev": 4196,
@@ -1154,9 +2184,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Glencoe III:",
-	    "nameSuffix": "Get Creased &amp; Do Creise",
-	    "period": "25th-27th of June",
 	    "id": "glencoe3",
 	    "dist": 18.17,
 	    "elev": 6106,
@@ -1178,9 +2205,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Turning 30:",
-	    "nameSuffix": "Drams at the Readee",
-	    "period": "20th of June",
 	    "id": "turningthirty",
 	    "dist": 14.5,
 	    "elev": 5894,
@@ -1202,9 +2226,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "&lsquo;Larich Five... Minus One Coz Done It",
-	    "period": "17th of June",
 	    "id": "larichfive",
 	    "dist": 16.1,
 	    "elev": 5613,
@@ -1226,9 +2247,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Glencoe II:",
-	    "nameSuffix": "Path To The Clachaig",
-	    "period": "11th-12th of June",
 	    "id": "glencoe2",
 	    "dist": 8.67,
 	    "elev": 3096,
@@ -1247,9 +2265,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Beinn Whore",
-	    "period": "10th of June",
 	    "id": "beinnwhore",
 	    "dist": 9.78,
 	    "elev": 2917,
@@ -1268,9 +2283,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Sgiath Chuil &amp; Meall Glas",
-	    "period": "6th of June",
 	    "id": "beinnmounds",
 	    "dist": 11.84,
 	    "elev": 3918,
@@ -1290,9 +2302,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Arrochar Four... Minus One Coz Train",
-	    "period": "2nd of June",
 	    "id": "arrocharfour",
 	    "dist": 19.23,
 	    "elev": 5698,
@@ -1313,9 +2322,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Lui Four:",
-	    "nameSuffix": "Redemption in Blood",
-	    "period": "27th of May",
 	    "id": "luifour",
 	    "dist": 18.89,
 	    "elev": 6492,
@@ -1337,9 +2343,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "Glencoe:",
-	    "nameSuffix": "A Gentlemen&rsquo;s Retreat",
-	    "period": "20th-22nd of May",
 	    "id": "glencoe",
 	    "dist": 0,
 	    "elev": 0,
@@ -1354,7 +2357,6 @@
 	    "donalds": [],
 	    "subHike": [
 		{
-	            "nameSuffix": "",
 	            "id": "bideanfail",
 	            "dist": 8.57,
 	            "elev": 3979,
@@ -1371,7 +2373,6 @@
 	    	    "donalds": []
 		},
 		{
-	            "nameSuffix": "",
 	            "id": "etivebeag",
 	            "dist": 5.73,
 	            "elev": 2550,
@@ -1392,9 +2393,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Ben Donich",
-	    "period": "11th of May",
 	    "id": "beinndonich",
 	    "dist": 5.01,
 	    "elev": 1810,
@@ -1413,9 +2411,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Ben More &amp; Stob Binnein",
-	    "period": "24th of April",
 	    "id": "benmorestobbinnein",
 	    "dist": 8.95,
 	    "elev": 4202,
@@ -1435,9 +2430,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "The Brack &amp; Cnoc Coinnich",
-	    "period": "17th of April",
 	    "id": "thebrack",
 	    "dist": 10.86,
 	    "elev": 3458,
@@ -1457,9 +2449,6 @@
 	    "year": "2021"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Cairnsmore of Carsphairn",
-	    "period": "19th of December",
 	    "id": "cairnsmore",
 	    "dist": 9.02,
 	    "elev": 2021,
@@ -1478,9 +2467,6 @@
 	    "year": "2020"
         },
         {
-	    "namePrefix": "Ben Oolium:",
-	    "nameSuffix": "Ultimate Supreme Depression",
-	    "period": "14th of November",
 	    "id": "chullum",
 	    "dist": 8.79,
 	    "elev": 2799,
@@ -1499,9 +2485,6 @@
 	    "year": "2020"
         },
         {
-	    "namePrefix": "Cairngorms:",
-	    "nameSuffix": "An Aviemore Virgin",
-	    "period": "11th-13th of September",
 	    "id": "cairngorms",
 	    "dist": 10.63,
 	    "elev": 2569,
@@ -1520,9 +2503,6 @@
 	    "year": "2020"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Bag One Get Three Free",
-	    "period": "5th of September",
 	    "id": "fourfor1",
 	    "dist": 14.30,
 	    "elev": 4305,
@@ -1544,9 +2524,6 @@
 	    "year": "2020"
         },
         {
-	    "namePrefix": "",
-	    "nameSuffix": "Ben Lomond",
-	    "period": "3rd of August",
 	    "id": "benlomond",
 	    "dist": 8.09,
 	    "elev": 3136,
@@ -1568,9 +2545,6 @@
     ],
     "walks": [
         {
-	    "namePrefix": "",
-	    "nameSuffix": "",
-	    "period": "",
 	    "id": "",
 	    "dist": 0,
 	    "elev": 0,
@@ -1588,32 +2562,29 @@
 	    "description": "",
 	    "img": [
 		{
-		    "suffix": "",
+		    "imgSuffix": "",
 		    "description": ""
 		},
 		{
-		    "suffix": "",
+		    "imgSuffix": "",
 		    "description": ""
 		}
 	    ],
-	    "year": "2022"
-	},
-	{
-	    "namePrefix": "",
-	    "nameSuffix": "",
-	    "period": "",
-	    "id": "",
-	    "type": "proj",
-	    "description": "",
-	    "img": [
+	    "subEvent": [
 		{
-		    "suffix": "",
-		    "description": ""
-		},
-		{
-		    "suffix": "",
-		    "description": ""
-		}
+		    "nameSuffix": "",
+		    "id": "",
+		    "img": [
+			{
+			    "imgSuffix": "",
+			    "description": ""
+			},
+			{
+			    "imgSuffix": "",
+			    "description": ""
+			}
+		    ]
+		}	
 	    ],
 	    "year": "2022"
 	}

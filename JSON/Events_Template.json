@@ -1,10 +1,8 @@
 {
-    "roadie": [
+    "roadies": [
         {
-	    "namePrefix": "",
-	    "nameSuffix": "",
-	    "period": "",
 	    "id": "",
+	    "route": "",
 	    "dist": 0,
 	    "elev": 0,
 	    "time": 0,
@@ -12,11 +10,8 @@
 	    "year": "2022"
         }
     ],
-    "hike": [
+    "hikes": [
         {
-	    "namePrefix": "",
-	    "nameSuffix": "",
-	    "period": "",
 	    "id": "",
 	    "dist": 0,
 	    "elev": 0,
@@ -30,7 +25,6 @@
 	    "donalds": [],
 	    "subHike": [
 		{
-	            "nameSuffix": "",
 	            "id": "",
 	            "dist": 0,
 	            "elev": 0,
@@ -48,11 +42,8 @@
 	    "year": "2022"
         }
     ],
-    "walk": [
+    "walks": [
         {
-	    "namePrefix": "",
-	    "nameSuffix": "",
-	    "period": "",
 	    "id": "",
 	    "dist": 0,
 	    "elev": 0,
@@ -60,24 +51,40 @@
 	    "year": "2022"
         }
     ],
-    "event": [
+    "events": [
 	{
 	    "namePrefix": "",
             "nameSuffix": "",
             "period": "",
             "id": "",
-            "type": "proj",
+            "type": "non-proj",
             "description": "",
             "img": [
                 {
-                    "suffix": "",
+                    "imgSuffix": "",
                     "description": ""
                 },
                 {
-                    "suffix": "",
+                    "imgSuffix": "",
                     "description": ""
                 }
             ],
+	    "subEvent": [
+		{
+		    "nameSuffix": "",
+		    "id": "",
+		    "img": [
+			{
+			    "imgSuffix": "",
+			    "description": ""
+			},
+			{
+			    "imgSuffix": "",
+			    "description": ""
+			}
+		    ]
+		}
+	    ],
             "year": "2022"
         }
     ]

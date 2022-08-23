@@ -11,9 +11,9 @@ $(".switch-desktop").on("click", function() {
 $(".switch-mobile").on("click", function() {
     if( $("*").hasClass("dark")) {
         $("*").removeClass("dark");
-        $(".switch-mobile").text("🌗");
+        $(".switch-mobile").text("Toggle Night Mode: Disabled");
     } else {
         $("*").addClass("dark");
-        $(".switch-mobile").text("🌓");
+        $(".switch-mobile").text("Toggle Night Mode: Enabled");
     }
 });

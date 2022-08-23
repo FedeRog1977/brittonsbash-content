@@ -442,6 +442,7 @@ code {
 	position: -webkit-sticky;
         top: 0;
         z-index: 1;
+	padding: 0.75em 0 0.75em 0;
 }
 
 	@media only screen and (max-width: 1026px) {
@@ -482,18 +483,19 @@ code {
 		    	font-size: 16px;
 			font-variant: small-caps;
 		    	text-align: center;
-		    	width: 250px;
+		    	width: 25%;
 		    	cursor: pointer;
 		    	border: 1.5px solid var(--font2);
 		    	border-radius: 1.25em;
 		    	color: var(--font2);
 			text-decoration: none;
+			transition: color var(--dark-trans), border var(--dark-trans);
 			margin: 0.25em 0 0.25em 0;
 			padding: 0.25em;
 		}
 
 		.switch-mobile {
-		    	width: 50px;
+		    	width: 50%;
 		}
 
 		.dark.switch-desktop, .dark.switch-mobile {

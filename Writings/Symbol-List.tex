@@ -8,11 +8,18 @@
                         rmargin=8mm,
                 }
 
+	\renewcommand{\thesection}{\Roman{section}}
+	\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+
 	\usepackage[center]{titlesec}         
                 \titleformat{\section}
-                        {\fontsize{11}{16}\bfseries}{}{0em}{}
+                        {\fontsize{12}{16}\scshape\centering}{}{1em}{}
                 \titleformat{\subsection}
-			{\fontsize{10}{16}\centering}{}{0em}{}
+			{\fontsize{10}{16}\itshape\centering}{}{1em}{}
+
+	\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+                \setcounter{tocdepth}{5}
+                \setcounter{secnumdepth}{5}
 
         \usepackage{longtable}
         \usepackage{multirow}
@@ -33,8 +40,14 @@
 
 \pagenumbering{gobble}
 
-	\title{Symbols \& Logical Syntax in {\LaTeX}}
-	\author{Lewis Britton}
+	\title{
+		\HRule{0.5pt}\\ [-0.9cm]
+		\HRule{0.5pt}\\ [0.3cm]
+		\textsc{Symbols \& Logical Syntax in {\LaTeX}}
+		\HRule{0.5pt}\\ [-0.9cm]
+		\HRule{0.5pt}
+	}
+	\author{\textsc{Lewis Britton}}
 	\date{}
 	\maketitle
 
@@ -86,6 +99,7 @@
 		\^{o} & \verb|\^{o}| & \c{o} & \verb|\c{o}| & \H o & \verb|\H o| & \ss & \verb|\ss| & \ddag & \verb|\ddag| & `, ' & \verb|`|, \verb|'| \\
 		\~{o} & \verb|\~{o}| & \u{o} & \verb|\u{o}| & \t o & \verb|\t o| & \i & \verb|\i| & \texttrademark, \textcopyright & \verb|\trademark|, \verb|\copyright| & ``, '' & \verb|``|, \verb|''| or \verb|"| \\
 		\={o} & \verb|\={o}| & \H{o} & \verb|\H{o}| & \t{oo} & \verb|\t{oo}| & \j & \verb|\j| & \textregistered, \circledR & \verb|\textregistered|, \verb|\circledR| & :, ; & \verb|:|, \verb|;| \\
+		& & & & & & & & \textdegree & \verb|\textdegree|\\
 	\end{tabular}
 	\end{center}
 
@@ -117,6 +131,8 @@
 	\end{tabular}
 	\end{center}
 
+\newpage
+
 \section{Math Accents \& Constructs}
 
 	Note that most basic accents can be stacked. For example, \verb|\acute{\acute{x}}| yields $\acute{\acute{x}}$. Or, \verb|\acute{\tilde{x}}| yields $\acute{\tilde{x}}$.
@@ -132,8 +148,6 @@
 		$\breve{x}$ & \verb|\breve{x}| & $\widetilde{xyz}$ & \verb|\widetilde{xyz}| & $\frac{abc}{xyz}$ & \verb|\frac{abc}{xyz}| & $\sideset{_y^x}{_k^j}\sum$ & \verb|\sideset{_y^x}{_k^j}\sum| \\
 	\end{tabular}
 	\end{center}
-
-	\newpage
 
 \section{Binary Relations}
 
@@ -215,6 +229,8 @@
 	\end{tabular}
 	\end{center}
 
+\newpage
+
 	\subsection{Additional Operators}
 
 	\begin{center}
@@ -254,8 +270,6 @@
 		$\coth$ & \verb|\coth| & $\inf$ & \verb|\inf| & $\log$ & \verb|\log| & $\sup$ & \verb|sup| \\ 
 	\end{tabular}
 	\end{center}
-
-	\newpage
 
 \section{Delimiters}
 
@@ -301,7 +315,7 @@
 	\end{tabular}
 	\end{center}
 
-	\subsection{Special Arrows}
+	\subsection{Special Arrows (amssymb)}
 
 	\begin{center}
 		\scriptsize
@@ -315,6 +329,12 @@
 		$\leadsto$ & \verb|\leadsto| & $\rightsquigarrow$ & \verb|\rightsquigarrow| & $\leftrightsquigarrow$ & \verb|\leftrightsquigarrow| & $\multimap$ & \verb|\multimap| \\
 	\end{tabular}
 	\end{center}
+
+	\subsection{Rotate Arrows}
+
+Note that any piece of text or symbol can be used within \verb|\rotatebox|
+
+\newpage
 
 \section{Matrices \& Arrays}
 

@@ -1171,6 +1171,24 @@
     ],
     "hikes": [
         {
+	    "id": "foundmygroin",
+	    "dist": 5.13,
+	    "elev": 2185,
+	    "time": "1:57:54",
+	    "companionship": 0,
+	    "munros": [],
+	    "munroTops": [],
+	    "corbetts": [
+		"Beinn Odhar"
+	    ],
+	    "corbettTops": [],
+	    "grahams": [],
+	    "subTwos": [],
+	    "donalds": [],
+	    "subHike": [],
+	    "year": "2022"
+        },
+        {
 	    "id": "baptismoffire",
 	    "dist": 0,
 	    "elev": 0,

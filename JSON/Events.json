@@ -1171,6 +1171,25 @@
     ],
     "hikes": [
         {
+	    "id": "learn",
+	    "dist": 10.19,
+	    "elev": 3858,
+	    "time": "3:33:07",
+	    "companionship": 0,
+	    "munros": [
+		"Ben Vorlich (Loch Earn)",
+		"St&ugrave;c a&rsquo; Chr&ograve;in"
+	    ],
+	    "munroTops": [],
+	    "corbetts": [],
+	    "corbettTops": [],
+	    "grahams": [],
+	    "subTwos": [],
+	    "donalds": [],
+	    "subHike": [],
+	    "year": "2022"
+        },
+        {
 	    "id": "foundmygroin",
 	    "dist": 5.13,
 	    "elev": 2185,
@@ -2554,6 +2573,14 @@
 
     ],
     "walks": [
+        {
+	    "id": "",
+	    "route": "other",
+	    "dist": 4.49,
+	    "elev": 430,
+	    "time": "1:05:36",
+	    "year": "2022"
+        },
         {
 	    "id": "",
 	    "route": "waterfoot",

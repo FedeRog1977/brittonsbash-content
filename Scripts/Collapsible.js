@@ -1,7 +1,6 @@
 var coll = document.getElementsByClassName("collapsible");
-var i;
 
-for (i = 0; i < coll.length; i++) {
+for (var i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
@@ -13,17 +12,16 @@ for (i = 0; i < coll.length; i++) {
     });
 }
 
-var coll2 = document.getElementsByClassName("collapsible-boxset-item");
-var k;
+var collBoxset = document.getElementsByClassName("collapsible-boxset-item");
 
-for (k = 0; k < coll.length; k++) {
-    coll2[k].addEventListener("click", function() {
-        this.classList.toggle("active2");
-        var content2 = this.nextElementSibling;
-        if (content2.style.display === "block") {
-            content2.style.display = "none";
+for (var i = 0; i < coll.length; i++) {
+    collBoxset[i].addEventListener("click", function() {
+        this.classList.toggle("active-boxset");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
         } else {
-            content2.style.display = "block";
+            content.style.display = "block";
         }
     });
 }

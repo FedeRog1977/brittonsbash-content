@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
     });
 
-    document.querySelector("#blogDrop2").addEventListener("click", e => {
+    document.querySelector("#blogDropMobile").addEventListener("click", e => {
         e.preventDefault();
         if (blog.classList.contains("hidden")) {
             blog.classList.remove("hidden");

@@ -595,6 +595,15 @@ code {
 		transition: color var(--dark-trans), background var(--dark-trans);
 	}
 
+		.active-boxset, .collapsible-boxset-item:hover {
+			background-color: var(--drop-bar-hover);
+		}
+
+		.active-boxset, .collapsible:active {
+			border-radius: 0;
+			transition: color var(--dark-trans), background var(--dark-trans);
+		}
+
 	.boxset {
 		border-collapse: separate;
 		border-spacing: 0 0.25em;
@@ -620,15 +629,6 @@ code {
 		transition: color var(--dark-trans), background var(--dark-trans);
 		padding: 0.5em 1.25em 0.5em 1.25em;
 	}
-
-		.active2, .collapsible-boxset-item:hover {
-			background-color: var(--drop-bar-hover);
-		}
-
-		.active2, .collapsible:active {
-			border-radius: 0;
-			transition: color var(--dark-trans), background var(--dark-trans);
-		}
 
 	.content {
 		background-color: var(--bg);

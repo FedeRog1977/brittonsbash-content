@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const pages = document.querySelector("#pagesDropCont");
-    const social = document.querySelector("#socialDropCont");
-    const blog = document.querySelector("#blogDropCont");
+    const pages = document.getElementById("pagesDropCont");
+    const social = document.getElementById("socialDropCont");
+    const blog = document.getElementById("blogDropCont");
 
-    document.querySelector("#blogDrop").addEventListener("click", e => {
+    document.getElementById("blogDrop").addEventListener("click", e => {
         e.preventDefault();
         if (blog.classList.contains("hidden")) {
             blog.classList.remove("hidden");
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
     });
 
-    document.querySelector("#blogDropMobile").addEventListener("click", e => {
+    document.getElementById("blogDropMobile").addEventListener("click", e => {
         e.preventDefault();
         if (blog.classList.contains("hidden")) {
             blog.classList.remove("hidden");
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
     });
 
-    document.querySelector("#pagesDrop").addEventListener("click", e => {
+    document.getElementById("pagesDrop").addEventListener("click", e => {
         e.preventDefault();
         if (pages.classList.contains("hidden")) {
             pages.classList.remove("hidden");
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
     });
 
-    document.querySelector("#socialDrop").addEventListener("click", e => {
+    document.getElementById("socialDrop").addEventListener("click", e => {
         e.preventDefault();
         if (social.classList.contains("hidden")) {
             social.classList.remove("hidden");

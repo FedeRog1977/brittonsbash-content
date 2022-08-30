@@ -1287,7 +1287,7 @@
 	    "time": "4:58:08",
 	    "companionship": 1,
 	    "munros": [
-	    	"C&agrave;rn Liath",
+	    	"C&agrave;rn Liath (Creag Meagaidh)",
 		"Stob Poite Coire &Agrave;rdair",
 		"Creag Meagaidh"
 	    ],
@@ -1307,7 +1307,7 @@
 	    "time": "2:44:41",
 	    "companionship": 1,
 	    "munros": [
-		"Geal-ch&agrave;rn",
+		"Geal-ch&agrave;rn (Drumochter)",
 		"A&rsquo; Mharconaich"
 	    ],
 	    "munroTops": [],
@@ -1479,7 +1479,7 @@
 	    "time": "4:31:06",
 	    "companionship": 0,
 	    "munros": [
-		"C&agrave;rn Dearg",
+		"C&agrave;rn Dearg (Corrour)",
 		"Sg&ograve;r Gaibhre"
 	    ],
 	    "munroTops": [
@@ -1544,7 +1544,7 @@
 	    "time": "5:40:29",
 	    "companionship": 4,
 	    "munros": [
-		"Sg&ugrave;rr nan Coireachan",
+		"Sg&ugrave;rr nan Coireachan (Glenfinnan)",
 		"Sg&ugrave;rr Thuilm"
 	    ],
 	    "munroTops": [],
@@ -1874,7 +1874,7 @@
 	    "time": "4:46:21",
 	    "companionship": 1,
 	    "munros": [
-		"Meall Buidhe",
+		"Meall Buidhe (Glen Lyon)",
 		"St&ugrave;c an Lochain"
 	    ],
 	    "munroTops": [],
@@ -1893,7 +1893,7 @@
 	    "time": "5:24:51",
 	    "companionship": 1,
 	    "munros": [
-		"C&agrave;rn Liath",
+		"C&agrave;rn Liath (Beinn a&rsquo; Ghl&ograve;)",
 		"Br&agrave;igh Coire Chruinn-bhalgain",
 		"C&agrave;rn nan Gabhar"
 	    ],
@@ -1927,7 +1927,7 @@
 	            "time": "3:29:13",
 	            "companionship": 4,
 	    	    "munros": [
-			"Stob Dearg",
+			"Stob Dearg (Buachaille Etive M&ograve;r)",
 			"Stob na Br&ograve;ige (Buachaille Etive M&ograve;r)"
 		    ],
 	    	    "munroTops": [
@@ -2045,8 +2045,8 @@
 	    "time": "6:08:39",
 	    "companionship": 2,
 	    "munros": [
-		"C&agrave;rn Dearg",
-		"A&rsquo; Chailleach",
+		"C&agrave;rn Dearg (Monadhliath)",
+		"A&rsquo; Chailleach (Monadhliath)",
 		"C&agrave;rn Sgulain"
 	    ],
 	    "munroTops": [],
@@ -2186,7 +2186,7 @@
 		"Beinn Narnain",
 		"Beinn &Igrave;me",
 		"Ben Vane",
-		"Ben Vorlich"
+		"Ben Vorlich (Loch Lomond)"
 	    ],
 	    "munroTops": [],
 	    "corbetts": [
@@ -2290,7 +2290,7 @@
 	    "time": "3:24:31",
 	    "companionship": 1,
 	    "munros": [
-		"Ben Vorlich"
+		"Ben Vorlich (Loch Lomond)"
 	    ],
 	    "munroTops": [],
 	    "corbetts": [],
@@ -2416,8 +2416,8 @@
 	            "time": "2:20:46",
 	            "companionship": 3,
 	    	    "munros": [
-			"Stob Dubh",
-			"Stob Coire Raineach"
+			"Stob Dubh (Buachaille Etive Beag)",
+			"Stob Coire Raineach (Buachaille Etive Beag)"
 		    ],
 	    	    "munroTops": [],
 	    	    "corbetts": [],

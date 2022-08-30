@@ -465,56 +465,128 @@ function setHike() {
 	    let ft2020Hike = 0;
 
 	    for (var i in events.hikes) {
-		ftTotalHike = ftTotalHike + events.hikes[i].elev;
+		if (events.hikes[i].subHike != null) {
+		    ftTotalHike = ftTotalHike + events.hikes[i].elev;
+		    for (var k in events.hikes[i].subHike) {
+			ftTotalHike = ftTotalHike + events.hikes[i].subHike[k].elev;
+		    }
+		} else {
+		    ftTotalHike = ftTotalHike + events.hikes[i].elev;
+		}
 		ftTotalHikeOut.innerHTML = ftTotalHike.toLocaleString("en-US") + "ft";
+
 		if (events.hikes[i].year === "2022") {
-		    ft2022Hike = ft2022Hike + events.hikes[i].elev;
+		    if (events.hikes[i].subHike != null) {
+		        ft2022Hike = ft2022Hike + events.hikes[i].elev;
+		        for (var k in events.hikes[i].subHike) {
+			    ft2022Hike = ft2022Hike + events.hikes[i].subHike[k].elev;
+		        }
+		    } else {
+		        ft2022Hike = ft2022Hike + events.hikes[i].elev;
+		    }
 		    ft2022HikeOut.innerHTML = ft2022Hike.toLocaleString("en-US") + "ft";
 		}
+
 		if (events.hikes[i].year === "2021") {
-		    ft2021Hike = ft2021Hike + events.hikes[i].elev;
+		    if (events.hikes[i].subHike != null) {
+		        ft2021Hike = ft2021Hike + events.hikes[i].elev;
+		        for (var k in events.hikes[i].subHike) {
+			    ft2021Hike = ft2021Hike + events.hikes[i].subHike[k].elev;
+		        }
+		    } else {
+		        ft2021Hike = ft2021Hike + events.hikes[i].elev;
+		    }
 		    ft2021HikeOut.innerHTML = ft2021Hike.toLocaleString("en-US") + "ft";
 		}
+
 		if (events.hikes[i].year === "2020") {
-		    ft2020Hike = ft2020Hike + events.hikes[i].elev;
+		    if (events.hikes[i].subHike != null) {
+		        ft2020Hike = ft2020Hike + events.hikes[i].elev;
+		        for (var k in events.hikes[i].subHike) {
+			    ft2020Hike = ft2020Hike + events.hikes[i].subHike[k].elev;
+		        }
+		    } else {
+		        ft2020Hike = ft2020Hike + events.hikes[i].elev;
+		    }
 		    ft2020HikeOut.innerHTML = ft2020Hike.toLocaleString("en-US") + "ft";
 		}
 	    }
 
-	    /*
-	    let centTotal = 0;
-	    let cent2022 = 0;
-	    let cent2021 = 0;
-	    let cent2020 = 0;
+	    let munrosTotalCol = [];
+	    let munros2022Col = [];
+	    let munros2021Col = [];
+	    let munros2020Col = [];
 
-	    for (var i in events.roadies) {
-		if (events.roadies[i].route === "century") {
-		    centTotal = centTotal + 1;
-		    centTotalOut.innerHTML = centTotal;
-		    if (events.roadies[i].year === "2022") {
-			cent2022 = cent2022 + 1;
-			cent2022Out.innerHTML = cent2022;
+	    let munrosTotalColUnq = [];
+	    let munros2022ColUnq = [];
+	    let munros2021ColUnq = [];
+	    let munros2020ColUnq = [];
+
+	    let munrosTotal = 0;
+	    let munros2022 = 0;
+	    let munros2021 = 0;
+	    let munros2020 = 0;
+
+	    for (var i in events.hikes) {
+		if (events.hikes[i].subHike != null) {
+		    for (var k in events.hikes[i].munros) {
+			munrosTotalCol.push(events.hikes[i].munros[k])
 		    }
-		    if (events.roadies[i].year === "2021") {
-			cent2021 = cent2021 + 1;
-			cent2021Out.innerHTML = cent2021;
-		    }
-		    if (events.roadies[i].year === "2020") {
-			cent2020 = cent2020 + 1;
-			cent2020Out.innerHTML = cent2020;
+		    for (var k in events.hikes[i].subHike) {
+			for (var l in events.hikes[i].subHike[k].munros) {
+			    munrosTotalCol.push(events.hikes[i].subHike[k].munros[l])
+			}
 		    }
 		} else {
-		    centTotal = centTotal;
-		    cent2022 = cent2022;
-		    cent2021 = cent2021;
-		    cent2020 = cent2020;
-		    centTotalOut.innerHTML = centTotal;
-		    cent2022Out.innerHTML = cent2022;
-		    cent2021Out.innerHTML = cent2021;
-		    cent2020Out.innerHTML = cent2020;
+		    for (var k in events.hikes[i].munros) {
+			munrosTotalCol.push(events.hikes[i].munros[k])
+		    }
 		}
+		munrosTotalColUnq = [...new Set(munrosTotalCol.sort())];
+		munrosTotal = munrosTotalColUnq.length;
+		//munrosTotalOut.innerHTML = munrosTotal;
+		munrosTotalOut.innerHTML = munrosTotalColUnq.join("<br>");
+
+		/*
+		if (events.hikes[i].year === "2022") {
+		    if (events.hikes[i].subHike != null) {
+		        munros2022 = munros2022 + events.hikes[i].elev;
+		        for (var k in events.hikes[i].subHike) {
+			    munros2022 = munros2022 + events.hikes[i].subHike[k].elev;
+		        }
+		    } else {
+		        munros2022 = munros2022 + events.hikes[i].elev;
+		    }
+		    munros2022Out.innerHTML = munros2022.toLocaleString("en-US") + "ft";
+		}
+
+		if (events.hikes[i].year === "2021") {
+		    if (events.hikes[i].subHike != null) {
+		        munros2021 = munros2021 + events.hikes[i].elev;
+		        for (var k in events.hikes[i].subHike) {
+			    munros2021 = munros2021 + events.hikes[i].subHike[k].elev;
+		        }
+		    } else {
+		        munros2021 = munros2021 + events.hikes[i].elev;
+		    }
+		    munros2021Out.innerHTML = munros2021.toLocaleString("en-US") + "ft";
+		}
+
+		if (events.hikes[i].year === "2020") {
+		    if (events.hikes[i].subHike != null) {
+		        munros2020 = munros2020 + events.hikes[i].elev;
+		        for (var k in events.hikes[i].subHike) {
+			    munros2020 = munros2020 + events.hikes[i].subHike[k].elev;
+		        }
+		    } else {
+		        munros2020 = munros2020 + events.hikes[i].elev;
+		    }
+		    munros2020Out.innerHTML = munros2020.toLocaleString("en-US") + "ft";
+		}
+		*/
 	    }
 
+	    /*
 	    let stravTotal = 0;
 	    let strav2022 = 0;
 	    let strav2021 = 0;

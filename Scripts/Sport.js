@@ -544,46 +544,90 @@ function setHike() {
 		}
 		munrosTotalColUnq = [...new Set(munrosTotalCol.sort())];
 		munrosTotal = munrosTotalColUnq.length;
-		//munrosTotalOut.innerHTML = munrosTotal;
-		munrosTotalOut.innerHTML = munrosTotalColUnq.join("<br>");
+		munrosTotalOut.innerHTML = munrosTotal;
+		//munrosTotalOut.innerHTML = munrosTotalColUnq.join("<br>");
 
-		/*
 		if (events.hikes[i].year === "2022") {
 		    if (events.hikes[i].subHike != null) {
-		        munros2022 = munros2022 + events.hikes[i].elev;
+		        for (var k in events.hikes[i].munros) {
+			    munros2022Col.push(events.hikes[i].munros[k])
+		        }
 		        for (var k in events.hikes[i].subHike) {
-			    munros2022 = munros2022 + events.hikes[i].subHike[k].elev;
+			    for (var l in events.hikes[i].subHike[k].munros) {
+			        munros2022Col.push(events.hikes[i].subHike[k].munros[l])
+			    }
 		        }
 		    } else {
-		        munros2022 = munros2022 + events.hikes[i].elev;
+		        for (var k in events.hikes[i].munros) {
+			    munros2022Col.push(events.hikes[i].munros[k])
+		        }
 		    }
-		    munros2022Out.innerHTML = munros2022.toLocaleString("en-US") + "ft";
+		    munros2022ColUnq = [...new Set(munros2022Col.sort())];
 		}
 
 		if (events.hikes[i].year === "2021") {
 		    if (events.hikes[i].subHike != null) {
-		        munros2021 = munros2021 + events.hikes[i].elev;
+		        for (var k in events.hikes[i].munros) {
+			    munros2021Col.push(events.hikes[i].munros[k])
+		        }
 		        for (var k in events.hikes[i].subHike) {
-			    munros2021 = munros2021 + events.hikes[i].subHike[k].elev;
+			    for (var l in events.hikes[i].subHike[k].munros) {
+			        munros2021Col.push(events.hikes[i].subHike[k].munros[l])
+			    }
 		        }
 		    } else {
-		        munros2021 = munros2021 + events.hikes[i].elev;
+		        for (var k in events.hikes[i].munros) {
+			    munros2021Col.push(events.hikes[i].munros[k])
+		        }
 		    }
-		    munros2021Out.innerHTML = munros2021.toLocaleString("en-US") + "ft";
+		    munros2021ColUnq = [...new Set(munros2021Col.sort())];
 		}
 
 		if (events.hikes[i].year === "2020") {
 		    if (events.hikes[i].subHike != null) {
-		        munros2020 = munros2020 + events.hikes[i].elev;
+		        for (var k in events.hikes[i].munros) {
+			    munros2020Col.push(events.hikes[i].munros[k])
+		        }
 		        for (var k in events.hikes[i].subHike) {
-			    munros2020 = munros2020 + events.hikes[i].subHike[k].elev;
+			    for (var l in events.hikes[i].subHike[k].munros) {
+			        munros2020Col.push(events.hikes[i].subHike[k].munros[l])
+			    }
 		        }
 		    } else {
-		        munros2020 = munros2020 + events.hikes[i].elev;
+		        for (var k in events.hikes[i].munros) {
+			    munros2020Col.push(events.hikes[i].munros[k])
+		        }
 		    }
-		    munros2020Out.innerHTML = munros2020.toLocaleString("en-US") + "ft";
+		    munros2020ColUnq = [...new Set(munros2020Col.sort())];
 		}
-		*/
+
+		// Omit Repetitions from Year -1
+		for (var x in munros2022ColUnq) {
+		    for (var y in munros2021ColUnq) {
+			if (munros2022ColUnq[x] === munros2021ColUnq[y]) {
+			    munros2022ColUnq.splice(x, 1);
+			}
+		    }
+		}
+		munros2022 = munros2022ColUnq.length;
+		munros2022Out.innerHTML = munros2022;
+		//munros2022Out.innerHTML = munros2022ColUnq.join("<br>");
+
+		// Omit Repetitions from Year -1
+		for (var x in munros2021ColUnq) {
+		    for (var y in munros2020ColUnq) {
+			if (munros2021ColUnq[x] === munros2020ColUnq[y]) {
+			    munros2021ColUnq.splice(x, 1);
+			}
+		    }
+		}
+		munros2021 = munros2021ColUnq.length;
+		munros2021Out.innerHTML = munros2021;
+		//munros2021Out.innerHTML = munros2021ColUnq.join("<br>");
+		
+		munros2020 = munros2020ColUnq.length;
+		munros2020Out.innerHTML = munros2020;
+		//munros2020Out.innerHTML = munros2020ColUnq.join("<br>");
 	    }
 
 	    /*

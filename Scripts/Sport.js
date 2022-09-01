@@ -601,10 +601,16 @@ function setHike() {
 		    munros2020ColUnq = [...new Set(munros2020Col.sort())];
 		}
 
-		// Omit Repetitions from Year -1
+		// Omit Repetitions from Previous Years
+		// 2022 Compared to: 2021, 2020
 		for (var x in munros2022ColUnq) {
 		    for (var y in munros2021ColUnq) {
 			if (munros2022ColUnq[x] === munros2021ColUnq[y]) {
+			    munros2022ColUnq.splice(x, 1);
+			}
+		    }
+		    for (var y in munros2020ColUnq) {
+			if (munros2022ColUnq[x] === munros2020ColUnq[y]) {
 			    munros2022ColUnq.splice(x, 1);
 			}
 		    }
@@ -613,7 +619,8 @@ function setHike() {
 		munros2022Out.innerHTML = munros2022;
 		//munros2022Out.innerHTML = munros2022ColUnq.join("<br>");
 
-		// Omit Repetitions from Year -1
+		// Omit Repetitions from Previous Years
+		// 2021 Compared to: 2021
 		for (var x in munros2021ColUnq) {
 		    for (var y in munros2020ColUnq) {
 			if (munros2021ColUnq[x] === munros2020ColUnq[y]) {
@@ -629,173 +636,6 @@ function setHike() {
 		munros2020Out.innerHTML = munros2020;
 		//munros2020Out.innerHTML = munros2020ColUnq.join("<br>");
 	    }
-
-	    /*
-	    let stravTotal = 0;
-	    let strav2022 = 0;
-	    let strav2021 = 0;
-	    let strav2020 = 0;
-
-	    for (var i in events.roadies) {
-		if (events.roadies[i].route === "strathaven") {
-		    stravTotal = stravTotal + 1;
-		    stravTotalOut.innerHTML = stravTotal;
-		    if (events.roadies[i].year === "2022") {
-			strav2022 = strav2022 + 1;
-			strav2022Out.innerHTML = strav2022;
-		    }
-		    if (events.roadies[i].year === "2021") {
-			strav2021 = strav2021 + 1;
-			strav2021Out.innerHTML = strav2021;
-		    }
-		    if (events.roadies[i].year === "2020") {
-			strav2020 = strav2020 + 1;
-			strav2020Out.innerHTML = strav2020;
-		    }
-		} else {
-		    stravTotal = stravTotal;
-		    strav2022 = strav2022;
-		    strav2021 = strav2021;
-		    strav2020 = strav2020;
-		    stravTotalOut.innerHTML = stravTotal;
-		    strav2022Out.innerHTML = strav2022;
-		    strav2021Out.innerHTML = strav2021;
-		    strav2020Out.innerHTML = strav2020;
-		}
-	    }
-
-	    let fenwindTotal = 0;
-	    let fenwind2022 = 0;
-	    let fenwind2021 = 0;
-	    let fenwind2020 = 0;
-
-	    for (var i in events.roadies) {
-		if (events.roadies[i].route === "fenwickwindfarm") {
-		    fenwindTotal = fenwindTotal + 1;
-		    fenwindTotalOut.innerHTML = fenwindTotal;
-		    if (events.roadies[i].year === "2022") {
-			fenwind2022 = fenwind2022 + 1;
-			fenwind2022Out.innerHTML = fenwind2022;
-		    }
-		    if (events.roadies[i].year === "2021") {
-			fenwind2021 = fenwind2021 + 1;
-			fenwind2021Out.innerHTML = fenwind2021;
-		    }
-		    if (events.roadies[i].year === "2020") {
-			fenwind2020 = fenwind2020 + 1;
-			fenwind2020Out.innerHTML = fenwind2020;
-		    }
-		} else {
-		    fenwindTotal = fenwindTotal;
-		    fenwind2022 = fenwind2022;
-		    fenwind2021 = fenwind2021;
-		    fenwind2020 = fenwind2020;
-		    fenwindTotalOut.innerHTML = fenwindTotal;
-		    fenwind2022Out.innerHTML = fenwind2022;
-	            fenwind2021Out.innerHTML = fenwind2021;
-		    fenwind2020Out.innerHTML = fenwind2020;
-		}
-	    }
-
-	    let fenTotal = 0;
-	    let fen2022 = 0;
-	    let fen2021 = 0;
-	    let fen2020 = 0;
-
-	    for (var i in events.roadies) {
-		if (events.roadies[i].route === "fenwick") {
-		    fenTotal = fenTotal + 1;
-		    fenTotalOut.innerHTML = fenTotal;
-		    if (events.roadies[i].year === "2022") {
-			fen2022 = fen2022 + 1;
-			fen2022Out.innerHTML = fen2022;
-		    }
-		    if (events.roadies[i].year === "2021") {
-			fen2021 = fen2021 + 1;
-			fen2021Out.innerHTML = fen2021;
-		    }
-		    if (events.roadies[i].year === "2020") {
-			fen2020 = fen2020 + 1;
-			fen2020Out.innerHTML = fen2020;
-		    }
-		} else {
-		    fenTotal = fenTotal;
-		    fen2022 = fen2022;
-		    fen2021 = fen2021;
-		    fen2020 = fen2020;
-  		    fenTotalOut.innerHTML = fenTotal;
-		    fen2022Out.innerHTML = fen2022;
-		    fen2021Out.innerHTML = fen2021;
-		    fen2020Out.innerHTML = fen2020;
-		}
-	    }
-
-	    let windTotal = 0;
-	    let wind2022 = 0;
-	    let wind2021 = 0;
-	    let wind2020 = 0;
-
-	    for (var i in events.roadies) {
-		if (events.roadies[i].route === "windfarm") {
-		    windTotal = windTotal + 1;
-		    windTotalOut.innerHTML = windTotal;
-		    if (events.roadies[i].year === "2022") {
-			wind2022 = wind2022 + 1;
-			wind2022Out.innerHTML = wind2022;
-		    }
-		    if (events.roadies[i].year === "2021") {
-			wind2021 = wind2021 + 1;
-			wind2021Out.innerHTML = wind2021;
-		    }
-		    if (events.roadies[i].year === "2020") {
-			wind2020 = wind2020 + 1;
-			wind2020Out.innerHTML = wind2020;
-		    }
-		} else {
-		    windTotal = windTotal;
-		    wind2022 = wind2022;
-		    wind2021 = wind2021;
-		    wind2020 = wind2020;
-		    windTotalOut.innerHTML = windTotal;
-		    wind2022Out.innerHTML = wind2022;
-		    wind2021Out.innerHTML = wind2021;
-		    wind2020Out.innerHTML = wind2020;
-		}
-	    }
-
-	    let thallTotal = 0;
-	    let thall2022 = 0;
-	    let thall2021 = 0;
-	    let thall2020 = 0;
-
-	    for (var i in events.roadies) {
-		if (events.roadies[i].route === "thorntonhall") {
-		    thallTotal = thallTotal + 1;
-		    thallTotalOut.innerHTML = thallTotal;
-		    if (events.roadies[i].year === "2022") {
-			thall2022 = thall2022 + 1;
-			thall2022Out.innerHTML = thall2022;
-		    }
-		    if (events.roadies[i].year === "2021") {
-			thall2021 = thall2021 + 1;
-			thall2021Out.innerHTML = thall2021;
-		    }
-		    if (events.roadies[i].year === "2020") {
-			thall2020 = thall2020 + 1;
-			thall2020Out.innerHTML = thall2020;
-		    }
-		} else {
-		    thallTotal = thallTotal;
-		    thall2022 = thall2022;
-		    thall2021 = thall2021;
-		    thall2020 = thall2020;
-		    thallTotalOut.innerHTML = thallTotal;
-		    thall2022Out.innerHTML = thall2022;
-		    thall2021Out.innerHTML = thall2021;
-		    thall2020Out.innerHTML = thall2020;
-		}
-	    }
-	    */
 	})
 }
 

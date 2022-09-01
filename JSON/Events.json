@@ -3,6 +3,14 @@
         {
 	    "id": "",
 	    "route": "strathaven",
+	    "dist": 40.97,
+	    "elev": 2362,
+	    "time": "2:20:48",
+	    "year": "2022"
+	},
+        {
+	    "id": "",
+	    "route": "strathaven",
 	    "dist": 36.87,
 	    "elev": 2110,
 	    "time": "2:04:53",

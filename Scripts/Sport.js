@@ -1275,131 +1275,256 @@ function setHike() {
 	    }
 
 	    /*
-	    let munrosTotalCol = [];
-	    let munros2022Col = [];
-	    let munros2021Col = [];
-	    let munros2020Col = [];
+	    let subTwosTotalCol = [];
+	    let subTwos2022Col = [];
+	    let subTwos2021Col = [];
+	    let subTwos2020Col = [];
 
-	    let munrosTotalColUnq = [];
-	    let munros2022ColUnq = [];
-	    let munros2021ColUnq = [];
-	    let munros2020ColUnq = [];
+	    let subTwosTotalColUnq = [];
+	    let subTwos2022ColUnq = [];
+	    let subTwos2021ColUnq = [];
+	    let subTwos2020ColUnq = [];
 
-	    let munrosTotal = 0;
-	    let munros2022 = 0;
-	    let munros2021 = 0;
-	    let munros2020 = 0;
+	    let subTwosTotal = 0;
+	    let subTwos2022 = 0;
+	    let subTwos2021 = 0;
+	    let subTwos2020 = 0;
 
 	    for (var i in events.hikes) {
 		if (events.hikes[i].subHike != null) {
-		    for (var k in events.hikes[i].munros) {
-			munrosTotalCol.push(events.hikes[i].munros[k])
+		    for (var k in events.hikes[i].subTwos) {
+			subTwosTotalCol.push(events.hikes[i].subTwos[k])
 		    }
 		    for (var k in events.hikes[i].subHike) {
-			for (var l in events.hikes[i].subHike[k].munros) {
-			    munrosTotalCol.push(events.hikes[i].subHike[k].munros[l])
+			for (var l in events.hikes[i].subHike[k].subTwos) {
+			    subTwosTotalCol.push(events.hikes[i].subHike[k].subTwos[l])
 			}
 		    }
 		} else {
-		    for (var k in events.hikes[i].munros) {
-			munrosTotalCol.push(events.hikes[i].munros[k])
+		    for (var k in events.hikes[i].subTwos) {
+			subTwosTotalCol.push(events.hikes[i].subTwos[k])
 		    }
 		}
-		munrosTotalColUnq = [...new Set(munrosTotalCol.sort())];
-		munrosTotal = munrosTotalColUnq.length;
-		munrosTotalOut.innerHTML = munrosTotal;
-		//munrosTotalOut.innerHTML = munrosTotalColUnq.join("<br>");
+		subTwosTotalColUnq = [...new Set(subTwosTotalCol.sort())];
+		subTwosTotal = subTwosTotalColUnq.length;
+		subTwosTotalOut.innerHTML = subTwosTotal;
+		//subTwosTotalOut.innerHTML = subTwosTotalColUnq.join("<br>");
 
 		if (events.hikes[i].year === "2022") {
 		    if (events.hikes[i].subHike != null) {
-		        for (var k in events.hikes[i].munros) {
-			    munros2022Col.push(events.hikes[i].munros[k])
+		        for (var k in events.hikes[i].subTwos) {
+			    subTwos2022Col.push(events.hikes[i].subTwos[k])
 		        }
 		        for (var k in events.hikes[i].subHike) {
-			    for (var l in events.hikes[i].subHike[k].munros) {
-			        munros2022Col.push(events.hikes[i].subHike[k].munros[l])
+			    for (var l in events.hikes[i].subHike[k].subTwos) {
+			        subTwos2022Col.push(events.hikes[i].subHike[k].subTwos[l])
 			    }
 		        }
 		    } else {
-		        for (var k in events.hikes[i].munros) {
-			    munros2022Col.push(events.hikes[i].munros[k])
+		        for (var k in events.hikes[i].subTwos) {
+			    subTwos2022Col.push(events.hikes[i].subTwos[k])
 		        }
 		    }
-		    munros2022ColUnq = [...new Set(munros2022Col.sort())];
+		    subTwos2022ColUnq = [...new Set(subTwos2022Col.sort())];
 		}
 
 		if (events.hikes[i].year === "2021") {
 		    if (events.hikes[i].subHike != null) {
-		        for (var k in events.hikes[i].munros) {
-			    munros2021Col.push(events.hikes[i].munros[k])
+		        for (var k in events.hikes[i].subTwos) {
+			    subTwos2021Col.push(events.hikes[i].subTwos[k])
 		        }
 		        for (var k in events.hikes[i].subHike) {
-			    for (var l in events.hikes[i].subHike[k].munros) {
-			        munros2021Col.push(events.hikes[i].subHike[k].munros[l])
+			    for (var l in events.hikes[i].subHike[k].subTwos) {
+			        subTwos2021Col.push(events.hikes[i].subHike[k].subTwos[l])
 			    }
 		        }
 		    } else {
-		        for (var k in events.hikes[i].munros) {
-			    munros2021Col.push(events.hikes[i].munros[k])
+		        for (var k in events.hikes[i].subTwos) {
+			    subTwos2021Col.push(events.hikes[i].subTwos[k])
 		        }
 		    }
-		    munros2021ColUnq = [...new Set(munros2021Col.sort())];
+		    subTwos2021ColUnq = [...new Set(subTwos2021Col.sort())];
 		}
 
 		if (events.hikes[i].year === "2020") {
 		    if (events.hikes[i].subHike != null) {
-		        for (var k in events.hikes[i].munros) {
-			    munros2020Col.push(events.hikes[i].munros[k])
+		        for (var k in events.hikes[i].subTwos) {
+			    subTwos2020Col.push(events.hikes[i].subTwos[k])
 		        }
 		        for (var k in events.hikes[i].subHike) {
-			    for (var l in events.hikes[i].subHike[k].munros) {
-			        munros2020Col.push(events.hikes[i].subHike[k].munros[l])
+			    for (var l in events.hikes[i].subHike[k].subTwos) {
+			        subTwos2020Col.push(events.hikes[i].subHike[k].subTwos[l])
 			    }
 		        }
 		    } else {
-		        for (var k in events.hikes[i].munros) {
-			    munros2020Col.push(events.hikes[i].munros[k])
+		        for (var k in events.hikes[i].subTwos) {
+			    subTwos2020Col.push(events.hikes[i].subTwos[k])
 		        }
 		    }
-		    munros2020ColUnq = [...new Set(munros2020Col.sort())];
+		    subTwos2020ColUnq = [...new Set(subTwos2020Col.sort())];
 		}
 
 		// Omit Repetitions from Previous Years
 		// 2022 Compared to: 2021, 2020
-		for (var x in munros2022ColUnq) {
-		    for (var y in munros2021ColUnq) {
-			if (munros2022ColUnq[x] === munros2021ColUnq[y]) {
-			    munros2022ColUnq.splice(x, 1);
+		for (var x in subTwos2022ColUnq) {
+		    for (var y in subTwos2021ColUnq) {
+			if (subTwos2022ColUnq[x] === subTwos2021ColUnq[y]) {
+			    subTwos2022ColUnq.splice(x, 1);
 			}
 		    }
-		    for (var y in munros2020ColUnq) {
-			if (munros2022ColUnq[x] === munros2020ColUnq[y]) {
-			    munros2022ColUnq.splice(x, 1);
+		    for (var y in subTwos2020ColUnq) {
+			if (subTwos2022ColUnq[x] === subTwos2020ColUnq[y]) {
+			    subTwos2022ColUnq.splice(x, 1);
 			}
 		    }
 		}
-		munros2022 = munros2022ColUnq.length;
-		munros2022Out.innerHTML = munros2022;
-		//munros2022Out.innerHTML = munros2022ColUnq.join("<br>");
+		subTwos2022 = subTwos2022ColUnq.length;
+		subTwos2022Out.innerHTML = subTwos2022;
+		//subTwos2022Out.innerHTML = subTwos2022ColUnq.join("<br>");
 
 		// Omit Repetitions from Previous Years
 		// 2021 Compared to: 2021
-		for (var x in munros2021ColUnq) {
-		    for (var y in munros2020ColUnq) {
-			if (munros2021ColUnq[x] === munros2020ColUnq[y]) {
-			    munros2021ColUnq.splice(x, 1);
+		for (var x in subTwos2021ColUnq) {
+		    for (var y in subTwos2020ColUnq) {
+			if (subTwos2021ColUnq[x] === subTwos2020ColUnq[y]) {
+			    subTwos2021ColUnq.splice(x, 1);
 			}
 		    }
 		}
-		munros2021 = munros2021ColUnq.length;
-		munros2021Out.innerHTML = munros2021;
-		//munros2021Out.innerHTML = munros2021ColUnq.join("<br>");
+		subTwos2021 = subTwos2021ColUnq.length;
+		subTwos2021Out.innerHTML = subTwos2021;
+		//subTwos2021Out.innerHTML = subTwos2021ColUnq.join("<br>");
 		
-		munros2020 = munros2020ColUnq.length;
-		munros2020Out.innerHTML = munros2020;
-		//munros2020Out.innerHTML = munros2020ColUnq.join("<br>");
+		subTwos2020 = subTwos2020ColUnq.length;
+		subTwos2020Out.innerHTML = subTwos2020;
+		//subTwos2020Out.innerHTML = subTwos2020ColUnq.join("<br>");
 	    }
 	    */
+
+	    let donaldsTotalCol = [];
+	    let donalds2022Col = [];
+	    let donalds2021Col = [];
+	    let donalds2020Col = [];
+
+	    let donaldsTotalColUnq = [];
+	    let donalds2022ColUnq = [];
+	    let donalds2021ColUnq = [];
+	    let donalds2020ColUnq = [];
+
+	    let donaldsTotal = 0;
+	    let donalds2022 = 0;
+	    let donalds2021 = 0;
+	    let donalds2020 = 0;
+
+	    for (var i in events.hikes) {
+		if (events.hikes[i].subHike != null) {
+		    for (var k in events.hikes[i].donalds) {
+			donaldsTotalCol.push(events.hikes[i].donalds[k])
+		    }
+		    for (var k in events.hikes[i].subHike) {
+			for (var l in events.hikes[i].subHike[k].donalds) {
+			    donaldsTotalCol.push(events.hikes[i].subHike[k].donalds[l])
+			}
+		    }
+		} else {
+		    for (var k in events.hikes[i].donalds) {
+			donaldsTotalCol.push(events.hikes[i].donalds[k])
+		    }
+		}
+		donaldsTotalColUnq = [...new Set(donaldsTotalCol.sort())];
+		donaldsTotal = donaldsTotalColUnq.length;
+		donaldsTotalOut.innerHTML = donaldsTotal;
+		//donaldsTotalOut.innerHTML = donaldsTotalColUnq.join("<br>");
+
+		if (events.hikes[i].year === "2022") {
+		    if (events.hikes[i].subHike != null) {
+		        for (var k in events.hikes[i].donalds) {
+			    donalds2022Col.push(events.hikes[i].donalds[k])
+		        }
+		        for (var k in events.hikes[i].subHike) {
+			    for (var l in events.hikes[i].subHike[k].donalds) {
+			        donalds2022Col.push(events.hikes[i].subHike[k].donalds[l])
+			    }
+		        }
+		    } else {
+		        for (var k in events.hikes[i].donalds) {
+			    donalds2022Col.push(events.hikes[i].donalds[k])
+		        }
+		    }
+		    donalds2022ColUnq = [...new Set(donalds2022Col.sort())];
+		}
+
+		if (events.hikes[i].year === "2021") {
+		    if (events.hikes[i].subHike != null) {
+		        for (var k in events.hikes[i].donalds) {
+			    donalds2021Col.push(events.hikes[i].donalds[k])
+		        }
+		        for (var k in events.hikes[i].subHike) {
+			    for (var l in events.hikes[i].subHike[k].donalds) {
+			        donalds2021Col.push(events.hikes[i].subHike[k].donalds[l])
+			    }
+		        }
+		    } else {
+		        for (var k in events.hikes[i].donalds) {
+			    donalds2021Col.push(events.hikes[i].donalds[k])
+		        }
+		    }
+		    donalds2021ColUnq = [...new Set(donalds2021Col.sort())];
+		}
+
+		if (events.hikes[i].year === "2020") {
+		    if (events.hikes[i].subHike != null) {
+		        for (var k in events.hikes[i].donalds) {
+			    donalds2020Col.push(events.hikes[i].donalds[k])
+		        }
+		        for (var k in events.hikes[i].subHike) {
+			    for (var l in events.hikes[i].subHike[k].donalds) {
+			        donalds2020Col.push(events.hikes[i].subHike[k].donalds[l])
+			    }
+		        }
+		    } else {
+		        for (var k in events.hikes[i].donalds) {
+			    donalds2020Col.push(events.hikes[i].donalds[k])
+		        }
+		    }
+		    donalds2020ColUnq = [...new Set(donalds2020Col.sort())];
+		}
+
+		// Omit Repetitions from Previous Years
+		// 2022 Compared to: 2021, 2020
+		for (var x in donalds2022ColUnq) {
+		    for (var y in donalds2021ColUnq) {
+			if (donalds2022ColUnq[x] === donalds2021ColUnq[y]) {
+			    donalds2022ColUnq.splice(x, 1);
+			}
+		    }
+		    for (var y in donalds2020ColUnq) {
+			if (donalds2022ColUnq[x] === donalds2020ColUnq[y]) {
+			    donalds2022ColUnq.splice(x, 1);
+			}
+		    }
+		}
+		donalds2022 = donalds2022ColUnq.length;
+		donalds2022Out.innerHTML = donalds2022;
+		//donalds2022Out.innerHTML = donalds2022ColUnq.join("<br>");
+
+		// Omit Repetitions from Previous Years
+		// 2021 Compared to: 2021
+		for (var x in donalds2021ColUnq) {
+		    for (var y in donalds2020ColUnq) {
+			if (donalds2021ColUnq[x] === donalds2020ColUnq[y]) {
+			    donalds2021ColUnq.splice(x, 1);
+			}
+		    }
+		}
+		donalds2021 = donalds2021ColUnq.length;
+		donalds2021Out.innerHTML = donalds2021;
+		//donalds2021Out.innerHTML = donalds2021ColUnq.join("<br>");
+		
+		donalds2020 = donalds2020ColUnq.length;
+		donalds2020Out.innerHTML = donalds2020;
+		//donalds2020Out.innerHTML = donalds2020ColUnq.join("<br>");
+	    }
 	})
 }
 

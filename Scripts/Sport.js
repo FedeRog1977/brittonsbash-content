@@ -385,15 +385,13 @@ function setHike() {
 	    let grahams2020Out = document.getElementById("grahams2020");
 
 	    let subTwosTotalOut = document.getElementById("subTwosTotal");
-	    let subTwos2022Out = document.getElementById("subsTwo2022");
+	    let subTwos2022Out = document.getElementById("subTwos2022");
 	    let subTwos2021Out = document.getElementById("subTwos2021");
 	    let subTwos2020Out = document.getElementById("subTwos2020");
 
-	    let donaldsTotalOut = document.getElementById("donaldsTotalRoad");
-	    let donalds2022Out = document.getElementById("donalds2022Road");
-	    let donalds2021Out = document.getElementById("donalds2021Road");
-	    let donalds2020Out = document.getElementById("donalds2020Road");
-
+	    /*
+	     * Number of Hikes
+	     */
 	    let hikesTotal = events.hikes.length;
 	    let hikes2022 = 0;
 	    let hikes2021 = 0;
@@ -416,6 +414,9 @@ function setHike() {
 		}
 	    }
 	
+            /*
+	     * Distance Covered
+	     */
 	    let miTotalHike = 0;
 	    let mi2022Hike = 0;
 	    let mi2021Hike = 0;
@@ -469,6 +470,9 @@ function setHike() {
 		}
 	    }
 
+	    /*
+	     * Elevation Gained
+	     */
 	    let ftTotalHike = 0;
 	    let ft2022Hike = 0;
 	    let ft2021Hike = 0;
@@ -649,6 +653,9 @@ function setHike() {
 	    }
 	    */
 
+	    /*
+	     * Number of Munros
+	     */
 	    let munrosTotalCol = [];
 	    let munros2022Col = [];
 	    let munros2021Col = [];
@@ -774,6 +781,9 @@ function setHike() {
 		//munros2020Out.innerHTML = munros2020ColUnq.join("<br>");
 	    }
 
+	    /*
+	     * Number of Munro Tops
+	     */
 	    let munroTopsTotalCol = [];
 	    let munroTops2022Col = [];
 	    let munroTops2021Col = [];
@@ -899,6 +909,9 @@ function setHike() {
 		//munroTops2020Out.innerHTML = munroTops2020ColUnq.join("<br>");
 	    }
 
+	    /*
+	     * Number of Corbetts
+	     */
 	    let corbettsTotalCol = [];
 	    let corbetts2022Col = [];
 	    let corbetts2021Col = [];
@@ -1024,6 +1037,9 @@ function setHike() {
 		//corbetts2020Out.innerHTML = corbetts2020ColUnq.join("<br>");
 	    }
 
+	    /*
+	     * Number of Corbett Tops
+	     */
 	    let corbettTopsTotalCol = [];
 	    let corbettTops2022Col = [];
 	    let corbettTops2021Col = [];
@@ -1149,6 +1165,9 @@ function setHike() {
 		//corbettTops2020Out.innerHTML = corbettTops2020ColUnq.join("<br>");
 	    }
 
+	    /*
+	     * Number of Grahams
+	     */
 	    let grahamsTotalCol = [];
 	    let grahams2022Col = [];
 	    let grahams2021Col = [];
@@ -1275,6 +1294,8 @@ function setHike() {
 	    }
 
 	    /*
+	     * Number of Sub2000s 
+	     */
 	    let subTwosTotalCol = [];
 	    let subTwos2022Col = [];
 	    let subTwos2021Col = [];
@@ -1398,132 +1419,6 @@ function setHike() {
 		subTwos2020 = subTwos2020ColUnq.length;
 		subTwos2020Out.innerHTML = subTwos2020;
 		//subTwos2020Out.innerHTML = subTwos2020ColUnq.join("<br>");
-	    }
-	    */
-
-	    let donaldsTotalCol = [];
-	    let donalds2022Col = [];
-	    let donalds2021Col = [];
-	    let donalds2020Col = [];
-
-	    let donaldsTotalColUnq = [];
-	    let donalds2022ColUnq = [];
-	    let donalds2021ColUnq = [];
-	    let donalds2020ColUnq = [];
-
-	    let donaldsTotal = 0;
-	    let donalds2022 = 0;
-	    let donalds2021 = 0;
-	    let donalds2020 = 0;
-
-	    for (var i in events.hikes) {
-		if (events.hikes[i].subHike != null) {
-		    for (var k in events.hikes[i].donalds) {
-			donaldsTotalCol.push(events.hikes[i].donalds[k])
-		    }
-		    for (var k in events.hikes[i].subHike) {
-			for (var l in events.hikes[i].subHike[k].donalds) {
-			    donaldsTotalCol.push(events.hikes[i].subHike[k].donalds[l])
-			}
-		    }
-		} else {
-		    for (var k in events.hikes[i].donalds) {
-			donaldsTotalCol.push(events.hikes[i].donalds[k])
-		    }
-		}
-		donaldsTotalColUnq = [...new Set(donaldsTotalCol.sort())];
-		donaldsTotal = donaldsTotalColUnq.length;
-		donaldsTotalOut.innerHTML = donaldsTotal;
-		//donaldsTotalOut.innerHTML = donaldsTotalColUnq.join("<br>");
-
-		if (events.hikes[i].year === "2022") {
-		    if (events.hikes[i].subHike != null) {
-		        for (var k in events.hikes[i].donalds) {
-			    donalds2022Col.push(events.hikes[i].donalds[k])
-		        }
-		        for (var k in events.hikes[i].subHike) {
-			    for (var l in events.hikes[i].subHike[k].donalds) {
-			        donalds2022Col.push(events.hikes[i].subHike[k].donalds[l])
-			    }
-		        }
-		    } else {
-		        for (var k in events.hikes[i].donalds) {
-			    donalds2022Col.push(events.hikes[i].donalds[k])
-		        }
-		    }
-		    donalds2022ColUnq = [...new Set(donalds2022Col.sort())];
-		}
-
-		if (events.hikes[i].year === "2021") {
-		    if (events.hikes[i].subHike != null) {
-		        for (var k in events.hikes[i].donalds) {
-			    donalds2021Col.push(events.hikes[i].donalds[k])
-		        }
-		        for (var k in events.hikes[i].subHike) {
-			    for (var l in events.hikes[i].subHike[k].donalds) {
-			        donalds2021Col.push(events.hikes[i].subHike[k].donalds[l])
-			    }
-		        }
-		    } else {
-		        for (var k in events.hikes[i].donalds) {
-			    donalds2021Col.push(events.hikes[i].donalds[k])
-		        }
-		    }
-		    donalds2021ColUnq = [...new Set(donalds2021Col.sort())];
-		}
-
-		if (events.hikes[i].year === "2020") {
-		    if (events.hikes[i].subHike != null) {
-		        for (var k in events.hikes[i].donalds) {
-			    donalds2020Col.push(events.hikes[i].donalds[k])
-		        }
-		        for (var k in events.hikes[i].subHike) {
-			    for (var l in events.hikes[i].subHike[k].donalds) {
-			        donalds2020Col.push(events.hikes[i].subHike[k].donalds[l])
-			    }
-		        }
-		    } else {
-		        for (var k in events.hikes[i].donalds) {
-			    donalds2020Col.push(events.hikes[i].donalds[k])
-		        }
-		    }
-		    donalds2020ColUnq = [...new Set(donalds2020Col.sort())];
-		}
-
-		// Omit Repetitions from Previous Years
-		// 2022 Compared to: 2021, 2020
-		for (var x in donalds2022ColUnq) {
-		    for (var y in donalds2021ColUnq) {
-			if (donalds2022ColUnq[x] === donalds2021ColUnq[y]) {
-			    donalds2022ColUnq.splice(x, 1);
-			}
-		    }
-		    for (var y in donalds2020ColUnq) {
-			if (donalds2022ColUnq[x] === donalds2020ColUnq[y]) {
-			    donalds2022ColUnq.splice(x, 1);
-			}
-		    }
-		}
-		donalds2022 = donalds2022ColUnq.length;
-		donalds2022Out.innerHTML = donalds2022;
-		//donalds2022Out.innerHTML = donalds2022ColUnq.join("<br>");
-
-		// Omit Repetitions from Previous Years
-		// 2021 Compared to: 2021
-		for (var x in donalds2021ColUnq) {
-		    for (var y in donalds2020ColUnq) {
-			if (donalds2021ColUnq[x] === donalds2020ColUnq[y]) {
-			    donalds2021ColUnq.splice(x, 1);
-			}
-		    }
-		}
-		donalds2021 = donalds2021ColUnq.length;
-		donalds2021Out.innerHTML = donalds2021;
-		//donalds2021Out.innerHTML = donalds2021ColUnq.join("<br>");
-		
-		donalds2020 = donalds2020ColUnq.length;
-		donalds2020Out.innerHTML = donalds2020;
-		//donalds2020Out.innerHTML = donalds2020ColUnq.join("<br>");
 	    }
 	})
 }

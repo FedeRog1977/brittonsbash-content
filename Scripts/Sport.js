@@ -56,6 +56,12 @@ function setRoadie() {
 	    let thall2021Out = document.getElementById("thall2021Road");
 	    let thall2020Out = document.getElementById("thall2020Road");
 
+	    let longestRideOut = document.getElementById("longestRide");
+	    let highestRideOut = document.getElementById("highestRide");
+
+	    /*
+	     * Number of Ranking Points
+	     */
 	    let ptsTotal = 0;
 	    let pts2022 = 0;
 	    let pts2021 = 0;
@@ -63,6 +69,9 @@ function setRoadie() {
 
 	    //...
 	    
+	    /*
+	     * Number of Rides
+	     */
 	    let ridesTotal = events.roadies.length;
 	    let rides2022 = 0;
 	    let rides2021 = 0;
@@ -85,6 +94,9 @@ function setRoadie() {
 		}
 	    }
 
+	    /*
+	     * Distance Covered
+	     */
 	    let miTotalRoad = 0;
 	    let mi2022Road = 0;
 	    let mi2021Road = 0;
@@ -107,6 +119,9 @@ function setRoadie() {
 		}
 	    }
 
+	    /*
+	     * Elevation Gained
+	     */
 	    let ftTotalRoad = 0;
 	    let ft2022Road = 0;
 	    let ft2021Road = 0;
@@ -129,6 +144,9 @@ function setRoadie() {
 		}
 	    }
 
+	    /*
+	     * Number of Centuries
+	     */
 	    let centTotal = 0;
 	    let cent2022 = 0;
 	    let cent2021 = 0;
@@ -162,6 +180,9 @@ function setRoadie() {
 		}
 	    }
 
+	    /*
+	     * Number of Srathavens
+	     */
 	    let stravTotal = 0;
 	    let strav2022 = 0;
 	    let strav2021 = 0;
@@ -195,6 +216,9 @@ function setRoadie() {
 		}
 	    }
 
+	    /*
+	     * Number of Fenwick / Wind Farms
+	     */
 	    let fenwindTotal = 0;
 	    let fenwind2022 = 0;
 	    let fenwind2021 = 0;
@@ -228,6 +252,9 @@ function setRoadie() {
 		}
 	    }
 
+	    /*
+	     * Number of Fenwicks
+	     */
 	    let fenTotal = 0;
 	    let fen2022 = 0;
 	    let fen2021 = 0;
@@ -261,6 +288,9 @@ function setRoadie() {
 		}
 	    }
 
+	    /*
+	     * Number of Wind Farms
+	     */
 	    let windTotal = 0;
 	    let wind2022 = 0;
 	    let wind2021 = 0;
@@ -294,6 +324,9 @@ function setRoadie() {
 		}
 	    }
 
+	    /*
+	     * Number of Thorntonhalls
+	     */
 	    let thallTotal = 0;
 	    let thall2022 = 0;
 	    let thall2021 = 0;
@@ -326,6 +359,20 @@ function setRoadie() {
 		    thall2020Out.innerHTML = thall2020;
 		}
 	    }
+
+            /*
+	     * Longest and Most Climbed Ride
+	     */
+	    let distances = [];
+	    let elevations = [];
+
+	    for (var i in events.roadies) {
+		distances.push(events.roadies[i].dist);
+		elevations.push(events.roadies[i].elev);
+	    }
+
+	    longestRideOut.innerHTML = Math.max(... distances).toLocaleString("en-US") + "mi";
+	    highestRideOut.innerHTML = Math.max(... elevations).toLocaleString("en-US") + "ft";
 	})
 }
 
@@ -388,6 +435,9 @@ function setHike() {
 	    let subTwos2022Out = document.getElementById("subTwos2022");
 	    let subTwos2021Out = document.getElementById("subTwos2021");
 	    let subTwos2020Out = document.getElementById("subTwos2020");
+
+	    let longestHikeOut = document.getElementById("longestHike");
+	    let highestHikeOut = document.getElementById("highestHike");
 
 	    /*
 	     * Number of Hikes
@@ -527,6 +577,8 @@ function setHike() {
 	    }
 
 	    /*
+	     * Number of Islands
+	     */
 	    let islandsTotalCol = [];
 	    let islands2022Col = [];
 	    let islands2021Col = [];
@@ -651,7 +703,6 @@ function setHike() {
 		islands2020Out.innerHTML = islands2020;
 		//islands2020Out.innerHTML = islands2020ColUnq.join("<br>");
 	    }
-	    */
 
 	    /*
 	     * Number of Munros
@@ -1420,7 +1471,222 @@ function setHike() {
 		subTwos2020Out.innerHTML = subTwos2020;
 		//subTwos2020Out.innerHTML = subTwos2020ColUnq.join("<br>");
 	    }
+
+            /*
+	     * Longest and Most Climbed Hike
+	     */
+	    let distances = [];
+	    let elevations = [];
+
+	    for (var i in events.hikes) {
+		distances.push(events.hikes[i].dist);
+		elevations.push(events.hikes[i].elev);
+		for (var k in events.hikes[i].subHike) {
+		    distances.push(events.hikes[i].subHike[k].dist);
+		    elevations.push(events.hikes[i].subHike[k].elev);
+		}
+	    }
+
+	    longestHikeOut.innerHTML = Math.max(... distances).toLocaleString("en-US") + "mi";
+	    highestHikeOut.innerHTML = Math.max(... elevations).toLocaleString("en-US") + "ft";
 	})
 }
 
 setHike();
+
+function setWalk() {
+    fetch(events)
+        .then((resp) => {
+	    return resp.json();
+	})
+	.then((data) => {
+	    const events = data;
+
+	    let walksTotalOut = document.getElementById("walksTotal");
+	    let walks2022Out = document.getElementById("walks2022");
+	    let walks2021Out = document.getElementById("walks2021");
+	    let walks2020Out = document.getElementById("walks2020");
+
+	    let miTotalWalkOut = document.getElementById("miTotalWalk");
+	    let mi2022WalkOut = document.getElementById("mi2022Walk");
+	    let mi2021WalkOut = document.getElementById("mi2021Walk");
+	    let mi2020WalkOut = document.getElementById("mi2020Walk");
+
+	    let ftTotalWalkOut = document.getElementById("ftTotalWalk");
+	    let ft2022WalkOut = document.getElementById("ft2022Walk");
+	    let ft2021WalkOut = document.getElementById("ft2021Walk");
+	    let ft2020WalkOut = document.getElementById("ft2020Walk");
+
+	    let thallTotalOut = document.getElementById("thallTotalWalk");
+	    let thall2022Out = document.getElementById("thall2022Walk");
+	    let thall2021Out = document.getElementById("thall2021Walk");
+	    let thall2020Out = document.getElementById("thall2020Walk");
+
+	    let footTotalOut = document.getElementById("footTotal");
+	    let foot2022Out = document.getElementById("foot2022");
+	    let foot2021Out = document.getElementById("foot2021");
+	    let foot2020Out = document.getElementById("foot2020");
+
+	    let longestWalkOut = document.getElementById("longestWalk");
+
+	    /*
+	     * Number of Walks
+	     */
+	    let walksTotal = events.walks.length;
+	    let walks2022 = 0;
+	    let walks2021 = 0;
+	    let walks2020 = 0;
+
+	    walksTotalOut.innerHTML = walksTotal;
+
+	    for (var i in events.walks) {
+	        if (events.walks[i].year === "2022") {
+		    walks2022 = walks2022 + 1;
+		    walks2022Out.innerHTML = walks2022;
+		}
+	        if (events.walks[i].year === "2021") {
+		    walks2021 = walks2021 + 1;
+		    walks2021Out.innerHTML = walks2021;
+		}
+	        if (events.walks[i].year === "2020") {
+		    walks2020 = walks2020 + 1;
+		    walks2020Out.innerHTML = walks2020;
+		}
+	    }
+	
+	    /*
+	     * Distance Covered
+	     */
+	    let miTotalWalk = 0;
+	    let mi2022Walk = 0;
+	    let mi2021Walk = 0;
+	    let mi2020Walk = 0;
+
+	    for (var i in events.walks) {
+		miTotalWalk = miTotalWalk + events.walks[i].dist;
+		miTotalWalkOut.innerHTML = miTotalWalk.toLocaleString("en-US") + "mi";
+		if (events.walks[i].year === "2022") {
+		    mi2022Walk = mi2022Walk + events.walks[i].dist;
+		    mi2022WalkOut.innerHTML = mi2022Walk.toLocaleString("en-US") + "mi";
+		}
+		if (events.walks[i].year === "2021") {
+		    mi2021Walk = mi2021Walk + events.walks[i].dist;
+		    mi2021WalkOut.innerHTML = mi2021Walk.toLocaleString("en-US") + "mi";
+		}
+		if (events.walks[i].year === "2020") {
+		    mi2020Walk = mi2020Walk + events.walks[i].dist;
+		    mi2020WalkOut.innerHTML = mi2020Walk.toLocaleString("en-US") + "mi";
+		}
+	    }
+
+	    /*
+	     * Elevation Gained
+	     */
+	    let ftTotalWalk = 0;
+	    let ft2022Walk = 0;
+	    let ft2021Walk = 0;
+	    let ft2020Walk = 0;
+
+	    for (var i in events.walks) {
+		ftTotalWalk = ftTotalWalk + events.walks[i].elev;
+		ftTotalWalkOut.innerHTML = ftTotalWalk.toLocaleString("en-US") + "ft";
+		if (events.walks[i].year === "2022") {
+		    ft2022Walk = ft2022Walk + events.walks[i].elev;
+		    ft2022WalkOut.innerHTML = ft2022Walk.toLocaleString("en-US") + "ft";
+		}
+		if (events.walks[i].year === "2021") {
+		    ft2021Walk = ft2021Walk + events.walks[i].elev;
+		    ft2021WalkOut.innerHTML = ft2021Walk.toLocaleString("en-US") + "ft";
+		}
+		if (events.walks[i].year === "2020") {
+		    ft2020Walk = ft2020Walk + events.walks[i].elev;
+		    ft2020WalkOut.innerHTML = ft2020Walk.toLocaleString("en-US") + "ft";
+		}
+	    }
+
+	    /*
+	     * Number of Thorntonhalls
+	     */
+	    let thallTotal = 0;
+	    let thall2022 = 0;
+	    let thall2021 = 0;
+	    let thall2020 = 0;
+
+	    for (var i in events.walks) {
+		if (events.walks[i].route === "thorntonhall") {
+		    thallTotal = thallTotal + 1;
+		    thallTotalOut.innerHTML = thallTotal;
+		    if (events.walks[i].year === "2022") {
+			thall2022 = thall2022 + 1;
+			thall2022Out.innerHTML = thall2022;
+		    }
+		    if (events.walks[i].year === "2021") {
+			thall2021 = thall2021 + 1;
+			thall2021Out.innerHTML = thall2021;
+		    }
+		    if (events.walks[i].year === "2020") {
+			thall2020 = thall2020 + 1;
+			thall2020Out.innerHTML = thall2020;
+		    }
+		} else {
+		    thallTotal = thallTotal;
+		    thall2022 = thall2022;
+		    thall2021 = thall2021;
+		    thall2020 = thall2020;
+		    thallTotalOut.innerHTML = thallTotal;
+		    thall2022Out.innerHTML = thall2022;
+		    thall2021Out.innerHTML = thall2021;
+		    thall2020Out.innerHTML = thall2020;
+		}
+	    }
+
+	    /*
+	     * Number of Waterfoots
+	     */
+	    let footTotal = 0;
+	    let foot2022 = 0;
+	    let foot2021 = 0;
+	    let foot2020 = 0;
+
+	    for (var i in events.walks) {
+		if (events.walks[i].route === "waterfoot") {
+		    footTotal = footTotal + 1;
+		    footTotalOut.innerHTML = footTotal;
+		    if (events.walks[i].year === "2022") {
+			foot2022 = foot2022 + 1;
+			foot2022Out.innerHTML = foot2022;
+		    }
+		    if (events.walks[i].year === "2021") {
+			foot2021 = foot2021 + 1;
+			foot2021Out.innerHTML = foot2021;
+		    }
+		    if (events.walks[i].year === "2020") {
+			foot2020 = foot2020 + 1;
+			foot2020Out.innerHTML = foot2020;
+		    }
+		} else {
+		    footTotal = footTotal;
+		    foot2022 = foot2022;
+		    foot2021 = foot2021;
+		    foot2020 = foot2020;
+		    footTotalOut.innerHTML = footTotal;
+		    foot2022Out.innerHTML = foot2022;
+		    foot2021Out.innerHTML = foot2021;
+		    foot2020Out.innerHTML = foot2020;
+		}
+	    }
+
+            /*
+	     * Longest Walk
+	     */
+	    let distances = [];
+
+	    for (var i in events.walks) {
+		distances.push(events.walks[i].dist);
+	    }
+
+	    longestWalkOut.innerHTML = Math.max(... distances).toLocaleString("en-US") + "mi";
+	})
+}
+
+setWalk();

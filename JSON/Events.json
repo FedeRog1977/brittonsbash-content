@@ -2438,6 +2438,24 @@
 	    "year": "2021"
         },
         {
+	    "id": "Tinto",
+	    "dist": 4.25,
+	    "elev": 1594,
+	    "time": "1:56:32",
+	    "companionship": 1,
+	    "munros": [],
+	    "munroTops": [],
+	    "corbetts": [],
+	    "corbettTops": [],
+	    "grahams": [
+		"Tinto"
+	    ],
+	    "subTwos": [],
+	    "donalds": [],
+	    "subHike": [],
+	    "year": "2021"
+        },
+        {
 	    "id": "beinndonich",
 	    "dist": 5.01,
 	    "elev": 1810,

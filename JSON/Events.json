@@ -1187,6 +1187,25 @@
     ],
     "hikes": [
         {
+	    "id": "lombard",
+	    "dist": 10.31,
+	    "elev": 1608,
+	    "time": "3:08:17",
+	    "companionship": 1,
+	    "islands": [],
+	    "munros": [],
+	    "munroTops": [],
+	    "corbetts": [],
+	    "corbettTops": [],
+	    "grahams": [],
+	    "subTwos": [
+		"Meall Luidh Mor"
+	    ],
+	    "donalds": [],
+	    "subHike": [],
+	    "year": "2022"
+        },
+        {
 	    "id": "learn",
 	    "dist": 10.19,
 	    "elev": 3858,

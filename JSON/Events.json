@@ -2721,6 +2721,14 @@
     "walks": [
         {
 	    "id": "",
+	    "route": "waterfoot",
+	    "dist": 10.02,
+	    "elev": 604,
+	    "time": "2:17:52",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
 	    "route": "other",
 	    "dist": 5.61,
 	    "elev": 351,

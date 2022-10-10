@@ -584,6 +584,10 @@ code {
 	padding: 0.5em 1.25em 0.5em 1.25em;
 }
 
+	.col-smallcaps {
+		font-variant: small-caps;
+	}
+
 	.active, .collapsible:hover {
 		background-color: var(--drop-bar-hover);
 		color: var(--font);

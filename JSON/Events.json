@@ -1187,6 +1187,25 @@
     ],
     "hikes": [
         {
+	    "id": "sonslovers",
+	    "dist": 4.55,
+	    "elev": 2539,
+	    "time": "1:51:13",
+	    "companionship": 0,
+	    "islands": [],
+	    "munros": [
+		"Cairn Gorm"
+	    ],
+	    "munroTops": [],
+	    "corbetts": [],
+	    "corbettTops": [],
+	    "grahams": [],
+	    "subTwos": [],
+	    "donalds": [],
+	    "subHike": [],
+	    "year": "2022"
+        },
+        {
 	    "id": "beinnengland2",
 	    "dist": 18.47,
 	    "elev": 3350,
@@ -2719,6 +2738,30 @@
 
     ],
     "walks": [
+        {
+	    "id": "",
+	    "route": "other",
+	    "dist": 5.32,
+	    "elev": 279,
+	    "time": "1:17:03",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "other",
+	    "dist": 3.55,
+	    "elev": 177,
+	    "time": "53:52",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "other",
+	    "dist": 10.11,
+	    "elev": 259,
+	    "time": "2:30:14",
+	    "year": "2022"
+        },
         {
 	    "id": "",
 	    "route": "waterfoot",

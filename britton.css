@@ -570,7 +570,6 @@ code {
 
 .collapsible {
 	font-family: CMU-Serif;
-	/*font-family: Garamond-Serif;*/ 
 	font-size: 16px;
 	text-align: center;
 	background-color: var(--bg);
@@ -620,7 +619,6 @@ code {
 
 	.collapsible-boxset-item {
 		font-family: CMU-Serif;
-		/*font-family: Garamond-Serif; */
 		font-size: 16px;
 		text-align: center;
 		background-color: var(--bg);
@@ -683,9 +681,7 @@ code {
 /* Text Preceding Main Bodies */
 
 .pretext {
-	/*border: 1px solid black;*/
 	font-family: CMU-Serif;
-	/*font-family: Garamond-Serif;*/ 
 	text-align: center;
 	color: var(--font);
 	margin: 1.25em 12.5% 1.25em 12.5%;

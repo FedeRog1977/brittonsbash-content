@@ -1187,6 +1187,23 @@
     ],
     "hikes": [
         {
+	    "id": "recess",
+	    "dist": 3.91,
+	    "elev": 2178,
+	    "time": "1:36:31",
+	    "companionship": 0,
+	    "islands": [],
+	    "munros": [],
+	    "munroTops": [],
+	    "corbetts": [],
+	    "corbettTops": [],
+	    "grahams": [],
+	    "subTwos": [],
+	    "donalds": [],
+	    "subHike": [],
+	    "year": "2022"
+        },
+        {
 	    "id": "sonslovers",
 	    "dist": 4.55,
 	    "elev": 2539,
@@ -2738,6 +2755,14 @@
 
     ],
     "walks": [
+        {
+	    "id": "",
+	    "route": "waterfoot",
+	    "dist": 551,
+	    "elev": 10.06,
+	    "time": "2:20:30",
+	    "year": "2022"
+        },
         {
 	    "id": "",
 	    "route": "other",

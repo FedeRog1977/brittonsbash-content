@@ -1187,6 +1187,26 @@
     ],
     "hikes": [
         {
+	    "id": "vault",
+	    "dist": 12.01,
+	    "elev": 4367,
+	    "time": "5:00:52",
+	    "companionship": 0,
+	    "islands": [],
+	    "munros": [
+		"Beinn Teallach",
+		"Beinn a&rsquo; Chaorainn (Glen Spean)"
+	    ],
+	    "munroTops": [],
+	    "corbetts": [],
+	    "corbettTops": [],
+	    "grahams": [],
+	    "subTwos": [],
+	    "donalds": [],
+	    "subHike": [],
+	    "year": "2022"
+        },
+        {
 	    "id": "recess",
 	    "dist": 3.91,
 	    "elev": 2178,

@@ -2778,6 +2778,14 @@
         {
 	    "id": "",
 	    "route": "waterfoot",
+	    "dist": 564,
+	    "elev": 10.00,
+	    "time": "2:24:50",
+	    "year": "2022"
+        },
+        {
+	    "id": "",
+	    "route": "waterfoot",
 	    "dist": 551,
 	    "elev": 10.06,
 	    "time": "2:20:30",

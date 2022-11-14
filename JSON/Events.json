@@ -1187,11 +1187,31 @@
     ],
     "hikes": [
         {
+	    "id": "kino",
+	    "dist": 9.57,
+	    "elev": 4892,
+	    "time": "4:26:14",
+	    "companionship": 1,
+	    "islands": [],
+	    "munros": [
+		"Binnein M&ograve;r",
+		"Na Gruagaichean"
+	    ],
+	    "munroTops": [],
+	    "corbetts": [],
+	    "corbettTops": [],
+	    "grahams": [],
+	    "subTwos": [],
+	    "donalds": [],
+	    "subHike": [],
+	    "year": "2022"
+        },
+        {
 	    "id": "vault",
 	    "dist": 12.01,
 	    "elev": 4367,
 	    "time": "5:00:52",
-	    "companionship": 0,
+	    "companionship": 1,
 	    "islands": [],
 	    "munros": [
 		"Beinn Teallach",

@@ -1,22 +1,3 @@
-/* Color Legend */
-
-/*
-black: #000000;
-light-grey: #F5F5F5;
-white: #FFFFFF;
-grey: #232323;
-ink-blue: #483D8B;
-royal-blue: #5576D1;
-navy-blue: #002366;
-miami-blue: #96B9EE;
-coral: #FD5E53;
-bordeaux: #800020;
-elderflower tea: #FBEACF;
-
-	--miami: linear-gradient(to bottom,rgba(250,125,0,0.25),rgba(250,145,230,0.25));
-	--miami-solid: linear-gradient(to bottom,rgba(250,125,0,1),rgba(220,60,100,1));
-*/
-
 /* Variables */
 
 :root {

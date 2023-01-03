@@ -2806,6 +2806,14 @@
         {
 	    "id": "",
 	    "route": "waterfoot",
+	    "dist": 10.03,
+	    "elev": 571,
+	    "time": "2:23:18",
+	    "year": "2023"
+        },
+        {
+	    "id": "",
+	    "route": "waterfoot",
 	    "dist": 10.26,
 	    "elev": 636,
 	    "time": "2:36:17",

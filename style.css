@@ -6,6 +6,15 @@ body {
   margin: 50px 250px 50px 250px;
 }
 
+header {
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
 h1,
 h2,
 h3,

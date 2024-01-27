@@ -1,0 +1,566 @@
+\documentclass[11pt, english]{article}
+        \usepackage{geometry}
+                \geometry{
+                        a4paper,total={210mm,297mm},
+                        tmargin=20mm,
+                        bmargin=20mm,
+                        lmargin=20mm,
+                        rmargin=20mm,
+                }
+
+	\usepackage{titlesec}
+                \titleformat{\section}
+                        {\normalfont\fontsize{18}{16}\bfseries}{\thesection}{0.5em}{}
+                \titleformat{\subsection}
+                        {\normalfont\fontsize{14}{16}\bfseries}{\thesubsection}{1em}{}
+                \titleformat{\subsubsection}
+                        {\normalfont\fontsize{11}{16}\bfseries}{\thesubsubsection}{1em}{}
+
+	\usepackage{float}
+
+	\usepackage{longtable}
+        \usepackage{multirow}
+
+	\usepackage{caption}
+                \captionsetup[table]{labelfont=bf,textfont=bf,font=small,skip=8pt}
+                \captionsetup[figure]{labelfont=bf,textfont=bf,font=small,skip=8pt}
+        \usepackage{subcaption}
+                \captionsetup[subtable]{labelfont=rm,textfont=rm,font=small,skip=8pt,labelformat=parens,labelsep=space}
+                \captionsetup[subfigure]{labelfont=rm,textfont=rm,font=small,skip=8pt,labelformat=parens,labelsep=space}
+
+	\renewcommand{\thetable}
+                {\thesection.\arabic{table}}                                                         
+	\renewcommand{\thesubtable}
+                {\roman{subtable}}
+
+	\renewcommand{\thefigure}
+                {\thesection.\arabic{figure}}
+        \renewcommand{\thesubfigure}
+                {\roman{subfigure}}
+
+        \usepackage{hyperref}
+                \hypersetup{
+                        colorlinks=true,
+                        linkcolor=black,
+                        filecolor=magenta,
+                        urlcolor=cyan,
+                        }
+
+        \setlength{\parindent}{0pt}
+        \renewcommand{\baselinestretch}{1.25}
+        \usepackage{setspace}
+
+        \usepackage{amsmath}
+        \usepackage{amssymb}
+
+	\usepackage{graphicx}
+
+	\usepackage[utf8]{inputenc}
+	\usepackage[T1]{fontenc}
+
+\begin{document}
+
+%\pagenumbering{gobble}
+%
+%	\title{\textsc{CS990 Database Fundamentals\\ Coursework Assignment 2}}
+%	\author{\textsc{Lewis Britton}}
+%	\date{\textsc{Academic Year 2021/2022}}
+%	\maketitle
+%
+%\newpage
+%
+%\pagenumbering{roman}
+%
+%	\renewcommand{\contentsname}{Table of Contents}
+%
+%	\tableofcontents
+%
+%\newpage
+%
+\pagenumbering{arabic}
+
+%\section*{The Task}
+%
+%	\subsection*{Requirements}
+%
+%	\begin{enumerate}
+%	\setlength\itemsep{0cm}
+%		\item Logical Design (15\%)
+%		\begin{itemize}
+%			\item Attributes and primary keys
+%		\end{itemize}
+%		\item SQL: Table Construction (25\%)
+%		\begin{itemize}
+%			\item Create statements
+%			\item Oracle feedback
+%		\end{itemize}
+%		\item SQL: Table Population (15\%)
+%		\begin{itemize}
+%			\item Insert statements (small data sample)
+%			\item Oracle feedback
+%		\end{itemize}
+%		\item SQL: Queries (20\%)
+%		\begin{itemize}
+%			\item Section 9 (a--e)
+%			\item Results
+%			\item (a--c) include narrative
+%		\end{itemize}
+%		\item Design \& Implementation Critique (20\%)
+%		\item Formatting standards (5\%)
+%	\end{enumerate}
+%
+%\newpage
+%
+\section{Logical Design}
+
+	\subsection{Subtype Representation}
+
+%	In this section, there are three options for managing the super/sub-type (parent/child) tables: [1] tables could be created for all N entities (three, in this case) and share a primary key from the parent as foreign keys in child tables; [2] N tables for N subtypes (2, in this case) could be created, pushing data from the parent table to correspond; or [3], all data could be contained within one table where attributes such as TeachID and TechNo are aggregated and standardized as Esnum.\\
+%
+%	The goal of course, to minimise N tables, minimise null values, and minimise repeating data. Option 1 works well for minimising repeating data as, for example, Ename, Ephone, StartingDate do not have to be pushed down the tree to Teacher and Technician. However it leaves a large network of tables/relationships. Option 2 works well for effectively reducing the number of tables however there would be repeating columns (of course, different values). This option does make querying teachers and technicians faster and easier though. Option 3 is ineffective as it would contain too many null values of, for example, Qualification, Grade, TechNo, Lectures, and ContentHours upon the adjacent attribute.\\
+%
+%	I have therefore elected use of option 2 in this case. Thus, Teachers and Technicians will remain two separate tables which will recieve the attributes: Ename, Ephone, and StartingDate from Staff. There will be no Staff table. Esnum is therefore removed as the potential primary key, with pirmary keys being \underline{TeachID} and \underline{TechNo}. The downfall to this is not being able to identify all staff members under one unique attribute. Furthermore, an identical process is repeated upon Module and its sub-types.
+%
+		\subsubsection{Staff Tables}
+
+	\begin{center}
+		\texttt{STAFF(\underline{Esnum},Ephone,StartingDate)}; \texttt{TEACHER(\underline{TeachID},Qualification,Grade)}; \texttt{TECHNICIAN(\underline{TechNo})}
+	\end{center}
+
+	$$\therefore\left.\begin{array}{r}
+		\mathrm{Staff\ (Parent)}\\
+		\mathrm{Teacher\ (Child)}\\
+		\mathrm{Technician\ (Child)}
+	\end{array}\right\}
+	\begin{array}{l}
+		\mathtt{TEACHER(\underline{TeachID}, Ename, Ephone, StartingDate, Qualification, Grade)}\\
+		\mathtt{TECHNICIAN(\underline{TechNo}, Ename, Ephone, StartingDate)}
+	\end{array}$$
+
+		\subsubsection{Module Tables}
+
+	\begin{center}
+		\texttt{MODULE(\underline{ModCode},Title,Credits)}; \texttt{INPERSON(\underline{PID},Lectures)}; \texttt{ONLINE(\underline{OID},ContentHours)}
+	\end{center}
+	
+	$$\therefore\left.\begin{array}{r}
+		\mathrm{Module\ (Parent)}\\
+		\mathrm{InPerson\ (Child)}\\
+		\mathrm{OnLine\ (Child)}
+	\end{array}\right\}
+	\begin{array}{l}
+		\mathtt{INPERSON(\underline{PID}, Title, Credits, Lectures)}\\
+		\mathtt{ONLINE(\underline{OID}, Title, Credits, ContentHours)}
+	\end{array}$$
+
+	\subsection{Relationship Representation}
+
+%	Using the rules listed in the optionality-degree correspondence table, the following conclusions are drawn based upon entitiy relationship tables:
+%
+	\begin{enumerate}
+	\setlength\itemsep{0cm}
+		\item \textbf{PresentedBy} (Module, Teacher): all attributes to existing table
+%		\begin{itemize}
+%			\item Both module tables (InPerson and OnLine) recieve TeachID
+%		\end{itemize}
+		\item \textbf{References} (InPerson, OnLine): new table for relationship
+%		\begin{itemize}
+%			\item New table for References relationship
+%			\item As an online course is never referenced by more than one in-person course, therefore OID values will only appear once. In-person courses may appear multiple times as they reference ``one or more'' online courses
+%		\end{itemize}
+		\item \textbf{TaughtIn} (InPerson, Room): identifier of `one' table to `many' table
+%		\begin{itemize}
+%			\item RoomNumber from Room table added to InPerson table
+%			\item One room may be used for many in-person courses so it's useless to include a PID in the Room table
+%		\end{itemize}
+		\item \textbf{Supervises} (Technician, Technician): new table for relationship
+%		\begin{itemize}
+%			\item New table for Supervises relationship
+%			\item As a technician is never supervised by more than one other technician, therefore TechNo's values of the \textbf{supervised} technicians will only appear once. A \textbf{supervising} technician may appear more than once
+%			\item Must be given meaningful column headings to differentiate between a supervising technician and a supervised technician
+%		\end{itemize}
+	\end{enumerate}
+
+	\subsection{Final Tables}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item \texttt{TEACHER(\underline{TeachID}, Ename, Ephone, StartingDate, Qualification, Grade)}
+		\item \texttt{TECHNICIAN(\underline{TechNo}, Ename, Ephone, StartingDate)}
+		\item \texttt{INPERSON(\underline{PID}, Title, Credits, Lectures, TeachID$\mathrm{^1}$, RoomNumber$\mathrm{^3}$)}
+		\item \texttt{ONLINE(\underline{OID}, Title, Credits, ContentHours, TeachID$\mathrm{^1}$)}
+		\item \texttt{ROOM(\underline{RoomNumber}, Seats, DataProjector)}
+		\item \texttt{MODULE\_REF(OID, PID)$\mathrm{^2}$}
+		\item \texttt{SUPERVISION(TechNo, TechNo)$\mathrm{^4}$}
+	\end{itemize}
+
+\newpage
+
+\section{SQL: Table Construction}
+
+	{\scriptsize\begin{verbatim}
+	CREATE TABLE teacher (
+        	tr_id           CHAR(3) CONSTRAINT pk_trid PRIMARY KEY,
+        	tr_name         VARCHAR(20),
+        	tr_phone        CHAR(11) CONSTRAINT tr_phone_valid CHECK (tr_phone NOT LIKE '%[^0-9]%'),
+        	tr_start_date   DATE,
+        	qualification   VARCHAR(20),
+        	grade           VARCHAR(10)
+	);
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	CREATE TABLE technician (
+        	tn_id           CHAR(3) CONSTRAINT pk_tnid PRIMARY KEY,
+        	tn_name         VARCHAR(20),
+        	tn_phone        CHAR(11) CONSTRAINT tn_phone_valid CHECK (tn_phone NOT LIKE '%[^0-9]%'),
+        	tn_start_date   DATE
+	);
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	CREATE TABLE in_person (
+  	      p_id            CHAR(5) CONSTRAINT pk_pid PRIMARY KEY,
+  	      p_title         VARCHAR(20),
+  	      p_credits       NUMBER(3),
+  	      nlectures       VARCHAR(2),
+  	      tr_id           CHAR(3) CONSTRAINT p_tr_id_ref REFERENCES teacher(tr_id),
+  	      room_no         CHAR(5) CONSTRAINT room_no_ref REFERENCES room(room_no)
+	);
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	CREATE TABLE on_line (
+	        o_id            CHAR(5) CONSTRAINT pk_oid PRIMARY KEY,
+	        o_title         VARCHAR(20),
+	        o_credits       NUMBER(3),
+	        ncontent_hours  VARCHAR(3),
+	        tr_id           CHAR(3) CONSTRAINT o_tr_id_ref REFERENCES teacher(tr_id)
+	);
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	CREATE TABLE room (
+	        room_no         CHAR(5) CONSTRAINT pk_room PRIMARY KEY,
+	        seats           NUMBER(3),
+	        data_projector  CHAR(1) CONSTRAINT proj_valid CHECK (data_projector IN('Y', 'N'))
+	);
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	CREATE TABLE module_ref (
+	        o_id            CHAR(5) CONSTRAINT o_id_ref REFERENCES on_line(o_id),
+	        p_id            CHAR(5) CONSTRAINT p_id_ref REFERENCES in_person(p_id)
+	);
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	CREATE TABLE supervision (
+        	tn_id_sd        CHAR(3) CONSTRAINT tn_id_sd_ref REFERENCES technician(tn_id),
+        	tn_id_sr        CHAR(3) CONSTRAINT tn_id_sr_ref REFERENCES technician(tn_id)
+	);
+	\end{verbatim}}
+
+	\texttt{Table created.} ([7,1]) for 7 tables and one output per table.
+
+%	\begin{center}
+%		\scriptsize
+%	\begin{tabular}{p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}}
+%		\begin{verbatim}Table created.\end{verbatim} & \begin{verbatim}Table created.\end{verbatim} & \begin{verbatim}Table created.\end{verbatim} & \begin{verbatim}Table created.\end{verbatim} & \begin{verbatim}Table created.\end{verbatim} & \begin{verbatim}Table created.\end{verbatim} & \begin{verbatim}Table created.\end{verbatim}\\
+%	\end{tabular}
+%	\end{center}
+%
+\newpage
+
+\section{SQL: Table Population}
+
+	{\scriptsize\begin{verbatim}
+	INSERT INTO teacher VALUES('T01', 'Federer, Roger', '01416382226', '23-MAY-1984', 'PhD Vimtutor', 'Professor');
+	INSERT INTO teacher VALUES('T02', 'Nadal, Rafael', '01416385638', '12-FEB-1987', 'PhD GNU Troff', 'Lecturer');
+	INSERT INTO teacher VALUES('T03', 'Djokovic, Novak', '01416383947', '09-MAR-1989', 'PhD Lindypress', 'Lecturer');
+	INSERT INTO teacher VALUES('T04', 'Sawyer, Peyton', '01416380195', '21-JUL-1996', 'PhD Lucas Scott', 'Reader');
+	INSERT INTO teacher VALUES('T05', 'Davis, Brooke', '01416385720', '27-APR-1992', 'PhD A6 allroads', 'Reader');
+	INSERT INTO teacher VALUES('T06', 'Collins, Lily', '01416389437', '14-DEC-1998', 'PhD Vanlife', 'Professor');
+	INSERT INTO teacher VALUES('T07', 'Grow, Custom', '01416383021', '01-APR-1982', 'PhD Mutt', 'Lecturer');
+	INSERT INTO teacher VALUES('T08', 'Henderson, Graham', '01416380763', '23-AUG-1991', 'PhD neoMutt', 'Lecturer');
+	INSERT INTO teacher VALUES('T09', 'Munro, Hugh', '01416385950', '21-JUN-1999', 'PhD Beinn Chabhair', 'Lecturer');
+	INSERT INTO teacher VALUES('T10', 'Castillo, Martin', '01416389002', '19-FEB-1993', 'PhD Bowls', 'Professor');
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	INSERT INTO technician VALUES('M01', 'Crockett, James', '01416380192', '11-DEC-1999');
+	INSERT INTO technician VALUES('M02', 'Tubbs, Ricardo', '01416388704', '03-SEP-2002');
+	INSERT INTO technician VALUES('M03', 'Moolenaar, Bram', '01416386696', '08-AUG-1987');
+	INSERT INTO technician VALUES('M04', 'Sullivan, Victor', '01416386966', '12-SEP-1963');
+	INSERT INTO technician VALUES('M05', 'Drake, Nathan', '01416388675', '14-MAY-1981');
+	INSERT INTO technician VALUES('M06', 'Smith, Luke', '01416388156', '28-JUN-1801');
+	INSERT INTO technician VALUES('M07', 'Diesel, Vim', '01416386017', '08-NOV-1984');
+	INSERT INTO technician VALUES('M08', 'All, David', '01416389119', '12-DEC-1969');
+	INSERT INTO technician VALUES('M09', 'Road, Davey', '01416388609', '14-MAR-1982');
+	INSERT INTO technician VALUES('M10', 'Wealth, Money', '01416389010', '28-JUL-1991');
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	INSERT INTO in_person VALUES('CS626', 'Advanced Vimtutor', 120, 12, 'T06', 'M105');
+	INSERT INTO in_person VALUES('CS628', 'Advanced Crampon', 160, 20, 'T01', 'M103');
+	INSERT INTO in_person VALUES('CS665', 'Advanced CustomGrow', 120, 12, 'T03', 'M102');
+	INSERT INTO in_person VALUES('CS696', 'Advanced Vanlife', 140, 16, 'T02', 'M108');
+	INSERT INTO in_person VALUES('CS698', 'Advanced Model M', 140, 14, 'T05', 'M108');
+	INSERT INTO in_person VALUES('CS705', 'Advanced Clachaig', 120, 12, 'T04', 'M108');
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	INSERT INTO on_line VALUES('CS428', 'Advanced Chess', 140, 36, 'T08');
+	INSERT INTO on_line VALUES('CS435', 'Advanced Topspin', 140, 36, 'T10');
+	INSERT INTO on_line VALUES('CS454', 'Advanced TCR A1', 140, 36, 'T07');
+	INSERT INTO on_line VALUES('CS458', 'Advanced allroad', 140, 36, 'T09');
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	INSERT INTO room VALUES('M101', 115, 'N');
+	INSERT INTO room VALUES('M102', 205, 'Y');
+	INSERT INTO room VALUES('M103', 180, 'Y');
+	INSERT INTO room VALUES('M104', 165, 'N');
+	INSERT INTO room VALUES('M105', 190, 'Y');
+	INSERT INTO room VALUES('M106', 210, 'Y');
+	INSERT INTO room VALUES('M107', 95, 'N');
+	INSERT INTO room VALUES('M108', 230, 'Y');
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	INSERT INTO module_ref VALUES('CS435', 'CS626');
+	INSERT INTO module_ref VALUES('CS454', 'CS628');
+	INSERT INTO module_ref VALUES('CS458', 'CS665');
+	INSERT INTO module_ref VALUES('CS435', 'CS696');
+	INSERT INTO module_ref VALUES('CS454', 'CS698');
+	INSERT INTO module_ref VALUES('CS435', 'CS705');
+	INSERT INTO module_ref VALUES('CS454', 'CS705');
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	INSERT INTO supervision VALUES('M03', 'M01');
+	INSERT INTO supervision VALUES('M04', 'M01');
+	INSERT INTO supervision VALUES('M05', 'M01');
+	INSERT INTO supervision VALUES('M06', 'M01');
+	INSERT INTO supervision VALUES('M07', 'M02');
+	INSERT INTO supervision VALUES('M08', 'M02');
+	INSERT INTO supervision VALUES('M09', 'M02');
+	INSERT INTO supervision VALUES('M10', 'M02');
+	\end{verbatim}}
+
+	\texttt{1 row created.} ([7,N]) for 7 tables and N outputs per table relative to N inputs per table.
+
+%	\begin{center}
+%		\scriptsize
+%	\begin{tabular}{p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}}
+%		\begin{verbatim}
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%		\end{verbatim} & 
+%		\begin{verbatim}
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%		\end{verbatim} & 
+%		\begin{verbatim}
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%		\end{verbatim} & 
+%		\begin{verbatim}
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%		\end{verbatim} & 
+%		\begin{verbatim}
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%		\end{verbatim} & 
+%		\begin{verbatim}
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%		\end{verbatim} & 
+%		\begin{verbatim}
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%			1 row created.
+%		\end{verbatim}\\
+%	\end{tabular}
+%	\end{center}
+%
+\newpage
+
+\section{SQL: Queries}
+
+	(a) Find the maximum number of lectures and minimum number of lectures relative to classes thaught in each used room. Therefore, grouped by room number. In this case, only M108 is used more than once and the number of lectures for the classes which use the room vary, so there is a valid maximum and minimum.
+
+	{\scriptsize\begin{verbatim}
+	COLUMN room_no HEADING 'Room Number' FORMAT A15
+	COLUMN MAX(nlectures) HEADING 'Max N Lectures' FORMAT A20
+	COLUMN MIN(nlectures) HEADING 'Min N Lectures' FORMAT A20
+
+	SELECT room.room_no, MAX(nlectures), MIN(nlectures)
+        	FROM in_person, room
+        	WHERE in_person.room_no = room.room_no
+        	GROUP BY room.room_no;
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	Room Number      Max N Lectures        Min N Lectures
+	---------------  --------------------  --------------------
+	M102             12                    12
+	M105             12                    12
+	M103             20                    20
+	M108             16                    12
+	\end{verbatim}}
+
+	(b) Find the classes which are taught in the room with the maximum number of of seats. This is executed by finding the max number in the seats column of the room table and the correlating room number, and displaying classes taught in this room and the corresponding teachers.
+
+	{\scriptsize\begin{verbatim}
+	COLUMN p_id HEADING 'Class ID' FORMAT A10
+	COLUMN p_title HEADING 'Class Name' FORMAT A20
+	COLUMN nlectures HEADING 'N Lectures' FORMAT A15
+	COLUMN tr_name HEADING 'Taught By' FORMAT A15
+
+	SELECT p_id, p_title, nlectures, tr_name
+        	FROM in_person, teacher, room
+        	WHERE in_person.tr_id = teacher.tr_id
+        	AND room.room_no = in_person.room_no
+        	AND room.seats = (
+                	SELECT MAX(seats)
+                	FROM room
+        	);
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	Class ID    Class Name            N Lectures       Taught By
+	----------  --------------------  ---------------  ---------------
+	CS696       Advanced Vanlife      16               Nadal, Rafael
+	CS698       Advanced Model M      14               Davis, Brooke
+	CS705       Advanced Clachaig     12               Sawyer, Peyton
+	\end{verbatim}}
+	
+	(c) For the most occuring used room, find the classes with a number of credits which are above the average for the classes taught in that room. This may not be considered particularly `relevant' or `useful' however, it's certainly something I would be contemplating back in a first year JA325 finance lecture.
+
+	{\scriptsize\begin{verbatim}
+	COLUMN p_id HEADING 'Class ID' FORMAT A10
+	COLUMN p_title HEADING 'Class Title' FORMAT A20
+	COLUMN p_credits HEADING 'Credits'
+	COLUMN room_no HEADING 'Room Number' FORMAT A15
+
+	SELECT p_id, p_title, p_credits, room_no
+        	FROM in_person
+        	WHERE p_credits > (
+        	        SELECT AVG(p_credits)
+        	                FROM in_person ip
+        	                WHERE in_person.room_no = ip.room_no
+        	);
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	Class ID    Class Title              Credits  Room Number
+	----------  --------------------  ----------  ---------------
+	CS696       Advanced Vanlife             140  M108
+	CS698       Advanced Model M             140  M108
+	\end{verbatim}}
+	
+	(d)
+
+	{\scriptsize\begin{verbatim}
+	COLUMN o_title HEADING 'Online Class (Refd)' FORMAT A23
+	COLUMN ncontent_hours HEADING 'Online Content Hrs' FORMAT A15
+	COLUMN p_title HEADING 'In-Person Class (Refr)' FORMAT A23
+
+	SELECT o_title, ncontent_hours, p_title
+	        FROM in_person, on_line, module_ref
+	        WHERE in_person.p_id = module_ref.p_id
+	        AND module_ref.o_id = on_line.o_id;
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	Online Class (Refd)      Online Content   In-Person Class (Refr)
+	-----------------------  ---------------  -----------------------
+	Advanced Topspin         36               Advanced Vimtutor
+	Advanced TCR A1          36               Advanced Crampon
+	Advanced allroad         36               Advanced CustomGrow
+	Advanced Topspin         36               Advanced Vanlife
+	Advanced TCR A1          36               Advanced Model M
+	Advanced Topspin         36               Advanced Clachaig
+	Advanced TCR A1          36               Advanced Clachaig
+	\end{verbatim}}
+	
+	(e)
+
+	{\scriptsize\begin{verbatim}
+	COLUMN supd.tn_name FORMAT A20
+	COLUMN supr.tn_name FORMAT A20
+
+	SELECT supd.tn_name "Supervised Name", supr.tn_name "Supervisor Name"
+        	FROM technician supr, technician supd, supervision
+        	WHERE supd.tn_id = supervision.tn_id_sd
+        	AND supr.tn_id = supervision.tn_id_sr;
+	\end{verbatim}}
+
+	{\scriptsize\begin{verbatim}
+	Supervised Name       Supervisor Name
+	--------------------  --------------------
+	Moolenaar, Bram       Crockett, James
+	Sullivan, Victor      Crockett, James
+	Drake, Nathan         Crockett, James
+	Smith, Luke           Crockett, James
+	Diesel, Vim           Tubbs, Ricardo
+	All, David            Tubbs, Ricardo
+	Road, Davey           Tubbs, Ricardo
+	Wealth, Money         Tubbs, Ricardo
+	\end{verbatim}}
+	
+\newpage
+
+\section{Design \& Implementation Critique}
+
+	This database structure effectively segregates relevant data into approporiate tables which are references and joined appropriately in the given scenarios. Separating the teacher and technician tables gathered approporiate data allowing dependency upon the relevant type of staff ID, not just ggregate staff ID. That is, functional dependencies as follow: \texttt{\underline{TeachID} $\rightarrow$ Ename, Ephone, StartingDate, Qualification, Grade}; \texttt{\underline{TechNo} $\rightarrow$ Ename, Ephone, StartingDate}, with each repeating attribute type respective to their unique staff type. This made the creation of the Supervision table and query (e) more accessible. Likewise, the same case exists with the module scenario. Where the separation into InPerson and OnLine, with dependencies: \texttt{\underline{PID} $\rightarrow$ Title, Credits, Lectures}; \texttt{\underline{OID} $\rightarrow$ Title, Credits, ContentHours}, also made the creation of the ModuleRef table and query (d) more accessible. Once, again column names are alike however as seen, claim different more relevant titles in practice. Of course, this leaves the remaining dependency: \texttt{\underline{RoomNumber} $\rightarrow$ Seats, DataProjector}.\\
+
+	On the other hand, the final two queries (d) and (e) are partially fulfilling of the required criteria. That is, non-referenced online modules do not appear in the results of query (d) and non-supervising technicians do not appear in the same column as those who supervise in the results of query (e). Therefore, a penalty is recognised here. On a slightly less important note, an imporvement could have been made to both the teacher and technician tables where the Ename fields are populated with both the individual's forename preceeded by their surname; comma-separated. In line with normal form convention, forename and surname could have been allocated their own fields however, it may have been irrelevant to do so as in this case forenames always appear uniquely with the appropriate according surnames.
+	
+	\vspace{\fill}
+
+	\begin{center}
+		\textsc{Critique Word Count: 284}
+	\end{center}
+
+\end{document}

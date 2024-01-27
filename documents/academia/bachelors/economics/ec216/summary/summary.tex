@@ -1,0 +1,238 @@
+\documentclass[11pt, english]{article}              
+        \usepackage{geometry}
+                \geometry{                          
+                        a4paper,total={210mm,297mm},
+                        tmargin=40.8mm,
+                        bmargin=40.8mm,
+                        lmargin=32.6mm,
+                        rmargin=32.6mm,
+                }
+
+        \usepackage{titlesec}         
+                \titleformat{\section}
+                        {\normalfont\fontsize{18}{16}\bfseries}{\thesection}{0.5em}{}
+                \titleformat{\subsection}
+                        {\normalfont\fontsize{14}{16}\bfseries}{\thesubsection}{1em}{}
+                \titleformat{\subsubsection}
+                        {\normalfont\fontsize{11}{16}\bfseries}{\thesubsubsection}{1em}{}
+
+        \usepackage{longtable}
+        \usepackage{multirow}
+
+        \usepackage[labelfont=bf,textfont=bf,font=small,skip=8pt]{caption}
+
+        \setlength{\parindent}{0pt}
+        \renewcommand{\baselinestretch}{1.25}
+       	\usepackage{setspace}
+
+        \usepackage{amsmath}
+        \usepackage{amssymb}
+
+        \usepackage{graphicx}
+
+	\usepackage{float}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+        \title{\textsc{EC216 Intermediate Macroeconomics\\ Coursework Summary}}
+        \author{\textsc{Lewis Britton}}
+        \date{\textsc{Academic Year 2018/2019}}
+        \maketitle
+
+\newpage
+
+\pagenumbering{roman}
+
+        \renewcommand{\contentsname}{Table of Contents}
+
+        \tableofcontents
+
+\newpage
+
+\pagenumbering{arabic} 
+
+\section{Summary}
+
+	\begin{enumerate}
+	\setlength\itemsep{0cm}
+		\item Uncovered Interest Parity
+		\item Fisher’s Real Interest Rate Hypothesis
+		\item Nature of Inflation Expectations
+		\item Okun’s Law
+	\end{enumerate}
+
+	\begin{enumerate}                                                                   
+        \setlength\itemsep{0cm}
+                \item Output/GDP
+		\item IS-LM Model (Short-Run)
+		\begin{itemize}
+			\item[$-$] \textit{Open \& Closed Economies}
+			\item[$-$] Derivation of IS (Investment \& Saving Demand)
+			\item[$-$] Derivation of LM (Money Supplied \& Demanded)
+		\end{itemize}
+		\item IS-LM-PC (Medium-Run)
+		\begin{itemize}
+			\item[$-$] \textit{Open \& Closed Economies}
+			\item[$-$] Aggregate Supply
+			\item[$-$] Original Phillips Curve
+			\item[$-$] Expectations Augmented Phillips Curve
+			\item[$-$] NAIRU / Change in Unemployment Phillips Curve
+			\item[$-$] Change in Output Phillips Curve
+		\end{itemize}
+		\item Labour Model (Medium-Run)
+		\begin{itemize}
+			\item[$-$] \textit{Relative Wage \& Price Setting}
+			\item[$-$] Expected Prices
+			\item[$-$] Given Prices
+			\item[$-$] Given Wages
+		\end{itemize}
+        \end{enumerate}
+
+	\newpage
+
+	\textit{Author's Note: In Short-Run, output is determined by demand. In the Medium-Run, output is determined by supply. In Medium-Run, all output, unemployment and real interest rate remain at their natural rates due to Central Bank Monetary Policy. Seen where change in inflation is equal to zero.}
+
+	\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=2.5cm,height=4.5cm]{EC216-IMG/1.png}
+	\end{center}
+		\caption{Natural Rates}
+	\end{figure}
+
+\newpage
+
+\section{Relationships}
+
+	\subsection{Uncovered Interest Parity}
+
+	$$(1+i)=(1+i^*)\frac{E}{E^e}$$
+
+	\subsection{Fisher's Real Interest Rate Hypothesis}
+
+	$$r_t=i_t-\pi_{t+1}^e$$
+
+	In the medium-run, the real interest rate must account for the expected inflation to give a true idea of the purchasing power.
+
+	\subsection{Nature of Inflation Expectations}
+
+	$$\pi_{t+1}^e=\theta\pi_{t-1}$$
+
+	Where:\\
+	If $\theta=0$: No Expectations (NAIRU)\\
+	If $\theta=1$: Expectations Augmented\\
+	If $\theta>1$: Expectations Greater Than Before
+
+	\subsection{Okun's Law}
+
+	$$(u_t-u_{t-1})=-\beta(g_{Y_t}-\bar{g_Y})$$
+
+	Relating change in unemployment to the change in output growth rate.
+
+\newpage
+
+\section{Models}
+
+	\subsection{Output/GDP}
+
+	$$Y=C+I+G+(X-IM)$$
+
+        Where:\\
+        $C=f(Y-T)$\\
+        $I=f(Y,i)$\\
+        $X=f(Y^*,E)$\\
+        $IM=f(Y,E)$\\
+
+        Where:\\
+        $Y$ = Domestic Output\\
+        $Y^*$ = Foreign Output\\
+        $T$ = Tax Rate\\
+        $(Y-T)=Y_D$ = Disposable Output `Income'\\
+        $i$ = Interest Rate\\
+        $E$ = Nominal Domestic Exchange Rate\\
+        $C$ = Consumption ($+$ Corr. w/ Disposable Income)\\
+        $I$ = Investment ($+$ Corr. w/ Output; $-$ Corr. w/ Interest Rate)\\
+        $G$ = Government Spending\\
+        $X$ = Domestic Exports ($+$ Corr. w/ Foreign Income; $-$ Corr. w/ Nominal Domestic Exchange Rate)\\
+        $IM$ = Domestic Imports ($+$ Corr. w/ Domestic Output; $+$ Corr. w/ Nominal Domestic Exchange Rate)\\
+
+        Where:\\
+        Output is a direct positive indicator of GDP\\
+        ``Output'' and ``Production'' can be used interchangeably\\
+
+	\newpage
+
+	\subsection{IS-LM Model (Short-Run)}
+
+		\subsubsection{Monetary Expansion/Contraction (LM)}
+
+	\begin{itemize}
+	\setlength\itemsep{0cm}
+		\item CB changing the \textit{money supply} therefore, \textit{interest rate}
+		\item \textbf{Expansion:} $M_S$ $\uparrow$, money less valuable $\therefore$ $i\downarrow$, $I\uparrow$, $C\uparrow$, $Z\uparrow$, $Y\uparrow$
+		\item \textbf{Contradiction:} $M_S$ $\uparrow$, money less valuable $\therefore$ $i\uparrow$, $I\downarrow$, $C\downarrow$, $Z\downarrow$, $Y\downarrow$
+	\end{itemize}
+
+	\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=5cm,height=4.5cm]{EC216-IMG/2.png}
+	\end{center}
+		\caption{Monetary Expansion/Contraction (LM)}
+	\end{figure}
+
+		\subsubsection{Fiscal Expansion/Contraction (IS)}
+
+	\begin{itemize}                                             
+        \setlength\itemsep{0cm}                                     
+		\item Government changing the \textit{budget deficit} 
+		\item \textbf{Expansion:} $(G-T)\uparrow$, increase in budget deficit, $G\uparrow$ and/or $T\downarrow$, $\therefore$ $Y_D\uparrow$, $C\uparrow$, $I\uparrow$, $Y\uparrow$
+		\item \textbf{Contradiction:} $(G-T)\downarrow$, decrease in budget deficit, $G\downarrow$ and/or $T\uparrow$, $\therefore$ $Y_D\downarrow$, $C\downarrow$, $I\downarrow$, $Y\downarrow$
+        \end{itemize}
+
+	\begin{figure}[H]                                                                           \begin{center}                                                                                      \includegraphics[width=2.5cm,height=4.5cm]{EC216-IMG/3.png}                         \end{center}                                                                                        \caption{Fiscal Expansion/Contraction (IS)}
+	\end{figure}
+
+	\newpage
+
+	\subsection{IS-LM-PC (Medium-Run) Phillips Curve Derivation}
+
+	$$W_t=P^e(1-\alpha u_t+z)$$
+	$$P_t=W_t(1+\mu)$$
+
+	\textbf{Original PC}
+
+	$$P_t=P^e(1+\mu)(1-\alpha u_t+z)$$
+
+	\textbf{Expectations Augmented PC}
+
+	$$\pi_t=\pi_{t+1}^e+(\mu+z)-\alpha u_t\ [\theta=1;\pi_{t+1}^e=\theta\pi_{t-1}]$$
+	$$\pi_t-\pi_{t-1}=(\mu+z)-\alpha u_t$$
+
+	\textbf{NAIRU / Change in Unemployment}
+
+	$$\pi_t-\pi_{t-1}=-\alpha(u_t-u_n)\ [MR:\Delta u=0;\Delta\pi=0]$$
+
+	\textbf{Change in Output PC}
+
+	$$\pi_t-\pi_{t-1}=-\frac{\alpha}{L}(Y_t-Y_n)\ [MR:\Delta Y=0;\Delta u=0;\Delta\pi=0]$$
+
+	As $t$ approaches $n$, everything returns to its \textit{natural rate}
+
+	\newpage
+
+	\subsection{Labour Model (Medium-Run)}
+
+	$$\frac{W}{P^e}=(1-u)$$
+
+        Where:\\
+	$\frac{W}{P^e}$ = $(1-u)$ = Real Expected Wage\\
+	$\frac{W}{P}=\frac{1}{(1+\mu)}$\\
+        $W$ = Nominal Expected Wage\\
+        $P^e$ = Expected Price of Goods Purchased\\
+        $u$ = Unemployment ($+$ Corr. w/ Nominal Expected Wage; $-$ Corr. w/ Expected Price of Goods Purchased)
+
+	\begin{figure}[H]                                                                           \begin{center}                                                                                      \includegraphics[width=2.5cm,height=2.25cm]{EC216-IMG/4.png}                        \end{center}                                                                                        \caption{Labour Model (Medium-Run)}
+        \end{figure}
+
+\end{document}

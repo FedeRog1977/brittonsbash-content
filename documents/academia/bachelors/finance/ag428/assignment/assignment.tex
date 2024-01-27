@@ -1,0 +1,632 @@
+\documentclass[11pt, english]{article}
+        \usepackage{geometry}
+                \geometry{
+			a4paper,total={210mm,297mm},
+                        tmargin=40.8mm,
+                        bmargin=40.8mm,
+                        lmargin=32.6mm,
+                        rmargin=32.6mm,
+                }
+
+	\usepackage{titlesec}
+                \titleformat{\section}
+			{\normalfont\fontsize{18}{16}\bfseries}{\thesection}{0.5em}{}
+		\titleformat{\subsection}
+			{\normalfont\fontsize{14}{16}\bfseries}{\thesubsection}{1em}{}
+		\titleformat{\subsubsection}
+			{\normalfont\fontsize{11}{16}\bfseries}{\thesubsubsection}{1em}{}
+
+	\usepackage{longtable}
+	\usepackage{multirow}
+
+	\usepackage[labelfont=bf,textfont=bf,font=small,skip=8pt]{caption}
+	
+	\usepackage{hyperref}
+		\hypersetup{
+        		colorlinks=true,
+        		linkcolor=black,
+        		filecolor=magenta,
+        		urlcolor=cyan,
+        		}
+
+	\setlength{\parindent}{0pt}
+        \renewcommand{\baselinestretch}{1.25}
+        \usepackage{setspace}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+	\title{\textsc{AG428 Asset Pricing\\ Coursework Assignment}}
+	\author{\textsc{Lewis Britton 201724452}}
+	\date{\textsc{Academic Year 2020/2021}}
+	\maketitle
+
+	\begin{abstract}
+		This problem set tests and compares five factors models of Fama and French (2015) and Hou, et al. (2020) (FF5 and HMXZ5, respectively) using a series of Size-Investment portfolios from Fama and French (2015). Data is sourced from the libraries of \href{http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html}{Kenneth French} and \href{http://global-q.org/index.html}{Lu Zhang}. It makes use of the C/C++-based statistical analysis environment MATLAB. This is conducted in observation of summary statistics, OLS time-series regression, mean-variance efficiency, pricing error, Sharpe performance and, redundancy regression. Five factors from Fama and French (2015) are explored along with five factors from Hou, et al. (2020). Testing these factors, is a set of 25 Size/Investment portfolios from the library of \href{http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html}{Kenneth French}. The Mean-Variance Efficiency of both models is rejected. The FF5 outperforms the HMXZ5 using Pricing Error Metrics. The HMXZ5 outperforms the FF5 using comparative Sharpe measures.
+	\end{abstract}
+
+	\textbf{Index Terms: }FF5, HMXZ5, Size-Investment portfolios, OLS Regression, Mean-Variance Efficiency, pricing error metrics, Sharpe Performance, Factor Redundancy Regression
+
+\newpage
+
+\pagenumbering{roman}
+
+	\renewcommand{\contentsname}{Table of Contents}
+
+	\tableofcontents
+
+\newpage
+
+\section*{Preliminaries}
+
+	\subsection*{Question Summary}
+
+	\begin{enumerate}
+  	\item Calculate summary statistics of the test assets and the factors in both the FF5 and HMXZ5 models. 
+  	\item Run the time-series regressions of the excess returns of the test assets on both factor models and report the results.
+  	\item Use the Gibbons, et al. (1989) test to examine the mean-variance efficiency of both factor models.
+	\item Calculate the pricing error metrics of Fama and French (2015, 2016, 2018) for both models to compare the performance of the models.
+	\item Run the model comparison test of Barillas, Kan, Robotti and Shanken (2020) of equal squared Sharpe performance between the two models.
+	\item For both models, run the factor redundancy regressions for each factor.
+	\end{enumerate}
+
+	\subsection*{Dataset Summary}
+
+\begin{table}[h]
+        \tiny
+\begin{center}
+\begin{tabular}{ p{3.5cm} p{4cm} p{4.5cm} }
+        \hline
+        \hline
+        \multicolumn{3}{c}{\textbf{Factors}}\\
+        \hline
+        \hline
+        & \textbf{Kenneth French} & \textbf{Lu Zhang}\\
+        \hline
+        \textbf{Sample Period} & 07/1963 $\rightarrow$ 11/2020 (Trimmed) & 01/1967 $\rightarrow$ 12/2019\\
+        \textbf{N Factors} & 25 & 25\\
+        \textbf{N Observations Per Factor} & 637 & 637\\
+        \textbf{N Observations of R$\mathbf{_f}$} & 637 & 637\\
+        \textbf{Notation} & Percentage (\%) & Percentage (\%)\\
+        \textbf{Frequency} & Monthly & Monthly\\ 
+        \textbf{Source/Name} & `Fama/French 5 Factors (2x3)' & `The q-factors and Expected Growth Factor'\\
+	\textbf{Origin} & Fama \& French (2015) & Hou, et al. (2020)\\
+	\textbf{Abreviation} & FF5 & HMXZ5\\
+        \hline
+        \hline
+        \multicolumn{3}{c}{\textbf{Testing Portfolios}}\\
+        \hline
+        \hline
+        \textbf{Portfolio Type} & \multicolumn{2}{l}{Size/Investment}\\
+        \textbf{Sample Period} & \multicolumn{2}{l}{07/1963 $\rightarrow$ 11/2020 (Timmed)}\\
+        \textbf{N Portfolios} & \multicolumn{2}{l}{25}\\
+        \textbf{N Observations Per Folio} & \multicolumn{2}{l}{637}\\
+        \textbf{Notation} & \multicolumn{2}{l}{Percentage (\%)}\\
+        \textbf{Frequency} & \multicolumn{2}{l}{Monthly}\\
+        \textbf{Source/Name} & \multicolumn{2}{l}{`25 Portfolios Formed on Size and Investment (5 x 5)'}\\
+        \hline
+        \multicolumn{3}{p{13cm}}{Fama and French (2015) factors include a market-minus-risk-free (market excess return), small-minus-big, high-minus-low, robust-minus-weak (operating profits) and, conservative-minus-aggressive (investment prospects)}\\
+        \multicolumn{3}{p{13cm}}{Hou, et al. (2020) factors include a market-minus-risk-free (market excess return), size, investment, return on equity and, expected growth.}\\
+        \hline
+\end{tabular}
+        \caption{Dataset Summary}
+\end{center}
+\end{table}
+
+\newpage
+
+\pagenumbering{arabic}
+
+\section{Problem Set Written Answers}
+
+	\subsection{Summary Statistics}
+
+		\subsubsection{Summary Statistics}
+
+	Table 2 sees that all observations roughly find a mean of zero. No means are sub-zero meaning that all of the factor strategies are ordinally correct. The FF5 market factor and the HMXZ5 expected growth factors hold the highest respective means at 0.55\% and 0.81\% therefore, best average results. All but three medians are slightly lower than corresponding means meaning there are minor negative distributions (right `positive' skewness); with tails to the right. Positive skewness values reinforce this. The largest right skewness is found in HMXZ5's size factor. The three remaining factors (with med. $>$ mean) correspond with a negavite skewness value. This implies a positive distribution with left `negative' skewness. The highest magnitude of nagativity is found in HMXZ5's return on equity factor. This interpretation of skewness generally matches maximum and minimum values. Seen in that distributions with greater skewness tend to not only have more outliers of the average distribution but outliers at further values. A very low minimum in the FF5's market factor and very high maximum in the HMXZ5's size factor reflect this. Excess kurtosis is majorly positive, showing a leptokurtic distribution which is skinnier than the normal distribution, with higher tails. Finally, all t-ratios are greater than 1.96, even than 2.58 in 7 cases. This means, for those 1.96 $\mathrm{<}$ t-ratio $\mathrm{<}$ 2.58, the null hypothesis (H$_0$) that $\alpha=0$ is rejected with 95\% confidence; implying $\alpha\neq 0$ and is significant at the 5\% level. The same statement is made with 99\% confidence, at the 1\% significance level, for those t-ratio $\mathrm{>}$ 2.58.
+
+		\subsubsection{Correlation Matrices}
+
+	Table 3 highlights majorly negative correlaion between returns of the FF5 (7/10 values). For a 1 unit change in the market folio, there is a 0.2666, 0.2268, 0.3981 unit decrease in HML, RMW and CMA folios, respectively. This interpretation holds in relative coefficients for SMB with HML, RMW and CMA and; for RMW with CMA. A 1 unit change in market folio sees a 2.779 unit increases in SMB returns. This logic holds in relatove coefficients for HML with RMW and CMA. There is no perfect negative or positive correlation, or anything magnitudinally greater; 1 unit change in X always changes Y by $<$ 1 unit. Similar interpretation holds for HMXZ5 returns (with negative correlation 60\% of the time). The magnitude of both negative and positive coefficients on the HMXZ5 are greater meaning a less neutral investment position.
+
+		\subsubsection{Size \& Investment Portfolio Excess Returns}
+
+	Table 4 shows that there generally is an investment strategy effect across all small-to-big portfolios using Fama and French's (2015) R$\mathrm{_f}$. That is, mean aggressive returns are approximately the/near-the greatest across all folio sizes. Conservative returns are always the smallest. There is also a size effect; in that the trend of decrease from aggressive to conservative strategy generally decreases from small to big portfolios. This is missing on conservative folios however. There is an inverse size effect here, with the exception of big-conservative. As expected, using Hou, et al.'s (2020) R$\mathrm{_f}$ produces approximately equivalent results.
+
+	\subsection{OLS Regression}
+	
+	Recall that in a world of no pricing error, abnormal return ($\alpha$) should equal zero. Of course, this analysis uses portfolios instead of individual assets and, T observations is greater than N test portfolios. However, this doesn't remove pricing error. Testing profolios used are always likely to show abnormality when used against the factor models as discussed. 
+
+		\subsubsection{Fama \& French (2015) Factors \& Kenneth French R$\mathbf{_f}$}
+
+	Table 5 shows that there is mainly positive pricing error in the FF5. Some negative abnormal returns are present, mostly at the extremes such as small-aggressive, big-aggressive and small-conservative. The significantly positive abnormal returns include 3/5 of the small portfolios, from agressive to neutral. With 2 at the 1\% level, 1 at 5\%. And, big-conservative at the 1\% level. The greatest, most significant positive abnormal returns are small-aggressive and big-conservative. The smaller-conservative negative returns are significant. One at the 1\% level, one at 5\%. The greatest, most significant negative abnormal return is on small-conservative. It's more negative than the greatest significantly positive result is, positive. Adjusted R$^2$ values are high, barely dropping below 0.9. This helps explain the extremely low standard errors (hence, `1.02x10$^{-3}$'), with explanatory value for the significant abnormal returns.
+
+		\subsubsection{Hou, et al. (2020) Factors \& Kenneth French R$\mathbf{_f}$}
+
+	The HMXZ5 presents, again in Table 5, roughly the same volume of positive abnormal returns, with some negative appearing again. Meaning, most of the mispricing error is again attributed to positive abnormal returns. This time, most negativity appears in big folios. Five of the positive abnormal returns are present. Primarily across aggressive to neutral small folios and in both (neutral-big)-conservative and big-conservative; a mix of 5\% and 1\% significance. The greatest, most significant positive abnormal return are on small-aggressive and (neutral-big)-conservative. Similar to Fama \& French's model results. Two of the negative abnormal returns are significant; big-neutral and small-conservative, both at the 5\% level. The greatest, most significant negative abnormal return is on small-conservative. Such like Fama \& French's model results. Adjusted R$^2$ values are again high. Again, reflecting the low standard error values and with explanatory value for the significant abnormal returns.
+
+	\subsection{GRS Tests}
+
+	Under the assumption of a normal distribution of error temrs ($\varepsilon$), homoscedastic error terms (constant), zero-mean, no endogeneity and, knowing that $\mathrm{N_{Assets}<(T_{Observations}}$ $\mathrm{-K_{Factors})}$, we proceed to test the null hypothesis (H$_0$) of $\alpha=0$. If this were failed-to-be-rejected then there would be mean-variance efficiency. We tend to reject the mean-variance efficiency of models however. This GRS test acts as an applied F-test that all $\alpha$ values in the model are equal to zero. Table 6 highlights p-values of 0; both the FF5's and the HMXZ5's mean-variance efficinecy is rejected, in the F-test showing $\alpha\neq 0$ in any case. 
+
+	\subsection{Pricing Error Metrics}
+
+	As Gibbons, et al.'s (1989) GRS test generally rejects the mean-variance efficiency of models and we wish still to select a model, the `least bad' is selected. Observing Table 7, we see that the FF5 performs better than the HMXZ5. The lower magnitude of $\alpha$ values ($\overline{|\alpha|}$) [i] in the FF5 says lower average absolute mispricing. Average t-ratio [ii] of $\alpha$ sees a negligible difference. Average Adjusted R$^2$ [iii] of the FF5 is slightly higher, also explaining the lower standard errors [iv]. Furthermore, the average $\alpha$ spread to excess returns [v] in the FF5 is lower. Thus, closer to zero; more minimal mispricing. Accounting for standard error of $\alpha$, the FF5 sees a negligibly higher average real mispricing [vi]. As $\mathrm{\lambda^2=\alpha^2-\textrm{std.err}_{\alpha}^2}$, the lower average std.err$_{\alpha}$ in the FF5 is not enough to compensate for the average $\alpha^2$ value of the FF5, making the numerator ($\lambda^2$) marginally smaller in the FF5. Additionally, the proportion of mispricing across assets due to sampling error [vii] is greater on the HMXZ5. This is the only metric through which the HMXZ5 outperforms the FF5. This is not enough to compensate for prior losses. Finally, the average squared Sharpe performance [viii] of the FF5 is slighty higher therefore, better.
+	
+	\subsection{Sharpe Performance Comparison Tests}
+
+	Again these tests, brought to light by Barillas, et al. (2020), aim to select the `least bad' (most relevant). Testing portfolios become irrelevant here, as discussed latterly. Table 8 shows that both the FF5 and HMXZ5 have significantly posisitive adjusted squared Sharpe measure values; both at the 1\% level. The performance of the HMXZ5 however, is far greater; by \~{}300\%. The Difference in squared Sharpe performance and the associated p-value regarding Proposition 1's note on the convergence of increasing factors upon increasing adjusted Sharpe performance, makes it clear that the HMXZ5 significantly outperforms the FF5.
+	
+	\subsection{Factor Redundancy Tests}
+
+	Factor redundancy (Fama, French, 2015) explores the question of whether or not we require all the factors is asked. The role that a factor may play could already be captured by others; coefficients ($\beta$) of other factors may already reflect what a factor contributes. Therefore, it may have approximately no effect on excess returns of the model during the sample period; mean excess return of the model would be approximately equal without the factor. This is achieved by regressing each set of excess returns on particular factors, against all other sets of excess returns on other factors. Thus, we wish to reject the H$_0$ that $\alpha=0$ (a factor adds $\approx 0$ to excess returns), thus saying it is `not redundant'. Furthermore, the marginal contribution (Fama, French, 2018) of a factor, to maximum Sharpe$^2$ performance, is observed in $\frac{\alpha^2}{\sigma_\varepsilon^2}$. There remains the question of what drives a factor's contribution; a high $\alpha$ or a low volatility of residuals ($\sigma_{\varepsilon}^2$)?
+
+		\subsubsection{Fama \& French (2015) Factors (FF5)}
+
+	Table 9 shows that in the FF5, all factors apart from HML have significantly positive $\alpha$ values. Of these, all apart from SMB are significant at the 1\% level; SMB at 5\%. Therefore, the HML factor is redundant. This is in line with Fama and French's (2015) findings. Additionally, the market, RMW and CMA factors make the greatest marginal contribution to the Sharpe$^2$ performance; market is the greatest. The market factor's high contribution comes from its high $\alpha$ value, which is more than double the next greatest. It also has the highest $\sigma_\varepsilon^2$ meaning the high marginal contribution is not driven by low residual volatility. RMW and CMA are primarily driven by their far lower $\sigma_\varepsilon^2$.
+
+		\subsubsection{Hou, et al. (2020) Factors (HMXZ5)}
+
+	Table 9 also shows that in the HMXZ5, all factors apart from ROE have significantly positive $\alpha$ values, at the 1\% level. Thus, the ROE factor is redundant. Additionally, the EG factor has the greatest marginal contribution to the Sharpe$^2$ performance, by \~{}100\% on top of the next greatest, the market factor. The high contribution of EG comes from having the lowest residual volatility compared to all other factors and the second highest $\alpha$ value; driven by both. The market factors high contribution is primarily driven by having the highest $\alpha$ value compared to other factors, as its residual volatility is also the highest.
+
+\newpage
+
+\pagenumbering{Roman}
+
+\section{Problem Set Tables}
+
+	\subsection{Summary Statistics I: Summary Statistics (Q1)}
+
+\begin{table}[h]
+	\scriptsize
+	\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{ p{2cm} p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} }
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Fama and French (2015) Factors (FF5)}}\\
+        \hline
+        \hline
+        \multirow{2}{*}{\textbf{Statistic}} & \multicolumn{5}{c}{\textbf{Factor}}\\
+        \cline{2-6}
+        & \textbf{Mkt.} & \textbf{SMB} & \textbf{HML} & \textbf{RMW} & \textbf{CMA}\\
+        \hline
+	Mean & 0.5533 & 0.2109 & 0.3076 & 0.2756 & 0.2912\\
+	Median & 0.9200 & 0.0900 & 0.2550 & 0.2550 & 0.1450\\
+	Minimum & -23.2400 & -14.8600 & -11.0600 & -18.4800 & -6.8600\\
+	Maximum & 16.1000 & 18.0500 & 12.6000 & 13.3800 & 9.5600\\
+	Std.Dev & 4.4814 & 3.0346 & 2.8681 & 2.2123 & 2.0097\\
+        Skewness & -0.5405 & 0.4011 & 0.1931 & 0.3676 & 0.3493\\
+        Ex. Kurtosis & 4.8230 & 6.1276 & 4.7677 & 15.2089 & 4.4926\\
+        t-ratio & 3.1138 & 1.7525 & 2.7047 & 3.1411 & 3.6543\\
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Hou, et al. (2020) Factors (HMXZ5)}}\\
+        \hline
+        \hline
+        \multirow{2}{*}{\textbf{Statistic}} & \multicolumn{5}{c}{\textbf{Factor}}\\        
+        \cline{2-6}
+        & \textbf{Mkt.} & \textbf{SIZE} & \textbf{INV} & \textbf{ROE} & \textbf{EG}\\
+        \hline
+	Mean & 0.5326 & 0.2742 & 0.3622 & 0.5389 & 0.8141\\ 
+	Median & 0.9081 & 0.1919 & 0.3015 & 0.6414 & 0.7331\\
+	Minimum & -23.1403 & -14.3903 & -7.1572 & -13.8329 & -7.0560\\
+	Maximum & 16.0330 & 22.1369 & 9.2411 & 10.3785 & 10.8156\\
+	Std.Dev & 4.4716 & 3.0479 & 1.8761 & 2.4942 & 1.8980\\
+        Skewness & -0.5629 & 0.6139 & 0.1527 & -0.7042 & 0.1087\\
+        Ex. Kurtosis & 4.9596 & 8.1817 & 4.3164 & 7.8276 & 5.1909\\
+        t-ratio & 3.0035 & 2.2688 & 4.8689 & 5.4484 & 10.8167\\ 
+        \hline
+\end{tabular}
+        \caption{Summary Statistics} 
+\end{center}
+\end{table}
+
+Table 2 highlights all basic summary statistics of the five Fama and French (2015) factors and the five hou, et al. (2020) factors. Factor names across header rows of class three reflect types determined in Table 1. Note that data is sourced in percentage form however, converted to decimal for analysis. This is in-line with standard summary statistic convention however, notation returns to percentage form in latter analysis.\\ 
+
+Note: $\mathrm{H_0}$: $\alpha=0$
+
+\newpage
+
+	\subsection{Summary Statistics II: Correlation Matrices (Q1)}
+
+\begin{table}[h]
+	\scriptsize
+	\renewcommand{\arraystretch}{1.25}
+\begin{center}                  
+\begin{tabular}{ p{1.5cm} | p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} }
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Fama and French (2015) Factors (FF5)}}\\
+        \hline
+        \hline
+        & Mkt. & SMB & HML & RMW & CMA\\
+        \hline
+        Mkt. & 1.0000 & 0.2779 & -0.2669 & -0.2268 & -0.3981\\
+        SMB & 0.2779 & 1.0000 & -0.0676 & -0.3621 & -0.0926\\
+        HML & -0.2669 & -0.0676 & 1.0000 & 0.0959 & 0.7027\\
+        RMW & -0.2268 & -0.3621 & 0.0959 & 1.0000 & -0.0021\\
+        CMA & -0.3981 & -0.0926 & 0.7027 & -0.0021 & 1.0000\\
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Hou, et al. (2020) Factors (HMXZ5)}}\\
+        \hline
+        \hline
+        & Mkt. & SIZE & INV & ROE & EG\\
+        \hline
+        Mkt. & 1.0000 & 0.2733 & -0.3825 & -0.2149 & -0.4608\\
+        SIZE & 0.2733 & 1.0000 & -0.1343 & -0.3119 & -0.3659\\
+        INV & -0.3825 & -0.1343 & 1.0000 & 0.0371 & 0.3352\\
+        ROE & -0.2149 & -0.3119 & 0.0371 & 1.0000 & 0.5070\\
+        EG & -0.4608 & -0.3659 & 0.3352 & 0.5070 & 1.0000\\
+        \hline
+\end{tabular}
+        \caption{Correlation Matrices}
+\end{center}
+\end{table}
+
+Table 3 highlights the correlation matrices of the five factors included in Fama and French's (2015) model and of the five factors in Hou, et al.'s (2020) model.
+
+\newpage 
+
+	\subsection{Summary Statistics III: Size \& Investment Portfolio Excess Returns (Q1)}
+
+\begin{table}[h]
+	\scriptsize
+	\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{ p{1.5cm} | p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} }
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Testing Folios w/ Kenneth French R$\mathbf{_f}$}}\\
+        \hline
+        \hline
+        & Aggressive & & Neutral & & Conservative\\
+        \hline
+        Small & 0.9221 & 0.9575 & 0.9827 & 0.8378 & 0.3319\\
+        & 0.8548 & 0.8986 & 0.9132 & 0.8903 & 0.5038\\
+        Neutral & 0.8598 & 0.8974 & 0.8067 & 0.7867 & 0.5321\\
+        & 0.7613 & 0.7532 & 0.7577 & 0.7523 & 0.5715\\
+        Big & 0.7304 & 0.5859 & 0.5535 & 0.5435 & 0.4738\\
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Testing Folios w/ Lu Zhang R$\mathbf{_f}$}}\\
+        \hline
+        \hline
+        & Aggressive & & Neutral & & Conservative\\
+        \hline
+        Small & 0.9227 & 0.9580 & 0.9833 & 0.8383 & 0.3324\\
+        & 0.8553 & 0.8992 & 0.9138 & 0.8908 & 0.5043\\
+        Neautral & 0.8603 & 0.8979 & 0.8072 & 0.7873 & 0.5326\\
+        & 0.7618 & 0.7537 & 0.7583 & 0.7528 & 0.5720\\
+        Big & 0.7309 & 0.5864 & 0.5540 & 0.5440 & 0.4743\\
+        \hline
+\end{tabular}
+        \caption{Size \& Investment Portfolio Mean Excess Returns (in \%)}
+\end{center}
+\end{table}
+
+Table 4 highlights the mean excess returns of the testing portfolios first, using the risk-free returns (R$\mathrm{_f}$) given alongside Fama and French's (2015) modelling and further, using the risk-free returns (R$\mathrm{_f}$) given alongside Hou, et al.'s (2020) modelling. Note that after this point, only the R$\mathrm{_f}$ values given alongside the FF5 are used, giving a fair evaluation when including factor-models. Progression left-to-right along columns represents a transition from an aggressive to conservative investment strategy test portfolio; progression top-to-bottom down rows represents a transition from small to big size test portfolio.
+
+\newpage
+
+	\subsection{OLS Regression Analysis (Q2)}
+
+\begin{center}
+	\scriptsize
+\begin{longtable}{ p{1.5cm} | p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} }
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Testing Folios w/ Fama and French (2015) Factors \& Kenneth French R$\mathbf{_f}$}}\\
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Coefficients (Alpha Values ``Abnormal Return'') (in \%)}}\\
+        \hline
+        & Aggressive & & Neutral & & Conservative\\
+        \hline
+        Small & 0.1768 & 0.1409 & 0.1566 & 0.0222 & -0.3396\\
+        & -0.0424 & 0.0255 & 0.0977 & 0.0327 & -0.1207\\
+        Neutral & 0.0011 & 0.0832 & -0.0029 & 0.0338 & -0.0242\\
+        & -0.1265 & -0.0735 & 0.0081 & 0.0573 & 0.1034\\
+        Big & -0.0539 & -0.0487 & -0.0554 & 0.0320 & 0.1535\\
+        \hline
+        \multicolumn{6}{c}{\textbf{std.err (1.03x10$\mathbf{^{-3}}$*)}}\\
+        \hline
+        & Aggressive & & Neutral & & Conservative\\
+        \hline
+        Small & 0.7614 & 0.5377 & 0.5806 & 0.5830 & 0.6633\\
+        & 0.5444 & 0.5551 & 0.5276 & 0.4971 & 0.5104\\
+        Neutral & 0.7302 & 0.5729 & 0.5353 & 0.5852 & 0.6071\\
+        & 0.6941 & 0.6226 & 0.5526 & 0.6182 & 0.6854\\
+        Big & 0.6949 & 0.4770 & 0.4372 & 0.4819 & 0.5517\\
+        \hline
+        \multicolumn{6}{c}{\textbf{t-ratio}}\\
+        \hline
+        & Aggressive & & Neutral & & Conservative\\
+        \hline
+        Small & 2.3221 & 2.6201 & 2.6971 & 0.3804 & -5.1197\\
+        & -0.7786 & 0.4586 & 1.8526 & 0.6575 & -2.3657\\
+        Neutral & 0.0156 & 1.4525 & -0.0545 & 0.5771 & -0.3987\\
+        & -1.8229 & -1.1806 & 0.1466 & 0.9272 & 1.5089\\
+        Big & -0.7750 & -1.0212 & -1.2671 & 0.6638 & 2.7817\\
+        \hline
+        \multicolumn{6}{c}{\textbf{Adjusted R$\mathbf{^2}$}}\\
+        \hline
+        & Aggressive & & Neutral & & Conservative\\
+        \hline
+        Small & 0.9369 & 0.9485 & 0.9396 & 0.9453 & 0.9502\\
+        & 0.9581 & 0.9354 & 0.9432 & 0.9567 & 0.9695\\
+        Neutral & 0.9071 & 0.9203 & 0.9297 & 0.9316 & 0.9506\\
+        & 0.9049 & 0.9034 & 0.9208 & 0.9102 & 0.9328\\
+        Big & 0.8693 & 0.9188 & 0.9359 & 0.9329 & 0.9416\\
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Testing Folios w/ Hou, et al. (2020) Factors \& Kenneth French R$\mathbf{_f}$}}\\
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Coefficients (Alpha Values ``Abnormal Return'') (in \%)}}\\
+	\hline
+        & Aggressive & & Neutral & & Conservative\\
+        \hline
+        Small & 0.2502 & 0.2147 & 0.1624 & 0.0808 & -0.1735\\
+        & 0.0212 & 0.1075 & 0.0844 & 0.0846 & 0.0303\\
+        Neutral & 0.0720 & 0.0949 & 0.0581 & 0.0754 & 0.1272\\
+        & 0.0293 & -0.0003 & 0.0370 & 0.0677 & 0.2186\\
+        Big & -0.0424 & -0.0981 & -0.1067 & -0.0364 & 0.1464\\
+        \hline
+        \multicolumn{6}{c}{\textbf{std.err (1.03x10$\mathbf{^{-3}}$*)}}\\
+        \hline
+        & Aggressive & & Neutral & & Conservative\\
+        \hline
+        Small & 0.9192 & 0.6944 & 0.7527 & 0.7614 & 0.8619\\
+        & 0.6413 & 0.7373 & 0.6708 & 0.7028 & 0.7040\\
+        Neutral & 0.8373 & 0.7014 & 0.6860 & 0.6811 & 0.7561\\
+        & 0.8062 & 0.7647 & 0.6594 & 0.6803 & 0.7920\\
+        Big & 0.8144 & 0.5706 & 0.5366 & 0.5682 & 0.6864\\
+        \hline
+        \multicolumn{6}{c}{\textbf{t-ratio}}\\
+        \hline
+        & Aggressive & & Neutral & & Conservative\\
+        \hline
+        Small & 2.7224 & 3.0921 & 2.1572 & 1.0608 & -2.0130\\
+        & 0.3311 & 1.4573 & 1.2580 & 1.2044 & 0.4306\\
+        Neutral & 0.8605 & 1.3524 & 0.8476 & 1.1070 & 1.6821\\
+        & 0.3637 & -0.0034 & 0.5616 & 0.9953 & 2.7596\\ 
+        Big & -0.5203 & -1.7189 & -1.9891 & -0.6408 & 2.1334\\
+        \hline
+        \multicolumn{6}{c}{\textbf{Adjusted R$\mathbf{^2}$}}\\
+        \hline
+        & Aggressive & & Neutral & & Conservative\\
+        \hline
+        Small & 0.9269 & 0.9317 & 0.9195 & 0.9259 & 0.9333\\ 
+        & 0.9538 & 0.9094 & 0.9271 & 0.9312 & 0.9539\\
+        Neutral & 0.9030 & 0.9052 & 0.9083 & 0.9265 & 0.9391\\
+        & 0.8981 & 0.8843 & 0.9105 & 0.9137 & 0.9288\\
+        Big & 0.8574 & 0.9078 & 0.9233 & 0.9260 & 0.9282\\
+        \hline
+        \caption{OLS Regression Output Sets}
+\end{longtable}
+\end{center}
+
+Table 5 highlights basic statistics from basic OLS regression on the testing portfolios first, using Fama and French's (2015) factors and corresponding R$\mathrm{_f}$. Further, using Hou, et al.'s (2020) factors and corresponding R$\mathrm{_f}$; reflected in class one headings. Class two headings represent coefficients (alpha values/abnormal returns/excess returns), standard error, relative t-ratios and, adjusted R$^2$ values. Again, progression left-to-right along columns represents a transition from an aggressive to conservative investment strategy test portfolio; progression top-to-bottom down rows represents a transition from small to big size test portfolio.\\
+
+Note: $\mathrm{H_0}$: $\alpha=0$
+
+\newpage
+
+	\subsection{GRS Tests (Q3)}
+
+\begin{table}[h]
+	\scriptsize
+	\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{ p{5cm} p{5cm} }
+        \textbf{GRS Test Statistic} & \textbf{p-value}\\
+        \hline
+        \multicolumn{2}{c}{\textbf{Testing Folios w/ Fama and French (2015) Factors \& Kenneth French R$\mathbf{_f}$}}\\
+        \hline
+        3.2894 & 0.0000\\
+        \hline
+        \multicolumn{2}{c}{\textbf{Testing Folios w/ Hou, et al. (2020) Factors \& Kenneth French R$\mathbf{_f}$}}\\
+        \hline
+        2.6146 & 0.0000\\
+        \hline
+\end{tabular}
+        \caption{GRS Tests}
+\end{center}
+\end{table}
+
+Table 6 highlights Gibbons, et al.'s (1989) GRS test results. First, using Fama and French's (2015) factors and R$\mathrm{_f}$ and further, using Hou, et al.'s (2020) factors and R$\mathrm{_f}$. This is a test of mean-variance efficiency, investigating again if a model is failed-to-be-rejected in terms of outperformance. This is determined using standard p-value protocol.\\
+
+Note: $\mathrm{H_0}$: $\alpha=0$
+
+\newpage
+
+	\subsection{Pricing Error Metrics (Q4)}
+
+\begin{table}[h]
+	\scriptsize
+	\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{ p{2cm} p{2cm} p{2cm} p{2cm} }
+        \hline
+        \hline
+        \multicolumn{4}{c}{\textbf{Testing Folios w/ Fama and French (2015) Factors \& Kenneth French R$\mathbf{_f}$}}\\
+        \hline
+        \hline
+        $\mathrm{\overline{|\alpha|}}$ & $\mathrm{\overline{\textrm{t-ratio}_{\alpha}}}$ & $\overline{\textrm{Adj. R}\mathrm{^2}}$ & $\overline{\mathrm{std.err_{\alpha}}}$\\
+        \hline
+        0.0805 & 1.3538 & 0.9317 & 0.0584\\
+        \hline
+	$\mathrm{\left(\frac{\overline{\alpha^2}}{\sigma_R^2}\right)}$ & $\mathrm{\left(\frac{\overline{\lambda^2}}{\sigma_R^2}\right)}$ & $\mathrm{\left(\frac{\overline{std.err_{\alpha}^2}}{\overline{\alpha^2}}\right)}$ & $\overline{\mathrm{Sharpe_{\alpha}^2}}$\\ 
+        \hline
+        0.3797 & 0.2681 & 0.2938 & 0.1495\\
+        \hline
+        \hline
+        \multicolumn{4}{c}{\textbf{Testing Folios w/ Hou, et al. (2020) Factors \& Kenneth French R$\mathbf{_f}$}}\\
+        \hline
+        \hline
+        $\mathrm{\overline{|\alpha|}}$ & $\mathrm{\overline{\textrm{t-ratio}_{\alpha}}}$ & $\overline{\textrm{Adj. R}\mathrm{^2}}$ & $\overline{\mathrm{std.err_{\alpha}}}$\\   
+        \hline
+        0.0968 & 1.3305 & 0.9189 & 0.0719\\
+        \hline
+	$\mathrm{\left(\frac{\overline{\alpha^2}}{\sigma_R^2}\right)}$ & $\mathrm{\left(\frac{\overline{\lambda^2}}{\sigma_R^2}\right)}$ & $\mathrm{\left(\frac{\overline{std.err_{\alpha}^2}}{\overline{\alpha^2}}\right)}$ & $\overline{\mathrm{Sharpe_{\alpha}^2}}$\\
+        \hline
+        0.4340 & 0.2655 & 0.3882 & 0.1493\\
+        \hline
+\end{tabular}
+        \caption{Pricing Error Metrics}
+\end{center}
+\end{table}
+
+Table 7 highlights pricing error metrics determined and practiced by Fama and French (2012, 2015, 2016, 2018). This includes [i] the absolute average $\alpha$ (which accounts purely for magnitude of mispricing), [ii] the average t-ratio of alpha, [iii] the average adjusted R$^2$ value, [iv] the average standard error; [v] average squared alpha-by-variance of returns (average spread in $\alpha$ to excess return volatility (closer to 0 is desired), [vi] average lambda squared-by-excess returns variance (accounting for standard error of $\alpha$'s (removes sampling error)), [vii] average squared standard error of $\alpha$-by-squared $\alpha$ (proportion of mispricing across N assets due to sampling error), [viii] squared Sharpe performance. 
+
+\begin{table}[h]
+        \scriptsize
+	\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{p{1cm}p{8cm}p{2.5cm}}
+        & \textbf{Metric} & \textbf{Signal} \\
+        \hline
+        i & $\mathrm{\overline{|\alpha|}}$ = Average Mispricing & Lower is Better\\
+        ii & $\mathrm{\overline{\textrm{t-ratio}_{\alpha}}}$ = Average t-ratio of $\alpha$ & N/A\\
+        iii & $\overline{\textrm{Adj. R}\mathrm{^2}}$ = Average Adjusted R$^2$ Value & Higher is Better\\
+        iv & $\overline{\mathrm{std.err_{\alpha}}}$ = Average Standard Error & Lower is Better\\
+	v & $\mathrm{\left(\frac{\overline{\alpha^2}}{\sigma_R^2}\right)}$ = Ratio As Described & Lower is Better\\
+	vi & $\mathrm{\left(\frac{\overline{\lambda^2}}{\sigma_R^2}\right)}$ = $\mathrm{\overline{\frac{\left(\alpha^2-std.err_{\alpha}^2\right)}{\sigma_R^2}}}$ = Average Real Mispricing & Lower is Better\\
+	vii & $\mathrm{\left(\frac{\overline{std.err_{\alpha}^2}}{\overline{\alpha^2}}\right)}$ = Ratio As Described & Higher is Better\\ 
+        viii & $\overline{\mathrm{Sharpe_{\alpha}^2}}$ = Avg. Sq. Sharpe Performance of Optimal Folio & Higher is Better\\
+        \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\newpage
+
+	\subsection{Sharpe Performance Comparison Tests (Q5)}
+
+\begin{table}[h]
+        \scriptsize
+	\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{ p{1.5cm} p{1.5cm} p{1.5cm} | p{1.5cm} p{1.5cm} p{1.5cm} }
+        & \textbf{Sharpe}$\mathbf{^2}^1$ & \textbf{p-value (1x10$\mathbf{^{-10}}$*)} & \textbf{Sharpe}$\mathbf{^2}^2$ & \textbf{p-value (GRS)} & \textbf{p-value (Prop 1)}\\
+        \hline
+        FF5 & 0.0930 & 0.1807 & \multirow{2}{*}{-0.2796} & \multirow{2}{*}{0.0000} & \multirow{2}{*}{0.0001}\\
+        HMXZ5 & 0.3722 & 0.0000 & & &\\
+        \hline
+        \multicolumn{3}{l}{$^1$: Adjusted Squared Sharpe Measures}\\
+        \multicolumn{3}{l}{$^2$: Difference in Adjusted Squared Sharpe Performance}\\ 
+        \hline
+\end{tabular}
+        \caption{Sharpe Performance Comparison Tests}
+\end{center}
+\end{table}
+
+Table 8 highlights Sharpe performance comparisons tests brought to light primarily by Barillas, Kan, Robotti and Shanken (2020) (based on Wolak (1989) methods) in order to compare the performance of factor models on either a nested or non-nested basis. They belive ``if you include all the factors in the investment universe, the test assets become irrelevant''. This method makes use of non-nested models; where the HMXZ5 is not endogenous of the FF5. For example, comapring the FF3 to the FF5 would be a nested test as factors within the FF5 are held within the FF3. The computation takes place also including the statistical methods of Newey and West (1994); in this case, to adjust for heteroskedasticicty (non-constant error terms). Further, the metrics include methods to correct for non-stationarity.\\
+
+The Sharpe comparison metric used here makes use of `Adjusted Squared Sharpe Measures' ($\mathrm{Adj.\ Sharpe^2=Sharpe^2\left(\frac{(T-K-2)}{T}\right)-\frac{K}{T}}$) and the `Difference in Adjusted Squared Sharpe Performance'. Note that Barillas, et al.'s (2020) Proposition 1 states that using two non-nested models sees that as K factors increase, the adjustment to the model increases. Further, the test relies on at least one model holding a Sharpe performance which is greater than zero.
+
+\newpage 
+
+	\subsection{Factor Redundancy Tests (Q6)}
+
+\begin{table}[h]
+	\scriptsize
+	\renewcommand{\arraystretch}{1.25}
+\begin{center}
+\begin{tabular}{ p{1.5cm} | p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} p{1.5cm} }
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Fama and French (2015) Factors (FF5)}}\\
+        \hline
+        \hline
+        & Mkt. & SMB & HML & RMW & CMA\\
+        \hline
+        $\alpha$ & 0.8364 & 0.2637 & -0.0536 & 0.4055 & 0.2494\\
+        t-ratio & 5.2578 & 2.3051 & -0.6388 & 4.9451 & 4.5471\\
+        \hline
+        $\sigma_{\varepsilon}$ & 3.9006 & 2.7574 & 2.0150 & 2.0059 & 1.3379\\
+        $\frac{\alpha^2}{\sigma_{\varepsilon}^2}$ & 0.0460 & 0.0091 & 0.0007 & 0.0409 & 0.0348\\
+        \hline
+        \hline
+        \multicolumn{6}{c}{\textbf{Hou, et al. (2020) Factors (HMXZ5)}}\\
+        \hline
+        \hline
+        & Mkt. & SIZE & INV & ROE & EG\\
+        \hline
+        $\alpha$ & 1.3431 & 0.6213 & 0.2632 & 0.1066 & 0.6592\\
+        t-ratio & 7.9673 & 4.8815 & 3.3903 & 1.0922 & 10.8383\\
+        \hline
+        $\sigma_{\varepsilon}$ & 3.7837 & 2.7743 & 1.6764 & 2.0913 & 1.4169\\
+        $\frac{\alpha^2}{\sigma_{\varepsilon}^2}$ & 0.1260 & 0.0501 & 0.0246 & 0.0026 & 0.2164\\
+        \hline
+\end{tabular}
+        \caption{Factor Redundancy Tests}
+\end{center}
+\end{table}
+
+Table 9 highlights results from the factors redundancy regression and marginal contribution tests (Fama, French, 2015, 2018) on Fama and French's (2015) and Hou, et al.'s (2020) factors. $\alpha$ values are presented in percentage (\%) format. The first multirow of each primary section (two-sets-of-factors) highlights the basic factor redundancy regressions. Results for each factor are displayed in corresponding columns with $\alpha$ and t-ratio. The second multirow of each primary section highlights the marginal contribution. Results for each factor are displayed in corresponding columns with $\sigma_{\varepsilon}$ and $\frac{\alpha^2}{\sigma_{\varepsilon}^2}$.\\
+
+Note: $\mathrm{H_0}$: $\alpha=0$ (``A factor adds $\approx$ 0 to excess retruns")
+
+\newpage
+
+\renewcommand\refname{Bibliography}
+
+\begin{thebibliography}{9}
+
+	\bibitem{a}
+		Barillas, F., Kan, R., Shanken, J. (2020).
+		\textsl{Model Comparison with Sharpe Ratios.}
+		Journal of Financial and Quantitative Analysis. Volume 55, Pages 1840--1874.
+
+	\bibitem{b}
+		Fama, E., French, K. (2015).
+		\textsl{A five-factor asset pricing model.}
+		Journal of Financial Economics. Volume 116, Issue 1, Pages 1--22.
+
+	\bibitem{c}
+		Fama, E., French, K. (2018).
+		\textsl{Choosing factors.}
+		Journal of Financial Economics. Volume 128, Issue 2, 234--252.
+
+	\bibitem{d}
+		Fama, E., French, K. (2016).
+		\textsl{Dissecting Anomalies with a Five-Factor Model.}
+		The Review of Financial Studies. Volume 29, Issue 1, Pages 69–-103.
+
+	\bibitem{e}
+		Fama, E. (2015).
+		\textsl{International Tests of a Five-Factor Asset Pricing Model.}
+		Tuck School of Business. Working Paper No. 2622782.
+	
+	\bibitem{f}
+		Fama, E., French, K. (2012).
+		\textsl{Size, value, and momentum in international stock returns.}
+		Journal of Financial Economics. Volume 105, Number 3, Pages 457--472.
+
+	\bibitem{g}
+		Gibbons, M., Ross, S., Shanken, J. (1989).
+		\textsl{A Test of the Efficiency of a Given Portfolio.}
+		Econometrics. Volume 57, Number 5, Pages 1121--1152.
+	
+	\bibitem{h}
+		Hou, K., Mo, H., Xue, C., Zhang, L. (2020).
+		\textsl{An Augmented q-Factor Model with Expected Growth.}
+		Review of Finance, Forthcoming.
+	
+	\bibitem{i}
+		Newey, K., West, D. (1994).
+		\textsl{Automatic Lag Selection in Covariance Matrix Estimation.}
+		The Review of Economic Studies. Volume 61, Issue 4, Pages 631–-653.
+
+	\bibitem{j}
+		Wolak, F. (1989).
+		\textsl{Testing Inequality Constraints In Linear Econometric Models.}
+		Journal of Econometrics. Volume 41, Pages 205--235.
+
+\end{thebibliography}
+
+\end{document}

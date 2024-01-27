@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Staff | MovieChad.net</title>
+        <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/png" href="movie.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+
+	<div class="header">
+
+	        <div class="title">
+                        <h1>MovieChad.net</h1>
+			<h2>Staff Member <span id="staffIdTitle">SP58BNN</span></h2>
+		</div>
+
+		<div class="navigation">
+                        <div class="pages-desktop">
+                                <a href="./index.html">Log-Out</a>
+                        </div>
+			<div class="pages-mobile-button">
+                                <a id="pagesDrop" href="#" class="fa fa-bars"></a>
+                        </div>
+                </div>
+
+        </div>
+
+	<div id="pagesDropCont" class="pages-mobile form--hidden">
+                <u>
+                <li><a href="./index.html">Log-Out</a></li>
+                </u>
+        </div>
+
+<body>
+
+	<div class="bodycage">
+
+		<div id="filler" class="bodytext">
+
+			<h1>Your Projects</h1>
+
+			<p>Use this section to view the projects to which you have been assigned, view tasks to which you have been assigned within those projects, and alter your tasks within your projects.</p>
+
+			<label>Your Current Projects:</label>
+			<u id="staffProjects">
+			<li><a href="#" id="proj1Staff"><b><span id="proj1TitleStaff">Ticket &amp; Refreshments Station Manning</span></b></a></li>
+			<li><a href="#" id="proj2Staff"><b><span id="proj2TitleStaff">Foyer Maintenance &amp; Cleaning</span></b></a></li>
+			</u>
+
+			<div id="staffProject1" class="form--hidden">
+
+				<h3><span id="proj1TitleStaff">Ticket &amp; Refreshments Station Manning</span></h3>
+
+				<p>
+					<label>Project Start Time: <span id="proj1TimeSrt">09:00</span>hrs</label><br>
+					<label>Project Finish Time: <span id="proj1TimeFin">00:00</span>hrs</label><br>
+					<label>&#8756; Project Duration: <span id="proj1TimeTotal">15</span>hrs</label>
+				</p>
+
+				<p>
+					<label>View Current Project Elements:</label>
+					<table>
+						<tr>
+							<td style="text-align:right;border-right:1px solid var(--font)">
+								<u id="proj1Elements">
+								<li><span id="proj1Element1">Man Ticket Station</span></li>
+								<li><span id="proj1Element2">Man Refreshments Booth</span></li>
+								<li><span id="proj1Element3">Clean and Rinse Popcorn Machines</span></li>
+								</u>
+							</td>
+							<td style="text-align:left">
+								<u id="proj1Times">
+								<li><span id="proj1Time11">N/A</span>-<span id="proj1Time12">N/A</span></li>
+								<li><span id="proj1Time21">N/A</span>-<span id="proj1Time22">N/A</span></li>
+								<li><span id="proj1Time31">11:00</span>-<span id="proj1Time32">11:30</span></li>
+								</u>
+							</td>
+						</tr>
+					</table>
+				</p>
+
+				<p>
+					<label>View Your Elements:</label>
+					<table>
+						<tr>
+							<td style="text-align:right;border-right:1px solid var(--font)">
+								<u id="proj1ElementsStaff">
+								<li><span id="proj1Element1Staff">Man Ticket Station</span></li>
+								<li><span id="proj1Element2Staff">Man Refreshments Booth</span></li>
+								</u>
+							</td>
+							<td style="text-align:left;border-right:1px solid var(--font)">
+								<u id="proj1TimesStaff">
+								<li><span id="proj1Time11Staff">11:00</span>-<span id="proj1Time12Staff">13:00</span></li>
+								<li><span id="proj1Time21Staff">13:30</span>-<span id="proj1Time22Staff">15:30</span></li>
+								</u>
+							</td>
+							<td style="text-align:left">
+								<u id="proj1TimesStaffAlt" style="line-height:40px;">
+								<li>Request Change: <input type="time" id="proj1Time11StaffAlt" class="form__input-time short"></input> - <input type="time" id="proj1Time12StaffAlt" class="form__input-time short"></input></li>
+								<li>Request Change: <input type="time" id="proj1Time21StaffAlt" class="form__input-time short"></input> - <input type="time" id="proj1Time22StaffAlt" class="form__input-time short"></input></li>
+								</u>
+							</td>
+						</tr>
+					</table>
+				</p>
+
+				<p>
+					Do you have any suggestions or comments alike about any of your tasks? 
+				</p>
+				
+			<form>
+				
+				<p>
+					<label>Select Element:</label>
+					<select id="addProj1ElementNotes" class="form__input-small">
+						<option><span id="proj1Element1Staff">Man Ticket Station</span></option>
+						<option><span id="proj1Element2Staff">Man Refreshments Booth</span></option>
+					</select>
+				</p>
+
+				<p>
+					<label>Notes:</label>
+                                        <input type="text" id="addProj1ElementNotes" class="form__input-small" style="height:150px;"></input>
+				</p>
+
+                                <p>
+                                        <button type="submit" id="addProj1ElementNotesSubmit" class="form__button-small">Submit Element Notes</button>
+                                </p>
+
+			</form>
+	
+				<p>
+					Do you think there&rsquo;s something missing from this project? Then submit your task request below.
+				</p>
+
+			<form>
+				
+				<p>
+					<label>Request New Element:</label>
+                                        <input type="text" id="addProj1ElementStaff" class="form__input-small" placeholder="Element Name">
+				</p>
+
+                                <p>
+                                        <label>Add Element Timespan:</label><br>
+                                        <input type="time" id="addProj1ElementTimeSrtStaff" class="form__input-time"></input>
+                                        <input type="time" id="addProj1ElementTimeFinStaff" class="form__input-time"></input>
+                                </p>
+
+                                <p>
+                                        <label>Add Yourself to This Element:</label><br>
+                                        <input type="time" id="addProj1ElementTimeShiftSrt" class="form__input-time"></input>
+                                        <input type="time" id="addProj1ElementTimeShiftFin" class="form__input-time"></input>
+                                </p>
+
+                                <p>
+                                        <button type="submit" id="addProj1ElementSubmitStaff" class="form__button-small">Submit New Element</button>
+                                </p>
+
+			</form>
+
+			</div>
+
+			<div id="staffProject2" class="form--hidden">
+
+				<h3><span id="proj2TitleStaff">Foyer Maintenance &amp; Cleaning</span></h3>
+
+				<p>
+					<label>Project Start Time: <span id="proj2TimeSrt">09:00</span>hrs</label><br>
+					<label>Project Finish Time: <span id="proj2TimeFin">00:00</span>hrs</label><br>
+					<label>&#8756; Project Duration: <span id="proj2TimeTotal">15</span>hrs</label>
+				</p>
+
+				<p>
+                                        <label>View Current Project Elements:</label>
+                                        <table>
+                                                <tr>
+                                                        <td style="text-align:right;border-right:1px solid var(--font)">
+                                                                <u id="proj2Elements">
+                                                                <li><span id="proj2Element1">Ticket Machine Survey</span></li>
+                                                                <li><span id="proj2Element2">Crowd Control</span></li>
+                                                                <li><span id="proj2Element3">Mop Floors</span></li>
+                                                                </u>
+                                                        </td>
+                                                        <td style="text-align:left">
+                                                                <u id="proj2Times">
+                                                                <li><span id="proj2Time11">N/A</span>-<span id="proj2Time12">N/A</span></li>
+                                                                <li><span id="proj2Time21">N/A</span>-<span id="proj2Time22">N/A</span></li>
+                                                                <li><span id="proj2Time31">23:00</span>-<span id="proj2Time32">23:30</span></li>
+                                                                </u>
+                                                        </td>
+                                                </tr>
+                                        </table>
+                                </p>
+
+				<p>
+					<label>View Your Elements:</label>
+					<table>
+						<tr>
+							<td style="text-align:right;border-right:1px solid var(--font)">
+								<u id="proj2ElementsStaff">
+								<li><span id="proj2Element1Staff">Ticket Machine Survey</span></li>
+								</u>
+							</td>
+							<td style="text-align:left;border-right:1px solid var(--font)">
+								<u id="proj2TimesStaff">
+								<li><span id="proj2Time11Staff">15:30</span>-<span id="proj2Time12Staff">16:00</span></li>
+								</u>
+							</td>
+							<td style="text-align:left">
+								<u id="proj2TimesStaffAlt" style="line-height:40px;">
+								<li>Request Change: <input type="time" id="proj2Time11StaffAlt" class="form__input-time short"></input> - <input type="time" id="proj2Time12StaffAlt" class="form__input-time short"></input></li>
+								</u>
+							</td>
+						</tr>
+					</table>
+				</p>
+				
+				<p>
+					Do you have any suggestions or comments alike about any of your tasks? 
+				</p>	
+
+			<form>
+				
+				<p>
+					<label>Select Element:</label>
+					<select id="addProj2ElementNotes" class="form__input-small">
+						<option><span id="proj2Element1Staff">Ticket Machine Survey</span></option>
+					</select>
+				</p>
+
+				<p>
+					<label>Notes:</label>
+                                        <input type="text" id="addProj2ElementNotes" class="form__input-small" style="height:150px;"></input>
+				</p>
+
+                                <p>
+                                        <button type="submit" id="addProj2ElementNotesSubmit" class="form__button-small">Submit Element Notes</button>
+                                </p>
+
+			</form>
+	
+				<p>
+					Do you think there&rsquo;s something missing from this project? Then submit your task request below.
+				</p>
+
+			<form>
+				
+				<p>
+					<label>Request New Element:</label>
+                                        <input type="text" id="addProj2ElementStaff" class="form__input-small" placeholder="Element Name">
+				</p>
+
+                                <p>
+                                        <label>Add Element Timespan:</label><br>
+                                        <input type="time" id="addProj2ElementTimeSrtStaff" class="form__input-time"></input>
+                                        <input type="time" id="addProj2ElementTimeFinStaff" class="form__input-time"></input>
+                                </p>
+
+                                <p>
+                                        <label>Add Yourself to This Element:</label><br>
+                                        <input type="time" id="addProj2ElementTimeShiftSrt" class="form__input-time"></input>
+                                        <input type="time" id="addProj2ElementTimeShiftFin" class="form__input-time"></input>
+                                </p>
+
+                                <p>
+                                        <button type="submit" id="addProj2ElementSubmitStaff" class="form__button-small">Submit New Element</button>
+                                </p>
+
+			</form>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+	<div class="footer">
+
+                <p>
+                        An Authentic HyperText&reg; Markup Language Original
+                        <br>
+                        Not One of Those Garbage Template Sites Like Squarespace or Wix
+                </p>
+
+                <p>
+                        &#169; CS993 Group 2
+                </p>
+
+        </div>
+
+        <script src="script.js"></script>
+
+</html>

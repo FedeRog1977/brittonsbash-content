@@ -83,6 +83,20 @@
     ],
     "miles": [
       {
+        "id": "M2024030",
+        "name": "Waterfoot",
+        "distance": 10.06,
+        "elevation": 656,
+        "time": "1:58:43"
+      },
+      {
+        "id": "M2024029",
+        "name": "Waterfoot",
+        "distance": 10.13,
+        "elevation": 564,
+        "time": "1:57:42"
+      },
+      {
         "id": "M2024028",
         "name": "Waterfoot",
         "distance": 10.19,

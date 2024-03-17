@@ -1,8 +1,8 @@
 ---
 title:
-    - Culinary Basics: The Definitive Guide
+  - Culinary Basics: The Definitive Guide
 author:
-    - Lewis Britton
+  - Lewis Britton
 ---
 
 # An Art or Science?
@@ -25,21 +25,21 @@ The art is what you do, the science is how you do it.
 
 ## Oils
 
--   Butter
--   Clarified Butter
--   Lard
--   Olive
--   Olive (Virgin)
--   Rapeseed
--   Sunflower
--   Sesame
--   Avocado
--   Peanut (Groundnut)
+- Butter
+- Clarified Butter
+- Lard
+- Olive
+- Olive (Virgin)
+- Rapeseed
+- Sunflower
+- Sesame
+- Avocado
+- Peanut (Groundnut)
 
 ## Techniques
 
--   Velveting
--   Emulsification
+- Velveting
+- Emulsification
 
 ---
 
@@ -73,21 +73,21 @@ The art is what you do, the science is how you do it.
 
 ## Bases
 
--   Chicken Stock
--   Beef Stock
+- Chicken Stock
+- Beef Stock
 
 ## Gravies
 
--   Gravy
--   Demi Glace
+- Gravy
+- Demi Glace
 
 ## Thickeners
 
--   Slurry
+- Slurry
 
 ## Condiments
 
--   Mayonnaise
+- Mayonnaise
 
 ---
 
@@ -95,19 +95,19 @@ The art is what you do, the science is how you do it.
 
 ## Bread
 
--   Sourdough
+- Sourdough
 
 ## Other Dough
 
--   Pizza Dough
--   Pasta
--   Puff Pastry
+- Pizza Dough
+- Pasta
+- Puff Pastry
 
 ## Pastry
 
--   Short-Crust Pastry
--   Puff Pastry
--   Choux Pastry (Pâte à Choux)
+- Short-Crust Pastry
+- Puff Pastry
+- Choux Pastry (Pâte à Choux)
 
 ---
 
@@ -115,14 +115,14 @@ The art is what you do, the science is how you do it.
 
 ## Potato
 
--   Mashed Potatoes
--   Roast Potatoes
--   Chips
--   French Fries
--   Matchstick Fries
--   Fondant Potatoes
--   Potato Dauphinoise
--   Watercress Crushed Potatoes
+- Mashed Potatoes
+- Roast Potatoes
+- Chips
+- French Fries
+- Matchstick Fries
+- Fondant Potatoes
+- Potato Dauphinoise
+- Watercress Crushed Potatoes
 
 ---
 
@@ -172,25 +172,25 @@ The art is what you do, the science is how you do it.
 
 ## Stir Fry
 
--   2 tbsp dark soy sauce
--   1 tbsp oyster sauce
--   1 tbsp sriracha sauce
--   1 tbsp sesame oil
--   1 tbsp rice vinegar
--   3 cloves of garlic
--   Ginger
--   Palm sugar
--   2 spring onions
--   Fresh coriander
+- 2 tbsp dark soy sauce
+- 1 tbsp oyster sauce
+- 1 tbsp sriracha sauce
+- 1 tbsp sesame oil
+- 1 tbsp rice vinegar
+- 3 cloves of garlic
+- Ginger
+- Palm sugar
+- 2 spring onions
+- Fresh coriander
 
--   1 tbsp sesame oil
--   1 red onion
--   1 red pepper
--   Tender stem broccoli
--   Chestnut mushrooms
--   Chicken breast
--   Corn flour
--   Egg noodles
+- 1 tbsp sesame oil
+- 1 red onion
+- 1 red pepper
+- Tender stem broccoli
+- Chestnut mushrooms
+- Chicken breast
+- Corn flour
+- Egg noodles
 
 ## Goulash
 
@@ -198,27 +198,27 @@ The art is what you do, the science is how you do it.
 
 ## Italian Stew
 
--   Olive oil
--   2 red onions
--   2 carrots
--   2 sticks of celery
--   2 red peppers
--   6 cloves of garlic
--   8 tomatoes
--   Passata
--   Dried oregano
--   Dried rosemary
--   Dried sage
--   A whole roast chicken
--   1 can of borlotti beans
--   1 can of cannellini beans
--   Tender stem broccoli
--   Artichoke hearts
--   Kalamata olives
--   Cherry tomatoes
--   2 balls of mozzarella
--   Parmigiano Reggiano
--   Fresh basil
+- Olive oil
+- 2 red onions
+- 2 carrots
+- 2 sticks of celery
+- 2 red peppers
+- 6 cloves of garlic
+- 8 tomatoes
+- Passata
+- Dried oregano
+- Dried rosemary
+- Dried sage
+- A whole roast chicken
+- 1 can of borlotti beans
+- 1 can of cannellini beans
+- Tender stem broccoli
+- Artichoke hearts
+- Kalamata olives
+- Cherry tomatoes
+- 2 balls of mozzarella
+- Parmigiano Reggiano
+- Fresh basil
 
 Coarse dice the onions, carrots and celery and form a soffritto by using the olive oil to fry them on high heat, in a large Dutch oven.
 
@@ -235,3 +235,19 @@ It’s assumed at this point that your chicken will have been roasted to your ta
 The further steps are easy, drain and wash your borlotti and cannellini beans (assuming you’re using canned ones) and add to the pot. Chop the tender stem broccoli into manageable pieces, usually by perhaps third’ing tips or roughly eighth’ing whole, and add them too. Add the artichoke hearts and olives too. And finally, half the cherry tomatoes and add them. Mix this well and leave it to simmer for a few minutes. Add water or more passata if needed.
 
 To finish, roughly break up the mozzarella and add to the pot, and grate in your desired amount of parmigiano. Bunch up the fresh basil and finely chop through it once, ensuring you don’t lose any oil from it. This applies to any herb. You have one chance! Add this to the pot, incorporate well, turn off the heat, and leave to sit with the lid on until it comes to a more appropriate heat for consumption.
+
+## Beef Curry
+
+- 2 tbsp olive oil
+- 1/2 a red onion
+- 1/2 a red pepper
+- Tender stem broccoli
+- 3 cloves of garlic
+- Ginger
+- 250g diced steak
+- 3 tomatoes
+- 2 tsp garam masala
+- 2 tsp coriander
+- 1 tsp cumin
+- 1 tsp turmeric
+- 1 tbsp creme friache

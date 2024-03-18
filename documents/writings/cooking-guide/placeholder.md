@@ -170,7 +170,106 @@ The art is what you do, the science is how you do it.
 
 # To Add
 
-## Stir Fry
+# Salmon Rilettes
+
+- 240g raw salmon
+- 120g smoked salmon
+- 2 shallots
+- 100g cucumber
+- 100g creme fraiche
+- 50g mayonnaise
+- Lemon juice
+- Lemon zest
+- Tarragon
+- Chervil
+- Chives
+- Dill
+
+# Christmas Roast
+
+## Beef & Gravy
+
+- Beef Topside Joint
+- Olive Oil
+- A Red Onion
+- A Carrot
+- 2 Sticks of Celery
+- Garlic
+- Flour
+- Port
+- Beef Stock
+- Fresh Rosemary
+
+Create a trivet for the beef by roughly chopping the onion, carrot and celery, and arranging on a small roasting tray. Heavily oil, salt and pepper the beef and place atop the trivet. Roast the beef at 180 degrees for 20 minutes per 500g, plus 20 minutes. This will give a medium-rare result.
+
+Once the beef is roasted, transfer it to a dish and cover to rest. Move the roasting tray with the vegetables and meat juice to a burner and bring back to heat. Roughly crush the garlic and add to this. If your beef has not provided a sufficient amount of dripping, add olive oil. Now add flour and brown. Deglaze the tray with port and reduce until thickened. Now add the beef stock and rosemary, and again reduce until slightly thickened. Pass the mixture a couple of times through a strainer into a saucepan. Continue to reduce the gravy to a point of viscosity you are satisfied with.
+
+## Sage, Onion & Chestnut Stuffing
+
+- 454g Sausage Meat
+- Olive Oil
+- A White Onion
+- Chestnuts
+- Fresh Sage
+- Thin Belly Bacon
+
+Fry the onion until soft but not coloured. Roughly chop the chestnuts and add to the onion. Finely chop the sage and add also. Continue to fry for a few more minutes. In a bowl, add the sausage meat and the fried mixture from the pan. Mix until consistent. Arrange this into a log shape and wrap completely with the belly bacon. Roast at 180 degrees for 40 minutes.
+
+## Sausages
+
+- Pork Sausages
+- Thin Belly Bacon
+
+Wrap each sausage in a slice of belly bacon and arrange on a small roasting tray. Roast at 180 degrees for 30-40 minutes.
+
+## Roast Potatoes & Parsnips
+
+- Olive Oil
+- Maris Piper Potatoes
+- Parsnips
+- Garlic
+- Fresh Rosemary
+
+Peel and quarter the potatoes. Cover them with water in a pot, bring to the boil on full gas and parboil for 10 minutes. Drain the potatoes and shake them well in the pot, with a lid. Empty them onto a baking sheet and allow to cool.
+
+Half the parsnips horizontally, then half the larger top half further vertically.
+
+Heat up roughly half a centimeter's worth of olive oil in a roasting tray then add the potatoes and parsnips. Roast at 180 degrees for 40 minuets, basting every 10 or so minutes. 10 minutes before finish, roughly crush the garlic and add it along with the rosemary to the roasting tray. Incorporate them with the potatoes and parsnips.
+
+## Roast Carrots & Sprouts
+
+- Olive Oil
+- Carrots
+- Brussels Sprouts
+
+Remove the firm bottoms of the sprouts. Peel the carrots and chop into 2 or 3 whole pieces. Arrange both the sprouts and carrots on a roasting tray and salt well. Leave them to sit for about half an hour, then toss them in the olive oil. Roast at 180 degrees for 40 minutes.
+
+# Tropical Fruit Trifle
+
+- 1 Madeira Cake
+- 1 Jar Strawberry Conserve
+- 500ml Bristol Cream Sherry
+- 200g Canned Pears
+- 200g Canned Mango
+- 200g Canned Pineapple
+- 200g Canned Papaya
+- 500g Vanilla Custard
+- 300ml Whipping Cream
+- 2 tsp Vanilla Extract
+
+# Cranberry Sauce
+
+- 150g Sugar
+- 2 Star Anise
+- 4 Cardamom Pods
+- Fresh Cranberries
+- A Bramley Apple
+- Port
+- Clementine Zest
+- Clementine Juice
+- Cinnamon
+
+# Stir Fry
 
 - 2 tbsp dark soy sauce
 - 1 tbsp oyster sauce
@@ -192,11 +291,11 @@ The art is what you do, the science is how you do it.
 - Corn flour
 - Egg noodles
 
-## Goulash
+# Goulash
 
 ...
 
-## Italian Stew
+# Italian Stew
 
 - Olive oil
 - 2 red onions
@@ -236,7 +335,7 @@ The further steps are easy, drain and wash your borlotti and cannellini beans (a
 
 To finish, roughly break up the mozzarella and add to the pot, and grate in your desired amount of parmigiano. Bunch up the fresh basil and finely chop through it once, ensuring you don’t lose any oil from it. This applies to any herb. You have one chance! Add this to the pot, incorporate well, turn off the heat, and leave to sit with the lid on until it comes to a more appropriate heat for consumption.
 
-## Beef Curry
+# Beef Curry
 
 - 2 tbsp olive oil
 - 1/2 a red onion

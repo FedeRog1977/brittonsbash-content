@@ -349,4 +349,7 @@ To finish, roughly break up the mozzarella and add to the pot, and grate in your
 - 2 tsp coriander
 - 1 tsp cumin
 - 1 tsp turmeric
+- 1/2 tsp cinnamon
+- 1/2 tsp cayenne pepper
 - 1 tbsp creme friache
+- Fresh coriander

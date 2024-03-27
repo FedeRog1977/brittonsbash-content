@@ -18,7 +18,7 @@
 # Web Content `brittonsbash-content`
 
 - Clean-up repository structure
-- Finish organizing Instant Gram photo directory structure
+- Finish organizing Instant Gram 2022 photo directory structure
 - Finish low-CSS text-only website (lewisbritton.com)
 - Discontinue old web pages
 
@@ -32,7 +32,7 @@
 - Add @mixins for responsive classes
 - Add responsive `<Flex />` component, like I added to `sp-digital-web`
 - Discontinue index.scss in main directory
-- Add mobile functionality for image tile
+- Add mobile functionality for `<ImageTile />`
 - Tidy-up prop imports and conditionals on functional components
 - Fix table scroll background bug
 
@@ -82,8 +82,6 @@
 - Add LaTeX selling points
 - Add command line selling points
 - Add Urban Dictionary page with "open doner" etc.
-
-## Utilities
 
 ## Weather
 

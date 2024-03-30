@@ -24,6 +24,7 @@
 
 # Web Structure `brittonsbash`
 
+- Write standard on Instant Gram naming convention, taking into account variants - web, web-content, etc.
 - Refine types - such as `Omit`, `extends`, etc. especially between Tile uses
 - Add _CaveatTile_
 - Add _generateUniqueKey_ and replace all keys

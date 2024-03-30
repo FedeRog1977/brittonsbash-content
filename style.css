@@ -13,9 +13,9 @@
 /* HTML Styles */
 
 body {
-  text-align: left;
   background-color: #1b1b1b;
-  margin: 50px 250px 50px 250px;
+  max-width: 1440px;
+  margin: 50px 300px 50px 300px;
 }
 
 header {

@@ -69,38 +69,26 @@
 
 # May
 
-| Mon | Tue | Wed | Thu |       Fri       |       Sat       |       Sun       |
-| :-: | :-: | :-: | :-: | :-------------: | :-------------: | :-------------: |
-|     |     |  1  |  2  |  [3](#fri-3rd)  |  [4](#sat-4th)  |  [5](#sun-5th)  |
-|  6  |  7  |  8  |  9  |       10        |       11        |       12        |
-| 13  | 14  | 15  | 16  | [17](#fri-17th) | [18](#sat-18th) | [19](#sun-19th) |
-| 20  | 21  | 22  | 23  |       24        |       25        |       26        |
-| 27  | 28  | 29  | 30  | [31](#fri-31st) |                 |                 |
+| Mon | Tue | Wed | Thu |       Fri       | Sat | Sun |
+| :-: | :-: | :-: | :-: | :-------------: | :-: | :-: |
+|     |     |  1  |  2  |  [3](#fri-3rd)  |  4  |  5  |
+|  6  |  7  |  8  |  9  |       10        | 11  | 12  |
+| 13  | 14  | 15  | 16  |       17        | 18  | 19  |
+| 20  | 21  | 22  | 23  | [24](fri-24th)  | 25  | 26  |
+| 27  | 28  | 29  | 30  | [31](#fri-31st) |     |     |
 
 ## Fri 3rd
 
 - Take That at the Hydro
 - Big birthday dinner and drinks
 
-## Fri 17th
+## Fri 24th
 
-- Drive to Aviemore
-- Get wasted
-- Aviemore hostel
-
-## Sat 18th
-
-- Coffee at the ski center
-- Get wasted
-- Aviemore hostel
-
-## Sun 19th
-
-- Drive home from Aviemore
+- Drygate
 
 ## Fri 31st
 
-- Drive to Dalwhinnie
+- Dalwhinnie
 
 # June
 

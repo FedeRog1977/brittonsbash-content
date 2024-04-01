@@ -1,3 +1,39 @@
+# Chore
+
+- Cut hair **weekly**
+- Clean clothes **weekly**
+- Clean kitchen **weekly**
+- Clean bathroom **weekly**
+- Clean bedroom **weekly**
+- Clean boots and shoes **monthly**
+- Clean bedsheets **monthly**
+- Clean car **monthly**
+- Clean bike **monthly**
+- Change bike oil **monthly**
+
+# General
+
+- Work on the **ALL**
+  - Tail lamp right repair
+  - Tail lamb left bulb replacement
+  - New offside front air bag
+  - Wheel powdering
+  - Rust restoration
+- Refactor photo storage
+  - Keep - Google
+  - Keep - BrittonsBashRC
+  - Done - MacOS partition
+  - Todo - Linux partition
+  - Todo - External HDD
+  - Todo - Instagram
+  - Todo - Snapchat
+- Madrid Holiday
+  - Book London flights
+  - Book London accommodation
+  - Book Madrid flights
+  - Book Madrid accommodation
+- Refactor Spotify playlists into [The Final Two'er](./the-final-twoer-discs.md)
+
 # Dotfiles `dotfiles`
 
 - Finish dotfiles backup shell script

@@ -20,10 +20,11 @@
   - Wheel powdering
   - Rust restoration
 - Refactor photo storage
-  - Keep - Google
   - Keep - BrittonsBashRC
+  - Keep - Google Photos
+  - Done - iCloud Storage
   - Done - MacOS partition
-  - Todo - Linux partition
+  - Done - Linux partition
   - Todo - External HDD
   - Todo - Instagram
   - Todo - Snapchat
@@ -32,6 +33,7 @@
   - Book London accommodation
   - Book Madrid flights
   - Book Madrid accommodation
+- Finish organizing Linux directory structure
 - Refactor Spotify playlists into [The Final Two'er](./the-final-twoer-discs.md)
 
 # Dotfiles `dotfiles`

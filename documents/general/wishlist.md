@@ -7,7 +7,7 @@
 - ASICS tennis shoes
 - Oakley square blue lens
 - Oakley Flight Decks
-- Rab Tensor 10 Firecracker
+- Osprey Talon Pro 20L
 
 # Culinary
 

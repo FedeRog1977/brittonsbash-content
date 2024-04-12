@@ -79,6 +79,7 @@
 - Finish migration of sport data and its compilers
 - Refactor return constant names in compilers like new call compilers
 - Refactor blogs to reflect aggregate data, and correct routing
+- Fix reference export error `_index.scss` vs. `index.scss`
 
 - _Academia_: refactor written content
 - _Employment_: refactor written content

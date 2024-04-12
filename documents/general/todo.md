@@ -74,6 +74,8 @@
 - Add mobile functionality for `<ImageTile />`
 - Tidy-up prop imports and conditionals on functional components
 - Fix table scroll background bug
+- Sort types for new compilers which are using api calls
+- Write doc for api process: api call -> compiler -> use
 
 ## Academia
 

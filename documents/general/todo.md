@@ -62,6 +62,7 @@
 
 # Web Structure `brittonsbash`
 
+- Sort ESLint config
 - Write standard on Instant Gram naming convention, taking into account variants - web, web-content, etc.
 - Refine types - such as `Omit`, `extends`, etc. especially between Tile uses
 - Add _CaveatTile_
@@ -70,7 +71,6 @@
 - Add responsive classes where necessary, _Spacing_, type and typeType (instead of type={isMobile ? 'h1' : 't1'}) etc.
 - Add @mixins for responsive classes
 - Add responsive `<Flex />` component, like I added to `sp-digital-web`
-- Discontinue index.scss in main directory
 - Add mobile functionality for `<ImageTile />`
 - Tidy-up prop imports and conditionals on functional components
 - Fix table scroll background bug
@@ -78,7 +78,7 @@
 - Write doc for api process: api call -> compiler -> use
 - Finish migration of sport data and its compilers
 - Refactor return constant names in compilers like new call compilers
-- Refactor blogs to reflect aggregate data
+- Refactor blogs to reflect aggregate data, and correct routing
 
 - _Academia_: refactor written content
 - _Employment_: refactor written content
@@ -109,9 +109,13 @@
 - _Weather_: fix search component formatting
 - _Weather_: refactor look of desktop components
 - _Weather_: add completely new components for mobile
+- _Weather_: refactor call out of local directory to `/api`
 
 - _Conquest_: refactor Munros back into routes
 - _Conquest_: add formatter to flatten Munros from routes
 - _Conquest_: get distances and other stats from GPX's
 - _Conquest_: add features and work on existing
 - _Conquest_: add "my hills" button
+- _Conquest_: discontinue use of `styles-temp.scss`
+- _Conquest_: refactor logic into hooks like other pages
+- _Conquest_: refactor call out of local directory to `/api`

@@ -76,65 +76,42 @@
 - Fix table scroll background bug
 - Sort types for new compilers which are using api calls
 - Write doc for api process: api call -> compiler -> use
+- Finish migration of sport data and its compilers
+- Refactor return constant names in compilers like new call compilers
+- Refactor blogs to reflect aggregate data
 
-## Academia
+- _Academia_: refactor written content
+- _Employment_: refactor written content
 
-- Refactor content
+- _Library_: write _LaTeX: Skill, Art, Technique_
+- _Library_: write _Basics Of Cooking_
+- _Library_: write _Introduction to Mathematics and Statistics_
 
-## Employment
+- _Instant Gram_: add descriptions to Naples and Poland
+- _Instant Gram_: add features list to Europe and Berlin
+- _Instant Gram_: add images to 2020–2022
 
-- Refactor content
+- _Sport_: fix 2023 auto populate bug
+- _Sport_: fill in roadie speeds for 2023--2020
 
-## Library
+- _Panavision Panaflex_: start
 
-- Write _LaTeX: Skill, Art, Technique_
-- Write _Basics Of Cooking_
-- Write _Introduction to Mathematics and Statistics_
+- _BrittonsNYSERC_: start
 
-## Instant Gram
+- _Open Dictionary_: start
 
-- Add descriptions to Naples and Poland
-- Add features list to Europe and Berlin
-- Add images to 2020–2022
+- _ThinkFlow_: LaTeX selling points
+- _ThinkFlow_: command line selling points
 
-## Sport
+- _Cascading Style_: gorpcore (Salomon, ASICS, Arc'teryx)
 
-- Fix 2023 auto populate bug
-- Fill in roadie speeds for 2023--2020
+- _Weather_: fix GeoLocation default
+- _Weather_: fix search component formatting
+- _Weather_: refactor look of desktop components
+- _Weather_: add completely new components for mobile
 
-## BrittonsFoodRC
-
-- Add usePage page with category tags
-
-## BrittonsFilmRC
-
-- Add to router to replace Media
-
-## BrittonsNYSERC
-
-- Add to router
-- Maybe python scripts for uni math/stats stuff like portfolio optimization
-
-## BlogBoat
-
-- Add to router
-- Add, for each JSON entry, new blog link
-- Add gorpcore (Salomon, ASICS, Arcteryx)
-- Add LaTeX selling points
-- Add command line selling points
-- Add Urban Dictionary page with "open doner" etc.
-
-## Weather
-
-- Fix GeoLocation default
-- Fix search component formatting
-- Refactor look of desktop components
-- Add completely new components for mobile
-
-## Conquest
-
-- Refactor Munros back into routes
-- Add formatter to flatten Munros from routes
-- Get distances and other stats from GPX's
-- Add features and work on existing
-- Add "my hills" button
+- _Conquest_: refactor Munros back into routes
+- _Conquest_: add formatter to flatten Munros from routes
+- _Conquest_: get distances and other stats from GPX's
+- _Conquest_: add features and work on existing
+- _Conquest_: add "my hills" button

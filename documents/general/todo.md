@@ -64,6 +64,8 @@
 
 - Sort ESLint config
 - Write standard on Instant Gram naming convention, taking into account variants - web, web-content, etc.
+- Write standard on directory structure for both repos, and image naming etc. E.g., `<image-name>-1`, `<image-name>-2`, etc.
+- Add to above doc a note on semantic nesting, e.g. if something has children, it has a name (e.g. `this-directory`) and children are numbered. If not, the file is numbered.
 - Refine types - such as `Omit`, `extends`, etc. especially between Tile uses
 - Add _CaveatTile_
 - Add _generateUniqueKey_ and replace all keys
@@ -105,6 +107,10 @@
 - _ThinkFlow_: command line selling points
 
 - _Cascading Style_: gorpcore (Salomon, ASICS, Arc'teryx)
+
+- _Media_: update top films, television, music, games
+- _Media_: update comprehensive list (also use old external HDD plugged into tower PC)
+- _Media_: add tags to films, television, music, games for searchability
 
 - _Weather_: fix GeoLocation default
 - _Weather_: fix search component formatting

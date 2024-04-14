@@ -68,18 +68,18 @@
 - Add _CaveatTile_
 - Add _generateUniqueKey_ and replace all keys
 - Add breakpoints
-- Add responsive classes where necessary, _Spacing_, type and typeType (instead of type={isMobile ? 'h1' : 't1'}) etc.
-- Add @mixins for responsive classes
+- Add responsive classes where necessary, `<Spacing />`, type and typeType (instead of type={isMobile ? 'h1' : 't1'}) etc.
+- Add `@mixins` for responsive classes
 - Add responsive `<Flex />` component, like I added to `sp-digital-web`
 - Add mobile functionality for `<ImageTile />`
 - Tidy-up prop imports and conditionals on functional components
 - Fix table scroll background bug
 - Sort types for new compilers which are using api calls
-- Write doc for api process: api call -> compiler -> use
-- Refactor return constant names in compilers like new call compilers
+- Refactor return constant names in compilers like new call compilers, e.g. just `const sport` rather than `const sportData`
 - Refactor blogs to reflect aggregate data, and correct routing
 - Refactor `compileProjects`, `compileRoadies`, and `compileMiles` to reflect Object mapping
 - Add [this](https://eslint.org/docs/latest/use/getting-started) to README of `brittonsbash`
+- Copy over some docs from `sp-digital-web` like the naming convention and tooling ones
 
 - _Academia_: refactor written content
 - _Employment_: refactor written content

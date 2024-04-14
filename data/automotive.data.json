@@ -18,10 +18,32 @@
     "Ferarri Testarossa (1984)",
     "Ford Crown Victoria"
   ],
+  "allSpec": [
+    "Registered 25th of September 2008 (58)",
+    "2.7 <i>Testosterone</i> Diesel Injection (TDI)",
+    "2698cc, 6 Cylinder (V6), 24 Valve",
+    "6-Speed Automatic <i>Tiptronic</i> Transmission",
+    "quattro 4 Wheel Drivetrain",
+    "80l Fuel Capacity, 563 Mile Range",
+    "32mpg Urban', '380Nm",
+    "280ft-lb Torque",
+    "230gkm<sup>-1</sup> CO<sub>2</sub>",
+    "Station Wagon Estate",
+    "5 Door, 565l Cabin Capacity",
+    "Lavagrau Grey w/ Pearlescent Body &amp; Matte Trim"
+  ],
   "links": [
+    {
+      "content": "Audi Allroad Specs",
+      "href": "https://www.autoevolution.com/audi/allroad/"
+    },
     {
       "content": "Audi A6 Allroad Specs",
       "href": "https://www.autoevolution.com/cars/audi-allroad-2006.html#aeng_audi-allroad-2006-30-tfsi-v6"
+    },
+    {
+      "content": "Audi A6 Allroad Parkers",
+      "href": "https://www.parkers.co.uk/audi/a6/allroad-2006/27-tdi-quattro-5d-tip-auto/specs/"
     },
     {
       "content": "Quattro Daily",
@@ -46,6 +68,34 @@
     {
       "content": "Ross Tech VCDS",
       "href": "https://www.ross-tech.com/vag-com/VCDS.php"
+    },
+    {
+      "content": "Parts Guide",
+      "href": "https://audi.7zap.com/en/rdw/"
+    },
+    {
+      "content": "Parts Supplier",
+      "href": "https://www.eurocarparts.com/car-parts"
+    },
+    {
+      "content": "Air Suspension Supplier",
+      "href": "https://aerosus.co.uk/audi/a6/c6-4f.html"
+    },
+    {
+      "content": "Air Suspension Bag Repair",
+      "href": "https://www.youtube.com/watch?v=_FyYTFBsscc"
+    },
+    {
+      "content": "Color Guide",
+      "href": "https://www.automotivetouchup.com/touch-up-paint/audi/2008/a6/"
+    },
+    {
+      "content": "Care Guide",
+      "href": "https://www.youtube.com/watch?v=BbTeVU0kXl8"
+    },
+    {
+      "content": "Paint Supplier",
+      "href": "https://www.audipartsdirect.co.uk/product/audi-lava-grey-touch-up-set-lst0p2z7l"
     }
   ]
 }

@@ -58,7 +58,6 @@
 - Clean-up repository structure
 - Finish organizing Instant Gram 2022 photo directory structure
 - Finish low-CSS text-only website (lewisbritton.com)
-- Discontinue old web pages
 
 # Web Structure `brittonsbash`
 

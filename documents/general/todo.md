@@ -76,10 +76,10 @@
 - Fix table scroll background bug
 - Sort types for new compilers which are using api calls
 - Write doc for api process: api call -> compiler -> use
-- Finish migration of sport data and its compilers
 - Refactor return constant names in compilers like new call compilers
 - Refactor blogs to reflect aggregate data, and correct routing
-- Fix reference export error `_index.scss` vs. `index.scss`
+- Refactor `compileProjects`, `compileRoadies`, and `compileMiles` to reflect Object mapping
+- Add [this](https://eslint.org/docs/latest/use/getting-started) to README of `brittonsbash`
 
 - _Academia_: refactor written content
 - _Employment_: refactor written content

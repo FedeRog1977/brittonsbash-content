@@ -82,6 +82,7 @@
 - Refactor `compileProjects`, `compileRoadies`, and `compileMiles` to reflect Object mapping
 - Add [this](https://eslint.org/docs/latest/use/getting-started) to README of `brittonsbash`
 - Copy over some docs from `sp-digital-web` like the naming convention and tooling ones
+- Finish populating all data JSON files
 
 - _Academia_: refactor written content
 - _Employment_: refactor written content
@@ -96,6 +97,7 @@
 
 - _Sport_: fix 2023 auto populate bug
 - _Sport_: fill in roadie speeds for 2023--2020
+- _Sport_: populate page with remainder of projects key data
 
 - _Panavision Panaflex_: start
 

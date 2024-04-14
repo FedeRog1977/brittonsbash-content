@@ -1,4 +1,5 @@
 {
+  "overview": "Much like my sport, I eat in two very different ways. The majority of the time I eat for function. This means I aim to essentially just intake high quality meat and other forms of nutrient-dense foods such as vegetables. Mostly, I ensure my cooking is single-ingredient, in this functional scenario. I usually follow this during weekdays when going through the usual fitness activities and non-alcohol-drinking days. The most important part of this consumption is that ingredients are legitimate, whole-food, and from a trustworthy and sustainable source. This is why I believe in paying marginally more for butchers, fishmongers, dairies, greengrocers, etc. Or even higher-end supermarket variants of these. Or even, just going to a better supermarket like Whole Foods, Waitrose, or Marks and Spencer. You must note that shopping in good places is only considered more expensive because the majority of people are buying packages, ultra-processed, sugary shit like ready meals and pre-dressed foods. Yes, these will be more expensive. But, buy normal food like meat, eggs, dairy, vegetables, etc. and you will not notice a price difference.\n\nThe second approach to cooking I take is less of a food consumption approach and more of the art appreciation. That is, I like to cook. I like to develop recipes, experiment with ingredients, tools, and equipment, and putting something beautiful on a plate. Whether I eat it or not. It&rsquo;s the process I love. Usually I let go of cost in this scenario as it is usually split or it is a rare treat or occasional event. Although of course single-ingredient cooking doesn&rsquo;t really work in recipes, ingredients are still all whole-food and high quality.",
   "kitchen": {
     "brands": [
       "Wüsthof",
@@ -230,7 +231,24 @@
     "sweet": [],
     "bakeries": [],
     "gelaterias": [],
-    "restaurants": []
+    "restaurants": ["Kanpai", "Ka Ka Lok", "Lychee Oriental"],
+    "chefsCooks": [
+      "Gordon Ramsay",
+      "Marco Pierre White",
+      "Heston Blumenthal",
+      "James Martin",
+      "Rick Stein",
+      "Tom Kerridge",
+      "Nigel Slater",
+      "Nigella Lawson",
+      "Gino D&rsquo;Acampo",
+      "Barefoot Contessa",
+      "Pioneer Woman",
+      "Babish (Binging / Basics)",
+      "Mike Greenfield",
+      "Sam The Cooking Guy",
+      "Adam Ragusea"
+    ]
   },
   "drink": {
     "beer": {
@@ -282,34 +300,26 @@
     "cocktails": ["Mojito"],
     "bars": []
   },
-  "links": {
-    "kitchen": [
-      {
-        "content": "Pizza Dough Calculator",
-        "href": "https://www.stadlermade.com/pizza-calculator/"
-      },
-      {
-        "content": "Packing Containers",
-        "href": "https://www.enviropack.org.uk/"
-      }
-    ],
-    "food": {
-      "restaurants": [
-        {
-          "content": "Kanpai",
-          "href": "http://kanpaisushiedinburgh.co.uk/#!/food"
-        }
-      ]
+  "links": [
+    {
+      "content": "Luke's Recipe Site",
+      "href": "https://based.cooking"
     },
-    "drink": [
-      {
-        "content": "Master of Malt",
-        "href": "https://www.masterofmalt.com/"
-      },
-      {
-        "content": "The Belgian Beer Company",
-        "href": "https://www.thebelgianbeercompany.com/"
-      }
-    ]
-  }
+    {
+      "content": "Pizza Dough Calculator",
+      "href": "https://www.stadlermade.com/pizza-calculator/"
+    },
+    {
+      "content": "Packing Containers",
+      "href": "https://www.enviropack.org.uk/"
+    },
+    {
+      "content": "Master of Malt",
+      "href": "https://www.masterofmalt.com/"
+    },
+    {
+      "content": "The Belgian Beer Company",
+      "href": "https://www.thebelgianbeercompany.com/"
+    }
+  ]
 }

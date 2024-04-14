@@ -70,20 +70,6 @@
       "Quickdraws and Slings",
       "Chalk Bag and Chalk"
     ],
-    "shoes": [
-      "Trainers / Trail Runners",
-      "City / Approach (B0)",
-      "Hiking Boots, Flexible (B1)",
-      "Hiking Boots, Semi-Rigid (B2)",
-      "Hiking/Mountaineering Boots, Rigid (B3)",
-      "Climbing",
-      "Replacement Laces",
-      "Micro Spikes",
-      "Crampons, Flexible (C1)",
-      "Crampons, Semi-Rigid (C2)",
-      "Crampons, Rigid (C3)",
-      "Shoe Brush"
-    ],
     "clothing": [
       "Base Layers",
       "Mid Layer Fleeces and Hoodies",
@@ -104,8 +90,22 @@
       "Windbreaker Gloves",
       "Fleece Gloves",
       "Waterproof Gloves",
-      "Sunglasses (Omit)",
+      "Wrap-Around Sunglasses",
       "Ski Goggles"
+    ],
+    "shoes": [
+      "Trainers / Trail Runners",
+      "City / Approach (B0)",
+      "Hiking Boots, Flexible (B1)",
+      "Hiking Boots, Semi-Rigid (B2)",
+      "Hiking/Mountaineering Boots, Rigid (B3)",
+      "Climbing",
+      "Replacement Laces",
+      "Micro Spikes",
+      "Crampons, Flexible (C1)",
+      "Crampons, Semi-Rigid (C2)",
+      "Crampons, Rigid (C3)",
+      "Shoe Brush"
     ]
   },
   "roadies": {
@@ -122,14 +122,38 @@
     ],
     "bicycle": [
       "Giant TCR Advanced 1 Frame",
-      "Giant Contact Stem, Bars, Seatpost and Saddle",
+      "Giant Contact Stem, Bars, Seat Post and Saddle",
       "Shimano Ultegra Groupset",
       "Vision Team 30 Wheels",
-      "Goodyear Eagle F1 Tyres"
+      "Goodyear Eagle F1 Tyres",
+      "Giant Contact SLR Lite Bar Grip Tape"
     ],
-    "tools": [],
-    "accessories": [],
-    "clothing": []
+    "tools": [
+      "GPS Device",
+      "Foot/Hand Pump",
+      "Multi-Tool",
+      "Chain Breaker",
+      "Tyre Lever(s)",
+      "Spoke Key",
+      "Tubeless Putty",
+      "Tubeless Tape",
+      "Dry/Wet Lube",
+      "Multipurpose Grease",
+      "Soap",
+      "Drivetrain Cleaner",
+      "Sponges",
+      "Component Brushes",
+      "Microfiber Cloths"
+    ],
+    "clothing": [
+      "Base Layers",
+      "Jerseys",
+      "Jersey Jackets",
+      "Shorts",
+      "Leggings",
+      "Wrap-Around Sunglasses"
+    ],
+    "shoes": ["Cycling Shoes (Boa)", "SPD SL Cleats (Blue)"]
   },
   "tennis": {
     "brands": ["Wilson", "Luxilon", "Nike", "ASICS", "K-Swiss"],
@@ -158,172 +182,172 @@
     "shoes": [
       "K-Swiss Mens Defier",
       "Nike Zoom Vapor 9 Tour (Pending)",
-      "Nike Zoom Vapor Air Jordon 3 (Pending)",
+      "Nike Zoom Vapor Air Jordan 3 (Pending)",
       "THE ROGER Clubhouse Mid"
     ],
     "clothing": []
   },
   "miles": [],
-  "links": {
-    "projects": [
-      {
-        "content": "Strava - Lewis Britton",
-        "href": "https://www.strava.com/athletes/23679031"
-      },
-      {
-        "content": "Walkhighlands - Roger_Bagerer",
-        "href": "https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=182872"
-      },
-      {
-        "content": "Walkhighlands - CraigG350123",
-        "href": "https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=176594"
-      },
-      {
-        "content": "Walkhighlands GPS",
-        "href": "https://www.walkhighlands.co.uk/maps/"
-      },
-      {
-        "content": "Ordnance Survey GPS",
-        "href": "https://explore.osmaps.com/?lat=51.776100&lon=-1.894300&zoom=7.0000&style=Standard&type=2d"
-      },
-      {
-        "content": "Ordnance Survey Shop",
-        "href": "https://shop.ordnancesurvey.co.uk/"
-      },
-      {
-        "content": "Ordnance Survey Selector",
-        "href": "https://shop.ordnancesurvey.co.uk/map-selector/"
-      },
-      {
-        "content": "OpenStreetMap",
-        "href": "https://www.openstreetmap.org/#map=9/55.8229/-4.6033"
-      },
-      {
-        "content": "Harvey Maps",
-        "href": "https://www.harveymaps.co.uk/"
-      },
-      {
-        "content": "Met Office",
-        "href": "https://www.metoffice.gov.uk/"
-      },
-      {
-        "content": "Met Office Mountain",
-        "href": "https://www.metoffice.gov.uk/weather/specialist-forecasts/mountain"
-      },
-      {
-        "content": "Windy",
-        "href": "https://www.windy.com/-Webcams/United-Kingdom/Scotland/Fort-William/Allt-na-Diollaid/webcams/1595283181?56.715,-5.640,10"
-      },
-      {
-        "content": "MWIS",
-        "href": "https://www.mwis.org.uk/"
-      },
-      {
-        "content": "MWIS Webcams",
-        "href": "https://www.mwis.org.uk/information/webcams/scotland"
-      },
-      {
-        "context": "Weather Symbols",
-        "href": "https://www.wpc.ncep.noaa.gov/dailywxmap/plottedwx.html"
-      },
-      {
-        "content": "Flickr - Scotland’s Mountains",
-        "href": "https://www.flickr.com/photos/scotlandsmountains/with/49836416736/"
-      },
-      {
-        "content": "Mountaineering Scotland",
-        "href": "https://www.mountaineering.scot/"
-      },
-      {
-        "content": "Mountains of Scotland",
-        "href": "https://www.mountainsofscotland.co.uk/index.htm"
-      },
-      {
-        "content": "The Database of British and Irish Hills",
-        "href": "http://www.hills-database.co.uk/downloads.html"
-      },
-      {
-        "content": "Hill Bagging",
-        "href": "https://www.hill-bagging.co.uk/"
-      },
-      {
-        "content": "Haroldstreet GPS",
-        "href": "https://www.haroldstreet.org.uk/"
-      },
-      {
-        "content": "Peakbagger",
-        "href": "https://www.peakbagger.com/Default.aspx"
-      },
-      {
-        "content": "BritishNationalGrid",
-        "href": "https://britishnationalgrid.uk/#NN385662"
-      },
-      {
-        "content": "TrigpointingUK",
-        "href": "https://trigpointing.uk/"
-      },
-      {
-        "content": "Gear Repairs",
-        "href": "https://www.scottishmountaingear.com/"
-      },
-      {
-        "content": "Gear Repairs",
-        "href": "https://lancashiresportsrepairs.co.uk/"
-      },
-      {
-        "content": "33 Munros",
-        "href": "https://www.strava.com/activities/5571470389"
-      }
-    ],
-    "tennis": [
-      {
-        "content": "ATP Tour",
-        "href": "https://www.atptour.com/en/"
-      },
-      {
-        "content": "Tennis Companion",
-        "href": "https://tenniscompanion.org/"
-      },
-      {
-        "content": "Federer Racquets",
-        "href": "https://www.perfect-tennis.com/the-many-racquets-of-roger-federer/"
-      },
-      {
-        "content": "Federer Career Achievements",
-        "href": "https://en.wikipedia.org/wiki/List_of_career_achievements_by_Roger_Federer"
-      },
-      {
-        "content": "Federer Retirement Ceremony",
-        "href": "https://www.youtube.com/watch?v=DKJr2R2l7Ko"
-      },
-      {
-        "content": "Federer Final Match",
-        "href": "https://www.discoveryplus.com/gb/video/sport/dplus-sport-dplus-sport-sport/r-federer-r-nadal-j-sock-f-tiafoe-3315011"
-      },
-      {
-        "content": "Federer vs Blake - Masters Finals 2006",
-        "href": "https://www.youtube.com/watch?v=obFDQRDW7I8"
-      },
-      {
-        "content": "Federer vs Roddick - Australian Open 2007",
-        "href": "https://www.youtube.com/watch?v=28iBHDBmIg0&t=856s"
-      },
-      {
-        "content": "Federer Australian Open 2017 Rally",
-        "href": "https://www.youtube.com/watch?v=cDv6uCyq8OE"
-      },
-      {
-        "content": "Federer Return of 140mph Roddick Serve",
-        "href": "https://www.youtube.com/watch?v=5gcvLbtaNxM"
-      },
-      {
-        "content": "Federer US Open 2009 Tweener",
-        "href": "https://www.youtube.com/watch?v=pMJ0-1GGf5k"
-      },
-      {
-        "content": "Federer Gillette Fusion Proglide Advert",
-        "href": "https://www.youtube.com/watch?v=KojlQtskZdk"
-      }
-    ]
-  }
+  "links": [
+    {
+      "content": "Strava - Lewis Britton",
+      "href": "https://www.strava.com/athletes/23679031"
+    },
+    {
+      "content": "Walkhighlands - Roger_Bagerer",
+      "href": "https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=182872"
+    },
+    {
+      "content": "Walkhighlands - CraigG350123",
+      "href": "https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=176594"
+    },
+    {
+      "content": "Walkhighlands GPS",
+      "href": "https://www.walkhighlands.co.uk/maps/"
+    },
+    {
+      "content": "Ordnance Survey GPS",
+      "href": "https://explore.osmaps.com/?lat=51.776100&lon=-1.894300&zoom=7.0000&style=Standard&type=2d"
+    },
+    {
+      "content": "Ordnance Survey Shop",
+      "href": "https://shop.ordnancesurvey.co.uk/"
+    },
+    {
+      "content": "Ordnance Survey Selector",
+      "href": "https://shop.ordnancesurvey.co.uk/map-selector/"
+    },
+    {
+      "content": "OpenStreetMap",
+      "href": "https://www.openstreetmap.org/#map=9/55.8229/-4.6033"
+    },
+    {
+      "content": "Harvey Maps",
+      "href": "https://www.harveymaps.co.uk/"
+    },
+    {
+      "content": "Met Office",
+      "href": "https://www.metoffice.gov.uk/"
+    },
+    {
+      "content": "Met Office Mountain",
+      "href": "https://www.metoffice.gov.uk/weather/specialist-forecasts/mountain"
+    },
+    {
+      "content": "Windy",
+      "href": "https://www.windy.com/-Webcams/United-Kingdom/Scotland/Fort-William/Allt-na-Diollaid/webcams/1595283181?56.715,-5.640,10"
+    },
+    {
+      "content": "MWIS",
+      "href": "https://www.mwis.org.uk/"
+    },
+    {
+      "content": "MWIS Webcams",
+      "href": "https://www.mwis.org.uk/information/webcams/scotland"
+    },
+    {
+      "context": "Weather Symbols",
+      "href": "https://www.wpc.ncep.noaa.gov/dailywxmap/plottedwx.html"
+    },
+    {
+      "content": "Flickr - Scotland’s Mountains",
+      "href": "https://www.flickr.com/photos/scotlandsmountains/with/49836416736/"
+    },
+    {
+      "content": "Mountaineering Scotland",
+      "href": "https://www.mountaineering.scot/"
+    },
+    {
+      "content": "Mountains of Scotland",
+      "href": "https://www.mountainsofscotland.co.uk/index.htm"
+    },
+    {
+      "content": "The Database of British and Irish Hills",
+      "href": "http://www.hills-database.co.uk/downloads.html"
+    },
+    {
+      "content": "Hill Bagging",
+      "href": "https://www.hill-bagging.co.uk/"
+    },
+    {
+      "content": "Haroldstreet GPS",
+      "href": "https://www.haroldstreet.org.uk/"
+    },
+    {
+      "content": "Peakbagger",
+      "href": "https://www.peakbagger.com/Default.aspx"
+    },
+    {
+      "content": "BritishNationalGrid",
+      "href": "https://britishnationalgrid.uk/#NN385662"
+    },
+    {
+      "content": "TrigpointingUK",
+      "href": "https://trigpointing.uk/"
+    },
+    {
+      "content": "Gear Repairs",
+      "href": "https://www.scottishmountaingear.com/"
+    },
+    {
+      "content": "Gear Repairs",
+      "href": "https://lancashiresportsrepairs.co.uk/"
+    },
+    {
+      "content": "33 Munros",
+      "href": "https://www.strava.com/activities/5571470389"
+    },
+    {
+      "content": "ATP Tour",
+      "href": "https://www.atptour.com/en/"
+    },
+    {
+      "content": "Tennis Companion",
+      "href": "https://tenniscompanion.org/"
+    },
+    {
+      "content": "Federer Racquets",
+      "href": "https://www.perfect-tennis.com/the-many-racquets-of-roger-federer/"
+    },
+    {
+      "content": "Federer Career Achievements",
+      "href": "https://en.wikipedia.org/wiki/List_of_career_achievements_by_Roger_Federer"
+    },
+    {
+      "content": "Federer Retirement Ceremony",
+      "href": "https://www.youtube.com/watch?v=DKJr2R2l7Ko"
+    },
+    {
+      "content": "Federer Final Match",
+      "href": "https://www.discoveryplus.com/gb/video/sport/dplus-sport-dplus-sport-sport/r-federer-r-nadal-j-sock-f-tiafoe-3315011"
+    },
+    {
+      "content": "Federer vs Blake - Masters Finals 2006",
+      "href": "https://www.youtube.com/watch?v=obFDQRDW7I8"
+    },
+    {
+      "content": "Federer vs Roddick - Australian Open 2007",
+      "href": "https://www.youtube.com/watch?v=28iBHDBmIg0&t=856s"
+    },
+    {
+      "content": "Federer Australian Open 2017 Rally",
+      "href": "https://www.youtube.com/watch?v=cDv6uCyq8OE"
+    },
+    {
+      "content": "Federer Return of 140mph Roddick Serve",
+      "href": "https://www.youtube.com/watch?v=5gcvLbtaNxM"
+    },
+    {
+      "content": "Federer US Open 2009 Tweener",
+      "href": "https://www.youtube.com/watch?v=pMJ0-1GGf5k"
+    },
+    {
+      "content": "Federer Gillette Fusion Proglide Advert",
+      "href": "https://www.youtube.com/watch?v=KojlQtskZdk"
+    },
+    {
+      "content": "Bike Cleaning Guide",
+      "href": "https://www.youtube.com/watch?v=5ak4AzlUz5Q"
+    }
+  ]
 }

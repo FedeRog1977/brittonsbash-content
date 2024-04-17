@@ -33,6 +33,10 @@
   - Book London accommodation
   - Book Madrid flights
   - Book Madrid accommodation
+- Bike fuck-up
+  - Contact Digby Brown
+  - Get money from guy
+  - Follow up incident 1504 of 8th of April
 - Finish organizing Linux directory structure
 - Refactor Spotify playlists into [The Final Two'er](./the-final-twoer-discs.md)
 

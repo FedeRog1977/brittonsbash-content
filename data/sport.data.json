@@ -2,6 +2,22 @@
   "2024": {
     "roadies": [
       {
+        "id": "R2024007",
+        "name": "Strathaven",
+        "distance": 36.85,
+        "elevation": 2290,
+        "time": "2:11:49",
+        "speed": 16.8
+      },
+      {
+        "id": "R2024006",
+        "name": "Fenwick + Wind Farm",
+        "distance": 27.77,
+        "elevation": 1552,
+        "time": "1:38:42",
+        "speed": 16.9
+      },
+      {
         "id": "R2024005",
         "name": "Fenwick + Wind Farm",
         "distance": 26.21,

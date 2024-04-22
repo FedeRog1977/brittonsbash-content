@@ -6,6 +6,32 @@
       "names": ["Mackey! Refresh!"],
       "startDate": "18th of April",
       "endDate": "21st of April",
+      "features": {
+        "cities": ["Venice", "Florence"],
+        "districts": [""],
+        "attractions": ["Mercato Centrale", "Circolo del Tennis Firenze 1898"],
+        "youthHostels": ["YellowSquare"],
+        "supermarkets": [
+          "Carrefour",
+          "Pam Firenze Ottaviani",
+          "Interspar",
+          "Eurospar"
+        ],
+        "shops": [
+          "Rinascente Firenze",
+          "Migone Sweet Shop",
+          "Manzani Belle Arti",
+          "La Feltrinelli RED",
+          "Dolfi Hi-Fi"
+        ],
+        "foodstuffs": ["Gelato", "Cornetti", "Pane toscano", "Cicchetti"],
+        "cafes": ["Torrefazione Cannaregio"],
+        "bakeries": ["Farini"],
+        "gelaterias": ["Amorino", "Venchi"],
+        "restaurants": [""],
+        "bars": [""],
+        "filmingLocations": [""]
+      },
       "description": "",
       "images": [
         {

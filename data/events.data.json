@@ -8,29 +8,43 @@
       "endDate": "21st of April",
       "features": {
         "cities": ["Venice", "Florence"],
-        "districts": [""],
-        "attractions": ["Mercato Centrale", "Circolo del Tennis Firenze 1898"],
-        "youthHostels": ["YellowSquare"],
+        "districts": ["Venice Mestre", "Rialto", "San Marco"],
+        "attractions": [
+          "Ponte di Rialto",
+          "Mercato Centrale",
+          "Circolo del Tennis Firenze 1898",
+          "Basilica di San Marco",
+          "Palazzo Ducale",
+          "Giardini Reali"
+        ],
+        "youthHostels": ["Hotel Garibaldi", "YellowSquare"],
         "supermarkets": [
           "Carrefour",
           "Pam Firenze Ottaviani",
           "Interspar",
-          "Eurospar"
+          "Eurospar",
+          "Coop"
         ],
         "shops": [
           "Rinascente Firenze",
           "Migone Sweet Shop",
           "Manzani Belle Arti",
           "La Feltrinelli RED",
-          "Dolfi Hi-Fi"
+          "Dolfi Hi-Fi",
+          "Cartoleria San Trovaso"
         ],
-        "foodstuffs": ["Gelato", "Cornetti", "Pane toscano", "Cicchetti"],
-        "cafes": ["Torrefazione Cannaregio"],
+        "foodstuffs": [
+          "Gelato",
+          "Cornetti",
+          "Pane Toscano",
+          "Cicchetti",
+          "Ribollita"
+        ],
+        "cafes": ["Goppion Caffetteria", "Torrefazione Cannaregio"],
         "bakeries": ["Farini"],
         "gelaterias": ["Amorino", "Venchi"],
-        "restaurants": [""],
-        "bars": [""],
-        "filmingLocations": [""]
+        "restaurants": ["Cantine del Vino già Schiavi"],
+        "bars": ["Dalla Moretta"]
       },
       "description": "",
       "images": [

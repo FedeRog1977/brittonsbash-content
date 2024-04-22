@@ -27,24 +27,47 @@
         ],
         "shops": [
           "Rinascente Firenze",
-          "Migone Sweet Shop",
           "Manzani Belle Arti",
-          "La Feltrinelli RED",
+          "Feltrinelli Librerie",
           "Dolfi Hi-Fi",
-          "Cartoleria San Trovaso"
+          "Cartoleria San Trovaso",
+          "Nino",
+          "Eataly",
+          "Fabriano Boutique",
+          "Enoteca Venezia"
         ],
         "foodstuffs": [
           "Gelato",
           "Cornetti",
           "Pane Toscano",
           "Cicchetti",
-          "Ribollita"
+          "Ribollita",
+          "Cappuccino",
+          "Birra Moretti Filtrata a Freddo",
+          "Ichnuso non Filtrata",
+          "Leffe Rouge",
+          "Bore Ragu",
+          "Beef Stew",
+          "Pistachio Cream Liqueur",
+          "Melon Cream Liqueur",
+          "Limoncello Cream Liqueur",
+          "Pistachio Croissant",
+          "Peroni Gran Riserva Doppio Malto"
         ],
         "cafes": ["Goppion Caffetteria", "Torrefazione Cannaregio"],
-        "bakeries": ["Farini"],
-        "gelaterias": ["Amorino", "Venchi"],
-        "restaurants": ["Cantine del Vino già Schiavi"],
-        "bars": ["Dalla Moretta"]
+        "bakeries": ["Farini", "Gilli", "My Bakery"],
+        "gelaterias": ["Amorino", "Venchi", "Gelatoteca Suso"],
+        "restaurants": [
+          "Cantine del Vino già Schiavi",
+          "Mamma Pizza Firenze",
+          "Trattoria Marione"
+        ],
+        "bars": [
+          "Dalla Moretta",
+          "YellowSquare Bar",
+          "Londra Palace",
+          "Fiddler’s Elbow"
+        ]
       },
       "description": "",
       "images": [
@@ -7235,8 +7258,8 @@
         "shops": [],
         "foodstuffs": [],
         "bakeries": [],
-        "gelaterias": [],
-        "restaurants": [],
+        "gelaterias": ["Gelatoteca Suso"],
+        "restaurants": ["Amarone"],
         "bars": [],
         "filmingLocations": []
       },

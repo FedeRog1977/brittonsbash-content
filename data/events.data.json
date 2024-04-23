@@ -69,7 +69,24 @@
           "Fiddler’s Elbow"
         ]
       },
-      "description": "...",
+      "description": [
+        {
+          "type": "h2",
+          "content": "Venice"
+        },
+        {
+          "type": "body",
+          "content": "Time to kick off the Different Kind Hol-e-day series of the annum with a return to where it all started. There really is no need to give the rundown of the Thursday night travel. We did all the expected: airport bullet and bombs, overpriced coaffee (that lady was a bitch), Casino Royale to get hyped for Venice, etc. Let’s just get to the good stuff. We arrived in Pakistan only to discover that our hotel in fact did live up to its three-star standard. It was by all means habitable, and by some, even quite pretty. Anyway straight out to the bars for some wasted and kebabs. Standard introductory night. I was feeling rather excited the next morning, for we were on an early start to where my love for Different Kind Hol-e-days began. **Whistle** **whistle** Venice, baby! Let’s get facked ap, let’s get facked ap. We actually managed to rise at a very decent time and slap an early morning coffee before the train from Mestre to Santa Lucia. There was even time for a stop in INTERSPAR!!"
+        },
+        {
+          "type": "h2",
+          "content": "Florence"
+        },
+        {
+          "type": "body",
+          "content": ""
+        }
+      ],
       "images": [
         {
           "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xiii/1.jpg",

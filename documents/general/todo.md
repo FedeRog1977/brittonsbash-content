@@ -35,8 +35,10 @@
   - Book Madrid accommodation
 - Bike fuck-up
   - Contact Digby Brown
-  - Get money from guy
+  - Bike repair and helmet money from dood
   - Follow up incident 1504 of 8th of April
+  - Stirling pothole claim
+  - Ryanair claim
 - Finish organizing Linux directory structure
 - Refactor Spotify playlists into [The Final Two'er](./the-final-twoer-discs.md)
 

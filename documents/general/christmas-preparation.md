@@ -1,10 +1,3 @@
----
-title:
-  - Christmas Preparation
-author:
-  - Lewis Britton
----
-
 # Cards
 
 ## Tier 1

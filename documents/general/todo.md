@@ -96,6 +96,7 @@
 - _Library_: write _Basics Of Cooking_
 - _Library_: write _Introduction to Mathematics and Statistics_
 
+- _Instant Gram_: add description to Thirteenth Different Kind Hol-e-day
 - _Instant Gram_: add descriptions to Naples and Poland
 - _Instant Gram_: add features list to Europe and Berlin
 - _Instant Gram_: add images to 2020–2022

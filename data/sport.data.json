@@ -92,6 +92,22 @@
     ],
     "projects": [
       {
+        "id": "P2024014",
+        "name": "Ladies And Gentlemen",
+        "distance": 13.22,
+        "elevation": 7090,
+        "time": "6:52:10",
+        "companionship": 1,
+        "munros": [
+          "Aonach Meadhoin",
+          "Sgùrr a' Bhealaich Dheirg",
+          "Sàileag",
+          "Sgùrr na Ciste Duibhe",
+          "Sgùrr na Càrnach",
+          "Sgùrr Fhuaran"
+        ]
+      },
+      {
         "id": "P2024013",
         "name": "The Observer",
         "distance": 8.86,

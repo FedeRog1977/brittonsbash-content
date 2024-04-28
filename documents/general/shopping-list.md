@@ -17,6 +17,8 @@
 - Frozen peas
 - Spring onions
 - Fresh coriander
+
+- Eggs
 - Chicken
 - Beef
 - Pork

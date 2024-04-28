@@ -33,12 +33,6 @@
   - Book London accommodation
   - Book Madrid flights
   - Book Madrid accommodation
-- Bike fuck-up
-  - Contact Digby Brown
-  - Bike repair and helmet money from dood
-  - Follow up incident 1504 of 8th of April
-  - Stirling pothole claim
-  - Ryanair claim
 - Finish organizing Linux directory structure
 - Refactor Spotify playlists into [The Final Two'er](./the-final-twoer-discs.md)
 
@@ -73,7 +67,6 @@
 - Add to above doc a note on semantic nesting, e.g. if something has children, it has a name (e.g. `this-directory`) and children are numbered. If not, the file is numbered.
 - Refine types - such as `Omit`, `extends`, etc. especially between Tile uses
 - Add _CaveatTile_
-- Add _generateUniqueKey_ and replace all keys
 - Add breakpoints
 - Add responsive classes where necessary, `<Spacing />`, type and typeType (instead of type={isMobile ? 'h1' : 't1'}) etc.
 - Add `@mixins` for responsive classes

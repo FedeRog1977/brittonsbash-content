@@ -92,6 +92,16 @@
     ],
     "projects": [
       {
+        "id": "P2024015",
+        "name": "Summer Haze Chaser",
+        "distance": 11.22,
+        "elevation": 5276,
+        "time": "4:00:06",
+        "companionship": 0,
+        "munros": ["Beinn Narnain", "Beinn Ìme"],
+        "corbetts": ["Ben Arthur (The Cobbler)"]
+      },
+      {
         "id": "P2024014",
         "name": "Ladies And Gentlemen",
         "distance": 13.22,
@@ -246,6 +256,27 @@
       }
     ],
     "miles": [
+      {
+        "id": "M2024051",
+        "name": "Other",
+        "distance": 7.24,
+        "elevation": 325,
+        "time": "1:54:04"
+      },
+      {
+        "id": "M2024050",
+        "name": "Waterfoot",
+        "distance": 10.04,
+        "elevation": 535,
+        "time": "2:01:49"
+      },
+      {
+        "id": "M2024049",
+        "name": "Waterfoot",
+        "distance": 10.0,
+        "elevation": 541,
+        "time": "2:01:06"
+      },
       {
         "id": "M2024048",
         "name": "Waterfoot",

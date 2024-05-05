@@ -2,6 +2,74 @@
   "2024": [
     {
       "id": "E2024017",
+      "names": ["Summer Haze Chaser"],
+      "startDate": "3rd of April",
+      "description": "...",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/1.jpg",
+          "alt": "summer-haze-chaser-1"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/3.jpg",
+          "alt": "summer-haze-chaser-2"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/3.jpg",
+          "alt": "summer-haze-chaser-3"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/4.jpg",
+          "alt": "summer-haze-chaser-4"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/5.jpg",
+          "alt": "summer-haze-chaser-5"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/6.jpg",
+          "alt": "summer-haze-chaser-6"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/7.jpg",
+          "alt": "summer-haze-chaser-7"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/8.jpg",
+          "alt": "summer-haze-chaser-8"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/9.jpg",
+          "alt": "summer-haze-chaser-9"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/10.jpg",
+          "alt": "summer-haze-chaser-10"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/11.jpg",
+          "alt": "summer-haze-chaser-11"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/12.jpg",
+          "alt": "summer-haze-chaser-12"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/13.jpg",
+          "alt": "summer-haze-chaser-13"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/14.jpg",
+          "alt": "summer-haze-chaser-14"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/summer-haze-chaser/15.jpg",
+          "alt": "summer-haze-chaser-15"
+        }
+      ]
+    },
+    {
+      "id": "E2024017",
       "names": ["Ladies And Gentlemen"],
       "startDate": "26th of April",
       "endDate": "27th of April",

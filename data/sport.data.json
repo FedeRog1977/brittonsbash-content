@@ -2,6 +2,14 @@
   "2024": {
     "roadies": [
       {
+        "id": "R2024015",
+        "name": "Fenwick + Wind Farm",
+        "distance": 34.01,
+        "elevation": 2172,
+        "time": "1:58:31",
+        "speed": 17.2
+      },
+      {
         "id": "R2024014",
         "name": "Strathaven",
         "distance": 37.55,
@@ -298,6 +306,20 @@
       }
     ],
     "miles": [
+      {
+        "id": "M2024058",
+        "name": "Waterfoot",
+        "distance": 10.1,
+        "elevation": 587,
+        "time": "2:02:40"
+      },
+      {
+        "id": "M2024057",
+        "name": "Waterfoot",
+        "distance": 10.1,
+        "elevation": 554,
+        "time": "2:01:47"
+      },
       {
         "id": "M2024056",
         "name": "Waterfoot",

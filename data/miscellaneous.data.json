@@ -56,6 +56,10 @@
         "href": "https://www.netflix.com/gb/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fbrowse"
       },
       {
+        "content": "Tennis TV",
+        "href": "https://www.tennistv.com/"
+      },
+      {
         "content": "Amazon Prime Video",
         "href": "https://www.amazon.co.uk/Amazon-Video/b?ie=UTF8&node=3010085031"
       },
@@ -68,12 +72,28 @@
         "href": "https://www.discoveryplus.com/gb"
       },
       {
+        "content": "Paramount+",
+        "href": "paramountplus.com/gb/"
+      },
+      {
+        "content": "123 Movies",
+        "href": "https://ww1.0123movie.la/"
+      },
+      {
         "content": "BBC Sounds",
         "href": "https://www.bbc.co.uk/sounds"
       },
       {
         "content": "eBay",
         "href": "https://ebau.co.uk/"
+      },
+      {
+        "content": "iCloud",
+        "href": "https://www.icloud.com/"
+      },
+      {
+        "content": "Google Photos",
+        "href": "https://photos.google.com/"
       }
     ],
     "people": [

@@ -34,6 +34,10 @@
   ],
   "links": [
     {
+      "content": "myAudi",
+      "href": "https://www.audi.co.uk/uk/web/en/owners/audi-connect/my-audi.html"
+    },
+    {
       "content": "Audi Allroad Specs",
       "href": "https://www.autoevolution.com/audi/allroad/"
     },
@@ -44,6 +48,10 @@
     {
       "content": "Audi A6 Allroad Parkers",
       "href": "https://www.parkers.co.uk/audi/a6/allroad-2006/27-tdi-quattro-5d-tip-auto/specs/"
+    },
+    {
+      "content": "Audi Tradition",
+      "href": "https://shops.audi.com/en_GB/web/tradition/"
     },
     {
       "content": "Quattro Daily",

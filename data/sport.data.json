@@ -2,6 +2,30 @@
   "2024": {
     "roadies": [
       {
+        "id": "R2024018",
+        "name": "Fenwick",
+        "distance": 26.52,
+        "elevation": 1132,
+        "time": "1:36:06",
+        "speed": 16.6
+      },
+      {
+        "id": "R2024017",
+        "name": "Fenwick + Wind Farm",
+        "distance": 33.99,
+        "elevation": 1952,
+        "time": "2:02:15",
+        "speed": 16.7
+      },
+      {
+        "id": "R2024016",
+        "name": "Strathaven",
+        "distance": 37.57,
+        "elevation": 2431,
+        "time": "2:15:03",
+        "speed": 16.7
+      },
+      {
         "id": "R2024015",
         "name": "Fenwick + Wind Farm",
         "distance": 34.01,
@@ -123,6 +147,15 @@
       }
     ],
     "projects": [
+      {
+        "id": "P2024017",
+        "name": "Slioch",
+        "distance": 12.67,
+        "elevation": 4032,
+        "time": "5:13:04",
+        "companionship": 2,
+        "grahams": ["Slioch"]
+      },
       {
         "id": "P2024017",
         "name": "Victor Sullivan",
@@ -306,6 +339,55 @@
       }
     ],
     "miles": [
+      {
+        "id": "M2024066",
+        "name": "Waterfoot",
+        "distance": 10.06,
+        "elevation": 551,
+        "time": "1:58:25"
+      },
+      {
+        "id": "M2024065",
+        "name": "Waterfoot",
+        "distance": 10.17,
+        "elevation": 594,
+        "time": "2:01:53"
+      },
+      {
+        "id": "M2024064",
+        "name": "Waterfoot",
+        "distance": 10.1,
+        "elevation": 584,
+        "time": "1:59:05"
+      },
+      {
+        "id": "M2024063",
+        "name": "Waterfoot",
+        "distance": 10.06,
+        "elevation": 604,
+        "time": "1:56:30"
+      },
+      {
+        "id": "M2024062",
+        "name": "Waterfoot",
+        "distance": 10.1,
+        "elevation": 610,
+        "time": "2:01:55"
+      },
+      {
+        "id": "M2024061",
+        "name": "Waterfoot",
+        "distance": 10.06,
+        "elevation": 600,
+        "time": "1:59:06"
+      },
+      {
+        "id": "M2024060",
+        "name": "Waterfoot",
+        "distance": 10.05,
+        "elevation": 594,
+        "time": "1:58:03"
+      },
       {
         "id": "M2024059",
         "name": "Waterfoot",

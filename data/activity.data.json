@@ -164,10 +164,10 @@
       "Wilson Pro Staff Tour 90 (Pending)",
       "Wilson nCode Six-One Tour 90",
       "Wilson K Factor Six-One Tour 90",
-      "Wilson Six.One Tour BLX (Pending)",
+      "Wilson Six.One Tour BLX",
       "Wilson BLX Pro Staff Six.One 90",
       "Wilson Pro Staff Blacked Out Prototype",
-      "Wilson Pro Staff RF97 Autograph (Pending)",
+      "Wilson Pro Staff RF97 Autograph",
       "Wilson Pro Staff RF97 Autograph - 2017 Edition",
       "Wilson Pro Staff RF97 Autograph - 2018 Tuxedo Edition (Pending)",
       "Wilson Pro Staff RF97 Autograph - 2018 Laver Cup Special Edition (Pending)",
@@ -175,8 +175,15 @@
       "Wilson Pro Staff RF97 Autograph V13 (Pending)",
       "Wilson Blade 93"
     ],
-    "strings": ["Luxilon Alu Power (52lbs)", "Wilson Natural Gut (48lbs)"],
-    "gripTape": ["Wilson Premium Leather Grip", "Wilson Pro Overgrip"],
+    "strings": [
+      "Wilson Natural Gut (48lbs)",
+      "Tourna Big Hitter 7 Black (52lbs)"
+    ],
+    "gripTape": [
+      "Wilson Premium Leather Grip",
+      "Wilson Pro Overgrip",
+      "Tourna Grip"
+    ],
     "balls": ["Wilson US Open (Indoor)", "Slazenger Wimbledon (Outdoor)"],
     "bags": ["Wilson K-Factor Six-One Tour", "Wilson BLX Pro Staff Six.One"],
     "shoes": [

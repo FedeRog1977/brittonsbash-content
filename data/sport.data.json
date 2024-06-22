@@ -172,13 +172,22 @@
     ],
     "projects": [
       {
-        "id": "P2024017",
+        "id": "P2024019",
+        "name": "Gettin’ Freaky In Ardverikie",
+        "distance": 17.84,
+        "elevation": 4419,
+        "time": "5:56:46",
+        "companionship": 0,
+        "munros": ["Beinn a’ Chlachair", "Geal Chàrn (Laggan)", "Creag Pitridh"]
+      },
+      {
+        "id": "P2024018",
         "name": "Slioch",
         "distance": 12.67,
         "elevation": 4032,
         "time": "5:13:04",
         "companionship": 2,
-        "grahams": ["Slioch"]
+        "munros": ["Slioch"]
       },
       {
         "id": "P2024017",

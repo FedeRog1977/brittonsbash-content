@@ -2,6 +2,22 @@
   "2024": {
     "roadies": [
       {
+        "id": "R2024023",
+        "name": "Fenwick + Wind Farm",
+        "distance": 29.13,
+        "elevation": 1778,
+        "time": "1:40:56",
+        "speed": 17.3
+      },
+      {
+        "id": "R2024023",
+        "name": "Fenwick + Wind Farm",
+        "distance": 29.15,
+        "elevation": 1604,
+        "time": "1:40:54",
+        "speed": 17.3
+      },
+      {
         "id": "R2024021",
         "name": "Fenwick + Wind Farm",
         "distance": 29.12,

@@ -1,3 +1,40 @@
+# Data Structure
+
+The following is currently not the case, due to a naive approach when first constructing this data.
+
+In the future, most data entries will follow the structure of:
+
+```json
+{
+  "title": "",
+  "entries": []
+}
+```
+
+If the data entries do not have any parent keys, `munros` for example, they are held within their own `entries` array without a title, appearing as so:
+
+```json
+{
+  "entries": [
+    {
+      "title": "",
+      "entries": []
+    }
+  ]
+}
+```
+
+If there is any more random, keyless, data nested further into the hierarchy, it also follows the `title`, `entries` structure, giving the `entries` use for supporting an array of objects or an array of strings.
+
+This means that the generic type used to receive data of any sort is:
+
+```ts
+type DataContentResponse = {
+  title?: string;
+  entries: {}[] | string[];
+};
+```
+
 # Data Usage
 
 | Page                     | Data Sets            |
@@ -32,3 +69,27 @@ Calls occur in the top level `@api` directory. When called, the data goes throug
 The call functions occur under `triggerSession()` in the primary `index.tsx`, meaning the session data is always available. It is fairly lightweight so this is fine practice. Not 100% ideal, but given the versatility of the data, and the small scale of the data and website; fine.
 
 After being called and sent to session storage, before being used all data then goes through some form of compiler in `@scripts/compilers`. This retrieves the data from session storage, sanitizes and formats it according to the use case, and returns it in a variable ready for use when the compiler is called.
+
+# Data Particulars
+
+## `travel.json`
+
+This file is an aggregation of all `features` of holidays I have been on. The data is currently not used, however may one day be represented. Therefore, no duplicates should appear here. For example, there may be a recurring shop throughout different holidays, they may occur individually as part of their according `features` list, they of course will only occur once here however.
+
+Additionally, most of the objects contained within the `entries` of `travel` may, but are not required to, appear withing the `features` of any given `entry` in `events`. The object with title "Cities (To-Do)" is the only one which may not appear in the `event`-specific `feature`.
+
+Exhaustive possible entries are defined in the following list:
+
+- Cities
+- Districts
+- Attractions
+- Accommodation
+- Supermarkets
+- Shops
+- Consumables
+- Cafés
+- Bakeries
+- Gelaterias
+- Restaurants
+- Bars
+- Nostalgia Effect

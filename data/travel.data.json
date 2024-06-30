@@ -1,16 +1,17 @@
 {
-  "cities": [],
-  "districts": [],
-  "attractions": [],
-  "youthHostels": [],
-  "supermarkets": [],
-  "shops": [],
-  "foodstuffs": [],
-  "cafes": [],
-  "bakeries": [],
-  "gelaterias": [],
-  "restaurants": [],
-  "bars": [],
-  "filmingLocations": [],
-  "links": {}
+  "entries": [
+    { "title": "Cities", "entries": [""] },
+    { "title": "Districts", "entries": [] },
+    { "title": "Attractions", "entries": [] },
+    { "title": "Accommodation", "entries": [] },
+    { "title": "Supermarkets", "entries": [] },
+    { "title": "Shops", "entries": [] },
+    { "title": "Consumables", "entries": [] },
+    { "title": "Cafés", "entries": [] },
+    { "title": "Bakeries", "entries": [] },
+    { "title": "Gelaterias", "entries": [] },
+    { "title": "Restaurants", "entries": [] },
+    { "title": "Bars", "entries": [] },
+    { "title": "Nostalgia Effect", "entries": [] }
+  ]
 }

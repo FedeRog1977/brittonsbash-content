@@ -1,19 +1,4 @@
 {
-  "cities": ["Copenhagen"],
-  "districts": ["Strøget", "Gammelholm og Nyhavn", "Freetown Christiania"],
-  "attractions": [
-    "Rosenborg Castle",
-    "The King's Garden",
-    "Botanical Garden",
-    "Ørstedsparken",
-    "The Round Tower",
-    "Kastellet",
-    "Langelinieparken",
-    "Det Kgl. Bibliotek, The Royal Library",
-    "The King's New Square",
-    "Ofelia Beach",
-    "Copenhagen University"
-  ],
   "youthHostels": ["Generator Copenhagen"],
   "supermarkets": ["Netto", "Functional Food Market", "Seven Eleven"],
   "shops": [
@@ -35,6 +20,6 @@
   "bakeries": ["Lagkagehuset", "Cakery Copenhagen", "Rug Bakery", "Hart"],
   "gelaterias": [],
   "restaurants": ["Hijas de Sanchez", "Døp", "Gasoline Grill", "Grød"],
-  "bars": [],
+  "bars": ["Copenhagen Downtown Hostel"],
   "filmingLocations": []
 }

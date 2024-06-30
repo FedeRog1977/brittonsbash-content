@@ -1,6 +1,60 @@
 {
   "2024": [
     {
+      "id": "E2024023",
+      "prefix": "Fifteenth Different Kind Hol-e-day",
+      "names": ["Titanium Matterhorn"],
+      "startDate": "26th of June",
+      "endDate": "29th of June",
+      "features": [
+        { "title": "Cities", "entries": ["Copenhagen"] },
+        {
+          "title": "Districts",
+          "entries": ["Strøget", "Gammelholm og Nyhavn", "Freetown Christiania"]
+        },
+        {
+          "title": "Attractions",
+          "entries": [
+            "Rosenborg Castle",
+            "The King's Garden",
+            "Botanical Garden",
+            "Ørstedsparken",
+            "The Round Tower",
+            "Kastellet",
+            "Langelinieparken",
+            "Det Kgl. Bibliotek, The Royal Library",
+            "The King's New Square",
+            "Ofelia Beach",
+            "Copenhagen University"
+          ]
+        },
+        { "title": "Accommodation", "entries": [] },
+        { "title": "Supermarkets", "entries": [] },
+        { "title": "Shops", "entries": [] },
+        { "title": "Consumables", "entries": [] },
+        { "title": "Cafés", "entries": [] },
+        { "title": "Bakeries", "entries": [] },
+        { "title": "Gelaterias", "entries": [] },
+        { "title": "Restaurants", "entries": [] },
+        { "title": "Bars", "entries": [] },
+        {
+          "title": "Nostalgia Effect",
+          "entries": [
+            "Titanium (feat. Sia)",
+            "The National Anthem Of Switzerland",
+            "Kapitel 4"
+          ]
+        }
+      ],
+      "description": "...",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xv/1.jpg",
+          "alt": "different-kind-hol-e-day-xv-1"
+        }
+      ]
+    },
+    {
       "id": "E2024022",
       "names": ["Gettin’ Freaky In Ardverikie"],
       "startDate": "21st of June",

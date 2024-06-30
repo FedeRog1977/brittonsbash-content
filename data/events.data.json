@@ -32,14 +32,129 @@
           "title": "Accommodation",
           "entries": ["Generator Copenhagen", "Hotel Motel One København"]
         },
-        { "title": "Supermarkets", "entries": [] },
-        { "title": "Shops", "entries": [] },
-        { "title": "Consumables", "entries": [] },
-        { "title": "Cafés", "entries": [] },
-        { "title": "Bakeries", "entries": [] },
-        { "title": "Gelaterias", "entries": [] },
-        { "title": "Restaurants", "entries": [] },
-        { "title": "Bars", "entries": ["Copenhagen Downtown Hostel"] },
+        {
+          "title": "Supermarkets",
+          "entries": [
+            "Føtex Food",
+            "Netto",
+            "Spar",
+            "Super Brugsen",
+            "Brugsen",
+            "Seven Eleven"
+          ]
+        },
+        {
+          "title": "Shops",
+          "entries": [
+            "Magasin du Nord",
+            "ILLUM",
+            "Illums Bolighus",
+            "Galleri K",
+            "Jorcks Passage",
+            "Designmuseum Denmark",
+            "Copenhagen Design House",
+            "Linie Design",
+            "Design Objects",
+            "Danish Architecture Centre Design Shop",
+            "Dansk Made for Rooms",
+            "Stelling Pepir & Penne",
+            "High-Performance Audio",
+            "Muji",
+            "Rimowa",
+            "Samsonite",
+            "Tumi",
+            "Nike",
+            "Lindt",
+            "Light Point Copenhagen",
+            "Bellistri",
+            "Zwilling",
+            "Model 262",
+            "Diesel",
+            "Saint Laurent",
+            "Gucci",
+            "Louis Vuitton",
+            "Prada",
+            "Rains",
+            "Gant",
+            "Balenciaga",
+            "Hermes",
+            "Dior",
+            "Celine",
+            "Valentino",
+            "Sandro",
+            "A.P.C.",
+            "Paul Smith",
+            "Naked Copenhagen",
+            "Regali Stationery",
+            "Kreatima by Panduro",
+            "Kitchen Living Dining Concept Store",
+            "Fritz Hansen",
+            "Paustian Design",
+            "Molteni & C",
+            "New Mags",
+            "Husted Vin",
+            "Tranquebar Boghandel",
+            "Bøger Books",
+            "Arnoldbusck.dk",
+            "Kop & Kande",
+            "Royal Copenhagen Chinaware",
+            "Multiform",
+            "Slettvoll"
+          ]
+        },
+        {
+          "title": "Consumables",
+          "entries": [
+            "Miami Vice Pale Ale",
+            "1664 Blanc",
+            "1664 Rose",
+            "Toubourg Grøn",
+            "To Øl Various",
+            "Sommersby Cider",
+            "Danish Sausage",
+            "French Sausage",
+            "Smørrebrod",
+            "Smoked Fish",
+            "Sild",
+            "Dilld",
+            "Various Salats"
+          ]
+        },
+        { "title": "Cafés", "entries": ["Joe & The Juice"] },
+        {
+          "title": "Bakeries",
+          "entries": [
+            "Lagkagehuset",
+            "Holm",
+            "Buka",
+            "Emmerys",
+            "Andersen & Maillard",
+            "Cakery Copenhagen"
+          ]
+        },
+        { "title": "Gelaterias", "entries": ["Rajissimo"] },
+        {
+          "title": "Restaurants",
+          "entries": [
+            "Hijas de Sanchez",
+            "Døp",
+            "Gasoline Grill",
+            "Grød",
+            "The Bronx Restaurant",
+            "Fabro",
+            "Another Pizza"
+          ]
+        },
+        {
+          "title": "Bars",
+          "entries": [
+            "Copenhagen Downtown Hostel",
+            "Ibiza Beach Bar",
+            "Wall Street Pub",
+            "Mesh Matrikel1",
+            "Miami Bar"
+          ]
+        },
         {
           "title": "Nostalgia Effect",
           "entries": [

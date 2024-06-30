@@ -28,7 +28,10 @@
             "Copenhagen University"
           ]
         },
-        { "title": "Accommodation", "entries": [] },
+        {
+          "title": "Accommodation",
+          "entries": ["Generator Copenhagen", "Hotel Motel One København"]
+        },
         { "title": "Supermarkets", "entries": [] },
         { "title": "Shops", "entries": [] },
         { "title": "Consumables", "entries": [] },
@@ -36,7 +39,7 @@
         { "title": "Bakeries", "entries": [] },
         { "title": "Gelaterias", "entries": [] },
         { "title": "Restaurants", "entries": [] },
-        { "title": "Bars", "entries": [] },
+        { "title": "Bars", "entries": ["Copenhagen Downtown Hostel"] },
         {
           "title": "Nostalgia Effect",
           "entries": [

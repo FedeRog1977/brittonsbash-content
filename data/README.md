@@ -31,7 +31,7 @@ This means that the generic type used to receive data of any sort is:
 ```ts
 type DataContentResponse = {
   title?: string;
-  content: {}[] | string[];
+  content: string | string[] | {}[];
 };
 ```
 

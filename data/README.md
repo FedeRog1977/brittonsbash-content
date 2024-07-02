@@ -7,31 +7,31 @@ In the future, most data entries will follow the structure of:
 ```json
 {
   "title": "",
-  "entries": []
+  "content": []
 }
 ```
 
-If the data entries do not have any parent keys, `munros` for example, they are held within their own `entries` array without a title, appearing as so:
+If the data entries do not have any parent keys, `munros` for example, they are held within an `entries` array, as so:
 
 ```json
 {
   "entries": [
     {
       "title": "",
-      "entries": []
+      "content": []
     }
   ]
 }
 ```
 
-If there is any more random, keyless, data nested further into the hierarchy, it also follows the `title`, `entries` structure, giving the `entries` use for supporting an array of objects or an array of strings.
+If there is any more random, keyless, data nested further into the hierarchy, it also follows the `title`, `content` structure, giving the `content` a use case for supporting an array of objects or an array of strings.
 
 This means that the generic type used to receive data of any sort is:
 
 ```ts
 type DataContentResponse = {
   title?: string;
-  entries: {}[] | string[];
+  content: {}[] | string[];
 };
 ```
 

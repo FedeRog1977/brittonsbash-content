@@ -7,14 +7,14 @@
       "startDate": "26th of June",
       "endDate": "29th of June",
       "features": [
-        { "title": "Cities", "entries": ["Copenhagen"] },
+        { "title": "Cities", "content": ["Copenhagen"] },
         {
           "title": "Districts",
-          "entries": ["Strøget", "Gammelholm og Nyhavn", "Freetown Christiania"]
+          "content": ["Strøget", "Gammelholm og Nyhavn", "Freetown Christiania"]
         },
         {
           "title": "Attractions",
-          "entries": [
+          "content": [
             "Rosenborg Castle",
             "The King's Garden",
             "Botanical Garden",
@@ -30,11 +30,11 @@
         },
         {
           "title": "Accommodation",
-          "entries": ["Generator Copenhagen", "Hotel Motel One København"]
+          "content": ["Generator Copenhagen", "Hotel Motel One København"]
         },
         {
           "title": "Supermarkets",
-          "entries": [
+          "content": [
             "Føtex Food",
             "Netto",
             "Spar",
@@ -45,7 +45,7 @@
         },
         {
           "title": "Shops",
-          "entries": [
+          "content": [
             "Magasin du Nord",
             "ILLUM",
             "Illums Bolighus",
@@ -104,7 +104,7 @@
         },
         {
           "title": "Consumables",
-          "entries": [
+          "content": [
             "Miami Vice Pale Ale",
             "1664 Blanc",
             "1664 Rose",
@@ -120,10 +120,10 @@
             "Various Salats"
           ]
         },
-        { "title": "Cafés", "entries": ["Joe & The Juice"] },
+        { "title": "Cafés", "content": ["Joe & The Juice"] },
         {
           "title": "Bakeries",
-          "entries": [
+          "content": [
             "Lagkagehuset",
             "Holm",
             "Buka",
@@ -132,10 +132,10 @@
             "Cakery Copenhagen"
           ]
         },
-        { "title": "Gelaterias", "entries": ["Rajissimo"] },
+        { "title": "Gelaterias", "content": ["Rajissimo"] },
         {
           "title": "Restaurants",
-          "entries": [
+          "content": [
             "Hijas de Sanchez",
             "Døp",
             "Gasoline Grill",
@@ -147,7 +147,7 @@
         },
         {
           "title": "Bars",
-          "entries": [
+          "content": [
             "Copenhagen Downtown Hostel",
             "Ibiza Beach Bar",
             "Wall Street Pub",
@@ -157,7 +157,7 @@
         },
         {
           "title": "Nostalgia Effect",
-          "entries": [
+          "content": [
             "Titanium (feat. Sia)",
             "The National Anthem Of Switzerland",
             "BOSS The Scent For Her",

@@ -1,17 +1,17 @@
 {
   "entries": [
-    { "title": "Cities", "entries": [""] },
-    { "title": "Districts", "entries": [] },
-    { "title": "Attractions", "entries": [] },
-    { "title": "Accommodation", "entries": [] },
-    { "title": "Supermarkets", "entries": [] },
-    { "title": "Shops", "entries": [] },
-    { "title": "Consumables", "entries": [] },
-    { "title": "Cafés", "entries": [] },
-    { "title": "Bakeries", "entries": [] },
-    { "title": "Gelaterias", "entries": [] },
-    { "title": "Restaurants", "entries": [] },
-    { "title": "Bars", "entries": [] },
-    { "title": "Nostalgia Effect", "entries": [] }
+    { "title": "Cities", "content": [""] },
+    { "title": "Districts", "content": [] },
+    { "title": "Attractions", "content": [] },
+    { "title": "Accommodation", "content": [] },
+    { "title": "Supermarkets", "content": [] },
+    { "title": "Shops", "content": [] },
+    { "title": "Consumables", "content": [] },
+    { "title": "Cafés", "content": [] },
+    { "title": "Bakeries", "content": [] },
+    { "title": "Gelaterias", "content": [] },
+    { "title": "Restaurants", "content": [] },
+    { "title": "Bars", "content": [] },
+    { "title": "Nostalgia Effect", "content": [] }
   ]
 }

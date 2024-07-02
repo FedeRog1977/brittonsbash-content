@@ -2,6 +2,22 @@
   "2024": {
     "roadies": [
       {
+        "id": "R2024025",
+        "name": "Fenwick + Wind Farm",
+        "distance": 29.13,
+        "elevation": 1650,
+        "time": "1:39:19",
+        "speed": 17.6
+      },
+      {
+        "id": "R2024024",
+        "name": "Fenwick + Wind Farm",
+        "distance": 29.14,
+        "elevation": 1621,
+        "time": "1:38:34",
+        "speed": 17.7
+      },
+      {
         "id": "R2024023",
         "name": "Fenwick + Wind Farm",
         "distance": 29.13,
@@ -388,6 +404,27 @@
       }
     ],
     "miles": [
+      {
+        "id": "M2024069",
+        "name": "Waterfoot",
+        "distance": 10.06,
+        "elevation": 600,
+        "time": "1:59:38"
+      },
+      {
+        "id": "M2024068",
+        "name": "Other",
+        "distance": 12.75,
+        "elevation": 364,
+        "time": "4:18:07"
+      },
+      {
+        "id": "M2024067",
+        "name": "Waterfoot",
+        "distance": 10.05,
+        "elevation": 564,
+        "time": "2:02:55"
+      },
       {
         "id": "M2024066",
         "name": "Waterfoot",

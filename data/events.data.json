@@ -1,7 +1,66 @@
 {
   "2024": [
     {
-      "id": "E2024024",
+      "id": "E2024026",
+      "prefix": "Sixteenth Different Kind Hol-e-day",
+      "names": ["Casper Ruud"],
+      "startDate": "26th of June",
+      "endDate": "29th of June",
+      "features": [
+        { "title": "Cities", "content": ["London", "Barcelona"] },
+        {
+          "title": "Districts",
+          "content": [""]
+        },
+        {
+          "title": "Attractions",
+          "content": [""]
+        },
+        {
+          "title": "Accommodation",
+          "content": [""]
+        },
+        {
+          "title": "Supermarkets",
+          "content": [""]
+        },
+        {
+          "title": "Shops",
+          "content": [""]
+        },
+        {
+          "title": "Consumables",
+          "content": [""]
+        },
+        { "title": "Cafés", "content": [""] },
+        {
+          "title": "Bakeries",
+          "content": [""]
+        },
+        { "title": "Gelaterias", "content": ["Rajissimo"] },
+        {
+          "title": "Restaurants",
+          "content": [""]
+        },
+        {
+          "title": "Bars",
+          "content": [""]
+        },
+        {
+          "title": "Nostalgia Effect",
+          "content": [""]
+        }
+      ],
+      "description": "... TO BE COMPLETED ...",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/1.jpg",
+          "alt": "different-kind-hol-e-day-xvi-1"
+        }
+      ]
+    },
+    {
+      "id": "E2024025",
       "prefix": "Fifteenth Different Kind Hol-e-day",
       "names": ["Titanium Matterhorn"],
       "startDate": "26th of June",
@@ -532,7 +591,7 @@
       ]
     },
     {
-      "id": "E2024023",
+      "id": "E2024024",
       "names": ["Sit In’t’ Sun"],
       "startDate": "23rd of June",
       "description": "Sometimes you just need to remind yourself of the closer loves. Ballageich and Bennan sometimes have that special call. Had to get a quick something in anyway, pre-faded at the Church. Legs were too effed for a roadie.",
@@ -572,7 +631,7 @@
       ]
     },
     {
-      "id": "E2024022",
+      "id": "E2024023",
       "names": ["Gettin’ Freaky In Ardverikie"],
       "startDate": "21st of June",
       "endDate": "22nd of June",
@@ -637,6 +696,27 @@
         {
           "url": "https://lewisbritton.com/images/blog/instant-gram/2024/gettin-freaky-in-ardverikie/15.jpg",
           "alt": "gettin-freaky-in-ardverikie-15"
+        }
+      ]
+    },
+    {
+      "id": "E2024022",
+      "names": ["Swiss Energy"],
+      "startDate": "19th of June",
+      "endDate": "20th of June",
+      "description": "Nowt quite like some paddles for some roadie blasting.",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/swiss-energy/1.jpg",
+          "alt": "swiss-energy-1"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/swiss-energy/2.jpg",
+          "alt": "swiss-energy-2"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/swiss-energy/3.jpg",
+          "alt": "swiss-energy-3"
         }
       ]
     },

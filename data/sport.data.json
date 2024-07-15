@@ -231,7 +231,8 @@
           "Aonach Mòr",
           "Càrn Mòr Dearg",
           "Beinn Nibheis"
-        ]
+        ],
+        "munroTops": ["Sgùrr a’ Bhuic", "Stob Coire Bhealaich", "Càrn Dearg"]
       },
       {
         "id": "P2024019",

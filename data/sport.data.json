@@ -2,6 +2,22 @@
   "2024": {
     "roadies": [
       {
+        "id": "R2024027",
+        "name": "Other",
+        "distance": 9.13,
+        "elevation": 679,
+        "time": "36:09",
+        "speed": 15.2
+      },
+      {
+        "id": "R2024026",
+        "name": "Fenwick + Wind Farm",
+        "distance": 29.15,
+        "elevation": 1562,
+        "time": "1:36:33",
+        "speed": 18.1
+      },
+      {
         "id": "R2024025",
         "name": "Fenwick + Wind Farm",
         "distance": 29.13,
@@ -204,6 +220,20 @@
     ],
     "projects": [
       {
+        "id": "P2024020",
+        "name": "The United Kingdom",
+        "distance": 11.6,
+        "elevation": 6719,
+        "time": "5:39:55",
+        "companionship": 0,
+        "munros": [
+          "Aonach Beag (Nevis Range)",
+          "Aonach Mòr",
+          "Càrn Mòr Dearg",
+          "Beinn Nibheis"
+        ]
+      },
+      {
         "id": "P2024019",
         "name": "Gettin’ Freaky In Ardverikie",
         "distance": 17.84,
@@ -404,6 +434,20 @@
       }
     ],
     "miles": [
+      {
+        "id": "M2024071",
+        "name": "Other",
+        "distance": 6.23,
+        "elevation": 328,
+        "time": "1:49:55"
+      },
+      {
+        "id": "M2024070",
+        "name": "Other",
+        "distance": 16.03,
+        "elevation": 728,
+        "time": "4:52:26"
+      },
       {
         "id": "M2024069",
         "name": "Waterfoot",

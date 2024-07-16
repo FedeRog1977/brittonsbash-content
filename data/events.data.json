@@ -5,7 +5,7 @@
       "names": ["The United Kingdom"],
       "startDate": "13th of June",
       "endDate": "14th of June",
-      "description": "... TO BE COMPLETED ...",
+      "description": "I had that classic just-back0from-holiday feeling, I needed some activity ASAP. But with the RoGeR accident on the Friday, and the summer writing off Saturday, frustration only grew! I pitched up in the Steall Falls car park with only the intension of completing the Aonachs on Sunday. Lucky there was a fine old-timer there to convince me otherwise. What a day; with all the makings of an ideal one: stunning falls walk-in, steep ascent, INVERSION, and finally ticking not only Nevis off, but Nevis via CMD. Legs are pretty done. That was quite a few feet for only 9 miles.",
       "images": [
         {
           "url": "https://lewisbritton.com/images/blog/instant-gram/2024/the-united-kingdom/1.jpg",
@@ -163,45 +163,145 @@
         { "title": "Cities", "content": ["London", "Barcelona"] },
         {
           "title": "Districts",
-          "content": [""]
+          "content": [
+            "Plaça Reial",
+            "Plaça de Tetuan",
+            "Plaça de Catalunya",
+            "La Barceloneta",
+            "Gothic Quarter",
+            "Sagrada Familia",
+            "Montjuïc",
+            "Avenue Diagonal",
+            "Graçia"
+          ]
         },
         {
           "title": "Attractions",
-          "content": [""]
+          "content": [
+            "Magic Fountain of Montjuïc",
+            "Barcelona Botanical Garden",
+            "Jardins de Joan Brossa",
+            "Jardins de Mossèn Costa i Llobera",
+            "Park de la Ciutadella",
+            "Parc de la Barceloneta",
+            "Basílica de la Sagrada Família"
+          ]
         },
         {
           "title": "Accommodation",
-          "content": [""]
+          "content": ["Premier Inn Wimbledon", "Generator Barcelona"]
         },
         {
           "title": "Supermarkets",
-          "content": [""]
+          "content": [
+            "Supermercat El Corte Inglés",
+            "Ametller Origen",
+            "Carrefour",
+            "Coaliment",
+            "Mercadona",
+            "Condis",
+            "Supermercat Ecològic",
+            "Tomato Asian Supermarket",
+            "Fruteria Calalina Fresh Food Market",
+            "Caprabo"
+          ]
         },
         {
           "title": "Shops",
-          "content": [""]
+          "content": [
+            "Mercat de Santa Caterina",
+            "Mercat de la Barceloneta",
+            "Mercat de la Boqueria",
+            "Maremagnum",
+            "Ecc Comics",
+            "ASICS Flagship Store",
+            "Kodak Express",
+            "Brandy Melville",
+            "Muji",
+            "Samsonite",
+            "Tumi",
+            "Diesel",
+            "El Corte Inglés",
+            "El Corte Inglés Sport",
+            "El Corte Inglés Diagonal",
+            "Centre Comercial El Triangle",
+            "Fnac",
+            "C&A",
+            "Desigual Plaça Catalunya",
+            "L'illa Mall Diagonal",
+            "ASEMAS Mútua d'Assegurances i Reassegurances a Prima Fixa",
+            "Lindt",
+            "Pilwa",
+            "Maisons du Monde",
+            "Zwilling Avenue Diagonal",
+            "Le Creuset Avenue Diagonal",
+            "Domestico Shop",
+            "Bang & Olufsen",
+            "Orange",
+            "Oh!ffice",
+            "Salewa",
+            "CESAR BY NERO Estudio y tienda de cocinas",
+            "Rolex"
+          ]
         },
         {
           "title": "Consumables",
-          "content": [""]
+          "content": [
+            "Spanish Tortilla",
+            "Spanish Nougat",
+            "Patatas Bravas",
+            "Gambas al Ajillo",
+            "Jamón Ibérico",
+            "Padron Peppers",
+            "Boquerones en Vinagre",
+            "Estrella Galicia",
+            "Estrella Damm",
+            "Mahou Classica",
+            "Mahou Rose",
+            "Mahou IPA",
+            "Mahou Mango Chilli",
+            "Voll-Damm",
+            "Desperados Mojito"
+          ]
         },
-        { "title": "Cafés", "content": [""] },
+        { "title": "Cafés", "content": ["Joe & The Juice"] },
         {
           "title": "Bakeries",
-          "content": [""]
+          "content": [
+            "Baluard",
+            "Turris",
+            "Casa Gispert",
+            "Hofmann Patisseria",
+            "Carodcake Pastelería",
+            "La Boulangerie",
+            "el Fornet",
+            "365 Obrador",
+            "Casa Vives"
+          ]
         },
-        { "title": "Gelaterias", "content": ["Rajissimo"] },
+        { "title": "Gelaterias", "content": ["Amorino", "Gelateria Da Gallo"] },
         {
           "title": "Restaurants",
-          "content": [""]
+          "content": [
+            "Bodega La Palma Tapas",
+            "Can Ramonet Paella",
+            "DosManos Tapas",
+            "Pikio Taco",
+            "Bar Secco",
+            "Katsuo Sushi & Ramen",
+            "Suguru Sushi",
+            "Jara Sushi",
+            "Fukuoka Sushi",
+            "Can Boneta"
+          ]
         },
         {
           "title": "Bars",
-          "content": [""]
+          "content": ["Dow Jones Bar", "CocoVail Bier Hall"]
         },
         {
           "title": "Nostalgia Effect",
-          "content": [""]
+          "content": ["None this time, sadly"]
         }
       ],
       "description": "... TO BE COMPLETED ...",

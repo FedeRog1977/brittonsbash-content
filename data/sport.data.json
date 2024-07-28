@@ -236,6 +236,29 @@
     ],
     "projects": [
       {
+        "id": "P2024023",
+        "name": "The Ring Of Steall",
+        "distance": 10.42,
+        "elevation": 5640,
+        "time": "4:49:46",
+        "companionship": 4,
+        "munros": [
+          "An Gearanach",
+          "Stob Coire a’ Chàirn",
+          "Am Bodach",
+          "Sgùrr a’ Mhàim"
+        ]
+      },
+      {
+        "id": "P2024022",
+        "name": "Like Ponies, Like Sheep",
+        "distance": 10.7,
+        "elevation": 4416,
+        "time": "4:15:51",
+        "companionship": 4,
+        "munros": ["Beinn Nibheis"]
+      },
+      {
         "id": "P2024021",
         "name": "One Nine One",
         "distance": 9.19,

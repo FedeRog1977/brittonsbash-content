@@ -260,8 +260,10 @@
         "Kronenbourg 1664 Bière Blonde",
         "Kronenbourg 1664 Blanc",
         "Estrella Galicia",
-        "Brooklyn Lager"
+        "Brooklyn Lager",
+        "Tuborg Green"
       ],
+      "pilsner": ["Tuborg Grøn"],
       "ipa": [
         "Drygate Double Disco Mango Smoothie",
         "Drygate Disco Forklift Truck",
@@ -282,14 +284,33 @@
         "Cherry CHOUFFE",
         "Duvel Tripel Hop Citra",
         "Hoegaarden White",
-        "Blue Moon"
+        "Blue Moon White"
       ],
       "german": [
         "Erdinger Weissbier",
         "Paulaner Münchner Hell",
         "Paulaner Dunkel"
       ],
-      "other": ["Desperados", "Desperados Mojito", "Desperados Red"]
+      "party": ["Desperados", "Desperados Mojito", "Desperados Red"],
+      "rinsers": [
+        "Stella Artois",
+        "Kronenbourg 1664",
+        "Peroni Nastro Azzuro",
+        "San Miguel",
+        "Estrella Damm",
+        "Madri",
+        "Birra Moretti",
+        "Heineken",
+        "Cruzcampo",
+        "Cornoa",
+        "Sol",
+        "Budweiser",
+        "Carling",
+        "Coors",
+        "Amstel",
+        "Carlsberg",
+        "Brooklyn Pils"
+      ]
     },
     "spirits": [
       "Cazcebel Reposado",

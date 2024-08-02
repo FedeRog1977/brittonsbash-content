@@ -101,6 +101,13 @@
     "writingPads": []
   },
   "typography": [],
+  "logos": [
+    "IBM ThinkPad",
+    "Sony Ericsson",
+    "Walkman",
+    "AT&T",
+    "Cingular Wireless"
+  ],
   "graphicDesign": [],
   "computerAidedDesign": [],
   "photoManipulation": [],
@@ -116,6 +123,7 @@
     "IBM - Graphic Design Guide From 1969 To 1987",
     "Magazine B (Various)",
     "Bauhaus. Updated Edition",
-    "Audi Design (engl.) Auto Union GmbH"
+    "Audi Design (engl.) Auto Union GmbH",
+    "TODO: FILL THESE IN WITH WISHLIST BOOKS"
   ]
 }

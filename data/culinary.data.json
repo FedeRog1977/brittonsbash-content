@@ -299,27 +299,5 @@
     ],
     "cocktails": ["Mojito"],
     "bars": []
-  },
-  "links": [
-    {
-      "content": "Luke's Recipe Site",
-      "href": "https://based.cooking"
-    },
-    {
-      "content": "Pizza Dough Calculator",
-      "href": "https://www.stadlermade.com/pizza-calculator/"
-    },
-    {
-      "content": "Packing Containers",
-      "href": "https://www.enviropack.org.uk/"
-    },
-    {
-      "content": "Master of Malt",
-      "href": "https://www.masterofmalt.com/"
-    },
-    {
-      "content": "The Belgian Beer Company",
-      "href": "https://www.thebelgianbeercompany.com/"
-    }
-  ]
+  }
 }

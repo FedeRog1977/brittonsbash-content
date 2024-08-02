@@ -402,7 +402,8 @@
         "Mr. Bean&rsquo;s Holiday",
         "The Bucket List",
         "Ghost Rider",
-        "Beowulf"
+        "Beowulf",
+        "Disturbia"
       ],
       "2006": [
         "Casino Royale",
@@ -901,59 +902,5 @@
       "Spider-Man 3"
     ],
     "all": []
-  },
-  "links": {
-    "film": [
-      {
-        "content": "Panavision Variants",
-        "href": "https://logo-timeline.fandom.com/wiki/Panavision/Credits_Variants"
-      }
-    ],
-    "television": [
-      {
-        "content": "Miami Vice Online",
-        "href": "https://miamiviceonline.com/index.php?/gallery/"
-      }
-    ],
-    "audio": [
-      {
-        "content": "Richer Sounds",
-        "href": "https://www.richersounds.com/"
-      },
-      {
-        "content": "Audio Affair",
-        "href": "https://www.audioaffair.co.uk/"
-      },
-      {
-        "content": "Speakers For Dummies",
-        "href": "https://mynewmicrophone.com/differences-between-mid-range-speakers-tweeters-woofers/"
-      }
-    ],
-    "videoGames": [
-      {
-        "content": "The Sims Resource",
-        "href": "https://www.thesimsresource.com/"
-      },
-      {
-        "content": "GTA IV Heavy Rain In Liberty City: Episode 1",
-        "href": "https://www.youtube.com/watch?v=dJDOwYkkkKQ"
-      },
-      {
-        "content": "GTA IV Heavy Rain In Liberty City: Episode 2",
-        "href": "https://www.youtube.com/watch?v=yvVuQfL18PM"
-      },
-      {
-        "content": "GTA IV The Bad Assassin",
-        "href": "https://www.youtube.com/watch?v=h6w0bj0flWA"
-      },
-      {
-        "content": "GTA IV Living In Liberty City",
-        "href": "https://www.youtube.com/watch?v=naCS2PjqSgE&t=12s"
-      },
-      {
-        "content": "GTA SA The Virus (Not Original)",
-        "href": "https://www.youtube.com/watch?v=GlLGDu6PTIU"
-      }
-    ]
   }
 }

@@ -236,12 +236,21 @@
     ],
     "projects": [
       {
+        "id": "P2024024",
+        "name": "Eastern Europe",
+        "distance": 13.44,
+        "elevation": 5509,
+        "time": "5:17:59",
+        "companionship": 0,
+        "munros": ["Sgùrr Èilde Mòr", "Binnein Beag"]
+      },
+      {
         "id": "P2024023",
         "name": "The Ring Of Steall",
         "distance": 10.42,
         "elevation": 5640,
         "time": "4:49:46",
-        "companionship": 4,
+        "companionship": 0,
         "munros": [
           "An Gearanach",
           "Stob Coire a’ Chàirn",

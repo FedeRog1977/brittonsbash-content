@@ -82,3 +82,7 @@ Exhaustive possible entries are defined in the following list:
 - Restaurants
 - Bars
 - Nostalgia Effect
+
+## Stated vs. Stated "Types"
+
+When parsing my data, you may come across sections, for example, "Glassware" and "Glassware Types". If a section does not include "Types", this means it is preferential, and includes a non-exhaustive list of products, etc., which I have acknowledged or acquired. If something is labeled with "Types", the following list is exhaustive and includes possible categorizations of the associated products. In any given data, one of these sections may exist without the other, or together.

@@ -1,16 +1,13 @@
 {
   "aesthetics": [],
-  "interiors": {
-    "homeInteriors": {
-      "manufacturers": ["Duresta", "Iain James"],
-      "products": []
-    },
-    "officeInteriors": {
-      "dealers": ["Tsumani Axis", "Hunters"],
-      "manufacturers": ["Herman Miller", "Vitra", "Orangebox", "Cassina"],
-      "products": []
-    },
-    "themesAndEras": []
+  "homeInteriors": {
+    "brands": ["Duresta", "Iain James"],
+    "products": []
+  },
+  "officeInteriors": {
+    "brands": ["Herman Miller", "Vitra", "Orangebox", "Cassina"],
+    "distributors": ["Tsumani Axis", "Hunters"],
+    "products": []
   },
   "style": {
     "tieKnots": [],

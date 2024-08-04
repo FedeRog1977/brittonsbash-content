@@ -69,6 +69,7 @@ Additionally, most of the objects contained within the `entries` of `travel` may
 
 Exhaustive possible entries are defined in the following list:
 
+- Countries
 - Cities
 - Districts
 - Attractions

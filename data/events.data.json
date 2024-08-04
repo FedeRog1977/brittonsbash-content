@@ -399,151 +399,122 @@
       "names": ["Casper Ruud"],
       "startDate": "4th of July",
       "endDate": "10th of June",
-      "features": [
-        { "title": "Cities", "content": ["London", "Barcelona"] },
-        {
-          "title": "Districts",
-          "content": [
-            "Plaça Reial",
-            "Plaça de Tetuan",
-            "Plaça de Catalunya",
-            "La Barceloneta",
-            "Gothic Quarter",
-            "Sagrada Familia",
-            "Montjuïc",
-            "Avenue Diagonal",
-            "Graçia"
-          ]
-        },
-        {
-          "title": "Attractions",
-          "content": [
-            "Magic Fountain of Montjuïc",
-            "Barcelona Botanical Garden",
-            "Jardins de Joan Brossa",
-            "Jardins de Mossèn Costa i Llobera",
-            "Park de la Ciutadella",
-            "Parc de la Barceloneta",
-            "Basílica de la Sagrada Família"
-          ]
-        },
-        {
-          "title": "Accommodation",
-          "content": ["Premier Inn Wimbledon", "Generator Barcelona"]
-        },
-        {
-          "title": "Supermarkets",
-          "content": [
-            "Supermercat El Corte Inglés",
-            "Ametller Origen",
-            "Carrefour",
-            "Coaliment",
-            "Mercadona",
-            "Condis",
-            "Supermercat Ecològic",
-            "Tomato Asian Supermarket",
-            "Fruteria Calalina Fresh Food Market",
-            "Caprabo"
-          ]
-        },
-        {
-          "title": "Shops",
-          "content": [
-            "Mercat de Santa Caterina",
-            "Mercat de la Barceloneta",
-            "Mercat de la Boqueria",
-            "Maremagnum",
-            "Ecc Comics",
-            "ASICS Flagship Store",
-            "Kodak Express",
-            "Brandy Melville",
-            "Muji",
-            "Samsonite",
-            "Tumi",
-            "Diesel",
-            "El Corte Inglés",
-            "El Corte Inglés Sport",
-            "El Corte Inglés Diagonal",
-            "Centre Comercial El Triangle",
-            "Fnac",
-            "C&A",
-            "Desigual Plaça Catalunya",
-            "L'illa Mall Diagonal",
-            "ASEMAS Mútua d'Assegurances i Reassegurances a Prima Fixa",
-            "Lindt",
-            "Pilwa",
-            "Maisons du Monde",
-            "Zwilling Avenue Diagonal",
-            "Le Creuset Avenue Diagonal",
-            "Domestico Shop",
-            "Bang & Olufsen",
-            "Orange",
-            "Oh!ffice",
-            "Salewa",
-            "CESAR BY NERO Estudio y tienda de cocinas",
-            "Rolex"
-          ]
-        },
-        {
-          "title": "Consumables",
-          "content": [
-            "Spanish Tortilla",
-            "Spanish Nougat",
-            "Patatas Bravas",
-            "Gambas al Ajillo",
-            "Jamón Ibérico",
-            "Padron Peppers",
-            "Boquerones en Vinagre",
-            "Estrella Galicia",
-            "Estrella Damm",
-            "Mahou Classica",
-            "Mahou Rose",
-            "Mahou IPA",
-            "Mahou Mango Chilli",
-            "Voll-Damm",
-            "Desperados Mojito"
-          ]
-        },
-        { "title": "Cafés", "content": ["Joe & The Juice"] },
-        {
-          "title": "Bakeries",
-          "content": [
-            "Baluard",
-            "Turris",
-            "Casa Gispert",
-            "Hofmann Patisseria",
-            "Carodcake Pastelería",
-            "La Boulangerie",
-            "el Fornet",
-            "365 Obrador",
-            "Casa Vives"
-          ]
-        },
-        { "title": "Gelaterias", "content": ["Amorino", "Gelateria Da Gallo"] },
-        {
-          "title": "Restaurants",
-          "content": [
-            "Bodega La Palma Tapas",
-            "Can Ramonet Paella",
-            "DosManos Tapas",
-            "Pikio Taco",
-            "Bar Secco",
-            "Katsuo Sushi & Ramen",
-            "Suguru Sushi",
-            "Jara Sushi",
-            "Fukuoka Sushi",
-            "Can Boneta"
-          ]
-        },
-        {
-          "title": "Bars",
-          "content": ["Dow Jones Bar", "CocoVail Bier Hall"]
-        },
-        {
-          "title": "Nostalgia Effect",
-          "content": ["None this time, sadly"]
-        }
-      ],
+      "features": {
+        "countries": ["The United Kingdom", "Spain"],
+        "cities": ["London", "Barcelona"],
+        "districts": [
+          "Plaça Reial",
+          "Plaça de Tetuan",
+          "Plaça de Catalunya",
+          "La Barceloneta",
+          "Gothic Quarter",
+          "Sagrada Familia",
+          "Montjuïc",
+          "Avenue Diagonal",
+          "Graçia"
+        ],
+        "attractions": [
+          "Magic Fountain of Montjuïc",
+          "Barcelona Botanical Garden",
+          "Jardins de Joan Brossa",
+          "Jardins de Mossèn Costa i Llobera",
+          "Park de la Ciutadella",
+          "Parc de la Barceloneta",
+          "Basílica de la Sagrada Família"
+        ],
+        "accommodation": ["Premier Inn Wimbledon", "Generator Barcelona"],
+        "supermarkets": [
+          "Supermercat El Corte Inglés",
+          "Ametller Origen",
+          "Carrefour",
+          "Coaliment",
+          "Mercadona",
+          "Condis",
+          "Supermercat Ecològic",
+          "Tomato Asian Supermarket",
+          "Fruteria Calalina Fresh Food Market",
+          "Caprabo"
+        ],
+        "shops": [
+          "Mercat de Santa Caterina",
+          "Mercat de la Barceloneta",
+          "Mercat de la Boqueria",
+          "Maremagnum",
+          "Ecc Comics",
+          "ASICS Flagship Store",
+          "Kodak Express",
+          "Brandy Melville",
+          "Muji",
+          "Samsonite",
+          "Tumi",
+          "Diesel",
+          "El Corte Inglés",
+          "El Corte Inglés Sport",
+          "El Corte Inglés Diagonal",
+          "Centre Comercial El Triangle",
+          "Fnac",
+          "C&A",
+          "Desigual Plaça Catalunya",
+          "L'illa Mall Diagonal",
+          "ASEMAS Mútua d'Assegurances i Reassegurances a Prima Fixa",
+          "Lindt",
+          "Pilwa",
+          "Maisons du Monde",
+          "Zwilling Avenue Diagonal",
+          "Le Creuset Avenue Diagonal",
+          "Domestico Shop",
+          "Bang & Olufsen",
+          "Orange",
+          "Oh!ffice",
+          "Salewa",
+          "CESAR BY NERO Estudio y tienda de cocinas",
+          "Rolex"
+        ],
+        "consumables": [
+          "Spanish Tortilla",
+          "Spanish Nougat",
+          "Patatas Bravas",
+          "Gambas al Ajillo",
+          "Jamón Ibérico",
+          "Padron Peppers",
+          "Boquerones en Vinagre",
+          "Estrella Galicia",
+          "Estrella Damm",
+          "Mahou Classica",
+          "Mahou Rose",
+          "Mahou IPA",
+          "Mahou Mango Chilli",
+          "Voll-Damm",
+          "Desperados Mojito"
+        ],
+        "cafes": ["Joe & The Juice"],
+        "bakeries": [
+          "Baluard",
+          "Turris",
+          "Casa Gispert",
+          "Hofmann Patisseria",
+          "Carodcake Pastelería",
+          "La Boulangerie",
+          "el Fornet",
+          "365 Obrador",
+          "Casa Vives"
+        ],
+        "gelaterias": ["Amorino", "Gelateria Da Gallo"],
+        "restaurants": [
+          "Bodega La Palma Tapas",
+          "Can Ramonet Paella",
+          "DosManos Tapas",
+          "Pikio Taco",
+          "Bar Secco",
+          "Katsuo Sushi & Ramen",
+          "Suguru Sushi",
+          "Jara Sushi",
+          "Fukuoka Sushi",
+          "Can Boneta"
+        ],
+        "bars": ["Dow Jones Bar", "CocoVail Bier Hall"],
+        "nostalgiaEffect": ["None this time, sadly"]
+      },
       "description": "... TO BE COMPLETED ...",
       "images": [
         {

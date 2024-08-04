@@ -7,20 +7,8 @@ In the future, most data entries will follow the structure of:
 ```json
 {
   "title": "",
-  "content": []
-}
-```
-
-If the data entries do not have any parent keys, `munros` for example, they are held within an `entries` array, as so:
-
-```json
-{
-  "entries": [
-    {
-      "title": "",
-      "content": []
-    }
-  ]
+  "content": [],
+  "tags": []
 }
 ```
 
@@ -32,6 +20,7 @@ This means that the generic type used to receive data of any sort is:
 type DataContentResponse = {
   title?: string;
   content: string | string[] | {}[];
+  tags?: string[];
 };
 ```
 

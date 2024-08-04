@@ -61,31 +61,6 @@ After being called and sent to session storage, before being used all data then 
 
 # Data Particulars
 
-## `travel.json`
-
-<!-- TODO: this requires an update to reflect the emptiness of travel.json -->
-
-This file is an aggregation of all `features` of holidays I have been on. The data is currently not used, however may one day be represented. Therefore, no duplicates should appear here. For example, there may be a recurring shop throughout different holidays, they may occur individually as part of their according `features` list, they of course will only occur once here however.
-
-Additionally, most of the objects contained within the `entries` of `travel` may, but are not required to, appear withing the `features` of any given `entry` in `events`. The object with title "Cities (To-Do)" is the only one which may not appear in the `event`-specific `feature`.
-
-Exhaustive possible entries are defined in the following list:
-
-- Countries
-- Cities
-- Districts
-- Attractions
-- Accommodation
-- Supermarkets
-- Shops
-- Consumables
-- Cafés
-- Bakeries
-- Gelaterias
-- Restaurants
-- Bars
-- Nostalgia Effect
-
 ## Stated vs. Stated "Types"
 
 When parsing my data, you may come across sections, for example, "Glassware" and "Glassware Types". If a section does not include "Types", this means it is preferential, and includes a non-exhaustive list of products, etc., which I have acknowledged or acquired. If something is labeled with "Types", the following list is exhaustive and includes possible categorizations of the associated products. In any given data, one of these sections may exist without the other, or together.

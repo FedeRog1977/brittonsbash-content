@@ -63,6 +63,8 @@ After being called and sent to session storage, before being used all data then 
 
 ## `travel.json`
 
+<!-- TODO: this requires an update to reflect the emptiness of travel.json -->
+
 This file is an aggregation of all `features` of holidays I have been on. The data is currently not used, however may one day be represented. Therefore, no duplicates should appear here. For example, there may be a recurring shop throughout different holidays, they may occur individually as part of their according `features` list, they of course will only occur once here however.
 
 Additionally, most of the objects contained within the `entries` of `travel` may, but are not required to, appear withing the `features` of any given `entry` in `events`. The object with title "Cities (To-Do)" is the only one which may not appear in the `event`-specific `feature`.

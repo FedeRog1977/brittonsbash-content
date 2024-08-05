@@ -344,7 +344,8 @@
         "Desperados",
         "Desperados Mojito",
         "Desperados Red",
-        "Stella Artois"
+        "Stella Artois",
+        "Budweiser Budvar"
       ]
     },
     { "title": "Pilsner", "content": ["Tuborg Grøn"] },
@@ -378,50 +379,85 @@
         "Brooklyn Pils"
       ]
     },
-    { "title": "Red Wine", "content": ["Côtes Du Rhône", "Bordeaux"] },
+    {
+      "title": "Red Wine",
+      "content": ["Côtes Du Rhône", "Bordeaux", "Chianti"]
+    },
     { "title": "White Wine", "content": [] },
     {
       "title": "Fortified Wine",
       "content": [
-        "Harvey's Bristol Cream Sherry",
-        "Croft Pale Cream Sherry",
+        "Graham's 20 Year Old Tawny Port",
+        "Graham's Blend Nº5 White Port",
+        "Taylor's 20 Year Old Tawny Port",
         "Dry Vermouth",
-        "Vermouth Rosso"
+        "Vermouth Rosso",
+        "Harvey's Bristol Cream Sherry",
+        "Croft Pale Cream Sherry"
       ]
     },
-    { "title": "Champagne", "content": [] },
+    { "title": "Sparkling Wine", "content": [] },
+    {
+      "title": "Brandy",
+      "content": [
+        "Hennessy VSOP",
+        "Courvoisier XO Royal Cognac",
+        "Rémy Martin VSOP Cognac"
+      ]
+    },
     {
       "title": "Spirits",
       "content": [
-        "Dalwhinnie 15 Year Old (Highland Single Malt Whisky)",
-        "Oban 14 Year Old (Highland Single Malt Whisky)",
-        "Tamnavulin Double Cask (Highland Single Malt Whisky)",
-        "Glenmorangie 10 Year Old - The Original (Highland Single Malt Whisky)",
-        "Lagavulin 16 Year Old (Islay Single Malt Whisky)",
-        "Caol Ila 12 Year Old (Islay Single Malt Whisky)",
-        "Tanqueray Nº TEN Gin",
-        "Brooklyn Gin",
-        "The Botanist Gin",
+        "Dalwhinnie 15 Year Old Highland Single Malt Whisky",
+        "Oban 14 Year Old Highland Single Malt Whisky",
+        "Glenmorangie 10 Year Old - The Original Highland Single Malt Whisky",
+        "Tamnavulin Double Cask Highland Single Malt Whisky",
+        "Lagavulin 16 Year Old Islay Single Malt Whisky",
+        "Caol Ila 12 Year Old Islay Single Malt Whisky",
         "Isle Of Harris Gin",
+        "The Botanist Islay Dry Gin",
+        "Tanqueray Nº TEN London Dry Gin",
+        "Brooklyn Gin",
+        "Dark Matter Spiced Scotch Rum",
+        "RedLeg Spiced Rum",
+        "The Kraken Black Spiced Rum",
         "Bacardi Spiced Rum",
-        "Bacardi Spiced Rum",
-        "Dark Matter Spiced Rum",
+        "Havana Club Añejo Especial Rum",
+        "Don julio 1942 Tequila",
         "Cazcebel Blanco Tequila",
-        "Cazcebel Reposado Tequila"
+        "Cazcebel Reposado Tequila",
+        "Cazcabel Añejo",
+        "El Jimador Blanco Tequila",
+        "El Jimador Reposado Tequila",
+        "El Jimador Añejo Tequila",
+        "Grey Goose Vodka",
+        "Absolt Blue Vodka"
       ]
-    },
-    {
-      "title": "Bitters",
-      "content": ["Campari"]
     },
     {
       "title": "Liqueurs",
       "content": [
         "Drambuie",
+        "Gordon's Pink Gin",
         "Cazcabel Honey",
         "Cazcabel Coffee",
-        "Cazcabel Coconut"
+        "Cazcabel Coconut",
+        "Kahlua Coffee",
+        "Disaronno Amaretto",
+        "Campari",
+        "Cointreau Triple Sec Orange",
+        "Chambord Black Raspberry",
+        "Malibu",
+        "Bottega Limoncello",
+        "Bottega Crema di Pistacchio",
+        "Bottega Crema di Limoncino",
+        "Bottega Crema di Cappuccino",
+        "Baileys Irish Cream"
       ]
+    },
+    {
+      "title": "Bitters",
+      "content": ["Angostura Bitters"]
     },
     {
       "title": "Cocktails",
@@ -430,7 +466,7 @@
         "Negroni",
         "French Martini",
         "Espresso Martini",
-        "Gin and Tonic with Clementine"
+        "Piña Colada"
       ]
     },
     {

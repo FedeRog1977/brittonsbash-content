@@ -67,6 +67,6 @@ When parsing my data, you may come across sections, for example, "Glassware" and
 
 ## Special Characters
 
-Characters such as the Unicode compiled left-single-quote `‘`, right-single-quote `’`, left-double-quote `“`, right-double-quote `”`, etc., and any further special characters should not appear in this repository. `strings` containing special characters should use the plain-text equivalent which are then compiled when passed through `Typography` with the `markdown` prop. Anytime a `&.*;` is used, it should be manual and in-code, that is not in body text strings.
+Characters such as the Unicode compiled special characters should not appear in this repository. `strings` containing special characters should use the plain-text equivalent which are then compiled when passed through `Typography` with the `markdown` prop. Anytime a `&.*;` is used, it should be manual and in-code, that is not in body text strings.
 
 Find more on Unicode characters here: https://www.compart.com/en/unicode/

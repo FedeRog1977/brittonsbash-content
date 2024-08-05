@@ -1947,7 +1947,7 @@
           "Peroni Gran Riserva Doppio Malto"
         ],
         "cafes": ["Goppion Caffetteria", "Torrefazione Cannaregio"],
-        "bakeries": ["Farini", "Gilli", "My Bakery"],
+        "bakeries": ["Farini Bakery", "Gilli", "My Bakery"],
         "gelaterias": ["Amorino", "Venchi", "Gelatoteca Suso"],
         "restaurants": [
           "Cantine del Vino già Schiavi",
@@ -9370,7 +9370,7 @@
         "supermarkets": [],
         "shops": [],
         "consumables": [],
-        "bakeries": [],
+        "bakeries": ["Farini Bakery"],
         "gelaterias": ["Gelatoteca Suso"],
         "restaurants": ["Amarone"],
         "bars": []

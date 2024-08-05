@@ -39,7 +39,7 @@
         "Staub",
         "All-Clad",
         "WMF",
-        "Sant’ Andrea",
+        "Sant' Andrea",
         "Villeroy & Boch",
         "Dartington Crystal",
         "Wedgewood",
@@ -70,12 +70,12 @@
         "Straight Carving",
         "Serrated Slicing",
         "Ham Slicing",
-        "Chef’s",
-        "Santoku Chef’s",
-        "Nakiri Chef’s",
-        "Japanese/Chinese Chef’s",
-        "Chai Dao Chef’s",
-        "Butcher’s",
+        "Chef's",
+        "Santoku Chef's",
+        "Nakiri Chef's",
+        "Japanese/Chinese Chef's",
+        "Chai Dao Chef's",
+        "Butcher's",
         "Cleaver",
         "Carving Fork",
         "Scissors",
@@ -259,7 +259,7 @@
         "Spirit Decanter",
         "Whisky Decanter",
         "Cork Screw",
-        "Waiter’s Knife",
+        "Waiter's Knife",
         "Spirit Pourer(s)",
         "Jigger",
         "Cocktail Shaker",
@@ -380,16 +380,39 @@
     },
     { "title": "Red Wine", "content": ["Côtes Du Rhône", "Bordeaux"] },
     { "title": "White Wine", "content": [] },
+    {
+      "title": "Fortified Wine",
+      "content": [
+        "Harvey's Bristol Cream Sherry",
+        "Croft Pale Cream Sherry",
+        "Dry Vermouth",
+        "Vermouth Rosso"
+      ]
+    },
     { "title": "Champagne", "content": [] },
     {
       "title": "Spirits",
       "content": [
+        "Dalwhinnie 15 Year Old (Highland Single Malt Whisky)",
+        "Oban 14 Year Old (Highland Single Malt Whisky)",
+        "Tamnavulin Double Cask (Highland Single Malt Whisky)",
+        "Glenmorangie 10 Year Old - The Original (Highland Single Malt Whisky)",
+        "Lagavulin 16 Year Old (Islay Single Malt Whisky)",
+        "Caol Ila 12 Year Old (Islay Single Malt Whisky)",
         "Tanqueray Nº TEN Gin",
+        "Brooklyn Gin",
+        "The Botanist Gin",
+        "Isle Of Harris Gin",
+        "Bacardi Spiced Rum",
         "Bacardi Spiced Rum",
         "Dark Matter Spiced Rum",
-        "RedLeg Spiced Rum",
+        "Cazcebel Blanco Tequila",
         "Cazcebel Reposado Tequila"
       ]
+    },
+    {
+      "title": "Bitters",
+      "content": ["Campari"]
     },
     {
       "title": "Liqueurs",

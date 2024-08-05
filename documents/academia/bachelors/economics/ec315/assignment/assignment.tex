@@ -61,7 +61,7 @@
 
 \section{Background}
 
-	The goal here is to make an attempt to find a best fitting model based on a series of linear, polynomial and logarithmic variables and dummy variables, best explaining the variation in a citizen’s level of worry of being a victim of crime – the dependent variable. We observe low scores as low levels of worry and high scores as high levels of worry. The survey carried out uses a sample size of 35,371 with a variable amount being disregarded conditionally on a negligibility basis.\\
+	The goal here is to make an attempt to find a best fitting model based on a series of linear, polynomial and logarithmic variables and dummy variables, best explaining the variation in a citizen's level of worry of being a victim of crime – the dependent variable. We observe low scores as low levels of worry and high scores as high levels of worry. The survey carried out uses a sample size of 35,371 with a variable amount being disregarded conditionally on a negligibility basis.\\
 
 	\begin{itemize}
 	\setlength\itemsep{0cm}
@@ -101,7 +101,7 @@
 
 	Note that the specific ``worry'' variables were omitted from analysis due to the fact that our dependent variable (worryx) was derived from these variables. Therefore, when regressing worryx against all of the ``worry'' explanatory variables, there is a perfect R$^2$ value of 1 (100\%) produced. These were clearly also highly correlated and we know this ideally leads to omission. This is therefore a weak and zero-explanatory method of explaining worry$x$.\\
 
-	We must also have a basic understanding of the intuition behind the variables. The `sex' variable can effect crime worry simply due to the difference in the nature of crime between males and females. For example, females are more prone to rape etc. and males may have more of an ignorant mindset involving violence as a response to attack etc. The ‘health’ variable is pretty self-explanatory where you would see less healthy and less physically able people worry more as physical crime or simply response to crime could impact them more. Expect a negative correlation with worry. The `age group' variable is also quite self-explanatory where you would expect older people to worry more about crime as their response would be limited. Expect a positive correlation with worry. Within the `rural/urban' variable, we would expect to see urban areas worry less due to more advanced security, regulation and policing. Despite the increased population and general crime in these areas. Finally, the `confidence in police' variable is the most self-explanatory of them all. If people believe less in their police, they don’t believe they have good protection from crime. Expect a negative correlation with worry.
+	We must also have a basic understanding of the intuition behind the variables. The `sex' variable can effect crime worry simply due to the difference in the nature of crime between males and females. For example, females are more prone to rape etc. and males may have more of an ignorant mindset involving violence as a response to attack etc. The 'health' variable is pretty self-explanatory where you would see less healthy and less physically able people worry more as physical crime or simply response to crime could impact them more. Expect a negative correlation with worry. The `age group' variable is also quite self-explanatory where you would expect older people to worry more about crime as their response would be limited. Expect a positive correlation with worry. Within the `rural/urban' variable, we would expect to see urban areas worry less due to more advanced security, regulation and policing. Despite the increased population and general crime in these areas. Finally, the `confidence in police' variable is the most self-explanatory of them all. If people believe less in their police, they don't believe they have good protection from crime. Expect a negative correlation with worry.
 
 \newpage
 
@@ -167,7 +167,7 @@
 
 	\subsection{Polynomials \& Logs}
 
-	A number of RESET tests and p-value comparisons took place in order to define which variables required polynomial and logarithmic values. The sex\_male variable required none due to exact collinearity. The genhealt variable responded well to its logarithmic values being used (genhealt\_log) where it increased the RESET p-value. Using the agegrp7\_poly2 variable with exponent 2, the Ramsay’s RESET test returned a p-value closer to 0.05, which we want. The rural2\_urban variable required none due to exact collinearity. And finally, the confx\_log variable was used with logarithmic values of confx as it also returned a higher p-value, closer to 0.05, in the RESET test. Note that higher R2 and lower t-test p-values are possible on a small level however, it sacrifices a lot of the RESET p-value.\\
+	A number of RESET tests and p-value comparisons took place in order to define which variables required polynomial and logarithmic values. The sex\_male variable required none due to exact collinearity. The genhealt variable responded well to its logarithmic values being used (genhealt\_log) where it increased the RESET p-value. Using the agegrp7\_poly2 variable with exponent 2, the Ramsay's RESET test returned a p-value closer to 0.05, which we want. The rural2\_urban variable required none due to exact collinearity. And finally, the confx\_log variable was used with logarithmic values of confx as it also returned a higher p-value, closer to 0.05, in the RESET test. Note that higher R2 and lower t-test p-values are possible on a small level however, it sacrifices a lot of the RESET p-value.\\
 
 	This produced:\\
 
@@ -187,7 +187,7 @@
 
 		\subsubsection{RESET Test}
 
-	Using the Ramsay’s RESET test in Gretl, we are able to observe how well-specified the regression model is. As discussed previously, RESET values were compared to choose a combination of explanatory variables however now we can experiment with polynomials and logs in search of an associated p-value of greater than 0.05. A p-value of less than 0.05 suggests there’s still a need for logarithmic and polynomial values. The model was altered until the closest possible value to 0.05 was met. This is observed at 0.109 in the optimal case here, which is far greater than 0.05. Therefore, we fail to reject the null hypothesis and observe a well-specified model after polynomial and log experimentation.
+	Using the Ramsay's RESET test in Gretl, we are able to observe how well-specified the regression model is. As discussed previously, RESET values were compared to choose a combination of explanatory variables however now we can experiment with polynomials and logs in search of an associated p-value of greater than 0.05. A p-value of less than 0.05 suggests there's still a need for logarithmic and polynomial values. The model was altered until the closest possible value to 0.05 was met. This is observed at 0.109 in the optimal case here, which is far greater than 0.05. Therefore, we fail to reject the null hypothesis and observe a well-specified model after polynomial and log experimentation.
 
 		\subsubsection{Heteroscedasticity (White) Test}
 
@@ -207,7 +207,7 @@
 		\item genhealt\_log: logarithmic values of a general health rating
 		\item agegrp7\_poly2: polynomial values of age group change
 		\item rural2\_urban: standard dummy variable for urban compared to rural
-		\item confx\_log: logarithmic values of the rating of people’s confidence in the police
+		\item confx\_log: logarithmic values of the rating of people's confidence in the police
 	\end{enumerate}
 
 		\subsubsection{p-values}
@@ -226,7 +226,7 @@
 
 		\subsubsection{t-ratios}
 
-	We see from the results that all of the associated t-ratios are either less than $-$1.96 or are greater than 1.96. As we have rejected all of the Null Hypotheses at the 1\% or 5\% significance level, we see that at least 95\% of the normal distribution of results lies within 1.96 standard deviations of the mean. Note that the confx\_log variable’s close proximity to $-$1.96 reinforces the fact that it is observed at the 5\% significance level.
+	We see from the results that all of the associated t-ratios are either less than $-$1.96 or are greater than 1.96. As we have rejected all of the Null Hypotheses at the 1\% or 5\% significance level, we see that at least 95\% of the normal distribution of results lies within 1.96 standard deviations of the mean. Note that the confx\_log variable's close proximity to $-$1.96 reinforces the fact that it is observed at the 5\% significance level.
 
 		\subsubsection{Coefficients}
 

@@ -64,3 +64,9 @@ After being called and sent to session storage, before being used all data then 
 ## Stated vs. Stated "Types"
 
 When parsing my data, you may come across sections, for example, "Glassware" and "Glassware Types". If a section does not include "Types", this means it is preferential, and includes a non-exhaustive list of products, etc., which I have acknowledged or acquired. If something is labeled with "Types", the following list is exhaustive and includes possible categorizations of the associated products. In any given data, one of these sections may exist without the other, or together.
+
+## Special Characters
+
+Characters such as the Unicode compiled left-single-quote `‘`, right-single-quote `’`, left-double-quote `“`, right-double-quote `”`, etc., and any further special characters should not appear in this repository. `strings` containing special characters should use the plain-text equivalent which are then compiled when passed through `Typography` with the `markdown` prop. Anytime a `&.*;` is used, it should be manual and in-code, that is not in body text strings.
+
+Find more on Unicode characters here: https://www.compart.com/en/unicode/

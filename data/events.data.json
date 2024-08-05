@@ -816,167 +816,142 @@
       "names": ["Titanium Matterhorn"],
       "startDate": "26th of June",
       "endDate": "29th of June",
-      "features": [
-        { "title": "Cities", "content": ["Copenhagen"] },
-        {
-          "title": "Districts",
-          "content": ["Strøget", "Gammelholm og Nyhavn", "Freetown Christiania"]
-        },
-        {
-          "title": "Attractions",
-          "content": [
-            "Rosenborg Castle",
-            "The King's Garden",
-            "Botanical Garden",
-            "Ørstedsparken",
-            "The Round Tower",
-            "Kastellet",
-            "Langelinieparken",
-            "Det Kgl. Bibliotek, The Royal Library",
-            "The King's New Square",
-            "Ofelia Beach",
-            "Copenhagen University"
-          ]
-        },
-        {
-          "title": "Accommodation",
-          "content": ["Generator Copenhagen", "Hotel Motel One København"]
-        },
-        {
-          "title": "Supermarkets",
-          "content": [
-            "Føtex Food",
-            "Netto",
-            "Spar",
-            "Super Brugsen",
-            "Brugsen",
-            "7-Eleven"
-          ]
-        },
-        {
-          "title": "Shops",
-          "content": [
-            "Magasin du Nord",
-            "ILLUM",
-            "Illums Bolighus",
-            "Galleri K",
-            "Jorcks Passage",
-            "Designmuseum Denmark",
-            "Copenhagen Design House",
-            "Linie Design",
-            "Design Objects",
-            "Danish Architecture Centre Design Shop",
-            "Dansk Made for Rooms",
-            "Stelling Pepir & Penne",
-            "High-Performance Audio",
-            "Muji",
-            "Rimowa",
-            "Samsonite",
-            "Tumi",
-            "Nike",
-            "Lindt",
-            "Light Point Copenhagen",
-            "Bellistri",
-            "Zwilling",
-            "Model 262",
-            "Diesel",
-            "Saint Laurent",
-            "Gucci",
-            "Louis Vuitton",
-            "Prada",
-            "Rains",
-            "Gant",
-            "Balenciaga",
-            "Hermes",
-            "Dior",
-            "Celine",
-            "Valentino",
-            "Sandro",
-            "A.P.C.",
-            "Paul Smith",
-            "Naked Copenhagen",
-            "Regali Stationery",
-            "Kreatima by Panduro",
-            "Kitchen Living Dining Concept Store",
-            "Fritz Hansen",
-            "Paustian Design",
-            "Molteni & C",
-            "New Mags",
-            "Husted Vin",
-            "Tranquebar Boghandel",
-            "Bøger Books",
-            "Arnoldbusck.dk",
-            "Kop & Kande",
-            "Royal Copenhagen Chinaware",
-            "Multiform",
-            "Slettvoll"
-          ]
-        },
-        {
-          "title": "Consumables",
-          "content": [
-            "Miami Vice Pale Ale",
-            "1664 Blanc",
-            "1664 Rose",
-            "Toubourg Grøn",
-            "To Øl Various",
-            "Sommersby Cider",
-            "Danish Sausage",
-            "French Sausage",
-            "Smørrebrod",
-            "Smoked Fish",
-            "Sild",
-            "Dilld",
-            "Various Salats"
-          ]
-        },
-        { "title": "Cafés", "content": ["Joe & The Juice"] },
-        {
-          "title": "Bakeries",
-          "content": [
-            "Lagkagehuset",
-            "Holm",
-            "Buka",
-            "Emmerys",
-            "Andersen & Maillard",
-            "Cakery Copenhagen"
-          ]
-        },
-        { "title": "Gelaterias", "content": ["Rajissimo"] },
-        {
-          "title": "Restaurants",
-          "content": [
-            "Hijas de Sanchez",
-            "Døp",
-            "Gasoline Grill",
-            "Grød",
-            "The Bronx Restaurant",
-            "Fabro",
-            "Another Pizza"
-          ]
-        },
-        {
-          "title": "Bars",
-          "content": [
-            "Copenhagen Downtown Hostel",
-            "Ibiza Beach Bar",
-            "Wall Street Pub",
-            "Mesh Matrikel1",
-            "Miami Bar"
-          ]
-        },
-        {
-          "title": "Nostalgia Effect",
-          "content": [
-            "Titanium (feat. Sia)",
-            "The National Anthem Of Switzerland",
-            "BOSS The Scent For Her",
-            "Kapitel 4",
-            "1664 Blanc can",
-            "7-Eleven hot dog smell"
-          ]
-        }
-      ],
+      "features": {
+        "countries": ["Denmark"],
+        "cities": ["Copenhagen"],
+        "districts": [
+          "Strøget",
+          "Gammelholm og Nyhavn",
+          "Freetown Christiania"
+        ],
+        "attractions": [
+          "Rosenborg Castle",
+          "The King's Garden",
+          "Botanical Garden",
+          "Ørstedsparken",
+          "The Round Tower",
+          "Kastellet",
+          "Langelinieparken",
+          "Det Kgl. Bibliotek, The Royal Library",
+          "The King's New Square",
+          "Ofelia Beach",
+          "Copenhagen University"
+        ],
+        "accommodation": ["Generator Copenhagen", "Hotel Motel One København"],
+        "supermarkets": [
+          "Føtex Food",
+          "Netto",
+          "Spar",
+          "Super Brugsen",
+          "Brugsen",
+          "7-Eleven"
+        ],
+        "shops": [
+          "Magasin du Nord",
+          "ILLUM",
+          "Illums Bolighus",
+          "Galleri K",
+          "Jorcks Passage",
+          "Designmuseum Denmark",
+          "Copenhagen Design House",
+          "Linie Design",
+          "Design Objects",
+          "Danish Architecture Centre Design Shop",
+          "Dansk Made for Rooms",
+          "Stelling Pepir & Penne",
+          "High-Performance Audio",
+          "Muji",
+          "Rimowa",
+          "Samsonite",
+          "Tumi",
+          "Nike",
+          "Lindt",
+          "Light Point Copenhagen",
+          "Bellistri",
+          "Zwilling",
+          "Model 262",
+          "Diesel",
+          "Saint Laurent",
+          "Gucci",
+          "Louis Vuitton",
+          "Prada",
+          "Rains",
+          "Gant",
+          "Balenciaga",
+          "Hermes",
+          "Dior",
+          "Celine",
+          "Valentino",
+          "Sandro",
+          "A.P.C.",
+          "Paul Smith",
+          "Naked Copenhagen",
+          "Regali Stationery",
+          "Kreatima by Panduro",
+          "Kitchen Living Dining Concept Store",
+          "Fritz Hansen",
+          "Paustian Design",
+          "Molteni & C",
+          "New Mags",
+          "Husted Vin",
+          "Tranquebar Boghandel",
+          "Bøger Books",
+          "Arnoldbusck.dk",
+          "Kop & Kande",
+          "Royal Copenhagen Chinaware",
+          "Multiform",
+          "Slettvoll"
+        ],
+        "consumables": [
+          "Miami Vice Pale Ale",
+          "1664 Blanc",
+          "1664 Rose",
+          "Toubourg Grøn",
+          "To Øl Various",
+          "Sommersby Cider",
+          "Danish Sausage",
+          "French Sausage",
+          "Smørrebrod",
+          "Smoked Fish",
+          "Sild",
+          "Dilld",
+          "Various Salats"
+        ],
+        "cafes": ["Joe & The Juice"],
+        "bakeries": [
+          "Lagkagehuset",
+          "Holm",
+          "Buka",
+          "Emmerys",
+          "Andersen & Maillard",
+          "Cakery Copenhagen"
+        ],
+        "gelaterias": ["Rajissimo"],
+        "restaurants": [
+          "Hijas de Sanchez",
+          "Døp",
+          "Gasoline Grill",
+          "Grød",
+          "The Bronx Restaurant",
+          "Fabro",
+          "Another Pizza"
+        ],
+        "bars": [
+          "Copenhagen Downtown Hostel",
+          "Ibiza Beach Bar",
+          "Wall Street Pub",
+          "Mesh Matrikel1",
+          "Miami Bar"
+        ],
+        "nostalgiaEffect": [
+          "Titanium (feat. Sia)",
+          "The National Anthem Of Switzerland",
+          "BOSS The Scent For Her",
+          "Kapitel 4",
+          "1664 Blanc can",
+          "7-Eleven hot dog smell"
+        ]
+      },
       "description": "I’ll try not to go off on a love letter here, but it will be fairly hard; I’m gonna try keep it short and sweet. Try. I’m in love. ... TO BE COMPLETED ...",
       "images": [
         {
@@ -1923,6 +1898,7 @@
       "startDate": "18th of April",
       "endDate": "21st of April",
       "features": {
+        "countries": ["Italy"],
         "cities": ["Venice", "Florence"],
         "districts": ["Venice Mestre", "Rialto", "San Marco"],
         "attractions": [
@@ -1933,7 +1909,7 @@
           "Palazzo Ducale",
           "Giardini Reali"
         ],
-        "youthHostels": ["Hotel Garibaldi", "YellowSquare"],
+        "accommodation": ["Hotel Garibaldi", "YellowSquare Firenze"],
         "supermarkets": [
           "Carrefour",
           "Pam Firenze Ottaviani",
@@ -1952,7 +1928,7 @@
           "Fabriano Boutique",
           "Enoteca Venezia"
         ],
-        "foodstuffs": [
+        "consumables": [
           "Gelato",
           "Cornetti",
           "Pane Toscano",
@@ -2646,7 +2622,7 @@
       "startDate": "8th of March",
       "endDate": "10th of March",
       "features": {
-        "youthHostels": ["Inverness"]
+        "accommodation": ["Inverness Youth Hostel"]
       },
       "description": "The time had finally come. The time to get the full loop: A82 up to Inverness and A9 down home. We were tucked away under the dam wall at Loch Mullardoch for the night before the first biggie of the year. It was all-in a good proj. Beinn two perhaps gave us our first ever small glimpse into real mountaineering. As we approached the summit, there was an obstacle course of light scrambling, cornice crossing, and neck deep exposed ascent, all while being obliterated by 60+mph winds. It was truly exhilarating. The rest of the route was fairly routine, in and out of micro spike mode. Although the winds did not give up. The fort of hags walk-out wasn’t the most pleasant but the replacement of Landy track with grassy terrain was certainly easier on the knees, if not the mind. Quick stop at a newly discovered Tesco Extra in Inverness for Cherry CHOUFFE, some Dunkel, and some Hell, then off to the hostel for we set out to make a fine night of drinking. My severe undernourishment throughout the day however led to a slight hiccup placing me in bed from about 8pm. All good though, CG got wasted. Sunday was hard, I was sick, could only consume Lucozade, and I may not remember it but I did get us home in one piece.",
       "images": [
@@ -3633,10 +3609,11 @@
       "startDate": "9th of December",
       "endDate": "12th of December",
       "features": {
+        "countries": ["Albania"],
         "cities": ["Tirana"],
-        "youthHostels": ["Tirana Backpacker Hostel"],
+        "accommodation": ["Tirana Backpacker Hostel"],
         "supermarkets": ["Spar", "Ronatyra MD"],
-        "foodstuffs": [
+        "consumables": [
           "Birra Peja",
           "Peroni Gran Riserva Birra Doppio Malto",
           "La Trappe Blonde",
@@ -3833,7 +3810,7 @@
       "startDate": "1st of December",
       "endDate": "3rd of December",
       "features": {
-        "youthHostels": ["Glen Nevis"]
+        "accommodation": ["Glen Nevis Youth Hostel"]
       },
       "description": "Once again, the time had come. The event the entire year builds to. for the first time, The Final Two’er saw took us the the Glen Nevis Youth Hostel for some redemption on a couple of hills from the start of the year. We stocked up and took to the Loch Lochy hills we’d failed the second of because of a pretty intense white-out. Gotta say, this time conditions gave us quite the opposite. It was a bluebird day with just the right amount of fresh snow. An umehur’igh, if you will. There is no feeling like driving-in to your project in the low-lying clag and frosted grass knowing you’re going to emerge into something so great. The project set us up perfectly for the main event of the evening: service. The Final Two’er would not be The Final Two’er without a good Christmas spread. And that, it was. We took over the kitchen from 6pm and didn’t give in. What a service it was. We got pretty food wasted and Double Disco Mango Smoothie / Desperados wasted and gassed out the room, so safe to say the Sunday project was out of the cards. Shame, coz it was another bluebird day. But, nothing a Glencoe Lochan and Clachaig coffee can’t fix. That crisp white drive through Glencoe in the low-lying clag was also something quite amazing. Sort of made up for the wasted. Sort of.",
       "images": [
@@ -4090,9 +4067,11 @@
       "startDate": "10th of November",
       "endDate": "12th of November",
       "features": {
+        "countries": ["The United Kingdom"],
         "cities": ["Manchester"],
         "districts": ["Wilmslow", "Hale"],
         "attractions": ["Manchester Christmas Markets"],
+        "accommodation": ["The Wilmslow Lodge"],
         "supermarkets": ["Booths Hale"],
         "restaurants": ["Smoke Wilmslow"],
         "bars": ["The Coach and Four"]
@@ -4207,6 +4186,7 @@
       "startDate": "3rd of November",
       "endDate": "6th of November",
       "features": {
+        "countries": ["Germany"],
         "cities": ["Hamburg"],
         "districts": [
           "Hauptbahnhof",
@@ -4223,6 +4203,7 @@
           "Planetarium",
           "Stadtpark"
         ],
+        "accommodation": ["Generator Hamburg"],
         "supermarkets": [
           "Rewe",
           "EDEKA",
@@ -4270,7 +4251,7 @@
           "Alsterhaus (Fancy Department Store)",
           "Lindt Boutique"
         ],
-        "foodstuffs": [
+        "consumables": [
           "Curry Wurst",
           "Laugenstange",
           "Laugenbrötchen",
@@ -4718,7 +4699,7 @@
       "startDate": "22nd of September",
       "endDate": "24th of September",
       "features": {
-        "youthHostels": ["Inverness"]
+        "accommodation": ["Inverness Youth Hostel"]
       },
       "description": "Safe to say the drive-ins are getting good now. Only 14 miles from Ullapool for this week’s Friday camp. Saturday was an unexpected weather delight, waking up to a semi-bluebird. The route was also far more pleasant than expected, well to a soy like me. Weirdly it resembled a rolling Cairngorms route, while still causing some déjà vu with Beinn Ùrar’s ascent, it’s Munro push, the beallach to between the corbett, and it’s descent. So great all-rounder. We also got not one, but two insights into our future. Meeting some fine gentlemen in their forties and seventies staying at the Ullapool hostel. God, I hope we’re still rocking this beta in fifty years. Saturday night was very much a weapon performance from us in the Inverness youth hostel. It was some steak, vegetables, two cherry beers, and bed for 10pm. Griff didn’t even wait up for a free tea the next morning! 7:30 and we were back on’t’ road again, to the same place we were the day before to hit the remaining four. The rain and wind, though bearable, did resemble moving from a Cherry CHOUFFE to a Duvel Tripel Hop. Worth it for the nine. As we say now: don’t look at the weather; we don’t get fucked by weather, we fuck it!",
       "images": [
@@ -4826,7 +4807,7 @@
       "startDate": "15th of September",
       "endDate": "17th of September",
       "features": {
-        "youthHostels": ["Inverness", "Aviemore"]
+        "accommodation": ["Inverness Youth Hostel", "Aviemore Youth Hostel"]
       },
       "description": "Back on’t’ road again with McN in the stallion. Not only was it McN’s first bag of Inverness youth hostel, it was a double-down of two of the GoATs: Inverness and Aviemore. It was a bit of a restrained waste on Friday night. I think we were both up for it but we knew we had to make the cottage at the entrance to the Munros before the OAP pulled the shotgun out. So it was only a cherry beer and couple Discos for me. Bright and fresh in the morn to be speed-warned by the OAP and rock some excellent name-on-the-register beta at the hills. Was again a very routine round. Not in my finest condition after Paris and a week off the roadie, but still got through on drop mode. even got a ride out from the rich-looking Salewa dood with the two-tone backpack and 2023 Defender. Anyway, onto the good stuff. Over to M&S Aviemore for dindins, quick stop for the rum and off to waste. Yet another successful one in the care home. We were actually back in the famous, cursed 2021 new year room. Sunday was, of course, a very slow one after the beers and 70cl, but that’s cool, got a new Buff from Cairngorm Outdoors. Success.",
       "images": [
@@ -4899,6 +4880,7 @@
       "startDate": "7th of September",
       "endDate": "11th of September",
       "features": {
+        "countries": ["France"],
         "cities": ["Paris"],
         "districts": [
           "Montmartre",
@@ -4918,7 +4900,7 @@
           "Luxembourg Gardens",
           "Maison&Objet"
         ],
-        "youthHostels": ["Generator Paris"],
+        "accommodation": ["Generator Paris"],
         "supermarkets": [
           "Franprix",
           "Carrefour",
@@ -4952,7 +4934,7 @@
           "Victor KV",
           "Cinquieme Set"
         ],
-        "foodstuffs": [
+        "consumables": [
           "Baguettes",
           "Pates de fruits",
           "Tarte au citron",
@@ -4986,8 +4968,7 @@
           "GEMÜSE Kabap",
           "LÜKS Kabab"
         ],
-        "bars": ["Little Red Door"],
-        "filmingLocations": ["Emily in Paris"]
+        "bars": ["Little Red Door"]
       },
       "description": "Perhaps Gino D’Acampo was wrong after all, perhaps not always nothingk good come out’a’va France. it was getting to that point again, tired of the wage slavery and in need of a messy one. Plenty of mess was had yet not half as much as there was in Milan. At least this time I stayed away from the forty reds and forty blues, which absolutely helped me avoid the down and out recovery week. Only very minor illnesses from this one thankfully.\n\nDay 0 isn’t really worth mentioning as all it involved was arriving at 10pm at the airport and waiting about two hours for the only remaining bus to get me into Paris for about 1am. Kebab shop wans’t even open, so unironically my first meal in Paris was actually a ... wait for it ... McDonalds. Wasn’t very pleasant being woke up by three woke sk8er bois as soon as I drifted off either. Anyway, day 1. Following the tred, this was my biggest day (available on Strava for your leisure, of course). I basically just tried my hardest to tick off as many locations from my list as possbile. Being the first day, I also thought I’d try hit as many of the typical touristy locations as possible too. Yes, including Tour Eiffel. Only ate baguettes throughout the day, little did I know this was gonna become the biggest trend of the weekend. Friday night I was still stuck in the room with the goddamn sk8er bois so my only evening entertainment option was to get wasted on the bench outside the hostel, considering I was also kicked out for cracking a beer in the communal area. Lee would not approve of that kiddo. Day 1: big ticks, big wasted, big success.\n\nDay 2 was always going to be my Montmartre day. it was the recurring recommendation I’d had in the build-up, and it had something that resembled a hill; an incline at least. She’s a beautiful little place, although the first bakeria I wanted to go to wasn’t open on weekends, RIP. I did make it to the James reccie however, which was a great’n. Then up the hill for some views. But yeah, after that I just sort of reverted to my plan from the day before which was stop at every shop I passed to get wasted with cans. Worked nicely. I also made sure to load up on baguettes from the James reccie place too, for casual wasted street snacking. To be honest, I don’t even really remember where I walked after that. Think I went back down to the river for some views and back around some shops. Aaaannnyway, Saturday night’s alright for fighting, except this time there were no Aussies to fight off. Yes, that means what you think it does. The sk8er bois were gone and in came two far more pleasant, physically tolerable, less odor emitting ladies from New Zealand and Argentina. Then Slovenia entered the chat, and all those things Tate has said about central European señoritas was proven correct. Though our blonde bimbo vs. quiet loner, mountaineer, farm girl types may be significantly opposing, the observations are valid. At least now I could have some actual conversations. Of course by this point I was also like eight deep, so was ready for a group bench wasted session over another six. Yeah, that was a solid 4am finish with a Desperados Mojito nightcap from the sketchy news stand place.\n\nGradually, these days were getting harder to arise into. Started with 7am the first day, we’ve probably reached about 8:30am now. But that’s an 8:30 followed by some serious grunting and groaning with the fellow residents. I walked back and fourth from the communal sink about three times before I decided I couldn’t be bothered shaving. It took a lot of effort to make that decision. Anyway, New Zealand, Argentina, and myself headed on back to Montmartre for yet another Maison Lardeux. The gals appreciated the reccie, but not the walk-in. All good coz my philosophy always is: break them on the drink, break them on the hills. We parted ways and it was finally time for me to head south of the river to see some goddamn Emily in Paris locations. Drr drr! It was then I realised I made a huge mistake by not venturing south before. The gardens, gelaterias, Whole Foods wannabes, were stunning. Bit of a later return to the hostel this time as it was actually by biggest miles day. Effing Garmin dies though, so it only caught the ten mile walk-in. RIP. I thought I went hard on Saturday night but, good lord, Sunday soon prevailed. As well as being an arrow through my heart and my soul. Argentina and I took to the famous junkie bench again for minimum six more Desperados Mojitos, with the impression the night was coming to an early end at like 2am. Then the search through the carousels and the carnival arcades (erm ... the bar), searching everywhere from steeplechase to palisades (actually the first person I saw when I walked in) took me back to Slovenia. The gaze said “you are the perfect stranger”, we should’ve left it that way. But we ended up in the shooting gallery (the closed rooftop bar), where the promises were made. Only to rock away, rock away. Lesson learned.\n\nAnd the big wheel keep on turnin’, no more neon burning up above. Monday was a day of sad goodbyes. What an excellent and unique bunch, they definitely fulfilled the expectation. She took off her silver locket and said “remember me by this”. Put her hand in my pocket. Gave me a keepsake and a kiss. And that was that. Monday was a slow day, once again just wandering Montmartre and smashing baguettes and a jar of fig preserve after we all parted ways onto our own further conquests. All that remains of the story is that it was a routine trip to the airport and an expensive ride home. I bagged the Glasgow airport bus, lol. I did see Concorde for the first time at CDG though. So that was good Liam Neeson, When Irish Eyes Are Crying, IRA moment. What a journey.",
       "images": [
@@ -5786,7 +5767,7 @@
       "startDate": "18th of August",
       "endDate": "19th of August",
       "features": {
-        "youthHostels": ["Dalwhinnie Old School"]
+        "accommodation": ["Dalwhinnie Old School Hostel"]
       },
       "description": "Quite a confused one to be honest. What was supposed to be a re-run of the Lochnagar five, or Return To Lamar if you will, turned into an impromptu trip to Lee’s. Not complaining. Quick stop at, finally the correct, Tesco Perth for the £1.50 Lindor then a feast of sushware followed by bolognese at Lee’s. Sadly no wasted this time becasue we still thought we might get a decent proj in. Haha lol. Wish we had gone a litre down now. The discontinued Brooklyn can over Quantum and some Skyfall was cool though. Just a sub-two the next day followed by a standard procedure Waterfoot upon arrival back in the only place better than Lee’s. Meme, I don’t actually agree with that but it works.",
       "images": [
@@ -5915,6 +5896,7 @@
       "startDate": "13th of July",
       "endDate": "19th of July",
       "features": {
+        "countries": ["The United Kingdom", "Italy"],
         "cities": ["London", "Milan"],
         "districts": [
           "Kensington",
@@ -5932,7 +5914,7 @@
           "Galleria Vittorio Emanuele II",
           "Sforzesco Castle"
         ],
-        "youthHostels": ["Astor Hyde Park", "QUO Milano"],
+        "accommodation": ["Astor Hyde Park", "QUO Milano"],
         "supermarkets": ["Whole Foods Market Kensington", "Carrefour"],
         "shops": [
           "The Wimbledon Museum",
@@ -5954,7 +5936,7 @@
           "Fragrans",
           "Takeda Katsuya Design"
         ],
-        "foodstuffs": [
+        "consumables": [
           "Whole Foods Salad Bar",
           "Bakery Pizza",
           "Cannoli",
@@ -7120,7 +7102,7 @@
       "startDate": "2nd of June",
       "endDate": "3rd of June",
       "features": {
-        "youthHostels": ["Dalwhinnie Old School"]
+        "accommodation": ["Dalwhinnie Old School Hostel"]
       },
       "description": "In annual fashion, it was time to return to Lee’s for a regulatory waste. Of course it wouldn’t be the same without BAR but we have our methods of getting around that. Quick stop in Murray Tesco and off to fry up some burg’ in the fammous kitchen. Then the real party started, muddling n’aw. Almost a leet’ of rum over a relaxed night of Ferris and Emperor Daniel Creg. Yes, another upright until 6am then up for Brian MacDonald’s famous Vrackie. Stunning one for the books.",
       "images": [
@@ -7442,7 +7424,7 @@
       "startDate": "14th of April",
       "endDate": "16th of April",
       "features": {
-        "youthHostels": ["Cairngorm Lodge (Glenmore)"]
+        "accommodation": ["Cairngorm Lodge (Glenmore) Youth Hostel"]
       },
       "description": "This project started with so much potential, so much hope. And on the Saturday, it did indeed deliver. This is a classic example of one of my favourite type of routes; long warm-up walk-in, a bunch of high level exposure, blue bird sunshine, some snow. Though on the subject of exposure, we soon realised it was that time of year when you have the crossover of ixe axes and suncream. Of course, I didn’t have either. Most of the route, as I said, was in the sunshine, on top of the hills, and the albedo effect was certainly out to harm on this day. Project itself was excellent but when we got back, it didn’t take long to feel the effects. So much for the cooking up a storm and getting wasted. The faces were not feeling it. Woke up on the Sunday to see a couple of red baloons on top of our torsos, so there went the plan for Sunday hills too. We had a quick depressing walk around Morlich and got on the road for some soup. YAH.",
       "images": [
@@ -7583,12 +7565,13 @@
       "startDate": "5th of April",
       "endDate": "9th of April",
       "features": {
+        "countries": ["Poland"],
         "cities": ["Wrocław"],
         "attractions": ["Wrocław Market Square", "Wrocław Stadium"],
-        "youthHostels": ["Hostel Wratislavia"],
+        "accommodation": ["Hostel Wratislavia"],
         "supermarkets": ["Żabka", "Carrefour", "Świezo Znawcy"],
         "shops": ["Geleria Dominikańska", "Big Smoke Store"],
-        "foodstuffs": ["Pierogi"],
+        "consumables": ["Pierogi"],
         "bakeries": ["Popiół i Diament", "Green Caffè Nero", "Dickery"],
         "restaurants": [
           "Chopper Bar & Grill",
@@ -7752,10 +7735,11 @@
       "startDate": "30th of March",
       "endDate": "2nd of April",
       "features": {
+        "countries": ["Italy"],
         "cities": ["Naples"],
         "attractions": ["Pompei"],
         "supermarkets": ["Carrefour"],
-        "foodstuffs": [
+        "consumables": [
           "Neapolitan Pizza",
           "Sfogliatella",
           "Peroni Traduzione",
@@ -7995,7 +7979,7 @@
       "startDate": "10th of March",
       "endDate": "11th of March",
       "features": {
-        "youthHostels": ["Glen Nevis"]
+        "accommodation": ["Glen Nevis Youth Hostel"]
       },
       "description": "It was time for the ALL to take to some roads it was designed for. Or at least Audi claim. We ran the classic steak and reduced Morrisons Fort Bill potatoes on the Firday, and I did develop a good hack to revive the potatoes, at last. Next morning was a great blue bird photo opportunity for the ALL along the ALLroad. This is one of many projects that highlight why March-April-May are the best project months. Just the perfect amount of snow to make the, already fairly easy, project doable, and the perfect amount of sunshine. The wak-in was a little boring but it’s always part of the excitement. The reason we weren’t doing all four of the Munros on-route was because we had the Admiral closing party to get to for our 7pm rezzie. But yeah, that went to hell when they said they weren’t serving food. Back to Griff’s for an 800 and debrief it was.",
       "images": [
@@ -8124,7 +8108,7 @@
       "startDate": "24th of February",
       "endDate": "25th of February",
       "features": {
-        "youthHostels": ["Glencoe Independent (Bunkhouse)"]
+        "accommodation": ["Glencoe Independent (Bunkhouse) Hostel"]
       },
       "description": "It had been a while since McNeil joined on a proj’ and for the first time, it was a two bones solo trip. The perfect romantic weekend it was. Another loan of some washer fluid, a venison burger storm cooked up in the Indy, and the first outing of the new two-tones. What a perfect combo. It was a re-bag for me but also perfect weather for it. A touch of snow this time made the route a little more interesting. It was also short enough that we took a bit of time on the descent to piss about with the axe, Mark’s new micros, and scaring a family of basically all da’s. Tried to get a coffee in the ski centre but it was full of boomers who have no idea what a hill is. Unlucky.",
       "images": [
@@ -8189,7 +8173,7 @@
       "startDate": "17th of February",
       "endDate": "19th of February",
       "features": {
-        "youthHostels": ["Aviemore"]
+        "accommodation": ["Aviemore Youth Hostel"]
       },
       "description": "Finally time for the ALL to take to Aviemore. I was optimistic, sleeping in the Sugarbowl car park for the night for the anticipated Devil’s Dick the next day. But the foot of snow I woke up to was said otherwise. We had to re-evaluate. It only took about 10 lengths of the Glenmore road for me to finally park up at the Glenmore youth hostel to recompose, but also look up and realsie I was next to a fine, fine Corbett. Good god, am I glad I did this. Only 20 minutes or so into the walk I saw that promising sight. One of the greatest sights a man can see; the sun peeking through some thin cloud. This turned into the best route I’d had in a good while. Nowt like a fine Cairngorm inversion. Certainly a contract to Griff’s wasted on the Friday night, followed by a good drenching on a Corb’ on-route to The More. We made up for this though with a good crate and storm. Sunday however, reminded us never to go back to Route 7. Like £4 for a roll and lorne. Oh well, CG worked his off on a sub-two and I worked my coffee off by purchasing a pari of two tones. Yup, it finally happened. Successful day in my opinion, topped off by the Bruar soup.",
       "images": [
@@ -8278,7 +8262,7 @@
       "startDate": "10th of February",
       "endDate": "11th of February",
       "features": {
-        "youthHostels": ["Glencoe"]
+        "accommodation": ["Glencoe Youth Hostel"]
       },
       "description": "Third time lucky maybe? I took to the Glencoe shared room for the first time with hopes of finally getting those two Munros that had defeated me twice. Had a good fuel-up with salmon and big-heap-veggies, and a very strange conversation with some hostel weapons, and got a classic supreme hostel sleep in. Well, only to be woken up by some old dude thanking me for not waking him up when I came to bed?!?! Okay, cool. Anyway, I actually wimped out this time and took the alternative ridge to the schoolhouse. Yeah, no scrambling. I wanted those Munros. It tunred out to be worth it, they’re a good burn and I met a good hill companion who had some fine reccies for the upcoming Wrocław trip. And sorry Mark, but the walk-out is not the most beautiful in Scotland. It’s just a bog slog.",
       "images": [
@@ -8358,7 +8342,7 @@
       "startDate": "3rd of February",
       "endDate": "4th of February",
       "features": {
-        "youthHostels": ["Glencoe"]
+        "accommodation": ["Glencoe Youth Hostel"]
       },
       "description": "This was another hopeful one. But hopeful in a different way. We went north as agreed in perpetuity, but were constantly hoping that the weather would stay good enough to actually do something. We ended up getting a decent Corbett in down Loch Leven. Winds were ridiculous and to be honest, pretty damn dangerous especially at the very exposed points. Hey ho, it’s us. The belting of Odyssey Live helped the recovery, and banished the fear. Aterwards, we rocked up at the climbing centre for a quick browse, I almost bought a jacket, as standard. I didn’t, not as standard. Then we tried to get a coffee but ran into the army of SUMC, so it was a quickie to the door after that. Ended up getting a decent one, alongside some gentleman’s chips, in a pub in Kinlochleven. Some electronic darts too. Not very gentlemanly.",
       "images": [
@@ -8398,7 +8382,7 @@
       "startDate": "27th of January",
       "endDate": "28th of January",
       "features": {
-        "youthHostels": ["Inverness"]
+        "accommodation": ["Inverness Youth Hostel"]
       },
       "description": "This was the first sign not to take Ross on hill projects, but he was just teasing us in at this point. We had an awkward dinner, in Ross’ opinion, which was made by Davey and enchanced with beer. We then headed out for a big ol’ night on the Inverness town. This was goddamn dull. Music was quite good but bars were boring as hell. I cut off early and went to bed, but was then, actually to my delight, woken up by a shhteamin’ and kebab-filled Ross and Craig at about 1am, who challnged me to down the rest of the whisky. I did. This led to some excellent waterfighting and bed flipping. By the way, it was CG’s first time back on the drink since December, so messy he was. We probably got to bed around 3am, and it was one of those mornings I woke up thinking I’d only had a blink of sleep. It was 7am and Ross’ was ready to get rocking and rolling though. RIP. We cooked up a totally unnecessary Simon Howie spread and got off to the Munro half way between Inverness and Ullapool. Despite the stunning weather, the river crossing only a few miles in broke us and it was soon off to Ullapool for a coffee. Yeah, a lot of miles for nowt. We still managed to make it to Roon’s for the bash though. This was a bit of a slog given out conditions.",
       "images": [
@@ -8458,7 +8442,7 @@
       "startDate": "20th of January",
       "endDate": "21st of January",
       "features": {
-        "youthHostels": ["Glen Nevis"]
+        "accommodation": ["Glen Nevis Youth Hostel"]
       },
       "description": "Another first for me this weekend in the Glen Nevis youth hostel. Also a first rounding up the trip with big L. Griffin in the crew. Some steaks for dinner and about 20 minutes of The Hangover before I needed my slumber. On the hill day, our hopes and dreams from On The Day were crushed a little in slushy ice and severely chilly winds but we powered on to use those ice axes in some waist deep snow and blozzard on top. Unfortunately it was a bail for me though after Munro number one. There was absolutely 0 fun in this route. The Griffs battled on but ended up rocking a Corbett top instead of the second Munro, so it was a bit of a fail for all of us. The Spean Bridge Spar vape treat made up for it though.",
       "images": [
@@ -8514,7 +8498,7 @@
       "startDate": "13th of January",
       "endDate": "14th of January",
       "features": {
-        "youthHostels": ["Inverness"]
+        "accommodation": ["Inverness Youth Hostel"]
       },
       "description": "Here we f*cking go! Season 4 begins, and it’s a goddamn good one. We bagged Inverness youth hostel for the first time. Very industrial, very prison-like, but the perfect home to the first storm cooked of the year. Panang curry. We hit a crate of sugar free, caffeine free Diet Cokes over some Miami on the Friday night in the reception lounge. Was a little awkward. On the day, we hit a quick mothership Grain & Grind and got off further north to realise we could not have asked for better conditions to start the project season. It was from the moment we reached the snow line we agreed to make it the unspoken beta that we were always doing a project on Saturdays, given no blockers. So much hope, so many dreams from the season opener.",
       "images": [
@@ -8752,18 +8736,18 @@
       "startDate": "17th of November",
       "endDate": "21st of November",
       "features": {
+        "countries": ["Germany"],
         "cities": ["Berlin"],
         "districts": [],
         "attractions": [],
-        "youthHostels": ["acama Kreuzberg"],
+        "accommodation": ["acama Kreuzberg"],
         "supermarkets": [],
         "shops": [],
-        "foodstuffs": [],
+        "consumables": [],
         "bakeries": [],
         "gelaterias": [],
         "restaurants": [],
-        "bars": [],
-        "filmingLocations": []
+        "bars": []
       },
       "description": "‘twas time for the chamber city. Routine flight with the RyanAir cowboys, alright landing for them to be honest. Excellent first night in Berlers; a few curryvoorshts then gay smoking chamber for beers and reds. Up nice and fresh on Friday at midday for a treat out of the breakfast rouge dispenser and off to fishmarket south after some excellent coffware. Did some general strolling around some shops and Lime’ing, went in some questionable shops and ended up at a fine sushware dinner place. Then off to Bergers for two attempts. I’m sure you can figure how they went. Off to another smoking chamber then a cocktail chamber to roll-in the night. Once again, up at midday on the Saturday and off to Wilmers café for a bagers and coffee. Then a stroll down to the parlers but I got kb’d so I went a stroll around shops. Place called Lokal for dinner after like three down in some royal chamber bar, probably too wasted to enjoy it as much as it deserved. Onwards to some keeosks for some street beers. Then Pirers. Met a nice coke dealer and Crug got pretty wasted. I’ll keep those videos and pictures to ourselves. Even after dinner, chips and a burger at a Rate My Takeaway chamber, and three kebabs; CG was too wasted to get out of bed on the Sunday so Awaz and I went a stroll around the rich district, went to a choccy chamber, and Five Guys for lunch (aha). Finally met CG to go to the one Xmas market that was actually open and downed some mullers and eggers. Then to a beereria finally for a final cooryvoorsht. Early night for the Monday morning flight.",
       "images": [
@@ -8923,7 +8907,7 @@
       "startDate": "11th of November",
       "endDate": "12th of November",
       "features": {
-        "youthHostels": ["Glen Nevis"]
+        "accommodation": ["Glen Nevis Youth Hostel"]
       },
       "description": "Round 115 and 116 at last. Since we’re hostelmen now, it was time to bag the Glen Nevis YH for some evening leisure and The Prodigal Son, after the Oban d’tour. Uncle.Sank a good crate of frizzante too. We had a money-optimizing start to Saturday with CG remaining in slumber until 9:59 then it was off to ‘leven for my first fat dab of the Mamores. Shame, I was kinda hoping my first hit of these would be running all ten in one but, I suppose its ‘too late in the year’ for that. Anyway, it was good to be running a sea-to-summit (sort of) again after so much time in the Cairny G’s recently. The route was routine, good runn’r. The many-different-kind-terrain was also a good brek’r in for the fresh rubber. Pack-a-Punched up a Coop meal deal dinner and got ready for the weekend to take a big turn. Another 50 miles to Edinburgh and back to witness a Hard.Style performance with some management passes, a MEGAPINT and thicc milks. Came back down to earth on Sunday though, with the Troon solo followed my Christoph Tile.",
       "images": [
@@ -8941,7 +8925,7 @@
       "startDate": "28th of October",
       "endDate": "30th of October",
       "features": {
-        "youthHostels": ["Glencoe", "Aviemore"]
+        "accommodation": ["Glencoe Youth Hostel", "Aviemore Youth Hostel"]
       },
       "description": "I say ‘Cairngorms VIII’ however, this was really Scotland I. This one started with an impromptu stop at the Glunky Bunky youth hostel on our way to the proj. Shared artillery with some weap’s but right decision. We went a few down and ran Beinn Left of Creag Meagaidh on Saturday. Then off to Aviemore for a Mambos sesh and a bottle of rum down in the currum. Four hours of sleep, clean shave then out to Route 7 for brekkers then Le Tour De Outdoor Shops. Success with some gloves, pub jacket and finally replacement boots. If they ain’t broke, don’t fix.",
       "images": [
@@ -8987,7 +8971,7 @@
       "startDate": "14th of October",
       "endDate": "16th of October",
       "features": {
-        "youthHostels": ["Aviemore"]
+        "accommodation": ["Aviemore Youth Hostel"]
       },
       "description": "I should have been pink wojak on this trip bu that fact is, I was just so goddamn in need of my return to projects that nothing could have made this one bad. Over a week that the ALL had been in the geerage meaning I couldn’t run the originally intended Cairn Toul proj because of the drive-in and need for an early start. So I booked my first non-west-highland-line highland train ticket and bukked two nights in Hamish’s dungeon. The sofa sex chamber. The Aviemore Youth Hostel. My first time soloing a hostel, and doing it right too, with one of those nights in a shared room. Anyway, quiet Friday with one beer and some dev. Also some dood had a shared rant with me about ThinkPads, was excellent. ‘Twas the bus the next morning to the Ski Centre car park to take off on by backup plan, Cairn Gorm and Macdui. Excellent conditions straight into the very unexpected, but glorious, snow storm. Bit disappointing though, 60mph snow gusts stopped me from getting over to Macdui again. So I had a quick coffee and ran the walk-out, in a very Just Cause 2 climate-change-like fashion. Another quiet night cooking up a storm, running Mambos for two, then soloing a crate and Star Wars in the currum. Didn’t get to do much on the Sunday, train times weren’t very forgiving. Tried Route 7. Denied. So just browsed a few outdoor shops and went home. Much. Needed.",
       "images": [
@@ -9378,18 +9362,18 @@
       "startDate": "7th of June",
       "endDate": "14th of June",
       "features": {
+        "countries": ["The United Kingdom", "Germany", "Italy"],
         "cities": ["Manchester", "Munich", "Verona", "Venice"],
         "districts": [],
         "attractions": [],
-        "youthHostels": [""],
+        "accommodation": ["The Wilmslow Lodge"],
         "supermarkets": [],
         "shops": [],
-        "foodstuffs": [],
+        "consumables": [],
         "bakeries": [],
         "gelaterias": ["Gelatoteca Suso"],
         "restaurants": ["Amarone"],
-        "bars": [],
-        "filmingLocations": []
+        "bars": []
       },
       "description": "After the train-in to Manchester Airport us, we were greeted with round two of cancelled sleazyJet flights. After some debate we settled on a gentlemen’s retreat to the Premier Inn, in Wilmers us. On easyJet of course. A few hay fever seizures later, we were in the Coach & Four you and me and you, running a fine two-courser. Also on easyJet. In fact, just let it be known that from this point until Munich, everything was on seazyJet. Finally bagged the cycle cafeé, then the god-awful pub next to the optician’s for a game of pool. We retired to slumber over some yellow labels and La Guy D’Familia and Papa D’Americano. In traditionalé Wilmers fashion, the next day begun with some Giada then a Juniper all-you-can-eat. The day’s activities formed a very soy trip into Manchester to browse Soylfridges and experience the glorious three different kind seafood with rice stick (rice pasta). I did pick up a good Crockett piece from Uni Qlo which made some appearances in Italy. Let’s not forget the £15 of mocha ice cream afterwards. Once again, the night was capped with some La Guy D’Familia and Papa D’Americano. The third day under the dome started with much hope but a drone of Doomer depression. All the transport was successful though and we made it to Munich.\n\nSadly we didn’t have anywhere near as much time here as we’d hoped. With our Munich leg cut two days short, we tried to make the most of it with the classic poached sausage and schnitzel dinner. After a quickie at the local gelateria to get us warmed up for L’Italy, it was onto the Hofbräuhaus to sink a few steins, then a night cap bar for a couple’ more beer, large and a final pint to sober us up. An excellent night ended in a very rogue manner, with me running the run-out back to the accommodation to no ones’s knowledge. Apparently worrying your friends trumps prime autismé. Anyway, a quick run for the bus the next morning and we were off to Verona; an amazing seven-hour journey through the Scottish Highlands Mk.II. I have a copy, you have a copy.\n\nHerhona, my personal favourite of the locations. And J.PELLEGRINO’s too, I’m led to believe. Once again, a shame we only got to spend one night in this place because the accommodation and everything surrounding it was stunning. After d’loading, it was straight off to the first bareria of the evening to sink some H’Aperols and three different kind bar snack. We decided to tun the free-for-all dinner beta and end up in the place that looked best. This paid off big-time. Don’t even remember the name but, first place we ended up served possibly the finest meal I’ve ever blessed my (goddamn) palate with. Some magnificent tagliatelle followed by wild boar ragù, served alongside a house red and some homebrews. The best of the night was still to come however. Romeo five-star beereria, Verona. The greatest drinking establishment on earth. Negronis with branded ice cubes, herheyhas, and Japanese ginseng freakin’ zen garden something cocktails. A stunning arena. Big shout-out to Edoardo Bullio dood. The next morning capped her off well, with a glorious pistachio pasteria. We weren’ leaving ‘til just after midday though so there was of course time for a bellini, negroni and herheyha pre-train. And yeah, the train was a bit depressing coz they still believed in masks and it was 30°.\n\nTo give a fair idea of the heat, I shall say that it took three legs with two breaks to make the two-mile journey from the staioné de centralé to the accommodation. The herheyhas helped, and the pizza lunch. There wasn’t much more to day one, just dinner at a very average restaurant (still better than any UK restaurant). The squid ink, wait for it..., squid was pretty okay actually. Obviously off to some bar afterwards, one which I don’t remember because they all blend into one. It was a 4am finish though, I can tell you that. A midday rise the next day saw us in desperate need of some frizzante and a coffeeria. We had a stroll and not long later came across a fine Farineria (Farini). Only the greatest pizzeria, drafteria, mojiteria and goddamn everything elseria in Venice (and Milano). We went a few [slices and pintés] down in there before the Trip Advisor special and another night of beereria, followed by that famous gelateria. Whatever it’s called. Ahh this was also the night of Brando, and friends. And James’ wannabe figure, the Celiaeria, who definitely shops at Celinerias. ‘nuff said. The final day kicked off with more frizzante and another trip to Farini, via the (non-existent) Casino Royaleria bank, for more sliceria. We bagged an excellent restaurant on the final day, definitely the finest we’d been to in Venice. It was basically a wine shop but their, whatever the name is for, Italian tapas was amazing. Anyway 5:30am rise the next day for departure from Four Different Kind Hol-e-day.",
       "images": [
@@ -9622,7 +9606,7 @@
       "startDate": "3rd of June",
       "endDate": "5th of June",
       "features": {
-        "youthHostels": ["Dalwhinnie Old School"]
+        "accommodation": ["Dalwhinnie Old School Hostel"]
       },
       "description": "This proj started with an excellent leg stretch for the ALL; First Lady Jooma and I took to the A9 with some John Mayer and Percy Pigs. After docking in the Newtonmore proj car park, it was sushware over a round of Mr. Tate’s finest. The other kids had a quick bag before docking in the FIVE, then it was onto the Brothers In Arms beer garden. It was a proj however, so at a good sensible Supreme Gentleman’s bedtime, it was time for the first use of the L’Hotel D’ALL / ALL Inn and the FIVE-TWO-FIVE Star Hotel. It was a late rise the next morning for a quick double-down bag of Beinn Two Behind Those Ones Mark and Craig Did When I Was Uprighting. We hit up House of Allroads afterwards for a quickie ice crémà and some lorne for the next day. AwazFM and I ran some pretty damn good steak and mac-cheese for diesel, over a bottle of Wilmslow’s finest Casa Italinio Chianti. Capped the night with an even more successful one at the Dalwhinnie lodge where we double-downed on pint and cocktail each round. I’m pretty sure that, even though we didn’t realize it, we were kicked out. Back at Lee’s, Jooma and I ran a night cap of Ferris Bueller’s Day Off over six teas. Ran a couple’ lorne for brekkie the next day then hit up Beinn One Hundred across from Beinn Day Before while AwazFM uprighted it in the FIVE.",
       "images": [
@@ -9665,7 +9649,7 @@
       "startDate": "13th of May",
       "endDate": "14th of May",
       "features": {
-        "youthHostels": ["Glencoe"]
+        "accommodation": ["Glencoe Youth Hostel"]
       },
       "description": "A weekend away for Crug’s birthday sadly for me turned into Beinn Lose The Phone, so these leisurely pieces unfortunately do not belong to me. It was however an excellent weekend. Glen Shiel seven on the Saturday, followed by a semi-successful stop bag of the Glencoe Youth Hostel. Then the ferree to Corran on Sunday for a roll with lorne, black, bacon and egg. Also finally bagged Drovers on the drive-out.",
       "images": [
@@ -9848,7 +9832,7 @@
       "startDate": "15th of April",
       "endDate": "17th of April",
       "features": {
-        "youthHostels": ["Sheena’s Backpacker’s Lodge"]
+        "accommodation": ["Sheena’s Backpacker’s Lodge"]
       },
       "description": "A weekend trip to Glenfinnan and Mallaig. Started with a can on the A82 followed by an emergency pit stop for another can at the Green Welly Stop. Then it was onto Morrisons Fort Bill for more cans and a double-down on Pringles and Manomasas. We pitched in the car park for the round and fired up the BBQ for the second double-down on the M&S 3 for £10 meat deal. It was McNeilerAwazFM and myself in the back of the FIVE this time, put to sleep by some Wojak. Saturday’s project was good. Back on the trend of long walk-ins but it was good to hit a couple’ ‘ros and Corbett tops. Shoutout to Sheena in Mallaig, accomodation is luxurious. Sunday was a slow day after a night in the Steam Inn (yes, the steamin’ mish) so no Beinn Guylian Chocolatier, but a stop in an Arisaig café and the Nevis Centre Fort Bill for lunch.",
       "images": [
@@ -9880,7 +9864,7 @@
       "startDate": "1st of April",
       "endDate": "3rd of April",
       "features": {
-        "youthHostels": ["Glencoe Independent (Bunkhouse)"]
+        "accommodation": ["Glencoe Independent (Bunkhouse) Hostel"]
       },
       "description": "The first gentlemen’s retreat of 2022. Excellent to finally have McNeilerAwazFM back on tour, and see the debut of First Lady Jooma Loor on the 2020-Present project tour. It was a pretty typical Friday with spaghellio harbonhero with garlio de baginio, and three ‘eineke’. After a leisurely start to Saturday, we made our way back to the one I promised myself I would never touch again, Ben Ùrar. However, it turned out to be an excellent decision. This hill certainly redeemed itself this weekend with the sun, snow, burn and Merrill Lynch corb. The Chinese chicken roast dinner service went excellently, ending with a standing ovation as Mark and I made our way from the kitchen, through the dining room, to the Range Rover. After that, it was off to the Clachaig for a heavy one followed by a crate and a Lewis dram before bed. Sunday saw a slower start and a very challenging lap of Glencoe Lochan. Accompanied by a debriefing over some Oomer content. Five erosions and on the road again. We made a pit stop in Tyndrum to finally bag a cheese wageburger at TJ’s.",
       "images": [
@@ -10102,7 +10086,7 @@
       "startDate": "31st of December",
       "endDate": "2nd of January (2022)",
       "features": {
-        "youthHostels": ["Aviemore"]
+        "accommodation": ["Aviemore Youth Hostel"]
       },
       "description": "An interesting one, finally seeing the birth of a new meme.. tea. Of course, the weekend was started with the traditional seeing off of a loaf in the back of the FIVE and some whisky chocolate liqueurs. Well done Oxy, good find. This time, from Murray’s famous Perth Tesco. Many a beer had already been deleted upon arrival and to be honest, it was a blur from then to 4am. I removed 4l of Aviemore’s finest water from existence before bed so obviously I was fine for a 9am wake-up and promptly obliterated some lorne, ran a run and helped the mighty Hamish clean up the embarassment in the care home. When the rest finally dragged themselves up at 2pm, it was off to Loch Morlich for a 20 meter walk then back to the currum for Jile, Skyfall and tea. And, just a little rum and trop. Back when we were drinkers, this would have been laughable however now that we are seasoned tea enthusiasts, we sought continuation of the warm embrace of a council brew in a trip to The House of Bruar and Hettie’s Tea Rooms, Pitlochry to break up the Sunday drive home.",
       "images": [
@@ -10160,7 +10144,7 @@
       "startDate": "10th of December",
       "endDate": "12th of December",
       "features": {
-        "youthHostels": ["Glencoe Independent (Bunkhouse)"]
+        "accommodation": ["Glencoe Independent (Bunkhouse) Hostel"]
       },
       "description": "The final send-off for the year. The event we’d been waiting for. Finally running “The Corbett”!! This weekend is probably the best example of something actually going to plan. A few loaves, blocks and cans upon arrival at the indy hostel then off to the Clachaig for some black gold. A soothing and much needed 30° lie-in the next morning followed by “The Corbett”, only seven months after we originally set our eyes on it! Of course our Christmas dinner went down very smoothly afterwards along with a medium body. Sunday mostly existed to burn off the disgusting amount of roast-up, fruit cake and brandy cream which had been consoomed the night before. The Pap was an excellent burner, just what we needed.",
       "images": [
@@ -10219,7 +10203,7 @@
       "startDate": "12th of November",
       "endDate": "14th of November",
       "features": {
-        "youthHostels": ["Aviemore"]
+        "accommodation": ["Aviemore Youth Hostel"]
       },
       "description": "Ahh what a good one. First send with Oxy on board, had no idea what I was in for. The drinking started early in the FIVE on the drive-in but I wasn’t complaining, we had plenty-a-crate to work out way through. Stuck to the traditional loaf on the drive-in too, before the M&S roast beef in the Aviemore Youth Hostel. We worked our way through about half a crate each then headed boys én tourè to Mambo’s, where Griff and I spent the evening sparking some questionable debates in the SUMC chat. They headed to whatever that Aviemore nightclub is called but of course I did a Lewis and just went back to the hostel and solo’d a few’ in an arm chair. This was the least messy of the nights. We were all still a little tender the next day however, and so saw the birth of the Aviemore care home. Lorne and trop down and off Murk and I went for an attempted walk around Loch Morlich. We only made it through the front door of the Pine Marten though. Couple coffees and the worst chips of our lives later, we attempted the walk-out. Oxy and the Griff had to rescue us in the FIVE on their abseiling drive-out however. Good Thai curry sobered us up right good after that. Gained me the title of the ‘Highland chef’ from Oxy. Anyway, after that it was straight back on the crates and ‘Lewis measure’ drams. That’s like a 300ml glass. Got us a good three bottles down between four people in no time. They headed back out to the nightclub after that. Who knows what I did. Give them the room key certainly wansn’t something I did. Woke up to smashed-up tube, cans, toilet paper and a wet flare sign the next morning so must have been a good one. Wee Route 7 Cafe sorted us out the next morning. Drive-out was very questionable. Griff didn’t speak a word.",
       "images": [
@@ -10412,7 +10396,7 @@
       "startDate": "3rd of September",
       "endDate": "5th of September",
       "features": {
-        "youthHostels": ["Dalwhinnie Old School"]
+        "accommodation": ["Dalwhinnie Old School Hostel"]
       },
       "description": "An excellent one at Lee’s and Joe’s. Friday night BBQ in the Newtonmore proj car park with the slow cooked Tesco yellow label beef side, a tube and a drum. Ahh back in the drum days. Then it was off to ‘bed’; upright in the passenger’s seat of the ‘sta. Good proj the next day with a one-to-one rice-soy ratio. Then off to Lee’ five star hostel for steak and mac-cheese. Capped the night off with a legendary one in the Dalwhinnie Lodge, or ‘BAR’ as it’s advertised, with many-a-pint, many-a-cocktail, many-a-cake, and dusting off the absinthe chamber. Ran another upright on the sofa when we got back to Lee’s. Was a rough start the next day so I ran a third upright in the ‘sta while the others did the proj. Great pit stop at the Bothy Bar at the Atholl Arms for fish and chips on the drive-out though.",
       "images": [
@@ -10705,7 +10689,7 @@
       "startDate": "20th of May",
       "endDate": "22nd of May",
       "features": {
-        "youthHostels": ["Glencoe Independent (Bunkhouse)"]
+        "accommodation": ["Glencoe Independent (Bunkhouse) Hostel"]
       },
       "description": "My real introduction to the beauty of my country, on the first gentlemen’s retreat of 2021. This was an excellent weekend with the gentlemen, starting with loading the Saab full of creates and barbeque food for the Thursday camp in the yard of the.. yuck.. Kingshouse Hotel. A freezing cold pitch with the tepid embrace of a Lost Layger drew us promptly to the bar at the Kingshouse, only to be let down by their lack of hospitality. Putting them in the middle finger club. Anyway, great day on Bidean next, even though I babied out of the summit. Followed by the classic Co-op dinner on the Glencoe Independent rage stove. Of course, also a lorne fry-up the next morning to fuly open her up. Saturday was excellent too. A successful Buachaille Etive Bagged. Clachaig for the second night, bit of Choi Dai for fingers ofc.",
       "images": [
@@ -10877,7 +10861,7 @@
         }
       ],
       "features": {
-        "youthHostels": ["Cairngorm Lodge (Glenmore)"]
+        "accommodation": ["Cairngorm Lodge (Glenmore) Youth Hostel"]
       }
     },
     {

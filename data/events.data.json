@@ -2,6 +2,19 @@
   "2024": [
     {
       "id": "E2024032",
+      "names": ["The Two-Hundred CLub"],
+      "startDate": "16th of August",
+      "endDate": "17th of August",
+      "description": "...",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/the-two-hundred-club/1.jpg",
+          "alt": "the-two-hundred-club-1"
+        }
+      ]
+    },
+    {
+      "id": "E2024032",
       "names": ["The Bavaria Brauhaus"],
       "startDate": "10th of August",
       "endDate": "11th of August",

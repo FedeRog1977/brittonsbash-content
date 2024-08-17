@@ -1,5 +1,14 @@
 {
   "film": {
+    "REFACTOR ALL TO BE LIKE THIS": {
+      "title": "MEDIA NAME",
+      "content": "etc",
+      "tags": [
+        "Film Noir (Genre)",
+        "Top 10 (will be added to top 10, etc.)",
+        "2007 (year contained here now - everything is on one level)"
+      ]
+    },
     "genres": [],
     "topArtists": [],
     "topFilms": [

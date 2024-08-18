@@ -7,7 +7,9 @@ In the future, most data entries will follow the structure of:
 ```json
 {
   "title": "",
+  "description": "",
   "content": [],
+  "href": "",
   "tags": []
 }
 ```
@@ -19,7 +21,9 @@ This means that the generic type used to receive data of any sort is:
 ```ts
 type DataContentResponse = {
   title?: string;
+  description?: string;
   content: string | string[] | {}[];
+  href?: string;
   tags?: string[];
 };
 ```
@@ -70,3 +74,18 @@ When parsing my data, you may come across sections, for example, "Glassware" and
 Characters such as the Unicode compiled special characters should not appear in this repository. `strings` containing special characters should use the plain-text equivalent which are then compiled when passed through `Typography` with the `markdown` prop. Anytime a `&.*;` is used, it should be manual and in-code, that is not in body text strings.
 
 Find more on Unicode characters here: https://www.compart.com/en/unicode/
+
+## Media Tags
+
+The media JSON is the perfect example of the use of the `tags` key. Films, and other media etc., are arranged on the top level with the following tags determining their nature:
+
+```json
+"tags": [
+  "<year-of-release>",
+  "<genre>",
+  "<production-company>",
+  "<actor>",
+  "<artist>",
+  "...",
+]
+```

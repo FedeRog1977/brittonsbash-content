@@ -1,5 +1,9 @@
 {
   "aesthetics": [
+    {
+      "title": "City",
+      "content": ["2000s Urbancore", "New York Italian Diner"]
+    },
     { "title": "Eighties Fashion", "content": [] },
     { "title": "Two-Thousands Fashion", "content": [] },
     {

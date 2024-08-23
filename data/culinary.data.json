@@ -293,11 +293,21 @@
   "drink": [
     { "title": "Ale", "content": ["Rosie Nosie", "Skye Cullin Beast"] },
     {
-      "title": "Pale Ale / India Pale Ale",
+      "title": "Pale Ale (India Pale Ale / Session IPA / American Pale Ale)",
       "content": [
         "Drygate Double Disco Mango Smoothie",
         "Drygate Disco Forklift Truck",
-        "Beavertown Gamma Ray"
+        "Drygate Seven Peaks",
+        "Drygate Crossing The Rubicon",
+        "Beavertown Gamma Ray",
+        "Beavertown Neck Oil",
+        "Beavertown Lupuloid",
+        "Beavertown Heavy Gravity",
+        "Beavertown Sun God",
+        "Williams Brothers Joker",
+        "Williams Brothers Talking Head",
+        "Williams Brothers Tin Man Tropical",
+        "Williams Brothers Caesar Augustus"
       ]
     },
     {
@@ -312,23 +322,12 @@
     },
     { "title": "Amber And Red Ale", "content": [] },
     {
-      "title": "Belgian Style And Red Ale",
+      "title": "Belgian Style Amber And Red Ale",
       "content": [
         "Leffe Ruby",
         "Leffe Brune",
         "La Trappe Quadrupel",
         "Cherry CHOUFFE"
-      ]
-    },
-    {
-      "title": "Weißbier / Witbier",
-      "content": [
-        "Paulaner Weiß",
-        "Erdinger Weißbier",
-        "Hoegaarden White",
-        "Blue Moon White",
-        "Kronenbourg 1664 Blanc",
-        "Blanche du Mont-Blanc"
       ]
     },
     {
@@ -349,35 +348,37 @@
         "Budweiser Budvar"
       ]
     },
-    { "title": "Pilsner", "content": ["Tuborg Grøn"] },
-    { "title": "Hell / Helles", "content": ["Paulaner Münchner Hell"] },
+    {
+      "title": "Hell / Helles",
+      "content": [
+        "Hofbrau Original",
+        "Paulaner Original",
+        "Paulaner Münchner Hell",
+        "Brooklyn Pils"
+      ]
+    },
+    {
+      "title": "Pilsner",
+      "content": ["Jever Pilsner", "Berliner Pilsner", "Tuborg Grøn"]
+    },
+    {
+      "title": "Weißbier / Witbier",
+      "content": [
+        "Hofbrau Weiß",
+        "Paulaner Weiß",
+        "Erdinger Weißbier",
+        "Hoegaarden White",
+        "Blue Moon White",
+        "Kronenbourg 1664 Blanc",
+        "Blanche du Mont-Blanc"
+      ]
+    },
     { "title": "Dunkel", "content": ["Paulaner Dunkel"] },
     {
       "title": "Stout",
       "content": [
         "Cairngorm Black Gold",
         "Innis And Gunn Irish Whiskey Cask Oatmeal Stout"
-      ]
-    },
-    {
-      "title": "Rinser Beers",
-      "content": [
-        "Kronenbourg 1664",
-        "Peroni Nastro Azzuro",
-        "San Miguel",
-        "Estrella Damm",
-        "Madri",
-        "Birra Moretti",
-        "Heineken",
-        "Cruzcampo",
-        "Cornoa",
-        "Sol",
-        "Budweiser",
-        "Carling",
-        "Coors",
-        "Amstel",
-        "Carlsberg",
-        "Brooklyn Pils"
       ]
     },
     {

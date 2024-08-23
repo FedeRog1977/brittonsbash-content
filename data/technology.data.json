@@ -44,18 +44,20 @@
     "terminalEmulators": [
       "Alacritty",
       "st (Simple Terminal)",
+      "Warp Terminal",
       "Terminal (Mac)"
     ],
+    "packageManagers": ["pacman", "Homebrew", "NPM", "PNPM"],
     "configurationUtilities": ["xrandr"],
     "networkManagers": ["nmcli"],
     "statusBars": ["i3status", "Polybar"],
     "notificationDaemons": ["dunst"],
     "notificationPrograms": ["notify-send"],
     "textEditors": [
-      "Vi (Limited)",
+      "Vi",
       "Vim (Vi Improved)",
       "Neovim (neo-Vi Improved)",
-      "Nano (Limited)"
+      "Nano"
     ],
     "csvEnvironments": ["SC-IM"],
     "directoryManagers": ["ls", "lsd"],
@@ -114,7 +116,7 @@
       "Cypress",
       "Jenkins Build"
     ],
-    "ides": ["Visual Studio Code (VSCode)", "IntelliJ"],
+    "editorsIDEs": ["Visual Studio Code (VSCode / code)"],
     "projectManagement": ["GitHub", "Atlassian Jira", "Atlassian Confluence"],
     "deployment": ["GitHub Pages", "Amazon Web Services"],
     "processing": ["Microsoft Word", "Microsoft Excel"]
@@ -185,6 +187,24 @@
       "Polycom Conferencing",
       "Cingular Wireless"
     ],
-    "storage": ["SanDisk 256GB Ultra Flair USB 3.0 Flash Drive"]
+    "storage": ["SanDisk 256GB Ultra Flair USB 3.0 Flash Drive"],
+    "hiFi": [
+      {
+        "title": "Hi-Fi (Obviously move this up a level once flattened)",
+        "content": [
+          "Technics SL-1200MK7 (Turntable)",
+          "Linn Majik LP12 (Turntable)",
+          "Technics SL-DZ1200 (CD Player)",
+          "Audiolab 8000A (Pre-Amplifier)",
+          "Audiolab 8000CD (CD Player / Pre-Amplifier)",
+          "Audiolab 8000T (FM Radio)",
+          "Audiolab 8300MB (Power Amplifier Monoblock)",
+          "Linn [Undecided] (Tweeter / High-Range)",
+          "Linn Majik 109 (Mid / Mid-Range)",
+          "SVS PB3000 (Subwoofer / Low-Range)",
+          "Allen & Heath Xone:92 (Mixing Deck)"
+        ]
+      }
+    ]
   }
 }

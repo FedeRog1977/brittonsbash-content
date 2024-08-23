@@ -83,7 +83,6 @@
         "Magazine B (Various)",
         "Bauhaus. Updated Edition",
         "Audi Design (engl.) Auto Union GmbH",
-        "Sole Of A Legend: The Sneaker History Of Roger Federer",
         "Japanese Interiors",
         "Serif In Use",
         "Revolution: The History of Turntable Design",
@@ -92,7 +91,6 @@
         "The Danish Chair",
         "1,000 Deadstock Sneakers",
         "1000 Chairs",
-        "Soled Out",
         "The Book Of Palms",
         "The Japanese House",
         "Concrete Architecture",
@@ -103,6 +101,14 @@
         "Dieter Rams: The Complete Works",
         "The Watch Book Rolex",
         "Bang & Olufsen"
+      ]
+    },
+    {
+      "title": "Sport",
+      "content": [
+        "Assouline Federer(Classic)",
+        "Sole Of A Legend: The Sneaker History Of Roger Federer",
+        "Soled Out"
       ]
     },
     {

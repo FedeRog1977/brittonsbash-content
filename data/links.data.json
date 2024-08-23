@@ -583,14 +583,6 @@
         "href": "https://www.youtube.com/watch?v=lKjw3oWrMrI"
       },
       {
-        "content": "BrickLink",
-        "href": "https://www.bricklink.com/v2/main.page"
-      },
-      {
-        "content": "BrickArms",
-        "href": "http://brickarms.com/index.php"
-      },
-      {
         "content": "Paul Rand",
         "href": "https://www.paulrand.design/life/books-articles/books/2018-ibm-graphic-standards-manual-reprint.html"
       }
@@ -1259,6 +1251,23 @@
     ]
   },
   {
+    "title": "Lego And Playmobil",
+    "content": [
+      {
+        "content": "BrickLink",
+        "href": "https://www.bricklink.com/v2/main.page"
+      },
+      {
+        "content": "BrickArms",
+        "href": "http://brickarms.com/index.php"
+      },
+      {
+        "content": "KlickyPedia",
+        "href": "https://www.klickypedia.com/"
+      }
+    ]
+  },
+  {
     "title": "Random",
     "content": [
       {
@@ -1276,6 +1285,10 @@
       {
         "content": "Meme Generator",
         "href": "https://imgflip.com/memegenerator"
+      },
+      {
+        "content": "GIF Generator",
+        "href": "https://www.3dgifmaker.com/360Spin"
       },
       {
         "content": "East Renfrewshire Bins",

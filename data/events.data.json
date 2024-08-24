@@ -1,6 +1,50 @@
 {
   "2024": [
     {
+      "id": "E2024033",
+      "names": ["Kerosene"],
+      "startDate": "24th of August",
+      "description": "On the seventh week of the streak, C. Vim Griffin was finally back! Unfortunately the weather made the call that we wouldn't be rocking our individual projects followed by an Inverness wasted. But instead, once again taking to our favourite southern region, of depression.",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/kerosene/1.jpg",
+          "alt": "kerosene-1"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/kerosene/2.jpg",
+          "alt": "kerosene-2"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/kerosene/3.jpg",
+          "alt": "kerosene-3"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/kerosene/4.jpg",
+          "alt": "kerosene-4"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/kerosene/5.jpg",
+          "alt": "kerosene-5"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/kerosene/6.jpg",
+          "alt": "kerosene-6"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/kerosene/7.jpg",
+          "alt": "kerosene-7"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/kerosene/8.jpg",
+          "alt": "kerosene-8"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/kerosene/9.jpg",
+          "alt": "kerosene-9"
+        }
+      ]
+    },
+    {
       "id": "E2024032",
       "names": ["The Two-Hundred Club"],
       "startDate": "16th of August",

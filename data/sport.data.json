@@ -236,6 +236,16 @@
     ],
     "projects": [
       {
+        "id": "P2024027",
+        "name": "Kerosene",
+        "distance": 10.79,
+        "elevation": 3192,
+        "time": "3:56:38",
+        "companionship": 1,
+        "corbetts": ["Corserine"],
+        "donalds": ["Corserine", "Milldown", "Meikle Millyea"]
+      },
+      {
         "id": "P2024026",
         "name": "The Two-Hundred Club",
         "distance": 20.83,

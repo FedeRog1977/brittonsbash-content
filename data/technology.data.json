@@ -1,16 +1,4 @@
 {
-  "brands": [
-    "IBM",
-    "Lenovo",
-    "Intel",
-    "Corsair",
-    "ASUS",
-    "Nvidia",
-    "Western Digital",
-    "LG",
-    "Logitech",
-    "Ducky"
-  ],
   "operatingSystems": [
     "Artix Linux",
     "Arch Linux",

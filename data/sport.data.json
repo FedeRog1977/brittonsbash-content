@@ -236,6 +236,25 @@
     ],
     "projects": [
       {
+        "id": "P2024029",
+        "name": "Go Big Or Go Home",
+        "distance": 14.18,
+        "elevation": 3045,
+        "time": "3:41:00",
+        "companionship": 0,
+        "munros": ["Bynack More"]
+      },
+      {
+        "id": "P2024028",
+        "name": "V-Rad",
+        "distance": 16.13,
+        "elevation": 4216,
+        "time": "4:34:45",
+        "companionship": 0,
+        "munros": ["Sgòr Gaoith", "Mullach Clach a' Bhlàir"],
+        "munroTops": ["Sgòran Dubh Mòr"]
+      },
+      {
         "id": "P2024027",
         "name": "Kerosene",
         "distance": 10.79,
@@ -526,6 +545,20 @@
       }
     ],
     "miles": [
+      {
+        "id": "M2024082",
+        "name": "Waterfoot",
+        "distance": 10.17,
+        "elevation": 600,
+        "time": "2:01:41"
+      },
+      {
+        "id": "M2024081",
+        "name": "Waterfoot",
+        "distance": 10.21,
+        "elevation": 561,
+        "time": "1:59:39"
+      },
       {
         "id": "M2024080",
         "name": "Waterfoot",

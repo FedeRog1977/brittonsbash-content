@@ -1,6 +1,20 @@
 {
   "2024": [
     {
+      "id": "E2023034",
+      "prefix": "Cairngorms XIII",
+      "names": ["V-Rad", "Go Big Or Go Home"],
+      "startDate": "30th of August",
+      "endDate": "1st of September",
+      "description": "...",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2023/cairngorms-xiii/1.jpg",
+          "alt": "cairngorms-xiii-1"
+        }
+      ]
+    },
+    {
       "id": "E2024033",
       "names": ["Kerosene"],
       "startDate": "24th of August",

@@ -2,6 +2,14 @@
   "2024": {
     "roadies": [
       {
+        "id": "R2024032",
+        "name": "Strathaven",
+        "distance": 36.88,
+        "elevation": 2319,
+        "time": "2:08:56",
+        "speed": 17.2
+      },
+      {
         "id": "R2024031",
         "name": "Strathaven",
         "distance": 36.87,

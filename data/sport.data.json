@@ -2,6 +2,22 @@
   "2024": {
     "roadies": [
       {
+        "id": "R2024031",
+        "name": "Strathaven",
+        "distance": 36.87,
+        "elevation": 3255,
+        "time": "2:12:44",
+        "speed": 16.7
+      },
+      {
+        "id": "R2024030",
+        "name": "Fenwick + Wind Farm",
+        "distance": 29.12,
+        "elevation": 1749,
+        "time": "1:39:06",
+        "speed": 17.6
+      },
+      {
         "id": "R2024029",
         "name": "Other",
         "distance": 3.24,
@@ -235,6 +251,16 @@
       }
     ],
     "projects": [
+      {
+        "id": "P2024030",
+        "name": "West Is Best",
+        "distance": 9.43,
+        "elevation": 3789,
+        "time": "3:50:52",
+        "companionship": 0,
+        "munros": ["A' Chralaig", "Mullach Fraoch-choire"],
+        "munroTops": ["Stob Coire Na Craileig"]
+      },
       {
         "id": "P2024029",
         "name": "Go Big Or Go Home",

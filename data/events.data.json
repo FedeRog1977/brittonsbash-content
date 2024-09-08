@@ -1,7 +1,20 @@
 {
   "2024": [
     {
-      "id": "E2023034",
+      "id": "E2023036",
+      "names": ["West Is Best"],
+      "startDate": "6th of September",
+      "endDate": "7th of September",
+      "description": "...",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/west-is-best/1.jpg",
+          "alt": "west-is-best-1"
+        }
+      ]
+    },
+    {
+      "id": "E2023035",
       "prefix": "Cairngorms XIII",
       "names": ["V-Rad", "Go Big Or Go Home"],
       "startDate": "30th of August",
@@ -187,7 +200,7 @@
       ]
     },
     {
-      "id": "E2024033",
+      "id": "E2024034",
       "names": ["Kerosene"],
       "startDate": "24th of August",
       "description": "On the seventh week of the streak, C. Vim Griffin was finally back! Unfortunately the weather made the call that we wouldn't be rocking our individual projects followed by an Inverness wasted. But instead, once again taking to our favourite southern region, of depression.",
@@ -231,7 +244,7 @@
       ]
     },
     {
-      "id": "E2024032",
+      "id": "E2024033",
       "names": ["The Two-Hundred Club"],
       "startDate": "16th of August",
       "endDate": "17th of August",

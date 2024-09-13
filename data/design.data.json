@@ -133,7 +133,14 @@
         "Noma"
       ]
     },
-    { "title": "Intellectual", "content": ["The Intelligent Investor"] }
+    { "title": "Intellectual", "content": ["The Intelligent Investor"] },
+    {
+      "title": "Other",
+      "content": [
+        "Star Wars Action Figure Price Guide 2005",
+        "The Incredibles - Ladybird Books"
+      ]
+    }
   ],
   "lego": [
     { "title": "Sets", "content": [] },

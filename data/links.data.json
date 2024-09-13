@@ -746,6 +746,10 @@
         "href": "https://trigpointing.uk/"
       },
       {
+        "content": "geograph",
+        "href": "https://www.geograph.org.uk/"
+      },
+      {
         "content": "Scarpa Global",
         "href": "https://world.scarpa.com/"
       },
@@ -1237,6 +1241,10 @@
         "href": "https://developers.strava.com/playground/#/Activities/getActivityById"
       },
       {
+        "content": "Tennis API",
+        "href": "https://api-tennis.com/documentation"
+      },
+      {
         "content": "Calum Leask",
         "href": "https://calumleask.co.uk/portfolio/"
       },
@@ -1353,6 +1361,10 @@
       {
         "content": "Sounds Of A Frozen Lake",
         "href": "https://www.youtube.com/watch?v=yn6UNLIlxrs"
+      },
+      {
+        "content": "OTH Merch",
+        "href": "https://www.othmerch.com/"
       }
     ]
   }

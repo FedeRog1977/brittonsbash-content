@@ -260,6 +260,15 @@
     ],
     "projects": [
       {
+        "id": "P2024031",
+        "name": "Danny Boy",
+        "distance": 9.81,
+        "elevation": 2979,
+        "time": "4:00:48",
+        "companionship": 1,
+        "corbetts": ["Merrick"]
+      },
+      {
         "id": "P2024030",
         "name": "West Is Best",
         "distance": 9.43,

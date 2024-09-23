@@ -5,23 +5,26 @@ author:
   - Lewis Britton
 ---
 
-# An Art or Science?
+# An Art or Science?
 
 The art is what you do, the science is how you do it.
 
----
-
-# Equipment and Tools
-
-...
-
----
-
 # Kitchen Basics
 
-## Treating Pans and Ovenware
+## Cuisine Styles
 
-...
+- Fast food
+- Fusion cuisine
+- Haute cuisine
+- Molecular gastronomy
+- Nouvelle cuisine
+- Vegan cuisine
+- Vegetarian cuisine
+- Street food
+
+## Tools And Equipment
+
+## Treating Pans and Ovenware
 
 ## Oils
 
@@ -41,9 +44,7 @@ The art is what you do, the science is how you do it.
 - Velveting
 - Emulsification
 
----
-
-# Meat
+# Meat
 
 ## Chicken
 
@@ -55,19 +56,11 @@ The art is what you do, the science is how you do it.
 
 ## Venison
 
-## ...
-
----
-
 # Fish
 
 ## Salmon
 
 ## Sea Bass
-
-## ...
-
----
 
 # Sauces
 
@@ -87,9 +80,19 @@ The art is what you do, the science is how you do it.
 
 ## Condiments
 
-- Mayonnaise
+### Mayonnaise
 
----
+### Cranberry Sauce
+
+- 150g Sugar
+- 2 Star Anise
+- 4 Cardamom Pods
+- Fresh Cranberries
+- A Bramley Apple
+- Port
+- Clementine Zest
+- Clementine Juice
+- Cinnamon
 
 # Pastry
 
@@ -109,8 +112,6 @@ The art is what you do, the science is how you do it.
 - Puff Pastry
 - Choux Pastry (Pâte à Choux)
 
----
-
 # Side Dishes
 
 ## Potato
@@ -124,70 +125,15 @@ The art is what you do, the science is how you do it.
 - Potato Dauphinoise
 - Watercress Crushed Potatoes
 
----
-
 # Dishes
 
-## British Classics
+## British
 
-## French Classics
+_Scottish, English, Irish_
 
-## Italian
+### Christmas Roast
 
-## Spanish
-
-## North American
-
-## South American
-
-## Oriental
-
-## Middle Eastern
-
----
-
-# Nutritional
-
----
-
-# Sweets
-
-## Desserts
-
-## Pastries
-
-## Chocolate and Candies
-
-## Truffles
-
----
-
-# Drinks
-
-## Cocktails
-
----
-
-# To Add
-
-# Salmon Rilettes
-
-- 240g raw salmon
-- 120g smoked salmon
-- 2 shallots
-- 100g cucumber
-- 100g creme fraiche
-- 50g mayonnaise
-- Lemon juice
-- Lemon zest
-- Tarragon
-- Chervil
-- Chives
-- Dill
-
-# Christmas Roast
-
-## Beef & Gravy
+#### Beef And Gravy
 
 - Beef Topside Joint
 - Olive Oil
@@ -204,7 +150,7 @@ Create a trivet for the beef by roughly chopping the onion, carrot and celery, a
 
 Once the beef is roasted, transfer it to a dish and cover to rest. Move the roasting tray with the vegetables and meat juice to a burner and bring back to heat. Roughly crush the garlic and add to this. If your beef has not provided a sufficient amount of dripping, add olive oil. Now add flour and brown. Deglaze the tray with port and reduce until thickened. Now add the beef stock and rosemary, and again reduce until slightly thickened. Pass the mixture a couple of times through a strainer into a saucepan. Continue to reduce the gravy to a point of viscosity you are satisfied with.
 
-## Sage, Onion & Chestnut Stuffing
+#### Sage, Onion And Chestnut Stuffing
 
 - 454g Sausage Meat
 - Olive Oil
@@ -215,14 +161,14 @@ Once the beef is roasted, transfer it to a dish and cover to rest. Move the roas
 
 Fry the onion until soft but not coloured. Roughly chop the chestnuts and add to the onion. Finely chop the sage and add also. Continue to fry for a few more minutes. In a bowl, add the sausage meat and the fried mixture from the pan. Mix until consistent. Arrange this into a log shape and wrap completely with the belly bacon. Roast at 180 degrees for 40 minutes.
 
-## Sausages
+#### Sausages
 
 - Pork Sausages
 - Thin Belly Bacon
 
 Wrap each sausage in a slice of belly bacon and arrange on a small roasting tray. Roast at 180 degrees for 30-40 minutes.
 
-## Roast Potatoes & Parsnips
+#### Roast Potatoes & Parsnips
 
 - Olive Oil
 - Maris Piper Potatoes
@@ -236,7 +182,7 @@ Half the parsnips horizontally, then half the larger top half further vertically
 
 Heat up roughly half a centimeter's worth of olive oil in a roasting tray then add the potatoes and parsnips. Roast at 180 degrees for 40 minuets, basting every 10 or so minutes. 10 minutes before finish, roughly crush the garlic and add it along with the rosemary to the roasting tray. Incorporate them with the potatoes and parsnips.
 
-## Roast Carrots & Sprouts
+#### Roast Carrots & Sprouts
 
 - Olive Oil
 - Carrots
@@ -244,58 +190,34 @@ Heat up roughly half a centimeter's worth of olive oil in a roasting tray then a
 
 Remove the firm bottoms of the sprouts. Peel the carrots and chop into 2 or 3 whole pieces. Arrange both the sprouts and carrots on a roasting tray and salt well. Leave them to sit for about half an hour, then toss them in the olive oil. Roast at 180 degrees for 40 minutes.
 
-# Tropical Fruit Trifle
+## North European
 
-- 1 Madeira Cake
-- 1 Jar Strawberry Conserve
-- 500ml Bristol Cream Sherry
-- 200g Canned Pears
-- 200g Canned Mango
-- 200g Canned Pineapple
-- 200g Canned Papaya
-- 500g Vanilla Custard
-- 300ml Whipping Cream
-- 2 tsp Vanilla Extract
+_Danish, Finnish, Icelandic, Norwegian, Swedish, Latvian, Lithuanian_
 
-# Cranberry Sauce
+## Central And Eastern European
 
-- 150g Sugar
-- 2 Star Anise
-- 4 Cardamom Pods
-- Fresh Cranberries
-- A Bramley Apple
-- Port
-- Clementine Zest
-- Clementine Juice
-- Cinnamon
+_German, Belgian, Dutch, Swiss, Polish, Czech, Hungarian, Austrian, Slovenian, Slovak, Russian, Ukrainian_
 
-# Stir Fry
+## Western And Southern European
 
-- 2 tbsp dark soy sauce
-- 1 tbsp oyster sauce
-- 1 tbsp sriracha sauce
-- 1 tbsp sesame oil
-- 1 tbsp rice vinegar
-- 3 cloves of garlic
-- Ginger
-- Palm sugar
-- 2 spring onions
-- Fresh coriander
+_French, Italian, Spanish, Portuguese, Greek_
 
-- 1 tbsp sesame oil
-- 1 red onion
-- 1 red pepper
-- Tender stem broccoli
-- Chestnut mushrooms
-- Chicken breast
-- Corn flour
-- Egg noodles
+### Salmon Rilettes
 
-# Goulash
+- 240g raw salmon
+- 120g smoked salmon
+- 2 shallots
+- 100g cucumber
+- 100g creme fraiche
+- 50g mayonnaise
+- Lemon juice
+- Lemon zest
+- Tarragon
+- Chervil
+- Chives
+- Dill
 
-...
-
-# Italian Stew
+### Italian Stew
 
 - Olive oil
 - 2 red onions
@@ -335,7 +257,45 @@ The further steps are easy, drain and wash your borlotti and cannellini beans (a
 
 To finish, roughly break up the mozzarella and add to the pot, and grate in your desired amount of parmigiano. Bunch up the fresh basil and finely chop through it once, ensuring you don't lose any oil from it. This applies to any herb. You have one chance! Add this to the pot, incorporate well, turn off the heat, and leave to sit with the lid on until it comes to a more appropriate heat for consumption.
 
-# Beef Curry
+## North American
+
+_Canadian, Midwestern USA, Southern USA, Western USA, Mexican_
+
+## South American
+
+_Argentine, Brazilian, Colombian, Caribbean_
+
+## Oriental
+
+_Chinese, Thai, Malaysian, Japanese, Korean_
+
+### Stir Fry
+
+- 2 tbsp dark soy sauce
+- 1 tbsp oyster sauce
+- 1 tbsp sriracha sauce
+- 1 tbsp sesame oil
+- 1 tbsp rice vinegar
+- 3 cloves of garlic
+- Ginger
+- Palm sugar
+- 2 spring onions
+- Fresh coriander
+
+- 1 tbsp sesame oil
+- 1 red onion
+- 1 red pepper
+- Tender stem broccoli
+- Chestnut mushrooms
+- Chicken breast
+- Corn flour
+- Egg noodles
+
+## Middle Eastern
+
+_Indian, Pakistani, Turkish, Arab, Iranian_
+
+### Beef Curry
 
 - 2 tbsp olive oil
 - 1/2 a red onion
@@ -353,3 +313,30 @@ To finish, roughly break up the mozzarella and add to the pot, and grate in your
 - 1/2 tsp cayenne pepper
 - 1 tbsp creme friache
 - Fresh coriander
+
+# Sweets
+
+## Desserts
+
+### Tropical Fruit Trifle
+
+- 1 Madeira Cake
+- 1 Jar Strawberry Conserve
+- 500ml Bristol Cream Sherry
+- 200g Canned Pears
+- 200g Canned Mango
+- 200g Canned Pineapple
+- 200g Canned Papaya
+- 500g Vanilla Custard
+- 300ml Whipping Cream
+- 2 tsp Vanilla Extract
+
+## Pastries
+
+## Chocolate and Candies
+
+## Truffles
+
+# Drinks
+
+## Cocktails

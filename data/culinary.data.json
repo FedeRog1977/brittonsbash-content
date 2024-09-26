@@ -285,6 +285,7 @@
         "Medjool Dates",
         "Colpi Ice Cream",
         "Pistachio Gelato",
+        "Black Cherry Gelato",
         "Dark Chocolate Gelato",
         "Mint Gelato"
       ]
@@ -365,7 +366,7 @@
       "content": ["Jever Pilsner", "Berliner Pilsner", "Tuborg Grøn"]
     },
     {
-      "title": "Weißbier / Witbier",
+      "title": "Weißbier / Witbier And White / Blanche",
       "content": [
         "Hofbrau Weiß",
         "Paulaner Weiß",
@@ -375,7 +376,7 @@
         "Hoegaarden White",
         "Blue Moon White",
         "Kronenbourg 1664 Blanc",
-        "Blanche du Mont-Blanc"
+        "Brasserie du Mont Blanc Blanche du Mont-Blanc"
       ]
     },
     { "title": "Dunkel", "content": ["Paulaner Dunkel"] },

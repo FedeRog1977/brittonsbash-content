@@ -69,14 +69,35 @@ The art is what you do, the science is how you do it.
 - Chicken Stock
 - Beef Stock
 
+## Thickeners
+
+- Slurry
+
 ## Gravies
 
 - Gravy
 - Demi Glace
 
-## Thickeners
+## Dressings
 
-- Slurry
+### Poke Sauce
+
+- 2 tbsp of mayonnaise
+- 1 tbsp of dark soy sauce
+- 1 tbsp of sriracha sauce
+- 1 tsp of sesame oil
+
+### Stir-Fry Sauce
+
+- 2 tbsp of dark soy sauce
+- 1 tbsp of oyster sauce
+- 1 tbsp of sriracha sauce
+- 1 tbsp of sesame oil
+- 3 cloves of garlic
+- Ginger
+- Red chillies
+- 2 spring onions
+- Fresh coriander
 
 ## Condiments
 
@@ -269,26 +290,16 @@ _Argentine, Brazilian, Colombian, Caribbean_
 
 _Chinese, Thai, Malaysian, Japanese, Korean_
 
-### Stir Fry
+### Generic StirFry
 
-- 2 tbsp dark soy sauce
-- 1 tbsp oyster sauce
-- 1 tbsp sriracha sauce
-- 1 tbsp sesame oil
-- 1 tbsp rice vinegar
-- 3 cloves of garlic
-- Ginger
-- Palm sugar
-- 2 spring onions
-- Fresh coriander
-
-- 1 tbsp sesame oil
-- 1 red onion
-- 1 red pepper
+- Sesame oil
+- 1/2 a red onion
+- 1/2 a red pepper
 - Tender stem broccoli
 - Chestnut mushrooms
 - Chicken breast
 - Corn flour
+- [Stir-Fry Sauce](#stir-fry-sauce)
 - Egg noodles
 
 ## Middle Eastern

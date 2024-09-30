@@ -244,7 +244,7 @@
           "La Grande Épicerie de Paris"
         ],
         "departmentStores": ["Le Bon Marché"],
-        "clothingAccessoryStores": [
+        "clothingStores": [
           "Brandy Melville",
           "Saint Laurent",
           "Tumi",

@@ -140,7 +140,7 @@
         "cities": ["Paris"],
         "airports": ["Paris - RER B (Nord) CDG to Gare du Nord"],
         "accommodation": ["St. Christopher's Inn Gare du Nord"],
-        "districtsNeighborhoods": [
+        "districts": [
           "Le Marais",
           "Luxembourg",
           "Belleville",

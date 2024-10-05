@@ -1284,7 +1284,7 @@
     "content": [
       {
         "content": "TTSMP3",
-        "href": "https://ttsmp3.com/text-to-speech/British%20English/"
+        "href": "https://ttsmp3.com/"
       },
       {
         "content": "Textreader Pro",
@@ -1373,6 +1373,10 @@
       {
         "content": "OTH Music",
         "href": "https://www.oth-music.com/index.html"
+      },
+      {
+        "content": "Kid Pix",
+        "href": "https://kidpix.app/"
       }
     ]
   }

@@ -276,6 +276,15 @@
     ],
     "projects": [
       {
+        "id": "P2024034",
+        "name": "With Tired Eyes, Tired Minds, Tired Souls, We Drank",
+        "distance": 5.52,
+        "elevation": 3002,
+        "time": "2:38:13",
+        "companionship": 0,
+        "munros": ["Meall Dearg (Aonach Eagach)"]
+      },
+      {
         "id": "P2024033",
         "name": "The A93",
         "distance": 10.25,

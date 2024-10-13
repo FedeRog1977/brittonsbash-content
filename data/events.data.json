@@ -8516,6 +8516,9 @@
       "id": "E2023021",
       "names": ["Butters"],
       "startDate": "28th of May",
+      "features": {
+        "restaurants": ["The Buttery - Two Fat Ladies"]
+      },
       "description": "Back to the legendary Butters with PMB for an early bday hit.",
       "images": [
         {
@@ -8538,8 +8541,7 @@
           "url": "https://lewisbritton.com/images/blog/instant-gram/2023/butters/5.jpg",
           "alt": "butters-5"
         }
-      ],
-      "amenities": ["The Buttery - Two Fat Ladies"]
+      ]
     },
     {
       "id": "E2023020",
@@ -10019,7 +10021,7 @@
       "features": {
         "attractions": ["The McNeilage Caravan"]
       },
-      "description": "Well sadly the repeat of the first Final Two'er couldn't happen. Roads were closed and Glunky Bunky was out of the cards. We desperately needed somewhere to get watsed so planning needed to occur fast. ASAP. Back to the caravan it was. It took quite a bit of messing about logistically with the child of the group, but hey ho. Turned out to still be a great one. We got wasted and exchanged christmas presents at Griff's on Friday then shot off, drum-and-welly-in-hand, on the Saturday. It's, like last time, a bit of a blur. A lot of beer, a lot of downing wine, a lot of food. But what I do know is, service was good. Even given the inability to roast vegetables in the oven, and the slightly undercooked welly. All a good one. Even followed with some darts at a very confused pub.",
+      "description": "Well sadly the repeat of the first Final Two'er couldn't happen. Roads were closed and Glunky Bunky was out of the cards. We desperately needed somewhere to get wasted so planning needed to occur fast. ASAP. Back to the caravan it was. It took quite a bit of messing about logistically with the child of the group, but hey ho. Turned out to still be a great one. We got wasted and exchanged christmas presents at Griff's on Friday then shot off, drum-and-welly-in-hand, on the Saturday. It's, like last time, a bit of a blur. A lot of beer, a lot of downing wine, a lot of food. But what I do know is, service was good. Even given the inability to roast vegetables in the oven, and the slightly undercooked welly. All a good one. Even followed with some darts at a very confused pub.",
       "images": [
         {
           "url": "https://lewisbritton.com/images/blog/instant-gram/2022/the-final-twoer-ii/1.jpg",
@@ -11432,7 +11434,7 @@
       "features": {
         "accommodation": ["Aviemore Youth Hostel"]
       },
-      "description": "An interesting one, finally seeing the birth of a new meme.. tea. Of course, the weekend was started with the traditional seeing off of a loaf in the back of the FIVE and some whisky chocolate liqueurs. Well done Oxy, good find. This time, from Murray's famous Perth Tesco. Many a beer had already been deleted upon arrival and to be honest, it was a blur from then to 4am. I removed 4l of Aviemore's finest water from existence before bed so obviously I was fine for a 9am wake-up and promptly obliterated some lorne, ran a run and helped the mighty Hamish clean up the embarassment in the care home. When the rest finally dragged themselves up at 2pm, it was off to Loch Morlich for a 20 meter walk then back to the currum for Jile, Skyfall and tea. And, just a little rum and trop. Back when we were drinkers, this would have been laughable however now that we are seasoned tea enthusiasts, we sought continuation of the warm embrace of a council brew in a trip to The House of Bruar and Hettie's Tea Rooms, Pitlochry to break up the Sunday drive home.",
+      "description": "An interesting one, finally seeing the birth of a new meme.. tea. Of course, the weekend was started with the traditional seeing off of a loaf in the back of the FIVE and some whisky chocolate liqueurs. Well done Oxy, good find. This time, from Murray's famous Perth Tesco. Many a beer had already been deleted upon arrival and to be honest, it was a blur from then to 4am. I removed 4l of Aviemore's finest water from existence before bed so obviously I was fine for a 9am wake-up and promptly obliterated some lorne, ran a run and helped the mighty Hamish clean up the embarrassment in the care home. When the rest finally dragged themselves up at 2pm, it was off to Loch Morlich for a 20 meter walk then back to the currum for Jile, Skyfall and tea. And, just a little rum and trop. Back when we were drinkers, this would have been laughable however now that we are seasoned tea enthusiasts, we sought continuation of the warm embrace of a council brew in a trip to The House of Bruar and Hettie's Tea Rooms, Pitlochry to break up the Sunday drive home.",
       "images": [
         {
           "url": "",

@@ -4,6 +4,9 @@
   "names": ["V-Rad", "Go Big Or Go Home"],
   "startDate": "30th of August",
   "endDate": "1st of September",
+  "features": {
+    "accommodation": ["Cairngorm Lodge (Glenmore) Youth Hostel"]
+  },
   "description": "...",
   "images": [
     {

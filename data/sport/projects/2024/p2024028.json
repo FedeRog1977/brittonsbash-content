@@ -1,0 +1,10 @@
+{
+  "id": "P2024028",
+  "name": "V-Rad",
+  "distance": 16.13,
+  "elevation": 4216,
+  "time": "4:34:45",
+  "companionship": 0,
+  "munros": ["Sgòr Gaoith", "Mullach Clach a' Bhlàir"],
+  "munroTops": ["Sgòran Dubh Mòr"]
+}

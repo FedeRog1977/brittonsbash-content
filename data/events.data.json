@@ -1,6 +1,34 @@
 {
   "2024": [
     {
+      "id": "E2024047",
+      "names": ["PMB Loop"],
+      "startDate": "17th of November",
+      "description": "I was far too bombed to even go a run, after a harsh night on the Weihenstephaners. Needed a PMB in, now.",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/pmb-loop/1.jpg",
+          "alt": "pmb-loop-1"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/pmb-loop/2.jpg",
+          "alt": "pmb-loop-2"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/pmb-loop/3.jpg",
+          "alt": "pmb-loop-3"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/pmb-loop/4.jpg",
+          "alt": "pmb-loop-4"
+        },
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2024/pmb-loop/5.jpg",
+          "alt": "pmb-loop-5"
+        }
+      ]
+    },
+    {
       "id": "E2024046",
       "names": ["Cooked"],
       "startDate": "15th of November",

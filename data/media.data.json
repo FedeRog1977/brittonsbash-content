@@ -465,7 +465,7 @@
         { "title": "Shark Tale", "tags": [""] },
         { "title": "Scooby-Doo 2: Monsters Unleashed", "tags": [""] },
         { "title": "Cellular", "tags": [""] },
-        { "title": "Along Came Polly", "tags": [""] },
+        { "title": "Along Came Polly", "tags": ["2004"] },
         { "title": "Starksy & Hutch", "tags": [""] },
         { "title": "Mean Girls", "tags": [""] },
         { "title": "Dawn of the Dead", "tags": [""] },
@@ -537,7 +537,8 @@
         { "title": "Gladiator", "tags": [""] },
         { "title": "Big Momma's House", "tags": [""] },
         { "title": "Chopper", "tags": [""] },
-        { "title": "How the Grinch Stole Christmas", "tags": [""] }
+        { "title": "How the Grinch Stole Christmas", "tags": [""] },
+        { "title": "Shaft", "tags": ["2000"] }
       ],
       "1999": [
         { "title": "Fight Club", "tags": [""] },

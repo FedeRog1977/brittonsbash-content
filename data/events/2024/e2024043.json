@@ -6,7 +6,12 @@
   "endDate": "27th of October",
   "description": "...",
   "features": {
-    "accommodation": ["Geneva Hostel"]
+    "countries": ["Switzerland", "France"],
+    "cities": ["Geneva", "Annecy", "Chamonix"],
+    "accommodation": ["Geneva Hostel"],
+    "bars": ["Sam's Grillhouse", "Mulligans", "The Captain", "Britannia"],
+    "chocolatiers": ["Läderach", "Lindt"],
+    "supermarkets": ["Coop", "Casino", "Super U", "Tom Beers"]
   },
   "images": [
     {

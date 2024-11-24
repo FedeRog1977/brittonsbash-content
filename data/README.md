@@ -530,3 +530,137 @@ Medal of Honour: Warfighter
 Resistance 2
 Sleeping Dogs
 Tron: Evolution -->
+
+<!-- SOME EXTRA NOTES -->
+
+<!--
+Travel:
+
+
+Cities - USA
+
+Chicago
+
+New York
+
+Los Angeles
+
+Charlotte
+
+Phoenix
+
+San Francisco
+
+Boston
+
+Philadelphia
+
+Seattle
+
+Pittsburgh
+
+Denver
+
+Colorado Springs
+
+Aspen
+
+Cincinnati
+
+Las Vegas
+
+Portland
+
+Nashville
+
+Atlanta
+
+Houston
+
+
+Cities - Asia
+
+Tokyo
+
+Chiba
+
+Kyoto
+
+Osaka
+
+Kobe
+
+Hiroshima
+
+Seoul
+
+
+Cities - Europe
+
+Brussels
+
+Bruges
+
+Antwerp
+
+Lake Como
+
+Milan [2]
+
+Verona [2]
+
+Venice [3]
+
+Bolzano
+
+Bologna
+
+Rome
+
+Copenhagen [2]
+
+Oslo
+
+Stockholm
+
+Vienna
+
+Innsbruck
+
+Zurich
+
+Basel
+
+Geneva
+
+Hamburg [2]
+
+Stuttgart
+
+Frankfurt
+
+Cologne
+
+Berlin [2]
+
+Munich [2]
+
+Ljubljana
+
+
+Accommodation
+
+YellowSquare Rome
+
+St Christopher’s (Multiple)
+
+Wombat (Multiple)
+
+City Backpackers Stockholm
+
+Steel House Copenhagen
+
+Braemar Youth Hostel
+
+Ballater Hostel
+-->

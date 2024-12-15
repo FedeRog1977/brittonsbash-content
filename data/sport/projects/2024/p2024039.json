@@ -1,0 +1,11 @@
+{
+  "id": "P2024039",
+  "name": "African Rundown",
+  "distance": 10.04,
+  "elevation": 4337,
+  "time": "3:53:16",
+  "companionship": 0,
+  "munros": ["Sgùrr a' Mhaoraich"],
+  "munroTops": ["Sgùrr a' Mhaoraich Beag"],
+  "corbettTops": ["Sgùrr Coire nan Eiricheallach", "Am Bàthaich"]
+}

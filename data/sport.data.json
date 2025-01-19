@@ -1,4 +1,51 @@
 {
+  "2025": {
+    "roadies": [
+      {
+        "id": "R2025002",
+        "name": "Strathaven",
+        "distance": 32.06,
+        "elevation": 2362,
+        "time": "2:02:20",
+        "speed": 15.7
+      },
+      {
+        "id": "R2025001",
+        "name": "Fenwick + Wind Farm",
+        "distance": 33.99,
+        "elevation": 1837,
+        "time": "2:03:45",
+        "speed": 16.5
+      }
+    ],
+    "projects": [
+      {
+        "id": "P2025001",
+        "name": "Live Free Or Die Hard",
+        "distance": 10.36,
+        "elevation": 4416,
+        "time": "4:35:18",
+        "companionship": 0,
+        "munros": ["Beinn Narnain", "Beinn Ìme"]
+      }
+    ],
+    "miles": [
+      {
+        "id": "M2025002",
+        "name": "Waterfoot",
+        "distance": 9.84,
+        "elevation": 548,
+        "time": "2:37:40"
+      },
+      {
+        "id": "M2025001",
+        "name": "Other",
+        "distance": 10.35,
+        "elevation": 955,
+        "time": "3:21:57"
+      }
+    ]
+  },
   "2024": {
     "roadies": [
       {
@@ -692,6 +739,13 @@
       }
     ],
     "miles": [
+      {
+        "id": "M2024094",
+        "name": "Waterfoot",
+        "distance": 10.14,
+        "elevation": 568,
+        "time": "2:06:59"
+      },
       {
         "id": "M2024093",
         "name": "Other",

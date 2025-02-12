@@ -56,7 +56,8 @@
         "markets": [
           "Mercado de la Paz",
           "Floristería Blooms",
-          "Mercado de San Miguel"
+          "Mercado de San Miguel",
+          "Oleoteca Gourmet"
         ],
         "supermarkets": ["Mercadona", "Carrefour"],
         "departmentStores": ["El Corte Inglés", "Galleria Canalejas"],

@@ -1,6 +1,76 @@
 {
   "2025": [
     {
+      "id": "E2025005",
+      "prefix": "Nineteenth Different Kind Hol-e-day",
+      "names": ["Carrying The Torch"],
+      "startDate": "6th of February",
+      "endDate": "10th of February",
+      "features": {
+        "countries": ["Spain"],
+        "cities": ["Madrid"],
+        "airports": ["Adolfo Suárez Madrid-Barajas Airport"],
+        "accommodation": ["Andrea's Bathroom Floor"],
+        "districts": [
+          "Salamanca",
+          "Ibiza",
+          "Mayor",
+          "La Latina",
+          "Sevilla",
+          "San Miguel"
+        ],
+        "attractions": [
+          "Plaza Mayor",
+          "Palacio de Cristal",
+          "Puerta de Alcalá",
+          "Cibeles Fountain",
+          "Puerta del Sol",
+          "Real Jardín Botánico",
+          "Plaza de Colón"
+        ],
+        "parks": ["El Retiro Park"],
+        "food": ["Tortilla", "Jamon"],
+        "drink": ["Vermut"],
+        "restaurants": [
+          "Hasta Los Andares",
+          "Tortillas Etiqueta Negra",
+          "Casa Lucas",
+          "Casa Lucio",
+          "Pez Tortilla",
+          "Bar La Campana",
+          "Casa Julio",
+          "La Primera",
+          "La Tapilla Sixtina",
+          "Casa Dani",
+          "Puzles Madrid"
+        ],
+        "bars": [
+          "El Descorche",
+          "Lamiak Cava Baja",
+          "Bar Pitcher and Pipa",
+          "Frank And Furt"
+        ],
+        "bakeries": ["Manteigaria - Fábrica de Pasteles de Nata"],
+        "chocolatiers": ["Chocolatería San Ginés"],
+        "gelaterias": ["Amorino"],
+        "markets": [
+          "Mercado de la Paz",
+          "Floristería Blooms",
+          "Mercado de San Miguel"
+        ],
+        "supermarkets": ["Mercadona", "Carrefour"],
+        "departmentStores": ["El Corte Inglés", "Galleria Canalejas"],
+        "nostalgiaEffect": ["I don't know yet, it needs time to develop..."]
+      },
+      "description": "To be written ... I have a lot of very nice things to say about my stunning weekend with the three most wonderful girls, but they would come out even better when a couple of beers down, I think. :)",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/different-kind-hol-e-day-xix/1.jpg",
+          "alt": "different-kind-hol-e-day-xix-1"
+        }
+      ]
+    },
+    {
       "id": "E2025004",
       "names": ["Carrying The Torch"],
       "startDate": "31st of January",

@@ -1,0 +1,104 @@
+@font-face {
+  font-family: CMU-Serif;
+  src: url(./cmu/cmu-serif.ttf);
+}
+
+@font-face {
+  font-family: CMU-Bold;
+  src: url(./cmu/cmu-bold.ttf);
+}
+
+@font-face {
+  font-family: CMU-Italic;
+  src: url(./cmu/cmu-italic.ttf);
+}
+
+@font-face {
+  font-family: CMU-Bold-Italic;
+  src: url(./cmu/cmu-bold-italic.ttf);
+}
+
+@font-face {
+  font-family: Sans-Light;
+  src: url(./open-sans/open-sans-light.ttf);
+}
+
+@font-face {
+  font-family: Sans-Regular;
+  src: url(./open-sans/open-sans-regular.ttf);
+}
+
+@font-face {
+  font-family: Sans-Bold;
+  src: url(./open-sans/open-sans-medium.ttf);
+}
+
+@font-face {
+  font-family: Sans-Italic-Light;
+  src: url(./open-sans/open-sans-light-italic.ttf);
+}
+
+@font-face {
+  font-family: Sans-Italic;
+  src: url(./open-sans/open-sans-italic.ttf);
+}
+
+@font-face {
+  font-family: Sans-Bold-Italic;
+  src: url(./open-sans/open-sans-semi-bold-italic.ttf);
+}
+
+@font-face {
+  font-family: Audi-Regular;
+  src: url(./audi/audi-normal.ttf);
+}
+
+@font-face {
+  font-family: Audi-Light;
+  src: url(./audi/audi-wide-light.ttf);
+}
+
+@font-face {
+  font-family: Audi-Bold;
+  src: url(./audi/audi-bold.ttf);
+}
+
+@font-face {
+  font-family: Audi-Italic;
+  src: url(./audi/audi-italic.ttf);
+}
+
+@font-face {
+  font-family: Audi-Bold-Italic;
+  src: url(./audi/audi-bold-italic.ttf);
+}
+
+@font-face {
+  font-family: Audi-Extended;
+  src: url(./audi/audi-extended-bold.ttf);
+}
+
+@font-face {
+  font-family: Instagram;
+  src: url(./grandista/grandista.ttf);
+}
+
+@font-face {
+  font-family: NFS;
+  src: url(./nfs/nfs.ttf);
+}
+
+@font-face {
+  font-family: IBM;
+  src: url(./ibm/ibm.ttf);
+}
+
+@font-face {
+  font-family: Broadway;
+  src: url(./broadway/broadway-regular.ttf);
+}
+
+@font-face {
+  font-family: GreatVibes;
+  src: url(./great-vibes/great-vibes.ttf);
+}

@@ -595,57 +595,6 @@ Hiroshima
 Seoul
 
 
-Cities - Europe
-
-Brussels
-
-Bruges
-
-Antwerp
-
-Lake Como
-
-Milan [2]
-
-Verona [2]
-
-Venice [3]
-
-Bolzano
-
-Bologna
-
-Rome
-
-Copenhagen [2]
-
-Oslo
-
-Stockholm
-
-Vienna
-
-Innsbruck
-
-Zurich
-
-Basel
-
-Geneva
-
-Hamburg [2]
-
-Stuttgart
-
-Frankfurt
-
-Cologne
-
-Berlin [2]
-
-Munich [2]
-
-Ljubljana
 
 
 Accommodation

@@ -1,104 +1,104 @@
 @font-face {
-  font-family: CMU-Serif;
+  font-family: "CMU-Serif";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/cmu/cmu-serif.ttf);
 }
 
 @font-face {
-  font-family: CMU-Bold;
+  font-family: "CMU-Bold";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/cmu/cmu-bold.ttf);
 }
 
 @font-face {
-  font-family: CMU-Italic;
+  font-family: "CMU-Italic";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/cmu/cmu-italic.ttf);
 }
 
 @font-face {
-  font-family: CMU-Bold-Italic;
+  font-family: "CMU-Bold-Italic";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/cmu/cmu-bold-italic.ttf);
 }
 
 @font-face {
-  font-family: Sans-Light;
+  font-family: "Sans-Light";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/open-sans/open-sans-light.ttf);
 }
 
 @font-face {
-  font-family: Sans-Regular;
+  font-family: "Sans-Regular";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/open-sans/open-sans-regular.ttf);
 }
 
 @font-face {
-  font-family: Sans-Bold;
+  font-family: "Sans-Bold";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/open-sans/open-sans-medium.ttf);
 }
 
 @font-face {
-  font-family: Sans-Italic-Light;
+  font-family: "Sans-Italic-Light";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/open-sans/open-sans-light-italic.ttf);
 }
 
 @font-face {
-  font-family: Sans-Italic;
+  font-family: "Sans-Italic";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/open-sans/open-sans-italic.ttf);
 }
 
 @font-face {
-  font-family: Sans-Bold-Italic;
+  font-family: "Sans-Bold-Italic";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/open-sans/open-sans-semi-bold-italic.ttf);
 }
 
 @font-face {
-  font-family: Audi-Regular;
+  font-family: "Audi-Regular";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/audi/audi-normal.ttf);
 }
 
 @font-face {
-  font-family: Audi-Light;
+  font-family: "Audi-Light";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/audi/audi-wide-light.ttf);
 }
 
 @font-face {
-  font-family: Audi-Bold;
+  font-family: "Audi-Bold";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/audi/audi-bold.ttf);
 }
 
 @font-face {
-  font-family: Audi-Italic;
+  font-family: "Audi-Italic";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/audi/audi-italic.ttf);
 }
 
 @font-face {
-  font-family: Audi-Bold-Italic;
+  font-family: "Audi-Bold-Italic";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/audi/audi-bold-italic.ttf);
 }
 
 @font-face {
-  font-family: Audi-Extended;
+  font-family: "Audi-Extended";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/audi/audi-extended-bold.ttf);
 }
 
 @font-face {
-  font-family: Instagram;
+  font-family: "Instagram";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/grandista/grandista.ttf);
 }
 
 @font-face {
-  font-family: NFS;
+  font-family: "NFS";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/nfs/nfs.ttf);
 }
 
 @font-face {
-  font-family: IBM;
+  font-family: "IBM";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/ibm/ibm.ttf);
 }
 
 @font-face {
-  font-family: Broadway;
+  font-family: "Broadway";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/broadway/broadway-regular.ttf);
 }
 
 @font-face {
-  font-family: GreatVibes;
+  font-family: "GreatVibes";
   src: url(https://github.com/FedeRog1977/brittonsbash-content/raw/refs/heads/master/fonts/great-vibes/great-vibes.ttf);
 }

@@ -5,11 +5,23 @@
       "content": [
         "2000s Urbancore",
         "New York Italian Diner",
-        "Neo-Tokyo / Cyberpunk"
+        "Neo-Tokyo",
+        "Cyberpunk"
       ]
     },
-    { "title": "Eighties Fashion", "content": [] },
-    { "title": "Two-Thousands Fashion", "content": [] },
+
+    { "title": "Eighties", "content": [] },
+    {
+      "title": "Two-Thousands",
+      "content": [
+        "Vectorheart",
+        "Metalheart",
+        "Chromecore",
+        "McBling",
+        "Frutiger Metro",
+        "Frutiger Metro"
+      ]
+    },
     {
       "title": "Cigarettes",
       "content": [

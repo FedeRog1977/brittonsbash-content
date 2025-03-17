@@ -2,6 +2,14 @@
   "2025": {
     "roadies": [
       {
+        "id": "R2025003",
+        "name": "Strathaven",
+        "distance": 36.91,
+        "elevation": 2293,
+        "time": "2:12:14",
+        "speed": 16.7
+      },
+      {
         "id": "R2025002",
         "name": "Strathaven",
         "distance": 32.06,
@@ -19,6 +27,24 @@
       }
     ],
     "projects": [
+      {
+        "id": "P2025006",
+        "name": "The One Who Took Her Away",
+        "distance": 12.61,
+        "elevation": 3829,
+        "time": "4:50:51",
+        "companionship": 1,
+        "munros": ["Beinn Fhada"]
+      },
+      {
+        "id": "P2025005",
+        "name": "Mullardoch Fraternity",
+        "distance": 6.74,
+        "elevation": 3576,
+        "time": "3:10:08",
+        "companionship": 1,
+        "munros": ["Beinn Sgritheall"]
+      },
       {
         "id": "P2025004",
         "name": "Wipeout",

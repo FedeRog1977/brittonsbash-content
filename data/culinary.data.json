@@ -293,7 +293,7 @@
   "drink": [
     { "title": "Ale", "content": ["Rosie Nosie", "Skye Cullin Beast"] },
     {
-      "title": "Pale Ale (India Pale Ale / Session IPA / American Pale Ale)",
+      "title": "Pale Ale (India Pale Ale / Session IPA / American Pale Ale / Hazy Pale Ale)",
       "content": [
         "Drygate Double Disco Mango Smoothie",
         "Drygate Disco Forklift Truck",
@@ -304,6 +304,7 @@
         "Beavertown Lupuloid",
         "Beavertown Heavy Gravity",
         "Beavertown Sun God",
+        "Brewdog Hazy Jane",
         "Vocation Brewery Life & Death",
         "Williams Brothers Joker",
         "Williams Brothers Talking Head",
@@ -334,8 +335,11 @@
       ]
     },
     {
-      "title": "Lagered",
+      "title": "Lagered / Hell / Helles",
       "content": [
+        "Hofbrau Original",
+        "Paulaner Original",
+        "Paulaner Münchner Hell",
         "Kronenbourg 1664 Bière Blonde",
         "Peroni Gran Riserva Doppio Malto",
         "Peroni Red",
@@ -352,17 +356,13 @@
       ]
     },
     {
-      "title": "Hell / Helles",
+      "title": "Pilsner",
       "content": [
-        "Hofbrau Original",
-        "Paulaner Original",
-        "Paulaner Münchner Hell",
+        "Jever Pilsner",
+        "Berliner Pilsner",
+        "Tuborg Grøn",
         "Brooklyn Pils"
       ]
-    },
-    {
-      "title": "Pilsner",
-      "content": ["Jever Pilsner", "Berliner Pilsner", "Tuborg Grøn"]
     },
     {
       "title": "Weißbier / Witbier And White / Blanche",
@@ -379,11 +379,15 @@
         "Brasserie du Mont Blanc Blanche du Mont-Blanc"
       ]
     },
-    { "title": "Dunkel", "content": ["Paulaner Dunkel", "Krombacher Dark"] },
+    {
+      "title": "Dunkel",
+      "content": ["Hofbrau Dunkel", "Paulaner Dunkel", "Krombacher Dark"]
+    },
     {
       "title": "Stout",
       "content": [
         "Cairngorm Black Gold",
+        "Brewdog Black Heart",
         "Innis And Gunn Irish Whiskey Cask Oatmeal Stout"
       ]
     },

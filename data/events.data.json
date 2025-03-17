@@ -1,6 +1,23 @@
 {
   "2025": [
     {
+      "id": "E2025007",
+      "prefix": "Kyle",
+      "names": ["Mullardoch Fraternity", "The One Who Took Her Away"],
+      "startDate": "14th of March",
+      "endDate": "16th of March",
+      "features": {
+        "accommodation": ["Glen Nevis Youth Hostel"]
+      },
+      "description": "",
+      "images": [
+        {
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/kyle/1.jpg",
+          "alt": "kyle-1"
+        }
+      ]
+    },
+    {
       "id": "E2025006",
       "prefix": "Torridon",
       "names": ["Jump A Little Further", "Wipeout"],

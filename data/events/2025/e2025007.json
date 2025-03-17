@@ -1,0 +1,18 @@
+{
+  "id": "E2025007",
+  "projectId": ["P2025005", "P2025006"],
+  "prefix": "Kyle",
+  "names": ["Mullardoch Fraternity", "The One Who Took Her Away"],
+  "startDate": "14th of March",
+  "endDate": "16th of March",
+  "features": {
+    "accommodation": ["Glen Nevis Youth Hostel"]
+  },
+  "description": "",
+  "images": [
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2025/kyle/1.jpg",
+      "alt": "kyle-1"
+    }
+  ]
+}

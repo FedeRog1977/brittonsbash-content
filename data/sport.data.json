@@ -2,6 +2,24 @@
   "2025": {
     "projects": [
       {
+        "id": "P2025009",
+        "name": "Tripel Hop",
+        "distance": 10.44,
+        "elevation": 3179,
+        "time": "3:51:06",
+        "companionship": 1,
+        "munros": ["Maol Chean-dearg"]
+      },
+      {
+        "id": "P2025008",
+        "name": "Carne Asada",
+        "distance": 18.59,
+        "elevation": 6355,
+        "time": "7:20:33",
+        "companionship": 1,
+        "munros": ["Càrn Eige", "Beinn Fhionnlaidh (Càrn Eige)", "Màm Sodhail"]
+      },
+      {
         "id": "P2025007",
         "name": "Man's Too Strong",
         "distance": 18.12,

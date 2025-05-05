@@ -1,0 +1,18 @@
+{
+  "id": "E2025012",
+  "projectId": ["P2025014", "P2025015", "P2025016"],
+  "prefix": "QUO Milano",
+  "names": ["Two Wheels", "Fraternity Graduation", "Pumped"],
+  "startDate": "2nd of May",
+  "endDate": "4th of May",
+  "features": {
+    "accommodation": ["The Lochside Hostel"]
+  },
+  "description": "To be completed ...",
+  "images": [
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2025/quo-milano/1.jpg",
+      "alt": "quo-milano-1"
+    }
+  ]
+}

@@ -1,8 +1,16 @@
 {
   "id": "P2025016",
-  "name": "Pumped",
-  "distance": 9.5,
-  "elevation": 873,
-  "time": "1:34:19",
-  "companionship": 1
+  "name": "The Alderly Edge",
+  "distance": 38.07,
+  "elevation": 9718,
+  "time": "9:24:57",
+  "companionship": 1,
+  "munros": [
+    "Càrn Dearg (Loch Pattack)",
+    "Geal-chàrn (Alder)",
+    "Aonach Beag (Alder)",
+    "Beinn Èibhinn",
+    "Ben Alder",
+    "Beinn Bheoil"
+  ]
 }

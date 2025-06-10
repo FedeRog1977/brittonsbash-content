@@ -2,9 +2,8 @@
   "2025": [
     {
       "id": "E2025012",
-      "projectId": ["P2025014", "P2025015", "P2025016"],
-      "prefix": "QUO Milano",
-      "names": ["Two Wheels", "Fraternity Graduation", "Pumped"],
+      "projectId": ["P2025014"],
+      "names": ["Fraternity Graduation"],
       "startDate": "2nd of May",
       "endDate": "4th of May",
       "features": {
@@ -13,40 +12,40 @@
       "description": "To be completed ...",
       "images": [
         {
-          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/quo-milano/1.jpg",
-          "alt": "quo-milano-1"
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/fraternity-graduation/1.jpg",
+          "alt": "fraternity-graduation-1"
         },
         {
-          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/quo-milano/2.jpg",
-          "alt": "quo-milano-2"
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/fraternity-graduation/2.jpg",
+          "alt": "fraternity-graduation-2"
         },
         {
-          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/quo-milano/3.jpg",
-          "alt": "quo-milano-3"
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/fraternity-graduation/3.jpg",
+          "alt": "fraternity-graduation-3"
         },
         {
-          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/quo-milano/4.jpg",
-          "alt": "quo-milano-4"
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/fraternity-graduation/4.jpg",
+          "alt": "fraternity-graduation-4"
         },
         {
-          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/quo-milano/5.jpg",
-          "alt": "quo-milano-5"
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/fraternity-graduation/5.jpg",
+          "alt": "fraternity-graduation-5"
         },
         {
-          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/quo-milano/6.jpg",
-          "alt": "quo-milano-6"
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/fraternity-graduation/6.jpg",
+          "alt": "fraternity-graduation-6"
         },
         {
-          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/quo-milano/7.jpg",
-          "alt": "quo-milano-7"
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/fraternity-graduation/7.jpg",
+          "alt": "fraternity-graduation-7"
         },
         {
-          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/quo-milano/8.jpg",
-          "alt": "quo-milano-8"
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/fraternity-graduation/8.jpg",
+          "alt": "fraternity-graduation-8"
         },
         {
-          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/quo-milano/9.jpg",
-          "alt": "quo-milano-9"
+          "url": "https://lewisbritton.com/images/blog/instant-gram/2025/fraternity-graduation/9.jpg",
+          "alt": "fraternity-graduation-9"
         }
       ]
     },

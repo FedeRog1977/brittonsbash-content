@@ -3,9 +3,15 @@
     {
       "id": "E2025015",
       "prefix": "Twentieth Different Kind Hol-e-day",
-      "names": ["Live In Prague"],
+      "names": ["The Black Parade"],
       "startDate": "6th of June",
       "endDate": "8th of June",
+      "features": {
+        "countries": ["Sweden"],
+        "cities": ["Gothenburg"],
+        "airports": ["Gothenburg-Landvetter Airport"],
+        "accommodation": ["Airbnb"]
+      },
       "images": [
         {
           "url": "https://lewisbritton.com/images/blog/instant-gram/2025/different-kind-hol-e-day-xx/1.jpg",

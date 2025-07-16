@@ -1,6 +1,12 @@
 {
   "2025": [
     {
+      "prefix": "TODO: Twenty-First Different Kind Hol-e-day",
+      "name": "TODO: Colorado Springs"
+    },
+    { "name": "TODO: Project with Andrea, Ivy, and Alvaro" },
+    { "name": "TODO: Arrochar round" },
+    {
       "id": "E2025015",
       "prefix": "Twentieth Different Kind Hol-e-day",
       "names": ["The Black Parade"],
@@ -9603,7 +9609,7 @@
           "Galleria Vittorio Emanuele II",
           "Sforzesco Castle"
         ],
-        "accommodation": ["Astor Hyde Park", "QUO Milano"],
+        "accommodation": ["Smart Hyde Park Inn", "QUO Milano"],
         "supermarkets": ["Whole Foods Market Kensington", "Carrefour"],
         "shops": [
           "The Wimbledon Museum",

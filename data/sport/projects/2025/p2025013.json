@@ -1,16 +1,13 @@
 {
   "id": "P2025013",
-  "name": "Then There Were 50",
-  "distance": 24.42,
-  "elevation": 8783,
-  "time": "10:20:52",
-  "companionship": 2,
+  "name": "Fraternity Graduation",
+  "distance": 34.12,
+  "elevation": 7504,
+  "time": "8:31:05",
+  "companionship": 1,
   "munros": [
-    "Sgùrr Bàn",
-    "Mullach Coire Mhic Fhearchair",
-    "Beinn Tarsuinn",
-    "A' Mhaighdean",
-    "Ruadh Stac Mòr"
-  ],
-  "corbetts": ["Beinn a' Chlaidheimh"]
+    "An Socach (Affric)",
+    "Mullach na Dheiragain",
+    "Sgùrr nan Ceathreamhnan"
+  ]
 }

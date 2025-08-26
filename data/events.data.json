@@ -1,10 +1,13 @@
 {
   "2025": [
     {
-      "name": "Redstone Rollercoaster"
+      "name": "TODO: Pointless Pull"
     },
     {
-      "name": "Two Young Lovers"
+      "name": "TODO: Redstone Rollercoaster"
+    },
+    {
+      "name": "TODO: Two Young Lovers"
     },
     {
       "prefix": "TODO: Twenty-First Different Kind Hol-e-day",
@@ -259,7 +262,7 @@
       "id": "E2025011",
       "projectId": ["P2025012", "P2025013"],
       "prefix": "The Fisherfields",
-      "names": ["Into The Wild", "Then There Were 50"],
+      "names": ["Then There Were 50"],
       "startDate": "19th of April",
       "endDate": "21st of April",
       "features": {

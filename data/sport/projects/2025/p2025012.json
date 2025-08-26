@@ -1,8 +1,16 @@
 {
   "id": "P2025012",
-  "name": "Into The Wild",
-  "distance": 7.21,
-  "elevation": 1378,
-  "time": "2:12:44",
-  "companionship": 2
+  "name": "Then There Were 50",
+  "distance": 31.63,
+  "elevation": 10161,
+  "time": "12:33:36",
+  "companionship": 2,
+  "munros": [
+    "Sgùrr Bàn",
+    "Mullach Coire Mhic Fhearchair",
+    "Beinn Tarsuinn",
+    "A' Mhaighdean",
+    "Ruadh Stac Mòr"
+  ],
+  "corbetts": ["Beinn a' Chlaidheimh"]
 }

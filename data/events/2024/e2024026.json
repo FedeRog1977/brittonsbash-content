@@ -1,0 +1,414 @@
+{
+  "id": "E2024026",
+  "prefix": "Sixteenth Different Kind Hol-e-day",
+  "names": ["Casper Ruud"],
+  "startDate": "4th of July",
+  "endDate": "10th of June",
+  "features": {
+    "countries": ["The United Kingdom", "Spain"],
+    "cities": ["London", "Barcelona"],
+    "districts": [
+      "Plaça Reial",
+      "Plaça de Tetuan",
+      "Plaça de Catalunya",
+      "La Barceloneta",
+      "Gothic Quarter",
+      "Sagrada Familia",
+      "Montjuïc",
+      "Avenue Diagonal",
+      "Graçia"
+    ],
+    "attractions": [
+      "Magic Fountain of Montjuïc",
+      "Barcelona Botanical Garden",
+      "Jardins de Joan Brossa",
+      "Jardins de Mossèn Costa i Llobera",
+      "Park de la Ciutadella",
+      "Parc de la Barceloneta",
+      "Basílica de la Sagrada Família"
+    ],
+    "accommodation": ["Premier Inn Wimbledon", "Generator Barcelona"],
+    "supermarkets": [
+      "Supermercat El Corte Inglés",
+      "Ametller Origen",
+      "Carrefour",
+      "Coaliment",
+      "Mercadona",
+      "Condis",
+      "Supermercat Ecològic",
+      "Tomato Asian Supermarket",
+      "Fruteria Calalina Fresh Food Market",
+      "Caprabo"
+    ],
+    "shops": [
+      "Mercat de Santa Caterina",
+      "Mercat de la Barceloneta",
+      "Mercat de la Boqueria",
+      "Maremagnum",
+      "Ecc Comics",
+      "ASICS Flagship Store",
+      "Kodak Express",
+      "Brandy Melville",
+      "Muji",
+      "Samsonite",
+      "Tumi",
+      "Diesel",
+      "El Corte Inglés",
+      "El Corte Inglés Sport",
+      "El Corte Inglés Diagonal",
+      "Centre Comercial El Triangle",
+      "Fnac",
+      "C&A",
+      "Desigual Plaça Catalunya",
+      "L'illa Mall Diagonal",
+      "ASEMAS Mútua d'Assegurances i Reassegurances a Prima Fixa",
+      "Lindt",
+      "Pilwa",
+      "Maisons du Monde",
+      "Zwilling Avenue Diagonal",
+      "Le Creuset Avenue Diagonal",
+      "Domestico Shop",
+      "Bang & Olufsen",
+      "Orange",
+      "Oh!ffice",
+      "Salewa",
+      "CESAR BY NERO Estudio y tienda de cocinas",
+      "Rolex"
+    ],
+    "consumables": [
+      "Spanish Tortilla",
+      "Spanish Nougat",
+      "Patatas Bravas",
+      "Gambas al Ajillo",
+      "Jamón Ibérico",
+      "Padron Peppers",
+      "Boquerones en Vinagre",
+      "Estrella Galicia",
+      "Estrella Damm",
+      "Mahou Classica",
+      "Mahou Rose",
+      "Mahou IPA",
+      "Mahou Mango Chilli",
+      "Voll-Damm",
+      "Desperados Mojito"
+    ],
+    "cafes": ["Joe & The Juice"],
+    "bakeries": [
+      "Baluard",
+      "Turris",
+      "Casa Gispert",
+      "Hofmann Patisseria",
+      "Carodcake Pastelería",
+      "La Boulangerie",
+      "el Fornet",
+      "365 Obrador",
+      "Casa Vives"
+    ],
+    "gelaterias": ["Amorino", "Gelateria Da Gallo"],
+    "restaurants": [
+      "Bodega La Palma Tapas",
+      "Can Ramonet Paella",
+      "DosManos Tapas",
+      "Pikio Taco",
+      "Bar Secco",
+      "Katsuo Sushi & Ramen",
+      "Suguru Sushi",
+      "Jara Sushi",
+      "Fukuoka Sushi",
+      "Can Boneta"
+    ],
+    "bars": ["Dow Jones Bar", "CocoVail Bier Hall"],
+    "nostalgiaEffect": ["None this time, sadly"]
+  },
+  "description": "... TO BE COMPLETED ...",
+  "images": [
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/1.jpg",
+      "alt": "different-kind-hol-e-day-xvi-1"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/2.jpg",
+      "alt": "different-kind-hol-e-day-xvi-2"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/3.jpg",
+      "alt": "different-kind-hol-e-day-xvi-3"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/4.jpg",
+      "alt": "different-kind-hol-e-day-xvi-4"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/5.jpg",
+      "alt": "different-kind-hol-e-day-xvi-5"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/6.jpg",
+      "alt": "different-kind-hol-e-day-xvi-6"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/7.jpg",
+      "alt": "different-kind-hol-e-day-xvi-7"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/8.jpg",
+      "alt": "different-kind-hol-e-day-xvi-8"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/9.jpg",
+      "alt": "different-kind-hol-e-day-xvi-9"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/10.jpg",
+      "alt": "different-kind-hol-e-day-xvi-10"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/11.jpg",
+      "alt": "different-kind-hol-e-day-xvi-11"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/12.jpg",
+      "alt": "different-kind-hol-e-day-xvi-12"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/13.jpg",
+      "alt": "different-kind-hol-e-day-xvi-13"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/14.jpg",
+      "alt": "different-kind-hol-e-day-xvi-14"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/15.jpg",
+      "alt": "different-kind-hol-e-day-xvi-15"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/16.jpg",
+      "alt": "different-kind-hol-e-day-xvi-16"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/17.jpg",
+      "alt": "different-kind-hol-e-day-xvi-17"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/18.jpg",
+      "alt": "different-kind-hol-e-day-xvi-18"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/19.jpg",
+      "alt": "different-kind-hol-e-day-xvi-19"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/20.jpg",
+      "alt": "different-kind-hol-e-day-xvi-20"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/21.jpg",
+      "alt": "different-kind-hol-e-day-xvi-21"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/22.jpg",
+      "alt": "different-kind-hol-e-day-xvi-22"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/23.jpg",
+      "alt": "different-kind-hol-e-day-xvi-23"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/24.jpg",
+      "alt": "different-kind-hol-e-day-xvi-24"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/25.jpg",
+      "alt": "different-kind-hol-e-day-xvi-25"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/26.jpg",
+      "alt": "different-kind-hol-e-day-xvi-26"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/27.jpg",
+      "alt": "different-kind-hol-e-day-xvi-27"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/28.jpg",
+      "alt": "different-kind-hol-e-day-xvi-28"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/29.jpg",
+      "alt": "different-kind-hol-e-day-xvi-29"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/30.jpg",
+      "alt": "different-kind-hol-e-day-xvi-30"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/31.jpg",
+      "alt": "different-kind-hol-e-day-xvi-31"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/32.jpg",
+      "alt": "different-kind-hol-e-day-xvi-32"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/33.jpg",
+      "alt": "different-kind-hol-e-day-xvi-33"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/34.jpg",
+      "alt": "different-kind-hol-e-day-xvi-34"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/35.jpg",
+      "alt": "different-kind-hol-e-day-xvi-35"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/36.jpg",
+      "alt": "different-kind-hol-e-day-xvi-36"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/37.jpg",
+      "alt": "different-kind-hol-e-day-xvi-37"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/38.jpg",
+      "alt": "different-kind-hol-e-day-xvi-38"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/39.jpg",
+      "alt": "different-kind-hol-e-day-xvi-39"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/40.jpg",
+      "alt": "different-kind-hol-e-day-xvi-40"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/41.jpg",
+      "alt": "different-kind-hol-e-day-xvi-41"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/42.jpg",
+      "alt": "different-kind-hol-e-day-xvi-42"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/43.jpg",
+      "alt": "different-kind-hol-e-day-xvi-43"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/44.jpg",
+      "alt": "different-kind-hol-e-day-xvi-44"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/45.jpg",
+      "alt": "different-kind-hol-e-day-xvi-45"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/46.jpg",
+      "alt": "different-kind-hol-e-day-xvi-46"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/47.jpg",
+      "alt": "different-kind-hol-e-day-xvi-47"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/48.jpg",
+      "alt": "different-kind-hol-e-day-xvi-48"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/49.jpg",
+      "alt": "different-kind-hol-e-day-xvi-49"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/50.jpg",
+      "alt": "different-kind-hol-e-day-xvi-50"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/51.jpg",
+      "alt": "different-kind-hol-e-day-xvi-51"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/52.jpg",
+      "alt": "different-kind-hol-e-day-xvi-52"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/53.jpg",
+      "alt": "different-kind-hol-e-day-xvi-53"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/54.jpg",
+      "alt": "different-kind-hol-e-day-xvi-54"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/55.jpg",
+      "alt": "different-kind-hol-e-day-xvi-55"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/56.jpg",
+      "alt": "different-kind-hol-e-day-xvi-56"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/57.jpg",
+      "alt": "different-kind-hol-e-day-xvi-57"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/58.jpg",
+      "alt": "different-kind-hol-e-day-xvi-58"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/59.jpg",
+      "alt": "different-kind-hol-e-day-xvi-59"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/60.jpg",
+      "alt": "different-kind-hol-e-day-xvi-60"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/61.jpg",
+      "alt": "different-kind-hol-e-day-xvi-61"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/62.jpg",
+      "alt": "different-kind-hol-e-day-xvi-62"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/63.jpg",
+      "alt": "different-kind-hol-e-day-xvi-63"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/64.jpg",
+      "alt": "different-kind-hol-e-day-xvi-64"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/65.jpg",
+      "alt": "different-kind-hol-e-day-xvi-65"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/66.jpg",
+      "alt": "different-kind-hol-e-day-xvi-66"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/67.jpg",
+      "alt": "different-kind-hol-e-day-xvi-67"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/68.jpg",
+      "alt": "different-kind-hol-e-day-xvi-68"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/69.jpg",
+      "alt": "different-kind-hol-e-day-xvi-69"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/70.jpg",
+      "alt": "different-kind-hol-e-day-xvi-70"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/71.jpg",
+      "alt": "different-kind-hol-e-day-xvi-71"
+    },
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xvi/72.jpg",
+      "alt": "different-kind-hol-e-day-xvi-72"
+    }
+  ]
+}

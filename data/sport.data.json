@@ -2,6 +2,24 @@
   "2025": {
     "projects": [
       {
+        "id": "P2025022",
+        "name": "Monteiths",
+        "distance": 8.21,
+        "elevation": 2323,
+        "time": "2:47:04",
+        "companionship": 1,
+        "munros": ["Geal Chàrn (Monadhliath)"]
+      },
+      {
+        "id": "P2025021",
+        "name": "Secrets In The Closet",
+        "distance": 19.04,
+        "elevation": 3130,
+        "time": "5:22:15",
+        "companionship": 1,
+        "munros": ["Beinn Bhreac", "Beinn a' Chaorainn (Cairngorms)"]
+      },
+      {
         "id": "P2025020",
         "name": "Pointless Pull",
         "distance": 10.36,

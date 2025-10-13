@@ -1,0 +1,17 @@
+{
+  "id": "E2025023",
+  "projectId": ["P2025023"],
+  "names": ["Yer Da' Sells Avon"],
+  "startDate": "10th of October",
+  "endDate": "11th of October",
+  "features": {
+    "accommodation": ["Braemar Youth Hostel"]
+  },
+  "description": "TODO",
+  "images": [
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2025/yer-da-sells-avon/1.jpg",
+      "alt": "yer-da-sells-avon-1"
+    }
+  ]
+}

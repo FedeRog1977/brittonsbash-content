@@ -2,6 +2,15 @@
   "2025": {
     "projects": [
       {
+        "id": "P2025023",
+        "name": "Yer Da' Sells Avon",
+        "distance": 24.1,
+        "elevation": 4665,
+        "time": "7:40:46",
+        "companionship": 1,
+        "munros": ["Ben Avon", "Beinn a' Bhùird"]
+      },
+      {
         "id": "P2025022",
         "name": "Monteiths",
         "distance": 8.21,

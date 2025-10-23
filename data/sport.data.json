@@ -2,6 +2,15 @@
   "2025": {
     "projects": [
       {
+        "id": "P2025024",
+        "name": "The Cairngorms Crusader",
+        "distance": 15.01,
+        "elevation": 2536,
+        "time": "3:56:56",
+        "companionship": 1,
+        "munros": ["Càrn a' Mhàim"]
+      },
+      {
         "id": "P2025023",
         "name": "Yer Da' Sells Avon",
         "distance": 24.1,

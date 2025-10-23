@@ -157,6 +157,10 @@ a {
   color: var(--black);
 }
 
+a::before {
+  content: "🔗";
+}
+
 a.underline {
   text-decoration: underline;
 }

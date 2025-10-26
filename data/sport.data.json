@@ -2,6 +2,15 @@
   "2025": {
     "projects": [
       {
+        "id": "P2025025",
+        "name": "Mount Keen",
+        "distance": 18.58,
+        "elevation": 3376,
+        "time": "5:21:39",
+        "companionship": 1,
+        "munros": ["Mount Keen"]
+      },
+      {
         "id": "P2025024",
         "name": "The Cairngorms Crusader",
         "distance": 15.01,

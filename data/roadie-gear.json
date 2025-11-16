@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Brands",
+    "content": [
+      "Giant",
+      "Shimano",
+      "DT Swiss",
+      "Pirelli",
+      "Goodyear",
+      "Endura",
+      "POC",
+      "Oakley",
+      "Dales Cycles",
+      "Evans Cycles"
+    ]
+  },
+  {
+    "title": "Clothing Types",
+    "content": [
+      "Base Layers",
+      "Jerseys",
+      "Jersey Jackets",
+      "Shorts",
+      "Leggings",
+      "Wrap-Around Sunglasses"
+    ]
+  },
+  {
+    "title": "Footwear Types",
+    "content": ["Cycling Shoes (Boa)", "SPD SL Cleats (Blue)"]
+  },
+  { "title": "Footwear", "content": ["Specialized Torch 1.0 Road Shoes"] },
+  {
+    "title": "Bicycle",
+    "content": [
+      "Giant TCR Advanced 1 Frame",
+      "Giant Contact Stem Bars Seat Post and Saddle",
+      "Shimano Ultegra Groupset",
+      "Vision Team 30 Wheels",
+      "Goodyear Eagle F1 Tyres",
+      "Giant Contact SLR Lite Bar Grip Tape"
+    ]
+  },
+  {
+    "title": "Technical",
+    "content": [
+      "GPS Device",
+      "Foot/Hand Pump",
+      "Multi-Tool",
+      "Chain Breaker",
+      "Tyre Lever(s)",
+      "Spoke Key",
+      "Tubeless Putty",
+      "Tubeless Tape",
+      "Dry/Wet Lube",
+      "Multipurpose Grease",
+      "Soap",
+      "Drivetrain Cleaner",
+      "Sponges",
+      "Component Brushes",
+      "Microfiber Cloths"
+    ]
+  }
+]

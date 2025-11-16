@@ -1,0 +1,347 @@
+[
+  {
+    "title": "Stock List",
+    "content": [
+      {
+        "title": "Lagered",
+        "content": [
+          "Desperados",
+          "Estrella Galicia",
+          "Hofbräu Original",
+          "Paulaner Münchner Hell"
+        ]
+      },
+      {
+        "title": "Ales",
+        "content": [
+          "Beavertown Gamma Ray",
+          "Brewdog Hazy Jane",
+          "Drygate Disco Forklift Truck",
+          "Drygate Double Disco Mango Smoothie",
+          "Northern Monk FAITH",
+          "Vocation Brewery Life & Death"
+        ]
+      },
+      {
+        "title": "Belgian Ales",
+        "content": [
+          "Cherry CHOUFFE",
+          "Duvel Tripel Hop Citra",
+          "Leffe Blonde",
+          "Leffe Brune"
+        ]
+      },
+      {
+        "title": "Wheat Beers",
+        "content": [
+          "Blue Moon White",
+          "Franziskaner Hefe Weissbier",
+          "Hoegaarden White",
+          "Hofbräu Münchner Weisse",
+          "Kronenbourg 1664 Blanc",
+          "Paulaner Weissbier",
+          "Weihenstephaner Hefe Weissbier"
+        ]
+      },
+      {
+        "title": "Spirits",
+        "content": [
+          "2x Bombay Sapphire",
+          "2x Campari",
+          "2x Martini Vermouth Rosso",
+          "2x Havana Club 7 Year Old Dark Rum",
+          "2x Absolt Blue Vodka",
+          "2x Kahlúa Coffee",
+          "2x Drambuie",
+          "Ice"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Beer",
+    "content": [
+      {
+        "title": "Lagered",
+        "content": [
+          {
+            "title": "Pale",
+            "content": [
+              "Birra Ichnusa Unfiltered",
+              "Birra Moretti Filtrata a Freddo",
+              "Corona Extra",
+              "Desperados",
+              "Desperados Mojito",
+              "Desperados Red",
+              "Estrella Galicia",
+              "Estrella Damm",
+              "Kronenbourg 1664 Bière Blonde",
+              "Mahou Clásica",
+              "Tuborg Green",
+              "Madri Excepcional"
+            ]
+          },
+          {
+            "title": "Amber",
+            "content": [
+              "Brooklyn Lager",
+              "Peroni Gran Riserva Doppio Malto",
+              "Peroni Red",
+              "Voll-Damm Double Malta"
+            ]
+          },
+          {
+            "title": "Helles",
+            "content": [
+              "Hofbräu Original",
+              "Paulaner Münchner Hell",
+              "Tegernseer Hell"
+            ]
+          },
+          {
+            "title": "Pilsner",
+            "content": [
+              "Berliner Pilsner",
+              "Brooklyn Pils",
+              "Budweiser Budvar",
+              "Jever Pilsner",
+              "Stella Artois",
+              "Tuborg Grøn"
+            ]
+          },
+          {
+            "title": "Oktoberfest",
+            "content": ["Hofbräu Oktoberfestbier", "Paulaner Oktoberfest Bier"]
+          },
+          { "title": "Bock", "content": ["Super Bock"] },
+          {
+            "title": "Dunkel",
+            "content": ["Hofbräu Dunkel", "Krombacher Dark", "Paulaner Dunkel"]
+          }
+        ]
+      },
+      {
+        "title": "Ale",
+        "content": [
+          {
+            "title": "Pale (IPA / Session IPA / American Pale Ale / Hazy Pale Ale)",
+            "content": [
+              "Beavertown Gamma Ray",
+              "Beavertown Heavy Gravity",
+              "Beavertown Lupuloid",
+              "Beavertown Neck Oil",
+              "Beavertown Sun God",
+              "Brewdog Hazy Jane",
+              "Drygate Crossing The Rubicon",
+              "Drygate Disco Forklift Truck",
+              "Drygate Double Disco Mango Smoothie",
+              "Northern Monk FAITH",
+              "Vocation Brewery Life & Death",
+              "Williams Brothers Caesar Augustus",
+              "Williams Brothers Joker",
+              "Williams Brothers Talking Head",
+              "Williams Brothers Tin Man Tropical",
+              "Cairngorm Bothy",
+              "Cairngorm Wildcat"
+            ]
+          },
+          {
+            "title": "Amber and Red",
+            "content": [
+              "Broughton Old Jock",
+              "Rosie Nosie",
+              "Skye Cullin Beast"
+            ]
+          },
+          {
+            "title": "Stout",
+            "content": [
+              "Brewdog Black Heart",
+              "Cairngorm Black Gold",
+              "Innis And Gunn Irish Whiskey Cask Oatmeal Stout"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Belgian \"Trappist and Abbey\" Ale",
+        "content": [
+          {
+            "title": "Blond",
+            "content": [
+              "Chimay Tripel",
+              "Duvel Tripel Hop Citra",
+              "La Trappe Blond",
+              "La Trappe Tripel",
+              "Leffe Blonde",
+              "Leffe Triple"
+            ]
+          },
+          {
+            "title": "Amber and Red",
+            "content": ["Chimay Bruin", "La Trappe Quadrupel", "Leffe Brune"]
+          },
+          {
+            "title": "Fruit",
+            "content": [
+              "Bacchus Frambozenbier",
+              "Bacchus Kriek",
+              "Cherry CHOUFFE",
+              "Leffe Rouge",
+              "Leffe Ruby"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Wheat Beer",
+        "content": [
+          {
+            "title": "German Hefeweizen",
+            "content": [
+              "Erdinger Weißbier",
+              "Franziskaner Hefe Weissbier",
+              "Heidi Weisse",
+              "Hofbräu Münchner Weisse",
+              "Paulaner Weissbier",
+              "Weihenstephaner Hefe Weissbier"
+            ]
+          },
+          {
+            "title": "Belgian Witbier \"White\"",
+            "content": [
+              "Brasserie du Mont Blanc Blanche du Mont-Blanc",
+              "Hoegaarden White"
+            ]
+          },
+          {
+            "title": "American Wheat Ale",
+            "content": ["Blue Moon White", "Kronenbourg 1664 Blanc"]
+          },
+          { "title": "Dunkelweizen", "content": ["Paulaner Weissbier Dunkel"] }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Wine",
+    "content": [
+      { "title": "Red", "content": ["Côtes Du Rhône", "Bordeaux", "Chianti"] },
+      { "title": "White", "content": [] },
+      {
+        "title": "Fortified",
+        "content": [
+          "Graham's 20 Year Old Tawny Port",
+          "Graham's Blend Nº5 White Port",
+          "Taylor's 20 Year Old Tawny Port",
+          "Martini Extra Dry Dry Vermouth",
+          "Martini Bianco Sweet Vermouth",
+          "Martini Rosso Sweet Vermouth",
+          "Harvey's Bristol Cream Sherry",
+          "Croft Pale Cream Sherry"
+        ]
+      },
+      { "title": "Sparkling", "content": [] },
+      {
+        "title": "Brandy Liquor",
+        "content": [
+          "Hennessy VSOP",
+          "Courvoisier XO Royal Cognac",
+          "Rémy Martin VSOP Cognac"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Spirits",
+    "content": [
+      "Dalwhinnie 15 Year Old Highland Single Malt Whisky",
+      "Oban 14 Year Old Highland Single Malt Whisky",
+      "Glenmorangie 10 Year Old - The Original Highland Single Malt Whisky",
+      "Tamnavulin Double Cask Highland Single Malt Whisky",
+      "Lagavulin 16 Year Old Islay Single Malt Whisky",
+      "Caol Ila 12 Year Old Islay Single Malt Whisky",
+      "Isle Of Harris Gin",
+      "The Botanist Islay Dry Gin",
+      "Tanqueray Nº TEN London Dry Gin",
+      "Bombay Sapphire",
+      "Brooklyn Gin",
+      "Dark Matter Spiced Scotch Rum",
+      "RedLeg Spiced Rum",
+      "The Kraken Black Spiced Rum",
+      "Bacardi Spiced Rum",
+      "Havana Club 7 Year Old Dark Rum",
+      "Grey Goose Vodka",
+      "Absolt Blue Vodka",
+      "Don julio 1942 Tequila",
+      "Cazcebel Blanco Tequila",
+      "Cazcebel Reposado Tequila",
+      "Cazcabel Añejo",
+      "El Jimador Blanco Tequila",
+      "El Jimador Reposado Tequila",
+      "El Jimador Añejo Tequila"
+    ]
+  },
+  {
+    "title": "Liqueurs",
+    "content": [
+      "Drambuie",
+      "Gordon's Pink Gin",
+      "Cazcabel Honey",
+      "Cazcabel Coffee",
+      "Cazcabel Coconut",
+      "Kahlúa Coffee",
+      "Disaronno Amaretto",
+      "Campari",
+      "Cointreau Triple Sec Orange",
+      "Chambord Black Raspberry",
+      "Malibu",
+      "Baileys Irish Cream",
+      "Midori",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Limoncello",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Meloncello",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Pesca",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Mela",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Pera",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Limoncello",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Limoncino",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Melone",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Banana",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Mirtello (Blueberry)",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Pistacchio",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Hazelnut",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Panna Cotta",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Tiramisu",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Gianduia",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Cappuccino",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Esspresso",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Nero",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Gianduia",
+      "Dolce Cilento, Petrone, Bottega, and Pallini Crema di Cannella (Cinnamon)"
+    ]
+  },
+  { "title": "Bitters", "content": ["Angostura Bitters"] },
+  {
+    "title": "Cocktails",
+    "content": [
+      "Mojito",
+      "Negroni",
+      "French Martini",
+      "Espresso Martini",
+      "Piña Colada"
+    ]
+  },
+  {
+    "title": "Soft Drinks / Mixers",
+    "content": [
+      "Belvoir Blueberry & Blackcurrant Cordial",
+      "Belvoir Elderfower Cordial",
+      "Fever-Tree Refreshingly Light Mediterranean Tonic Water",
+      "Fever-Tree Refreshingly Light Elderflower Tonic Water",
+      "Fever-Tree Refreshingly Light Clementine Tonic Water",
+      "Francis Hartridges Dandelion & Burdock",
+      "Fentimans Curiosity Cola",
+      "Little Miracles White Tea, Cherry, Ginseng, Acai, Agave"
+    ]
+  }
+]

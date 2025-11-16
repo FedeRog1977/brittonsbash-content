@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Home",
+    "content": [
+      {
+        "title": "Brands",
+        "content": ["Duresta", "Iain James", "Burlington Cisterns"]
+      }
+    ]
+  },
+  {
+    "title": "Office",
+    "content": [
+      {
+        "title": "Brands",
+        "content": ["Herman Miller", "Vitra", "Orangebox", "Cassina"]
+      },
+      { "title": "Distributors", "content": ["Tsumani Axis", "Hunters"] }
+    ]
+  }
+]

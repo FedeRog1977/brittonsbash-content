@@ -1,0 +1,369 @@
+[
+  {
+    "title": "Operating Systems",
+    "content": [
+      "Artix Linux",
+      "Arch Linux",
+      "Manjaro Linux",
+      "macOS Versions",
+      "Windows XP",
+      "Windows 7",
+      "Windows 11"
+    ]
+  },
+  {
+    "title": "Languages",
+    "content": [
+      { "title": "System", "content": ["Bash (Shell)", "Zsh (Shell)"] },
+      { "title": "Configuration", "content": ["YAML", "XML", "JSON"] },
+      {
+        "title": "Typesetting",
+        "content": [
+          "TeX",
+          "LaTeX",
+          "LuaTeX",
+          "Markdown",
+          "R Markdown",
+          "GNU Roff",
+          "GNU Troff",
+          "GNU Nroff"
+        ]
+      },
+      { "title": "Markup", "content": ["HTML", "CSS", "SCSS (SASS)"] },
+      {
+        "title": "Scripting",
+        "content": ["PHP", "Java", "JavaScript", "TypeScript", "Python"]
+      },
+      {
+        "title": "Statistical",
+        "content": ["R", "MATLAB", "Gretl", "GNU Octave"]
+      }
+    ]
+  },
+  {
+    "title": "Programs",
+    "content": [
+      { "title": "Window Tiling", "content": ["i3-gaps", "dwm"] },
+      {
+        "title": "Terminal Emulators",
+        "content": [
+          "Alacritty",
+          "st (Simple Terminal)",
+          "Warp Terminal",
+          "Terminal (Mac)"
+        ]
+      },
+      {
+        "title": "Package Managers",
+        "content": ["pacman", "Homebrew", "NPM", "PNPM"]
+      },
+      { "title": "Configuration Utilities", "content": ["xrandr"] },
+      { "title": "Network Managers", "content": ["nmcli"] },
+      { "title": "Status Bars", "content": ["i3status", "Polybar"] },
+      { "title": "Notification Daemons", "content": ["dunst"] },
+      { "title": "Notification Programs", "content": ["notify-send"] },
+      {
+        "title": "Text Editors",
+        "content": [
+          "Vi",
+          "Vim (Vi Improved)",
+          "Neovim (neo-Vi Improved)",
+          "Nano"
+        ]
+      },
+      { "title": "CSV Environments", "content": ["SC-IM"] },
+      { "title": "Directory Managers", "content": ["ls", "lsd"] },
+      { "title": "File Archive Managers", "content": ["tar"] },
+      { "title": "Data Modifiers", "content": ["shred"] },
+      { "title": "Application Launchers", "content": ["dmenu"] },
+      { "title": "Terminal User Interfaces", "content": ["LF", "Ranger"] },
+      {
+        "title": "Mail Clients",
+        "content": ["Mutt", "NeoMutt", "Thunderbird"]
+      },
+      { "title": "Address Book Clients", "content": ["ppl"] },
+      { "title": "Calendar Clients", "content": ["Calcurse"] },
+      { "title": "Clock Clients", "content": ["tty-clock"] },
+      { "title": "Stock Tickers", "content": ["ticker", "mop-tracker"] },
+      { "title": "RSS Clients", "content": ["Newsboat"] },
+      { "title": "Web Fetchers", "content": ["wget", "cURL"] },
+      { "title": "Image Viewers", "content": ["sxiv"] },
+      { "title": "Image Modifiers", "content": ["GIMP", "Serif Page Plus X9"] },
+      {
+        "title": "Audio Clients",
+        "content": [
+          "cmus",
+          "mpd",
+          "mpc (mpd CLI)",
+          "ncmpcpp (mpd Player Client)"
+        ]
+      },
+      { "title": "Video Clients", "content": ["mpv"] },
+      { "title": "Screen Capture", "content": ["FFmpeg"] },
+      { "title": "Screenshot Clients", "content": ["Scrot"] },
+      {
+        "title": "Compilers",
+        "content": ["Pandoc", "pdfTeX", "pdfLaTeX", "XeLaTeX", "Beamer"]
+      },
+      {
+        "title": "Interpreters",
+        "content": ["python3", "java", "javac", "javadoc"]
+      },
+      { "title": "PDF Viewers", "content": ["MuPDF", "Zathura"] },
+      {
+        "title": "Web Browsers",
+        "content": ["LYNX", "Brave Browser", "Google Chrome", "Google Chromium"]
+      },
+      {
+        "title": "Search Engines",
+        "content": ["DuckDuckGo", "Qwant", "Google"]
+      },
+      {
+        "title": "Entertainment",
+        "content": ["neofetch", "cmatrix", "asciiquarium", "sl"]
+      },
+      { "title": "Version Control", "content": ["Git"] },
+      {
+        "title": "Version Control Clients",
+        "content": ["GitHub", "GitHub CLI"]
+      },
+      {
+        "title": "API Libraries",
+        "content": [
+          "Geolocation",
+          "OpenWeather",
+          "Open Maps",
+          "Ordnance Survey",
+          "Leaflet",
+          "React Leaflet",
+          "Mapbox",
+          "toGeoJSON",
+          "proj4",
+          "Chart.js",
+          "LaTeX.js"
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "content": [
+          "React",
+          "React TypeScript",
+          "React Router",
+          "React Testing Library",
+          "Next.js",
+          "Cypress",
+          "Jenkins Build"
+        ]
+      },
+      { "title": "Editors and IDEs", "content": ["Visual Studio Code"] },
+      {
+        "title": "Project Management",
+        "content": ["GitHub", "Atlassian Jira", "Atlassian Confluence"]
+      },
+      {
+        "title": "Deployment",
+        "content": ["GitHub Pages", "Amazon Web Services"]
+      },
+      {
+        "title": "Processing",
+        "content": ["Microsoft Word", "Microsoft Excel"]
+      }
+    ]
+  },
+  {
+    "title": "Hardware",
+    "content": [
+      {
+        "title": "Telecommunications",
+        "content": [
+          "AT&T Merlin 10-Button",
+          "Cisco CP-7962G-CH1",
+          "Plantronics Voyager 510",
+          "Polycom Conferencing",
+          "Cingular Wireless",
+          "Sony Ericsson K800i",
+          "Sony Ericsson W880i",
+          "Blackberry Curve 8300",
+          "Blackberry Curve 9300",
+          "Blackberry Bold 9700",
+          "Blackberry Bold Touch",
+          "iPhone 4",
+          "iPhone 6S",
+          "Motorola Moto One Hyper",
+          "Motorola e30",
+          "Motorola e40",
+          "iPhone 13 Pro"
+        ]
+      },
+      {
+        "title": "Laptop PCs",
+        "content": [
+          "IBM ThinkPad T23",
+          "IBM ThinkPad X30",
+          "IBM ThinkPad T42",
+          "IBM ThinkPad R50e",
+          "IBM ThinkPad T60",
+          "IBM ThinkPad X60",
+          "Lenovo ThinkPad X200",
+          "Lenovo ThinkPad X220 (2)",
+          "Lenovo ThinkPad T420",
+          "MacBook Pro M4"
+        ]
+      },
+      {
+        "title": "Desktop PCs",
+        "content": [
+          "IBM Personal Computer",
+          "IBM Personal Computer XT",
+          "IBM Personal Computer AT",
+          "IBM Personal System 2 (PS/2)",
+          "Corsair Obsidian 750D",
+          "Asus TUF Gaming Z690-Plus WIFI D4",
+          "Intel Core i9-12900K",
+          "Corsair Vengeance RGB Pro 32GB",
+          "Asus GeForce RTX 3070 Ti",
+          "Corsair CX750F RGB",
+          "Corsair Hydro Series iCUE H150i PRO XT",
+          "ASUS Blu-Ray DVDRW",
+          "Samsung 850 EVO 1TB"
+        ]
+      },
+      {
+        "title": "Peripherals",
+        "content": [
+          "IBM Selectric I",
+          "IBM Selectric II",
+          "IBM Selectric III",
+          "IBM 5153",
+          "IBM Model F AT",
+          "IBM Model F XT",
+          "IBM Model F Battleship",
+          "IBM Model M 1984",
+          "IBM Model M 1987",
+          "IBM Model M Battlecruiser",
+          "LG 27UP650-W 27inch",
+          "Bose Companion 5",
+          "Ducky Mecha Mini RGB",
+          "Razer Mamba 2012",
+          "Steelseries QCK Gaming Mousepad",
+          "Cisco CP-7962G"
+        ]
+      },
+      {
+        "title": "Storage",
+        "content": ["SanDisk 256GB Ultra Flair USB 3.0 Flash Drive"]
+      }
+    ]
+  },
+  {
+    "title": "Links",
+    "content": [
+      {
+        "title": "Typesetting",
+        "content": [
+          {
+            "title": "Diacritics",
+            "href": "https://en.wikipedia.org/wiki/Diacritic"
+          },
+          {
+            "title": "MacTeX",
+            "href": "https://www.tug.org/mactex/mactex-download.html"
+          }
+        ]
+      },
+      {
+        "title": "HTML",
+        "content": [
+          {
+            "title": "<datalist>",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/datalist"
+          }
+        ]
+      },
+      {
+        "title": "JavaScript",
+        "content": [
+          {
+            "title": "Eloquent JavaScript",
+            "href": "https://eloquentjavascript.net/"
+          }
+        ]
+      },
+      {
+        "title": "TypeScript",
+        "content": []
+      },
+      {
+        "title": "React",
+        "content": [
+          {
+            "title": "useForm",
+            "href": "https://react-hook-form.com/docs/useform"
+          }
+        ]
+      },
+      {
+        "title": "Next.js",
+        "content": [
+          {
+            "title": "Vercel Deploy",
+            "href": "https://vercel.com/federog1977s-projects"
+          },
+          { "title": "PM2", "href": "https://pm2.keymetrics.io/" },
+          {
+            "title": "Deploy Next.js App To Ubuntu with PM2",
+            "href": "https://fazalerabbi.medium.com/deploying-a-next-js-application-with-pm2-nginx-and-ssl-on-a-digitalocean-droplet-d75c5b811e0d"
+          },
+          {
+            "title": "Deploy Next.js App To Ubuntu with PM2",
+            "href": "https://www.youtube.com/watch?v=mFOFR5YfZzA"
+          }
+        ]
+      },
+      {
+        "title": "Data",
+        "content": [
+          {
+            "title": "JSON Web Tokens",
+            "href": "https://www.jwt.io/"
+          },
+          {
+            "title": "JSON Forms",
+            "href": "https://jsonforms.io/"
+          }
+        ]
+      },
+      {
+        "title": "Redis",
+        "content": [
+          {
+            "title": "Redis Cloud Config",
+            "href": "https://cloud.redis.io/?utm_source=google&utm_medium=organic&utm_campaign=search&utm_term=not%20specified&utm_content=not%20specified#/add-subscription/free"
+          },
+          {
+            "title": "Redis Docs",
+            "href": "https://docs.nestjs.com/microservices/redis"
+          },
+          {
+            "title": "Redis Tutorial",
+            "href": "https://www.youtube.com/watch?v=UbtNnHFXK9E&list=PL4cUxeGkcC9h3V2eqhi8rRdIDJshP-b4P&index=9"
+          },
+          {
+            "title": "Redis Tutorial",
+            "href": "https://www.youtube.com/watch?v=JFM-o-csWLs&list=PL4cUxeGkcC9h3V2eqhi8rRdIDJshP-b4P&index=10"
+          }
+        ]
+      },
+      {
+        "title": "Random",
+        "content": [
+          {
+            "title": "RFC Editor",
+            "href": "https://www.rfc-editor.org/rfc/rfc2324"
+          },
+          { "title": "Vim Adventures", "href": "https://vim-adventures.com/" }
+        ]
+      }
+    ]
+  }
+]

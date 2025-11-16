@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Brands",
+    "content": [
+      "Hugo Boss",
+      "Giorgio Armani",
+      "Gianni Versace",
+      "Tom Ford",
+      "Paul Smith",
+      "Thomas Pink",
+      "Gant",
+      "Diesel",
+      "Calvin Klein",
+      "Loake",
+      "On",
+      "ASICS",
+      "Nike",
+      "Samsonite",
+      "Wenger",
+      "Tumi",
+      "Rimowa",
+      "Osprey"
+    ]
+  },
+  {
+    "title": "Footwear Types",
+    "content": [
+      "Running",
+      "City",
+      "Casual",
+      "Loafer",
+      "Boat",
+      "Chukka",
+      "Chelsea Boot",
+      "Desert Boot",
+      "Oxford",
+      "Derby",
+      "Blucher",
+      "Monk",
+      "Double Monk",
+      "Brogues (Quarter)",
+      "Brogues (Half)",
+      "Brogues (Wingtip)"
+    ]
+  },
+  {
+    "title": "Footwear",
+    "content": [
+      "ASICS Gel-1130 (Gel-1000 Replica)",
+      "ASICS Gel-1000",
+      "ASICS GT-2160 (GT-2000 replica)",
+      "ASICS GT-2000",
+      "ASICS Gel Nimbus",
+      "Nike Air Monarch",
+      "On THE ROGER Clubhouse Mid"
+    ]
+  },
+  {
+    "title": "Pack Types",
+    "content": [
+      "Daypack",
+      "Messenger / Laptop Bag",
+      "Briefcase",
+      "Suitcase",
+      "Toiletry Bag"
+    ]
+  },
+  {
+    "title": "Accessories",
+    "content": [
+      "Rolex Datejust",
+      "Rolex Skydweller",
+      "Rayban Wayfarers Tortoiseshell",
+      "Rayban Wayfarers Tortoiseshell (Pre-Luxottica)",
+      "Carrera Endurance 65",
+      "Alpina Quattro Miami Vice Sunglasses 80's",
+      "Linda Farrow 6031 Scarface Movie Glasses",
+      "Sun C-2 8709 Horatio Caine CSI Miami Sunglasses",
+      "Giorgio Armani AR1508M Horatio Caine CSI Miami Sunglasses",
+      "Love from Skye Cuilin Ring"
+    ]
+  },
+  {
+    "title": "Tie Knots",
+    "content": [
+      "The Elderage",
+      "The Trinity",
+      "The Invisible",
+      "The Krasny Hourglass",
+      "The Full Windsor",
+      "The Pratt"
+    ]
+  }
+]

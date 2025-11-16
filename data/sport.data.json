@@ -2,6 +2,15 @@
   "2025": {
     "projects": [
       {
+        "id": "P2025026",
+        "name": "Bearish Straddle",
+        "distance": 9.11,
+        "elevation": 5663,
+        "time": "4:41:57",
+        "companionship": 1,
+        "munros": ["Sgùrr na Sgìne", "The Saddle"]
+      },
+      {
         "id": "P2025025",
         "name": "Mount Keen",
         "distance": 18.58,

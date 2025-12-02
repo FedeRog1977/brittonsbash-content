@@ -1,0 +1,34 @@
+{
+  "id": "E2025028",
+  "prefix": "Twenty-Second Different Kind Hol-e-day",
+  "names": ["Green Card"],
+  "startDate": "27th of November",
+  "endDate": "30th of November",
+  "features": {
+    "countries": ["Lithuania"],
+    "cities": ["Kaunas", "Vilnius"],
+    "airports": ["Kaunas International Airport"],
+    "accommodation": ["Kaunas City Hotel", "Ibis Vilnius Centre"],
+    "districts": [],
+    "attractions": [],
+    "parks": [],
+    "food": [],
+    "drink": [],
+    "restaurants": [],
+    "bars": [],
+    "bakeries": [],
+    "chocolatiers": [],
+    "gelaterias": [],
+    "markets": [],
+    "supermarkets": [],
+    "departmentStores": [],
+    "nostalgiaEffect": []
+  },
+  "description": "",
+  "images": [
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2025/different-kind-hol-e-day-xxii/1.jpg",
+      "alt": "different-kind-hol-e-day-xxii-1"
+    }
+  ]
+}

@@ -5,6 +5,9 @@
   "startDate": "14th of November",
   "endDate": "15th of November",
   "description": "TODO",
+  "features": {
+    "accommodation": ["Glen Nevis Youth Hostel"]
+  },
   "images": [
     {
       "url": "https://lewisbritton.com/images/blog/instant-gram/2025/bearish-straddle/1.jpg",

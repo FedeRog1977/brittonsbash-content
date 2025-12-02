@@ -1,0 +1,19 @@
+{
+  "id": "E2025027",
+  "projectId": ["P2025027", "P2025028"],
+  "prefix": "Springer",
+  "names": ["Bitmap", "257 Truths"],
+  "startDate": "21st of November",
+  "endDate": "23rd of November",
+  "features": {
+    "accommodation": ["Inverness Youth Hostel"],
+    "cafes": ["The Midge Bite Cafe Achnasheen"]
+  },
+  "description": "The final Munros of the year, landing on 257 truths, not lies. TODO",
+  "images": [
+    {
+      "url": "https://lewisbritton.com/images/blog/instant-gram/2025/springer/1.jpg",
+      "alt": "springer-1"
+    }
+  ]
+}

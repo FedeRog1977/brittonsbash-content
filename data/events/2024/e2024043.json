@@ -4,7 +4,6 @@
   "names": ["Forever Young"],
   "startDate": "23rd of October",
   "endDate": "27th of October",
-  "description": "...",
   "features": {
     "countries": ["Switzerland", "France"],
     "cities": ["Geneva", "Annecy", "Chamonix"],
@@ -13,6 +12,7 @@
     "chocolatiers": ["Läderach", "Lindt"],
     "supermarkets": ["Coop", "Casino", "Super U", "Tom Beers"]
   },
+  "description": "",
   "images": [
     {
       "url": "https://lewisbritton.com/images/blog/instant-gram/2024/different-kind-hol-e-day-xviii/1.jpg",

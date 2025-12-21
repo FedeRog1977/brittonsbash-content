@@ -4,6 +4,11 @@
   "names": ["Colorado Springs"],
   "startDate": "3rd of July",
   "endDate": "13th of July",
+  "features": {
+    "countries": "Italy",
+    "cities": "Rome",
+    "accommodation": "YellowSquare Rome"
+  },
   "description": "",
   "images": [
     {

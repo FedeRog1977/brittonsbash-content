@@ -2,6 +2,33 @@
   "2025": {
     "projects": [
       {
+        "id": "P2025031",
+        "name": "The A77 Fleet",
+        "distance": 8.0,
+        "elevation": 2267,
+        "time": "2:35:11",
+        "companionship": 1,
+        "donalds": ["Cairnsmore of Fleet"]
+      },
+      {
+        "id": "P2025030",
+        "name": "Four For Four",
+        "distance": 7.67,
+        "elevation": 5331,
+        "time": "4:01:13",
+        "companionship": 2,
+        "munros": ["Ben More", "Stob Binnein"]
+      },
+      {
+        "id": "P2025029",
+        "name": "The Back Door",
+        "distance": 8.9,
+        "elevation": 1719,
+        "time": "2:55:49",
+        "companionship": 1,
+        "corbetts": ["Geal Charn (Dorback)"]
+      },
+      {
         "id": "P2025028",
         "name": "257 Truths",
         "distance": 7.4,

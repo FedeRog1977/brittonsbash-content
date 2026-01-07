@@ -1,0 +1,175 @@
+[
+  {
+    "title": "Sites",
+    "content": [
+      { "title": "Richer Sounds", "href": "https://www.richersounds.com/" },
+      { "title": "Audio Affair", "href": "https://www.audioaffair.co.uk/" },
+      {
+        "title": "Speakers For Dummies",
+        "href": "https://mynewmicrophone.com/differences-between-mid-range-speakers-tweeters-woofers/"
+      },
+      {
+        "title": "Ultimate Vocal Remover",
+        "href": "https://github.com/Anjok07/ultimatevocalremovergui"
+      },
+      { "title": "Jan Hammer", "href": "https://janhammer.com/" },
+      {
+        "title": "Michael Bublé Christmas Yule Log",
+        "href": "https://www.youtube.com/watch?v=w9ADYSAko78"
+      },
+      {
+        "title": "Michael Bublé Home For Christmas",
+        "href": "https://www.youtube.com/watch?v=q86ZehaQClQ"
+      },
+      {
+        "title": "GTA SA Ryder Theme",
+        "href": "https://www.youtube.com/watch?v=A_N2dKm2ysQ&list=RDA_N2dKm2ysQ&start_radio=1"
+      },
+      {
+        "title": "Tchaikovsky - 1812 Overture (Full with Cannons)",
+        "href": "https://www.youtube.com/watch?v=VbxgYlcNxE8"
+      },
+      {
+        "title": "Ministry Of Sound - Decade Disc 1",
+        "href": "https://www.mixcloud.com/martin-green3/ministry-of-sound-decade-2000-2009-cd1/"
+      },
+      {
+        "title": "Ministry Of Sound - Decade Disc 2",
+        "href": "https://www.mixcloud.com/martin-green3/ministry-of-sound-decade-2000-2009-cd2/"
+      },
+      {
+        "title": "Ministry Of Sound - Decade Disc 3",
+        "href": "https://www.mixcloud.com/martin-green3/ministry-of-sound-decade-2000-2009-cd3/"
+      },
+      { "title": "LyricFind", "href": "https://lyrics.lyricfind.com/" },
+      { "title": "Blu-ray", "href": "https://www.blu-ray.com/" },
+      {
+        "title": "BlackBerry Bold Touch 9900",
+        "href": "https://www.gsmarena.com/blackberry_bold_touch_9900-3116.php"
+      },
+      {
+        "title": "Universal Playback",
+        "href": "https://paulrobertlloyd.com/projects/universal_playback/"
+      }
+    ]
+  },
+  {
+    "title": "Technology",
+    "content": [
+      {
+        "title": "Hi-Fi",
+        "content": [
+          "Stand-alone turntable: Linn Majik LP12",
+          "Mixing turntables: Technics SL-1200MK7",
+          "Digital CD/SD mixing turntables: Technics SL-DZ1200",
+          "Mixer: Allen & Heath Xone:92",
+          "CD player: Audiolab 8000CD",
+          "FM radio: Audiolab 8000T",
+          "Pre-amplifier: Audiolab 8000A",
+          "Power amplifier base: Audiolab 8300XP",
+          "Power amplifier monoblocks (1 per speaker stack): Audiolab 8300MB",
+          "Tweeters (High-Range): NONE!",
+          "Loudspeakers (Mid-Range): 2x Acoustic Energy AE520",
+          "Subwoofer (Low-Range): 2x REL Acoustics T/9x",
+          "Monitor headset: Technics RP-DH1200"
+        ]
+      },
+      {
+        "title": "PA System",
+        "content": ["DJ Controller (All-In-One): Pioneer DJ XDJ-RX3"]
+      },
+      {
+        "title": "Desktop",
+        "content": [
+          "Studio Monitor Speakers: Yamaha HS7",
+          "Multimedia Speakers: Bose Companion 50",
+          "Multimedia Speakers: Bose Surround Speakers",
+          "Speaker Stands: Bose UFS-20 Series II Universal Floor Stands",
+          "Multimedia Subwoofer: Bose Bass Module 500"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Brands",
+    "content": ["Technics", "Linn", "Allen & Heath", "Audiolab", "Ruark", "REL"]
+  },
+  {
+    "title": "Stores",
+    "content": [
+      "Audio Affair",
+      "Richer Sounds",
+      "RUBADUB",
+      "Glasgow Sounds Centre"
+    ]
+  },
+  {
+    "title": "Videos",
+    "content": [
+      {
+        "title": "Avril Lavigne - MTV Diaries 2003",
+        "href": "https://www.youtube.com/watch?v=XC26SvcTSpA"
+      },
+      {
+        "title": "OMD - If You Leave",
+        "href": "https://www.youtube.com/watch?v=WOkfF5toMDY&list=RDWiPWvLEUzFY&index=2"
+      },
+      {
+        "title": "OMD - Enola Gay",
+        "href": "https://www.youtube.com/watch?v=WiPWvLEUzFY&list=RDWiPWvLEUzFY&start_radio=1"
+      },
+      {
+        "title": "Spandau Ballet - Gold",
+        "href": "https://www.youtube.com/watch?v=oJkKGPzyKGU&list=RDoJkKGPzyKGU&start_radio=1"
+      },
+      {
+        "title": "George Michael - Last Christmas",
+        "href": "https://www.youtube.com/watch?v=GnlXotGDwqw&list=RDGnlXotGDwqw&start_radio=1"
+      },
+      {
+        "title": "George Michael - Last Christmas II",
+        "href": "https://www.youtube.com/watch?v=DcC6SU93OXE&list=RDDcC6SU93OXE&start_radio=1"
+      },
+      {
+        "title": "Foreigner - I Want To Know What Love Is",
+        "href": "https://www.youtube.com/watch?v=EE-ZsGvUAR4&list=RDEE-ZsGvUAR4&start_radio=1"
+      },
+      {
+        "title": "Alphaville - Forever Young",
+        "href": "https://www.youtube.com/watch?v=gjPEkIqOCvA&list=RD-_3dc6X-Iwo&index=14"
+      },
+      {
+        "title": "The Stranglers - Golden Brown",
+        "href": "https://www.youtube.com/watch?v=hvOzeXQ1CkQ"
+      },
+      {
+        "title": "Depeche Mode - Enjoy The Silence",
+        "href": "https://www.youtube.com/watch?v=-_3dc6X-Iwo&list=RD-_3dc6X-Iwo&start_radio=1"
+      },
+      {
+        "title": "Depeche Mode - Just Can't Get Enough",
+        "href": "https://www.youtube.com/watch?v=w9DyY6gyvEs"
+      },
+      {
+        "title": "Depeche Mode - Personal Jesus",
+        "href": "https://www.youtube.com/watch?v=I0npwVQRScM&list=RDI0npwVQRScM&start_radio=1"
+      },
+      {
+        "title": "Simply Red - Live in Sydney",
+        "href": "https://www.youtube.com/watch?v=pPdLH_CtpJU"
+      },
+      {
+        "title": "Gary Barlow - Solo Medley",
+        "href": "https://www.youtube.com/watch?v=LINGUvO0-gk&list=RDLINGUvO0-gk&start_radio=1"
+      },
+      {
+        "title": "Blink-182 - I Miss You Remix",
+        "href": "https://www.youtube.com/watch?v=-AGogYAB-Mg"
+      },
+      {
+        "title": "Foo Fighters - Kiss Guy",
+        "href": "https://www.youtube.com/watch?v=TjVOWOKa-lY"
+      }
+    ]
+  }
+]

@@ -10,9 +10,14 @@
     "airports": ["Kaunas International Airport"],
     "transportation": ["LGT Link (train)", "Bolt (taxi)"],
     "accommodation": ["Kaunas City Hotel", "Ibis Vilnius Centre"],
-    "districts": [],
-    "attractions": [],
-    "parks": [],
+    "districts": ["Vilniaus g."],
+    "attractions": [
+      "Vilnius Cathedral",
+      "Cathedral Square",
+      "St. Anne's Church",
+      "Town Hall Square"
+    ],
+    "parks": ["Hill Park"],
     "food": [
       "Kepta duona",
       "Zeppelin",
@@ -22,16 +27,25 @@
       "Digestive caramel tray bake thing from the high school vending machine"
     ],
     "drink": ["Baltas beer (wheat)", "Tamsusis beer (dark ale)"],
-    "restaurants": [],
-    "bars": [],
+    "restaurants": ["Arabia Kebab", "Kyiv", "Žemaičių ąsotis"],
+    "bars": [
+      "Rebels Old Town",
+      "Genys Taproom Kaunas",
+      "Švyturys - Utenos alus",
+      "The Living Room Vilnius",
+      "Local Pub",
+      "ŠNEKUTIS"
+    ],
     "cafes": ["Caffeine LT"],
-    "bakeries": [],
-    "chocolatiers": [],
-    "gelaterias": [],
-    "markets": [],
-    "supermarkets": [],
-    "departmentStores": [],
-    "nostalgiaEffect": []
+    "bakeries": ["Grūdas", "Crustum", "Holy Donut"],
+    "markets": ["Halės Market"],
+    "supermarkets": ["Maxima"],
+    "departmentStores": ["G9"],
+    "audioStores": ["HiFi Centras"],
+    "nostalgiaEffect": [
+      "Christmas lights in the thick snow",
+      "Brown-eyed brunette"
+    ]
   },
   "description": "",
   "images": [

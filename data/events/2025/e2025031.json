@@ -6,9 +6,10 @@
   "startDate": "29th of December",
   "endDate": "2nd of January (2026)",
   "features": {
-    "accommodation": ["The Old Church Portpatrick"]
+    "accommodation": ["The Old Church Portpatrick"],
+    "nostalgiaEffect": [""]
   },
-  "description": "",
+  "description": [""],
   "images": [
     {
       "url": "https://lewisbritton.com/images/blog/instant-gram/2025/the-a77-fleet/1.jpg",

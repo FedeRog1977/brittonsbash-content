@@ -1,4 +1,13 @@
 [
-  { "title": "Sets", "content": [] },
-  { "title": "Minifigures", "content": [] }
+  { "title": "BrickLink", "href": "https://www.bricklink.com/v2/main.page" },
+  { "title": "BrickArms", "href": "http://brickarms.com/index.php" },
+  { "title": "KlickyPedia", "href": "https://www.klickypedia.com/" },
+  {
+    "title": "Star Wars Action Figures",
+    "href": "https://galacticfigures.com/star-wars-figures.aspx?type=profession&typeName=clone%20trooper&tsc=tac&img=2"
+  },
+  {
+    "title": "LEGO Building Instructions",
+    "href": "https://www.lego.com/en-gb/service/building-instructions/7104?age-gate=grown_up"
+  }
 ]

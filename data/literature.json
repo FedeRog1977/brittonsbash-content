@@ -47,6 +47,7 @@
       "The Silver Spoon",
       "The Silver Spoon Pasta",
       "The Silver Spoon Chocolate",
+      "Michel Roux Sauces",
       "Nigella Bites",
       "A Cook's Book",
       "Classic French Recipes",
@@ -58,7 +59,8 @@
       "Food You Want to Eat - Thomas Straker"
     ]
   },
-  { "title": "Intellectual", "content": ["The Intelligent Investor"] },
+  { "title": "Technology", "content": ["The TeXbook", "Eloquent JavaScript"] },
+  { "title": "Intellectual", "content": ["The Intelligent Investor", ""] },
   {
     "title": "Other",
     "content": [

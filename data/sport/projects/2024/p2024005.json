@@ -1,0 +1,17 @@
+{
+  "id": "P2024005",
+  "name": "Sewing The Law",
+  "distance": 16.1,
+  "elevation": 4970,
+  "time": "5:22:05",
+  "companionship": 1,
+  "corbetts": ["Broad Law"],
+  "corbettTops": ["Porridge Cairn"],
+  "donalds": [
+    "Talla Cleuch Head",
+    "Broad Law",
+    "Cramalt Craig",
+    "Dollar Law",
+    "Greenside Law"
+  ]
+}

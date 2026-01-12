@@ -1,0 +1,15 @@
+{
+  "id": "P2024020",
+  "name": "The United Kingdom",
+  "distance": 11.6,
+  "elevation": 6719,
+  "time": "5:39:55",
+  "companionship": 0,
+  "munros": [
+    "Aonach Beag (Nevis Range)",
+    "Aonach Mòr",
+    "Càrn Mòr Dearg",
+    "Beinn Nibheis"
+  ],
+  "munroTops": ["Sgùrr a' Bhuic", "Stob Coire Bhealaich", "Càrn Dearg"]
+}

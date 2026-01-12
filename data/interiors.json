@@ -17,5 +17,19 @@
       },
       { "title": "Distributors", "content": ["Tsumani Axis", "Hunters"] }
     ]
+  },
+  {
+    "title": "Sites",
+    "content": [
+      {
+        "title": "Vitra Design Museum Shop",
+        "href": "https://www.design-museum.de/en/information.html"
+      },
+      { "title": "Vinterior", "href": "https://www.vinterior.co/" },
+      {
+        "title": "Steven Burgess Interiors",
+        "href": "https://www.stevenburgess.co.uk/"
+      }
+    ]
   }
 ]

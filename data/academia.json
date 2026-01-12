@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Linguistics",
+    "content": [
+      {
+        "title": "Phonetic Symbols",
+        "href": "https://www.phon.ucl.ac.uk/home/wells/phoneticsymbolsforenglish.htm"
+      },
+      {
+        "title": "English Pronunciations",
+        "href": "https://en.wikipedia.org/wiki/Help:IPA/English"
+      },
+      { "title": "Word Reference", "href": "http://wordreference.com" },
+      {
+        "title": "Collar And Daniell",
+        "href": "https://archive.org/details/collardaniellsfi00collrich/page/4/mode/2up"
+      },
+      { "title": "Etymology", "href": "https://www.etymonline.com/" }
+    ]
+  },
+  {
+    "title": "Maths",
+    "content": [
+      {
+        "title": "Higher Maths Papers",
+        "href": "https://www.highermathematics.co.uk/higher-past-papers/"
+      },
+      {
+        "title": "Number Sets",
+        "href": "https://math.libretexts.org/Courses/Borough_of_Manhattan_Community_College/MAT_206.5/Chapter_0%3A_Introduction/0.2%3A_Sets_of_Numbers#:~:text=A%20set%20of%20numbers%20is,the%20elements%202%20and%2031"
+      },
+      {
+        "title": "Regular Expressions",
+        "href": "https://en.wikipedia.org/wiki/Regular_expression"
+      },
+      {
+        "title": "Self-Assessment Tax",
+        "href": "https://www.gov.uk/log-in-file-self-assessment-tax-return"
+      }
+    ]
+  },
+  {
+    "title": "Statistics",
+    "content": [
+      {
+        "title": "Office for National Statistics (ONS)",
+        "href": "https://www.ons.gov.uk/"
+      },
+      { "title": "Statista", "href": "https://www.statista.com/" },
+      { "title": "Stata", "href": "https://stats.oarc.ucla.edu/stata/" },
+      {
+        "title": "OLS Matrix Form",
+        "href": "https://web.stanford.edu/~mrosenfe/soc_meth_proj3/matrix_OLS_NYU_notes.pdf"
+      },
+      {
+        "title": "p-value to t-stat Converter",
+        "href": "https://www.socscistatistics.com/pvalues/tdistribution.aspx"
+      }
+    ]
+  },
+  {
+    "title": "Finance",
+    "content": [
+      { "title": "The Wall Street Journal", "href": "https://www.wsj.com/" },
+      { "title": "Investopedia", "href": "https://www.investopedia.com/" },
+      { "title": "The Balance", "href": "https://www.thebalancemoney.com/" },
+      { "title": "eToro", "href": "https://www.etoro.com/" },
+      { "title": "Trading 212", "href": "https://www.trading212.com/" },
+      {
+        "title": "Center for Research in Security Prices (CRSP)",
+        "href": "https://www.crsp.org/"
+      },
+      {
+        "title": "Kenneth R. French Data",
+        "href": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html"
+      },
+      {
+        "title": "Hou-Xue-Zhang Data",
+        "href": "https://global-q.org/index.html"
+      }
+    ]
+  },
+  {
+    "title": "Physics",
+    "content": [
+      {
+        "title": "Time Periods",
+        "href": "https://en.wikipedia.org/wiki/List_of_time_periods"
+      }
+    ]
+  },
+  {
+    "title": "History",
+    "content": [
+      {
+        "title": "Centripetal Force",
+        "href": "https://en.wikipedia.org/wiki/Centripetal_force"
+      }
+    ]
+  },
+  {
+    "title": "Random",
+    "content": [
+      {
+        "title": "DC Web (Strathclyde Certificates)",
+        "href": "https://student.digidocs.strath.ac.uk/Account/Login"
+      }
+    ]
+  }
+]

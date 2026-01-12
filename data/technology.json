@@ -1,0 +1,855 @@
+[
+  {
+    "title": "Operating Systems",
+    "content": [
+      "Artix Linux",
+      "Arch Linux",
+      "Manjaro Linux",
+      "macOS Versions",
+      "Windows XP",
+      "Windows 7",
+      "Windows 11"
+    ]
+  },
+  {
+    "title": "Languages",
+    "content": [
+      { "title": "System", "content": ["Bash (Shell)", "Zsh (Shell)"] },
+      { "title": "Configuration", "content": ["YAML", "XML", "JSON"] },
+      {
+        "title": "Typesetting",
+        "content": [
+          "TeX",
+          "LaTeX",
+          "LuaTeX",
+          "Markdown",
+          "R Markdown",
+          "GNU Roff",
+          "GNU Troff",
+          "GNU Nroff"
+        ]
+      },
+      { "title": "Markup", "content": ["HTML", "CSS", "SCSS (SASS)"] },
+      {
+        "title": "Scripting",
+        "content": ["PHP", "Java", "JavaScript", "TypeScript", "Python"]
+      },
+      {
+        "title": "Statistical",
+        "content": ["R", "MATLAB", "Gretl", "GNU Octave"]
+      }
+    ]
+  },
+  {
+    "title": "Programs",
+    "content": [
+      { "title": "Window Tiling", "content": ["i3-gaps", "dwm"] },
+      {
+        "title": "Terminal Emulators",
+        "content": [
+          "Alacritty",
+          "st (Simple Terminal)",
+          "Warp Terminal",
+          "Terminal (Mac)"
+        ]
+      },
+      {
+        "title": "Package Managers",
+        "content": ["pacman", "Homebrew", "NPM", "PNPM"]
+      },
+      { "title": "Configuration Utilities", "content": ["xrandr"] },
+      { "title": "Network Managers", "content": ["nmcli"] },
+      { "title": "Status Bars", "content": ["i3status", "Polybar"] },
+      { "title": "Notification Daemons", "content": ["dunst"] },
+      { "title": "Notification Programs", "content": ["notify-send"] },
+      {
+        "title": "Text Editors",
+        "content": [
+          "Vi",
+          "Vim (Vi Improved)",
+          "Neovim (neo-Vi Improved)",
+          "Nano"
+        ]
+      },
+      { "title": "CSV Environments", "content": ["SC-IM"] },
+      { "title": "Directory Managers", "content": ["ls", "lsd"] },
+      { "title": "File Archive Managers", "content": ["tar"] },
+      { "title": "Data Modifiers", "content": ["shred"] },
+      { "title": "Application Launchers", "content": ["dmenu"] },
+      { "title": "Terminal User Interfaces", "content": ["LF", "Ranger"] },
+      {
+        "title": "Mail Clients",
+        "content": ["Mutt", "NeoMutt", "Thunderbird"]
+      },
+      { "title": "Address Book Clients", "content": ["ppl"] },
+      { "title": "Calendar Clients", "content": ["Calcurse"] },
+      { "title": "Clock Clients", "content": ["tty-clock"] },
+      { "title": "Stock Tickers", "content": ["ticker", "mop-tracker"] },
+      { "title": "RSS Clients", "content": ["Newsboat"] },
+      { "title": "Web Fetchers", "content": ["wget", "cURL"] },
+      { "title": "Image Viewers", "content": ["sxiv"] },
+      { "title": "Image Modifiers", "content": ["GIMP", "Serif Page Plus X9"] },
+      {
+        "title": "Audio Clients",
+        "content": [
+          "cmus",
+          "mpd",
+          "mpc (mpd CLI)",
+          "ncmpcpp (mpd Player Client)"
+        ]
+      },
+      { "title": "Video Clients", "content": ["mpv"] },
+      { "title": "Screen Capture", "content": ["FFmpeg"] },
+      { "title": "Screenshot Clients", "content": ["Scrot"] },
+      {
+        "title": "Compilers",
+        "content": ["Pandoc", "pdfTeX", "pdfLaTeX", "XeLaTeX", "Beamer"]
+      },
+      {
+        "title": "Interpreters",
+        "content": ["python3", "java", "javac", "javadoc"]
+      },
+      { "title": "PDF Viewers", "content": ["MuPDF", "Zathura"] },
+      {
+        "title": "Web Browsers",
+        "content": ["LYNX", "Brave Browser", "Google Chrome", "Google Chromium"]
+      },
+      {
+        "title": "Search Engines",
+        "content": ["DuckDuckGo", "Qwant", "Google"]
+      },
+      {
+        "title": "Entertainment",
+        "content": ["neofetch", "cmatrix", "asciiquarium", "sl"]
+      },
+      { "title": "Version Control", "content": ["Git"] },
+      {
+        "title": "Version Control Clients",
+        "content": ["GitHub", "GitHub CLI"]
+      },
+      {
+        "title": "API Libraries",
+        "content": [
+          "Geolocation",
+          "OpenWeather",
+          "Open Maps",
+          "Ordnance Survey",
+          "Leaflet",
+          "React Leaflet",
+          "Mapbox",
+          "toGeoJSON",
+          "proj4",
+          "Chart.js",
+          "LaTeX.js"
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "content": [
+          "React",
+          "React TypeScript",
+          "React Router",
+          "React Testing Library",
+          "Next.js",
+          "Cypress",
+          "Jenkins Build"
+        ]
+      },
+      { "title": "Editors and IDEs", "content": ["Visual Studio Code"] },
+      {
+        "title": "Project Management",
+        "content": ["GitHub", "Atlassian Jira", "Atlassian Confluence"]
+      },
+      {
+        "title": "Deployment",
+        "content": ["GitHub Pages", "Amazon Web Services"]
+      },
+      {
+        "title": "Processing",
+        "content": ["Microsoft Word", "Microsoft Excel"]
+      }
+    ]
+  },
+  {
+    "title": "Hardware",
+    "content": [
+      {
+        "title": "Telecommunications",
+        "content": [
+          "AT&T Merlin 10-Button",
+          "Cisco CP-7962G-CH1",
+          "Plantronics Voyager 510",
+          "Polycom Conferencing",
+          "Cingular Wireless",
+          "Sony Ericsson K800i",
+          "Sony Ericsson W880i",
+          "Blackberry Curve 8300",
+          "Blackberry Curve 9300",
+          "Blackberry Bold 9700",
+          "Blackberry Bold Touch",
+          "iPhone 4",
+          "iPhone 6S",
+          "Motorola Moto One Hyper",
+          "Motorola e30",
+          "Motorola e40",
+          "iPhone 13 Pro"
+        ]
+      },
+      {
+        "title": "Laptop PCs",
+        "content": [
+          "IBM ThinkPad T23",
+          "IBM ThinkPad X30",
+          "IBM ThinkPad T42",
+          "IBM ThinkPad R50e",
+          "IBM ThinkPad T60",
+          "IBM ThinkPad X60",
+          "Lenovo ThinkPad X200",
+          "Lenovo ThinkPad X220 (2)",
+          "Lenovo ThinkPad T420",
+          "MacBook Pro M4"
+        ]
+      },
+      {
+        "title": "Desktop PCs",
+        "content": [
+          "IBM Personal Computer",
+          "IBM Personal Computer XT",
+          "IBM Personal Computer AT",
+          "IBM Personal System 2 (PS/2)",
+          "Corsair Obsidian 750D",
+          "Asus TUF Gaming Z690-Plus WIFI D4",
+          "Intel Core i9-12900K",
+          "Corsair Vengeance RGB Pro 32GB",
+          "Asus GeForce RTX 3070 Ti",
+          "Corsair CX750F RGB",
+          "Corsair Hydro Series iCUE H150i PRO XT",
+          "ASUS Blu-Ray DVDRW",
+          "Samsung 850 EVO 1TB"
+        ]
+      },
+      {
+        "title": "Peripherals",
+        "content": [
+          "IBM Selectric I",
+          "IBM Selectric II",
+          "IBM Selectric III",
+          "IBM 5153",
+          "IBM Model F AT",
+          "IBM Model F XT",
+          "IBM Model F Battleship",
+          "IBM Model M 1984",
+          "IBM Model M 1987",
+          "IBM Model M Battlecruiser",
+          "LG 27UP650-W 27inch",
+          "Bose Companion 5",
+          "Ducky Mecha Mini RGB",
+          "Razer Mamba 2012",
+          "Steelseries QCK Gaming Mousepad",
+          "Cisco CP-7962G"
+        ]
+      },
+      {
+        "title": "Storage",
+        "content": ["SanDisk 256GB Ultra Flair USB 3.0 Flash Drive"]
+      }
+    ]
+  },
+  {
+    "title": "Sites",
+    "content": [
+      {
+        "title": "People",
+        "content": [
+          { "title": "Luke Smith", "href": "https://lukesmith.xyz/" },
+          {
+            "title": "Donald E. Knuth",
+            "href": "https://www-cs-faculty.stanford.edu/~knuth/"
+          },
+          { "title": "Bram Moolenaar", "href": "https://www.moolenaar.net/" },
+          {
+            "title": "Pete Williams",
+            "href": "https://www.petewritescode.com/"
+          },
+          {
+            "title": "PeteWritesCode",
+            "href": "https://github.com/petewritescode"
+          },
+          {
+            "title": "Calum Leask",
+            "href": "https://calumleask.co.uk/portfolio/"
+          }
+        ]
+      },
+      {
+        "title": "Command Line",
+        "content": [
+          { "title": "explainshell.com", "href": "https://explainshell.com/" },
+          {
+            "title": "DotShare.it",
+            "href": "http://dotshare.it/category/wms/i3/sort/likes/"
+          },
+          {
+            "title": "zsh Guide",
+            "href": "https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html"
+          },
+          {
+            "title": "PS1 Guide",
+            "href": "https://ss64.com/osx/syntax-prompt.html"
+          },
+          {
+            "title": "Date and Time Formatting",
+            "href": "https://www.gnu.org/software/pspp/manual/html_node/Time-and-Date-Formats.html"
+          },
+          { "title": "Vim", "href": "https://www.vim.org/" },
+          {
+            "title": "vimrc Guide",
+            "href": "https://www.shortcutfoo.com/blog/top-50-vim-configuration-options"
+          },
+          {
+            "title": "mutt Guide",
+            "href": "https://www.thegeekdiary.com/how-to-install-and-configure-mutt-in-centos-rhel/"
+          },
+          {
+            "title": "xrandr Guide",
+            "href": "https://wiki.archlinux.org/title/xrandr"
+          },
+          {
+            "title": "man xrandr",
+            "href": "https://www.x.org/releases/X11R7.5/doc/man/man1/xrandr.1.html"
+          },
+          {
+            "title": "xrandr Notes",
+            "href": "https://askubuntu.com/questions/1110171/multi-monitor-setup-with-xrandr"
+          },
+          {
+            "title": "polybar-spotify",
+            "href": "https://github.com/PrayagS/polybar-spotify"
+          },
+          {
+            "title": "dunst Notifications",
+            "href": "https://www.youtube.com/watch?v=XWlbaERuDP4"
+          },
+          {
+            "title": "mop Stock Ticker Guide",
+            "href": "https://robservatory.com/go-old-school-terminal-for-stock-quotes/"
+          },
+          {
+            "title": "Another Ticker",
+            "href": "https://github.com/achannarasappa/ticker"
+          },
+          { "title": "Semantic Versioning", "href": "https://semver.org/" },
+          {
+            "title": "nerdfonts",
+            "href": "https://www.nerdfonts.com/cheat-sheet"
+          },
+          {
+            "title": "Create Pacman Shortcut",
+            "href": "https://www.geeksforgeeks.org/how-to-install-postman-on-arch-based-linux-distributionsmanjaro/"
+          },
+          {
+            "title": "Colima (Docker emulator in Linux server)",
+            "href": "https://github.com/abiosoft/colima/blob/main/README.md"
+          }
+        ]
+      },
+      {
+        "title": "Typesetting",
+        "content": [
+          { "title": "LaTeX.org", "href": "https://latex.org/forum/" },
+          {
+            "title": "LaTeX Project",
+            "href": "https://www.latex-project.org/"
+          },
+          {
+            "title": "LaTeX Document Classes",
+            "href": "https://tex.stackexchange.com/questions/782/what-are-the-available-documentclass-types-and-their-uses"
+          },
+          {
+            "title": "LaTeX Page Setup",
+            "href": "https://www.overleaf.com/learn/latex/Page_size_and_margins"
+          },
+          {
+            "title": "LaTeX Font Catalogue",
+            "href": "https://tug.org/FontCatalogue/"
+          },
+          {
+            "title": "LaTeX List Guide",
+            "href": "https://tug.org/TUGboat/tb36-3/tb114thurnherr.pdf"
+          },
+          {
+            "title": "LaTeX Symbol Guide",
+            "href": "https://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf"
+          },
+          {
+            "title": "LaTeX Symbol Guide",
+            "href": "https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf"
+          },
+          {
+            "title": "LaTeX Symbol Guide",
+            "href": "https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf"
+          },
+          {
+            "title": "LaTeX Symbol Guide",
+            "href": "https://latex-programming.fandom.com/wiki/List_of_LaTeX_symbols"
+          },
+          {
+            "title": "LaTeX Arrows",
+            "href": "https://www.sascha-frank.com/Arrow/latex-arrows.html"
+          },
+          {
+            "title": "LaTeX Default Font Sizes",
+            "href": "https://www.sascha-frank.com/latex-font-size.html"
+          },
+          {
+            "title": "LaTeX Parentheses",
+            "href": "https://www.overleaf.com/learn/latex/Brackets_and_Parentheses"
+          },
+          {
+            "title": "LaTeX Math Basics",
+            "href": "https://www.andy-roberts.net/res/latex/textineqn.pdf"
+          },
+          {
+            "title": "LaTeX Equation Shortcut",
+            "href": "https://latexeditor.lagrida.com/"
+          },
+          {
+            "title": "LaTeX Screenplay Template",
+            "href": "https://www.overleaf.com/latex/templates/screenplay-template/grqmtrnytdhj"
+          },
+          {
+            "title": "LaTeX Pronunciation",
+            "href": "https://tex.stackexchange.com/questions/17502/what-is-the-correct-pronunciation-of-tex-and-latex"
+          },
+          { "title": "LaTeX TikZ Package", "href": "https://tikz.net/" },
+          {
+            "title": "LaTeX TikZ Package Examples",
+            "href": "https://texample.net/tikz/examples/"
+          },
+          {
+            "title": "LaTeX TikZ Game Trees",
+            "href": "http://www.sfu.ca/~haiyunc/notes/Game_Trees_with_TikZ.pdf"
+          },
+          {
+            "title": "LaTeX TikZ UML Diagrams",
+            "href": "https://perso.ensta-paris.fr/~kielbasi/tikzuml/var/files/doc/tikzumlmanual.pdf"
+          },
+          {
+            "title": "LaTeX Dirtree Package Examples",
+            "href": "http://tug.ctan.org/macros/generic/dirtree/dirtree.pdf"
+          },
+          {
+            "title": "LaTeX FontAwesome Package",
+            "href": "http://mirrors.ibiblio.org/CTAN/fonts/fontawesome/doc/fontawesome.pdf"
+          },
+          {
+            "title": "LaTex Alternative Guide",
+            "href": "https://latex.silmaril.ie/formattinginformation/quotes.html"
+          },
+          {
+            "title": "Markdown Guide",
+            "href": "https://www.markdownguide.org/"
+          },
+          {
+            "title": "Daring Fireball Markdown Guide (Go-to)",
+            "href": "https://daringfireball.net/projects/markdown/syntax#autolink"
+          },
+          {
+            "title": "Markdown Calendar Converter",
+            "href": "https://mdcal.io/"
+          },
+          {
+            "title": "Markdown Live Preview",
+            "href": "https://markdownlivepreview.com/"
+          },
+          {
+            "title": "Code Blocks in Markdown",
+            "href": "https://docs.readme.com/rdmd/docs/code-blocks"
+          },
+          {
+            "title": "GNU Troff Guide",
+            "href": "https://www.gnu.org/software/groff/manual/groff.html#Paragraphs"
+          },
+          { "title": "Pandoc Guide", "href": "https://pandoc.org/MANUAL.html" },
+          {
+            "title": "Beamer Guide",
+            "href": "https://ctan.org/pkg/beamer?lang=en"
+          },
+          {
+            "title": "Letter Casing",
+            "href": "https://danielmiessler.com/blog/a-list-of-different-case-types/"
+          },
+          {
+            "title": "Letter Casing",
+            "href": "https://www.imediacto.com/blog/list-of-letter-case-types-in-programming/"
+          },
+          {
+            "title": "MacTeX",
+            "href": "https://www.tug.org/mactex/mactex-download.html"
+          }
+        ]
+      },
+      {
+        "title": "Database and API Service",
+        "content": [
+          {
+            "title": "MongoDB Atlas Cloud",
+            "href": "https://account.mongodb.com/account/login?n=https%3A%2F%2Fcloud.mongodb.com%2Fv2%2F67af6ee76caef751e5ab38ee&nextHash=%23metrics%2FreplicaSet%2F67af87e60353e200e1d77033%2Fexplorer%2Fscotlands-mountains%2Fmunros%2Ffind&signedOut=true"
+          },
+          {
+            "title": "Install and Run `mongosh`",
+            "href": "https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/"
+          },
+          {
+            "title": "Connect `mongosh` to MongoDB Atlas",
+            "href": "https://www.mongodb.com/docs/mongodb-shell/connect/"
+          },
+          { "title": "Spring Initializr", "href": "https://start.spring.io/" },
+          {
+            "title": "Build Springboot Application",
+            "href": "https://spring.io/guides/gs/spring-boot"
+          },
+          {
+            "title": "Connect Springboot Application to MongoDB Atlas",
+            "href": "https://www.mongodb.com/resources/products/compatibilities/spring-boot"
+          },
+          {
+            "title": "Tutorial (1)",
+            "href": "https://www.youtube.com/watch?v=rm9_h2nIJD8"
+          },
+          {
+            "title": "Tutorial (2)",
+            "href": "https://www.youtube.com/watch?v=gDHSLKmG8ZQ"
+          },
+          {
+            "title": "VSCode Java Formatting and Linting",
+            "href": "https://code.visualstudio.com/docs/java/java-linting"
+          },
+          {
+            "title": "OpenWeather",
+            "href": "https://home.openweathermap.org/subscriptions"
+          },
+          {
+            "title": "OS Maps API",
+            "href": "https://osdatahub.os.uk/docs/wmts/technicalSpecification"
+          },
+          {
+            "title": "OS Maps API Overview",
+            "href": "https://osdatahub.os.uk/docs/wmts/overview"
+          },
+          {
+            "title": "OS Maps API Project",
+            "href": "https://osdatahub.os.uk/projects/Burning_Roots"
+          },
+          {
+            "title": "OpenStreetMap Map Features",
+            "href": "https://en.wikipedia.org/wiki/Help:IPA/English"
+          },
+          {
+            "title": "Strava API",
+            "href": "https://www.strava.com/settings/api"
+          },
+          {
+            "title": "Strava API Documentation",
+            "href": "https://developers.strava.com/"
+          },
+          {
+            "title": "Strava Swagger Playground",
+            "href": "https://developers.strava.com/playground/#/Activities/getActivityById"
+          },
+          {
+            "title": "Tennis API",
+            "href": "https://api-tennis.com/documentation"
+          }
+        ]
+      },
+      {
+        "title": "Server Stack",
+        "content": [
+          { "title": "Epik", "href": "https://www.epik.com/" },
+          { "title": "Vultr", "href": "https://www.vultr.com/" },
+          {
+            "title": "Luke Guide 1",
+            "href": "https://www.youtube.com/watch?v=OWAqilIVNgE"
+          },
+          {
+            "title": "Luke Guide 2",
+            "href": "https://www.youtube.com/watch?v=3dIVesHEAzc&t=1s"
+          },
+          {
+            "title": "Express.js Guide",
+            "href": "https://www.youtube.com/watch?v=fgTGADljAeg"
+          },
+          {
+            "title": "Express.js Routing",
+            "href": "https://expressjs.com/en/guide/routing.html"
+          },
+          {
+            "title": "Express.js Swagger UI Express",
+            "href": "https://www.npmjs.com/package/swagger-ui-express"
+          },
+          {
+            "title": "Express.js Swagger Guide 1",
+            "href": "https://dev.to/desmondsanctity/documenting-nodejs-api-using-swagger-4klp#:~:text=Adding%20Swagger%20UI%20and%20Configurations&text=There%20are%20two%20ways%20we,to%20generate%20the%20documentation%20automatically."
+          },
+          {
+            "title": "Express.js Swagger Guide 2",
+            "href": "https://github.com/scottie1984/swagger-ui-express"
+          },
+          {
+            "title": "Express.js Swagger Guide 3",
+            "href": "https://medium.com/@sagiweizmann/express-to-impress-documenting-apis-with-swagger-3744e95c1870"
+          },
+          {
+            "title": "Express.js Integration Testing",
+            "href": "https://dev.to/ali_adeku/guide-to-writing-integration-tests-in-express-js-with-jest-and-supertest-1059"
+          },
+          {
+            "title": "Swagger Guide",
+            "href": "https://swagger.io/docs/specification/v3_0/api-host-and-base-path/"
+          },
+          {
+            "title": "Node.js API Guide 1",
+            "href": "https://www.youtube.com/watch?v=_1xa8Bsho6A&t=248s"
+          },
+          {
+            "title": "Node.js API Guide 2",
+            "href": "https://www.youtube.com/watch?v=i8xHOrPP3NA&list=PLApHoB0FdJ1c20zCUmRfKzuZrZTjxdehi"
+          },
+          {
+            "title": "Next.js ESLint Guide",
+            "href": "https://nextjs.org/docs/app/api-reference/config/eslint#migrating-existing-config"
+          },
+          {
+            "title": "Next.js MDX Guide 1",
+            "href": "https://nextjs.org/docs/pages/guides/mdx"
+          },
+          {
+            "title": "Next.js MDX Guide 2",
+            "href": "https://www.youtube.com/watch?v=34bRv6cQezo"
+          },
+          {
+            "title": "Next.js MDX Syntax Highlighting",
+            "href": "https://gaudion.dev/blog/mdx-syntax-highlighting"
+          },
+          {
+            "title": "Next.js Rehype",
+            "href": "https://github.com/rehypejs/rehype-highlight"
+          },
+          {
+            "title": "Next.js Highlight.js",
+            "href": "https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md"
+          }
+        ]
+      },
+      {
+        "title": "Web (HTML, CSS, JS, TS, Node.js, React, Next.js)",
+        "content": [
+          {
+            "title": "MDN Web Docs",
+            "href": "https://developer.mozilla.org/en-US/"
+          },
+          { "title": "StackExchange", "href": "https://stackexchange.com/" },
+          { "title": "Stack Overflow", "href": "https://stackoverflow.com/" },
+          { "title": "w3schools", "href": "https://www.w3schools.com/" },
+          { "title": "Wayback Machine", "href": "https://archive.org/web/" },
+          {
+            "title": "Eloquent JavaScript",
+            "href": "https://eloquentjavascript.net/"
+          },
+          { "title": "Regexper", "href": "https://regexper.com/" },
+          {
+            "title": "Identifont",
+            "href": "http://www.identifont.com/year?2007"
+          },
+          {
+            "title": "Old School Fonts",
+            "href": "https://int10h.org/oldschool-pc-fonts/fontlist/?2#att"
+          },
+          {
+            "title": "JSON Forms",
+            "href": "https://jsonforms.io/"
+          },
+          {
+            "title": "HTML Special Characters",
+            "href": "https://www.compart.com/"
+          },
+          {
+            "title": "HTML Special Characters",
+            "href": "https://www.tbi.univie.ac.at/~studla/html-spec_9.html"
+          },
+          {
+            "title": "HTML Special Characters",
+            "href": "https://www.w3schools.com/html/html_symbols.asp"
+          },
+          {
+            "title": "HTML Math Operators",
+            "href": "https://www.w3schools.com/charsets/ref_utf_math.asp"
+          },
+          {
+            "title": "HTML Color Converter",
+            "href": "https://www.w3schools.com/colors/colors_converter.asp"
+          },
+          {
+            "title": "HTML Two-Column Layout",
+            "href": "https://www.w3schools.com/howto/howto_css_two_columns.asp"
+          },
+          {
+            "title": "HTML Tag Stripper",
+            "href": "https://www.striphtml.com/"
+          },
+          {
+            "title": "npm amphtml-validator",
+            "href": "https://www.npmjs.com/package/amphtml-validator"
+          },
+          {
+            "title": "CSS Cursor Properties",
+            "href": "https://www.w3schools.com/cssref/pr_class_cursor.php"
+          },
+          { "title": "CSS Tricks", "href": "https://css-tricks.com/" },
+          {
+            "title": "CSS Tricks Grid",
+            "href": "https://css-tricks.com/snippets/css/complete-guide-grid/"
+          },
+          {
+            "title": "JavaScript Date Formatting",
+            "href": "https://www.freecodecamp.org/news/how-to-format-dates-in-javascript/"
+          },
+          { "title": "JSON Formatter", "href": "https://jsonformatter.org/" },
+          {
+            "title": "JSON Command Line Validator",
+            "href": "https://www.xmodulo.com/validate-json-command-line-linux.html"
+          },
+          { "title": "JSON web tokens", "href": "https://www.jwt.io/" },
+          {
+            "title": "toGeoJSON",
+            "href": "https://mapbox.github.io/togeojson/"
+          },
+          {
+            "title": "TypeScript.org",
+            "href": "https://www.typescriptlang.org/"
+          },
+          { "title": "npmjs", "href": "https://www.npmjs.com/" },
+          {
+            "title": "React useForm",
+            "href": "https://react-hook-form.com/docs/useform"
+          },
+          {
+            "title": "Vercel Deploy",
+            "href": "https://vercel.com/federog1977s-projects"
+          },
+          { "title": "PM2", "href": "https://pm2.keymetrics.io/" },
+          {
+            "title": "Deploy Next.js App To Ubuntu with PM2",
+            "href": "https://fazalerabbi.medium.com/deploying-a-next-js-application-with-pm2-nginx-and-ssl-on-a-digitalocean-droplet-d75c5b811e0d"
+          },
+          {
+            "title": "Deploy Next.js App To Ubuntu with PM2",
+            "href": "https://www.youtube.com/watch?v=mFOFR5YfZzA"
+          }
+        ]
+      },
+      {
+        "title": "Data Management",
+        "content": [
+          {
+            "title": "Redis Cloud Config",
+            "href": "https://cloud.redis.io/?utm_source=google&utm_medium=organic&utm_campaign=search&utm_term=not%20specified&utm_content=not%20specified#/add-subscription/free"
+          },
+          {
+            "title": "Redis Docs",
+            "href": "https://docs.nestjs.com/microservices/redis"
+          },
+          {
+            "title": "Redis Tutorial",
+            "href": "https://www.youtube.com/watch?v=UbtNnHFXK9E&list=PL4cUxeGkcC9h3V2eqhi8rRdIDJshP-b4P&index=9"
+          },
+          {
+            "title": "Redis Tutorial",
+            "href": "https://www.youtube.com/watch?v=JFM-o-csWLs&list=PL4cUxeGkcC9h3V2eqhi8rRdIDJshP-b4P&index=10"
+          }
+        ]
+      },
+      {
+        "title": "Hardware",
+        "content": [
+          {
+            "title": "IBM Archives",
+            "href": "https://www.ibm.com/ibm/history/index.html"
+          },
+          {
+            "title": "ThinkWiki",
+            "href": "https://www.thinkwiki.org/wiki/ThinkWiki"
+          },
+          {
+            "title": "IBM Personal Computer",
+            "href": "https://en.wikipedia.org/wiki/IBM_Personal_Computer"
+          },
+          {
+            "title": "IBM Model M",
+            "href": "https://deskthority.net/wiki/IBM_Model_M"
+          },
+          {
+            "title": "IBM Model M",
+            "href": "https://www.clickykeyboards.com/product-category/1986-1989-ibm-model-m-silver-label/"
+          },
+          {
+            "title": "IBM Model M Video",
+            "href": "https://www.youtube.com/watch?v=r5H58uudo1Y"
+          },
+          {
+            "title": "IBM Model M Linus Video",
+            "href": "https://www.youtube.com/watch?v=D7wmMZmMinM"
+          },
+          {
+            "title": "Trackpoint",
+            "href": "https://www.reddit.com/r/thinkpad/comments/f7c4x8/comparison_of_trackpoint_caps/?utm_source=share&utm_medium=web2x"
+          },
+          {
+            "title": "Sony CDP 101",
+            "href": "https://en.wikipedia.org/wiki/Sony_CDP-101"
+          }
+        ]
+      },
+      {
+        "title": "Random",
+        "content": [
+          {
+            "title": "Web Design Museum",
+            "href": "https://www.webdesignmuseum.org/gallery/year-2007"
+          },
+          { "title": "TTSMP3", "href": "https://ttsmp3.com/" },
+          { "title": "Textreader Pro", "href": "https://textreader.pro/" },
+          {
+            "title": "Meme Generator",
+            "href": "https://imgflip.com/memegenerator"
+          },
+          {
+            "title": "GIF Generator",
+            "href": "https://www.3dgifmaker.com/360Spin"
+          },
+          {
+            "title": "GIFuffle",
+            "href": "http://www-staging.gifuffle.com.s3-website-us-east-1.amazonaws.com/"
+          },
+          { "title": "Know Your Meme", "href": "https://knowyourmeme.com/" },
+          { "title": "Wojak Land", "href": "https://wojakland.com/" },
+          {
+            "title": "RFC Editor",
+            "href": "https://www.rfc-editor.org/rfc/rfc2324"
+          },
+          { "title": "Vim Adventures", "href": "https://vim-adventures.com/" },
+          {
+            "title": "BlackBerry Bold Touch 9900",
+            "href": "https://www.gsmarena.com/blackberry_bold_touch_9900-3116.php"
+          },
+          { "title": "Kid Pix", "href": "https://kidpix.app/" },
+          {
+            "title": "Awesome 2007 Style Website (Bernie Smith from Take That)",
+            "href": "https://www.berniesmithpiano.com/about-me"
+          }
+        ]
+      }
+    ]
+  }
+]

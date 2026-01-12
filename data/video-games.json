@@ -1,42 +1,5 @@
 [
   {
-    "title": "Sites",
-    "content": [
-      {
-        "title": "The Sims Resource",
-        "href": "https://www.thesimsresource.com/"
-      },
-      {
-        "title": "GTA IV Heavy Rain In Liberty City: Episode 1",
-        "href": "https://www.youtube.com/watch?v=dJDOwYkkkKQ"
-      },
-      {
-        "title": "GTA IV Heavy Rain In Liberty City: Episode 2",
-        "href": "https://www.youtube.com/watch?v=yvVuQfL18PM"
-      },
-      {
-        "title": "GTA IV The Bad Assassin",
-        "href": "https://www.youtube.com/watch?v=h6w0bj0flWA"
-      },
-      {
-        "title": "GTA IV Living In Liberty City",
-        "href": "https://www.youtube.com/watch?v=naCS2PjqSgE"
-      },
-      {
-        "title": "GTA IV Silent Hell",
-        "href": "https://www.youtube.com/watch?v=VFT7b584U9w"
-      },
-      {
-        "title": "GTA SA The Virus (Not Original)",
-        "href": "https://www.youtube.com/watch?v=GlLGDu6PTIU"
-      },
-      {
-        "title": "Quiplash",
-        "href": "https://www.jackboxgames.com/games/quiplash"
-      }
-    ]
-  },
-  {
     "title": "Video Games",
     "content": [
       "Minecraft",
@@ -147,6 +110,52 @@
       "Super Mario: Galaxy 2",
       "New Super Mario Bros.",
       "New Super Mario Bros. Wii"
+    ]
+  },
+  {
+    "title": "YouTube Classics",
+    "content": [
+      {
+        "title": "GTA IV Heavy Rain In Liberty City: Episode 1",
+        "href": "https://www.youtube.com/watch?v=dJDOwYkkkKQ"
+      },
+      {
+        "title": "GTA IV Heavy Rain In Liberty City: Episode 2",
+        "href": "https://www.youtube.com/watch?v=yvVuQfL18PM"
+      },
+      {
+        "title": "GTA IV The Bad Assassin",
+        "href": "https://www.youtube.com/watch?v=h6w0bj0flWA"
+      },
+      {
+        "title": "GTA IV Living In Liberty City",
+        "href": "https://www.youtube.com/watch?v=naCS2PjqSgE"
+      },
+      {
+        "title": "GTA IV Silent Hell",
+        "href": "https://www.youtube.com/watch?v=VFT7b584U9w"
+      },
+      {
+        "title": "GTA SA The Virus (Not Original)",
+        "href": "https://www.youtube.com/watch?v=GlLGDu6PTIU"
+      }
+    ]
+  },
+  {
+    "title": "Sites",
+    "content": [
+      {
+        "title": "The Sims Resource",
+        "href": "https://www.thesimsresource.com/"
+      },
+      {
+        "title": "Quiplash",
+        "href": "https://www.jackboxgames.com/games/quiplash"
+      },
+      {
+        "title": "Club Penguin Fandom",
+        "href": "https://clubpenguin.fandom.com/wiki/Coffee_Shop#2005_2"
+      }
     ]
   }
 ]

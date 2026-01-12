@@ -5,6 +5,7 @@
       "Hugo Boss",
       "Giorgio Armani",
       "Gianni Versace",
+      "Loro Piana",
       "Tom Ford",
       "Paul Smith",
       "Thomas Pink",
@@ -51,7 +52,7 @@
       "ASICS GT-2160 (GT-2000 replica)",
       "ASICS GT-2000",
       "ASICS Gel Nimbus",
-      "Nike Air Monarch",
+      "Nike Pegasus Plus",
       "On THE ROGER Clubhouse Mid"
     ]
   },
@@ -89,6 +90,49 @@
       "The Krasny Hourglass",
       "The Full Windsor",
       "The Pratt"
+    ]
+  },
+  {
+    "title": "Sites",
+    "content": [
+      {
+        "title": "Vintage Sunglasses",
+        "href": "https://www.vintage-sunglasses-shop.com/eyewear/12861/linda-farrow-6031-scarface-movie-glasses"
+      },
+      { "title": "Grailed", "href": "https://www.grailed.com/" },
+      { "title": "StockX", "href": "https://stockx.com/en-gb" },
+      {
+        "title": "Dover Street Market",
+        "href": "https://shop.doverstreetmarket.com/"
+      },
+      { "title": "Homme+", "href": "https://www.hommeplus.eu/" },
+      { "title": "Love from Skye", "href": "https://www.lovefromskye.co.uk/" },
+      { "title": "4GSeller", "href": "https://4gseller.com/" },
+      {
+        "title": "Frederick Grove",
+        "href": "https://frederickgrove.com/collections/all"
+      },
+      {
+        "title": "The Great Frog",
+        "href": "https://www.thegreatfroglondon.com/"
+      },
+      { "title": "Chrome Hearts", "href": "https://www.chromehearts.com/" },
+      { "title": "The Library", "href": "https://thelibrary1994.com/" },
+      { "title": "Sruli Recht", "href": "https://www.srulirecht.com/" },
+      { "title": "Brandy Melville", "href": "https://uk.brandymelville.com/" },
+      { "title": "Taeha Types", "href": "https://www.taehatypes.com/archive" },
+      {
+        "title": "What is Gorpcore?",
+        "href": "https://www.grailed.com/drycleanonly/what-is-gorpcore"
+      },
+      {
+        "title": "Kraft, Power, Strength",
+        "href": "https://www.youtube.com/watch?v=lKjw3oWrMrI"
+      },
+      {
+        "title": "Agree or Die (Alex Krasny)",
+        "href": "https://agreeordie.com/features/fashion/"
+      }
     ]
   }
 ]

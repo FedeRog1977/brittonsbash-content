@@ -244,5 +244,179 @@
       "Spiral Mixing Spoon"
     ]
   },
-  { "title": "Appliance Types", "content": [] }
+  { "title": "Appliance Types", "content": [] },
+  {
+    "title": "Chefs and Cooks",
+    "content": [
+      "Gordon Ramsay",
+      "Marco Pierre White",
+      "Heston Blumenthal",
+      "James Martin",
+      "Rick Stein",
+      "Tom Kerridge",
+      "Nigel Slater",
+      "Nigella Lawson",
+      "Gino D'Acampo",
+      "Barefoot Contessa",
+      "Pioneer Woman",
+      "Babish (Binging / Basics)",
+      "Mike Greenfield",
+      "Sam The Cooking Guy",
+      "Adam Ragusea",
+      "Matthew Ryle",
+      "Notorious Foodie",
+      "Max Mariola",
+      "Thomas Straker",
+      "Sam's Eats"
+    ]
+  },
+  {
+    "title": "Shopping Essentials",
+    "content": [
+      {
+        "title": "Groceries",
+        "content": [
+          {
+            "title": "Basics",
+            "content": ["Milk", "Honey", "Oats", "Tea", "Coffee"]
+          },
+          {
+            "title": "Fresh Produce",
+            "content": [
+              "Garlic",
+              "Ginger",
+              "Chillies",
+              "Onions",
+              "Peppers",
+              "Carrots",
+              "Leeks",
+              "Tomatoes",
+              "Tender stem broccoli",
+              "Mushrooms",
+              "Beansprouts",
+              "Fresh spinach",
+              "Frozen peas",
+              "Spring onions",
+              "Fresh coriander"
+            ]
+          },
+          {
+            "title": "Meat, Poultry And Eggs",
+            "content": ["Eggs", "Chicken", "Beef", "Pork"]
+          },
+          {
+            "title": "Wheat, Rice, Potatoes And Grains",
+            "content": [
+              "Potatoes",
+              "Jasmine rice",
+              "Egg noodles",
+              "Chickpeas",
+              "Cannellini beans",
+              "Red kidney beans"
+            ]
+          },
+          { "title": "Seasonings", "content": ["Salt", "Pepper"] },
+          {
+            "title": "Oils, Sauces And Dressings",
+            "content": [
+              "Olive oil",
+              "Sesame oil",
+              "Chicken stock",
+              "Beef stock",
+              "Soy sauce",
+              "Oyster sauce",
+              "Rice vinegar",
+              "Sriracha sauce"
+            ]
+          },
+          {
+            "title": "Herbs And Spices",
+            "content": [
+              "Dried oregano",
+              "Dried rosemary",
+              "Dried sage",
+              "Dried garam masala",
+              "Dried coriander",
+              "Dried cumin",
+              "Dried smoked paprika",
+              "Dried cayenne pepper",
+              "Dried turmeric",
+              "Dried cinnamon",
+              "Corn flour"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Toiletries",
+        "content": [
+          "Dental brushes",
+          "Floss",
+          "Tongue scraper",
+          "Toothbrush",
+          "Toothpaste",
+          "Toothpaste mini",
+          "Razor blades",
+          "Razor grip",
+          "Scrunchy",
+          "Body soap",
+          "Face soap",
+          "Shampoo",
+          "Tweezers",
+          "Nail scissors",
+          "Nail clippers",
+          "Nail file",
+          "Hand cream",
+          "Comb",
+          "Clippers",
+          "Scissors",
+          "Deodorant"
+        ]
+      },
+      {
+        "title": "Domestic",
+        "content": [
+          "Toilet paper",
+          "Kitchen paper",
+          "Hand soap",
+          "Cleaning cloths",
+          "Steel wool",
+          "Washing up pads",
+          "Washing up soap",
+          "Laundry soap",
+          "Bleach",
+          "Caustic Soda",
+          "Mop"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Sites",
+    "content": [
+      { "title": "Luke's Recipe Site", "href": "https://based.cooking" },
+      {
+        "title": "Pizza Dough Calculator",
+        "href": "https://www.stadlermade.com/pizza-calculator/"
+      },
+      { "title": "Garage Bar", "href": "https://www.garage-bar.co.uk/" },
+      { "title": "Beer Merchants", "href": "https://www.beermerchants.com/" },
+      {
+        "title": "Beers of Europe",
+        "href": "https://www.beersofeurope.co.uk/"
+      },
+      { "title": "Winevybe", "href": "https://winevybe.com/beer/wheat-beer/" },
+      {
+        "title": "The Belgian Beer Company",
+        "href": "https://www.thebelgianbeercompany.com/"
+      },
+      { "title": "Majestic Wine", "href": "https://www.majestic.co.uk/" },
+      { "title": "Master of Malt", "href": "https://www.masterofmalt.com/" },
+      { "title": "Dolce Cilento", "href": "https://www.dolcecilento.com/" },
+      {
+        "title": "Packing Containers",
+        "href": "https://www.enviropack.org.uk/"
+      }
+    ]
+  }
 ]

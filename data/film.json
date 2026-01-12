@@ -1,31 +1,5 @@
 [
   {
-    "title": "Sites",
-    "content": [
-      {
-        "title": "Panavision Variants",
-        "href": "https://logo-timeline.fandom.com/wiki/Panavision/Credits_Variants"
-      }
-    ]
-  },
-  {
-    "title": "Videos",
-    "content": [
-      {
-        "title": "Secret Admirer - Just A Dream Away",
-        "href": "https://www.youtube.com/watch?v=Ey9UJ14kQfk&list=RDEy9UJ14kQfk&start_radio=1"
-      },
-      {
-        "title": "Sixteen Candles Ending",
-        "href": "https://www.youtube.com/watch?v=lOiRMN5nRO8"
-      },
-      {
-        "title": "Pretty In Pink Ending",
-        "href": "https://www.youtube.com/watch?v=aMHoTke5Q6E&list=RDaMHoTke5Q6E&start_radio=1"
-      }
-    ]
-  },
-  {
     "title": "Feature Films",
     "content": [
       {
@@ -859,6 +833,49 @@
       },
       { "title": "1976", "content": ["Logan's Run", "Taxi Driver"] },
       { "title": "1973", "content": ["American Graffiti"] }
+    ]
+  },
+  {
+    "title": "Clips",
+    "content": [
+      {
+        "title": "Secret Admirer - Just A Dream Away",
+        "href": "https://www.youtube.com/watch?v=Ey9UJ14kQfk&list=RDEy9UJ14kQfk&start_radio=1"
+      },
+      {
+        "title": "Sixteen Candles Ending",
+        "href": "https://www.youtube.com/watch?v=lOiRMN5nRO8"
+      },
+      {
+        "title": "Pretty In Pink Ending",
+        "href": "https://www.youtube.com/watch?v=aMHoTke5Q6E&list=RDaMHoTke5Q6E&start_radio=1"
+      }
+    ]
+  },
+  {
+    "title": "Sites",
+    "content": [
+      { "title": "Blu-ray", "href": "https://www.blu-ray.com/" },
+      {
+        "title": "Universal Playback",
+        "href": "https://paulrobertlloyd.com/projects/universal_playback/"
+      },
+      {
+        "title": "Panavision Variants",
+        "href": "https://logo-timeline.fandom.com/wiki/Panavision/Credits_Variants"
+      },
+      {
+        "title": "John Hughes Movie Tour",
+        "href": "https://themommyavenger.com/2021/08/19/create-your-own-movie-tour-john-hughes-and-chicagos-north-shore/"
+      },
+      {
+        "title": "John Hughes School",
+        "href": "https://www.google.com/maps/@42.06108,-87.8627398,3a,88.1y,177.44h,95.58t/data=!3m7!1e1!3m5!1sdlso8ryrwC6o9Ve2D3M_gQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-5.579999999999998%26panoid%3Ddlso8ryrwC6o9Ve2D3M_gQ%26yaw%3D177.44!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI1MDgxNy4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "title": "Best of Allison Cameron",
+        "href": "https://allaboutjmo.tumblr.com/post/649648189440409600/jen-as-allison-cameron-in-house-md-episode"
+      }
     ]
   }
 ]

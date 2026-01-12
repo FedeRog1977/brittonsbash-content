@@ -10,6 +10,7 @@
       "Interiors: The Greatest Rooms Of The Century",
       "The First Fifty Years 1913-1963 Arthur Andersen & Co",
       "IBM - Graphic Design Guide From 1969 To 1987",
+      "IBM Graphic Standard Manual - Paul Rand",
       "Magazine B (Various)",
       "Bauhaus. Updated Edition",
       "Audi Design (engl.) Auto Union GmbH",
@@ -60,7 +61,13 @@
     ]
   },
   { "title": "Technology", "content": ["The TeXbook", "Eloquent JavaScript"] },
-  { "title": "Intellectual", "content": ["The Intelligent Investor", ""] },
+  {
+    "title": "Intellectual",
+    "content": [
+      "The Intelligent Investor",
+      "Introductory Econometrics A Modern Approach - Wooldridge"
+    ]
+  },
   {
     "title": "Other",
     "content": [

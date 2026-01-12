@@ -1,0 +1,10 @@
+{
+  "id": "P2024030",
+  "name": "West Is Best",
+  "distance": 9.43,
+  "elevation": 3789,
+  "time": "3:50:52",
+  "companionship": 0,
+  "munros": ["A' Chralaig", "Mullach Fraoch-choire"],
+  "munroTops": ["Stob Coire Na Craileig"]
+}

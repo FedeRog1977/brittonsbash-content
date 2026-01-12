@@ -53,5 +53,85 @@
       "5 Door, 565l Cabin Capacity",
       "Lavagrau Grey w/ Pearlescent Body & Matte Trim"
     ]
+  },
+  {
+    "title": "Sites",
+    "content": [
+      {
+        "title": "myAudi",
+        "href": "https://www.audi.co.uk/uk/web/en/owners/audi-connect/my-audi.html"
+      },
+      {
+        "title": "Audi Allroad Specs",
+        "href": "https://www.autoevolution.com/audi/allroad/"
+      },
+      {
+        "title": "Audi A6 Allroad Specs",
+        "href": "https://www.autoevolution.com/cars/audi-allroad-2006.html#aeng_audi-allroad-2006-30-tfsi-v6"
+      },
+      {
+        "title": "Audi A6 Allroad Parkers",
+        "href": "https://www.parkers.co.uk/audi/a6/allroad-2006/27-tdi-quattro-5d-tip-auto/specs/"
+      },
+      {
+        "title": "Audi Tradition",
+        "href": "https://shops.audi.com/en_GB/web/tradition/"
+      },
+      { "title": "Quattro Daily", "href": "https://www.quattrodaily.com/" },
+      {
+        "title": "Velocity",
+        "href": "https://www.velocityjournal.com/journal/2008/audi/15063/index.html"
+      },
+      {
+        "title": "C5 Allroad Power",
+        "href": "https://www.youtube.com/watch?v=r4kZQVB-mwE"
+      },
+      {
+        "title": "Classic Trader",
+        "href": "https://www.classic-trader.com/uk/cars"
+      },
+      {
+        "title": "Romans International",
+        "href": "https://www.romansinternational.com/"
+      },
+      {
+        "title": "Geometry Comparison",
+        "href": "https://www.carsized.com/en/"
+      },
+      {
+        "title": "Ross Tech VCDS",
+        "href": "https://www.ross-tech.com/vag-com/VCDS.php"
+      },
+      { "title": "Parts Guide", "href": "https://audi.7zap.com/en/rdw/" },
+      {
+        "title": "Parts Supplier",
+        "href": "https://www.eurocarparts.com/car-parts"
+      },
+      {
+        "title": "Air Suspension Supplier",
+        "href": "https://aerosus.co.uk/audi/a6/c6-4f.html"
+      },
+      {
+        "title": "Air Suspension Bag Repair",
+        "href": "https://www.youtube.com/watch?v=_FyYTFBsscc"
+      },
+      {
+        "title": "Color Guide",
+        "href": "https://www.automotivetouchup.com/touch-up-paint/audi/2008/a6/"
+      },
+      {
+        "title": "Care Guide",
+        "href": "https://www.youtube.com/watch?v=BbTeVU0kXl8"
+      },
+      {
+        "title": "Paint Supplier",
+        "href": "https://www.audipartsdirect.co.uk/product/audi-lava-grey-touch-up-set-lst0p2z7l"
+      },
+      {
+        "title": "GOV DVLA Driving Licence",
+        "href": "https://www.gov.uk/view-driving-licence#your-details"
+      },
+      { "title": "3D Tuning", "href": "https://www.3dtuning.com/en-US/" }
+    ]
   }
 ]

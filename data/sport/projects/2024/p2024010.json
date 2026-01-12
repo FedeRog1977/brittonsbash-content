@@ -1,0 +1,14 @@
+{
+  "id": "P2024010",
+  "name": "Mullardoch Negotiations",
+  "distance": 19.2,
+  "elevation": 9370,
+  "time": "7:36:59",
+  "companionship": 1,
+  "munros": [
+    "Càrn nan Gobhar (Loch Mullardoch)",
+    "Sgùrr na Lapaich",
+    "An Riabhachan",
+    "An Socach (Mullardoch)"
+  ]
+}

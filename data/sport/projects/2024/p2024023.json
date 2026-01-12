@@ -1,0 +1,15 @@
+{
+  "id": "P2024023",
+  "name": "The Ring Of Steall",
+  "distance": 10.42,
+  "elevation": 5640,
+  "time": "4:49:46",
+  "companionship": 0,
+  "munros": [
+    "An Gearanach",
+    "Stob Coire a' Chàirn",
+    "Am Bodach",
+    "Sgùrr a' Mhàim"
+  ],
+  "munroTops": ["An Garbhanach", "Sgurr An Iubhair", "Stob Choire A' Mhail"]
+}

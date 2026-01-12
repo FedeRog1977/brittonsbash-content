@@ -35,5 +35,19 @@
       "Boss Orange Man",
       "Forbidden Rose Avril Lavigne"
     ]
+  },
+  {
+    "title": "Sites",
+    "content": [
+      {
+        "title": "Fragrantica",
+        "href": "https://www.fragrantica.com/perfume-finder/"
+      },
+      { "title": "Parfumo", "href": "https://www.parfumo.com/" },
+      {
+        "title": "Alberto Morillas Perfumer",
+        "href": "https://www.fragrantica.com/noses/Alberto_Morillas.html"
+      }
+    ]
   }
 ]

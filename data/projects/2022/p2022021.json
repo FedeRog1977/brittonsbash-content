@@ -1,0 +1,10 @@
+{
+  "id": "P2022021",
+  "name": "Resurrection",
+  "distance": 20.72,
+  "elevation": 8688,
+  "time": "8:10:24",
+  "companionship": 0,
+  "munros": ["Ben Lui", "Beinn a' Chleibh", "Ben Oss", "Beinn Dubhchraig"],
+  "corbetts": ["Beinn Chuirn"]
+}

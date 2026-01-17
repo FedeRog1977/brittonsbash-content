@@ -1,0 +1,9 @@
+{
+  "id": "P2022015",
+  "name": "Beinn Uruguay",
+  "distance": 12.34,
+  "elevation": 4232,
+  "time": "4:47:55",
+  "companionship": 1,
+  "munros": ["Beinn Fhionnlaidh"]
+}

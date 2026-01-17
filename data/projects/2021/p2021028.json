@@ -1,0 +1,13 @@
+{
+  "id": "P2021028",
+  "name": "Give Me Mòr",
+  "distance": 8.23,
+  "elevation": 3859,
+  "time": "3:29:13",
+  "companionship": 4,
+  "munros": [
+    "Stob Dearg (Buachaille Etive Mòr)",
+    "Stob na Bròige (Buachaille Etive Mòr)"
+  ],
+  "munroTops": ["Stob Coire Altruim (Buachaille Etive Mòr)"]
+}

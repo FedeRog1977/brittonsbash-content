@@ -1,0 +1,19 @@
+{
+  "id": "P2022012",
+  "name": "The Cairnwell Nine",
+  "distance": 21.86,
+  "elevation": 6886,
+  "time": "7:42:22",
+  "companionship": 1,
+  "munros": [
+    "Creag Leacach",
+    "Glas Maol",
+    "Cairn of Claise",
+    "Tom Buidhe",
+    "Tollmount",
+    "Càrn an Tuirc",
+    "Càrn Aosda",
+    "Càrn a' Ghèoidh",
+    "The Cairnwell"
+  ]
+}

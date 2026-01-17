@@ -1,0 +1,15 @@
+{
+  "id": "P2023023",
+  "name": "Führer's Thule",
+  "distance": 14.26,
+  "elevation": 5167,
+  "time": "4:56:41",
+  "companionship": 1,
+  "munros": [
+    "Sgùrr na Ruaidhe",
+    "Càrn nan Gobhar (Strathfarrar)",
+    "Sgùrr a' Choire Ghlais",
+    "Sgùrr Fhuar-thuill"
+  ],
+  "munroTops": ["Creag Ghorm A' Bhealaich", "Sgùrr na Fearstaig"]
+}

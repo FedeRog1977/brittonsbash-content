@@ -1,0 +1,14 @@
+{
+  "id": "P2023022",
+  "name": "Lorraine Kelly - Halfway House",
+  "distance": 17.44,
+  "elevation": 5551,
+  "time": "6:43:22",
+  "companionship": 1,
+  "munros": [
+    "Sgùrr nan Coireachan (Glen Dessary)",
+    "Garbh Chioch Mhòr",
+    "Sgùrr na Cìche"
+  ],
+  "munroTops": ["Garbh Chioch Bheag"]
+}

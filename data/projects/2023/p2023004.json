@@ -1,0 +1,13 @@
+{
+  "id": "P2023004",
+  "name": "Back To Schoolish",
+  "distance": 11.01,
+  "elevation": 5026,
+  "time": "4:50:35",
+  "companionship": 1,
+  "munros": [
+    "Sgòrr Dhearg (Beinn a' Bheithir)",
+    "Sgòrr Dhònuill (Beinn a' Bheithir)"
+  ],
+  "munroTops": ["Sgòrr Bhan"]
+}

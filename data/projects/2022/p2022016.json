@@ -1,0 +1,17 @@
+{
+  "id": "P2022016",
+  "name": "The Magnificent Seven",
+  "distance": 18.86,
+  "elevation": 7129,
+  "time": "6:47:57",
+  "companionship": 6,
+  "munros": [
+    "Creag a' Mhàim",
+    "Druim Shionnach",
+    "Aonach Air Chrith",
+    "Maol chinn-dearg",
+    "Sgùrr an Doire Leathain",
+    "Sgùrr an Lochain",
+    "Creag nan Dàmh"
+  ]
+}

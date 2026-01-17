@@ -1,0 +1,14 @@
+{
+  "id": "P2022011",
+  "name": "Fort William And Mallaig Reloaded (Exclusive Glenfinnan DLC)",
+  "distance": 15.24,
+  "elevation": 5390,
+  "time": "5:40:29",
+  "companionship": 4,
+  "munros": ["Sgùrr nan Coireachan (Glenfinnan)", "Sgùrr Thuilm"],
+  "corbettTops": [
+    "Sgùrr a' Choire Riabhaich",
+    "Meall an Tàrmachain",
+    "Beinn Gharbh"
+  ]
+}

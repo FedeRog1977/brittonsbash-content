@@ -1,0 +1,10 @@
+{
+  "id": "P2022010",
+  "name": "Beinn Slugger",
+  "distance": 8.65,
+  "elevation": 4308,
+  "time": "4:06:17",
+  "companionship": 1,
+  "munros": ["Beinn Sgulaird"],
+  "corbettTops": ["Meall Garbh"]
+}

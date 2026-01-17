@@ -1,0 +1,14 @@
+{
+  "id": "P2020002",
+  "name": "Bag One Get Three Free",
+  "distance": 14.3,
+  "elevation": 4305,
+  "time": "5:53:20",
+  "companionship": 1,
+  "munros": [
+    "Càrn Gorm",
+    "Meall Garbh (Càrn Mairg)",
+    "Càrn Mairg",
+    "Creag Mhòr (Meall na Aighean)"
+  ]
+}

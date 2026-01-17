@@ -1,0 +1,11 @@
+{
+  "id": "P2022008",
+  "name": "Ùrar - 2022 Edition",
+  "distance": 9.88,
+  "elevation": 4426,
+  "time": "3:47:44",
+  "companionship": 3,
+  "munros": ["Sgòr na h-Ulaidh"],
+  "munroTops": ["Stob an Fhuarain"],
+  "corbetts": ["Meall Lighiche"]
+}

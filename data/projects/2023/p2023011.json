@@ -1,0 +1,20 @@
+{
+  "id": "P2023011",
+  "name": "Ham And Egg Sarnie",
+  "distance": 13.7,
+  "elevation": 5384,
+  "time": "5:47:56",
+  "companionship": 1,
+  "munros": [
+    "Sgùrr Chòinnich Mòr",
+    "Stob Coire an Laoigh",
+    "Stob Choire Claurigh"
+  ],
+  "munroTops": [
+    "Beinn Na Socaich",
+    "Stob Coire Easain",
+    "Caisteal",
+    "Stob Coire Cath Na Sine",
+    "Stob A' Choire Leith"
+  ]
+}

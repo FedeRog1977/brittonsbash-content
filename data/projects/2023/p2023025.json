@@ -1,0 +1,15 @@
+{
+  "id": "P2023025",
+  "name": "Duvel Tripel Hop",
+  "distance": 16.22,
+  "elevation": 4843,
+  "time": "5:59:43",
+  "companionship": 1,
+  "munros": [
+    "Beinn Liath Mhòr Fannaich",
+    "Sgùrr Mòr",
+    "Meall Gorm",
+    "An Coileachan"
+  ],
+  "munroTops": ["Meall nam Peithirean"]
+}

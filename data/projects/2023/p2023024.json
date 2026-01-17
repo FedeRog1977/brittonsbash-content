@@ -1,0 +1,16 @@
+{
+  "id": "P2023024",
+  "name": "Cherry CHOUFFE",
+  "distance": 15.53,
+  "elevation": 6424,
+  "time": "6:39:01",
+  "companionship": 1,
+  "munros": [
+    "Meall a' Chrasgaidh",
+    "Sgùrr nan Clach Geala",
+    "Sgùrr nan Each",
+    "Sgùrr Breac",
+    "A' Chailleach (Fannichs)"
+  ],
+  "munroTops": ["Tomman Coinnich"]
+}

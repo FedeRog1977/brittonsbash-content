@@ -1,0 +1,13 @@
+{
+  "id": "P2021023",
+  "name": "A Weekend on Dave",
+  "distance": 17.15,
+  "elevation": 4016,
+  "time": "6:08:39",
+  "companionship": 2,
+  "munros": [
+    "Càrn Dearg (Monadhliath)",
+    "A' Chailleach (Monadhliath)",
+    "Càrn Sgulain"
+  ]
+}

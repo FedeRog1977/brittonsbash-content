@@ -60,6 +60,19 @@
     "content": ["Wilson US Open (Indoor)", "Slazenger Wimbledon (Outdoor)"]
   },
   {
+    "title": "GoAT Chair Umpires",
+    "content": [
+      "Mohamed Lahyani",
+      "Lars Graff",
+      "Pascal Maria",
+      "James Keothavong",
+      "Fergus Murphy",
+      "Carlos Ramos",
+      "Carlos Bernardes",
+      "Kader Nouni"
+    ]
+  },
+  {
     "title": "Sites",
     "content": [
       { "title": "ATP Tour", "href": "https://www.atptour.com/en/" },

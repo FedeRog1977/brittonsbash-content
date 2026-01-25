@@ -38,5 +38,6 @@
   { "title": "Sky Sports", "href": "https://www.skysports.com/" },
   { "title": "Tennis TV", "href": "https://www.tennistv.com/" },
   { "title": "F1 TV", "href": "https://f1tv.formula1.com/" },
-  { "title": "BBC Sounds", "href": "https://www.bbc.co.uk/sounds" }
+  { "title": "BBC Sounds", "href": "https://www.bbc.co.uk/sounds" },
+  { "title": "IMDb", "href": "https://www.imdb.com/?ref_=tt_nv_home" }
 ]

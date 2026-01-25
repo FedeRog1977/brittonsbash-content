@@ -278,6 +278,10 @@
           {
             "title": "Calum Leask",
             "href": "https://calumleask.co.uk/portfolio/"
+          },
+          {
+            "title": "Billy Moon - Sand Bells Chess Club",
+            "href": "https://www.sandybells.club/"
           }
         ]
       },
@@ -670,6 +674,7 @@
             "title": "JSON Forms",
             "href": "https://jsonforms.io/"
           },
+          { "title": "JSONata", "href": "https://jsonata.org/" },
           {
             "title": "HTML Special Characters",
             "href": "https://www.compart.com/"
@@ -746,6 +751,10 @@
           {
             "title": "Deploy Next.js App To Ubuntu with PM2",
             "href": "https://www.youtube.com/watch?v=mFOFR5YfZzA"
+          },
+          {
+            "title": "Shadcn UI",
+            "href": "https://ui.shadcn.com/docs/components"
           }
         ]
       },

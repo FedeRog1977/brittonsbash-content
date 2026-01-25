@@ -1,0 +1,11 @@
+{
+  "id": "P2026001",
+  "name": "The Phone Call",
+  "distance": 10.55,
+  "elevation": 4452,
+  "time": "4:38:08",
+  "companionship": 1,
+  "munros": ["Meall Glas"],
+  "munroTops": ["Beinn Cheathaich"],
+  "corbetts": ["Beinn nan Imirean"]
+}

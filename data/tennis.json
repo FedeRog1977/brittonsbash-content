@@ -45,7 +45,12 @@
   },
   {
     "title": "Strings",
-    "content": ["Wilson Natural Gut", "Tourna Big Hitter 7 Black"]
+    "content": [
+      "Wilson Natural Gut",
+      "Luxilon ALU Power Rough",
+      "Luxilon 4G",
+      "Tourna Big Hitter 7 Black"
+    ]
   },
   {
     "title": "Grip Tape",
@@ -84,7 +89,16 @@
         "title": "Tennis 24",
         "href": "https://www.tennis24.com/atp-singles/australian-open-2007/draw/#/xbsNWdui/draw/"
       },
-      { "title": "Tennis Companion", "href": "https://tenniscompanion.org/" },
+      { "title": "Tennis Companion", "href": "https://tenniscompanion.org/" }
+    ]
+  },
+  {
+    "title": "Classics",
+    "content": [
+      {
+        "title": "Nadal vs Verdasco - Australian Open 2009",
+        "href": "https://www.youtube.com/watch?v=Z8-AgZ6w1fE"
+      },
       {
         "title": "Djokovic vs Wawrinka - Australian Open 2013",
         "href": "https://www.youtube.com/watch?v=zv1g9Pk69F0"

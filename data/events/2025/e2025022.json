@@ -1,7 +1,7 @@
 {
   "id": "E2025022",
   "tags": ["projects"],
-  "projectId": ["P2025021", "P2025022"],
+  "projectIds": ["P2025021", "P2025022"],
   "prefix": "Cairngorms XIX",
   "names": ["Secrets In The Closet", "Monteiths"],
   "startDate": "19th of September",

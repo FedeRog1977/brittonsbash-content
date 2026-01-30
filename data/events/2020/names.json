@@ -1,51 +1,62 @@
 [
   {
     "id": "E2020011",
+    "tags": ["general"],
     "names": ["Some Stuff II"]
   },
   {
     "id": "E2020010",
+    "tags": ["projects"],
     "names": ["Cairnsmore Of Carsphairn"]
   },
   {
     "id": "E2020009",
+    "tags": ["projects"],
     "prefix": "Ben Oolium",
     "names": ["Ultimate Supreme Depression"]
   },
   {
     "id": "E2020008",
+    "tags": ["projects"],
     "prefix": "Cairngorms",
     "names": ["An Aviemore Virgin"]
   },
   {
     "id": "E2020007",
+    "tags": ["projects"],
     "names": ["Bag One Get Three Free"]
   },
   {
     "id": "E2020006",
+    "tags": ["general"],
     "prefix": "Fort William And Mallaig",
     "names": ["Actually Arisaig"]
   },
   {
     "id": "E2020005",
+    "tags": ["projects"],
     "names": ["Ben Lomond"]
   },
   {
     "id": "E2020004",
+    "tags": ["general"],
     "names": ["Some Stuff"]
   },
   {
     "id": "E2020003",
+    "tags": ["general"],
     "prefix": "The Gentlemen Who Café Present II",
     "names": ["Glasgow Adventures"]
   },
   {
     "id": "E2020002",
+    "tags": ["general"],
     "prefix": "The Gentlemen Who Café Present",
     "names": ["Cheshire 2020 - The Golden Triangle"]
   },
   {
     "id": "E2020001",
+    "tags": ["general"],
     "names": ["Loch Lomond"]
   }
 ]

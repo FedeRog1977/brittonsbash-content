@@ -1,7 +1,7 @@
 {
   "id": "E2025027",
   "tags": ["projects"],
-  "projectId": ["P2025027", "P2025028"],
+  "projectIds": ["P2025027", "P2025028"],
   "prefix": "Springer",
   "names": ["Bitmap", "257 Truths"],
   "startDate": "21st of November",

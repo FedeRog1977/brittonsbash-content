@@ -1,7 +1,7 @@
 {
   "id": "E2025004",
   "tags": ["projects"],
-  "projectId": "P2025002",
+  "projectIds": ["P2025002"],
   "names": ["Carrying The Torch"],
   "startDate": "31st of January",
   "endDate": "1st of February",

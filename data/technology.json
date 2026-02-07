@@ -657,10 +657,6 @@
           { "title": "Stack Overflow", "href": "https://stackoverflow.com/" },
           { "title": "w3schools", "href": "https://www.w3schools.com/" },
           { "title": "Wayback Machine", "href": "https://archive.org/web/" },
-          {
-            "title": "Eloquent JavaScript",
-            "href": "https://eloquentjavascript.net/"
-          },
           { "title": "Regexper", "href": "https://regexper.com/" },
           {
             "title": "Identifont",

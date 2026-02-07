@@ -60,7 +60,16 @@
       "Food You Want to Eat - Thomas Straker"
     ]
   },
-  { "title": "Technology", "content": ["The TeXbook", "Eloquent JavaScript"] },
+  {
+    "title": "Technology",
+    "content": [
+      "The TeXbook",
+      "Eloquent JavaScript",
+      "Refactoring UI",
+      "Learning JavaScript Design Patterns: A JavaScript and Jquery Developer's Guide",
+      "JavaScript Patterns: Build Better Applications with Coding and Design Patterns"
+    ]
+  },
   {
     "title": "Intellectual",
     "content": [

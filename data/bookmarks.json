@@ -28,6 +28,12 @@
     "title": "Legacy Miller",
     "href": "https://archive.org/embed/img-2793_202312&playlist=1&list_height=150"
   },
+  { "title": "Spotify", "href": "https://open.spotify.com/" },
+  { "title": "Apple Music", "href": "https://music.apple.com/gb/home" },
+  { "title": "Sky TV", "href": "https://www.sky.com/tv" },
+  { "title": "Sky Cinema", "href": "https://www.sky.com/tv/cinema" },
+  { "title": "Sky Sports", "href": "https://www.skysports.com/" },
+  { "title": "Apple TV+", "href": "https://tv.apple.com/gb" },
   {
     "title": "Netflix",
     "href": "https://www.netflix.com/gb/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fbrowse"
@@ -39,7 +45,7 @@
   { "title": "Disney+", "href": "https://www.disneyplus.com/en-gb" },
   { "title": "Discovery+", "href": "https://www.discoveryplus.com/gb" },
   { "title": "Paramount+", "href": "https://paramountplus.com/gb/" },
-  { "title": "Sky Sports", "href": "https://www.skysports.com/" },
+  { "title": "Now TV", "href": "https://www.nowtv.com/" },
   { "title": "Tennis TV", "href": "https://www.tennistv.com/" },
   { "title": "F1 TV", "href": "https://f1tv.formula1.com/" },
   { "title": "BBC Sounds", "href": "https://www.bbc.co.uk/sounds" },

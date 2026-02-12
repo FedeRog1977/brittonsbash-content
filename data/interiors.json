@@ -13,7 +13,14 @@
     "content": [
       {
         "title": "Brands",
-        "content": ["Herman Miller", "Vitra", "Orangebox", "Cassina"]
+        "content": [
+          "Herman Miller",
+          "Vitra",
+          "Orangebox",
+          "Cassina",
+          "NoughtOne",
+          "Interstuhl"
+        ]
       },
       { "title": "Distributors", "content": ["Tsumani Axis", "Hunters"] }
     ]

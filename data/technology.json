@@ -751,6 +751,14 @@
           {
             "title": "Shadcn UI",
             "href": "https://ui.shadcn.com/docs/components"
+          },
+          {
+            "title": "Underscore.js (Billy)",
+            "href": "https://underscorejs.org/"
+          },
+          {
+            "title": "Coffeescript (Billy)",
+            "href": "https://coffeescript.org/"
           }
         ]
       },

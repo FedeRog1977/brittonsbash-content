@@ -165,7 +165,11 @@
       },
       { "title": "Jan Hammer", "href": "https://janhammer.com/" },
       { "title": "LyricFind", "href": "https://lyrics.lyricfind.com/" },
-      { "title": "Serato Mixing Software", "href": "https://serato.com/" }
+      { "title": "Serato Mixing Software", "href": "https://serato.com/" },
+      {
+        "title": "Bose - Better Sound Through Research",
+        "href": "https://downloads.bose.com/ced/soundtouch/soundtouch_controller_app/index.html"
+      }
     ]
   }
 ]

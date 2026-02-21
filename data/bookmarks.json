@@ -17,9 +17,18 @@
     "title": "Messenger",
     "href": "https://www.facebook.com/messages/"
   },
+  {
+    "title": "Facebook",
+    "href": "https://www.facebook.com/"
+  },
+  {
+    "title": "Instagram",
+    "href": "https://www.instagram.com/"
+  },
+  { "title": "Twitter", "href": "https://x.com/" },
+  { "title": "Reddit", "href": "https://old.reddit.com/" },
   { "title": "Amazon", "href": "https://amazon.co.uk/" },
   { "title": "eBay", "href": "https://ebau.co.uk/" },
-  { "title": "Reddit", "href": "https://old.reddit.com/" },
   { "title": "YouTube", "href": "https://www.youtube.com/" },
   { "title": "Luke's Videos", "href": "https://lukesmith.videos.xyz" },
   { "title": "Rumble", "href": "https://rumble.com/" },

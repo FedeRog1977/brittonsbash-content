@@ -24,6 +24,8 @@
 
 { "title": "Dire Straits - Brothers In Arms Live 1992 (On The Night - DVD)", "href": "https://www.youtube.com/watch?v=X4vxXQRTT8U&list=RDX4vxXQRTT8U" },
 
+{ "title": "Dire Straits - Wild Theme 1993 (On the Night)", "href": "https://www.youtube.com/watch?v=Vh2GFoDae8Y&list=RDVh2GFoDae8Y&start_radio=1" },
+
 { "title": "Dire Straits (Cover) - Telegraph Road (Piano Solo)", "href": "https://www.youtube.com/watch?v=1QkcKgOGCsk" },
 
 { "title": "Dire Straits - Perfect Mandela 1988", "href": "https://www.youtube.com/watch?v=tUA4rhznH04&list=RDtUA4rhznH04&start_radio=1" },
@@ -71,6 +73,97 @@
 { "title": "The Solo Mark Knopfler Finds Hardest To Play", "href": "https://www.youtube.com/watch?v=aMA89TamvwQ" },
 { "title": "Dire Straits - Two Young Lovers [Nimes -92 ~ HD]", "href": "https://www.youtube.com/watch?v=iVOClh6h0_4" },
 { "title": "Dire Straits - Telegraph Road [Basel -92 ~ HD ~ Part 2]", "href": "https://www.youtube.com/watch?v=l074_rbhxQw" },
+```
+
+```json
+  {
+    "title": "191 West George Street - McAteer Photo",
+    "href": "https://mcateerphoto.com/story-behind/191-west-george-street/"
+  },
+  {
+    "title": "Midge Ure - Vienna (Stabal Session)",
+    "href": "https://www.youtube.com/watch?v=L5sV0U8hXlY&list=RDL5sV0U8hXlY&start_radio=1"
+  },
+  {
+    "title": "Midge Ure - Fade To Grey (Stabal Session)",
+    "href": "https://www.youtube.com/watch?v=np-JEyLmiV4&list=RDnp-JEyLmiV4&start_radio=1"
+  },
+  {
+    "title": "George Michael - Last Christmas 2006 (Wembley)",
+    "href": "https://www.youtube.com/watch?v=DcC6SU93OXE&list=RDDcC6SU93OXE&start_radio=1"
+  },
+  {
+    "title": "Orchestral Manoeuvres in the Dark - If You Leave",
+    "href": "https://www.youtube.com/watch?v=WOkfF5toMDY&list=RDWOkfF5toMDY&start_radio=1"
+  },
+  {
+    "title": "Orchestral Manoeuvres in the Dark - Enola Gay (Virgin Radio Halloween Party)",
+    "href": "https://www.youtube.com/watch?v=WiPWvLEUzFY&list=RDL5sV0U8hXlY&index=3"
+  },
+  {
+    "title": "Go West - We Close Our Eyes (80s Classical)",
+    "href": "https://www.youtube.com/watch?v=r8ejxjif-4o&list=RDaMHoTke5Q6E&index=2"
+  },
+  {
+    "title": "Simply Red - Sunrise (Sydney Opera House)",
+    "href": "https://www.youtube.com/watch?v=glAyeFHNR9I"
+  },
+  {
+    "title": "Spandau Ballet (The NEC)",
+    "href": "https://www.youtube.com/watch?v=1a3TOfbd2Y8&list=RD1a3TOfbd2Y8&start_radio=1"
+  },
+  {
+    "title": "Spandau Ballet - Gold (The NEC)",
+    "href": "https://www.youtube.com/watch?v=oJkKGPzyKGU"
+  },
+  {
+    "title": "Foreigner - I Want To Know What Love Is 2010",
+    "href": "https://www.youtube.com/watch?v=EE-ZsGvUAR4&list=RDoJkKGPzyKGU&index=2"
+  },
+  {
+    "title": "Depeche Mode - Enjoy The Silence (Berlin)",
+    "href": "https://www.youtube.com/watch?v=-_3dc6X-Iwo&list=RDWOkfF5toMDY&index=14"
+  },
+  {
+    "title": "Alphaville - Forever Young (Goldene Europa 1984)",
+    "href": "https://www.youtube.com/watch?v=gjPEkIqOCvA&list=RD-_3dc6X-Iwo&index=6"
+  },
+  {
+    "title": "Blink-182 - I Miss You - Two Friends Remix",
+    "href": "https://www.youtube.com/watch?v=-AGogYAB-Mg&list=RD-AGogYAB-Mg&start_radio=1"
+  },
+  {
+    "title": "Britney Spears - Oops... I Did It Again 2000 (Top Of The Pops)",
+    "href": "https://www.youtube.com/watch?v=zdwjvOVUTDg&list=RDzdwjvOVUTDg&start_radio=1"
+  },
+  {
+    "title": "Britney Spears - ...Baby One More Time (Hawaii)",
+    "href": "https://www.youtube.com/watch?v=5vjFljmxecY&list=RD5vjFljmxecY&start_radio=1"
+  },
+  {
+    "title": "Britney Spears live in Hawaii - Crazy 2K Tour 2000 (Full Concert)",
+    "href": "https://www.youtube.com/watch?v=jEzy79SLRp4"
+  },
+  {
+    "title": "Britney Spears (Oops!... I Did It Again Tour)",
+    "href": "https://www.youtube.com/watch?v=x60-2Hzzojw&list=RDx60-2Hzzojw&start_radio=1"
+  },
+  {
+    "title": "Britney Spears - Baby One More Time and Sometimes (Motown Live)",
+    "href": "https://www.youtube.com/watch?v=bgahiHvN3MQ"
+  },
+  {
+    "title": "Shakira (Live in Paris)",
+    "href": "https://www.youtube.com/watch?v=XpssU6ixVao&list=RDXpssU6ixVao&start_radio=1"
+  },
+  {
+    "title": "The Fray - How To Save A Life (Scrubs)",
+    "href": "https://www.youtube.com/watch?v=VbEkKa-W55s&list=RDBMdLWrjxj8w&index=3"
+  },
+  {
+    "title": "Cutting Crew - I Just Died in Your Arms Tonight Live 1986",
+    "href": "https://www.youtube.com/watch?v=N2q1fJWZb6c&list=RD-3jw0Fjp_fU&index=15"
+  }
 ```
 
 ```json

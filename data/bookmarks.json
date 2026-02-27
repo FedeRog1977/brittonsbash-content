@@ -1,7 +1,7 @@
 [
   { "title": "BrittonsBashRC", "href": "https://lewisbritton.com" },
+  { "title": "Yahoo Mail", "href": "https://mail.yahoo.com/" },
   { "title": "GitHub", "href": "https://github.com/FedeRog1977" },
-  { "title": "Strava", "href": "https://www.strava.com/athlete/training" },
   { "title": "iCloud", "href": "https://www.icloud.com/" },
   { "title": "Google Drive", "href": "https://drive.google.com/" },
   { "title": "Google Docs", "href": "https://docs.google.com/" },
@@ -13,6 +13,7 @@
   },
   { "title": "Met Office", "href": "https://www.metoffice.gov.uk/" },
   { "title": "MWIS", "href": "https://www.mwis.org.uk/" },
+  { "title": "Strava", "href": "https://www.strava.com/athlete/training" },
   {
     "title": "Messenger",
     "href": "https://www.facebook.com/messages/"

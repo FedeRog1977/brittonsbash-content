@@ -1,14 +1,42 @@
-{
-  "razors": [
-    "Gillette Fusion (2006)",
-    "Gillette Fusion Power (2006)",
-    "Gillette Fusion Phenom (2007)",
-    "Gillette Fusion Power Phenom (2007)",
-    "Gillette Fusion Phantom Champions (2007)",
-    "Gillette Fusion Power Phantom Champions (2007)",
-    "Gillette Fusion ProGlide (2010)",
-    "Gillette Fusion ProGlide Power (2010)",
-    "Gillette Fusion ProGlide FlexBall (2014)",
-    "Gillette Fusion ProGlide FlexBall Power (2014)"
-  ]
-}
+[
+  {
+    "title": "Razors",
+    "content": [
+      "Gillette Fusion (2006)",
+      "Gillette Fusion Power (2006)",
+      "Gillette Fusion Phenom (2007)",
+      "Gillette Fusion Power Phenom (2007)",
+      "Gillette Fusion Phantom Champions (2007)",
+      "Gillette Fusion Power Phantom Champions (2007)",
+      "Gillette Fusion ProGlide (2010)",
+      "Gillette Fusion ProGlide Silver Touch (2010)",
+      "Gillette Fusion ProGlide Power (2010)",
+      "Gillette Fusion ProGlide FlexBall (2014)",
+      "Gillette Fusion ProGlide FlexBall Silver Touch(2014)",
+      "Gillette Fusion ProGlide FlexBall Power (2014)"
+    ]
+  },
+  {
+    "title": "Shaving Gels",
+    "content": ["Gillette Fusion Hydra Gel (2006)"]
+  },
+  {
+    "title": "Aftershaves",
+    "content": [
+      "L'Oréal Paris Men Expert Hydra Energetic Ice Cool Effect Post-Shave Gel"
+    ]
+  },
+  {
+    "title": "Sites",
+    "content": [
+      {
+        "title": "Gillette Fusion Power Review",
+        "href": "https://bolesblogs.com/2006/01/29/gillette-fusion-power-review/"
+      },
+      {
+        "title": "Gillette Fusion ProGlide Power Review",
+        "href": "https://bolesblogs.com/2010/11/19/gillette-fusion-proglide-review/"
+      }
+    ]
+  }
+]

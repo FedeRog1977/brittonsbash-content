@@ -4,51 +4,51 @@
     "content": [
       {
         "title": "Gillette Fusion (2006)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion Power (2006)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion Phenom (2007)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion Power Phenom (2007)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion Phantom Champions (2007)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion Power Phantom Champions (2007)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion ProGlide (2010)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion ProGlide Silver Touch (2010)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion ProGlide Power (2010)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion ProGlide FlexBall (2014)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion ProGlide FlexBall Silver Touch (2014)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       },
       {
         "title": "Gillette Fusion ProGlide FlexBall Power (2014)",
-        "imgs": [{ "href": "", "alt": "" }]
+        "imgs": [{ "url": "", "alt": "" }]
       }
     ]
   },
